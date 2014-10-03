@@ -88,19 +88,24 @@ public class MainBuildIDE {
 		updateFiles(null);
 	}
 	private static void updateFiles(String workspace) throws IOException {
-		replacePlaceholders();
-		pluginToManifest = getPluginToManifest();
-		registerFile(BUNDLES_INFO, bundlesInfo(), pluginsModified);
-		registerFile(CONFIG_INI, configIni(), platformModified);
-		registerFile(ECLIPSE_INI, eclipseIni(workspace), launcherModified);
-		registerFile(PLATFORM_XML, platformXml(), featuresModified);
-		registerFile(SOURCE_INFO, sourceInfo(), sourceModified);
-		registerFile(ARTIFACTS_XML, artifactsXml(), p2Modified);
-		registerFile(DOT_ECLIPSEPRODUCT, dotEclipseproduct(), platformModified);
-		registerFile(
-			PROFILE_GZ,
-			P2ProfileGenerator.profileGz(snapshot, PROFILE_TIME, ECLIPSE_PROFILE_ID, ECLIPSE_PRODUCT_ID),
-			platformModified);
+		try {
+			replacePlaceholders();
+			pluginToManifest = getPluginToManifest();
+			registerFile(BUNDLES_INFO, bundlesInfo(), pluginsModified);
+			registerFile(CONFIG_INI, configIni(), platformModified);
+			registerFile(ECLIPSE_INI, eclipseIni(workspace), launcherModified);
+			registerFile(PLATFORM_XML, platformXml(), featuresModified);
+			registerFile(SOURCE_INFO, sourceInfo(), sourceModified);
+			registerFile(ARTIFACTS_XML, artifactsXml(), p2Modified);
+			registerFile(DOT_ECLIPSEPRODUCT, dotEclipseproduct(), platformModified);
+			registerFile(
+				PROFILE_GZ,
+				P2ProfileGenerator.profileGz(snapshot, PROFILE_TIME, ECLIPSE_PROFILE_ID, ECLIPSE_PRODUCT_ID),
+				platformModified);
+		} catch(RuntimeException e) {
+			System.out.println("\nProbably transient error generating dynamic files: " + e.getMessage());
+			e.printStackTrace(System.out);
+		}
 	}
 	private static byte[] dotEclipseproduct() {
 		String buildID = getBundleVersion("org.eclipse.platform").replace(".qualifier", "");
@@ -182,9 +187,9 @@ public class MainBuildIDE {
 			String jvmDLL = jvmDLLPath.toString();
 			lines.addAll("-vm", jvmDLL);
 		}
-//		if(workspace != null) {
-//			lines.addAll("-data", workspace);
-//		}
+		//		if(workspace != null) {
+		//			lines.addAll("-data", workspace);
+		//		}
 		lines.addAll(
 			"-startup",
 			"plugins/" + launcher,
