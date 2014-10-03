@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\full\dlcl16\cfilter.gif
+	     icons\full\dlcl16\compare.gif
+	     icons\full\dlcl16\history_list.gif
+	     icons\full\dlcl16\lock.gif
+	     icons\full\dlcl16\relaunch.gif
+	     icons\full\dlcl16\relaunchf.gif
+	     icons\full\dlcl16\select_next.gif
+	     icons\full\dlcl16\select_prev.gif
+	     icons\full\dlcl16\stop.gif
+	     icons\full\dlcl16\th_automatic.gif
+	     icons\full\dlcl16\th_horizontal.gif
+	     icons\full\dlcl16\th_vertical.gif
+	     icons\full\dtool16\new_testcase.gif
+	     icons\full\dtool16\new_testsuite.gif
+	     icons\full\elcl16\cfilter.gif
+	     icons\full\elcl16\compare.gif
+	     icons\full\elcl16\flatLayout.gif
+	     icons\full\elcl16\hierarchicalLayout.gif
+	     icons\full\elcl16\history_list.gif
+	     icons\full\elcl16\lock.gif
+	     icons\full\elcl16\relaunch.gif
+	     icons\full\elcl16\relaunchf.gif
+	     icons\full\elcl16\select_next.gif
+	     icons\full\elcl16\select_prev.gif
+	     icons\full\elcl16\stop.gif
+	     icons\full\elcl16\th_automatic.gif
+	     icons\full\elcl16\th_horizontal.gif
+	     icons\full\elcl16\th_vertical.gif
+	     icons\full\etool16\new_testcase.gif
+	     icons\full\etool16\new_testsuite.gif
+	     icons\full\eview16\junit.gif
+	     icons\full\eview16\juniterr.gif
+	     icons\full\eview16\juniterrq.gif
+	     icons\full\eview16\junitsucc.gif
+	     icons\full\eview16\junitsuccq.gif
+	     icons\full\eview16\stackframe.gif
+	     icons\full\obj16\exc_catch.gif
+	     icons\full\obj16\faillist.gif
+	     icons\full\obj16\failures.gif
+	     icons\full\obj16\julaunch.gif
+	     icons\full\obj16\stkfrm_obj.gif
+	     icons\full\obj16\test.gif
+	     icons\full\obj16\testassumptionfailed.gif
+	     icons\full\obj16\testerr.gif
+	     icons\full\obj16\testfail.gif
+	     icons\full\obj16\testfile_obj.gif
+	     icons\full\obj16\testhier.gif
+	     icons\full\obj16\testignored.gif
+	     icons\full\obj16\testok.gif
+	     icons\full\obj16\testrun.gif
+	     icons\full\obj16\tsuite.gif
+	     icons\full\obj16\tsuiteerror.gif
+	     icons\full\obj16\tsuitefail.gif
+	     icons\full\obj16\tsuiteok.gif
+	     icons\full\obj16\tsuiterun.gif
+	     icons\full\ovr16\error_ovr.gif
+	     icons\full\ovr16\failed_ovr.gif
+	     icons\full\ovr16\success_ovr.gif
+	     icons\full\prgss\ff1.gif
+	     icons\full\prgss\ff2.gif
+	     icons\full\prgss\ff3.gif
+	     icons\full\prgss\ff4.gif
+	     icons\full\prgss\ff5.gif
+	     icons\full\prgss\ff6.gif
+	     icons\full\prgss\ff7.gif
+	     icons\full\prgss\ff8.gif
+	     icons\full\prgss\ff9.gif
+	     icons\full\prgss\ss1.gif
+	     icons\full\prgss\ss2.gif
+	     icons\full\prgss\ss3.gif
+	     icons\full\prgss\ss4.gif
+	     icons\full\prgss\ss5.gif
+	     icons\full\prgss\ss6.gif
+	     icons\full\prgss\ss7.gif
+	     icons\full\prgss\ss8.gif
+	     icons\full\prgss\ss9.gif
+	     icons\full\wizban\newsuite_wiz.png
+	     icons\full\wizban\newtest_wiz.png
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="internal compatibility/|src/|.*|.*/" including="META-INF/|about.html|icons/full/dlcl16/|icons/full/dtool16/|icons/full/elcl16/|icons/full/etool16/|icons/full/eview16/|icons/full/obj16/|icons/full/ovr16/|icons/full/prgss/|icons/full/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.jar" path="org.eclipse.jdt.junit"/>
+	<!-- org\eclipse\jdt\internal\junit\launcher\TestSelectionDialog.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.jar" path="org.eclipse.jdt.junit/internal compatibility"/>
+	<!-- org\eclipse\jdt\internal\junit\buildpath\ClasspathVariableMarkerResolutionGenerator.java
+	     org\eclipse\jdt\internal\junit\buildpath\JUnitContainerWizardPage.java
+	     org\eclipse\jdt\internal\junit\launcher\AssertionVMArg.java
+	     org\eclipse\jdt\internal\junit\launcher\JUnitTabGroup.java
+	     org\eclipse\jdt\internal\junit\launcher\LaunchErrorStatusHandler.java
+	     org\eclipse\jdt\internal\junit\refactoring\IChangeAdder.java
+	     org\eclipse\jdt\internal\junit\refactoring\JUnitRenameParticipant.java
+	     org\eclipse\jdt\internal\junit\refactoring\LaunchConfigChange.java
+	     org\eclipse\jdt\internal\junit\refactoring\LaunchConfigRenameChange.java
+	     org\eclipse\jdt\internal\junit\refactoring\LaunchConfigSetAttributeChange.java
+	     org\eclipse\jdt\internal\junit\refactoring\LaunchConfigurationContainer.java
+	     org\eclipse\jdt\internal\junit\refactoring\ProjectRenameParticipant.java
+	     org\eclipse\jdt\internal\junit\refactoring\TypeRenameParticipant.java
+	     org\eclipse\jdt\internal\junit\ui\CompareResultDialog.java
+	     org\eclipse\jdt\internal\junit\ui\CompareResultsAction.java
+	     org\eclipse\jdt\internal\junit\ui\CopyFailureListAction.java
+	     org\eclipse\jdt\internal\junit\ui\CounterPanel.java
+	     org\eclipse\jdt\internal\junit\ui\EnableStackFilterAction.java
+	     org\eclipse\jdt\internal\junit\ui\FailureTableDisplay.java
+	     org\eclipse\jdt\internal\junit\ui\FailureTrace.java
+	     org\eclipse\jdt\internal\junit\ui\GotoReferencedTestAction.java
+	     org\eclipse\jdt\internal\junit\ui\IJUnitHelpContextIds.java
+	     org\eclipse\jdt\internal\junit\ui\ITraceDisplay.java
+	     org\eclipse\jdt\internal\junit\ui\JUnitAddLibraryProposal.java
+	     org\eclipse\jdt\internal\junit\ui\JUnitClasspathFixProcessor.java
+	     org\eclipse\jdt\internal\junit\ui\JUnitCopyAction.java
+	     org\eclipse\jdt\internal\junit\ui\JUnitMessages.java
+	     org\eclipse\jdt\internal\junit\ui\JUnitMessages.properties
+	     org\eclipse\jdt\internal\junit\ui\JUnitPlugin.java
+	     org\eclipse\jdt\internal\junit\ui\JUnitPreferencePage.java
+	     org\eclipse\jdt\internal\junit\ui\JUnitProgressBar.java
+	     org\eclipse\jdt\internal\junit\ui\JUnitQuickFixProcessor.java
+	     org\eclipse\jdt\internal\junit\ui\JUnitUIPreferencesConstants.java
+	     org\eclipse\jdt\internal\junit\ui\JUnitViewEditorLauncher.java
+	     org\eclipse\jdt\internal\junit\ui\OpenEditorAction.java
+	     org\eclipse\jdt\internal\junit\ui\OpenEditorAtLineAction.java
+	     org\eclipse\jdt\internal\junit\ui\OpenTestAction.java
+	     org\eclipse\jdt\internal\junit\ui\ProgressImages.java
+	     org\eclipse\jdt\internal\junit\ui\RerunAction.java
+	     org\eclipse\jdt\internal\junit\ui\ScrollLockAction.java
+	     org\eclipse\jdt\internal\junit\ui\TestMethodSelectionDialog.java
+	     org\eclipse\jdt\internal\junit\ui\TestRunnerViewPart.java
+	     org\eclipse\jdt\internal\junit\ui\TestSessionLabelProvider.java
+	     org\eclipse\jdt\internal\junit\ui\TestSessionTableContentProvider.java
+	     org\eclipse\jdt\internal\junit\ui\TestSessionTreeContentProvider.java
+	     org\eclipse\jdt\internal\junit\ui\TestViewer.java
+	     org\eclipse\jdt\internal\junit\ui\TextualTrace.java
+	     org\eclipse\jdt\internal\junit\ui\UITestRunListener.java
+	     org\eclipse\jdt\internal\junit\util\CheckedTableSelectionDialog.java
+	     org\eclipse\jdt\internal\junit\util\ExceptionHandler.java
+	     org\eclipse\jdt\internal\junit\util\JUnitStatus.java
+	     org\eclipse\jdt\internal\junit\util\JUnitStubUtility.java
+	     org\eclipse\jdt\internal\junit\util\LayoutUtil.java
+	     org\eclipse\jdt\internal\junit\util\Resources.java
+	     org\eclipse\jdt\internal\junit\util\TestSearchEngine.java
+	     org\eclipse\jdt\internal\junit\wizards\JUnitWizard.java
+	     org\eclipse\jdt\internal\junit\wizards\MethodStubsSelectionButtonGroup.java
+	     org\eclipse\jdt\internal\junit\wizards\NewTestCaseCreationWizard.java
+	     org\eclipse\jdt\internal\junit\wizards\NewTestSuiteCreationWizard.java
+	     org\eclipse\jdt\internal\junit\wizards\SuiteClassesContentProvider.java
+	     org\eclipse\jdt\internal\junit\wizards\TestSuiteClassListRange.java
+	     org\eclipse\jdt\internal\junit\wizards\UpdateTestSuite.java
+	     org\eclipse\jdt\internal\junit\wizards\WizardMessages.java
+	     org\eclipse\jdt\internal\junit\wizards\WizardMessages.properties
+	     org\eclipse\jdt\junit\launcher\JUnitLaunchConfigurationTab.java
+	     org\eclipse\jdt\junit\launcher\JUnitLaunchShortcut.java
+	     org\eclipse\jdt\junit\wizards\NewTestCaseWizardPageOne.java
+	     org\eclipse\jdt\junit\wizards\NewTestCaseWizardPageTwo.java
+	     org\eclipse\jdt\junit\wizards\NewTestSuiteWizardPage.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.jar" path="org.eclipse.jdt.junit/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.core.variables"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.debug.ui"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.junit.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.junit.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.core.refactoring"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.ui.refactoring"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

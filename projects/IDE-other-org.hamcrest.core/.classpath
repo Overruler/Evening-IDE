@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\hamcrest\BaseDescription.java
+	     org\hamcrest\BaseMatcher.java
+	     org\hamcrest\Condition.java
+	     org\hamcrest\CoreMatchers.java
+	     org\hamcrest\core\AllOf.java
+	     org\hamcrest\core\AnyOf.java
+	     org\hamcrest\core\CombinableMatcher.java
+	     org\hamcrest\core\DescribedAs.java
+	     org\hamcrest\core\Every.java
+	     org\hamcrest\core\Is.java
+	     org\hamcrest\core\IsAnything.java
+	     org\hamcrest\core\IsCollectionContaining.java
+	     org\hamcrest\core\IsEqual.java
+	     org\hamcrest\core\IsInstanceOf.java
+	     org\hamcrest\core\IsNot.java
+	     org\hamcrest\core\IsNull.java
+	     org\hamcrest\core\IsSame.java
+	     org\hamcrest\core\StringContains.java
+	     org\hamcrest\core\StringEndsWith.java
+	     org\hamcrest\core\StringStartsWith.java
+	     org\hamcrest\core\SubstringMatcher.java
+	     org\hamcrest\CustomMatcher.java
+	     org\hamcrest\CustomTypeSafeMatcher.java
+	     org\hamcrest\Description.java
+	     org\hamcrest\DiagnosingMatcher.java
+	     org\hamcrest\Factory.java
+	     org\hamcrest\FeatureMatcher.java
+	     org\hamcrest\internal\ArrayIterator.java
+	     org\hamcrest\internal\ReflectiveTypeFinder.java
+	     org\hamcrest\internal\SelfDescribingValue.java
+	     org\hamcrest\internal\SelfDescribingValueIterator.java
+	     org\hamcrest\Matcher.java
+	     org\hamcrest\MatcherAssert.java
+	     org\hamcrest\SelfDescribing.java
+	     org\hamcrest\StringDescription.java
+	     org\hamcrest\TypeSafeDiagnosingMatcher.java
+	     org\hamcrest\TypeSafeMatcher.java -->
+	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE.txt|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/org.hamcrest.core.jar" path="org.hamcrest.core"/>
+	<!-- about.html
+	     about_files\LICENSE.txt
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.hamcrest.core.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

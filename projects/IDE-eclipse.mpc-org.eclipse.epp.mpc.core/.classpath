@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\l10n\bundle.properties
+	     OSGI-INF\services\service-locator.xml
+	     OSGI-INF\services\unmarshaller.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/l10n/|OSGI-INF/services/|about.html" kind="src" output="bin/1/plugins/org.eclipse.epp.mpc.core.jar" path="org.eclipse.epp.mpc.core"/>
+	<!-- org\eclipse\epp\internal\mpc\core\MarketplaceClientCore.java
+	     org\eclipse\epp\internal\mpc\core\MarketplaceClientCorePlugin.java
+	     org\eclipse\epp\internal\mpc\core\messages.properties
+	     org\eclipse\epp\internal\mpc\core\ServiceLocator.java
+	     org\eclipse\epp\internal\mpc\core\service\CachingMarketplaceService.java
+	     org\eclipse\epp\internal\mpc\core\service\Catalog.java
+	     org\eclipse\epp\internal\mpc\core\service\CatalogBranding.java
+	     org\eclipse\epp\internal\mpc\core\service\Catalogs.java
+	     org\eclipse\epp\internal\mpc\core\service\CatalogService.java
+	     org\eclipse\epp\internal\mpc\core\service\Categories.java
+	     org\eclipse\epp\internal\mpc\core\service\Category.java
+	     org\eclipse\epp\internal\mpc\core\service\DefaultCatalogService.java
+	     org\eclipse\epp\internal\mpc\core\service\DefaultMarketplaceService.java
+	     org\eclipse\epp\internal\mpc\core\service\Favorites.java
+	     org\eclipse\epp\internal\mpc\core\service\Featured.java
+	     org\eclipse\epp\internal\mpc\core\service\Identifiable.java
+	     org\eclipse\epp\internal\mpc\core\service\Ius.java
+	     org\eclipse\epp\internal\mpc\core\service\Market.java
+	     org\eclipse\epp\internal\mpc\core\service\Marketplace.java
+	     org\eclipse\epp\internal\mpc\core\service\MarketplaceService.java
+	     org\eclipse\epp\internal\mpc\core\service\MarketplaceUnmarshaller.java
+	     org\eclipse\epp\internal\mpc\core\service\messages.properties
+	     org\eclipse\epp\internal\mpc\core\service\News.java
+	     org\eclipse\epp\internal\mpc\core\service\Node.java
+	     org\eclipse\epp\internal\mpc\core\service\NodeListing.java
+	     org\eclipse\epp\internal\mpc\core\service\NotFoundException.java
+	     org\eclipse\epp\internal\mpc\core\service\Platforms.java
+	     org\eclipse\epp\internal\mpc\core\service\Popular.java
+	     org\eclipse\epp\internal\mpc\core\service\Recent.java
+	     org\eclipse\epp\internal\mpc\core\service\RemoteMarketplaceService.java
+	     org\eclipse\epp\internal\mpc\core\service\Search.java
+	     org\eclipse\epp\internal\mpc\core\service\SearchResult.java
+	     org\eclipse\epp\internal\mpc\core\service\ServiceUnavailableException.java
+	     org\eclipse\epp\internal\mpc\core\service\Tag.java
+	     org\eclipse\epp\internal\mpc\core\service\Tags.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\CatalogBrandingContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\CatalogContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\CatalogsContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\CategoriesContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\CategoryContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\DefaultContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\FavoritesContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\FeaturedContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\IusContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\MarketContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\MarketplaceContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\NewsContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\NodeContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\PlatformsContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\PopularContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\RecentContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\SearchContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\TagContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\TagsContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\UnmarshalContentHandler.java
+	     org\eclipse\epp\internal\mpc\core\service\xml\Unmarshaller.java
+	     org\eclipse\epp\internal\mpc\core\util\AbstractP2TransportFactory.java
+	     org\eclipse\epp\internal\mpc\core\util\HttpUtil.java
+	     org\eclipse\epp\internal\mpc\core\util\ITransport.java
+	     org\eclipse\epp\internal\mpc\core\util\JavaPlatformTransportFactory.java
+	     org\eclipse\epp\internal\mpc\core\util\messages.properties
+	     org\eclipse\epp\internal\mpc\core\util\ProxyHelper.java
+	     org\eclipse\epp\internal\mpc\core\util\ServiceUtil.java
+	     org\eclipse\epp\internal\mpc\core\util\TextUtil.java
+	     org\eclipse\epp\internal\mpc\core\util\TransportFactory.java
+	     org\eclipse\epp\internal\mpc\core\util\URLUtil.java
+	     org\eclipse\epp\mpc\core\model\ICatalog.java
+	     org\eclipse\epp\mpc\core\model\ICatalogBranding.java
+	     org\eclipse\epp\mpc\core\model\ICatalogs.java
+	     org\eclipse\epp\mpc\core\model\ICategories.java
+	     org\eclipse\epp\mpc\core\model\ICategory.java
+	     org\eclipse\epp\mpc\core\model\IIdentifiable.java
+	     org\eclipse\epp\mpc\core\model\IIus.java
+	     org\eclipse\epp\mpc\core\model\IMarket.java
+	     org\eclipse\epp\mpc\core\model\INews.java
+	     org\eclipse\epp\mpc\core\model\INode.java
+	     org\eclipse\epp\mpc\core\model\IPlatforms.java
+	     org\eclipse\epp\mpc\core\model\ISearchResult.java
+	     org\eclipse\epp\mpc\core\model\ITag.java
+	     org\eclipse\epp\mpc\core\model\ITags.java
+	     org\eclipse\epp\mpc\core\service\ICatalogService.java
+	     org\eclipse\epp\mpc\core\service\IMarketplaceService.java
+	     org\eclipse\epp\mpc\core\service\IMarketplaceServiceLocator.java
+	     org\eclipse\epp\mpc\core\service\IMarketplaceUnmarshaller.java
+	     org\eclipse\epp\mpc\core\service\ITransport.java
+	     org\eclipse\epp\mpc\core\service\ITransportFactory.java
+	     org\eclipse\epp\mpc\core\service\QueryHelper.java
+	     org\eclipse\epp\mpc\core\service\ServiceHelper.java
+	     org\eclipse\epp\mpc\core\service\ServiceUnavailableException.java
+	     org\eclipse\epp\mpc\core\service\UnmarshalException.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.epp.mpc.core.jar" path="org.eclipse.epp.mpc.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.logging"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.httpcomponents.httpclient"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.httpcomponents.httpcore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.ds"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.util"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

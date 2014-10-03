@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.di.jar" path="org.eclipse.e4.core.di"/>
+	<!-- org\eclipse\e4\core\di\annotations\CanExecute.java
+	     org\eclipse\e4\core\di\annotations\Creatable.java
+	     org\eclipse\e4\core\di\annotations\Execute.java
+	     org\eclipse\e4\core\di\annotations\GroupUpdates.java
+	     org\eclipse\e4\core\di\annotations\Optional.java
+	     org\eclipse\e4\core\di\IBinding.java
+	     org\eclipse\e4\core\di\IInjector.java
+	     org\eclipse\e4\core\di\InjectionException.java
+	     org\eclipse\e4\core\di\InjectorFactory.java
+	     org\eclipse\e4\core\di\suppliers\ExtendedObjectSupplier.java
+	     org\eclipse\e4\core\di\suppliers\IObjectDescriptor.java
+	     org\eclipse\e4\core\di\suppliers\IRequestor.java
+	     org\eclipse\e4\core\di\suppliers\PrimaryObjectSupplier.java
+	     org\eclipse\e4\core\internal\di\Binding.java
+	     org\eclipse\e4\core\internal\di\ClassRequestor.java
+	     org\eclipse\e4\core\internal\di\ConstructorRequestor.java
+	     org\eclipse\e4\core\internal\di\FieldRequestor.java
+	     org\eclipse\e4\core\internal\di\InjectorImpl.java
+	     org\eclipse\e4\core\internal\di\MethodRequestor.java
+	     org\eclipse\e4\core\internal\di\ObjectDescriptor.java
+	     org\eclipse\e4\core\internal\di\osgi\DIActivator.java
+	     org\eclipse\e4\core\internal\di\osgi\LogHelper.java
+	     org\eclipse\e4\core\internal\di\osgi\ProviderHelper.java
+	     org\eclipse\e4\core\internal\di\ProviderImpl.java
+	     org\eclipse\e4\core\internal\di\Requestor.java
+	     org\eclipse\e4\core\internal\di\shared\CoreLogger.java
+	     org\eclipse\e4\core\internal\di\WeakRefList.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.core.di.jar" path="org.eclipse.e4.core.di/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.annotation"/>
+	<classpathentry kind="src" path="/IDE-other-javax.inject"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

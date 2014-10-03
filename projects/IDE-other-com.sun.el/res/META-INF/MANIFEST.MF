@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-Description: Javax El RI el-impl-2.2.4
+Bundle-Vendor: %bundleProvider
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %bundleName
+Bundle-SymbolicName: com.sun.el
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/com.sun.el;tag=v201303151357
+Export-Package: com.sun.el;version="2.2.0"
+Bundle-Version: 2.2.0.v201303151357
+Bundle-ManifestVersion: 2
+Import-Package: javax.el;version="2.2.0",javax.servlet.http;version="2
+ .5.0"

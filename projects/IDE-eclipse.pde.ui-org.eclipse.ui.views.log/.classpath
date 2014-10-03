@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\dlcl16\clear.gif
+	     icons\dlcl16\collapseall.gif
+	     icons\dlcl16\export_log.gif
+	     icons\dlcl16\filter_ps.gif
+	     icons\dlcl16\find_obj.gif
+	     icons\dlcl16\import_log.gif
+	     icons\dlcl16\open_log.gif
+	     icons\dlcl16\properties.gif
+	     icons\dlcl16\refresh.gif
+	     icons\dlcl16\remove.gif
+	     icons\dlcl16\restore_log.gif
+	     icons\elcl16\clear.gif
+	     icons\elcl16\collapseall.gif
+	     icons\elcl16\export_log.gif
+	     icons\elcl16\filter_ps.gif
+	     icons\elcl16\find_obj.gif
+	     icons\elcl16\import_log.gif
+	     icons\elcl16\open_log.gif
+	     icons\elcl16\properties.gif
+	     icons\elcl16\refresh.gif
+	     icons\elcl16\remove.gif
+	     icons\elcl16\restore_log.gif
+	     icons\eview16\error_log.gif
+	     icons\eview16\event_next.gif
+	     icons\eview16\event_prev.gif
+	     icons\obj16\error_stack.gif
+	     icons\obj16\error_st_obj.gif
+	     icons\obj16\hierarchical.gif
+	     icons\obj16\info_st_obj.gif
+	     icons\obj16\ok_st_obj.gif
+	     icons\obj16\warning_st_obj.gif
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/dlcl16/|icons/elcl16/|icons/eview16/|icons/obj16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.views.log.jar" path="org.eclipse.ui.views.log"/>
+	<!-- org\eclipse\ui\internal\views\log\AbstractEntry.java
+	     org\eclipse\ui\internal\views\log\Activator.java
+	     org\eclipse\ui\internal\views\log\EventDetailsDialog.java
+	     org\eclipse\ui\internal\views\log\EventDetailsDialogAction.java
+	     org\eclipse\ui\internal\views\log\FilterDialog.java
+	     org\eclipse\ui\internal\views\log\Group.java
+	     org\eclipse\ui\internal\views\log\IHelpContextIds.java
+	     org\eclipse\ui\internal\views\log\ILogFileProvider.java
+	     org\eclipse\ui\internal\views\log\ImportLogAction.java
+	     org\eclipse\ui\internal\views\log\LogEntry.java
+	     org\eclipse\ui\internal\views\log\LogFilesManager.java
+	     org\eclipse\ui\internal\views\log\LogSession.java
+	     org\eclipse\ui\internal\views\log\LogView.java
+	     org\eclipse\ui\internal\views\log\LogViewContentProvider.java
+	     org\eclipse\ui\internal\views\log\LogViewLabelProvider.java
+	     org\eclipse\ui\internal\views\log\Messages.java
+	     org\eclipse\ui\internal\views\log\messages.properties
+	     org\eclipse\ui\internal\views\log\OpenIDELogFileAction.java
+	     org\eclipse\ui\internal\views\log\OpenLogDialog.java
+	     org\eclipse\ui\internal\views\log\SharedImages.java
+	     org\eclipse\ui\internal\views\log\TailInputStream.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.views.log.jar" path="org.eclipse.ui.views.log/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

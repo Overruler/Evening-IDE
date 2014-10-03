@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about_files\asl-v20.txt
+	     about_files\NOTICE
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/|about.html|about_files/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ant.core.jar" path="org.eclipse.ant.core"/>
+	<!-- org\eclipse\ant\core\AntCorePlugin.java
+	     org\eclipse\ant\core\AntCorePreferences.java
+	     org\eclipse\ant\core\AntRunner.java
+	     org\eclipse\ant\core\AntSecurityException.java
+	     org\eclipse\ant\core\IAntClasspathEntry.java
+	     org\eclipse\ant\core\IAntPropertyValueProvider.java
+	     org\eclipse\ant\core\ProjectInfo.java
+	     org\eclipse\ant\core\Property.java
+	     org\eclipse\ant\core\TargetInfo.java
+	     org\eclipse\ant\core\Task.java
+	     org\eclipse\ant\core\Type.java
+	     org\eclipse\ant\internal\core\AbstractEclipseBuildLogger.java
+	     org\eclipse\ant\internal\core\AntClassLoader.java
+	     org\eclipse\ant\internal\core\AntClasspathEntry.java
+	     org\eclipse\ant\internal\core\AntCoreUtil.java
+	     org\eclipse\ant\internal\core\AntObject.java
+	     org\eclipse\ant\internal\core\AntPropertyValueProvider.java
+	     org\eclipse\ant\internal\core\AntSecurityManager.java
+	     org\eclipse\ant\internal\core\contentDescriber\AntBuildfileContentDescriber.java
+	     org\eclipse\ant\internal\core\contentDescriber\AntHandler.java
+	     org\eclipse\ant\internal\core\IAntCoreConstants.java
+	     org\eclipse\ant\internal\core\InternalCoreAntMessages.java
+	     org\eclipse\ant\internal\core\InternalCoreAntMessages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ant.core.jar" path="org.eclipse.ant.core/src"/>
+	<!-- org\eclipse\ant\internal\core\ant\EclipseAntMain.java
+	     org\eclipse\ant\internal\core\ant\EclipseDefaultExecutor.java
+	     org\eclipse\ant\internal\core\ant\EclipseMainHelper.java
+	     org\eclipse\ant\internal\core\ant\EclipseSingleCheckExecutor.java
+	     org\eclipse\ant\internal\core\ant\ExecutorSetter.java
+	     org\eclipse\ant\internal\core\ant\FailInputHandler.java
+	     org\eclipse\ant\internal\core\ant\InternalAntMessages.java
+	     org\eclipse\ant\internal\core\ant\InternalAntMessages.properties
+	     org\eclipse\ant\internal\core\ant\InternalAntRunner.java
+	     org\eclipse\ant\internal\core\ant\InternalProject.java
+	     org\eclipse\ant\internal\core\ant\InternalProject2.java
+	     org\eclipse\ant\internal\core\ant\NullInputHandler.java
+	     org\eclipse\ant\internal\core\ant\ProgressBuildListener.java -->
+	<classpathentry including="org/eclipse/ant/internal/core/ant/" kind="src" output="bin/2/plugins/org.eclipse.ant.core.jar/lib/antsupportlib.jar" path="org.eclipse.ant.core/src_ant"/>
+	<!-- lib\antsupportlib.jar\META-INF\MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ant.core.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.core.variables"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

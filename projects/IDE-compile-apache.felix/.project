@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>IDE-compile-apache.felix</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>bundlerepository</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/apache.felix/bundlerepository</locationURI>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1409578959214</id>
+			<name>bundlerepository/src/main/java/org/apache/felix/bundlerepository</name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-true-false-impl</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>

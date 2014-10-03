@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\ecfTransport.xml
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.transport.ecf.jar" path="org.eclipse.equinox.p2.transport.ecf"/>
+	<!-- org\eclipse\equinox\internal\p2\transport\ecf\Activator.java
+	     org\eclipse\equinox\internal\p2\transport\ecf\ECFTransportComponent.java
+	     org\eclipse\equinox\internal\p2\transport\ecf\FileInfoReader.java
+	     org\eclipse\equinox\internal\p2\transport\ecf\FileReader.java
+	     org\eclipse\equinox\internal\p2\transport\ecf\Messages.java
+	     org\eclipse\equinox\internal\p2\transport\ecf\messages.properties
+	     org\eclipse\equinox\internal\p2\transport\ecf\RepositoryStatus.java
+	     org\eclipse\equinox\internal\p2\transport\ecf\RepositoryStatusHelper.java
+	     org\eclipse\equinox\internal\p2\transport\ecf\RepositoryTransport.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.transport.ecf.jar" path="org.eclipse.equinox.p2.transport.ecf/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.ecf-org.eclipse.ecf"/>
+	<classpathentry kind="src" path="/IDE-eclipse.ecf-org.eclipse.ecf.filetransfer"/>
+	<classpathentry kind="src" path="/IDE-eclipse.ecf-org.eclipse.ecf.provider.filetransfer"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

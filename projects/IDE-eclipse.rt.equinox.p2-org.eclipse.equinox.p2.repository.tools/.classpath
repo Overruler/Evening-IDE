@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.repository.tools.jar" path="org.eclipse.equinox.p2.repository.tools"/>
+	<!-- org\eclipse\equinox\p2\internal\repository\comparator\JarComparator.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\Annotation.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\AnnotationComponent.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\AnnotationComponentValue.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\AnnotationDefaultAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\AttributeNamesConstants.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\CharOperation.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ClassFileAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ClassFileReader.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ClassFileStruct.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ClassFormatException.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\CodeAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ConstantPool.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ConstantPoolConstant.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ConstantPoolEntry.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ConstantValueAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\DefaultBytecodeVisitor.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\Disassembler.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\EnclosingMethodAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ExceptionAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ExceptionTableEntry.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\FieldInfo.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\IModifierConstants.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\InnerClassesAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\InnerClassesAttributeEntry.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\IOpcodeMnemonics.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\Messages.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\messages.properties
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\MethodInfo.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\OpcodeStringValues.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\ParameterAnnotation.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\RuntimeInvisibleAnnotationsAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\RuntimeInvisibleParameterAnnotationsAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\RuntimeVisibleAnnotationsAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\RuntimeVisibleParameterAnnotationsAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\Signature.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\SignatureAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\SourceFileAttribute.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\TypeConstants.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\java\Utility.java
+	     org\eclipse\equinox\p2\internal\repository\comparator\MD5ArtifactComparator.java
+	     org\eclipse\equinox\p2\internal\repository\mirroring\FileMirrorLog.java
+	     org\eclipse\equinox\p2\internal\repository\mirroring\IArtifactMirrorLog.java
+	     org\eclipse\equinox\p2\internal\repository\mirroring\Mirroring.java
+	     org\eclipse\equinox\p2\internal\repository\mirroring\XMLMirrorLog.java
+	     org\eclipse\equinox\p2\internal\repository\tools\AbstractApplication.java
+	     org\eclipse\equinox\p2\internal\repository\tools\Activator.java
+	     org\eclipse\equinox\p2\internal\repository\tools\analyzer\CopyrightAnalyzer.java
+	     org\eclipse\equinox\p2\internal\repository\tools\analyzer\HostCheckAnalyzer.java
+	     org\eclipse\equinox\p2\internal\repository\tools\analyzer\IUCounting.java
+	     org\eclipse\equinox\p2\internal\repository\tools\analyzer\LicenseAnalyzer.java
+	     org\eclipse\equinox\p2\internal\repository\tools\analyzer\UniqueIUAnalyzer.java
+	     org\eclipse\equinox\p2\internal\repository\tools\analyzer\UnzipFeatureJarAnalyzer.java
+	     org\eclipse\equinox\p2\internal\repository\tools\analyzer\VersionAnalyzer.java
+	     org\eclipse\equinox\p2\internal\repository\tools\ArtifactRepositoryValidator.java
+	     org\eclipse\equinox\p2\internal\repository\tools\CompositeRepositoryApplication.java
+	     org\eclipse\equinox\p2\internal\repository\tools\Messages.java
+	     org\eclipse\equinox\p2\internal\repository\tools\messages.properties
+	     org\eclipse\equinox\p2\internal\repository\tools\MirrorApplication.java
+	     org\eclipse\equinox\p2\internal\repository\tools\RecreateRepositoryApplication.java
+	     org\eclipse\equinox\p2\internal\repository\tools\Repo2Runnable.java
+	     org\eclipse\equinox\p2\internal\repository\tools\RepositoryAnalyzer.java
+	     org\eclipse\equinox\p2\internal\repository\tools\RepositoryAnalyzerApplication.java
+	     org\eclipse\equinox\p2\internal\repository\tools\RepositoryDescriptor.java
+	     org\eclipse\equinox\p2\internal\repository\tools\RepositoryUtilities.java
+	     org\eclipse\equinox\p2\internal\repository\tools\SlicingOptions.java
+	     org\eclipse\equinox\p2\repository\tools\analyzer\IIUAnalyzer.java
+	     org\eclipse\equinox\p2\repository\tools\analyzer\IUAnalyzer.java
+	     org\eclipse\equinox\p2\repository\tools\comparator\ArtifactComparatorFactory.java
+	     org\eclipse\equinox\p2\repository\tools\comparator\IArtifactComparator.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.repository.tools.jar" path="org.eclipse.equinox.p2.repository.tools/src"/>
+	<!-- org\eclipse\equinox\p2\internal\repository\tools\tasks\AbstractRepositoryTask.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\AntMirrorLog.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\ArtifactDescription.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\ComparatorDescription.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\CompositeRepositoryTask.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\CreateCompositeArtifactRepositoryTask.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\DestinationRepository.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\ElementList.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\IUDescription.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\MirrorArtifactsTask.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\MirrorMetadataTask.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\MirrorTask.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\ProcessRepoTask.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\RemoveIUTask.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\Repo2RunnableTask.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\RepositoryFileSet.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\RepositoryList.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\SlicingOption.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\TaskHelper.java
+	     org\eclipse\equinox\p2\internal\repository\tools\tasks\ValidateTask.java -->
+	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.equinox.p2.repository.tools.jar/lib/repository-tools-ant.jar" path="org.eclipse.equinox.p2.repository.tools/src_ant"/>
+	<!-- lib\repository-tools-ant.jar\META-INF\MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.repository.tools.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.app"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.artifact.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.director"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.jarprocessor"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.publisher.eclipse"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

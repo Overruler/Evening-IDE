@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\eventsui.xml
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.di.jar" path="org.eclipse.e4.ui.di"/>
+	<!-- org\eclipse\e4\ui\di\AboutToHide.java
+	     org\eclipse\e4\ui\di\AboutToShow.java
+	     org\eclipse\e4\ui\di\Focus.java
+	     org\eclipse\e4\ui\di\Persist.java
+	     org\eclipse\e4\ui\di\PersistState.java
+	     org\eclipse\e4\ui\di\UIEventTopic.java
+	     org\eclipse\e4\ui\di\UISynchronize.java
+	     org\eclipse\e4\ui\internal\di\UIEventObjectSupplier.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.ui.di.jar" path="org.eclipse.e4.ui.di/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.inject"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.di"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.di.extensions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

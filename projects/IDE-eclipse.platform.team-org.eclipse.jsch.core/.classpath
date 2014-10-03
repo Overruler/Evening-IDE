@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jsch.core.jar" path="org.eclipse.jsch.core"/>
+	<!-- org\eclipse\jsch\core\IJSchLocation.java
+	     org\eclipse\jsch\core\IJSchService.java
+	     org\eclipse\jsch\core\IPasswordStore.java
+	     org\eclipse\jsch\internal\core\IConstants.java
+	     org\eclipse\jsch\internal\core\IUserAuthenticator.java
+	     org\eclipse\jsch\internal\core\IUserInfo.java
+	     org\eclipse\jsch\internal\core\JSchCorePlugin.java
+	     org\eclipse\jsch\internal\core\JSchLocation.java
+	     org\eclipse\jsch\internal\core\Messages.java
+	     org\eclipse\jsch\internal\core\messages.properties
+	     org\eclipse\jsch\internal\core\Policy.java
+	     org\eclipse\jsch\internal\core\PreferenceInitializer.java
+	     org\eclipse\jsch\internal\core\PreferenceModifyListener.java
+	     org\eclipse\jsch\internal\core\ResponsiveSocketFactory.java
+	     org\eclipse\jsch\internal\core\Utils.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jsch.core.jar" path="org.eclipse.jsch.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.jcraft.jsch"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

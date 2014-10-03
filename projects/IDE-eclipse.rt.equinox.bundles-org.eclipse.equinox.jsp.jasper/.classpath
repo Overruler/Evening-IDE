@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.jsp.jasper.jar" path="org.eclipse.equinox.jsp.jasper"/>
+	<!-- org\eclipse\equinox\internal\jsp\jasper\Activator.java
+	     org\eclipse\equinox\internal\jsp\jasper\BundleProxyClassLoader.java
+	     org\eclipse\equinox\internal\jsp\jasper\JspClassLoader.java
+	     org\eclipse\equinox\internal\jsp\jasper\JSPContextFinder.java
+	     org\eclipse\equinox\jsp\jasper\JspServlet.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.jsp.jasper.jar" path="org.eclipse.equinox.jsp.jasper/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet.jsp"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.jasper.glassfish"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

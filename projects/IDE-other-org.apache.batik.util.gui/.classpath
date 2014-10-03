@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\apache\batik\util\gui\resources\blank.gif
+	     org\apache\batik\util\gui\resources\CSSMediaPanel.properties
+	     org\apache\batik\util\gui\resources\flags\flag_aa.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ab.gif
+	     org\apache\batik\util\gui\resources\flags\flag_af.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ar.gif
+	     org\apache\batik\util\gui\resources\flags\flag_as.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ay.gif
+	     org\apache\batik\util\gui\resources\flags\flag_az.gif
+	     org\apache\batik\util\gui\resources\flags\flag_be.gif
+	     org\apache\batik\util\gui\resources\flags\flag_bg.gif
+	     org\apache\batik\util\gui\resources\flags\flag_bi.gif
+	     org\apache\batik\util\gui\resources\flags\flag_blank.gif
+	     org\apache\batik\util\gui\resources\flags\flag_bn.gif
+	     org\apache\batik\util\gui\resources\flags\flag_bo.gif
+	     org\apache\batik\util\gui\resources\flags\flag_br.gif
+	     org\apache\batik\util\gui\resources\flags\flag_C.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ca.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ch.gif
+	     org\apache\batik\util\gui\resources\flags\flag_co.gif
+	     org\apache\batik\util\gui\resources\flags\flag_cs.gif
+	     org\apache\batik\util\gui\resources\flags\flag_cy.gif
+	     org\apache\batik\util\gui\resources\flags\flag_da.gif
+	     org\apache\batik\util\gui\resources\flags\flag_de.gif
+	     org\apache\batik\util\gui\resources\flags\flag_dz.gif
+	     org\apache\batik\util\gui\resources\flags\flag_el.gif
+	     org\apache\batik\util\gui\resources\flags\flag_en.gif
+	     org\apache\batik\util\gui\resources\flags\flag_en_UK.gif
+	     org\apache\batik\util\gui\resources\flags\flag_eo.gif
+	     org\apache\batik\util\gui\resources\flags\flag_es.gif
+	     org\apache\batik\util\gui\resources\flags\flag_et.gif
+	     org\apache\batik\util\gui\resources\flags\flag_eu.gif
+	     org\apache\batik\util\gui\resources\flags\flag_fa.gif
+	     org\apache\batik\util\gui\resources\flags\flag_fi.gif
+	     org\apache\batik\util\gui\resources\flags\flag_fj.gif
+	     org\apache\batik\util\gui\resources\flags\flag_fo.gif
+	     org\apache\batik\util\gui\resources\flags\flag_fr.gif
+	     org\apache\batik\util\gui\resources\flags\flag_fr_CA.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ga.gif
+	     org\apache\batik\util\gui\resources\flags\flag_gd.gif
+	     org\apache\batik\util\gui\resources\flags\flag_gn.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ha.gif
+	     org\apache\batik\util\gui\resources\flags\flag_he.gif
+	     org\apache\batik\util\gui\resources\flags\flag_hr.gif
+	     org\apache\batik\util\gui\resources\flags\flag_hu.gif
+	     org\apache\batik\util\gui\resources\flags\flag_hy.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ij.gif
+	     org\apache\batik\util\gui\resources\flags\flag_in.gif
+	     org\apache\batik\util\gui\resources\flags\flag_is.gif
+	     org\apache\batik\util\gui\resources\flags\flag_it.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ja.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ka.gif
+	     org\apache\batik\util\gui\resources\flags\flag_kk.gif
+	     org\apache\batik\util\gui\resources\flags\flag_kl.gif
+	     org\apache\batik\util\gui\resources\flags\flag_km.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ko.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ku.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ky.gif
+	     org\apache\batik\util\gui\resources\flags\flag_la.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ln.gif
+	     org\apache\batik\util\gui\resources\flags\flag_lo.gif
+	     org\apache\batik\util\gui\resources\flags\flag_lt.gif
+	     org\apache\batik\util\gui\resources\flags\flag_lv.gif
+	     org\apache\batik\util\gui\resources\flags\flag_mg.gif
+	     org\apache\batik\util\gui\resources\flags\flag_mi.gif
+	     org\apache\batik\util\gui\resources\flags\flag_mk.gif
+	     org\apache\batik\util\gui\resources\flags\flag_mn.gif
+	     org\apache\batik\util\gui\resources\flags\flag_mo.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ms.gif
+	     org\apache\batik\util\gui\resources\flags\flag_mt.gif
+	     org\apache\batik\util\gui\resources\flags\flag_my.gif
+	     org\apache\batik\util\gui\resources\flags\flag_na.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ne.gif
+	     org\apache\batik\util\gui\resources\flags\flag_nl.gif
+	     org\apache\batik\util\gui\resources\flags\flag_no.gif
+	     org\apache\batik\util\gui\resources\flags\flag_or.gif
+	     org\apache\batik\util\gui\resources\flags\flag_pl.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ps.gif
+	     org\apache\batik\util\gui\resources\flags\flag_pt.gif
+	     org\apache\batik\util\gui\resources\flags\flag_pt_BR.gif
+	     org\apache\batik\util\gui\resources\flags\flag_qu.gif
+	     org\apache\batik\util\gui\resources\flags\flag_rn.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ro.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ru.gif
+	     org\apache\batik\util\gui\resources\flags\flag_rw.gif
+	     org\apache\batik\util\gui\resources\flags\flag_se.gif
+	     org\apache\batik\util\gui\resources\flags\flag_si.gif
+	     org\apache\batik\util\gui\resources\flags\flag_sk.gif
+	     org\apache\batik\util\gui\resources\flags\flag_sl.gif
+	     org\apache\batik\util\gui\resources\flags\flag_sm.gif
+	     org\apache\batik\util\gui\resources\flags\flag_so.gif
+	     org\apache\batik\util\gui\resources\flags\flag_sq.gif
+	     org\apache\batik\util\gui\resources\flags\flag_sr.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ss.gif
+	     org\apache\batik\util\gui\resources\flags\flag_st.gif
+	     org\apache\batik\util\gui\resources\flags\flag_sv.gif
+	     org\apache\batik\util\gui\resources\flags\flag_sw.gif
+	     org\apache\batik\util\gui\resources\flags\flag_tg.gif
+	     org\apache\batik\util\gui\resources\flags\flag_th.gif
+	     org\apache\batik\util\gui\resources\flags\flag_tk.gif
+	     org\apache\batik\util\gui\resources\flags\flag_tl.gif
+	     org\apache\batik\util\gui\resources\flags\flag_tn.gif
+	     org\apache\batik\util\gui\resources\flags\flag_to.gif
+	     org\apache\batik\util\gui\resources\flags\flag_tr.gif
+	     org\apache\batik\util\gui\resources\flags\flag_ts.gif
+	     org\apache\batik\util\gui\resources\flags\flag_tw.gif
+	     org\apache\batik\util\gui\resources\flags\flag_uk.gif
+	     org\apache\batik\util\gui\resources\flags\flag_us_eu.gif
+	     org\apache\batik\util\gui\resources\flags\flag_uz.gif
+	     org\apache\batik\util\gui\resources\flags\flag_vi.gif
+	     org\apache\batik\util\gui\resources\flags\flag_vo.gif
+	     org\apache\batik\util\gui\resources\flags\flag_wo.gif
+	     org\apache\batik\util\gui\resources\flags\flag_xh.gif
+	     org\apache\batik\util\gui\resources\flags\flag_zh.gif
+	     org\apache\batik\util\gui\resources\flags\flag_zu.gif
+	     org\apache\batik\util\gui\resources\JErrorPane.properties
+	     org\apache\batik\util\gui\resources\LanguageDialogMessages.properties
+	     org\apache\batik\util\gui\resources\LocationBar.properties
+	     org\apache\batik\util\gui\resources\MemoryMonitorMessages.properties
+	     org\apache\batik\util\gui\resources\ScrollablePopupMenuMessages.properties
+	     org\apache\batik\util\gui\resources\text-html.png
+	     org\apache\batik\util\gui\resources\URIChooserMessages.properties
+	     org\apache\batik\util\gui\resources\UserStyleDialog.properties -->
+	<classpathentry including="org/apache/batik/util/gui/resources/|org/apache/batik/util/gui/resources/flags/" kind="src" output="bin/1/plugins/org.apache.batik.util.gui.jar" path="apache.batik/resources"/>
+	<!-- org\apache\batik\util\gui\CSSMediaPanel.java
+	     org\apache\batik\util\gui\DropDownComponent.java
+	     org\apache\batik\util\gui\ExtendedGridBagConstraints.java
+	     org\apache\batik\util\gui\JErrorPane.java
+	     org\apache\batik\util\gui\LanguageDialog.java
+	     org\apache\batik\util\gui\LocationBar.java
+	     org\apache\batik\util\gui\MemoryMonitor.java
+	     org\apache\batik\util\gui\resource\ActionMap.java
+	     org\apache\batik\util\gui\resource\ButtonFactory.java
+	     org\apache\batik\util\gui\resource\JComponentModifier.java
+	     org\apache\batik\util\gui\resource\JToolbarButton.java
+	     org\apache\batik\util\gui\resource\JToolbarSeparator.java
+	     org\apache\batik\util\gui\resource\JToolbarToggleButton.java
+	     org\apache\batik\util\gui\resource\MenuFactory.java
+	     org\apache\batik\util\gui\resource\MissingListenerException.java
+	     org\apache\batik\util\gui\resource\ToolBarFactory.java
+	     org\apache\batik\util\gui\URIChooser.java
+	     org\apache\batik\util\gui\UserStyleDialog.java
+	     org\apache\batik\util\gui\xmleditor\XMLContext.java
+	     org\apache\batik\util\gui\xmleditor\XMLDocument.java
+	     org\apache\batik\util\gui\xmleditor\XMLEditorKit.java
+	     org\apache\batik\util\gui\xmleditor\XMLTextEditor.java
+	     org\apache\batik\util\gui\xmleditor\XMLToken.java
+	     org\apache\batik\util\gui\xmleditor\XMLView.java -->
+	<classpathentry excluding="org/apache/batik/util/gui/xmleditor/XMLScanner.java" including="org/apache/batik/util/gui/|org/apache/batik/util/gui/resource/|org/apache/batik/util/gui/xmleditor/" kind="src" output="bin/1/plugins/org.apache.batik.util.gui.jar" path="apache.batik/sources"/>
+	<!-- about.html
+	     about_files\LICENSE-2.0.txt
+	     about_files\LICENSE.dom-software.txt
+	     about_files\LICENSE.sax.txt
+	     about_files\NOTICE
+	     about_files\README
+	     META-INF\LICENSE
+	     META-INF\MANIFEST.MF
+	     META-INF\NOTICE
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.batik.util.gui.jar" path="res"/>
+	<!-- org\apache\batik\util\gui\xmleditor\XMLScanner.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.batik.util.gui.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.batik.util"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

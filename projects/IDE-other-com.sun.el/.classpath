@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- com\sun\el\ExpressionFactoryImpl.java
+	     com\sun\el\lang\ELArithmetic.java
+	     com\sun\el\lang\ELSupport.java
+	     com\sun\el\lang\EvaluationContext.java
+	     com\sun\el\lang\ExpressionBuilder.java
+	     com\sun\el\lang\FunctionMapperFactory.java
+	     com\sun\el\lang\FunctionMapperImpl.java
+	     com\sun\el\lang\VariableMapperFactory.java
+	     com\sun\el\lang\VariableMapperImpl.java
+	     com\sun\el\Messages.properties
+	     com\sun\el\MethodExpressionImpl.java
+	     com\sun\el\MethodExpressionLiteral.java
+	     com\sun\el\parser\ArithmeticNode.java
+	     com\sun\el\parser\AstAnd.java
+	     com\sun\el\parser\AstBracketSuffix.java
+	     com\sun\el\parser\AstChoice.java
+	     com\sun\el\parser\AstCompositeExpression.java
+	     com\sun\el\parser\AstDeferredExpression.java
+	     com\sun\el\parser\AstDiv.java
+	     com\sun\el\parser\AstDotSuffix.java
+	     com\sun\el\parser\AstDynamicExpression.java
+	     com\sun\el\parser\AstEmpty.java
+	     com\sun\el\parser\AstEqual.java
+	     com\sun\el\parser\AstFalse.java
+	     com\sun\el\parser\AstFloatingPoint.java
+	     com\sun\el\parser\AstFunction.java
+	     com\sun\el\parser\AstGreaterThan.java
+	     com\sun\el\parser\AstGreaterThanEqual.java
+	     com\sun\el\parser\AstIdentifier.java
+	     com\sun\el\parser\AstInteger.java
+	     com\sun\el\parser\AstLessThan.java
+	     com\sun\el\parser\AstLessThanEqual.java
+	     com\sun\el\parser\AstLiteralExpression.java
+	     com\sun\el\parser\AstMethodArguments.java
+	     com\sun\el\parser\AstMinus.java
+	     com\sun\el\parser\AstMod.java
+	     com\sun\el\parser\AstMult.java
+	     com\sun\el\parser\AstNegative.java
+	     com\sun\el\parser\AstNot.java
+	     com\sun\el\parser\AstNotEqual.java
+	     com\sun\el\parser\AstNull.java
+	     com\sun\el\parser\AstOr.java
+	     com\sun\el\parser\AstPlus.java
+	     com\sun\el\parser\AstString.java
+	     com\sun\el\parser\AstTrue.java
+	     com\sun\el\parser\AstValue.java
+	     com\sun\el\parser\BooleanNode.java
+	     com\sun\el\parser\ELParser.java
+	     com\sun\el\parser\ELParserConstants.java
+	     com\sun\el\parser\ELParserTokenManager.java
+	     com\sun\el\parser\ELParserTreeConstants.java
+	     com\sun\el\parser\JJTELParserState.java
+	     com\sun\el\parser\Node.java
+	     com\sun\el\parser\NodeVisitor.java
+	     com\sun\el\parser\ParseException.java
+	     com\sun\el\parser\SimpleCharStream.java
+	     com\sun\el\parser\SimpleNode.java
+	     com\sun\el\parser\Token.java
+	     com\sun\el\parser\TokenMgrError.java
+	     com\sun\el\util\MessageFactory.java
+	     com\sun\el\util\ReflectionUtil.java
+	     com\sun\el\ValueExpressionImpl.java
+	     com\sun\el\ValueExpressionLiteral.java -->
+	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/com.sun.el.jar" path="com.sun.el"/>
+	<!-- about.html
+	     about_files\LICENSE_CDDL.txt
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/com.sun.el.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.el"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="projection/|src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.text.jar" path="org.eclipse.text"/>
+	<!-- org\eclipse\jface\text\projection\ChildDocument.java
+	     org\eclipse\jface\text\projection\ChildDocumentManager.java
+	     org\eclipse\jface\text\projection\Fragment.java
+	     org\eclipse\jface\text\projection\ProjectionDocument.java
+	     org\eclipse\jface\text\projection\ProjectionDocumentEvent.java
+	     org\eclipse\jface\text\projection\ProjectionDocumentManager.java
+	     org\eclipse\jface\text\projection\ProjectionMapping.java
+	     org\eclipse\jface\text\projection\Segment.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.text.jar" path="org.eclipse.text/projection"/>
+	<!-- org\eclipse\jface\text\AbstractDocument.java
+	     org\eclipse\jface\text\AbstractLineTracker.java
+	     org\eclipse\jface\text\Assert.java
+	     org\eclipse\jface\text\BadLocationException.java
+	     org\eclipse\jface\text\BadPartitioningException.java
+	     org\eclipse\jface\text\BadPositionCategoryException.java
+	     org\eclipse\jface\text\ConfigurableLineTracker.java
+	     org\eclipse\jface\text\CopyOnWriteTextStore.java
+	     org\eclipse\jface\text\DefaultLineTracker.java
+	     org\eclipse\jface\text\DefaultPositionUpdater.java
+	     org\eclipse\jface\text\Document.java
+	     org\eclipse\jface\text\DocumentEvent.java
+	     org\eclipse\jface\text\DocumentPartitioningChangedEvent.java
+	     org\eclipse\jface\text\DocumentRewriteSession.java
+	     org\eclipse\jface\text\DocumentRewriteSessionEvent.java
+	     org\eclipse\jface\text\DocumentRewriteSessionType.java
+	     org\eclipse\jface\text\FindReplaceDocumentAdapter.java
+	     org\eclipse\jface\text\GapTextStore.java
+	     org\eclipse\jface\text\IDocument.java
+	     org\eclipse\jface\text\IDocumentExtension.java
+	     org\eclipse\jface\text\IDocumentExtension2.java
+	     org\eclipse\jface\text\IDocumentExtension3.java
+	     org\eclipse\jface\text\IDocumentExtension4.java
+	     org\eclipse\jface\text\IDocumentInformationMapping.java
+	     org\eclipse\jface\text\IDocumentInformationMappingExtension.java
+	     org\eclipse\jface\text\IDocumentInformationMappingExtension2.java
+	     org\eclipse\jface\text\IDocumentListener.java
+	     org\eclipse\jface\text\IDocumentPartitioner.java
+	     org\eclipse\jface\text\IDocumentPartitionerExtension.java
+	     org\eclipse\jface\text\IDocumentPartitionerExtension2.java
+	     org\eclipse\jface\text\IDocumentPartitionerExtension3.java
+	     org\eclipse\jface\text\IDocumentPartitioningListener.java
+	     org\eclipse\jface\text\IDocumentPartitioningListenerExtension.java
+	     org\eclipse\jface\text\IDocumentPartitioningListenerExtension2.java
+	     org\eclipse\jface\text\IDocumentRewriteSessionListener.java
+	     org\eclipse\jface\text\ILineTracker.java
+	     org\eclipse\jface\text\ILineTrackerExtension.java
+	     org\eclipse\jface\text\IPositionUpdater.java
+	     org\eclipse\jface\text\IRegion.java
+	     org\eclipse\jface\text\IRepairableDocument.java
+	     org\eclipse\jface\text\IRepairableDocumentExtension.java
+	     org\eclipse\jface\text\ISlaveDocumentManager.java
+	     org\eclipse\jface\text\ISlaveDocumentManagerExtension.java
+	     org\eclipse\jface\text\ISynchronizable.java
+	     org\eclipse\jface\text\ITextStore.java
+	     org\eclipse\jface\text\ITypedRegion.java
+	     org\eclipse\jface\text\link\ILinkedModeListener.java
+	     org\eclipse\jface\text\link\InclusivePositionUpdater.java
+	     org\eclipse\jface\text\link\LinkedModeModel.java
+	     org\eclipse\jface\text\link\LinkedPosition.java
+	     org\eclipse\jface\text\link\LinkedPositionGroup.java
+	     org\eclipse\jface\text\Position.java
+	     org\eclipse\jface\text\Region.java
+	     org\eclipse\jface\text\RewriteSessionEditProcessor.java
+	     org\eclipse\jface\text\SequentialRewriteTextStore.java
+	     org\eclipse\jface\text\SlaveDocumentEvent.java
+	     org\eclipse\jface\text\source\Annotation.java
+	     org\eclipse\jface\text\source\AnnotationModel.java
+	     org\eclipse\jface\text\source\AnnotationModelEvent.java
+	     org\eclipse\jface\text\source\IAnnotationMap.java
+	     org\eclipse\jface\text\source\IAnnotationModel.java
+	     org\eclipse\jface\text\source\IAnnotationModelExtension.java
+	     org\eclipse\jface\text\source\IAnnotationModelExtension2.java
+	     org\eclipse\jface\text\source\IAnnotationModelListener.java
+	     org\eclipse\jface\text\source\IAnnotationModelListenerExtension.java
+	     org\eclipse\jface\text\templates\DocumentTemplateContext.java
+	     org\eclipse\jface\text\templates\GlobalTemplateVariables.java
+	     org\eclipse\jface\text\templates\SimpleTemplateVariableResolver.java
+	     org\eclipse\jface\text\templates\Template.java
+	     org\eclipse\jface\text\templates\TemplateBuffer.java
+	     org\eclipse\jface\text\templates\TemplateContext.java
+	     org\eclipse\jface\text\templates\TemplateContextType.java
+	     org\eclipse\jface\text\templates\TemplateException.java
+	     org\eclipse\jface\text\templates\TemplateTranslator.java
+	     org\eclipse\jface\text\templates\TemplateVariable.java
+	     org\eclipse\jface\text\templates\TemplateVariableResolver.java
+	     org\eclipse\jface\text\templates\TemplateVariableType.java
+	     org\eclipse\jface\text\templates\TextTemplateMessages.properties
+	     org\eclipse\jface\text\TextMessages.properties
+	     org\eclipse\jface\text\TextUtilities.java
+	     org\eclipse\jface\text\TypedPosition.java
+	     org\eclipse\jface\text\TypedRegion.java
+	     org\eclipse\text\edits\CopyingRangeMarker.java
+	     org\eclipse\text\edits\CopySourceEdit.java
+	     org\eclipse\text\edits\CopyTargetEdit.java
+	     org\eclipse\text\edits\DeleteEdit.java
+	     org\eclipse\text\edits\InsertEdit.java
+	     org\eclipse\text\edits\ISourceModifier.java
+	     org\eclipse\text\edits\MalformedTreeException.java
+	     org\eclipse\text\edits\Messages.properties
+	     org\eclipse\text\edits\MoveSourceEdit.java
+	     org\eclipse\text\edits\MoveTargetEdit.java
+	     org\eclipse\text\edits\MultiTextEdit.java
+	     org\eclipse\text\edits\RangeMarker.java
+	     org\eclipse\text\edits\ReplaceEdit.java
+	     org\eclipse\text\edits\TextEdit.java
+	     org\eclipse\text\edits\TextEditCopier.java
+	     org\eclipse\text\edits\TextEditGroup.java
+	     org\eclipse\text\edits\TextEditProcessor.java
+	     org\eclipse\text\edits\TextEditVisitor.java
+	     org\eclipse\text\edits\UndoEdit.java
+	     org\eclipse\text\undo\DocumentUndoEvent.java
+	     org\eclipse\text\undo\DocumentUndoManager.java
+	     org\eclipse\text\undo\DocumentUndoManagerRegistry.java
+	     org\eclipse\text\undo\IDocumentUndoListener.java
+	     org\eclipse\text\undo\IDocumentUndoManager.java
+	     org\eclipse\text\undo\UndoMessages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.text.jar" path="org.eclipse.text/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.commands"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

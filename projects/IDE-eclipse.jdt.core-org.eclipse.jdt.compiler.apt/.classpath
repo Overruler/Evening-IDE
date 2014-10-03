@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     compiler_apt_fragment.properties
+	     META-INF\MANIFEST.MF -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|compiler_apt_fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.jdt.compiler.apt.jar" path="org.eclipse.jdt.compiler.apt"/>
+	<!-- org\eclipse\jdt\internal\compiler\apt\dispatch\AnnotationDiscoveryVisitor.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\AptProblem.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\BaseAnnotationProcessorManager.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\BaseMessagerImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\BaseProcessingEnvImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\BatchAnnotationProcessorManager.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\BatchFilerImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\BatchMessagerImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\BatchProcessingEnvImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\HookedJavaFileObject.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\IProcessorProvider.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\ProcessorInfo.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\RoundDispatcher.java
+	     org\eclipse\jdt\internal\compiler\apt\dispatch\RoundEnvImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\AnnotationMemberValue.java
+	     org\eclipse\jdt\internal\compiler\apt\model\AnnotationMirrorImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\AnnotationValueImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\ArrayTypeImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\DeclaredTypeImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\ElementImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\ElementsImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\ErrorTypeElement.java
+	     org\eclipse\jdt\internal\compiler\apt\model\ErrorTypeImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\ExecutableElementImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\ExecutableTypeImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\Factory.java
+	     org\eclipse\jdt\internal\compiler\apt\model\IElementInfo.java
+	     org\eclipse\jdt\internal\compiler\apt\model\NameImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\NoTypeImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\PackageElementImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\PrimitiveTypeImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\TypeElementImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\TypeMirrorImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\TypeParameterElementImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\TypesImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\TypeVariableImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\VariableElementImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\model\WildcardTypeImpl.java
+	     org\eclipse\jdt\internal\compiler\apt\util\Archive.java
+	     org\eclipse\jdt\internal\compiler\apt\util\ArchiveFileObject.java
+	     org\eclipse\jdt\internal\compiler\apt\util\EclipseFileManager.java
+	     org\eclipse\jdt\internal\compiler\apt\util\EclipseFileObject.java
+	     org\eclipse\jdt\internal\compiler\apt\util\ManyToMany.java
+	     org\eclipse\jdt\internal\compiler\apt\util\Options.java
+	     org\eclipse\jdt\internal\compiler\apt\util\Util.java
+	     org\eclipse\jdt\internal\compiler\lookup\AptBinaryLocalVariableBinding.java
+	     org\eclipse\jdt\internal\compiler\lookup\AptSourceLocalVariableBinding.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.compiler.apt.jar" path="org.eclipse.jdt.compiler.apt/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.compiler.tool"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

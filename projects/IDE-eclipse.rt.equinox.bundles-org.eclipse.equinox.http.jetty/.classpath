@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\metatype\config.xml
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/metatype/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.http.jetty.jar" path="org.eclipse.equinox.http.jetty8"/>
+	<!-- org\eclipse\equinox\http\jetty\internal\Activator.java
+	     org\eclipse\equinox\http\jetty\internal\EquinoxStdErrLog.java
+	     org\eclipse\equinox\http\jetty\internal\HttpServerManager.java
+	     org\eclipse\equinox\http\jetty\JettyConfigurator.java
+	     org\eclipse\equinox\http\jetty\JettyConstants.java
+	     org\eclipse\equinox\http\jetty\JettyCustomizer.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.http.jetty.jar" path="org.eclipse.equinox.http.jetty8/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.http.servlet"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.http"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.io"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.server"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.servlet"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.util"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

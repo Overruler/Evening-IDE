@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about_files\LICENSE-2.0.txt
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|about_files/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.app.jar" path="org.eclipse.equinox.app"/>
+	<!-- org\eclipse\equinox\app\IApplication.java
+	     org\eclipse\equinox\app\IApplicationContext.java
+	     org\eclipse\equinox\internal\app\Activator.java
+	     org\eclipse\equinox\internal\app\AnyThreadAppLauncher.java
+	     org\eclipse\equinox\internal\app\AppCommands.java
+	     org\eclipse\equinox\internal\app\AppPersistence.java
+	     org\eclipse\equinox\internal\app\CommandLineArgs.java
+	     org\eclipse\equinox\internal\app\DefaultApplicationListener.java
+	     org\eclipse\equinox\internal\app\EclipseAppContainer.java
+	     org\eclipse\equinox\internal\app\EclipseAppDescriptor.java
+	     org\eclipse\equinox\internal\app\EclipseAppHandle.java
+	     org\eclipse\equinox\internal\app\EclipseScheduledApplication.java
+	     org\eclipse\equinox\internal\app\ErrorApplication.java
+	     org\eclipse\equinox\internal\app\IBranding.java
+	     org\eclipse\equinox\internal\app\MainApplicationLauncher.java
+	     org\eclipse\equinox\internal\app\Messages.java
+	     org\eclipse\equinox\internal\app\messages.properties
+	     org\eclipse\equinox\internal\app\ProductExtensionBranding.java
+	     org\eclipse\equinox\internal\app\ProviderExtensionBranding.java
+	     org\osgi\service\application\ApplicationAdminPermission.java
+	     org\osgi\service\application\ApplicationDescriptor.java
+	     org\osgi\service\application\ApplicationException.java
+	     org\osgi\service\application\ApplicationHandle.java
+	     org\osgi\service\application\ScheduledApplication.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.app.jar" path="org.eclipse.equinox.app/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

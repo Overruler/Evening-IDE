@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\localechangeservice.xml
+	     OSGI-INF\partService.xml
+	     OSGI-INF\progress.xml
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|OSGI-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.jar" path="org.eclipse.e4.ui.workbench"/>
+	<!-- org\eclipse\e4\ui\internal\LocaleChangeServiceContextFunction.java
+	     org\eclipse\e4\ui\internal\LocaleChangeServiceImpl.java
+	     org\eclipse\e4\ui\internal\workbench\Activator.java
+	     org\eclipse\e4\ui\internal\workbench\ActiveChildLookupFunction.java
+	     org\eclipse\e4\ui\internal\workbench\ActivePartLookupFunction.java
+	     org\eclipse\e4\ui\internal\workbench\addons\CommandProcessingAddon.java
+	     org\eclipse\e4\ui\internal\workbench\addons\ContextProcessingAddon.java
+	     org\eclipse\e4\ui\internal\workbench\addons\HandlerProcessingAddon.java
+	     org\eclipse\e4\ui\internal\workbench\ApplicationPartServiceImpl.java
+	     org\eclipse\e4\ui\internal\workbench\CommandLineOptionModelProcessor.java
+	     org\eclipse\e4\ui\internal\workbench\CompositeDelta.java
+	     org\eclipse\e4\ui\internal\workbench\ConfigurationElementAdapter.java
+	     org\eclipse\e4\ui\internal\workbench\ContributionsAnalyzer.java
+	     org\eclipse\e4\ui\internal\workbench\DefaultLoggerProvider.java
+	     org\eclipse\e4\ui\internal\workbench\E4Workbench.java
+	     org\eclipse\e4\ui\internal\workbench\E4XMIResource.java
+	     org\eclipse\e4\ui\internal\workbench\E4XMIResourceFactory.java
+	     org\eclipse\e4\ui\internal\workbench\EMFDeltaEntrySet.java
+	     org\eclipse\e4\ui\internal\workbench\EMFModelDeltaDelayedSet.java
+	     org\eclipse\e4\ui\internal\workbench\EMFModelDeltaSet.java
+	     org\eclipse\e4\ui\internal\workbench\EMFModelDeltaThreeWayDelayedSet.java
+	     org\eclipse\e4\ui\internal\workbench\EMFModelDeltaUnset.java
+	     org\eclipse\e4\ui\internal\workbench\ExceptionHandler.java
+	     org\eclipse\e4\ui\internal\workbench\ExitHandler.java
+	     org\eclipse\e4\ui\internal\workbench\ExtensionPointProxy.java
+	     org\eclipse\e4\ui\internal\workbench\ExtensionsSort.java
+	     org\eclipse\e4\ui\internal\workbench\handlers\ExitHandler.java
+	     org\eclipse\e4\ui\internal\workbench\handlers\SaveAllHandler.java
+	     org\eclipse\e4\ui\internal\workbench\handlers\SaveHandler.java
+	     org\eclipse\e4\ui\internal\workbench\handlers\UnimplementedHandler.java
+	     org\eclipse\e4\ui\internal\workbench\IDelegateInitializer.java
+	     org\eclipse\e4\ui\internal\workbench\IHelpService.java
+	     org\eclipse\e4\ui\internal\workbench\ModelAssembler.java
+	     org\eclipse\e4\ui\internal\workbench\ModelReconcilingService.java
+	     org\eclipse\e4\ui\internal\workbench\ModelServiceImpl.java
+	     org\eclipse\e4\ui\internal\workbench\OpaqueElementUtil.java
+	     org\eclipse\e4\ui\internal\workbench\Parameter.java
+	     org\eclipse\e4\ui\internal\workbench\PartServiceCreationFunction.java
+	     org\eclipse\e4\ui\internal\workbench\PartServiceImpl.java
+	     org\eclipse\e4\ui\internal\workbench\PartServiceSaveHandler.java
+	     org\eclipse\e4\ui\internal\workbench\PlaceholderResolver.java
+	     org\eclipse\e4\ui\internal\workbench\Policy.java
+	     org\eclipse\e4\ui\internal\workbench\ProgressMonitorFunction.java
+	     org\eclipse\e4\ui\internal\workbench\ReflectionContributionFactory.java
+	     org\eclipse\e4\ui\internal\workbench\RenderedElementUtil.java
+	     org\eclipse\e4\ui\internal\workbench\ResourceHandler.java
+	     org\eclipse\e4\ui\internal\workbench\SelectionAggregator.java
+	     org\eclipse\e4\ui\internal\workbench\SelectionServiceImpl.java
+	     org\eclipse\e4\ui\internal\workbench\TopologicalSort.java
+	     org\eclipse\e4\ui\internal\workbench\Trackable.java
+	     org\eclipse\e4\ui\internal\workbench\UIEventPublisher.java
+	     org\eclipse\e4\ui\internal\workbench\URIHelper.java
+	     org\eclipse\e4\ui\internal\workbench\Util.java
+	     org\eclipse\e4\ui\internal\workbench\WorkbenchLogger.java
+	     org\eclipse\e4\ui\internal\workbench\XMLModelReconciler.java
+	     org\eclipse\e4\ui\workbench\IExceptionHandler.java
+	     org\eclipse\e4\ui\workbench\IModelResourceHandler.java
+	     org\eclipse\e4\ui\workbench\IPresentationEngine.java
+	     org\eclipse\e4\ui\workbench\IResourceUtilities.java
+	     org\eclipse\e4\ui\workbench\IWorkbench.java
+	     org\eclipse\e4\ui\workbench\lifecycle\PostContextCreate.java
+	     org\eclipse\e4\ui\workbench\lifecycle\PreSave.java
+	     org\eclipse\e4\ui\workbench\lifecycle\ProcessAdditions.java
+	     org\eclipse\e4\ui\workbench\lifecycle\ProcessRemovals.java
+	     org\eclipse\e4\ui\workbench\modeling\ElementMatcher.java
+	     org\eclipse\e4\ui\workbench\modeling\EModelService.java
+	     org\eclipse\e4\ui\workbench\modeling\EObjModelHandler.java
+	     org\eclipse\e4\ui\workbench\modeling\EPartService.java
+	     org\eclipse\e4\ui\workbench\modeling\EPlaceholderResolver.java
+	     org\eclipse\e4\ui\workbench\modeling\ESelectionService.java
+	     org\eclipse\e4\ui\workbench\modeling\IDelta.java
+	     org\eclipse\e4\ui\workbench\modeling\IModelReconcilingService.java
+	     org\eclipse\e4\ui\workbench\modeling\IPartListener.java
+	     org\eclipse\e4\ui\workbench\modeling\ISaveHandler.java
+	     org\eclipse\e4\ui\workbench\modeling\ISelectionListener.java
+	     org\eclipse\e4\ui\workbench\modeling\IWindowCloseHandler.java
+	     org\eclipse\e4\ui\workbench\modeling\ModelDelta.java
+	     org\eclipse\e4\ui\workbench\modeling\ModelHandlerBase.java
+	     org\eclipse\e4\ui\workbench\modeling\ModelReconciler.java
+	     org\eclipse\e4\ui\workbench\Selector.java
+	     org\eclipse\e4\ui\workbench\UIEvents.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.jar" path="org.eclipse.e4.ui.workbench/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-other-javax.annotation"/>
+	<classpathentry kind="src" path="/IDE-other-javax.inject"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.commands"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.core.commands"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.contexts"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.di"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.di.extensions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.di"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.model.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.change"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

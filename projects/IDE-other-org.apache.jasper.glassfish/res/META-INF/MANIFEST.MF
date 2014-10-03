@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-DocURL: http://jsp.java.net/
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: org.apache.jasper.glassfish
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/org.apache.jasper.glassfish;tag=v201205150955
+Export-Package: org.apache.jasper;version="2.2.2",org.apache.jasper.co
+ mpiler;version="2.2.2",org.apache.jasper.compiler.tagplugin;version="
+ 2.2.2",org.apache.jasper.runtime;version="2.2.2",org.apache.jasper.se
+ curity;version="2.2.2",org.apache.jasper.servlet;version="2.2.2",org.
+ apache.jasper.tagplugins.jstl;version="2.2.2",org.apache.jasper.xmlpa
+ rser;version="2.2.2",org.apache.jasper.resources;version="2.2.2",org.
+ glassfish.jsp.api;version="2.2.2"
+Bundle-Version: 2.2.2.v201205150955
+Bundle-Documentation: Glassfish Project jsp-impl 2.2.2-b05 with the pa
+ tch for JSP-21 applied
+Bundle-Description: JSP 2.2 reference implementation from Glassfish
+Bundle-Classpath: .
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Name: %Bundle-Name.0
+Bundle-License: https://glassfish.dev.java.net/public/CDDLv1.0.html
+Import-Package: javax.el;version="2.2.0",javax.servlet;version="2.6.0"
+ ,javax.servlet.descriptor;version="2.6.0",javax.servlet.http;version=
+ "2.6.0",javax.servlet.jsp;version="2.2.0",javax.servlet.jsp.el;versio
+ n="2.2.0",javax.servlet.jsp.tagext;version="2.2.0",javax.tools;resolu
+ tion:=optional
+Bundle-ManifestVersion: 2

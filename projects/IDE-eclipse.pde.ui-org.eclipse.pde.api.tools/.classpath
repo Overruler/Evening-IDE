@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     report\format.xslt
+	     report\style.css
+	     scripts\api-tasks.properties
+	     scripts\api-tasks.xml
+	     scripts\usescan.xml -->
+	<classpathentry excluding="src/|src_ant/|xslt/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml|report/|scripts/" kind="src" output="bin/1/plugins/org.eclipse.pde.api.tools.jar" path="org.eclipse.pde.api.tools"/>
+	<!-- org\eclipse\pde\api\tools\internal\AntFilterStore.java
+	     org\eclipse\pde\api\tools\internal\AnyValue.java
+	     org\eclipse\pde\api\tools\internal\ApiAccess.java
+	     org\eclipse\pde\api\tools\internal\ApiAnnotations.java
+	     org\eclipse\pde\api\tools\internal\ApiBaselineManager.java
+	     org\eclipse\pde\api\tools\internal\ApiDescription.java
+	     org\eclipse\pde\api\tools\internal\ApiDescriptionManager.java
+	     org\eclipse\pde\api\tools\internal\ApiDescriptionProcessor.java
+	     org\eclipse\pde\api\tools\internal\ApiDescriptionXmlCreator.java
+	     org\eclipse\pde\api\tools\internal\ApiFilterStore.java
+	     org\eclipse\pde\api\tools\internal\ApiJavadocTag.java
+	     org\eclipse\pde\api\tools\internal\ApiPluginPreferenceInitializer.java
+	     org\eclipse\pde\api\tools\internal\builder\AbstractIllegalMethodReference.java
+	     org\eclipse\pde\api\tools\internal\builder\AbstractIllegalTypeReference.java
+	     org\eclipse\pde\api\tools\internal\builder\AbstractLeakProblemDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\AbstractProblemDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\AbstractTypeLeakDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\ApiAnalysisBuilder.java
+	     org\eclipse\pde\api\tools\internal\builder\BaseApiAnalyzer.java
+	     org\eclipse\pde\api\tools\internal\builder\BuildContext.java
+	     org\eclipse\pde\api\tools\internal\builder\BuilderMessages.java
+	     org\eclipse\pde\api\tools\internal\builder\buildermessages.properties
+	     org\eclipse\pde\api\tools\internal\builder\BuildStamps.java
+	     org\eclipse\pde\api\tools\internal\builder\BuildState.java
+	     org\eclipse\pde\api\tools\internal\builder\IllegalAnnotationReferenceDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\IllegalExtendsProblemDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\IllegalFieldReferenceDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\IllegalImplementsProblemDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\IllegalInstantiateProblemDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\IllegalMethodReferenceDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\IllegalOverrideProblemDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\IncrementalApiBuilder.java
+	     org\eclipse\pde\api\tools\internal\builder\LeakExtendsProblemDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\LeakFieldProblemDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\LeakImplementsProblemDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\LeakParameterTypeDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\LeakReturnTypeDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\MethodLeakDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\ProblemDetectorBuilder.java
+	     org\eclipse\pde\api\tools\internal\builder\Reference.java
+	     org\eclipse\pde\api\tools\internal\builder\ReferenceAnalyzer.java
+	     org\eclipse\pde\api\tools\internal\builder\ReferenceExtractor.java
+	     org\eclipse\pde\api\tools\internal\builder\ReferenceResolver.java
+	     org\eclipse\pde\api\tools\internal\builder\SinceTagChecker.java
+	     org\eclipse\pde\api\tools\internal\builder\SystemApiDetector.java
+	     org\eclipse\pde\api\tools\internal\builder\TagValidator.java
+	     org\eclipse\pde\api\tools\internal\builder\TypeScope.java
+	     org\eclipse\pde\api\tools\internal\builder\Validator.java
+	     org\eclipse\pde\api\tools\internal\BundleVersionRange.java
+	     org\eclipse\pde\api\tools\internal\comparator\ClassFileComparator.java
+	     org\eclipse\pde\api\tools\internal\comparator\ComparatorMessages.java
+	     org\eclipse\pde\api\tools\internal\comparator\comparatormessages.properties
+	     org\eclipse\pde\api\tools\internal\comparator\compatible_delta_messages.properties
+	     org\eclipse\pde\api\tools\internal\comparator\Delta.java
+	     org\eclipse\pde\api\tools\internal\comparator\DeltaXmlVisitor.java
+	     org\eclipse\pde\api\tools\internal\comparator\Messages.java
+	     org\eclipse\pde\api\tools\internal\comparator\messages.properties
+	     org\eclipse\pde\api\tools\internal\CompilationUnit.java
+	     org\eclipse\pde\api\tools\internal\CompositeApiDescription.java
+	     org\eclipse\pde\api\tools\internal\CoreMessages.java
+	     org\eclipse\pde\api\tools\internal\coremessages.properties
+	     org\eclipse\pde\api\tools\internal\CRCVisitor.java
+	     org\eclipse\pde\api\tools\internal\descriptors\ComponentDescriptorImpl.java
+	     org\eclipse\pde\api\tools\internal\descriptors\ElementDescriptorImpl.java
+	     org\eclipse\pde\api\tools\internal\descriptors\FieldDescriptorImpl.java
+	     org\eclipse\pde\api\tools\internal\descriptors\MemberDescriptorImpl.java
+	     org\eclipse\pde\api\tools\internal\descriptors\MethodDescriptorImpl.java
+	     org\eclipse\pde\api\tools\internal\descriptors\NamedElementDescriptorImpl.java
+	     org\eclipse\pde\api\tools\internal\descriptors\PackageDescriptorImpl.java
+	     org\eclipse\pde\api\tools\internal\descriptors\ReferenceTypeDescriptorImpl.java
+	     org\eclipse\pde\api\tools\internal\FilterStore.java
+	     org\eclipse\pde\api\tools\internal\IApiCoreConstants.java
+	     org\eclipse\pde\api\tools\internal\IApiXmlConstants.java
+	     org\eclipse\pde\api\tools\internal\JavadocTagManager.java
+	     org\eclipse\pde\api\tools\internal\model\AbstractApiTypeContainer.java
+	     org\eclipse\pde\api\tools\internal\model\AbstractApiTypeRoot.java
+	     org\eclipse\pde\api\tools\internal\model\ApiBaseline.java
+	     org\eclipse\pde\api\tools\internal\model\ApiElement.java
+	     org\eclipse\pde\api\tools\internal\model\ApiField.java
+	     org\eclipse\pde\api\tools\internal\model\ApiMember.java
+	     org\eclipse\pde\api\tools\internal\model\ApiMethod.java
+	     org\eclipse\pde\api\tools\internal\model\ApiModelCache.java
+	     org\eclipse\pde\api\tools\internal\model\ApiModelFactory.java
+	     org\eclipse\pde\api\tools\internal\model\ApiType.java
+	     org\eclipse\pde\api\tools\internal\model\ArchiveApiTypeContainer.java
+	     org\eclipse\pde\api\tools\internal\model\BundleComponent.java
+	     org\eclipse\pde\api\tools\internal\model\Component.java
+	     org\eclipse\pde\api\tools\internal\model\CompositeApiTypeContainer.java
+	     org\eclipse\pde\api\tools\internal\model\DirectoryApiTypeContainer.java
+	     org\eclipse\pde\api\tools\internal\model\Messages.java
+	     org\eclipse\pde\api\tools\internal\model\Messages.properties
+	     org\eclipse\pde\api\tools\internal\model\MethodKey.java
+	     org\eclipse\pde\api\tools\internal\model\ProjectComponent.java
+	     org\eclipse\pde\api\tools\internal\model\ProjectTypeContainer.java
+	     org\eclipse\pde\api\tools\internal\model\ResourceApiTypeRoot.java
+	     org\eclipse\pde\api\tools\internal\model\StubApiComponent.java
+	     org\eclipse\pde\api\tools\internal\model\StubArchiveApiTypeContainer.java
+	     org\eclipse\pde\api\tools\internal\model\SystemLibraryApiComponent.java
+	     org\eclipse\pde\api\tools\internal\model\TypeStructureBuilder.java
+	     org\eclipse\pde\api\tools\internal\model\WorkspaceBaseline.java
+	     org\eclipse\pde\api\tools\internal\natures\ApiToolProjectNature.java
+	     org\eclipse\pde\api\tools\internal\NonApiProjectDescription.java
+	     org\eclipse\pde\api\tools\internal\problems\ApiProblem.java
+	     org\eclipse\pde\api\tools\internal\problems\ApiProblemFactory.java
+	     org\eclipse\pde\api\tools\internal\problems\ApiProblemFilter.java
+	     org\eclipse\pde\api\tools\internal\problems\problemmessages.properties
+	     org\eclipse\pde\api\tools\internal\ProjectApiDescription.java
+	     org\eclipse\pde\api\tools\internal\provisional\ApiDescriptionVisitor.java
+	     org\eclipse\pde\api\tools\internal\provisional\ApiPlugin.java
+	     org\eclipse\pde\api\tools\internal\provisional\builder\IApiAnalyzer.java
+	     org\eclipse\pde\api\tools\internal\provisional\builder\IApiProblemDetector.java
+	     org\eclipse\pde\api\tools\internal\provisional\builder\IBuildContext.java
+	     org\eclipse\pde\api\tools\internal\provisional\builder\IReference.java
+	     org\eclipse\pde\api\tools\internal\provisional\comparator\ApiComparator.java
+	     org\eclipse\pde\api\tools\internal\provisional\comparator\ApiScope.java
+	     org\eclipse\pde\api\tools\internal\provisional\comparator\CompareApiScopeVisitor.java
+	     org\eclipse\pde\api\tools\internal\provisional\comparator\DeltaProcessor.java
+	     org\eclipse\pde\api\tools\internal\provisional\comparator\DeltaVisitor.java
+	     org\eclipse\pde\api\tools\internal\provisional\comparator\IDelta.java
+	     org\eclipse\pde\api\tools\internal\provisional\descriptors\IComponentDescriptor.java
+	     org\eclipse\pde\api\tools\internal\provisional\descriptors\IElementDescriptor.java
+	     org\eclipse\pde\api\tools\internal\provisional\descriptors\IFieldDescriptor.java
+	     org\eclipse\pde\api\tools\internal\provisional\descriptors\IMemberDescriptor.java
+	     org\eclipse\pde\api\tools\internal\provisional\descriptors\IMethodDescriptor.java
+	     org\eclipse\pde\api\tools\internal\provisional\descriptors\IPackageDescriptor.java
+	     org\eclipse\pde\api\tools\internal\provisional\descriptors\IReferenceTypeDescriptor.java
+	     org\eclipse\pde\api\tools\internal\provisional\Factory.java
+	     org\eclipse\pde\api\tools\internal\provisional\IApiAccess.java
+	     org\eclipse\pde\api\tools\internal\provisional\IApiAnnotations.java
+	     org\eclipse\pde\api\tools\internal\provisional\IApiBaselineManager.java
+	     org\eclipse\pde\api\tools\internal\provisional\IApiDescription.java
+	     org\eclipse\pde\api\tools\internal\provisional\IApiFilterStore.java
+	     org\eclipse\pde\api\tools\internal\provisional\IApiJavadocTag.java
+	     org\eclipse\pde\api\tools\internal\provisional\IApiMarkerConstants.java
+	     org\eclipse\pde\api\tools\internal\provisional\IRequiredComponentDescription.java
+	     org\eclipse\pde\api\tools\internal\provisional\ISession.java
+	     org\eclipse\pde\api\tools\internal\provisional\ISessionListener.java
+	     org\eclipse\pde\api\tools\internal\provisional\ISessionManager.java
+	     org\eclipse\pde\api\tools\internal\provisional\ITreeModel.java
+	     org\eclipse\pde\api\tools\internal\provisional\ITreeNode.java
+	     org\eclipse\pde\api\tools\internal\provisional\IVersionRange.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\ApiScopeVisitor.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\ApiTypeContainerVisitor.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\IApiBaseline.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\IApiComponent.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\IApiElement.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\IApiField.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\IApiMember.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\IApiMethod.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\IApiScope.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\IApiType.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\IApiTypeContainer.java
+	     org\eclipse\pde\api\tools\internal\provisional\model\IApiTypeRoot.java
+	     org\eclipse\pde\api\tools\internal\provisional\problems\IApiProblem.java
+	     org\eclipse\pde\api\tools\internal\provisional\problems\IApiProblemFilter.java
+	     org\eclipse\pde\api\tools\internal\provisional\problems\IApiProblemTypes.java
+	     org\eclipse\pde\api\tools\internal\provisional\ProfileModifiers.java
+	     org\eclipse\pde\api\tools\internal\provisional\RestrictionModifiers.java
+	     org\eclipse\pde\api\tools\internal\provisional\scanner\ScannerMessages.java
+	     org\eclipse\pde\api\tools\internal\provisional\scanner\ScannerMessages.properties
+	     org\eclipse\pde\api\tools\internal\provisional\scanner\TagScanner.java
+	     org\eclipse\pde\api\tools\internal\provisional\search\ApiSearchEngine.java
+	     org\eclipse\pde\api\tools\internal\provisional\search\IApiSearchReporter.java
+	     org\eclipse\pde\api\tools\internal\provisional\search\IApiSearchRequestor.java
+	     org\eclipse\pde\api\tools\internal\provisional\search\IMetadata.java
+	     org\eclipse\pde\api\tools\internal\provisional\VisibilityModifiers.java
+	     org\eclipse\pde\api\tools\internal\RequiredComponentDescription.java
+	     org\eclipse\pde\api\tools\internal\search\ApiDescriptionModifier.java
+	     org\eclipse\pde\api\tools\internal\search\ConsumerReportConvertor.java
+	     org\eclipse\pde\api\tools\internal\search\HTMLConvertor.java
+	     org\eclipse\pde\api\tools\internal\search\IReferenceCollection.java
+	     org\eclipse\pde\api\tools\internal\search\IReferenceDescriptor.java
+	     org\eclipse\pde\api\tools\internal\search\MigrationReportConvertor.java
+	     org\eclipse\pde\api\tools\internal\search\MissingRefMetadata.java
+	     org\eclipse\pde\api\tools\internal\search\MissingRefReportConverter.java
+	     org\eclipse\pde\api\tools\internal\search\ReferenceDescriptor.java
+	     org\eclipse\pde\api\tools\internal\search\ReferenceLookupVisitor.java
+	     org\eclipse\pde\api\tools\internal\search\SearchMessages.java
+	     org\eclipse\pde\api\tools\internal\search\searchmessages.properties
+	     org\eclipse\pde\api\tools\internal\search\SkippedComponent.java
+	     org\eclipse\pde\api\tools\internal\search\UseMetadata.java
+	     org\eclipse\pde\api\tools\internal\search\UseReportConverter.java
+	     org\eclipse\pde\api\tools\internal\search\UseScanManager.java
+	     org\eclipse\pde\api\tools\internal\search\UseScanParser.java
+	     org\eclipse\pde\api\tools\internal\search\UseScanReferences.java
+	     org\eclipse\pde\api\tools\internal\search\UseScanReferenceVisitor.java
+	     org\eclipse\pde\api\tools\internal\search\UseScanVisitor.java
+	     org\eclipse\pde\api\tools\internal\search\UseSearchRequestor.java
+	     org\eclipse\pde\api\tools\internal\search\XmlReferenceDescriptorWriter.java
+	     org\eclipse\pde\api\tools\internal\search\XmlSearchReporter.java
+	     org\eclipse\pde\api\tools\internal\SessionManager.java
+	     org\eclipse\pde\api\tools\internal\SystemApiDescriptionProcessor.java
+	     org\eclipse\pde\api\tools\internal\TypeAnnotations.java
+	     org\eclipse\pde\api\tools\internal\util\FileManager.java
+	     org\eclipse\pde\api\tools\internal\util\FilteredElements.java
+	     org\eclipse\pde\api\tools\internal\util\profiles\CDC-1.0_Foundation-1.0.profile
+	     org\eclipse\pde\api\tools\internal\util\profiles\CDC-1.1_Foundation-1.1.profile
+	     org\eclipse\pde\api\tools\internal\util\profiles\J2SE-1.2.profile
+	     org\eclipse\pde\api\tools\internal\util\profiles\J2SE-1.3.profile
+	     org\eclipse\pde\api\tools\internal\util\profiles\J2SE-1.4.profile
+	     org\eclipse\pde\api\tools\internal\util\profiles\J2SE-1.5.profile
+	     org\eclipse\pde\api\tools\internal\util\profiles\JavaSE-1.6.profile
+	     org\eclipse\pde\api\tools\internal\util\profiles\JRE-1.1.profile
+	     org\eclipse\pde\api\tools\internal\util\profiles\OSGi_Minimum-1.0.profile
+	     org\eclipse\pde\api\tools\internal\util\profiles\OSGi_Minimum-1.1.profile
+	     org\eclipse\pde\api\tools\internal\util\profiles\OSGi_Minimum-1.2.profile
+	     org\eclipse\pde\api\tools\internal\util\Signatures.java
+	     org\eclipse\pde\api\tools\internal\util\SinceTagVersion.java
+	     org\eclipse\pde\api\tools\internal\util\SourceDefaultHandler.java
+	     org\eclipse\pde\api\tools\internal\util\TarEntry.java
+	     org\eclipse\pde\api\tools\internal\util\TarException.java
+	     org\eclipse\pde\api\tools\internal\util\TarFile.java
+	     org\eclipse\pde\api\tools\internal\util\Util.java
+	     org\eclipse\pde\api\tools\internal\util\UtilMessages.java
+	     org\eclipse\pde\api\tools\internal\util\utilmessages.properties
+	     org\eclipse\pde\api\tools\internal\WorkspaceDeltaProcessor.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.api.tools.jar" path="org.eclipse.pde.api.tools/src"/>
+	<!-- org\eclipse\pde\api\tools\internal\tasks\AnalysisReportConversionTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\ApiConsumerUseReportConversionTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\APIDeprecationReportConversionTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\APIDeprecationTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\ApiFileGenerationTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\APIFreezeReportConversionTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\APIFreezeTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\ApiMigrationReportConversionTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\ApiMigrationTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\APIToolsAnalysisTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\ApiUseReportConversionTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\ApiUseTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\CommonUtilsTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\CompareTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\FilterListDeltaVisitor.java
+	     org\eclipse\pde\api\tools\internal\tasks\Messages.java
+	     org\eclipse\pde\api\tools\internal\tasks\messages.properties
+	     org\eclipse\pde\api\tools\internal\tasks\MissingRefProblemsReportConversionTask.java
+	     org\eclipse\pde\api\tools\internal\tasks\MissingRefProblemsTask.java -->
+	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.pde.api.tools.jar/lib/apitooling-ant.jar" path="org.eclipse.pde.api.tools/src_ant"/>
+	<!-- compare.xsl
+	     notsearched.xsl
+	     references.xsl -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.api.tools.jar" path="org.eclipse.pde.api.tools/xslt"/>
+	<!-- lib\apitooling-ant.jar\META-INF\MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.api.tools.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform-org.eclipse.ant.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.core.filebuffers"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.core.variables"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.frameworkadmin"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.pde.ui-org.eclipse.pde.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.text"/>
+	<classpathentry kind="src" path="/IDE-other-org.objectweb.asm"/>
+	<classpathentry kind="src" path="/IDE-other-org.objectweb.asm.tree"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

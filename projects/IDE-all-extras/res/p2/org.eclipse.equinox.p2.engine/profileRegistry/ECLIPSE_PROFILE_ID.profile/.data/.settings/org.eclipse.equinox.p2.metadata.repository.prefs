@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4/count=1
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4/enabled=true
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4/nickname=The Eclipse Project Updates
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4/uri=http\://download.eclipse.org/eclipse/updates/4.4
+repositories/http\:__download.eclipse.org_releases_luna/count=1
+repositories/http\:__download.eclipse.org_releases_luna/enabled=true
+repositories/http\:__download.eclipse.org_releases_luna/nickname=Luna
+repositories/http\:__download.eclipse.org_releases_luna/uri=http\://download.eclipse.org/releases/luna

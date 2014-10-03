@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\fwadmin.xml
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.frameworkadmin.equinox.jar" path="org.eclipse.equinox.frameworkadmin.equinox"/>
+	<!-- org\eclipse\equinox\internal\frameworkadmin\equinox\EclipseLauncherImpl.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\EclipseLauncherParser.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\EquinoxBundlesState.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\EquinoxConstants.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\EquinoxFrameworkAdminFactoryImpl.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\EquinoxFwAdminImpl.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\EquinoxFwConfigFileParser.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\EquinoxLauncherData.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\EquinoxManipulatorImpl.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\Log.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\Messages.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\messages.properties
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\ParserUtils.java
+	     org\eclipse\equinox\internal\frameworkadmin\equinox\utils\FileUtils.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.frameworkadmin.equinox.jar" path="org.eclipse.equinox.frameworkadmin.equinox/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.frameworkadmin"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

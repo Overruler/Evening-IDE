@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="log.xsl"?>
+
+<build time="5 seconds">
+	<message priority="info"><![CDATA[Apache Ant(TM) version 1.9.2 compiled on July 8 2013]]></message>
+	<message priority="info"><![CDATA[Apache Ant(TM) version 1.9.2 compiled on July 8 2013]]></message>
+	<message priority="info"><![CDATA[Using /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/buildDoc_log.xml file as build log.]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.file -> build.xml]]></message>
+	<message priority="info"><![CDATA[Buildfile: build.xml]]></message>
+	<message priority="debug"><![CDATA[ +Datatype help.buildHelpIndex org.eclipse.help.internal.base.ant.BuildHelpIndex]]></message>
+	<message priority="debug"><![CDATA[Adding reference: ant.projectHelper]]></message>
+	<message priority="debug"><![CDATA[Adding reference: ant.parsing.context]]></message>
+	<message priority="debug"><![CDATA[Adding reference: ant.targets]]></message>
+	<message priority="debug"><![CDATA[parsing buildfile /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml with URI = file:/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.project.name -> org.eclipse.jdt.doc.user]]></message>
+	<message priority="debug"><![CDATA[Adding reference: org.eclipse.jdt.doc.user]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.project.default-target -> build.jars]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.file.org.eclipse.jdt.doc.user -> /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.file.type.org.eclipse.jdt.doc.user -> file]]></message>
+	<message priority="debug"><![CDATA[Project base dir set to: /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user]]></message>
+	<message priority="debug"><![CDATA[ +Target: ]]></message>
+	<message priority="debug"><![CDATA[ +Target: init]]></message>
+	<message priority="debug"><![CDATA[ +Target: properties]]></message>
+	<message priority="debug"><![CDATA[ +Target: build.update.jar]]></message>
+	<message priority="debug"><![CDATA[ +Target: publish.bin.parts]]></message>
+	<message priority="debug"><![CDATA[ +Target: gather.bin.parts]]></message>
+	<message priority="debug"><![CDATA[ +Target: build.jars]]></message>
+	<message priority="debug"><![CDATA[ +Target: build.index]]></message>
+	<message priority="debug"><![CDATA[ +Target: build.sources]]></message>
+	<message priority="debug"><![CDATA[ +Target: build.zips]]></message>
+	<message priority="debug"><![CDATA[ +Target: gather.sources]]></message>
+	<message priority="debug"><![CDATA[ +Target: gather.logs]]></message>
+	<message priority="debug"><![CDATA[ +Target: clean]]></message>
+	<message priority="debug"><![CDATA[ +Target: refresh]]></message>
+	<message priority="debug"><![CDATA[ +Target: zip.plugin]]></message>
+	<message priority="debug"><![CDATA[Adding reference: ant.LocalProperties]]></message>
+	<message priority="debug"><![CDATA[parsing buildfile jar:file:/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/target/eclipserun-work/configuration/org.eclipse.osgi/21/0/.cp/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/target/eclipserun-work/configuration/org.eclipse.osgi/21/0/.cp/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file]]></message>
+	<message priority="debug"><![CDATA[Setting project property: version.suffix -> 3.3.0]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:4: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Setting project property: full.name -> org.eclipse.jdt.doc.user_3.3.0]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:5: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Setting project property: bootclasspath -> ]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:6: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Property "ws" has not been set]]></message>
+	<message priority="debug"><![CDATA[Setting project property: basews -> ${ws}]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:7: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Property "os" has not been set]]></message>
+	<message priority="debug"><![CDATA[Setting project property: baseos -> ${os}]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:8: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Property "arch" has not been set]]></message>
+	<message priority="debug"><![CDATA[Setting project property: basearch -> ${arch}]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:9: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Property "nl" has not been set]]></message>
+	<message priority="debug"><![CDATA[Setting project property: basenl -> ${nl}]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:10: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Setting project property: javacFailOnError -> false]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:11: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Setting project property: javacDebugInfo -> on]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:12: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Setting project property: javacVerbose -> true]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:13: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Setting project property: javacSource -> 1.3]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:14: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Setting project property: javacTarget -> 1.1]]></message>
+	<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:15: " name="property" time="0 seconds" />
+	<message priority="debug"><![CDATA[Setting ro project property: ant.project.invoked-targets -> build.index]]></message>
+	<message priority="debug"><![CDATA[Adding reference: eclipse.ant.targetVector]]></message>
+	<message priority="debug"><![CDATA[Build sequence for target(s) `build.index' is [properties, init, build.index]]]></message>
+	<message priority="debug"><![CDATA[Complete build sequence is [properties, init, build.index, publish.bin.parts, gather.sources, gather.logs, build.zips, gather.bin.parts, refresh, clean, build.update.jar, zip.plugin, build.sources, , build.jars]]]></message>
+	<message priority="debug"><![CDATA[Setting project property: build.compiler -> org.eclipse.jdt.core.JDTCompilerAdapter]]></message>
+	<target name="properties" time="0 seconds">
+		<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:28: " name="property" time="0 seconds" />
+	</target>
+	<message priority="debug"><![CDATA[Setting project property: temp.folder -> /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/temp.folder]]></message>
+	<message priority="debug"><![CDATA[Setting project property: plugin.destination -> /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user]]></message>
+	<message priority="debug"><![CDATA[Setting project property: build.result.folder -> /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user]]></message>
+	<message priority="debug"><![CDATA[Class org.apache.tools.ant.taskdefs.condition.IsTrue loaded from parent loader (parentFirst)]]></message>
+	<message priority="debug"><![CDATA[Property "p2.gathering" has not been set]]></message>
+	<message priority="debug"><![CDATA[Condition false; not setting p2.publish.parts]]></message>
+	<target name="init" time="0 seconds">
+		<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:18: " name="property" time="0 seconds" />
+		<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:19: " name="property" time="0 seconds" />
+		<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:20: " name="property" time="0 seconds" />
+		<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:21: " name="available" time="0 seconds">
+			<message priority="debug"><![CDATA[Unable to find doc.zip to set property doc.zip.present]]></message>
+		</task>
+		<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:22: " name="condition" time="0 seconds" />
+	</target>
+	<target name="build.index" time="4 seconds">
+		<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/build.xml:62: " name="help.buildHelpIndex" time="4 seconds" />
+	</target>
+	<message priority="debug"><![CDATA[Setting project property: XmlLogger.file -> /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.jdt.doc.user/log.xml]]></message>
+	<message priority="debug"><![CDATA[BUILD SUCCESSFUL]]></message>
+</build>

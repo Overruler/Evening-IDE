@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.http.registry.jar" path="org.eclipse.equinox.http.registry"/>
+	<!-- org\eclipse\equinox\http\registry\HttpContextExtensionService.java
+	     org\eclipse\equinox\http\registry\internal\Activator.java
+	     org\eclipse\equinox\http\registry\internal\DefaultRegistryHttpContext.java
+	     org\eclipse\equinox\http\registry\internal\ExtensionPointTracker.java
+	     org\eclipse\equinox\http\registry\internal\FilterManager.java
+	     org\eclipse\equinox\http\registry\internal\HttpContextManager.java
+	     org\eclipse\equinox\http\registry\internal\HttpRegistryManager.java
+	     org\eclipse\equinox\http\registry\internal\HttpServiceTracker.java
+	     org\eclipse\equinox\http\registry\internal\ResourceManager.java
+	     org\eclipse\equinox\http\registry\internal\ServletManager.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.http.registry.jar" path="org.eclipse.equinox.http.registry/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

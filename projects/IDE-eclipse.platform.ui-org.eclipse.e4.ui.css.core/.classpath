@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.css.core.jar" path="org.eclipse.e4.ui.css.core"/>
+	<!-- org\eclipse\e4\ui\css\core\css2\CSS2ColorHelper.java
+	     org\eclipse\e4\ui\css\core\css2\CSS2FontHelper.java
+	     org\eclipse\e4\ui\css\core\css2\CSS2FontPropertiesHelpers.java
+	     org\eclipse\e4\ui\css\core\css2\CSS2PrimitiveValueImpl.java
+	     org\eclipse\e4\ui\css\core\css2\CSS2RGBColorImpl.java
+	     org\eclipse\e4\ui\css\core\css2\CSSBorderPropertiesHelpers.java
+	     org\eclipse\e4\ui\css\core\dom\ArrayNodeList.java
+	     org\eclipse\e4\ui\css\core\dom\ChildVisibilityAwareElement.java
+	     org\eclipse\e4\ui\css\core\dom\CSSExtendedProperties.java
+	     org\eclipse\e4\ui\css\core\dom\CSSProperty.java
+	     org\eclipse\e4\ui\css\core\dom\CSSPropertyList.java
+	     org\eclipse\e4\ui\css\core\dom\CSSStylableElement.java
+	     org\eclipse\e4\ui\css\core\dom\ElementAdapter.java
+	     org\eclipse\e4\ui\css\core\dom\ExtendedCSSRule.java
+	     org\eclipse\e4\ui\css\core\dom\ExtendedDocumentCSS.java
+	     org\eclipse\e4\ui\css\core\dom\IElementProvider.java
+	     org\eclipse\e4\ui\css\core\dom\parsers\CSSParser.java
+	     org\eclipse\e4\ui\css\core\dom\parsers\CSSParserFactory.java
+	     org\eclipse\e4\ui\css\core\dom\parsers\ICSSParserFactory.java
+	     org\eclipse\e4\ui\css\core\dom\properties\AbstractCSSPropertyCompositeHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\converters\AbstractCSSValueConverter.java
+	     org\eclipse\e4\ui\css\core\dom\properties\converters\CSSValueBooleanConverterImpl.java
+	     org\eclipse\e4\ui\css\core\dom\properties\converters\CSSValueConverterConfigColorImpl.java
+	     org\eclipse\e4\ui\css\core\dom\properties\converters\ICSSValueConverter.java
+	     org\eclipse\e4\ui\css\core\dom\properties\converters\ICSSValueConverterColorConfig.java
+	     org\eclipse\e4\ui\css\core\dom\properties\converters\ICSSValueConverterConfig.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyBackgroundCompositeHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyBackgroundHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyBorderCompositeHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyBorderHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyClassificationHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyDimensionHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyFontCompositeHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyFontHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyMarginHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyPaddingHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\AbstractCSSPropertyTextHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\CSS2FontProperties.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\CSS2FontPropertiesImpl.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\CSS2PaddingPropertiesImpl.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\ICSSPropertyBackgroundHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\ICSSPropertyBorderHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\ICSSPropertyClassificationHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\ICSSPropertyDimensionHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\ICSSPropertyFontHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\ICSSPropertyMarginHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\ICSSPropertyPaddingHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\css2\ICSSPropertyTextHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\CSSBorderProperties.java
+	     org\eclipse\e4\ui\css\core\dom\properties\Gradient.java
+	     org\eclipse\e4\ui\css\core\dom\properties\ICSSPropertyCompositeHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\ICSSPropertyHandler.java
+	     org\eclipse\e4\ui\css\core\dom\properties\ICSSPropertyHandler2.java
+	     org\eclipse\e4\ui\css\core\dom\properties\ICSSPropertyHandler2Delegate.java
+	     org\eclipse\e4\ui\css\core\dom\properties\ICSSPropertyHandlerProvider.java
+	     org\eclipse\e4\ui\css\core\dom\properties\providers\AbstractCSSPropertyHandlerProvider.java
+	     org\eclipse\e4\ui\css\core\dom\properties\providers\CSSPropertyHandlerLazyProviderImpl.java
+	     org\eclipse\e4\ui\css\core\dom\properties\providers\CSSPropertyHandlerSimpleProviderImpl.java
+	     org\eclipse\e4\ui\css\core\engine\CSSElementContext.java
+	     org\eclipse\e4\ui\css\core\engine\CSSEngine.java
+	     org\eclipse\e4\ui\css\core\engine\CSSErrorHandler.java
+	     org\eclipse\e4\ui\css\core\exceptions\DOMExceptionImpl.java
+	     org\eclipse\e4\ui\css\core\exceptions\ExceptionResource.java
+	     org\eclipse\e4\ui\css\core\exceptions\UnsupportedClassCSSPropertyException.java
+	     org\eclipse\e4\ui\css\core\exceptions\UnsupportedPropertyException.java
+	     org\eclipse\e4\ui\css\core\impl\dom\AbstractCSSNode.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CounterImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSS2PropertiesImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSComputedStyleImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSExtendedPropertiesImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSFontFaceRuleImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSImportRuleImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSMediaRuleImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSPageRuleImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSPropertyImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSPropertyListImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSRuleImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSRuleListImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSStyleDeclarationImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSStyleRuleImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSStyleSheetImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSUnknownRuleImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSValueFactory.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSValueImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\CSSValueListImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\DocumentCSSImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\Measure.java
+	     org\eclipse\e4\ui\css\core\impl\dom\MediaListImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\parsers\AbstractCSSParser.java
+	     org\eclipse\e4\ui\css\core\impl\dom\parsers\CSSParserFactoryImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\parsers\CSSParserImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\properties\CSSBorderPropertiesImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\RectImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\RGBColorImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\StyleSheetListImpl.java
+	     org\eclipse\e4\ui\css\core\impl\dom\ViewCSSImpl.java
+	     org\eclipse\e4\ui\css\core\impl\engine\AbstractCSSEngine.java
+	     org\eclipse\e4\ui\css\core\impl\engine\CSSElementContextImpl.java
+	     org\eclipse\e4\ui\css\core\impl\engine\CSSEngineImpl.java
+	     org\eclipse\e4\ui\css\core\impl\engine\CSSErrorHandlerImpl.java
+	     org\eclipse\e4\ui\css\core\impl\engine\RegistryCSSElementProvider.java
+	     org\eclipse\e4\ui\css\core\impl\engine\RegistryCSSPropertyHandlerProvider.java
+	     org\eclipse\e4\ui\css\core\impl\sac\AbstractAttributeCondition.java
+	     org\eclipse\e4\ui\css\core\impl\sac\AbstractCombinatorCondition.java
+	     org\eclipse\e4\ui\css\core\impl\sac\AbstractDescendantSelector.java
+	     org\eclipse\e4\ui\css\core\impl\sac\AbstractElementSelector.java
+	     org\eclipse\e4\ui\css\core\impl\sac\AbstractSiblingSelector.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSAndConditionImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSAttributeConditionImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSBeginHyphenAttributeConditionImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSChildSelectorImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSClassConditionImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSConditionalSelectorImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSConditionFactoryImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSDescendantSelectorImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSDirectAdjacentSelectorImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSDocumentHandlerImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSElementSelectorImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSIdConditionImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSLangConditionImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSOneOfAttributeConditionImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSPseudoClassConditionImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSPseudoElementSelectorImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\CSSSelectorFactoryImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\DocumentHandlerFactoryImpl.java
+	     org\eclipse\e4\ui\css\core\impl\sac\ExtendedCondition.java
+	     org\eclipse\e4\ui\css\core\impl\sac\ExtendedSelector.java
+	     org\eclipse\e4\ui\css\core\impl\sac\SACParserFactoryImpl.java
+	     org\eclipse\e4\ui\css\core\resources\AbstractResourcesRegistry.java
+	     org\eclipse\e4\ui\css\core\resources\CSSResourcesHelpers.java
+	     org\eclipse\e4\ui\css\core\resources\IResourcesRegistry.java
+	     org\eclipse\e4\ui\css\core\resources\ResourceRegistryKeyFactory.java
+	     org\eclipse\e4\ui\css\core\SACConstants.java
+	     org\eclipse\e4\ui\css\core\sac\DocumentHandlerFactory.java
+	     org\eclipse\e4\ui\css\core\sac\ExtendedDocumentHandler.java
+	     org\eclipse\e4\ui\css\core\sac\IDocumentHandlerFactory.java
+	     org\eclipse\e4\ui\css\core\sac\ISACParserFactory.java
+	     org\eclipse\e4\ui\css\core\sac\ParserNotFoundException.java
+	     org\eclipse\e4\ui\css\core\sac\SACParserFactory.java
+	     org\eclipse\e4\ui\css\core\serializers\CSSHTMLSerializerConfiguration.java
+	     org\eclipse\e4\ui\css\core\serializers\CSSSerializer.java
+	     org\eclipse\e4\ui\css\core\serializers\CSSSerializerConfiguration.java
+	     org\eclipse\e4\ui\css\core\utils\ClassUtils.java
+	     org\eclipse\e4\ui\css\core\utils\StringUtils.java
+	     org\eclipse\e4\ui\css\core\util\impl\resources\FileResourcesLocatorImpl.java
+	     org\eclipse\e4\ui\css\core\util\impl\resources\HttpResourcesLocatorImpl.java
+	     org\eclipse\e4\ui\css\core\util\impl\resources\OSGiResourceLocator.java
+	     org\eclipse\e4\ui\css\core\util\impl\resources\ResourcesLocatorManager.java
+	     org\eclipse\e4\ui\css\core\util\resources\IResourceLocator.java
+	     org\eclipse\e4\ui\css\core\util\resources\IResourcesLocatorManager.java
+	     org\eclipse\e4\ui\css\core\util\resources\IURIResolver.java
+	     org\eclipse\e4\ui\css\xml\engine\CSSXMLEngineImpl.java
+	     org\eclipse\e4\ui\css\xml\properties\css2\CSSPropertyBackgroundXMLHandler.java
+	     org\eclipse\e4\ui\css\xml\properties\css2\CSSPropertyFontXMLHandler.java
+	     org\eclipse\e4\ui\css\xml\properties\css2\CSSPropertyTextXMLHandler.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.ui.css.core.jar" path="org.eclipse.e4.ui.css.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.batik.css"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-other-org.w3c.css.sac"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

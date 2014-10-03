@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.jobs.jar" path="org.eclipse.core.jobs"/>
+	<!-- org\eclipse\core\internal\jobs\Counter.java
+	     org\eclipse\core\internal\jobs\InternalJob.java
+	     org\eclipse\core\internal\jobs\InternalWorker.java
+	     org\eclipse\core\internal\jobs\JobActivator.java
+	     org\eclipse\core\internal\jobs\JobChangeEvent.java
+	     org\eclipse\core\internal\jobs\JobManager.java
+	     org\eclipse\core\internal\jobs\JobMessages.java
+	     org\eclipse\core\internal\jobs\JobQueue.java
+	     org\eclipse\core\internal\jobs\JobStatus.java
+	     org\eclipse\core\internal\jobs\LockManager.java
+	     org\eclipse\core\internal\jobs\messages.properties
+	     org\eclipse\core\internal\jobs\ObjectMap.java
+	     org\eclipse\core\internal\jobs\OrderedLock.java
+	     org\eclipse\core\internal\jobs\Queue.java
+	     org\eclipse\core\internal\jobs\Semaphore.java
+	     org\eclipse\core\internal\jobs\Worker.java
+	     org\eclipse\core\runtime\jobs\IJobChangeEvent.java
+	     org\eclipse\core\runtime\jobs\IJobChangeListener.java
+	     org\eclipse\core\runtime\jobs\IJobFunction.java
+	     org\eclipse\core\runtime\jobs\IJobManager.java
+	     org\eclipse\core\runtime\jobs\IJobStatus.java
+	     org\eclipse\core\runtime\jobs\ILock.java
+	     org\eclipse\core\runtime\jobs\ISchedulingRule.java
+	     org\eclipse\core\runtime\jobs\Job.java
+	     org\eclipse\core\runtime\jobs\JobChangeAdapter.java
+	     org\eclipse\core\runtime\jobs\LockListener.java
+	     org\eclipse\core\runtime\jobs\MultiRule.java
+	     org\eclipse\core\runtime\jobs\ProgressProvider.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.jobs.jar" path="org.eclipse.core.jobs/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

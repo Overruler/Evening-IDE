@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     fragment.properties
+	     META-INF\MANIFEST.MF -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.core.runtime.compatibility.registry" path="org.eclipse.core.runtime.compatibility.registry"/>
+	<!-- org\eclipse\core\internal\registry\BundleHelper.java
+	     org\eclipse\core\internal\registry\ExtensionHandle.java
+	     org\eclipse\core\internal\registry\ExtensionPointHandle.java
+	     org\eclipse\core\internal\registry\RegistryCompatibilityHelper.java
+	     org\eclipse\core\runtime\IExtension.java
+	     org\eclipse\core\runtime\IExtensionPoint.java -->
+	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.core.runtime.compatibility.registry/runtime_registry_compatibility.jar" path="org.eclipse.core.runtime.compatibility.registry/src"/>
+	<!-- runtime_registry_compatibility.jar\META-INF\MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.runtime.compatibility.registry" path="res"/>
+	<!-- org\eclipse\core\runtime\IPluginDescriptor.java -->
+	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.core.runtime.compatibility.registry/runtime_registry_compatibility.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

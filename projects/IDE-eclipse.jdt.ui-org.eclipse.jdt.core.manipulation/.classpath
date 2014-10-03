@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="common/|refactoring/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.core.manipulation.jar" path="org.eclipse.jdt.core.manipulation"/>
+	<!-- org\eclipse\jdt\core\manipulation\JavaManipulation.java
+	     org\eclipse\jdt\internal\core\manipulation\IStatusConstants.java
+	     org\eclipse\jdt\internal\core\manipulation\JavaElementPropertyTester.java
+	     org\eclipse\jdt\internal\core\manipulation\JavaManipulationMessages.java
+	     org\eclipse\jdt\internal\core\manipulation\JavaManipulationMessages.properties
+	     org\eclipse\jdt\internal\core\manipulation\JavaManipulationPlugin.java
+	     org\eclipse\jdt\internal\core\manipulation\Messages.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.core.manipulation.jar" path="org.eclipse.jdt.core.manipulation/common"/>
+	<!-- org\eclipse\jdt\core\refactoring\CompilationUnitChange.java
+	     org\eclipse\jdt\core\refactoring\descriptors\ChangeMethodSignatureDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\ConvertAnonymousDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\ConvertLocalVariableDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\ConvertMemberTypeDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\CopyDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\DeleteDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\EncapsulateFieldDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\ExtractClassDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\ExtractConstantDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\ExtractInterfaceDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\ExtractLocalDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\ExtractMethodDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\ExtractSuperclassDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\GeneralizeTypeDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\InferTypeArgumentsDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\InlineConstantDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\InlineLocalVariableDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\InlineMethodDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\IntroduceFactoryDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\IntroduceIndirectionDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\IntroduceParameterDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\IntroduceParameterObjectDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\JavaRefactoringContribution.java
+	     org\eclipse\jdt\core\refactoring\descriptors\JavaRefactoringDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\MoveDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\MoveMethodDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\MoveStaticMembersDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\PullUpDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\PushDownDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\RenameJavaElementDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\RenameLocalVariableDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\RenameResourceDescriptor.java
+	     org\eclipse\jdt\core\refactoring\descriptors\UseSupertypeDescriptor.java
+	     org\eclipse\jdt\core\refactoring\IJavaElementMapper.java
+	     org\eclipse\jdt\core\refactoring\IJavaRefactorings.java
+	     org\eclipse\jdt\core\refactoring\participants\ChangeMethodSignatureArguments.java
+	     org\eclipse\jdt\core\refactoring\participants\ChangeMethodSignatureParticipant.java
+	     org\eclipse\jdt\core\refactoring\participants\IRefactoringProcessorIds.java
+	     org\eclipse\jdt\core\refactoring\participants\JavaParticipantManager.java
+	     org\eclipse\jdt\core\refactoring\RenameTypeArguments.java
+	     org\eclipse\jdt\internal\core\refactoring\descriptors\DescriptorMessages.java
+	     org\eclipse\jdt\internal\core\refactoring\descriptors\DescriptorMessages.properties
+	     org\eclipse\jdt\internal\core\refactoring\descriptors\JavaRefactoringDescriptorUtil.java
+	     org\eclipse\jdt\internal\core\refactoring\descriptors\RefactoringSignatureDescriptorFactory.java
+	     org\eclipse\jdt\internal\core\refactoring\descriptors\RenameResourceRefactoringContribution.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.core.manipulation.jar" path="org.eclipse.jdt.core.manipulation/refactoring"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.core.refactoring"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.text"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

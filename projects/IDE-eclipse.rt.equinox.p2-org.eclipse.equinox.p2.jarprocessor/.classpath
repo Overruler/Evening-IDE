@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.jarprocessor.jar" path="org.eclipse.equinox.p2.jarprocessor"/>
+	<!-- org\eclipse\equinox\internal\p2\jarprocessor\CommandStep.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\Main.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\pack-readme.html
+	     org\eclipse\equinox\internal\p2\jarprocessor\PackStep.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\PackUnpackStep.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\SignCommandStep.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\StreamProcessor.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\StreamProcessorJob.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\UnpackStep.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\unsigner\UnsignCommand.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\unsigner\Unsigner.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\Utils.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\verifier\Verifier.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\verifier\VerifyStep.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\ZipProcessor.java
+	     org\eclipse\internal\provisional\equinox\p2\jarprocessor\IProcessStep.java
+	     org\eclipse\internal\provisional\equinox\p2\jarprocessor\JarProcessor.java
+	     org\eclipse\internal\provisional\equinox\p2\jarprocessor\JarProcessorExecutor.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.jarprocessor.jar" path="org.eclipse.equinox.p2.jarprocessor/src"/>
+	<!-- org\eclipse\equinox\internal\p2\jarprocessor\ant\AntBasedProcessorExecutor.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\ant\AntSignCommand.java
+	     org\eclipse\equinox\internal\p2\jarprocessor\ant\JarProcessorTask.java -->
+	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.equinox.p2.jarprocessor.jar/lib/jarprocessor-ant.jar" path="org.eclipse.equinox.p2.jarprocessor/src_ant"/>
+	<!-- lib\jarprocessor-ant.jar\META-INF\MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.jarprocessor.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-DocURL: http://www.apache.org/
+Bundle-Localization: plugin
+Bundle-SymbolicName: org.apache.felix.gogo.runtime
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/org.apache.felix.gogo.runtime;tag=v201209301036
+Bundle-Activator: org.apache.felix.gogo.runtime.activator.Activator
+Export-Package: org.apache.felix.service.command;status=provisional;ma
+ ndatory:=status;version="0.10.0",org.apache.felix.gogo.api;uses:="org
+ .apache.felix.service.command";version="0.10.0",org.apache.felix.serv
+ ice.threadio;status=provisional;mandatory:=status;version="0.10.0"
+Bundle-Version: 0.10.0.v201209301036
+Bundle-Description: Apache Felix Gogo Subproject
+Bundle-Vendor: %providerName
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Name: %pluginName
+Import-Package: org.apache.felix.gogo.api;version="0.10.0",org.apache.
+ felix.service.command;status=provisional;version="0.10.0",org.apache.
+ felix.service.threadio;status=provisional;version="0.10.0",org.osgi.f
+ ramework,org.osgi.service.event;resolution:=optional,org.osgi.util.tr
+ acker
+Bundle-ManifestVersion: 2

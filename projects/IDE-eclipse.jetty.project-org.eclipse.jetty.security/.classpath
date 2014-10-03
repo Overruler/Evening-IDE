@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\eclipse\jetty\security\authentication\BasicAuthenticator.java
+	     org\eclipse\jetty\security\authentication\ClientCertAuthenticator.java
+	     org\eclipse\jetty\security\authentication\DeferredAuthentication.java
+	     org\eclipse\jetty\security\authentication\DigestAuthenticator.java
+	     org\eclipse\jetty\security\authentication\FormAuthenticator.java
+	     org\eclipse\jetty\security\authentication\LoginAuthenticator.java
+	     org\eclipse\jetty\security\authentication\LoginCallback.java
+	     org\eclipse\jetty\security\authentication\LoginCallbackImpl.java
+	     org\eclipse\jetty\security\authentication\SessionAuthentication.java
+	     org\eclipse\jetty\security\authentication\SpnegoAuthenticator.java
+	     org\eclipse\jetty\security\Authenticator.java
+	     org\eclipse\jetty\security\ConstraintAware.java
+	     org\eclipse\jetty\security\ConstraintMapping.java
+	     org\eclipse\jetty\security\ConstraintSecurityHandler.java
+	     org\eclipse\jetty\security\CrossContextPsuedoSession.java
+	     org\eclipse\jetty\security\DefaultAuthenticatorFactory.java
+	     org\eclipse\jetty\security\DefaultIdentityService.java
+	     org\eclipse\jetty\security\DefaultUserIdentity.java
+	     org\eclipse\jetty\security\HashCrossContextPsuedoSession.java
+	     org\eclipse\jetty\security\HashLoginService.java
+	     org\eclipse\jetty\security\IdentityService.java
+	     org\eclipse\jetty\security\JDBCLoginService.java
+	     org\eclipse\jetty\security\LoginService.java
+	     org\eclipse\jetty\security\MappedLoginService.java
+	     org\eclipse\jetty\security\PropertyUserStore.java
+	     org\eclipse\jetty\security\RoleInfo.java
+	     org\eclipse\jetty\security\RoleRunAsToken.java
+	     org\eclipse\jetty\security\RunAsToken.java
+	     org\eclipse\jetty\security\SecurityHandler.java
+	     org\eclipse\jetty\security\ServerAuthException.java
+	     org\eclipse\jetty\security\SpnegoLoginService.java
+	     org\eclipse\jetty\security\SpnegoUserIdentity.java
+	     org\eclipse\jetty\security\SpnegoUserPrincipal.java
+	     org\eclipse\jetty\security\UserAuthentication.java
+	     org\eclipse\jetty\security\UserDataConstraint.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.security.jar" path="jetty-security/src/main/java"/>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     META-INF\maven\org.eclipse.jetty\jetty-security\pom.properties
+	     META-INF\maven\org.eclipse.jetty\jetty-security\pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.security.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.http"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.io"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.server"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.util"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

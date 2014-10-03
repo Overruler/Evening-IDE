@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\apache\http\client\fluent\Async.java
+	     org\apache\http\client\fluent\Content.java
+	     org\apache\http\client\fluent\Executor.java
+	     org\apache\http\client\fluent\Form.java
+	     org\apache\http\client\fluent\Request.java
+	     org\apache\http\client\fluent\Response.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/fluent-hc/src/main/java"/>
+	<!-- org\apache\http\client\cache\CacheResponseStatus.java
+	     org\apache\http\client\cache\HeaderConstants.java
+	     org\apache\http\client\cache\HttpCacheEntry.java
+	     org\apache\http\client\cache\HttpCacheEntrySerializationException.java
+	     org\apache\http\client\cache\HttpCacheEntrySerializer.java
+	     org\apache\http\client\cache\HttpCacheStorage.java
+	     org\apache\http\client\cache\HttpCacheUpdateCallback.java
+	     org\apache\http\client\cache\HttpCacheUpdateException.java
+	     org\apache\http\client\cache\InputLimit.java
+	     org\apache\http\client\cache\Resource.java
+	     org\apache\http\client\cache\ResourceFactory.java
+	     org\apache\http\impl\client\cache\BasicHttpCacheStorage.java
+	     org\apache\http\impl\client\cache\CacheConfig.java
+	     org\apache\http\impl\client\cache\DefaultHttpCacheEntrySerializer.java
+	     org\apache\http\impl\client\cache\ehcache\EhcacheHttpCacheStorage.java
+	     org\apache\http\impl\client\cache\FileResource.java
+	     org\apache\http\impl\client\cache\FileResourceFactory.java
+	     org\apache\http\impl\client\cache\HeapResource.java
+	     org\apache\http\impl\client\cache\HeapResourceFactory.java
+	     org\apache\http\impl\client\cache\ManagedHttpCacheStorage.java
+	     org\apache\http\impl\client\cache\memcached\KeyHashingScheme.java
+	     org\apache\http\impl\client\cache\memcached\MemcachedCacheEntry.java
+	     org\apache\http\impl\client\cache\memcached\MemcachedCacheEntryFactory.java
+	     org\apache\http\impl\client\cache\memcached\MemcachedCacheEntryFactoryImpl.java
+	     org\apache\http\impl\client\cache\memcached\MemcachedCacheEntryImpl.java
+	     org\apache\http\impl\client\cache\memcached\MemcachedHttpCacheStorage.java
+	     org\apache\http\impl\client\cache\memcached\MemcachedKeyHashingException.java
+	     org\apache\http\impl\client\cache\memcached\MemcachedSerializationException.java
+	     org\apache\http\impl\client\cache\memcached\PrefixKeyHashingScheme.java
+	     org\apache\http\impl\client\cache\memcached\SHA256KeyHashingScheme.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient-cache/src/main/java"/>
+	<!-- org\apache\http\impl\client\cache\CachingHttpClient.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient-cache/src/main/java-deprecated"/>
+	<!-- org\apache\http\osgi\impl\OSGiClientBuilderFactory.java
+	     org\apache\http\osgi\services\HttpClientBuilderFactory.java -->
+	<classpathentry including="org/apache/http/osgi/impl/|org/apache/http/osgi/services/" kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient-osgi/src/main/java"/>
+	<!-- org\apache\http\auth\AUTH.java
+	     org\apache\http\auth\AuthenticationException.java
+	     org\apache\http\auth\AuthOption.java
+	     org\apache\http\auth\AuthProtocolState.java
+	     org\apache\http\auth\AuthScheme.java
+	     org\apache\http\auth\AuthSchemeFactory.java
+	     org\apache\http\auth\AuthSchemeRegistry.java
+	     org\apache\http\auth\AuthScope.java
+	     org\apache\http\auth\AuthState.java
+	     org\apache\http\auth\BasicUserPrincipal.java
+	     org\apache\http\auth\ChallengeState.java
+	     org\apache\http\auth\ContextAwareAuthScheme.java
+	     org\apache\http\auth\Credentials.java
+	     org\apache\http\auth\InvalidCredentialsException.java
+	     org\apache\http\auth\MalformedChallengeException.java
+	     org\apache\http\auth\NTCredentials.java
+	     org\apache\http\auth\NTUserPrincipal.java
+	     org\apache\http\auth\params\AuthPNames.java
+	     org\apache\http\auth\UsernamePasswordCredentials.java
+	     org\apache\http\client\AuthCache.java
+	     org\apache\http\client\AuthenticationStrategy.java
+	     org\apache\http\client\BackoffManager.java
+	     org\apache\http\client\CircularRedirectException.java
+	     org\apache\http\client\ClientProtocolException.java
+	     org\apache\http\client\ConnectionBackoffStrategy.java
+	     org\apache\http\client\CookieStore.java
+	     org\apache\http\client\CredentialsProvider.java
+	     org\apache\http\client\entity\DeflateDecompressingEntity.java
+	     org\apache\http\client\entity\GzipDecompressingEntity.java
+	     org\apache\http\client\entity\UrlEncodedFormEntity.java
+	     org\apache\http\client\HttpClient.java
+	     org\apache\http\client\HttpRequestRetryHandler.java
+	     org\apache\http\client\HttpResponseException.java
+	     org\apache\http\client\methods\AbortableHttpRequest.java
+	     org\apache\http\client\methods\HttpDelete.java
+	     org\apache\http\client\methods\HttpEntityEnclosingRequestBase.java
+	     org\apache\http\client\methods\HttpGet.java
+	     org\apache\http\client\methods\HttpHead.java
+	     org\apache\http\client\methods\HttpOptions.java
+	     org\apache\http\client\methods\HttpPatch.java
+	     org\apache\http\client\methods\HttpPost.java
+	     org\apache\http\client\methods\HttpPut.java
+	     org\apache\http\client\methods\HttpRequestBase.java
+	     org\apache\http\client\methods\HttpTrace.java
+	     org\apache\http\client\methods\HttpUriRequest.java
+	     org\apache\http\client\NonRepeatableRequestException.java
+	     org\apache\http\client\params\AllClientPNames.java
+	     org\apache\http\client\params\ClientPNames.java
+	     org\apache\http\client\protocol\RequestAcceptEncoding.java
+	     org\apache\http\client\protocol\RequestAddCookies.java
+	     org\apache\http\client\protocol\RequestAuthCache.java
+	     org\apache\http\client\protocol\RequestClientConnControl.java
+	     org\apache\http\client\protocol\RequestDefaultHeaders.java
+	     org\apache\http\client\protocol\ResponseContentEncoding.java
+	     org\apache\http\client\protocol\ResponseProcessCookies.java
+	     org\apache\http\client\RedirectException.java
+	     org\apache\http\client\RedirectStrategy.java
+	     org\apache\http\client\ResponseHandler.java
+	     org\apache\http\client\ServiceUnavailableRetryStrategy.java
+	     org\apache\http\client\UserTokenHandler.java
+	     org\apache\http\client\utils\CloneUtils.java
+	     org\apache\http\client\utils\HttpClientUtils.java
+	     org\apache\http\client\utils\URIBuilder.java
+	     org\apache\http\client\utils\URIUtils.java
+	     org\apache\http\client\utils\URLEncodedUtils.java
+	     org\apache\http\conn\ClientConnectionManager.java
+	     org\apache\http\conn\ClientConnectionRequest.java
+	     org\apache\http\conn\ConnectionKeepAliveStrategy.java
+	     org\apache\http\conn\ConnectionPoolTimeoutException.java
+	     org\apache\http\conn\ConnectionReleaseTrigger.java
+	     org\apache\http\conn\ConnectTimeoutException.java
+	     org\apache\http\conn\DnsResolver.java
+	     org\apache\http\conn\EofSensorInputStream.java
+	     org\apache\http\conn\EofSensorWatcher.java
+	     org\apache\http\conn\HttpHostConnectException.java
+	     org\apache\http\conn\HttpInetSocketAddress.java
+	     org\apache\http\conn\HttpRoutedConnection.java
+	     org\apache\http\conn\ManagedClientConnection.java
+	     org\apache\http\conn\params\ConnConnectionPNames.java
+	     org\apache\http\conn\params\ConnManagerPNames.java
+	     org\apache\http\conn\params\ConnRoutePNames.java
+	     org\apache\http\conn\routing\BasicRouteDirector.java
+	     org\apache\http\conn\routing\HttpRoute.java
+	     org\apache\http\conn\routing\HttpRouteDirector.java
+	     org\apache\http\conn\routing\HttpRoutePlanner.java
+	     org\apache\http\conn\routing\RouteInfo.java
+	     org\apache\http\conn\routing\RouteTracker.java
+	     org\apache\http\conn\scheme\LayeredSchemeSocketFactory.java
+	     org\apache\http\conn\scheme\LayeredSocketFactory.java
+	     org\apache\http\conn\scheme\Scheme.java
+	     org\apache\http\conn\scheme\SchemeLayeredSocketFactory.java
+	     org\apache\http\conn\scheme\SchemeRegistry.java
+	     org\apache\http\conn\scheme\SchemeSocketFactory.java
+	     org\apache\http\conn\scheme\SocketFactory.java
+	     org\apache\http\conn\ssl\AbstractVerifier.java
+	     org\apache\http\conn\ssl\AllowAllHostnameVerifier.java
+	     org\apache\http\conn\ssl\BrowserCompatHostnameVerifier.java
+	     org\apache\http\conn\ssl\SSLInitializationException.java
+	     org\apache\http\conn\ssl\StrictHostnameVerifier.java
+	     org\apache\http\conn\ssl\TrustSelfSignedStrategy.java
+	     org\apache\http\conn\ssl\TrustStrategy.java
+	     org\apache\http\conn\ssl\X509HostnameVerifier.java
+	     org\apache\http\conn\util\InetAddressUtils.java
+	     org\apache\http\cookie\ClientCookie.java
+	     org\apache\http\cookie\Cookie.java
+	     org\apache\http\cookie\CookieAttributeHandler.java
+	     org\apache\http\cookie\CookieIdentityComparator.java
+	     org\apache\http\cookie\CookieOrigin.java
+	     org\apache\http\cookie\CookiePathComparator.java
+	     org\apache\http\cookie\CookieRestrictionViolationException.java
+	     org\apache\http\cookie\CookieSpec.java
+	     org\apache\http\cookie\CookieSpecFactory.java
+	     org\apache\http\cookie\CookieSpecRegistry.java
+	     org\apache\http\cookie\MalformedCookieException.java
+	     org\apache\http\cookie\params\CookieSpecPNames.java
+	     org\apache\http\cookie\SetCookie.java
+	     org\apache\http\cookie\SetCookie2.java
+	     org\apache\http\cookie\SM.java
+	     org\apache\http\impl\auth\AuthSchemeBase.java
+	     org\apache\http\impl\auth\BasicScheme.java
+	     org\apache\http\impl\auth\BasicSchemeFactory.java
+	     org\apache\http\impl\auth\DigestScheme.java
+	     org\apache\http\impl\auth\DigestSchemeFactory.java
+	     org\apache\http\impl\auth\GGSSchemeBase.java
+	     org\apache\http\impl\auth\KerberosScheme.java
+	     org\apache\http\impl\auth\KerberosSchemeFactory.java
+	     org\apache\http\impl\auth\NTLMEngine.java
+	     org\apache\http\impl\auth\NTLMEngineException.java
+	     org\apache\http\impl\auth\NTLMScheme.java
+	     org\apache\http\impl\auth\NTLMSchemeFactory.java
+	     org\apache\http\impl\auth\RFC2617Scheme.java
+	     org\apache\http\impl\auth\SPNegoScheme.java
+	     org\apache\http\impl\auth\SPNegoSchemeFactory.java
+	     org\apache\http\impl\auth\UnsupportedDigestAlgorithmException.java
+	     org\apache\http\impl\client\AIMDBackoffManager.java
+	     org\apache\http\impl\client\BasicAuthCache.java
+	     org\apache\http\impl\client\BasicCookieStore.java
+	     org\apache\http\impl\client\BasicCredentialsProvider.java
+	     org\apache\http\impl\client\BasicResponseHandler.java
+	     org\apache\http\impl\client\DefaultBackoffStrategy.java
+	     org\apache\http\impl\client\DefaultConnectionKeepAliveStrategy.java
+	     org\apache\http\impl\client\DefaultHttpRequestRetryHandler.java
+	     org\apache\http\impl\client\DefaultRedirectStrategy.java
+	     org\apache\http\impl\client\DefaultServiceUnavailableRetryStrategy.java
+	     org\apache\http\impl\client\DefaultUserTokenHandler.java
+	     org\apache\http\impl\client\EntityEnclosingRequestWrapper.java
+	     org\apache\http\impl\client\LaxRedirectStrategy.java
+	     org\apache\http\impl\client\NullBackoffStrategy.java
+	     org\apache\http\impl\client\ProxyAuthenticationStrategy.java
+	     org\apache\http\impl\client\ProxyClient.java
+	     org\apache\http\impl\client\RedirectLocations.java
+	     org\apache\http\impl\client\RequestWrapper.java
+	     org\apache\http\impl\client\StandardHttpRequestRetryHandler.java
+	     org\apache\http\impl\client\TargetAuthenticationStrategy.java
+	     org\apache\http\impl\conn\ConnectionShutdownException.java
+	     org\apache\http\impl\conn\DefaultHttpResponseParser.java
+	     org\apache\http\impl\conn\InMemoryDnsResolver.java
+	     org\apache\http\impl\conn\SystemDefaultDnsResolver.java
+	     org\apache\http\impl\conn\Wire.java
+	     org\apache\http\impl\cookie\AbstractCookieAttributeHandler.java
+	     org\apache\http\impl\cookie\AbstractCookieSpec.java
+	     org\apache\http\impl\cookie\BasicClientCookie.java
+	     org\apache\http\impl\cookie\BasicClientCookie2.java
+	     org\apache\http\impl\cookie\BasicCommentHandler.java
+	     org\apache\http\impl\cookie\BasicDomainHandler.java
+	     org\apache\http\impl\cookie\BasicExpiresHandler.java
+	     org\apache\http\impl\cookie\BasicMaxAgeHandler.java
+	     org\apache\http\impl\cookie\BasicPathHandler.java
+	     org\apache\http\impl\cookie\BasicSecureHandler.java
+	     org\apache\http\impl\cookie\CookieSpecBase.java
+	     org\apache\http\impl\cookie\IgnoreSpec.java
+	     org\apache\http\impl\cookie\NetscapeDomainHandler.java
+	     org\apache\http\impl\cookie\NetscapeDraftHeaderParser.java
+	     org\apache\http\impl\cookie\NetscapeDraftSpec.java
+	     org\apache\http\impl\cookie\RFC2109DomainHandler.java
+	     org\apache\http\impl\cookie\RFC2109Spec.java
+	     org\apache\http\impl\cookie\RFC2109VersionHandler.java
+	     org\apache\http\impl\cookie\RFC2965CommentUrlAttributeHandler.java
+	     org\apache\http\impl\cookie\RFC2965DiscardAttributeHandler.java
+	     org\apache\http\impl\cookie\RFC2965DomainAttributeHandler.java
+	     org\apache\http\impl\cookie\RFC2965PortAttributeHandler.java
+	     org\apache\http\impl\cookie\RFC2965Spec.java
+	     org\apache\http\impl\cookie\RFC2965VersionAttributeHandler.java
+	     org\apache\http\impl\execchain\BackoffStrategyExec.java -->
+	<classpathentry including="org/apache/http/auth/|org/apache/http/auth/params/|org/apache/http/client/|org/apache/http/client/entity/|org/apache/http/client/methods/|org/apache/http/client/params/|org/apache/http/client/protocol/|org/apache/http/client/utils/|org/apache/http/conn/|org/apache/http/conn/params/|org/apache/http/conn/routing/|org/apache/http/conn/scheme/|org/apache/http/conn/ssl/|org/apache/http/conn/util/|org/apache/http/cookie/|org/apache/http/cookie/params/|org/apache/http/impl/auth/|org/apache/http/impl/client/|org/apache/http/impl/conn/|org/apache/http/impl/cookie/|org/apache/http/impl/execchain/" kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient/src/main/java"/>
+	<!-- org\apache\http\auth\params\AuthParamBean.java
+	     org\apache\http\auth\params\AuthParams.java
+	     org\apache\http\client\AuthenticationHandler.java
+	     org\apache\http\client\params\AuthPolicy.java
+	     org\apache\http\client\params\ClientParamBean.java
+	     org\apache\http\client\params\CookiePolicy.java
+	     org\apache\http\client\params\HttpClientParams.java
+	     org\apache\http\client\protocol\ClientContext.java
+	     org\apache\http\client\protocol\ClientContextConfigurer.java
+	     org\apache\http\client\protocol\RequestProxyAuthentication.java
+	     org\apache\http\client\protocol\RequestTargetAuthentication.java
+	     org\apache\http\client\protocol\ResponseAuthCache.java
+	     org\apache\http\client\RedirectHandler.java
+	     org\apache\http\client\RequestDirector.java
+	     org\apache\http\client\utils\Idn.java
+	     org\apache\http\client\utils\JdkIdn.java
+	     org\apache\http\client\utils\Punycode.java
+	     org\apache\http\client\utils\Rfc3492Idn.java
+	     org\apache\http\conn\BasicEofSensorWatcher.java
+	     org\apache\http\conn\BasicManagedEntity.java
+	     org\apache\http\conn\ClientConnectionManagerFactory.java
+	     org\apache\http\conn\ClientConnectionOperator.java
+	     org\apache\http\conn\MultihomePlainSocketFactory.java
+	     org\apache\http\conn\OperatedClientConnection.java
+	     org\apache\http\conn\params\ConnConnectionParamBean.java
+	     org\apache\http\conn\params\ConnManagerParamBean.java
+	     org\apache\http\conn\params\ConnManagerParams.java
+	     org\apache\http\conn\params\ConnPerRoute.java
+	     org\apache\http\conn\params\ConnPerRouteBean.java
+	     org\apache\http\conn\params\ConnRouteParamBean.java
+	     org\apache\http\conn\params\ConnRouteParams.java
+	     org\apache\http\conn\scheme\HostNameResolver.java
+	     org\apache\http\conn\scheme\PlainSocketFactory.java
+	     org\apache\http\conn\ssl\SSLSocketFactory.java
+	     org\apache\http\cookie\params\CookieSpecParamBean.java
+	     org\apache\http\impl\auth\NegotiateScheme.java
+	     org\apache\http\impl\auth\NegotiateSchemeFactory.java
+	     org\apache\http\impl\auth\SpnegoTokenGenerator.java
+	     org\apache\http\impl\client\AbstractAuthenticationHandler.java
+	     org\apache\http\impl\client\AbstractHttpClient.java
+	     org\apache\http\impl\client\AutoRetryHttpClient.java
+	     org\apache\http\impl\client\ClientParamsStack.java
+	     org\apache\http\impl\client\ContentEncodingHttpClient.java
+	     org\apache\http\impl\client\DecompressingHttpClient.java
+	     org\apache\http\impl\client\DefaultHttpClient.java
+	     org\apache\http\impl\client\DefaultProxyAuthenticationHandler.java
+	     org\apache\http\impl\client\DefaultRedirectHandler.java
+	     org\apache\http\impl\client\DefaultRequestDirector.java
+	     org\apache\http\impl\client\DefaultTargetAuthenticationHandler.java
+	     org\apache\http\impl\client\HttpAuthenticator.java
+	     org\apache\http\impl\client\RoutedRequest.java
+	     org\apache\http\impl\client\SystemDefaultHttpClient.java
+	     org\apache\http\impl\client\TunnelRefusedException.java
+	     org\apache\http\impl\conn\AbstractClientConnAdapter.java
+	     org\apache\http\impl\conn\AbstractPooledConnAdapter.java
+	     org\apache\http\impl\conn\AbstractPoolEntry.java
+	     org\apache\http\impl\conn\BasicClientConnectionManager.java
+	     org\apache\http\impl\conn\DefaultClientConnection.java
+	     org\apache\http\impl\conn\DefaultClientConnectionOperator.java
+	     org\apache\http\impl\conn\DefaultHttpRoutePlanner.java
+	     org\apache\http\impl\conn\DefaultResponseParser.java
+	     org\apache\http\impl\conn\IdleConnectionHandler.java
+	     org\apache\http\impl\conn\LoggingSessionInputBuffer.java
+	     org\apache\http\impl\conn\LoggingSessionOutputBuffer.java
+	     org\apache\http\impl\conn\PoolingClientConnectionManager.java
+	     org\apache\http\impl\conn\ProxySelectorRoutePlanner.java
+	     org\apache\http\impl\conn\SchemeRegistryFactory.java
+	     org\apache\http\impl\conn\SingleClientConnManager.java
+	     org\apache\http\impl\conn\tsccm\AbstractConnPool.java
+	     org\apache\http\impl\conn\tsccm\BasicPooledConnAdapter.java
+	     org\apache\http\impl\conn\tsccm\BasicPoolEntry.java
+	     org\apache\http\impl\conn\tsccm\BasicPoolEntryRef.java
+	     org\apache\http\impl\conn\tsccm\ConnPoolByRoute.java
+	     org\apache\http\impl\conn\tsccm\PoolEntryRequest.java
+	     org\apache\http\impl\conn\tsccm\RouteSpecificPool.java
+	     org\apache\http\impl\conn\tsccm\ThreadSafeClientConnManager.java
+	     org\apache\http\impl\conn\tsccm\WaitingThread.java
+	     org\apache\http\impl\conn\tsccm\WaitingThreadAborter.java
+	     org\apache\http\impl\cookie\BestMatchSpec.java
+	     org\apache\http\impl\cookie\BestMatchSpecFactory.java
+	     org\apache\http\impl\cookie\BrowserCompatSpec.java
+	     org\apache\http\impl\cookie\BrowserCompatSpecFactory.java
+	     org\apache\http\impl\cookie\DateParseException.java
+	     org\apache\http\impl\cookie\DateUtils.java
+	     org\apache\http\impl\cookie\IgnoreSpecFactory.java
+	     org\apache\http\impl\cookie\NetscapeDraftSpecFactory.java
+	     org\apache\http\impl\cookie\PublicSuffixFilter.java
+	     org\apache\http\impl\cookie\PublicSuffixListParser.java
+	     org\apache\http\impl\cookie\RFC2109SpecFactory.java
+	     org\apache\http\impl\cookie\RFC2965SpecFactory.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient/src/main/java-deprecated"/>
+	<!-- org\apache\http\client\version.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient/src/main/resources"/>
+	<!-- org\apache\http\entity\mime\content\AbstractContentBody.java
+	     org\apache\http\entity\mime\content\ByteArrayBody.java
+	     org\apache\http\entity\mime\content\ContentBody.java
+	     org\apache\http\entity\mime\content\ContentDescriptor.java
+	     org\apache\http\entity\mime\content\FileBody.java
+	     org\apache\http\entity\mime\content\InputStreamBody.java
+	     org\apache\http\entity\mime\content\StringBody.java
+	     org\apache\http\entity\mime\FormBodyPart.java
+	     org\apache\http\entity\mime\Header.java
+	     org\apache\http\entity\mime\HttpMultipartMode.java
+	     org\apache\http\entity\mime\MIME.java
+	     org\apache\http\entity\mime\MinimalField.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpmime/src/main/java"/>
+	<!-- org\apache\http\entity\mime\HttpMultipart.java
+	     org\apache\http\entity\mime\MultipartEntity.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpmime/src/main/java-deprecated"/>
+	<!-- org\apache\http\entity\mime\version.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpmime/src/main/resources"/>
+	<!-- about.html
+	     about_files\LICENSE.txt
+	     about_files\NOTICE.txt
+	     about_files\README.txt
+	     about_files\RELEASE_NOTES.txt
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-various.caches"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.codec"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.logging"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.httpcomponents.httpcore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

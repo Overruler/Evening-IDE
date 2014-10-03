@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     about.mappings
+	     about.properties
+	     book.css
+	     cheatsheets\cvs_checkout.xml
+	     cheatsheets\cvs_merge.xml
+	     disabled_book.css
+	     eclipse1024.png
+	     eclipse128.png
+	     eclipse16.gif
+	     eclipse16.png
+	     eclipse22.png
+	     eclipse24.png
+	     eclipse256.gif
+	     eclipse256.png
+	     eclipse32.gif
+	     eclipse32.png
+	     eclipse48.gif
+	     eclipse48.png
+	     eclipse512.png
+	     eclipse64.png
+	     eclipse_lg.gif
+	     eclipse_lg.png
+	     helpData.xml
+	     images\dragHandle.png
+	     images\gtkHandle.png
+	     images\gtkTSFrame.png
+	     images\macGrey.png
+	     images\macHandle.png
+	     images\macTSFrame.png
+	     images\topiclabel\arrow.gif
+	     images\topiclabel\ov_teamsup48.gif
+	     images\topiclabel\ov_teamsup48_hov.gif
+	     images\topiclabel\ov_wbbasics48.gif
+	     images\topiclabel\ov_wbbasics48_hov.gif
+	     images\topiclabel\tu_checkout48.gif
+	     images\topiclabel\tu_checkout48_hov.gif
+	     images\topiclabel\tu_merge48.gif
+	     images\topiclabel\tu_merge48_hov.gif
+	     images\topiclabel\wn_eclcommunity48.gif
+	     images\topiclabel\wn_eclcommunity48_hov.gif
+	     images\topiclabel\wn_eclplatform48.png
+	     images\topiclabel\wn_eclplatform48_hov.png
+	     images\topiclabel\wn_migrate48.gif
+	     images\topiclabel\wn_migrate48_hov.gif
+	     images\topiclabel\wn_updates48.gif
+	     images\topiclabel\wn_updates48_hov.gif
+	     images\win7.png
+	     images\win7Handle.png
+	     images\win7TSFrame.png
+	     images\winClassicHandle.png
+	     images\winClassicTSFrame.png
+	     images\winXPBlue.png
+	     images\winXPBluHandle.png
+	     images\winXPBluTSFrame.png
+	     images\winXPHandle.png
+	     images\winXPOlive.png
+	     images\winXPTSFrame.png
+	     intro-eclipse.png
+	     introData.xml
+	     intro\css\migrate.css
+	     intro\css\migrate.properties
+	     intro\css\overview.css
+	     intro\css\overview.properties
+	     intro\css\tutorials.css
+	     intro\css\tutorials.properties
+	     intro\css\whatsnew.css
+	     intro\css\whatsnew.properties
+	     intro\migrateExtensionContent.xml
+	     intro\overviewExtensionContent.xml
+	     intro\tutorialsExtensionContent.xml
+	     intro\whatsnewExtensionContent1.xml
+	     intro\whatsnewExtensionContent2.xml
+	     intro\whatsnewExtensionContent3.xml
+	     LegacyIDE.e4xmi
+	     macosx_narrow_book.css
+	     META-INF\MANIFEST.MF
+	     narrow_book.css
+	     plugin.properties
+	     plugin.xml
+	     plugin_customization.ini
+	     plugin_customization.properties
+	     splash.bmp -->
+	<classpathentry excluding="src-intro/|.*|.*/" including="LegacyIDE.e4xmi|META-INF/|about.html|about.ini|about.mappings|about.properties|book.css|cheatsheets/|disabled_book.css|eclipse1024.png|eclipse128.png|eclipse16.gif|eclipse16.png|eclipse22.png|eclipse24.png|eclipse256.gif|eclipse256.png|eclipse32.gif|eclipse32.png|eclipse48.gif|eclipse48.png|eclipse512.png|eclipse64.png|eclipse_lg.gif|eclipse_lg.png|helpData.xml|images/|images/topiclabel/|intro-eclipse.png|intro/|intro/css/|introData.xml|macosx_narrow_book.css|narrow_book.css|plugin.properties|plugin.xml|plugin_customization.ini|plugin_customization.properties|splash.bmp" kind="src" output="bin/1/plugins/org.eclipse.platform" path="org.eclipse.platform"/>
+	<!-- org\eclipse\platform\internal\CheatSheetStandbyContent.java
+	     org\eclipse\platform\internal\LaunchUpdateIntroAction.java -->
+	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.platform/platform.jar" path="org.eclipse.platform/src-intro"/>
+	<!-- platform.jar\META-INF\MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.platform" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.ui.cheatsheets"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.ui.intro"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

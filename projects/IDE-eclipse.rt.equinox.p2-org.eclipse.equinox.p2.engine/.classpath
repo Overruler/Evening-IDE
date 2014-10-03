@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\engine.xml
+	     OSGI-INF\profileRegistry.xml
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|OSGI-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.engine.jar" path="org.eclipse.equinox.p2.engine"/>
+	<!-- org\eclipse\equinox\internal\p2\engine\ActionManager.java
+	     org\eclipse\equinox\internal\p2\engine\AssignVariableAction.java
+	     org\eclipse\equinox\internal\p2\engine\BeginOperationEvent.java
+	     org\eclipse\equinox\internal\p2\engine\CollectEvent.java
+	     org\eclipse\equinox\internal\p2\engine\CommitOperationEvent.java
+	     org\eclipse\equinox\internal\p2\engine\DebugHelper.java
+	     org\eclipse\equinox\internal\p2\engine\DownloadManager.java
+	     org\eclipse\equinox\internal\p2\engine\Engine.java
+	     org\eclipse\equinox\internal\p2\engine\EngineActivator.java
+	     org\eclipse\equinox\internal\p2\engine\EngineComponent.java
+	     org\eclipse\equinox\internal\p2\engine\EngineSession.java
+	     org\eclipse\equinox\internal\p2\engine\InstallableUnitEvent.java
+	     org\eclipse\equinox\internal\p2\engine\InstallableUnitOperand.java
+	     org\eclipse\equinox\internal\p2\engine\InstallableUnitPhase.java
+	     org\eclipse\equinox\internal\p2\engine\InstallableUnitPropertyOperand.java
+	     org\eclipse\equinox\internal\p2\engine\InstructionParser.java
+	     org\eclipse\equinox\internal\p2\engine\ISurrogateProfileHandler.java
+	     org\eclipse\equinox\internal\p2\engine\Messages.java
+	     org\eclipse\equinox\internal\p2\engine\messages.properties
+	     org\eclipse\equinox\internal\p2\engine\MissingAction.java
+	     org\eclipse\equinox\internal\p2\engine\MissingActionsException.java
+	     org\eclipse\equinox\internal\p2\engine\Operand.java
+	     org\eclipse\equinox\internal\p2\engine\ParameterizedProvisioningAction.java
+	     org\eclipse\equinox\internal\p2\engine\Phase.java
+	     org\eclipse\equinox\internal\p2\engine\PhaseEvent.java
+	     org\eclipse\equinox\internal\p2\engine\PhaseSet.java
+	     org\eclipse\equinox\internal\p2\engine\phases\CertificateChecker.java
+	     org\eclipse\equinox\internal\p2\engine\phases\CheckTrust.java
+	     org\eclipse\equinox\internal\p2\engine\phases\Collect.java
+	     org\eclipse\equinox\internal\p2\engine\phases\Configure.java
+	     org\eclipse\equinox\internal\p2\engine\phases\Install.java
+	     org\eclipse\equinox\internal\p2\engine\phases\Property.java
+	     org\eclipse\equinox\internal\p2\engine\phases\Sizing.java
+	     org\eclipse\equinox\internal\p2\engine\phases\Unconfigure.java
+	     org\eclipse\equinox\internal\p2\engine\phases\Uninstall.java
+	     org\eclipse\equinox\internal\p2\engine\Profile.java
+	     org\eclipse\equinox\internal\p2\engine\ProfileEvent.java
+	     org\eclipse\equinox\internal\p2\engine\ProfileLock.java
+	     org\eclipse\equinox\internal\p2\engine\ProfileMetadataRepository.java
+	     org\eclipse\equinox\internal\p2\engine\ProfileMetadataRepositoryFactory.java
+	     org\eclipse\equinox\internal\p2\engine\ProfileParser.java
+	     org\eclipse\equinox\internal\p2\engine\ProfilePreferences.java
+	     org\eclipse\equinox\internal\p2\engine\ProfileRegistryComponent.java
+	     org\eclipse\equinox\internal\p2\engine\ProfileWriter.java
+	     org\eclipse\equinox\internal\p2\engine\ProfileXMLConstants.java
+	     org\eclipse\equinox\internal\p2\engine\PropertyOperand.java
+	     org\eclipse\equinox\internal\p2\engine\ProvisioningPlan.java
+	     org\eclipse\equinox\internal\p2\engine\RollbackOperationEvent.java
+	     org\eclipse\equinox\internal\p2\engine\SharedProfilePreferences.java
+	     org\eclipse\equinox\internal\p2\engine\SimpleProfileRegistry.java
+	     org\eclipse\equinox\internal\p2\engine\SizingPhaseSet.java
+	     org\eclipse\equinox\internal\p2\engine\SlashEncode.java
+	     org\eclipse\equinox\internal\p2\engine\SurrogateProfileHandler.java
+	     org\eclipse\equinox\internal\p2\engine\TouchpointManager.java
+	     org\eclipse\equinox\internal\p2\engine\TransactionEvent.java
+	     org\eclipse\equinox\p2\engine\IEngine.java
+	     org\eclipse\equinox\p2\engine\IPhaseSet.java
+	     org\eclipse\equinox\p2\engine\IProfile.java
+	     org\eclipse\equinox\p2\engine\IProfileEvent.java
+	     org\eclipse\equinox\p2\engine\IProfileRegistry.java
+	     org\eclipse\equinox\p2\engine\IProvisioningPlan.java
+	     org\eclipse\equinox\p2\engine\ISizingPhaseSet.java
+	     org\eclipse\equinox\p2\engine\PhaseSetFactory.java
+	     org\eclipse\equinox\p2\engine\ProfileScope.java
+	     org\eclipse\equinox\p2\engine\ProvisioningContext.java
+	     org\eclipse\equinox\p2\engine\query\IUProfilePropertyQuery.java
+	     org\eclipse\equinox\p2\engine\query\UserVisibleRootQuery.java
+	     org\eclipse\equinox\p2\engine\spi\Memento.java
+	     org\eclipse\equinox\p2\engine\spi\ProvisioningAction.java
+	     org\eclipse\equinox\p2\engine\spi\Touchpoint.java
+	     org\eclipse\equinox\p2\engine\spi\Value.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.engine.jar" path="org.eclipse.equinox.p2.engine/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.preferences"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

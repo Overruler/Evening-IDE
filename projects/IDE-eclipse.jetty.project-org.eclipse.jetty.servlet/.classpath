@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\eclipse\jetty\servlet\DefaultServlet.java
+	     org\eclipse\jetty\servlet\ErrorPageErrorHandler.java
+	     org\eclipse\jetty\servlet\FilterHolder.java
+	     org\eclipse\jetty\servlet\FilterMapping.java
+	     org\eclipse\jetty\servlet\Holder.java
+	     org\eclipse\jetty\servlet\Invoker.java
+	     org\eclipse\jetty\servlet\jmx\FilterMappingMBean.java
+	     org\eclipse\jetty\servlet\jmx\HolderMBean.java
+	     org\eclipse\jetty\servlet\jmx\ServletMappingMBean.java
+	     org\eclipse\jetty\servlet\JspPropertyGroupServlet.java
+	     org\eclipse\jetty\servlet\listener\ELContextCleaner.java
+	     org\eclipse\jetty\servlet\listener\IntrospectorCleaner.java
+	     org\eclipse\jetty\servlet\NoJspServlet.java
+	     org\eclipse\jetty\servlet\ServletContextHandler.java
+	     org\eclipse\jetty\servlet\ServletHandler.java
+	     org\eclipse\jetty\servlet\ServletHolder.java
+	     org\eclipse\jetty\servlet\ServletMapping.java
+	     org\eclipse\jetty\servlet\StatisticsServlet.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.servlet.jar" path="jetty-servlet/src/main/java"/>
+	<!-- org\eclipse\jetty\servlet\jmx\FilterMapping-mbean.properties
+	     org\eclipse\jetty\servlet\jmx\Holder-mbean.properties
+	     org\eclipse\jetty\servlet\jmx\ServletContextHandler-mbean.properties
+	     org\eclipse\jetty\servlet\jmx\ServletHandler-mbean.properties
+	     org\eclipse\jetty\servlet\jmx\ServletHolder-mbean.properties
+	     org\eclipse\jetty\servlet\jmx\ServletMapping-mbean.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.servlet.jar" path="jetty-servlet/src/main/resources"/>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     META-INF\maven\org.eclipse.jetty\jetty-servlet\pom.properties
+	     META-INF\maven\org.eclipse.jetty\jetty-servlet\pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.servlet.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-org.eclipse.jetty.jmx"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.continuation"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.http"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.io"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.security"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.server"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.util"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-DocURL: http://www.eclipse.org/jetty
+Implementation-Vendor: Eclipse.org - Jetty
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: jesse
+Bundle-SymbolicName: org.eclipse.jetty.continuation
+Bundle-Version: 8.1.14.v20131031
+Export-Package: org.eclipse.jetty.continuation;uses:="javax.servlet,or
+ g.mortbay.log,org.mortbay.util.ajax";version="8.1.14"
+url: http://www.eclipse.org/jetty
+Bundle-Description: Asynchronous API
+Build-Jdk: 1.7.0_25
+Bundle-Classpath: .
+Bundle-Vendor: Eclipse Jetty Project
+Bnd-LastModified: 1383233842646
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0, http://www
+ .eclipse.org/org/documents/epl-v10.php
+Bundle-Name: Jetty :: Continuation
+Tool: Bnd-1.15.0
+Archiver-Version: Plexus Archiver
+Bundle-Copyright: Copyright (c) 2008-2012 Mort Bay Consulting Pty. Ltd
+ .
+Created-By: Apache Maven Bundle Plugin
+Implementation-Version: 8.1.14.v20131031
+Import-Package: javax.servlet;version="2.6.0",org.mortbay.log;resoluti
+ on:=optional;version="[6.1,7)",org.mortbay.util.ajax;resolution:=opti
+ onal;version="[6.1,7)"
+Bundle-ManifestVersion: 2

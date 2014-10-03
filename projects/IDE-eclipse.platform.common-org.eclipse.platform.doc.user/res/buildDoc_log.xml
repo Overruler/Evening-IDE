@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="log.xsl"?>
+
+<build time="3 seconds">
+	<message priority="info"><![CDATA[Apache Ant(TM) version 1.9.2 compiled on July 8 2013]]></message>
+	<message priority="info"><![CDATA[Apache Ant(TM) version 1.9.2 compiled on July 8 2013]]></message>
+	<message priority="info"><![CDATA[Using /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.platform.doc.user/buildDoc_log.xml file as build log.]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.file -> customBuildCallbacks.xml]]></message>
+	<message priority="info"><![CDATA[Buildfile: customBuildCallbacks.xml]]></message>
+	<message priority="debug"><![CDATA[ +Datatype help.buildHelpIndex org.eclipse.help.internal.base.ant.BuildHelpIndex]]></message>
+	<message priority="debug"><![CDATA[Adding reference: ant.projectHelper]]></message>
+	<message priority="debug"><![CDATA[Adding reference: ant.parsing.context]]></message>
+	<message priority="debug"><![CDATA[Adding reference: ant.targets]]></message>
+	<message priority="debug"><![CDATA[parsing buildfile /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.platform.doc.user/customBuildCallbacks.xml with URI = file:/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.platform.doc.user/customBuildCallbacks.xml]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.project.name -> Build specific targets and properties]]></message>
+	<message priority="debug"><![CDATA[Adding reference: Build specific targets and properties]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.project.default-target -> noDefault]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.file.Build specific targets and properties -> /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.platform.doc.user/customBuildCallbacks.xml]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.file.type.Build specific targets and properties -> file]]></message>
+	<message priority="debug"><![CDATA[Project base dir set to: /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.platform.doc.user]]></message>
+	<message priority="debug"><![CDATA[ +Target: ]]></message>
+	<message priority="debug"><![CDATA[ +Target: noDefault]]></message>
+	<message priority="debug"><![CDATA[ +Target: pre.build.jars]]></message>
+	<message priority="debug"><![CDATA[ +Target: post.build.jars]]></message>
+	<message priority="debug"><![CDATA[ +Target: pre.build.sources]]></message>
+	<message priority="debug"><![CDATA[ +Target: post.build.sources]]></message>
+	<message priority="debug"><![CDATA[ +Target: pre.name]]></message>
+	<message priority="debug"><![CDATA[ +Target: pre.@dot]]></message>
+	<message priority="debug"><![CDATA[ +Target: post.name]]></message>
+	<message priority="debug"><![CDATA[ +Target: post.@dot]]></message>
+	<message priority="debug"><![CDATA[ +Target: pre.gather.bin.parts]]></message>
+	<message priority="debug"><![CDATA[ +Target: post.gather.bin.parts]]></message>
+	<message priority="debug"><![CDATA[ +Target: build.index]]></message>
+	<message priority="debug"><![CDATA[ +Target: pre.gather.sources]]></message>
+	<message priority="debug"><![CDATA[ +Target: post.gather.sources]]></message>
+	<message priority="debug"><![CDATA[ +Target: pre.gather.logs]]></message>
+	<message priority="debug"><![CDATA[ +Target: post.gather.logs]]></message>
+	<message priority="debug"><![CDATA[ +Target: pre.clean]]></message>
+	<message priority="debug"><![CDATA[ +Target: post.clean]]></message>
+	<message priority="debug"><![CDATA[Adding reference: ant.LocalProperties]]></message>
+	<message priority="debug"><![CDATA[Setting ro project property: ant.project.invoked-targets -> build.index]]></message>
+	<message priority="debug"><![CDATA[Adding reference: eclipse.ant.targetVector]]></message>
+	<message priority="debug"><![CDATA[Build sequence for target(s) `build.index' is [build.index]]]></message>
+	<message priority="debug"><![CDATA[Complete build sequence is [build.index, pre.gather.logs, pre.name, pre.@dot, post.gather.bin.parts, post.name, pre.gather.sources, post.build.jars, post.build.sources, post.@dot, post.clean, noDefault, pre.clean, post.gather.sources, post.gather.logs, pre.build.jars, pre.build.sources, pre.gather.bin.parts, ]]]></message>
+	<message priority="debug"><![CDATA[parsing buildfile jar:file:/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.platform.doc.user/target/eclipserun-work/configuration/org.eclipse.osgi/21/0/.cp/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.platform.doc.user/target/eclipserun-work/configuration/org.eclipse.osgi/21/0/.cp/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file]]></message>
+	<target name="build.index" time="3 seconds">
+		<task location="/opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.platform.doc.user/customBuildCallbacks.xml:97: " name="help.buildHelpIndex" time="3 seconds" />
+	</target>
+	<message priority="debug"><![CDATA[Setting project property: XmlLogger.file -> /opt/public/eclipse/builds/4I/gitCache/eclipse.platform.releng.aggregator/eclipse.platform.common/bundles/org.eclipse.platform.doc.user/log.xml]]></message>
+	<message priority="debug"><![CDATA[BUILD SUCCESSFUL]]></message>
+</build>

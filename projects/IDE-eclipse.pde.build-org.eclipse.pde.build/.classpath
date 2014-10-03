@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     about_files\LICENSE-2.0.txt
+	     data\21\fragment\fragment.xml
+	     data\21\plugin\plugin.xml
+	     data\30\fragment\fragment.xml
+	     data\30\fragment\META-INF\MANIFEST.MF
+	     data\30\plugin\META-INF\MANIFEST.MF
+	     data\30\plugin\plugin.xml
+	     data\env.properties
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     scripts\build.xml
+	     scripts\genericTargets.xml
+	     scripts\package.xml
+	     scripts\productBuild\allElements.xml
+	     scripts\productBuild\productBuild.xml
+	     templates\features\customBuildCallbacks.xml
+	     templates\headless-build\allElements.xml
+	     templates\headless-build\build.properties
+	     templates\headless-build\customAssembly.xml
+	     templates\headless-build\customTargets.xml
+	     templates\packager\customTargets.xml
+	     templates\packager\packager.properties
+	     templates\packager\packaging.properties
+	     templates\plugins\customBuildCallbacks.xml -->
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including=".options|META-INF/|about.html|about_files/|data/|data/21/fragment/|data/21/plugin/|data/30/fragment/|data/30/fragment/META-INF/|data/30/plugin/|data/30/plugin/META-INF/|plugin.properties|plugin.xml|scripts/|scripts/productBuild/|templates/features/|templates/headless-build/|templates/packager/|templates/plugins/" kind="src" output="bin/1/plugins/org.eclipse.pde.build" path="org.eclipse.pde.build"/>
+	<!-- org\eclipse\pde\build\Constants.java
+	     org\eclipse\pde\build\IAntScript.java
+	     org\eclipse\pde\build\IFetchFactory.java
+	     org\eclipse\pde\internal\build\AbstractScriptGenerator.java
+	     org\eclipse\pde\internal\build\AntLogAdapter.java
+	     org\eclipse\pde\internal\build\ant\AntScript.java
+	     org\eclipse\pde\internal\build\ant\FileSet.java
+	     org\eclipse\pde\internal\build\ant\IScriptRunner.java
+	     org\eclipse\pde\internal\build\ant\ITask.java
+	     org\eclipse\pde\internal\build\ant\JavacTask.java
+	     org\eclipse\pde\internal\build\ant\TarFileSet.java
+	     org\eclipse\pde\internal\build\ant\ZipFileSet.java
+	     org\eclipse\pde\internal\build\AssembleConfigScriptGenerator.java
+	     org\eclipse\pde\internal\build\AssembleScriptGenerator.java
+	     org\eclipse\pde\internal\build\AssemblyInformation.java
+	     org\eclipse\pde\internal\build\BuildActivator.java
+	     org\eclipse\pde\internal\build\BuildApplication.java
+	     org\eclipse\pde\internal\build\builder\AbstractBuildScriptGenerator.java
+	     org\eclipse\pde\internal\build\builder\BuildDirector.java
+	     org\eclipse\pde\internal\build\builder\ClasspathComputer2_1.java
+	     org\eclipse\pde\internal\build\builder\ClasspathComputer3_0.java
+	     org\eclipse\pde\internal\build\builder\CompilationScriptGenerator.java
+	     org\eclipse\pde\internal\build\builder\DevClassPathHelper.java
+	     org\eclipse\pde\internal\build\builder\FeatureBuildScriptGenerator.java
+	     org\eclipse\pde\internal\build\builder\IClasspathComputer.java
+	     org\eclipse\pde\internal\build\builder\ModelBuildScriptGenerator.java
+	     org\eclipse\pde\internal\build\builder\SourceGenerator.java
+	     org\eclipse\pde\internal\build\BuildScriptGenerator.java
+	     org\eclipse\pde\internal\build\BundleHelper.java
+	     org\eclipse\pde\internal\build\CatchAllValue.java
+	     org\eclipse\pde\internal\build\Config.java
+	     org\eclipse\pde\internal\build\FeatureGenerator.java
+	     org\eclipse\pde\internal\build\FeatureWriter.java
+	     org\eclipse\pde\internal\build\FetchScriptGenerator.java
+	     org\eclipse\pde\internal\build\FetchTaskFactoriesRegistry.java
+	     org\eclipse\pde\internal\build\fetch\COPYFetchTasksFactory.java
+	     org\eclipse\pde\internal\build\fetch\CVSFetchTaskFactory.java
+	     org\eclipse\pde\internal\build\fetch\GETFetchFactory.java
+	     org\eclipse\pde\internal\build\fetch\P2IUFetchFactory.java
+	     org\eclipse\pde\internal\build\IBuildPropertiesConstants.java
+	     org\eclipse\pde\internal\build\IPDEBuildConstants.java
+	     org\eclipse\pde\internal\build\IXMLConstants.java
+	     org\eclipse\pde\internal\build\Messages.java
+	     org\eclipse\pde\internal\build\messages.properties
+	     org\eclipse\pde\internal\build\P2ConfigScriptGenerator.java
+	     org\eclipse\pde\internal\build\P2InfUtils.java
+	     org\eclipse\pde\internal\build\packager\DeltaPackScriptGenerator.java
+	     org\eclipse\pde\internal\build\packager\ElementCollector.java
+	     org\eclipse\pde\internal\build\packager\FetchFileGenerator.java
+	     org\eclipse\pde\internal\build\packager\PackageConfigScriptGenerator.java
+	     org\eclipse\pde\internal\build\packager\PackagerGenerator.java
+	     org\eclipse\pde\internal\build\packager\PackageScriptGenerator.java
+	     org\eclipse\pde\internal\build\packager\UnzipperGenerator.java
+	     org\eclipse\pde\internal\build\PDEUIStateWrapper.java
+	     org\eclipse\pde\internal\build\ProductGenerator.java
+	     org\eclipse\pde\internal\build\properties\PDEProperties.java
+	     org\eclipse\pde\internal\build\publisher\compatibility\AssembledConfigAdvice.java
+	     org\eclipse\pde\internal\build\publisher\compatibility\GeneratorApplication.java
+	     org\eclipse\pde\internal\build\publisher\compatibility\IncrementalGenerator.java
+	     org\eclipse\pde\internal\build\publisher\compatibility\RootFileParentAction.java
+	     org\eclipse\pde\internal\build\publisher\compatibility\RootFileTouchpointAdvice.java
+	     org\eclipse\pde\internal\build\ShapeAdvisor.java
+	     org\eclipse\pde\internal\build\site\BuildTimeFeature.java
+	     org\eclipse\pde\internal\build\site\BuildTimeFeatureFactory.java
+	     org\eclipse\pde\internal\build\site\BuildTimeFeatureParser.java
+	     org\eclipse\pde\internal\build\site\BuildTimeSite.java
+	     org\eclipse\pde\internal\build\site\BuildTimeSiteContentProvider.java
+	     org\eclipse\pde\internal\build\site\BuildTimeSiteFactory.java
+	     org\eclipse\pde\internal\build\site\compatibility\FeatureReference.java
+	     org\eclipse\pde\internal\build\site\compatibility\SiteManager.java
+	     org\eclipse\pde\internal\build\site\FilteringState.java
+	     org\eclipse\pde\internal\build\site\P2Utils.java
+	     org\eclipse\pde\internal\build\site\PDEState.java
+	     org\eclipse\pde\internal\build\site\PluginPathFinder.java
+	     org\eclipse\pde\internal\build\site\PluginRegistryConverter.java
+	     org\eclipse\pde\internal\build\site\ProfileManager.java
+	     org\eclipse\pde\internal\build\site\QualifierReplacer.java
+	     org\eclipse\pde\internal\build\site\ReachablePlugin.java
+	     org\eclipse\pde\internal\build\SourceFeatureInformation.java
+	     org\eclipse\pde\internal\build\SourceFeatureWriter.java
+	     org\eclipse\pde\internal\build\Utils.java
+	     org\eclipse\pde\internal\build\XMLWriter.java -->
+	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.pde.build/pdebuild.jar" path="org.eclipse.pde.build/src"/>
+	<!-- org\eclipse\pde\internal\build\generator\GeneratorTask.java
+	     org\eclipse\pde\internal\build\publisher\AbstractPublisherTask.java
+	     org\eclipse\pde\internal\build\publisher\BrandP2Task.java
+	     org\eclipse\pde\internal\build\publisher\FeaturesAndBundlesTask.java
+	     org\eclipse\pde\internal\build\publisher\GatherBundleTask.java
+	     org\eclipse\pde\internal\build\publisher\GatherFeatureTask.java
+	     org\eclipse\pde\internal\build\tasks\AntScriptRunner.java
+	     org\eclipse\pde\internal\build\tasks\BrandTask.java
+	     org\eclipse\pde\internal\build\tasks\BuildManifestTask.java
+	     org\eclipse\pde\internal\build\tasks\BuildScriptGeneratorTask.java
+	     org\eclipse\pde\internal\build\tasks\CompileErrorTask.java
+	     org\eclipse\pde\internal\build\tasks\Config.java
+	     org\eclipse\pde\internal\build\tasks\FeatureGeneratorTask.java
+	     org\eclipse\pde\internal\build\tasks\FetchFileGeneratorTask.java
+	     org\eclipse\pde\internal\build\tasks\FetchTask.java
+	     org\eclipse\pde\internal\build\tasks\GenericVersionReplacer.java
+	     org\eclipse\pde\internal\build\tasks\IdReplaceTask.java
+	     org\eclipse\pde\internal\build\tasks\JNLPGenerator.java
+	     org\eclipse\pde\internal\build\tasks\JNLPGeneratorTask.java
+	     org\eclipse\pde\internal\build\tasks\LicenseReplaceTask.java
+	     org\eclipse\pde\internal\build\tasks\ManifestModifier.java
+	     org\eclipse\pde\internal\build\tasks\messages.properties
+	     org\eclipse\pde\internal\build\tasks\PackagerTask.java
+	     org\eclipse\pde\internal\build\tasks\PluginVersionReplaceTask.java
+	     org\eclipse\pde\internal\build\tasks\SimpleBuildLogger.java
+	     org\eclipse\pde\internal\build\tasks\TaskHelper.java
+	     org\eclipse\pde\internal\build\tasks\TaskMessages.java
+	     org\eclipse\pde\internal\build\tasks\UnzipperGeneratorTask.java
+	     org\eclipse\pde\internal\build\tasks\Version.java -->
+	<classpathentry including="org/eclipse/pde/internal/build/generator/|org/eclipse/pde/internal/build/publisher/|org/eclipse/pde/internal/build/tasks/" kind="src" output="bin/3/plugins/org.eclipse.pde.build/lib/pdebuild-ant.jar" path="org.eclipse.pde.build/src_ant"/>
+	<!-- lib\pdebuild-ant.jar\META-INF\MANIFEST.MF
+	     pdebuild.jar\META-INF\MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.build" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform-org.eclipse.ant.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime.compatibility"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.frameworkadmin"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.director.app"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.jarprocessor"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.publisher"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.publisher.eclipse"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository.tools"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.updatesite"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.simpleconfigurator.manipulator"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform-org.eclipse.update.configurator"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

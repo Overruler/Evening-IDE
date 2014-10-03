@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\tool\close.gif
+	     icons\tool\close_hot.gif
+	     icons\tool\update.gif
+	     icons\tool\update_problems.gif
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/tool/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.sdk.scheduler.jar" path="org.eclipse.equinox.p2.ui.sdk.scheduler"/>
+	<!-- org\eclipse\equinox\internal\p2\ui\sdk\scheduler\AutomaticUpdateMessages.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\AutomaticUpdatePlugin.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\AutomaticUpdater.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\AutomaticUpdateScheduler.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\AutomaticUpdatesPopup.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\AutomaticUpdatesPreferencePage.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\IAutomaticUpdaterHelpContextIds.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\messages.properties
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\migration\messages.properties
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\migration\MigrationPage.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\migration\MigrationSupport.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\migration\MigrationWizard.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\migration\MigrationWizardDialog.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\migration\ProvUIMessages.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\PreferenceConstants.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\PreferenceInitializer.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\PreviousConfigurationFinder.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\StatusLineCLabelContribution.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.sdk.scheduler.jar" path="org.eclipse.equinox.p2.ui.sdk.scheduler/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.garbagecollector"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.operations"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.touchpoint.eclipse"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.updatechecker"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

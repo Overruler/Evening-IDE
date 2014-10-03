@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\director.xml
+	     OSGI-INF\planner.xml
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.director.jar" path="org.eclipse.equinox.p2.director"/>
+	<!-- org\eclipse\equinox\internal\p2\director\ApplicablePatchQuery.java
+	     org\eclipse\equinox\internal\p2\director\AttachmentHelper.java
+	     org\eclipse\equinox\internal\p2\director\DirectorActivator.java
+	     org\eclipse\equinox\internal\p2\director\DirectorComponent.java
+	     org\eclipse\equinox\internal\p2\director\Explanation.java
+	     org\eclipse\equinox\internal\p2\director\Messages.java
+	     org\eclipse\equinox\internal\p2\director\messages.properties
+	     org\eclipse\equinox\internal\p2\director\OperationGenerator.java
+	     org\eclipse\equinox\internal\p2\director\OptimizationFunction.java
+	     org\eclipse\equinox\internal\p2\director\PermissiveSlicer.java
+	     org\eclipse\equinox\internal\p2\director\PlannerComponent.java
+	     org\eclipse\equinox\internal\p2\director\ProfileChangeRequest.java
+	     org\eclipse\equinox\internal\p2\director\Projector.java
+	     org\eclipse\equinox\internal\p2\director\QueryableArray.java
+	     org\eclipse\equinox\internal\p2\director\SimpleDirector.java
+	     org\eclipse\equinox\internal\p2\director\SimplePlanner.java
+	     org\eclipse\equinox\internal\p2\director\Slicer.java
+	     org\eclipse\equinox\internal\p2\director\UserDefinedOptimizationFunction.java
+	     org\eclipse\equinox\internal\p2\rollback\FormerState.java
+	     org\eclipse\equinox\internal\provisional\p2\director\IDirector.java
+	     org\eclipse\equinox\internal\provisional\p2\director\PlanExecutionHelper.java
+	     org\eclipse\equinox\internal\provisional\p2\director\PlannerStatus.java
+	     org\eclipse\equinox\internal\provisional\p2\director\RequestStatus.java
+	     org\eclipse\equinox\p2\planner\IPlanner.java
+	     org\eclipse\equinox\p2\planner\IProfileChangeRequest.java
+	     org\eclipse\equinox\p2\planner\ProfileInclusionRules.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.director.jar" path="org.eclipse.equinox.p2.director/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.simpleconfigurator"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-other-org.sat4j.core"/>
+	<classpathentry kind="src" path="/IDE-other-org.sat4j.pb"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

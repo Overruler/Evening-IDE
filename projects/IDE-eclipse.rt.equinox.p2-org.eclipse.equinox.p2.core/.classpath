@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\agentProvider.xml
+	     OSGI-INF\eventBus.xml
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.core.jar" path="org.eclipse.equinox.p2.core"/>
+	<!-- org\eclipse\equinox\internal\p2\core\Activator.java
+	     org\eclipse\equinox\internal\p2\core\AgentLocation.java
+	     org\eclipse\equinox\internal\p2\core\DefaultAgentProvider.java
+	     org\eclipse\equinox\internal\p2\core\EventBusComponent.java
+	     org\eclipse\equinox\internal\p2\core\helpers\CollectionUtils.java
+	     org\eclipse\equinox\internal\p2\core\helpers\FileUtils.java
+	     org\eclipse\equinox\internal\p2\core\helpers\LogHelper.java
+	     org\eclipse\equinox\internal\p2\core\helpers\messages.properties
+	     org\eclipse\equinox\internal\p2\core\helpers\OrderedProperties.java
+	     org\eclipse\equinox\internal\p2\core\helpers\ServiceHelper.java
+	     org\eclipse\equinox\internal\p2\core\helpers\StringHelper.java
+	     org\eclipse\equinox\internal\p2\core\helpers\TarEntry.java
+	     org\eclipse\equinox\internal\p2\core\helpers\TarException.java
+	     org\eclipse\equinox\internal\p2\core\helpers\TarFile.java
+	     org\eclipse\equinox\internal\p2\core\helpers\TarInputStream.java
+	     org\eclipse\equinox\internal\p2\core\helpers\Tracing.java
+	     org\eclipse\equinox\internal\p2\core\helpers\URLUtil.java
+	     org\eclipse\equinox\internal\p2\core\ProvisioningAgent.java
+	     org\eclipse\equinox\internal\p2\core\ProvisioningEventBus.java
+	     org\eclipse\equinox\internal\provisional\p2\core\eventbus\IProvisioningEventBus.java
+	     org\eclipse\equinox\internal\provisional\p2\core\eventbus\ProvisioningListener.java
+	     org\eclipse\equinox\internal\provisional\p2\core\eventbus\SynchronousProvisioningListener.java
+	     org\eclipse\equinox\p2\core\IAgentLocation.java
+	     org\eclipse\equinox\p2\core\IPool.java
+	     org\eclipse\equinox\p2\core\IProvisioningAgent.java
+	     org\eclipse\equinox\p2\core\IProvisioningAgentProvider.java
+	     org\eclipse\equinox\p2\core\ProvisionException.java
+	     org\eclipse\equinox\p2\core\spi\Constants.java
+	     org\eclipse\equinox\p2\core\spi\IAgentService.java
+	     org\eclipse\equinox\p2\core\spi\IAgentServiceFactory.java
+	     org\eclipse\equinox\p2\core\StrongPool.java
+	     org\eclipse\equinox\p2\core\UIServices.java
+	     org\eclipse\equinox\p2\core\WeakPool.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.core.jar" path="org.eclipse.equinox.p2.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

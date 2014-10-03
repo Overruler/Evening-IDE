@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     css\dummy.css
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\thememanager.xml
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|css/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.css.swt.theme.jar" path="org.eclipse.e4.ui.css.swt.theme"/>
+	<!-- org\eclipse\e4\ui\css\swt\internal\theme\BootstrapTheme3x.java
+	     org\eclipse\e4\ui\css\swt\internal\theme\Theme.java
+	     org\eclipse\e4\ui\css\swt\internal\theme\ThemeEngine.java
+	     org\eclipse\e4\ui\css\swt\internal\theme\ThemeEngineManager.java
+	     org\eclipse\e4\ui\css\swt\theme\ITheme.java
+	     org\eclipse\e4\ui\css\swt\theme\IThemeEngine.java
+	     org\eclipse\e4\ui\css\swt\theme\IThemeManager.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.ui.css.swt.theme.jar" path="org.eclipse.e4.ui.css.swt.theme/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.preferences"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.swt-org.eclipse.swt"/>
+	<classpathentry kind="src" path="/IDE-other-org.w3c.css.sac"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

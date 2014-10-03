@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     css\dark\e4-dark_basestyle.css
+	     css\dark\e4-dark_globalstyle.css
+	     css\dark\e4-dark_partstyle.css
+	     css\dark\e4-dark_preferencestyle.css
+	     css\e4-dark.css
+	     css\e4-dark_mac.css
+	     css\e4-dark_win.css
+	     css\e4_basestyle.css
+	     css\e4_classic_win7.css
+	     css\e4_classic_winxp.css
+	     css\e4_default_gtk.css
+	     css\e4_default_mac.css
+	     css\e4_default_mru_on_win7.css
+	     css\e4_default_win7.css
+	     css\e4_default_winxp_blu.css
+	     css\e4_default_winxp_olv.css
+	     css\high-contrast.css
+	     images\dragHandle.png
+	     images\gtkHandle.png
+	     images\gtkTSFrame.png
+	     images\macGrey.png
+	     images\macHandle.png
+	     images\macTSFrame.png
+	     images\win7.png
+	     images\win7Handle.png
+	     images\win7TSFrame.png
+	     images\winClassicHandle.png
+	     images\winClassicTSFrame.png
+	     images\winXPBlue.png
+	     images\winXPBluHandle.png
+	     images\winXPBluTSFrame.png
+	     images\winXPHandle.png
+	     images\winXPOlive.png
+	     images\winXPTSFrame.png
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding=".*|.*/" including="META-INF/|about.html|css/|css/dark/|images/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.themes" path="org.eclipse.ui.themes"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.swt.theme"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.extensionlocation.jar" path="org.eclipse.equinox.p2.extensionlocation"/>
+	<!-- org\eclipse\equinox\internal\p2\extensionlocation\Activator.java
+	     org\eclipse\equinox\internal\p2\extensionlocation\BundlePoolFilteredListener.java
+	     org\eclipse\equinox\internal\p2\extensionlocation\Constants.java
+	     org\eclipse\equinox\internal\p2\extensionlocation\ExtensionLocationArtifactRepository.java
+	     org\eclipse\equinox\internal\p2\extensionlocation\ExtensionLocationArtifactRepositoryFactory.java
+	     org\eclipse\equinox\internal\p2\extensionlocation\ExtensionLocationMetadataRepository.java
+	     org\eclipse\equinox\internal\p2\extensionlocation\ExtensionLocationMetadataRepositoryFactory.java
+	     org\eclipse\equinox\internal\p2\extensionlocation\Messages.java
+	     org\eclipse\equinox\internal\p2\extensionlocation\messages.properties
+	     org\eclipse\equinox\internal\p2\extensionlocation\SiteListener.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.extensionlocation.jar" path="org.eclipse.equinox.p2.extensionlocation/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.artifact.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.directorywatcher"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.publisher"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.publisher.eclipse"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.touchpoint.eclipse"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

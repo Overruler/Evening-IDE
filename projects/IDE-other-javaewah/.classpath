@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- javaewah\benchmark\Benchmark.java
+	     javaewah\benchmark\Benchmark32.java
+	     javaewah\benchmark\BenchmarkIntersection.java
+	     javaewah\benchmark\BenchmarkIntersection32.java
+	     javaewah\benchmark\BenchmarkUnion.java
+	     javaewah\benchmark\BenchmarkUnion32.java
+	     javaewah\benchmark\BenchmarkXOR.java
+	     javaewah\benchmark\BenchmarkXOR32.java
+	     javaewah\benchmark\ClusteredDataGenerator.java
+	     javaewah\benchmark\UniformDataGenerator.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/javaewah.jar/com/googlecode" path="javaewah.jar/com/googlecode/x-miss-x"/> -->
+	<!-- com\googlecode\javaewah32\BitCounter32.java
+	     com\googlecode\javaewah32\BitmapStorage32.java
+	     com\googlecode\javaewah32\BufferedIterator32.java
+	     com\googlecode\javaewah32\BufferedRunningLengthWord32.java
+	     com\googlecode\javaewah32\EWAHCompressedBitmap32.java
+	     com\googlecode\javaewah32\EWAHIterator32.java
+	     com\googlecode\javaewah32\FastAggregation32.java
+	     com\googlecode\javaewah32\IntIteratorOverIteratingRLW32.java
+	     com\googlecode\javaewah32\IteratingBufferedRunningLengthWord32.java
+	     com\googlecode\javaewah32\IteratingRLW32.java
+	     com\googlecode\javaewah32\IteratorAggregation32.java
+	     com\googlecode\javaewah32\IteratorUtil32.java
+	     com\googlecode\javaewah32\NonEmptyVirtualStorage32.java
+	     com\googlecode\javaewah32\RunningLengthWord32.java
+	     com\googlecode\javaewah\BitCounter.java
+	     com\googlecode\javaewah\BitmapStorage.java
+	     com\googlecode\javaewah\BufferedIterator.java
+	     com\googlecode\javaewah\BufferedRunningLengthWord.java
+	     com\googlecode\javaewah\CloneableIterator.java
+	     com\googlecode\javaewah\EWAHCompressedBitmap.java
+	     com\googlecode\javaewah\EWAHIterator.java
+	     com\googlecode\javaewah\FastAggregation.java
+	     com\googlecode\javaewah\IntIterator.java
+	     com\googlecode\javaewah\IntIteratorOverIteratingRLW.java
+	     com\googlecode\javaewah\IteratingBufferedRunningLengthWord.java
+	     com\googlecode\javaewah\IteratingRLW.java
+	     com\googlecode\javaewah\IteratorAggregation.java
+	     com\googlecode\javaewah\IteratorUtil.java
+	     com\googlecode\javaewah\LogicalElement.java
+	     com\googlecode\javaewah\NonEmptyVirtualStorage.java
+	     com\googlecode\javaewah\RunningLengthWord.java -->
+	<classpathentry including="com/googlecode/javaewah/|com/googlecode/javaewah32/" kind="src" output="bin/1/plugins/javaewah.jar" path="javaewah/src/main/java"/>
+	<!-- about.html
+	     about_files\CHANGELOG
+	     about_files\LICENSE
+	     about_files\README.md
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/javaewah.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

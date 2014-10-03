@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\eclipse\jetty\http\AbstractGenerator.java
+	     org\eclipse\jetty\http\EncodedHttpURI.java
+	     org\eclipse\jetty\http\Generator.java
+	     org\eclipse\jetty\http\gzip\AbstractCompressedStream.java
+	     org\eclipse\jetty\http\gzip\CompressedResponseWrapper.java
+	     org\eclipse\jetty\http\HttpBuffers.java
+	     org\eclipse\jetty\http\HttpBuffersImpl.java
+	     org\eclipse\jetty\http\HttpContent.java
+	     org\eclipse\jetty\http\HttpCookie.java
+	     org\eclipse\jetty\http\HttpException.java
+	     org\eclipse\jetty\http\HttpFields.java
+	     org\eclipse\jetty\http\HttpGenerator.java
+	     org\eclipse\jetty\http\HttpHeaders.java
+	     org\eclipse\jetty\http\HttpHeaderValues.java
+	     org\eclipse\jetty\http\HttpMethods.java
+	     org\eclipse\jetty\http\HttpParser.java
+	     org\eclipse\jetty\http\HttpSchemes.java
+	     org\eclipse\jetty\http\HttpStatus.java
+	     org\eclipse\jetty\http\HttpTokens.java
+	     org\eclipse\jetty\http\HttpURI.java
+	     org\eclipse\jetty\http\HttpVersions.java
+	     org\eclipse\jetty\http\MimeTypes.java
+	     org\eclipse\jetty\http\Parser.java
+	     org\eclipse\jetty\http\PathMap.java
+	     org\eclipse\jetty\http\ssl\SslContextFactory.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="jetty-http/src/main/java"/>
+	<!-- org\eclipse\jetty\http\encoding.properties
+	     org\eclipse\jetty\http\mime.properties
+	     org\eclipse\jetty\http\useragents -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="jetty-http/src/main/resources"/>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     META-INF\maven\org.eclipse.jetty\jetty-http\pom.properties
+	     META-INF\maven\org.eclipse.jetty\jetty-http\pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.io"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.util"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

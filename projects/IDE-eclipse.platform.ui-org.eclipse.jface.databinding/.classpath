@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jface.databinding.jar" path="org.eclipse.jface.databinding"/>
+	<!-- org\eclipse\jface\databinding\dialog\DialogPageSupport.java
+	     org\eclipse\jface\databinding\dialog\IValidationMessageProvider.java
+	     org\eclipse\jface\databinding\dialog\TitleAreaDialogSupport.java
+	     org\eclipse\jface\databinding\dialog\ValidationMessageProvider.java
+	     org\eclipse\jface\databinding\fieldassist\ControlDecorationSupport.java
+	     org\eclipse\jface\databinding\fieldassist\ControlDecorationUpdater.java
+	     org\eclipse\jface\databinding\preference\PreferencePageSupport.java
+	     org\eclipse\jface\databinding\swt\ISWTObservable.java
+	     org\eclipse\jface\databinding\swt\ISWTObservableList.java
+	     org\eclipse\jface\databinding\swt\ISWTObservableValue.java
+	     org\eclipse\jface\databinding\swt\IWidgetListProperty.java
+	     org\eclipse\jface\databinding\swt\IWidgetValueProperty.java
+	     org\eclipse\jface\databinding\swt\SWTObservables.java
+	     org\eclipse\jface\databinding\swt\WidgetListProperty.java
+	     org\eclipse\jface\databinding\swt\WidgetProperties.java
+	     org\eclipse\jface\databinding\swt\WidgetValueProperty.java
+	     org\eclipse\jface\databinding\util\JFaceProperties.java
+	     org\eclipse\jface\databinding\viewers\CellEditorProperties.java
+	     org\eclipse\jface\databinding\viewers\IViewerListProperty.java
+	     org\eclipse\jface\databinding\viewers\IViewerObservable.java
+	     org\eclipse\jface\databinding\viewers\IViewerObservableList.java
+	     org\eclipse\jface\databinding\viewers\IViewerObservableSet.java
+	     org\eclipse\jface\databinding\viewers\IViewerObservableValue.java
+	     org\eclipse\jface\databinding\viewers\IViewerSetProperty.java
+	     org\eclipse\jface\databinding\viewers\IViewerUpdater.java
+	     org\eclipse\jface\databinding\viewers\IViewerValueProperty.java
+	     org\eclipse\jface\databinding\viewers\ListeningLabelProvider.java
+	     org\eclipse\jface\databinding\viewers\ObservableListContentProvider.java
+	     org\eclipse\jface\databinding\viewers\ObservableListTreeContentProvider.java
+	     org\eclipse\jface\databinding\viewers\ObservableMapCellLabelProvider.java
+	     org\eclipse\jface\databinding\viewers\ObservableMapLabelProvider.java
+	     org\eclipse\jface\databinding\viewers\ObservableSetContentProvider.java
+	     org\eclipse\jface\databinding\viewers\ObservableSetTreeContentProvider.java
+	     org\eclipse\jface\databinding\viewers\ObservableValueEditingSupport.java
+	     org\eclipse\jface\databinding\viewers\TreeStructureAdvisor.java
+	     org\eclipse\jface\databinding\viewers\ViewerListProperty.java
+	     org\eclipse\jface\databinding\viewers\ViewerProperties.java
+	     org\eclipse\jface\databinding\viewers\ViewerSetProperty.java
+	     org\eclipse\jface\databinding\viewers\ViewersObservables.java
+	     org\eclipse\jface\databinding\viewers\ViewerSupport.java
+	     org\eclipse\jface\databinding\viewers\ViewerValueProperty.java
+	     org\eclipse\jface\databinding\wizard\WizardPageSupport.java
+	     org\eclipse\jface\internal\databinding\provisional\swt\CompositeUpdater.java
+	     org\eclipse\jface\internal\databinding\provisional\swt\ControlUpdater.java
+	     org\eclipse\jface\internal\databinding\provisional\swt\MenuUpdater.java
+	     org\eclipse\jface\internal\databinding\provisional\swt\SWTUtil.java
+	     org\eclipse\jface\internal\databinding\provisional\swt\TableUpdater.java
+	     org\eclipse\jface\internal\databinding\provisional\swt\WorkQueue.java
+	     org\eclipse\jface\internal\databinding\provisional\viewers\ViewerLabelProvider.java
+	     org\eclipse\jface\internal\databinding\swt\ButtonImageProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ButtonSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ButtonTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\CComboEditableProperty.java
+	     org\eclipse\jface\internal\databinding\swt\CComboItemsProperty.java
+	     org\eclipse\jface\internal\databinding\swt\CComboSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\swt\CComboSingleSelectionIndexProperty.java
+	     org\eclipse\jface\internal\databinding\swt\CComboTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\CLabelImageProperty.java
+	     org\eclipse\jface\internal\databinding\swt\CLabelTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ComboItemsProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ComboSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ComboSingleSelectionIndexProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ComboTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlBackgroundProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlBoundsProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlEnabledProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlFocusedProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlFontProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlForegroundProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlLocationProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlSizeProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlStringListProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlTooltipTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ControlVisibleProperty.java
+	     org\eclipse\jface\internal\databinding\swt\CTabItemTooltipTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\DateTimeSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ItemImageProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ItemTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\LabelImageProperty.java
+	     org\eclipse\jface\internal\databinding\swt\LabelTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\LinkTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ListItemsProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ListSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ListSingleSelectionIndexProperty.java
+	     org\eclipse\jface\internal\databinding\swt\MenuEnabledProperty.java
+	     org\eclipse\jface\internal\databinding\swt\MenuItemEnabledProperty.java
+	     org\eclipse\jface\internal\databinding\swt\MenuItemSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ScaleMaximumProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ScaleMinimumProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ScaleSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ScrollBarEnabledProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ShellTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\SingleSelectionIndexProperty.java
+	     org\eclipse\jface\internal\databinding\swt\SliderMaximumProperty.java
+	     org\eclipse\jface\internal\databinding\swt\SliderMinimumProperty.java
+	     org\eclipse\jface\internal\databinding\swt\SliderSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\swt\SpinnerMaximumProperty.java
+	     org\eclipse\jface\internal\databinding\swt\SpinnerMinimumProperty.java
+	     org\eclipse\jface\internal\databinding\swt\SpinnerSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\swt\StyledTextEditableProperty.java
+	     org\eclipse\jface\internal\databinding\swt\StyledTextTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\SWTDelayedObservableValueDecorator.java
+	     org\eclipse\jface\internal\databinding\swt\SWTObservableListDecorator.java
+	     org\eclipse\jface\internal\databinding\swt\SWTObservableValueDecorator.java
+	     org\eclipse\jface\internal\databinding\swt\SWTVetoableValueDecorator.java
+	     org\eclipse\jface\internal\databinding\swt\TabItemTooltipTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\TableColumnTooltipTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\TableSingleSelectionIndexProperty.java
+	     org\eclipse\jface\internal\databinding\swt\TextEditableProperty.java
+	     org\eclipse\jface\internal\databinding\swt\TextMessageProperty.java
+	     org\eclipse\jface\internal\databinding\swt\TextTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ToolItemEnabledProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ToolItemTooltipTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\ToolTipMessageProperty.java
+	     org\eclipse\jface\internal\databinding\swt\TrayItemTooltipTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\TreeColumnTooltipTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetBooleanValueProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetEditableProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetEnabledProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetImageProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetImageValueProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetIntValueProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetItemsProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetListener.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetListenerUtil.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetMaximumProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetMessageProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetMinimumProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetSingleSelectionIndexProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetStringValueProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetTextProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetTextWithEventsProperty.java
+	     org\eclipse\jface\internal\databinding\swt\WidgetTooltipTextProperty.java
+	     org\eclipse\jface\internal\databinding\util\JFaceProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\CellEditorControlProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\CheckableCheckedElementsObservableSet.java
+	     org\eclipse\jface\internal\databinding\viewers\CheckableCheckedElementsProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\CheckboxTableViewerCheckedElementsProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\CheckboxTableViewerUpdater.java
+	     org\eclipse\jface\internal\databinding\viewers\CheckboxTreeViewerCheckedElementsProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\CheckboxTreeViewerUpdater.java
+	     org\eclipse\jface\internal\databinding\viewers\CheckboxViewerCheckedElementsProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\ObservableCollectionContentProvider.java
+	     org\eclipse\jface\internal\databinding\viewers\ObservableCollectionTreeContentProvider.java
+	     org\eclipse\jface\internal\databinding\viewers\ObservableViewerElementSet.java
+	     org\eclipse\jface\internal\databinding\viewers\SelectionProviderMultipleSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\SelectionProviderSingleSelectionProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\StructuredViewerFiltersProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\TreeViewerUpdater.java
+	     org\eclipse\jface\internal\databinding\viewers\ViewerCheckedElementsProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\ViewerElementMap.java
+	     org\eclipse\jface\internal\databinding\viewers\ViewerElementSet.java
+	     org\eclipse\jface\internal\databinding\viewers\ViewerElementWrapper.java
+	     org\eclipse\jface\internal\databinding\viewers\ViewerInputProperty.java
+	     org\eclipse\jface\internal\databinding\viewers\ViewerObservableListDecorator.java
+	     org\eclipse\jface\internal\databinding\viewers\ViewerObservableSetDecorator.java
+	     org\eclipse\jface\internal\databinding\viewers\ViewerObservableValueDecorator.java
+	     org\eclipse\jface\internal\databinding\viewers\ViewerUpdater.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jface.databinding.jar" path="org.eclipse.jface.databinding/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding.observable"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding.property"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.swt-org.eclipse.swt"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

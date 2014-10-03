@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema\urlStreamHandlerService.exsd -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.ecf.filetransfer.jar" path="org.eclipse.ecf.filetransfer"/>
+	<!-- org\eclipse\ecf\filetransfer\BrowseFileTransferException.java
+	     org\eclipse\ecf\filetransfer\events\IFileTransferConnectStartEvent.java
+	     org\eclipse\ecf\filetransfer\events\IFileTransferEvent.java
+	     org\eclipse\ecf\filetransfer\events\IFileTransferRequestEvent.java
+	     org\eclipse\ecf\filetransfer\events\IIncomingFileTransferEvent.java
+	     org\eclipse\ecf\filetransfer\events\IIncomingFileTransferReceiveDataEvent.java
+	     org\eclipse\ecf\filetransfer\events\IIncomingFileTransferReceiveDoneEvent.java
+	     org\eclipse\ecf\filetransfer\events\IIncomingFileTransferReceivePausedEvent.java
+	     org\eclipse\ecf\filetransfer\events\IIncomingFileTransferReceiveResumedEvent.java
+	     org\eclipse\ecf\filetransfer\events\IIncomingFileTransferReceiveStartEvent.java
+	     org\eclipse\ecf\filetransfer\events\IOutgoingFileTransferEvent.java
+	     org\eclipse\ecf\filetransfer\events\IOutgoingFileTransferResponseEvent.java
+	     org\eclipse\ecf\filetransfer\events\IOutgoingFileTransferSendDataEvent.java
+	     org\eclipse\ecf\filetransfer\events\IOutgoingFileTransferSendDoneEvent.java
+	     org\eclipse\ecf\filetransfer\events\IOutgoingFileTransferSendPausedEvent.java
+	     org\eclipse\ecf\filetransfer\events\IOutgoingFileTransferSendResumedEvent.java
+	     org\eclipse\ecf\filetransfer\events\IRemoteFileSystemBrowseEvent.java
+	     org\eclipse\ecf\filetransfer\events\IRemoteFileSystemEvent.java
+	     org\eclipse\ecf\filetransfer\events\socketfactory\INonconnectedSocketFactory.java
+	     org\eclipse\ecf\filetransfer\events\socket\ISocketClosedEvent.java
+	     org\eclipse\ecf\filetransfer\events\socket\ISocketConnectedEvent.java
+	     org\eclipse\ecf\filetransfer\events\socket\ISocketCreatedEvent.java
+	     org\eclipse\ecf\filetransfer\events\socket\ISocketEvent.java
+	     org\eclipse\ecf\filetransfer\events\socket\ISocketEventSource.java
+	     org\eclipse\ecf\filetransfer\events\socket\ISocketListener.java
+	     org\eclipse\ecf\filetransfer\FileTransferInfo.java
+	     org\eclipse\ecf\filetransfer\FileTransferJob.java
+	     org\eclipse\ecf\filetransfer\identity\FileCreateException.java
+	     org\eclipse\ecf\filetransfer\identity\FileIDFactory.java
+	     org\eclipse\ecf\filetransfer\identity\IFileID.java
+	     org\eclipse\ecf\filetransfer\identity\IFileIDFactory.java
+	     org\eclipse\ecf\filetransfer\IFileRangeSpecification.java
+	     org\eclipse\ecf\filetransfer\IFileTransfer.java
+	     org\eclipse\ecf\filetransfer\IFileTransferInfo.java
+	     org\eclipse\ecf\filetransfer\IFileTransferListener.java
+	     org\eclipse\ecf\filetransfer\IFileTransferPausable.java
+	     org\eclipse\ecf\filetransfer\IFileTransferRateControl.java
+	     org\eclipse\ecf\filetransfer\IFileTransferRunnable.java
+	     org\eclipse\ecf\filetransfer\IIncomingFileTransfer.java
+	     org\eclipse\ecf\filetransfer\IIncomingFileTransferRequestListener.java
+	     org\eclipse\ecf\filetransfer\IncomingFileTransferException.java
+	     org\eclipse\ecf\filetransfer\InvalidFileRangeSpecificationException.java
+	     org\eclipse\ecf\filetransfer\IOutgoingFileTransfer.java
+	     org\eclipse\ecf\filetransfer\IRemoteFile.java
+	     org\eclipse\ecf\filetransfer\IRemoteFileAttributes.java
+	     org\eclipse\ecf\filetransfer\IRemoteFileInfo.java
+	     org\eclipse\ecf\filetransfer\IRemoteFileSystemBrowserContainerAdapter.java
+	     org\eclipse\ecf\filetransfer\IRemoteFileSystemListener.java
+	     org\eclipse\ecf\filetransfer\IRemoteFileSystemRequest.java
+	     org\eclipse\ecf\filetransfer\IRetrieveFileTransferContainerAdapter.java
+	     org\eclipse\ecf\filetransfer\IRetrieveFileTransferOptions.java
+	     org\eclipse\ecf\filetransfer\ISendFileTransferContainerAdapter.java
+	     org\eclipse\ecf\filetransfer\ISendFileTransferOptions.java
+	     org\eclipse\ecf\filetransfer\RemoteFileSystemException.java
+	     org\eclipse\ecf\filetransfer\SendFileTransferException.java
+	     org\eclipse\ecf\filetransfer\service\IRemoteFileSystemBrowser.java
+	     org\eclipse\ecf\filetransfer\service\IRemoteFileSystemBrowserFactory.java
+	     org\eclipse\ecf\filetransfer\service\IRetrieveFileTransfer.java
+	     org\eclipse\ecf\filetransfer\service\IRetrieveFileTransferFactory.java
+	     org\eclipse\ecf\filetransfer\service\ISendFileTransfer.java
+	     org\eclipse\ecf\filetransfer\service\ISendFileTransferFactory.java
+	     org\eclipse\ecf\filetransfer\UserCancelledException.java
+	     org\eclipse\ecf\internal\filetransfer\Activator.java
+	     org\eclipse\ecf\internal\filetransfer\FileTransferDebugOptions.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ecf.filetransfer.jar" path="org.eclipse.ecf.filetransfer/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.ecf-org.eclipse.ecf"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

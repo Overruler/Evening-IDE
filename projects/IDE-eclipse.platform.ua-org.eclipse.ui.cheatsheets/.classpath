@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\dlcl16\cheatsheet_task.gif
+	     icons\dlcl16\collapseall.gif
+	     icons\dlcl16\collapse_expand_all.gif
+	     icons\dlcl16\complete_task.gif
+	     icons\dlcl16\linkto_help.gif
+	     icons\dlcl16\restart_all.gif
+	     icons\dlcl16\restart_cheatsheet.gif
+	     icons\dlcl16\restart_task.gif
+	     icons\dlcl16\skip_task.gif
+	     icons\dlcl16\start_cheatsheet.gif
+	     icons\dlcl16\start_task.gif
+	     icons\dlcl16\task_choice.gif
+	     icons\dlcl16\task_sequence.gif
+	     icons\dlcl16\task_set.gif
+	     icons\elcl16\collapseall.gif
+	     icons\elcl16\collapse_expand_all.gif
+	     icons\elcl16\complete_task.gif
+	     icons\elcl16\expandall.gif
+	     icons\elcl16\goto_ccs_task.gif
+	     icons\elcl16\linkto_help.gif
+	     icons\elcl16\restart_all.gif
+	     icons\elcl16\restart_cheatsheet.gif
+	     icons\elcl16\restart_task.gif
+	     icons\elcl16\return_to_start.gif
+	     icons\elcl16\review_ccs_task.gif
+	     icons\elcl16\skip_ccs_task.gif
+	     icons\elcl16\skip_task.gif
+	     icons\elcl16\start_ccs_task.gif
+	     icons\elcl16\start_cheatsheet.gif
+	     icons\elcl16\start_task.gif
+	     icons\elcl16\tree_explorer.gif
+	     icons\obj16\cheatsheet_obj.gif
+	     icons\obj16\cheatsheet_task.gif
+	     icons\obj16\complete_status.gif
+	     icons\obj16\composite_obj.gif
+	     icons\obj16\error.gif
+	     icons\obj16\information.gif
+	     icons\obj16\skip_status.gif
+	     icons\obj16\task_choice.gif
+	     icons\obj16\task_sequence.gif
+	     icons\obj16\task_set.gif
+	     icons\obj16\warning.gif
+	     icons\ovr16\task_complete.gif
+	     icons\ovr16\task_in_progress.gif
+	     icons\ovr16\task_skipped.gif
+	     icons\view16\cheatsheet_view.gif
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/dlcl16/|icons/elcl16/|icons/obj16/|icons/ovr16/|icons/view16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.cheatsheets.jar" path="org.eclipse.ui.cheatsheets"/>
+	<!-- org\eclipse\ui\cheatsheets\AbstractItemExtensionElement.java
+	     org\eclipse\ui\cheatsheets\CheatSheetExtensionFactory.java
+	     org\eclipse\ui\cheatsheets\CheatSheetListener.java
+	     org\eclipse\ui\cheatsheets\CheatSheetViewerFactory.java
+	     org\eclipse\ui\cheatsheets\ICheatSheetAction.java
+	     org\eclipse\ui\cheatsheets\ICheatSheetEvent.java
+	     org\eclipse\ui\cheatsheets\ICheatSheetManager.java
+	     org\eclipse\ui\cheatsheets\ICheatSheetViewer.java
+	     org\eclipse\ui\cheatsheets\OpenCheatSheetAction.java
+	     org\eclipse\ui\cheatsheets\OpenCheatSheetFromHelpAction.java
+	     org\eclipse\ui\internal\cheatsheets\ActionRunner.java
+	     org\eclipse\ui\internal\cheatsheets\actions\CheatSheetCategoryBasedSelectionAction.java
+	     org\eclipse\ui\internal\cheatsheets\actions\CheatSheetHelpMenuAction.java
+	     org\eclipse\ui\internal\cheatsheets\actions\CheatSheetMenu.java
+	     org\eclipse\ui\internal\cheatsheets\actions\CheatSheetMenuAction.java
+	     org\eclipse\ui\internal\cheatsheets\actions\IMenuContributor.java
+	     org\eclipse\ui\internal\cheatsheets\actions\OpenPerspective.java
+	     org\eclipse\ui\internal\cheatsheets\CheatSheetEvaluationContext.java
+	     org\eclipse\ui\internal\cheatsheets\CheatSheetHistory.java
+	     org\eclipse\ui\internal\cheatsheets\CheatSheetPlugin.java
+	     org\eclipse\ui\internal\cheatsheets\CheatsheetSearchParticipant.java
+	     org\eclipse\ui\internal\cheatsheets\CheatSheetStopWatch.java
+	     org\eclipse\ui\internal\cheatsheets\CommandRunner.java
+	     org\eclipse\ui\internal\cheatsheets\composite\explorer\AbstractOverlayIcon.java
+	     org\eclipse\ui\internal\cheatsheets\composite\explorer\ConfirmRestartDialog.java
+	     org\eclipse\ui\internal\cheatsheets\composite\explorer\OverlayIcon.java
+	     org\eclipse\ui\internal\cheatsheets\composite\explorer\ResetTaskAction.java
+	     org\eclipse\ui\internal\cheatsheets\composite\explorer\RestartAllAction.java
+	     org\eclipse\ui\internal\cheatsheets\composite\explorer\SkipAction.java
+	     org\eclipse\ui\internal\cheatsheets\composite\explorer\StartAction.java
+	     org\eclipse\ui\internal\cheatsheets\composite\explorer\TreeExplorerMenu.java
+	     org\eclipse\ui\internal\cheatsheets\composite\explorer\TreeLabelProvider.java
+	     org\eclipse\ui\internal\cheatsheets\composite\explorer\TreeTaskExplorer.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\AbstractTask.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\BlockedTaskFinder.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\CompositeCheatSheetModel.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\CompositeCheatSheetSaveHelper.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\EditableTask.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\SuccesorTaskFinder.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\TaskChoiceCompletionStrategy.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\TaskDependencies.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\TaskGroup.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\TaskSetCompletionStrategy.java
+	     org\eclipse\ui\internal\cheatsheets\composite\model\TaskStateUtilities.java
+	     org\eclipse\ui\internal\cheatsheets\composite\parser\CompositeCheatSheetParser.java
+	     org\eclipse\ui\internal\cheatsheets\composite\parser\EditableTaskParseStrategy.java
+	     org\eclipse\ui\internal\cheatsheets\composite\parser\ICompositeCheatsheetTags.java
+	     org\eclipse\ui\internal\cheatsheets\composite\parser\IStatusContainer.java
+	     org\eclipse\ui\internal\cheatsheets\composite\parser\ITaskParseStrategy.java
+	     org\eclipse\ui\internal\cheatsheets\composite\parser\MarkupParser.java
+	     org\eclipse\ui\internal\cheatsheets\composite\parser\TaskGroupParseStrategy.java
+	     org\eclipse\ui\internal\cheatsheets\composite\views\CheatsheetTaskEditor.java
+	     org\eclipse\ui\internal\cheatsheets\composite\views\CompositeCheatSheetPage.java
+	     org\eclipse\ui\internal\cheatsheets\composite\views\DescriptionPanel.java
+	     org\eclipse\ui\internal\cheatsheets\composite\views\TaskEditorManager.java
+	     org\eclipse\ui\internal\cheatsheets\composite\views\TaskExplorerManager.java
+	     org\eclipse\ui\internal\cheatsheets\data\AbstractExecutable.java
+	     org\eclipse\ui\internal\cheatsheets\data\AbstractSubItem.java
+	     org\eclipse\ui\internal\cheatsheets\data\Action.java
+	     org\eclipse\ui\internal\cheatsheets\data\CheatSheet.java
+	     org\eclipse\ui\internal\cheatsheets\data\CheatSheetCommand.java
+	     org\eclipse\ui\internal\cheatsheets\data\CheatSheetParser.java
+	     org\eclipse\ui\internal\cheatsheets\data\CheatSheetParserException.java
+	     org\eclipse\ui\internal\cheatsheets\data\CheatSheetSaveHelper.java
+	     org\eclipse\ui\internal\cheatsheets\data\ConditionalSubItem.java
+	     org\eclipse\ui\internal\cheatsheets\data\IActionItem.java
+	     org\eclipse\ui\internal\cheatsheets\data\ICheatSheet.java
+	     org\eclipse\ui\internal\cheatsheets\data\IExecutableItem.java
+	     org\eclipse\ui\internal\cheatsheets\data\IncompatibleSiblingChecker.java
+	     org\eclipse\ui\internal\cheatsheets\data\Intro.java
+	     org\eclipse\ui\internal\cheatsheets\data\IParserTags.java
+	     org\eclipse\ui\internal\cheatsheets\data\IPerformWhenItem.java
+	     org\eclipse\ui\internal\cheatsheets\data\ISubItemItem.java
+	     org\eclipse\ui\internal\cheatsheets\data\Item.java
+	     org\eclipse\ui\internal\cheatsheets\data\ParserInput.java
+	     org\eclipse\ui\internal\cheatsheets\data\ParserStatusUtility.java
+	     org\eclipse\ui\internal\cheatsheets\data\PerformWhen.java
+	     org\eclipse\ui\internal\cheatsheets\data\RepeatedSubItem.java
+	     org\eclipse\ui\internal\cheatsheets\data\SubItem.java
+	     org\eclipse\ui\internal\cheatsheets\dialogs\CheatSheetCategoryBasedSelectionDialog.java
+	     org\eclipse\ui\internal\cheatsheets\handlers\DialogIntegerValueConverter.java
+	     org\eclipse\ui\internal\cheatsheets\handlers\OpenCheatSheetHandler.java
+	     org\eclipse\ui\internal\cheatsheets\handlers\OpenCheatSheetURLHandler.java
+	     org\eclipse\ui\internal\cheatsheets\handlers\OpenInputDialogHandler.java
+	     org\eclipse\ui\internal\cheatsheets\handlers\OpenMessageDialogHandler.java
+	     org\eclipse\ui\internal\cheatsheets\ICheatSheetResource.java
+	     org\eclipse\ui\internal\cheatsheets\Messages.java
+	     org\eclipse\ui\internal\cheatsheets\Messages.properties
+	     org\eclipse\ui\internal\cheatsheets\registry\Category.java
+	     org\eclipse\ui\internal\cheatsheets\registry\CheatSheetCollectionElement.java
+	     org\eclipse\ui\internal\cheatsheets\registry\CheatSheetCollectionSorter.java
+	     org\eclipse\ui\internal\cheatsheets\registry\CheatSheetElement.java
+	     org\eclipse\ui\internal\cheatsheets\registry\CheatSheetItemExtensionElement.java
+	     org\eclipse\ui\internal\cheatsheets\registry\CheatSheetParameterValues.java
+	     org\eclipse\ui\internal\cheatsheets\registry\CheatSheetRegistryReader.java
+	     org\eclipse\ui\internal\cheatsheets\registry\RegistryReader.java
+	     org\eclipse\ui\internal\cheatsheets\registry\Sorter.java
+	     org\eclipse\ui\internal\cheatsheets\state\DefaultStateManager.java
+	     org\eclipse\ui\internal\cheatsheets\state\ICheatSheetStateManager.java
+	     org\eclipse\ui\internal\cheatsheets\state\MementoStateManager.java
+	     org\eclipse\ui\internal\cheatsheets\state\NoSaveStateManager.java
+	     org\eclipse\ui\internal\cheatsheets\state\TrayStateManager.java
+	     org\eclipse\ui\internal\cheatsheets\views\CheatSheetEvent.java
+	     org\eclipse\ui\internal\cheatsheets\views\CheatSheetExpandRestoreAction.java
+	     org\eclipse\ui\internal\cheatsheets\views\CheatSheetHelpPart.java
+	     org\eclipse\ui\internal\cheatsheets\views\CheatSheetManager.java
+	     org\eclipse\ui\internal\cheatsheets\views\CheatSheetPage.java
+	     org\eclipse\ui\internal\cheatsheets\views\CheatSheetView.java
+	     org\eclipse\ui\internal\cheatsheets\views\CheatSheetViewer.java
+	     org\eclipse\ui\internal\cheatsheets\views\CoreItem.java
+	     org\eclipse\ui\internal\cheatsheets\views\ErrorPage.java
+	     org\eclipse\ui\internal\cheatsheets\views\IntroItem.java
+	     org\eclipse\ui\internal\cheatsheets\views\NoopAction.java
+	     org\eclipse\ui\internal\cheatsheets\views\Page.java
+	     org\eclipse\ui\internal\cheatsheets\views\StringDelimitedTokenizer.java
+	     org\eclipse\ui\internal\cheatsheets\views\SubItemCompositeHolder.java
+	     org\eclipse\ui\internal\cheatsheets\views\ViewItem.java
+	     org\eclipse\ui\internal\cheatsheets\views\ViewUtilities.java
+	     org\eclipse\ui\internal\provisional\cheatsheets\ICompositeCheatSheet.java
+	     org\eclipse\ui\internal\provisional\cheatsheets\ICompositeCheatSheetTask.java
+	     org\eclipse\ui\internal\provisional\cheatsheets\IEditableTask.java
+	     org\eclipse\ui\internal\provisional\cheatsheets\ITaskGroup.java
+	     org\eclipse\ui\internal\provisional\cheatsheets\TaskEditor.java
+	     org\eclipse\ui\internal\provisional\cheatsheets\TaskExplorer.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.cheatsheets.jar" path="org.eclipse.ui.cheatsheets/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help.base"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

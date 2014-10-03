@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema\namespace.exsd -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.ecf.identity.jar" path="org.eclipse.ecf.identity"/>
+	<!-- org\eclipse\ecf\core\identity\BaseID.java
+	     org\eclipse\ecf\core\identity\GUID.java
+	     org\eclipse\ecf\core\identity\ID.java
+	     org\eclipse\ecf\core\identity\IDCreateException.java
+	     org\eclipse\ecf\core\identity\IDFactory.java
+	     org\eclipse\ecf\core\identity\IIdentifiable.java
+	     org\eclipse\ecf\core\identity\IIDFactory.java
+	     org\eclipse\ecf\core\identity\IResourceID.java
+	     org\eclipse\ecf\core\identity\LongID.java
+	     org\eclipse\ecf\core\identity\Namespace.java
+	     org\eclipse\ecf\core\identity\NamespacePermission.java
+	     org\eclipse\ecf\core\identity\StringID.java
+	     org\eclipse\ecf\core\util\AbstractFactory.java
+	     org\eclipse\ecf\core\util\AdapterManagerTracker.java
+	     org\eclipse\ecf\core\util\Base64.java
+	     org\eclipse\ecf\core\util\ECFException.java
+	     org\eclipse\ecf\core\util\ECFRuntimeException.java
+	     org\eclipse\ecf\core\util\ExtensionRegistryRunnable.java
+	     org\eclipse\ecf\core\util\IDFactoryTracker.java
+	     org\eclipse\ecf\core\util\LogHelper.java
+	     org\eclipse\ecf\core\util\PlatformHelper.java
+	     org\eclipse\ecf\core\util\StringUtils.java
+	     org\eclipse\ecf\core\util\SystemLogService.java
+	     org\eclipse\ecf\core\util\Trace.java
+	     org\eclipse\ecf\internal\core\identity\Activator.java -->
+	<classpathentry excluding="org/eclipse/ecf/core/identity/URIID.java" kind="src" output="bin/1/plugins/org.eclipse.ecf.identity.jar" path="org.eclipse.ecf.identity/src"/>
+	<!-- org\eclipse\ecf\core\identity\URIID.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ecf.identity.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

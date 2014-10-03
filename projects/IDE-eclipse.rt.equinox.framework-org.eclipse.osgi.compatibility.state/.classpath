@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\l10n\bundle.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/l10n/|about.html" kind="src" output="bin/1/plugins/org.eclipse.osgi.compatibility.state.jar" path="org.eclipse.osgi.compatibility.state"/>
+	<!-- org\eclipse\osgi\compatibility\state\Activator.java
+	     org\eclipse\osgi\compatibility\state\PlatformAdminImpl.java
+	     org\eclipse\osgi\compatibility\state\ReadOnlyState.java
+	     org\eclipse\osgi\internal\module\BundleConstraint.java
+	     org\eclipse\osgi\internal\module\CompositeResolveHelper.java
+	     org\eclipse\osgi\internal\module\CompositeResolveHelperRegistry.java
+	     org\eclipse\osgi\internal\module\GenericCapability.java
+	     org\eclipse\osgi\internal\module\GenericConstraint.java
+	     org\eclipse\osgi\internal\module\GroupingChecker.java
+	     org\eclipse\osgi\internal\module\MappedList.java
+	     org\eclipse\osgi\internal\module\PermissionChecker.java
+	     org\eclipse\osgi\internal\module\ResolverBundle.java
+	     org\eclipse\osgi\internal\module\ResolverConstraint.java
+	     org\eclipse\osgi\internal\module\ResolverExport.java
+	     org\eclipse\osgi\internal\module\ResolverImpl.java
+	     org\eclipse\osgi\internal\module\ResolverImport.java
+	     org\eclipse\osgi\internal\module\VersionHashMap.java
+	     org\eclipse\osgi\internal\module\VersionSupplier.java
+	     org\eclipse\osgi\internal\resolver\BaseDescriptionImpl.java
+	     org\eclipse\osgi\internal\resolver\BundleDescriptionImpl.java
+	     org\eclipse\osgi\internal\resolver\BundleSpecificationImpl.java
+	     org\eclipse\osgi\internal\resolver\ExportPackageDescriptionImpl.java
+	     org\eclipse\osgi\internal\resolver\GenericDescriptionImpl.java
+	     org\eclipse\osgi\internal\resolver\GenericSpecificationImpl.java
+	     org\eclipse\osgi\internal\resolver\HostSpecificationImpl.java
+	     org\eclipse\osgi\internal\resolver\ImportPackageSpecificationImpl.java
+	     org\eclipse\osgi\internal\resolver\NativeCodeDescriptionImpl.java
+	     org\eclipse\osgi\internal\resolver\NativeCodeSpecificationImpl.java
+	     org\eclipse\osgi\internal\resolver\ResolverErrorImpl.java
+	     org\eclipse\osgi\internal\resolver\StateBuilder.java
+	     org\eclipse\osgi\internal\resolver\StateHelperImpl.java
+	     org\eclipse\osgi\internal\resolver\StateImpl.java
+	     org\eclipse\osgi\internal\resolver\StateMessages.properties
+	     org\eclipse\osgi\internal\resolver\StateMsg.java
+	     org\eclipse\osgi\internal\resolver\StateObjectFactoryImpl.java
+	     org\eclipse\osgi\internal\resolver\UserState.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.osgi.compatibility.state.jar" path="org.eclipse.osgi.compatibility.state/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

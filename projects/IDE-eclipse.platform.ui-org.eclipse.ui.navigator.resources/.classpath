@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\full\clcl16\collapseall.gif
+	     icons\full\clcl16\synced.gif
+	     icons\full\cview16\filenav_nav.gif
+	     icons\full\elcl16\collapseall.gif
+	     icons\full\elcl16\filter_ps.gif
+	     icons\full\elcl16\synced.gif
+	     icons\full\eview16\resource_persp.gif
+	     icons\full\obj16\workingsets.gif
+	     icons\full\ovr16\error_co.gif
+	     icons\full\ovr16\warning_co.gif
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/clcl16/|icons/full/cview16/|icons/full/elcl16/|icons/full/eview16/|icons/full/obj16/|icons/full/ovr16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.navigator.resources.jar" path="org.eclipse.ui.navigator.resources"/>
+	<!-- org\eclipse\ui\internal\navigator\resources\actions\EditActionGroup.java
+	     org\eclipse\ui\internal\navigator\resources\actions\EditActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\FoldersAsProjectsActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\GotoActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\GotoResourceAction.java
+	     org\eclipse\ui\internal\navigator\resources\actions\NewActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\OpenActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\OpenFolderAsProjectAction.java
+	     org\eclipse\ui\internal\navigator\resources\actions\PortingActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\PropertiesActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\RefactorActionGroup.java
+	     org\eclipse\ui\internal\navigator\resources\actions\RefactorActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\ResourceMgmtActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\SelectProjectForFolderAction.java
+	     org\eclipse\ui\internal\navigator\resources\actions\UndoRedoActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\WorkingSetActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\actions\WorkingSetRootModeActionGroup.java
+	     org\eclipse\ui\internal\navigator\resources\actions\WorkManagementActionProvider.java
+	     org\eclipse\ui\internal\navigator\resources\plugin\messages.properties
+	     org\eclipse\ui\internal\navigator\resources\plugin\NavigatorUIPluginImages.java
+	     org\eclipse\ui\internal\navigator\resources\plugin\WorkbenchNavigatorMessages.java
+	     org\eclipse\ui\internal\navigator\resources\plugin\WorkbenchNavigatorPlugin.java
+	     org\eclipse\ui\internal\navigator\resources\ResourceToItemsMapper.java
+	     org\eclipse\ui\internal\navigator\resources\workbench\ResourceExtensionContentProvider.java
+	     org\eclipse\ui\internal\navigator\resources\workbench\ResourceExtensionLabelProvider.java
+	     org\eclipse\ui\internal\navigator\resources\workbench\ResourceExtensionSorter.java
+	     org\eclipse\ui\internal\navigator\resources\workbench\ResourceLinkHelper.java
+	     org\eclipse\ui\internal\navigator\resources\workbench\TabbedPropertySheetAdapterFactory.java
+	     org\eclipse\ui\internal\navigator\resources\workbench\TabbedPropertySheetProjectExplorerContributor.java
+	     org\eclipse\ui\internal\navigator\resources\workbench\TabbedPropertySheetTitleProvider.java
+	     org\eclipse\ui\internal\navigator\workingsets\WorkingSetsContentProvider.java
+	     org\eclipse\ui\internal\navigator\workingsets\WorkingSetsLabelProvider.java
+	     org\eclipse\ui\internal\navigator\workingsets\WorkingSetSorter.java
+	     org\eclipse\ui\navigator\resources\GoIntoActionProvider.java
+	     org\eclipse\ui\navigator\resources\ProjectExplorer.java
+	     org\eclipse\ui\navigator\resources\ResourceDragAdapterAssistant.java
+	     org\eclipse\ui\navigator\resources\ResourceDropAdapterAssistant.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.navigator.resources.jar" path="org.eclipse.ui.navigator.resources/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.core.refactoring"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.ui.refactoring"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views.properties.tabbed"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\eclipse\jetty\io\AbstractBuffer.java
+	     org\eclipse\jetty\io\AbstractBuffers.java
+	     org\eclipse\jetty\io\AbstractConnection.java
+	     org\eclipse\jetty\io\AsyncEndPoint.java
+	     org\eclipse\jetty\io\bio\SocketEndPoint.java
+	     org\eclipse\jetty\io\bio\StreamEndPoint.java
+	     org\eclipse\jetty\io\bio\StringEndPoint.java
+	     org\eclipse\jetty\io\Buffer.java
+	     org\eclipse\jetty\io\BufferCache.java
+	     org\eclipse\jetty\io\BufferDateCache.java
+	     org\eclipse\jetty\io\Buffers.java
+	     org\eclipse\jetty\io\BuffersFactory.java
+	     org\eclipse\jetty\io\BufferUtil.java
+	     org\eclipse\jetty\io\ByteArrayBuffer.java
+	     org\eclipse\jetty\io\ByteArrayEndPoint.java
+	     org\eclipse\jetty\io\ConnectedEndPoint.java
+	     org\eclipse\jetty\io\Connection.java
+	     org\eclipse\jetty\io\EndPoint.java
+	     org\eclipse\jetty\io\EofException.java
+	     org\eclipse\jetty\io\NetworkTrafficListener.java
+	     org\eclipse\jetty\io\nio\AsyncConnection.java
+	     org\eclipse\jetty\io\nio\ChannelEndPoint.java
+	     org\eclipse\jetty\io\nio\DirectNIOBuffer.java
+	     org\eclipse\jetty\io\nio\IndirectNIOBuffer.java
+	     org\eclipse\jetty\io\nio\NetworkTrafficSelectChannelEndPoint.java
+	     org\eclipse\jetty\io\nio\NIOBuffer.java
+	     org\eclipse\jetty\io\nio\RandomAccessFileBuffer.java
+	     org\eclipse\jetty\io\nio\SelectChannelEndPoint.java
+	     org\eclipse\jetty\io\nio\SelectorManager.java
+	     org\eclipse\jetty\io\nio\SslConnection.java
+	     org\eclipse\jetty\io\PooledBuffers.java
+	     org\eclipse\jetty\io\RuntimeIOException.java
+	     org\eclipse\jetty\io\SimpleBuffers.java
+	     org\eclipse\jetty\io\ThreadLocalBuffers.java
+	     org\eclipse\jetty\io\UncheckedIOException.java
+	     org\eclipse\jetty\io\UncheckedPrintWriter.java
+	     org\eclipse\jetty\io\View.java
+	     org\eclipse\jetty\io\WriterOutputStream.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.io.jar" path="jetty-io/src/main/java"/>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     META-INF\maven\org.eclipse.jetty\jetty-io\pom.properties
+	     META-INF\maven\org.eclipse.jetty\jetty-io\pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.io.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.util"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\full\dlcl16\defaults_ps.gif
+	     icons\full\dlcl16\defaults_ps.png
+	     icons\full\dlcl16\filter_ps.gif
+	     icons\full\dlcl16\filter_ps.png
+	     icons\full\dlcl16\tree_mode.gif
+	     icons\full\dlcl16\tree_mode.png
+	     icons\full\elcl16\defaults_ps.gif
+	     icons\full\elcl16\defaults_ps.png
+	     icons\full\elcl16\filter_ps.gif
+	     icons\full\elcl16\filter_ps.png
+	     icons\full\elcl16\new.gif
+	     icons\full\elcl16\new.png
+	     icons\full\elcl16\tree_mode.gif
+	     icons\full\elcl16\tree_mode.png
+	     icons\full\eview16\outline_co.gif
+	     icons\full\eview16\outline_co.png
+	     icons\full\eview16\prop_ps.gif
+	     icons\full\eview16\prop_ps.png
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/dlcl16/|icons/full/elcl16/|icons/full/eview16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.views.jar" path="org.eclipse.ui.views"/>
+	<!-- org\eclipse\ui\internal\views\contentoutline\ContentOutlineMessages.java
+	     org\eclipse\ui\internal\views\contentoutline\messages.properties
+	     org\eclipse\ui\internal\views\properties\messages.properties
+	     org\eclipse\ui\internal\views\properties\PropertiesMessages.java
+	     org\eclipse\ui\internal\views\ViewsPlugin.java
+	     org\eclipse\ui\views\contentoutline\ContentOutline.java
+	     org\eclipse\ui\views\contentoutline\ContentOutlinePage.java
+	     org\eclipse\ui\views\contentoutline\IContentOutlinePage.java
+	     org\eclipse\ui\views\properties\ColorPropertyDescriptor.java
+	     org\eclipse\ui\views\properties\ComboBoxLabelProvider.java
+	     org\eclipse\ui\views\properties\ComboBoxPropertyDescriptor.java
+	     org\eclipse\ui\views\properties\IPropertyDescriptor.java
+	     org\eclipse\ui\views\properties\IPropertySheetEntry.java
+	     org\eclipse\ui\views\properties\IPropertySheetEntryListener.java
+	     org\eclipse\ui\views\properties\IPropertySheetPage.java
+	     org\eclipse\ui\views\properties\IPropertySource.java
+	     org\eclipse\ui\views\properties\IPropertySource2.java
+	     org\eclipse\ui\views\properties\IPropertySourceProvider.java
+	     org\eclipse\ui\views\properties\NewPropertySheetHandler.java
+	     org\eclipse\ui\views\properties\PinPropertySheetAction.java
+	     org\eclipse\ui\views\properties\PropertyColumnLabelProvider.java
+	     org\eclipse\ui\views\properties\PropertyDescriptor.java
+	     org\eclipse\ui\views\properties\PropertyEditingSupport.java
+	     org\eclipse\ui\views\properties\PropertySheet.java
+	     org\eclipse\ui\views\properties\PropertySheetEntry.java
+	     org\eclipse\ui\views\properties\PropertySheetPage.java
+	     org\eclipse\ui\views\properties\PropertySheetSorter.java
+	     org\eclipse\ui\views\properties\PropertyShowInContext.java
+	     org\eclipse\ui\views\properties\TextPropertyDescriptor.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.views.jar" path="org.eclipse.ui.views/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

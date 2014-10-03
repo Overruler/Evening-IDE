@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     about.mappings
+	     about.properties
+	     eclipse32.png
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding=".*|.*/" including="META-INF/|about.html|about.ini|about.mappings|about.properties|eclipse32.png|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.rcp.jar" path="org.eclipse.rcp"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

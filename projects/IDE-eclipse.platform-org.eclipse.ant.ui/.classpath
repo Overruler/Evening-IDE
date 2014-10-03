@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about_files\asl-v20.txt
+	     about_files\NOTICE
+	     icons\full\dlcl16\add_co.gif
+	     icons\full\dlcl16\add_co.png
+	     icons\full\dlcl16\alpha_mode.gif
+	     icons\full\dlcl16\alpha_mode.png
+	     icons\full\dlcl16\ant_targets.gif
+	     icons\full\dlcl16\ant_targets.png
+	     icons\full\dlcl16\exportAnt_co.gif
+	     icons\full\dlcl16\exportAnt_co.png
+	     icons\full\dlcl16\filter_imported_elements.gif
+	     icons\full\dlcl16\filter_imported_elements.png
+	     icons\full\dlcl16\filter_internal_targets.gif
+	     icons\full\dlcl16\filter_internal_targets.png
+	     icons\full\dlcl16\filter_properties.gif
+	     icons\full\dlcl16\filter_properties.png
+	     icons\full\dlcl16\filter_top_level.gif
+	     icons\full\dlcl16\filter_top_level.png
+	     icons\full\dlcl16\properties.gif
+	     icons\full\dlcl16\properties.png
+	     icons\full\dlcl16\refresh.gif
+	     icons\full\dlcl16\refresh.png
+	     icons\full\dlcl16\removeall_co.gif
+	     icons\full\dlcl16\removeall_co.png
+	     icons\full\dlcl16\remove_co.gif
+	     icons\full\dlcl16\remove_co.png
+	     icons\full\dlcl16\run_tool.gif
+	     icons\full\dlcl16\run_tool.png
+	     icons\full\dlcl16\search.gif
+	     icons\full\dlcl16\search.png
+	     icons\full\dlcl16\synced.gif
+	     icons\full\dlcl16\synced.png
+	     icons\full\dtool16\mark_occurrences.gif
+	     icons\full\dtool16\mark_occurrences.png
+	     icons\full\dtool16\segment_edit.gif
+	     icons\full\dtool16\segment_edit.png
+	     icons\full\dview16\ant_view.png
+	     icons\full\elcl16\add_co.gif
+	     icons\full\elcl16\add_co.png
+	     icons\full\elcl16\alpha_mode.gif
+	     icons\full\elcl16\alpha_mode.png
+	     icons\full\elcl16\ant_targets.gif
+	     icons\full\elcl16\ant_targets.png
+	     icons\full\elcl16\exportAnt_co.gif
+	     icons\full\elcl16\exportAnt_co.png
+	     icons\full\elcl16\filter_imported_elements.gif
+	     icons\full\elcl16\filter_imported_elements.png
+	     icons\full\elcl16\filter_internal_targets.gif
+	     icons\full\elcl16\filter_internal_targets.png
+	     icons\full\elcl16\filter_properties.gif
+	     icons\full\elcl16\filter_properties.png
+	     icons\full\elcl16\filter_top_level.gif
+	     icons\full\elcl16\filter_top_level.png
+	     icons\full\elcl16\properties.gif
+	     icons\full\elcl16\properties.png
+	     icons\full\elcl16\refresh.gif
+	     icons\full\elcl16\refresh.png
+	     icons\full\elcl16\removeall_co.gif
+	     icons\full\elcl16\removeall_co.png
+	     icons\full\elcl16\remove_co.gif
+	     icons\full\elcl16\remove_co.png
+	     icons\full\elcl16\run_tool.gif
+	     icons\full\elcl16\run_tool.png
+	     icons\full\elcl16\search.gif
+	     icons\full\elcl16\search.png
+	     icons\full\elcl16\synced.gif
+	     icons\full\elcl16\synced.png
+	     icons\full\etool16\mark_occurrences.gif
+	     icons\full\etool16\mark_occurrences.png
+	     icons\full\etool16\segment_edit.gif
+	     icons\full\etool16\segment_edit.png
+	     icons\full\eview16\ant_view.gif
+	     icons\full\eview16\ant_view.png
+	     icons\full\obj16\ant.gif
+	     icons\full\obj16\ant.png
+	     icons\full\obj16\ant_buildfile.gif
+	     icons\full\obj16\ant_buildfile.png
+	     icons\full\obj16\ant_target_err.gif
+	     icons\full\obj16\ant_target_err.png
+	     icons\full\obj16\classpath.gif
+	     icons\full\obj16\classpath.png
+	     icons\full\obj16\defaulttarget_obj.gif
+	     icons\full\obj16\defaulttarget_obj.png
+	     icons\full\obj16\eclipse16.png
+	     icons\full\obj16\import_obj.gif
+	     icons\full\obj16\import_obj.png
+	     icons\full\obj16\macrodef_obj.gif
+	     icons\full\obj16\macrodef_obj.png
+	     icons\full\obj16\main_tab.gif
+	     icons\full\obj16\main_tab.png
+	     icons\full\obj16\new_ant_project.gif
+	     icons\full\obj16\new_ant_project.png
+	     icons\full\obj16\property_obj.gif
+	     icons\full\obj16\property_obj.png
+	     icons\full\obj16\prop_ps.gif
+	     icons\full\obj16\prop_ps.png
+	     icons\full\obj16\targetinternal_obj.gif
+	     icons\full\obj16\targetinternal_obj.png
+	     icons\full\obj16\targetpublic_obj.gif
+	     icons\full\obj16\targetpublic_obj.png
+	     icons\full\obj16\taskdef_obj.gif
+	     icons\full\obj16\taskdef_obj.png
+	     icons\full\obj16\task_obj.gif
+	     icons\full\obj16\task_obj.png
+	     icons\full\obj16\template_obj.gif
+	     icons\full\obj16\template_obj.png
+	     icons\full\obj16\type.gif
+	     icons\full\obj16\type.png
+	     icons\full\ovr16\error_co.gif
+	     icons\full\ovr16\error_co.png
+	     icons\full\ovr16\import_co.gif
+	     icons\full\ovr16\import_co.png
+	     icons\full\ovr16\warning_co.gif
+	     icons\full\ovr16\warning_co.png
+	     icons\full\wizban\ant_wiz.png
+	     icons\full\wizban\export_ant_wiz.png
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     templates\ant.properties
+	     templates\ant.xml
+	     templates\resolver.gif -->
+	<classpathentry excluding="Ant Editor/|Ant Runner Support/|Ant Tools Support/|Remote Ant Support/|.*|.*/|Ant Editor Content Assist Dev/" including="META-INF/|about.html|about_files/|icons/full/dlcl16/|icons/full/dtool16/|icons/full/dview16/|icons/full/elcl16/|icons/full/etool16/|icons/full/eview16/|icons/full/obj16/|icons/full/ovr16/|icons/full/wizban/|plugin.properties|plugin.xml|templates/" kind="src" output="bin/1/plugins/org.eclipse.ant.ui.jar" path="org.eclipse.ant.ui"/>
+	<!-- org\eclipse\ant\internal\ui\dtd\AntDTDMessages.java
+	     org\eclipse\ant\internal\ui\dtd\AntDTDMessages.properties
+	     org\eclipse\ant\internal\ui\dtd\IAtom.java
+	     org\eclipse\ant\internal\ui\dtd\IAttribute.java
+	     org\eclipse\ant\internal\ui\dtd\IDfm.java
+	     org\eclipse\ant\internal\ui\dtd\IElement.java
+	     org\eclipse\ant\internal\ui\dtd\IModel.java
+	     org\eclipse\ant\internal\ui\dtd\ISchema.java
+	     org\eclipse\ant\internal\ui\dtd\ParseError.java
+	     org\eclipse\ant\internal\ui\dtd\Parser.java
+	     org\eclipse\ant\internal\ui\dtd\schema\AntDTDSchemaMessages.java
+	     org\eclipse\ant\internal\ui\dtd\schema\AntDTDSchemaMessages.properties
+	     org\eclipse\ant\internal\ui\dtd\schema\Atom.java
+	     org\eclipse\ant\internal\ui\dtd\schema\Attribute.java
+	     org\eclipse\ant\internal\ui\dtd\schema\Dfm.java
+	     org\eclipse\ant\internal\ui\dtd\schema\Element.java
+	     org\eclipse\ant\internal\ui\dtd\schema\Model.java
+	     org\eclipse\ant\internal\ui\dtd\schema\Nfm.java
+	     org\eclipse\ant\internal\ui\dtd\schema\NfmNode.java
+	     org\eclipse\ant\internal\ui\dtd\schema\NfmParser.java
+	     org\eclipse\ant\internal\ui\dtd\schema\Schema.java
+	     org\eclipse\ant\internal\ui\dtd\schema\SchemaFactory.java
+	     org\eclipse\ant\internal\ui\dtd\util\AntDTDUtilMessages.java
+	     org\eclipse\ant\internal\ui\dtd\util\AntDTDUtilMessages.properties
+	     org\eclipse\ant\internal\ui\dtd\util\Factory.java
+	     org\eclipse\ant\internal\ui\dtd\util\FactoryObject.java
+	     org\eclipse\ant\internal\ui\dtd\util\IKeyHolder.java
+	     org\eclipse\ant\internal\ui\dtd\util\IMapHolder.java
+	     org\eclipse\ant\internal\ui\dtd\util\IValueHolder.java
+	     org\eclipse\ant\internal\ui\dtd\util\MapHolder.java
+	     org\eclipse\ant\internal\ui\dtd\util\SortedMap.java
+	     org\eclipse\ant\internal\ui\dtd\util\SortedMapFactory.java
+	     org\eclipse\ant\internal\ui\dtd\util\SortedSet.java
+	     org\eclipse\ant\internal\ui\editor\actions\AntEditorActionMessages.java
+	     org\eclipse\ant\internal\ui\editor\actions\AntEditorActionMessages.properties
+	     org\eclipse\ant\internal\ui\editor\actions\FoldingActionGroup.java
+	     org\eclipse\ant\internal\ui\editor\actions\FoldingExpandAllRulerAction.java
+	     org\eclipse\ant\internal\ui\editor\actions\FoldingToggleRulerAction.java
+	     org\eclipse\ant\internal\ui\editor\actions\OpenAntDeclarationHander.java
+	     org\eclipse\ant\internal\ui\editor\actions\OpenExternalAntDocHandler.java
+	     org\eclipse\ant\internal\ui\editor\actions\RenameInFileAction.java
+	     org\eclipse\ant\internal\ui\editor\actions\RunToLineAdapter.java
+	     org\eclipse\ant\internal\ui\editor\actions\ToggleAutoReconcileAction.java
+	     org\eclipse\ant\internal\ui\editor\actions\ToggleLineBreakpointAction.java
+	     org\eclipse\ant\internal\ui\editor\actions\ToggleMarkOccurrencesAction.java
+	     org\eclipse\ant\internal\ui\editor\actions\TogglePresentationAction.java
+	     org\eclipse\ant\internal\ui\editor\ant1.6.2.dtd
+	     org\eclipse\ant\internal\ui\editor\AntAutoEditStrategy.java
+	     org\eclipse\ant\internal\ui\editor\AntCompletionProposal.java
+	     org\eclipse\ant\internal\ui\editor\AntEditor.java
+	     org\eclipse\ant\internal\ui\editor\AntEditorActionContributor.java
+	     org\eclipse\ant\internal\ui\editor\AntEditorCompletionProcessor.java
+	     org\eclipse\ant\internal\ui\editor\AntEditorMessages.java
+	     org\eclipse\ant\internal\ui\editor\AntEditorMessages.properties
+	     org\eclipse\ant\internal\ui\editor\AntEditorSourceViewerConfiguration.java
+	     org\eclipse\ant\internal\ui\editor\AntElementHyperlink.java
+	     org\eclipse\ant\internal\ui\editor\AntElementHyperlinkDetector.java
+	     org\eclipse\ant\internal\ui\editor\AntSourceViewerInformationControl.java
+	     org\eclipse\ant\internal\ui\editor\anttasks_1.6.0.xml
+	     org\eclipse\ant\internal\ui\editor\DecayCodeCompletionDataStructuresThread.java
+	     org\eclipse\ant\internal\ui\editor\EditorSynchronizer.java
+	     org\eclipse\ant\internal\ui\editor\formatter\FormattingPreferences.java
+	     org\eclipse\ant\internal\ui\editor\formatter\XmlDocumentFormatter.java
+	     org\eclipse\ant\internal\ui\editor\formatter\XmlDocumentFormattingStrategy.java
+	     org\eclipse\ant\internal\ui\editor\formatter\XmlElementFormattingStrategy.java
+	     org\eclipse\ant\internal\ui\editor\formatter\XmlFormatter.java
+	     org\eclipse\ant\internal\ui\editor\formatter\XmlTagFormatter.java
+	     org\eclipse\ant\internal\ui\editor\OccurrencesFinder.java
+	     org\eclipse\ant\internal\ui\editor\outline\AntEditorContentOutlinePage.java
+	     org\eclipse\ant\internal\ui\editor\outline\AntEditorMarkerUpdater.java
+	     org\eclipse\ant\internal\ui\editor\outline\AntOutlineMessages.java
+	     org\eclipse\ant\internal\ui\editor\outline\AntOutlineMessages.properties
+	     org\eclipse\ant\internal\ui\editor\outline\FilterImportedElementsAction.java
+	     org\eclipse\ant\internal\ui\editor\outline\FilterInternalTargetsAction.java
+	     org\eclipse\ant\internal\ui\editor\outline\FilterPropertiesAction.java
+	     org\eclipse\ant\internal\ui\editor\outline\FilterTopLevelAction.java
+	     org\eclipse\ant\internal\ui\editor\outline\ToggleLinkWithEditorAction.java
+	     org\eclipse\ant\internal\ui\editor\outline\ToggleSortAntOutlineAction.java
+	     org\eclipse\ant\internal\ui\editor\TaskDescriptionProvider.java
+	     org\eclipse\ant\internal\ui\editor\templates\AntContext.java
+	     org\eclipse\ant\internal\ui\editor\templates\AntTemplateAccess.java
+	     org\eclipse\ant\internal\ui\editor\templates\AntTemplateInformationControlCreator.java
+	     org\eclipse\ant\internal\ui\editor\templates\AntTemplatePreferencePage.java
+	     org\eclipse\ant\internal\ui\editor\templates\AntTemplateProposal.java
+	     org\eclipse\ant\internal\ui\editor\templates\AntTemplateVariableTextHover.java
+	     org\eclipse\ant\internal\ui\editor\templates\AntTemplateViewerConfiguration.java
+	     org\eclipse\ant\internal\ui\editor\templates\AntVariableResolver.java
+	     org\eclipse\ant\internal\ui\editor\templates\BuildFileContextType.java
+	     org\eclipse\ant\internal\ui\editor\templates\TargetContextType.java
+	     org\eclipse\ant\internal\ui\editor\templates\TaskContextType.java
+	     org\eclipse\ant\internal\ui\editor\text\AbstractAntEditorScanner.java
+	     org\eclipse\ant\internal\ui\editor\text\AnnotationModelFactory.java
+	     org\eclipse\ant\internal\ui\editor\text\AntAnnotationModel.java
+	     org\eclipse\ant\internal\ui\editor\text\AntDocumentSetupParticipant.java
+	     org\eclipse\ant\internal\ui\editor\text\AntEditorDocumentProvider.java
+	     org\eclipse\ant\internal\ui\editor\text\AntEditorPartitionScanner.java
+	     org\eclipse\ant\internal\ui\editor\text\AntEditorProcInstrScanner.java
+	     org\eclipse\ant\internal\ui\editor\text\AntEditorTagScanner.java
+	     org\eclipse\ant\internal\ui\editor\text\AntEditorTextMessages.java
+	     org\eclipse\ant\internal\ui\editor\text\AntEditorTextMessages.properties
+	     org\eclipse\ant\internal\ui\editor\text\AntEditorWhitespaceDetector.java
+	     org\eclipse\ant\internal\ui\editor\text\AntExternalAnnotationModel.java
+	     org\eclipse\ant\internal\ui\editor\text\AntFoldingStructureProvider.java
+	     org\eclipse\ant\internal\ui\editor\text\AntInformationProvider.java
+	     org\eclipse\ant\internal\ui\editor\text\AntStorageDocumentProvider.java
+	     org\eclipse\ant\internal\ui\editor\text\DocTypeRule.java
+	     org\eclipse\ant\internal\ui\editor\text\FileScanner.java
+	     org\eclipse\ant\internal\ui\editor\text\IAntEditorColorConstants.java
+	     org\eclipse\ant\internal\ui\editor\text\IReconcilingParticipant.java
+	     org\eclipse\ant\internal\ui\editor\text\MultilineDamagerRepairer.java
+	     org\eclipse\ant\internal\ui\editor\text\NotifyingReconciler.java
+	     org\eclipse\ant\internal\ui\editor\text\TagRule.java
+	     org\eclipse\ant\internal\ui\editor\text\XMLAnnotationHover.java
+	     org\eclipse\ant\internal\ui\editor\text\XMLProblemAnnotation.java
+	     org\eclipse\ant\internal\ui\editor\text\XMLReconcilingStrategy.java
+	     org\eclipse\ant\internal\ui\editor\text\XMLTextHover.java
+	     org\eclipse\ant\internal\ui\editor\utils\ProjectHelper.java
+	     org\eclipse\ant\internal\ui\editor\utils\ProjectHelperMessages.java
+	     org\eclipse\ant\internal\ui\editor\utils\ProjectHelperMessages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ant.ui.jar" path="org.eclipse.ant.ui/Ant Editor"/>
+	<!-- org\eclipse\ant\internal\ui\antsupport\AntSupportMessages.java
+	     org\eclipse\ant\internal\ui\antsupport\AntSupportMessages.properties
+	     org\eclipse\ant\internal\ui\antsupport\inputhandler\AntInputHandler.java -->
+	<classpathentry including="org/eclipse/ant/internal/ui/antsupport/|org/eclipse/ant/internal/ui/antsupport/inputhandler/" kind="src" output="bin/2/plugins/org.eclipse.ant.ui.jar/lib/antrunner.jar" path="org.eclipse.ant.ui/Ant Runner Support"/>
+	<!-- org\eclipse\ant\internal\ui\AntDoubleClickStrategy.java
+	     org\eclipse\ant\internal\ui\AntImageDescriptor.java
+	     org\eclipse\ant\internal\ui\AntPropertyValueProvider.java
+	     org\eclipse\ant\internal\ui\AntRunnerWorkbenchAdvisor.java
+	     org\eclipse\ant\internal\ui\AntSourceViewerConfiguration.java
+	     org\eclipse\ant\internal\ui\AntUIImages.java
+	     org\eclipse\ant\internal\ui\AntUIModelMessages.java
+	     org\eclipse\ant\internal\ui\AntUIModelMessages.properties
+	     org\eclipse\ant\internal\ui\AntUIPlugin.java
+	     org\eclipse\ant\internal\ui\AntUIPreferenceInitializer.java
+	     org\eclipse\ant\internal\ui\AntUtil.java
+	     org\eclipse\ant\internal\ui\ColorManager.java
+	     org\eclipse\ant\internal\ui\ColumnSorter.java
+	     org\eclipse\ant\internal\ui\console\AbstractJavacPatternMatcher.java
+	     org\eclipse\ant\internal\ui\console\AntConsoleColorProvider.java
+	     org\eclipse\ant\internal\ui\console\ConsoleMessages.java
+	     org\eclipse\ant\internal\ui\console\ConsoleMessages.properties
+	     org\eclipse\ant\internal\ui\console\EclipseJavacPatternMatcher.java
+	     org\eclipse\ant\internal\ui\console\JavacMarkerCreator.java
+	     org\eclipse\ant\internal\ui\console\JavacPatternMatcher.java
+	     org\eclipse\ant\internal\ui\console\JikesJavacPatternMatcher.java
+	     org\eclipse\ant\internal\ui\console\TaskLineTracker.java
+	     org\eclipse\ant\internal\ui\datatransfer\AntBuildfileExportPage.java
+	     org\eclipse\ant\internal\ui\datatransfer\AntBuildfileExportWizard.java
+	     org\eclipse\ant\internal\ui\datatransfer\AntNewJavaProjectPage.java
+	     org\eclipse\ant\internal\ui\datatransfer\AntNewJavaProjectWizard.java
+	     org\eclipse\ant\internal\ui\datatransfer\AppletUtil.java
+	     org\eclipse\ant\internal\ui\datatransfer\BuildFileCreator.java
+	     org\eclipse\ant\internal\ui\datatransfer\DataTransferMessages.java
+	     org\eclipse\ant\internal\ui\datatransfer\DataTransferMessages.properties
+	     org\eclipse\ant\internal\ui\datatransfer\EclipseClasspath.java
+	     org\eclipse\ant\internal\ui\datatransfer\ExportUtil.java
+	     org\eclipse\ant\internal\ui\datatransfer\JavacTableLabelProvider.java
+	     org\eclipse\ant\internal\ui\datatransfer\ProjectCreator.java
+	     org\eclipse\ant\internal\ui\datatransfer\SourceAnalyzer.java
+	     org\eclipse\ant\internal\ui\debug\model\AntDebugModelPresentation.java
+	     org\eclipse\ant\internal\ui\debug\model\DebugModelMessages.java
+	     org\eclipse\ant\internal\ui\debug\model\DebugModelMessages.properties
+	     org\eclipse\ant\internal\ui\ExternalHyperlink.java
+	     org\eclipse\ant\internal\ui\IAntUIConstants.java
+	     org\eclipse\ant\internal\ui\IAntUIHelpContextIds.java
+	     org\eclipse\ant\internal\ui\IAntUIPreferenceConstants.java
+	     org\eclipse\ant\internal\ui\ImageDescriptorRegistry.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AddVariableStringAction.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntBuilderTabGroup.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntBuilderTargetsTab.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntClasspathTab.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntEnvironmentTab.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntJavaLaunchDelegate.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntJRETab.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntLaunchConfigurationMessages.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntLaunchConfigurationMessages.properties
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntLaunchShortcut.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntLaunchShortcutWithDialog.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntMainTab.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntPropertiesTab.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntTabGroup.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntTargetsTab.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\AntWorkingDirectoryBlock.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\EditAntHomeEntryAction.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\IAntLaunchConfigurationConstants.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\RunAntStatusHandler.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\SetTargetsDialog.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\TargetOrderDialog.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\TargetTableLabelProvider.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\TaskLinkManager.java
+	     org\eclipse\ant\internal\ui\launchConfigurations\VariableInputDialog.java
+	     org\eclipse\ant\internal\ui\model\AntAntNode.java
+	     org\eclipse\ant\internal\ui\model\AntAugmentTaskNode.java
+	     org\eclipse\ant\internal\ui\model\AntCommentNode.java
+	     org\eclipse\ant\internal\ui\model\AntDefiningTaskNode.java
+	     org\eclipse\ant\internal\ui\model\AntDTDNode.java
+	     org\eclipse\ant\internal\ui\model\AntElementAdapterFactory.java
+	     org\eclipse\ant\internal\ui\model\AntElementNode.java
+	     org\eclipse\ant\internal\ui\model\AntImportNode.java
+	     org\eclipse\ant\internal\ui\model\AntModel.java
+	     org\eclipse\ant\internal\ui\model\AntModelChangeEvent.java
+	     org\eclipse\ant\internal\ui\model\AntModelContentProvider.java
+	     org\eclipse\ant\internal\ui\model\AntModelCore.java
+	     org\eclipse\ant\internal\ui\model\AntModelLabelProvider.java
+	     org\eclipse\ant\internal\ui\model\AntModelMessages.java
+	     org\eclipse\ant\internal\ui\model\AntModelMessages.properties
+	     org\eclipse\ant\internal\ui\model\AntModelProblem.java
+	     org\eclipse\ant\internal\ui\model\AntModelProject.java
+	     org\eclipse\ant\internal\ui\model\AntProjectNode.java
+	     org\eclipse\ant\internal\ui\model\AntProjectNodeProxy.java
+	     org\eclipse\ant\internal\ui\model\AntPropertyNode.java
+	     org\eclipse\ant\internal\ui\model\AntTargetNode.java
+	     org\eclipse\ant\internal\ui\model\AntTaskNode.java
+	     org\eclipse\ant\internal\ui\model\IAntElement.java
+	     org\eclipse\ant\internal\ui\model\IAntModel.java
+	     org\eclipse\ant\internal\ui\model\IAntModelConstants.java
+	     org\eclipse\ant\internal\ui\model\IAntModelListener.java
+	     org\eclipse\ant\internal\ui\model\InternalTargetFilter.java
+	     org\eclipse\ant\internal\ui\model\IProblem.java
+	     org\eclipse\ant\internal\ui\model\IProblemRequestor.java
+	     org\eclipse\ant\internal\ui\model\LocationProvider.java
+	     org\eclipse\ant\internal\ui\preferences\AbstractAntEditorPreferencePage.java
+	     org\eclipse\ant\internal\ui\preferences\AbstractClasspathEntry.java
+	     org\eclipse\ant\internal\ui\preferences\AddCustomDialog.java
+	     org\eclipse\ant\internal\ui\preferences\AddPropertyDialog.java
+	     org\eclipse\ant\internal\ui\preferences\AntClasspathBlock.java
+	     org\eclipse\ant\internal\ui\preferences\AntClasspathContentProvider.java
+	     org\eclipse\ant\internal\ui\preferences\AntClasspathLabelProvider.java
+	     org\eclipse\ant\internal\ui\preferences\AntClasspathPage.java
+	     org\eclipse\ant\internal\ui\preferences\AntCodeAssistPreferencePage.java
+	     org\eclipse\ant\internal\ui\preferences\AntCodeFormatterPreferencePage.java
+	     org\eclipse\ant\internal\ui\preferences\AntContentProvider.java
+	     org\eclipse\ant\internal\ui\preferences\AntEditorPreferenceConstants.java
+	     org\eclipse\ant\internal\ui\preferences\AntEditorPreferencePage.java
+	     org\eclipse\ant\internal\ui\preferences\AntObjectLabelProvider.java
+	     org\eclipse\ant\internal\ui\preferences\AntPage.java
+	     org\eclipse\ant\internal\ui\preferences\AntPreferencePage.java
+	     org\eclipse\ant\internal\ui\preferences\AntPreferencesMessages.java
+	     org\eclipse\ant\internal\ui\preferences\AntPreferencesMessages.properties
+	     org\eclipse\ant\internal\ui\preferences\AntPropertiesBlock.java
+	     org\eclipse\ant\internal\ui\preferences\AntPropertiesPage.java
+	     org\eclipse\ant\internal\ui\preferences\AntRuntimePreferencePage.java
+	     org\eclipse\ant\internal\ui\preferences\AntTasksPage.java
+	     org\eclipse\ant\internal\ui\preferences\AntTypesPage.java
+	     org\eclipse\ant\internal\ui\preferences\ClasspathEntry.java
+	     org\eclipse\ant\internal\ui\preferences\ClasspathModel.java
+	     org\eclipse\ant\internal\ui\preferences\ColorEditor.java
+	     org\eclipse\ant\internal\ui\preferences\FileFilter.java
+	     org\eclipse\ant\internal\ui\preferences\FileSelectionDialog.java
+	     org\eclipse\ant\internal\ui\preferences\FormatPreviewCode.txt
+	     org\eclipse\ant\internal\ui\preferences\GlobalClasspathEntries.java
+	     org\eclipse\ant\internal\ui\preferences\IAntBlockContainer.java
+	     org\eclipse\ant\internal\ui\preferences\IClasspathEntry.java
+	     org\eclipse\ant\internal\ui\preferences\MessageLine.java
+	     org\eclipse\ant\internal\ui\preferences\StatusInfo.java
+	     org\eclipse\ant\internal\ui\preferences\SyntaxPreviewCode.txt
+	     org\eclipse\ant\internal\ui\preferences\TabFolderLayout.java
+	     org\eclipse\ant\internal\ui\preferences\URLFieldEditor.java
+	     org\eclipse\ant\internal\ui\refactoring\LaunchConfigurationBuildfileChange.java
+	     org\eclipse\ant\internal\ui\refactoring\LaunchConfigurationBuildfileRenameParticipant.java
+	     org\eclipse\ant\internal\ui\refactoring\LaunchConfigurationIProjectRenameParticipant.java
+	     org\eclipse\ant\internal\ui\refactoring\RefactoringMessages.java
+	     org\eclipse\ant\internal\ui\refactoring\RefactoringMessages.properties
+	     org\eclipse\ant\internal\ui\views\actions\AddBuildFilesAction.java
+	     org\eclipse\ant\internal\ui\views\actions\AntOpenWithMenu.java
+	     org\eclipse\ant\internal\ui\views\actions\AntViewActionMessages.java
+	     org\eclipse\ant\internal\ui\views\actions\AntViewActionMessages.properties
+	     org\eclipse\ant\internal\ui\views\actions\CollapseAllHandler.java
+	     org\eclipse\ant\internal\ui\views\actions\EditorImageDescriptor.java
+	     org\eclipse\ant\internal\ui\views\actions\FilterInternalTargetsAction.java
+	     org\eclipse\ant\internal\ui\views\actions\RefreshBuildFilesAction.java
+	     org\eclipse\ant\internal\ui\views\actions\RemoveAllAction.java
+	     org\eclipse\ant\internal\ui\views\actions\RemoveProjectAction.java
+	     org\eclipse\ant\internal\ui\views\actions\RunTargetAction.java
+	     org\eclipse\ant\internal\ui\views\actions\SearchForBuildFilesAction.java
+	     org\eclipse\ant\internal\ui\views\actions\SearchForBuildFilesDialog.java
+	     org\eclipse\ant\internal\ui\views\AntView.java
+	     org\eclipse\ant\internal\ui\views\AntViewDropAdapter.java
+	     org\eclipse\ant\internal\ui\views\AntViewMessages.java
+	     org\eclipse\ant\internal\ui\views\AntViewMessages.properties
+	     org\eclipse\ant\internal\ui\WorkbenchAntRunner.java
+	     org\eclipse\ant\ui\launching\IAntLaunchConfigurationConstants.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ant.ui.jar" path="org.eclipse.ant.ui/Ant Tools Support"/>
+	<!-- org\eclipse\ant\internal\ui\antsupport\inputhandler\ProxyInputHandler.java
+	     org\eclipse\ant\internal\ui\antsupport\inputhandler\RemoteAntMessages.java
+	     org\eclipse\ant\internal\ui\antsupport\inputhandler\RemoteAntMessages.properties
+	     org\eclipse\ant\internal\ui\antsupport\inputhandler\SWTInputHandler.java -->
+	<classpathentry including="org/eclipse/ant/internal/ui/antsupport/inputhandler/" kind="src" output="bin/3/plugins/org.eclipse.ant.ui.jar/lib/remoteAnt.jar" path="org.eclipse.ant.ui/Remote Ant Support"/>
+	<!-- lib\antrunner.jar\META-INF\MANIFEST.MF
+	     lib\remoteAnt.jar\META-INF\MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ant.ui.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform-org.eclipse.ant.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform-org.eclipse.ant.launching"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.core.externaltools"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.core.variables"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.debug.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.junit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.core.refactoring"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.ui.console"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.ui.externaltools"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

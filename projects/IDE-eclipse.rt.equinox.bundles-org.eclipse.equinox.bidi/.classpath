@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema\bidiTypes.exsd -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.equinox.bidi.jar" path="org.eclipse.equinox.bidi"/>
+	<!-- org\eclipse\equinox\bidi\advanced\IStructuredTextExpert.java
+	     org\eclipse\equinox\bidi\advanced\StructuredTextEnvironment.java
+	     org\eclipse\equinox\bidi\advanced\StructuredTextExpertFactory.java
+	     org\eclipse\equinox\bidi\custom\StructuredTextCharTypes.java
+	     org\eclipse\equinox\bidi\custom\StructuredTextOffsets.java
+	     org\eclipse\equinox\bidi\custom\StructuredTextTypeHandler.java
+	     org\eclipse\equinox\bidi\internal\consumable\StructuredTextComma.java
+	     org\eclipse\equinox\bidi\internal\consumable\StructuredTextEmail.java
+	     org\eclipse\equinox\bidi\internal\consumable\StructuredTextFile.java
+	     org\eclipse\equinox\bidi\internal\consumable\StructuredTextJava.java
+	     org\eclipse\equinox\bidi\internal\consumable\StructuredTextRegex.java
+	     org\eclipse\equinox\bidi\internal\consumable\StructuredTextSql.java
+	     org\eclipse\equinox\bidi\internal\consumable\StructuredTextUnderscore.java
+	     org\eclipse\equinox\bidi\internal\consumable\StructuredTextURL.java
+	     org\eclipse\equinox\bidi\internal\consumable\StructuredTextXPath.java
+	     org\eclipse\equinox\bidi\internal\StructuredTextActivator.java
+	     org\eclipse\equinox\bidi\internal\StructuredTextDelims.java
+	     org\eclipse\equinox\bidi\internal\StructuredTextDelimsEsc.java
+	     org\eclipse\equinox\bidi\internal\StructuredTextImpl.java
+	     org\eclipse\equinox\bidi\internal\StructuredTextSingle.java
+	     org\eclipse\equinox\bidi\internal\StructuredTextStringRecord.java
+	     org\eclipse\equinox\bidi\internal\StructuredTextTypesCollector.java
+	     org\eclipse\equinox\bidi\StructuredTextProcessor.java
+	     org\eclipse\equinox\bidi\StructuredTextTypeHandlerFactory.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.bidi.jar" path="org.eclipse.equinox.bidi/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

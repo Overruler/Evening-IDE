@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %bundleProvider
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Name: %bundleName
+Bundle-SymbolicName: javax.servlet.jsp
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/javax.servlet.jsp;tag=v201112011158
+Export-Package: javax.servlet.jsp;version="2.2.0",javax.servlet.jsp.el
+ ;version="2.2.0",javax.servlet.jsp.resources;version="2.2.0",javax.se
+ rvlet.jsp.tagext;version="2.2.0"
+Bundle-Version: 2.2.0.v201112011158
+Bundle-ManifestVersion: 2
+Import-Package: javax.el;version="2.2.0",javax.servlet;version="2.6.0"
+ ,javax.servlet.http;version="2.6.0"

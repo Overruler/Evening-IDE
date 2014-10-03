@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\eclipse\jetty\server\AbstractConnector.java
+	     org\eclipse\jetty\server\AbstractHttpConnection.java
+	     org\eclipse\jetty\server\AsyncContinuation.java
+	     org\eclipse\jetty\server\AsyncHttpConnection.java
+	     org\eclipse\jetty\server\AsyncNCSARequestLog.java
+	     org\eclipse\jetty\server\Authentication.java
+	     org\eclipse\jetty\server\bio\SocketConnector.java
+	     org\eclipse\jetty\server\BlockingHttpConnection.java
+	     org\eclipse\jetty\server\Connector.java
+	     org\eclipse\jetty\server\CookieCutter.java
+	     org\eclipse\jetty\server\Dispatcher.java
+	     org\eclipse\jetty\server\Handler.java
+	     org\eclipse\jetty\server\HandlerContainer.java
+	     org\eclipse\jetty\server\handler\AbstractHandler.java
+	     org\eclipse\jetty\server\handler\AbstractHandlerContainer.java
+	     org\eclipse\jetty\server\handler\ConnectHandler.java
+	     org\eclipse\jetty\server\handler\ContextHandlerCollection.java
+	     org\eclipse\jetty\server\handler\DebugHandler.java
+	     org\eclipse\jetty\server\handler\DefaultHandler.java
+	     org\eclipse\jetty\server\handler\ErrorHandler.java
+	     org\eclipse\jetty\server\handler\GzipHandler.java
+	     org\eclipse\jetty\server\handler\HandlerCollection.java
+	     org\eclipse\jetty\server\handler\HandlerList.java
+	     org\eclipse\jetty\server\handler\HandlerWrapper.java
+	     org\eclipse\jetty\server\handler\HotSwapHandler.java
+	     org\eclipse\jetty\server\handler\IPAccessHandler.java
+	     org\eclipse\jetty\server\handler\jmx\AbstractHandlerMBean.java
+	     org\eclipse\jetty\server\handler\jmx\ContextHandlerMBean.java
+	     org\eclipse\jetty\server\handler\MovedContextHandler.java
+	     org\eclipse\jetty\server\handler\ProxyHandler.java
+	     org\eclipse\jetty\server\handler\RequestLogHandler.java
+	     org\eclipse\jetty\server\handler\ResourceHandler.java
+	     org\eclipse\jetty\server\handler\ScopedHandler.java
+	     org\eclipse\jetty\server\handler\ShutdownHandler.java
+	     org\eclipse\jetty\server\handler\StatisticsHandler.java
+	     org\eclipse\jetty\server\HttpInput.java
+	     org\eclipse\jetty\server\HttpOutput.java
+	     org\eclipse\jetty\server\HttpWriter.java
+	     org\eclipse\jetty\server\InclusiveByteRange.java
+	     org\eclipse\jetty\server\jmx\ServerMBean.java
+	     org\eclipse\jetty\server\LocalConnector.java
+	     org\eclipse\jetty\server\NCSARequestLog.java
+	     org\eclipse\jetty\server\nio\AbstractNIOConnector.java
+	     org\eclipse\jetty\server\nio\BlockingChannelConnector.java
+	     org\eclipse\jetty\server\nio\InheritedChannelConnector.java
+	     org\eclipse\jetty\server\nio\NetworkTrafficSelectChannelConnector.java
+	     org\eclipse\jetty\server\nio\NIOConnector.java
+	     org\eclipse\jetty\server\nio\SelectChannelConnector.java
+	     org\eclipse\jetty\server\Request.java
+	     org\eclipse\jetty\server\RequestLog.java
+	     org\eclipse\jetty\server\ResourceCache.java
+	     org\eclipse\jetty\server\Response.java
+	     org\eclipse\jetty\server\Server.java
+	     org\eclipse\jetty\server\ServletRequestHttpWrapper.java
+	     org\eclipse\jetty\server\ServletResponseHttpWrapper.java
+	     org\eclipse\jetty\server\SessionIdManager.java
+	     org\eclipse\jetty\server\SessionManager.java
+	     org\eclipse\jetty\server\session\AbstractSession.java
+	     org\eclipse\jetty\server\session\AbstractSessionIdManager.java
+	     org\eclipse\jetty\server\session\AbstractSessionManager.java
+	     org\eclipse\jetty\server\session\HashedSession.java
+	     org\eclipse\jetty\server\session\HashSessionIdManager.java
+	     org\eclipse\jetty\server\session\HashSessionManager.java
+	     org\eclipse\jetty\server\session\JDBCSessionIdManager.java
+	     org\eclipse\jetty\server\session\JDBCSessionManager.java
+	     org\eclipse\jetty\server\session\jmx\AbstractSessionManagerMBean.java
+	     org\eclipse\jetty\server\session\SessionHandler.java
+	     org\eclipse\jetty\server\ShutdownMonitor.java
+	     org\eclipse\jetty\server\ssl\ServletSSL.java
+	     org\eclipse\jetty\server\ssl\SslCertificates.java
+	     org\eclipse\jetty\server\ssl\SslConnector.java
+	     org\eclipse\jetty\server\ssl\SslSelectChannelConnector.java
+	     org\eclipse\jetty\server\ssl\SslSocketConnector.java
+	     org\eclipse\jetty\server\UserIdentity.java -->
+	<classpathentry excluding="org/eclipse/jetty/server/handler/ContextHandler.java" kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="jetty-server/src/main/java"/>
+	<!-- org\eclipse\jetty\favicon.ico
+	     org\eclipse\jetty\server\handler\jmx\AbstractHandler-mbean.properties
+	     org\eclipse\jetty\server\handler\jmx\ContextHandler-mbean.properties
+	     org\eclipse\jetty\server\handler\jmx\ContextHandlerCollection-mbean.properties
+	     org\eclipse\jetty\server\handler\jmx\HandlerCollection-mbean.properties
+	     org\eclipse\jetty\server\handler\jmx\HandlerWrapper-mbean.properties
+	     org\eclipse\jetty\server\handler\jmx\StatisticsHandler-mbean.properties
+	     org\eclipse\jetty\server\jmx\AbstractConnector-mbean.properties
+	     org\eclipse\jetty\server\jmx\Connector-mbean.properties
+	     org\eclipse\jetty\server\jmx\Handler-mbean.properties
+	     org\eclipse\jetty\server\jmx\HandlerContainer-mbean.properties
+	     org\eclipse\jetty\server\jmx\NCSARequestLog-mbean.properties
+	     org\eclipse\jetty\server\jmx\Server-mbean.properties
+	     org\eclipse\jetty\server\nio\jmx\SelectChannelConnector-mbean.properties
+	     org\eclipse\jetty\server\session\jmx\AbstractSessionManager-mbean.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="jetty-server/src/main/resources"/>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     META-INF\maven\org.eclipse.jetty\jetty-server\pom.properties
+	     META-INF\maven\org.eclipse.jetty\jetty-server\pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="res"/>
+	<!-- org\eclipse\jetty\server\handler\ContextHandler.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-org.eclipse.jetty.jmx"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.continuation"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.http"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.io"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.util"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

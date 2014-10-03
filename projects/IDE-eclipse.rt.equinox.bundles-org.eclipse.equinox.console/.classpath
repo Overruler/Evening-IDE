@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.console.jar" path="org.eclipse.equinox.console"/>
+	<!-- org\eclipse\equinox\console\commands\CommandsTracker.java
+	     org\eclipse\equinox\console\commands\ConsoleMessages.properties
+	     org\eclipse\equinox\console\commands\ConsoleMsg.java
+	     org\eclipse\equinox\console\commands\DisconnectCommand.java
+	     org\eclipse\equinox\console\commands\EquinoxCommandProvider.java
+	     org\eclipse\equinox\console\commands\EquinoxCommandsConverter.java
+	     org\eclipse\equinox\console\commands\HelpCommand.java
+	     org\eclipse\equinox\console\commands\ManCommand.java
+	     org\eclipse\equinox\console\commands\Util.java
+	     org\eclipse\equinox\console\command\adapter\Activator.java
+	     org\eclipse\equinox\console\command\adapter\CommandProviderAdapter.java
+	     org\eclipse\equinox\console\command\adapter\CustomCommandInterpreter.java
+	     org\eclipse\equinox\console\common\ConsoleInputHandler.java
+	     org\eclipse\equinox\console\common\ConsoleInputScanner.java
+	     org\eclipse\equinox\console\common\ConsoleInputStream.java
+	     org\eclipse\equinox\console\common\ConsoleOutputStream.java
+	     org\eclipse\equinox\console\common\HistoryHolder.java
+	     org\eclipse\equinox\console\common\InputHandler.java
+	     org\eclipse\equinox\console\common\KEYS.java
+	     org\eclipse\equinox\console\common\Scanner.java
+	     org\eclipse\equinox\console\common\SimpleByteBuffer.java
+	     org\eclipse\equinox\console\common\terminal\ANSITerminalTypeMappings.java
+	     org\eclipse\equinox\console\common\terminal\SCOTerminalTypeMappings.java
+	     org\eclipse\equinox\console\common\terminal\TerminalTypeMappings.java
+	     org\eclipse\equinox\console\common\terminal\VT100TerminalTypeMappings.java
+	     org\eclipse\equinox\console\common\terminal\VT220TerminalTypeMappings.java
+	     org\eclipse\equinox\console\common\terminal\VT320TerminalTypeMappings.java
+	     org\eclipse\equinox\console\completion\CommandLineParser.java
+	     org\eclipse\equinox\console\completion\CommandNamesCompleter.java
+	     org\eclipse\equinox\console\completion\common\Completer.java
+	     org\eclipse\equinox\console\completion\CompletionHandler.java
+	     org\eclipse\equinox\console\completion\FileNamesCompleter.java
+	     org\eclipse\equinox\console\completion\StringsCompleter.java
+	     org\eclipse\equinox\console\completion\VariableNamesCompleter.java
+	     org\eclipse\equinox\console\telnet\Callback.java
+	     org\eclipse\equinox\console\telnet\NegotiationFinishedCallback.java
+	     org\eclipse\equinox\console\telnet\TelnetCommand.java
+	     org\eclipse\equinox\console\telnet\TelnetConnection.java
+	     org\eclipse\equinox\console\telnet\TelnetInputHandler.java
+	     org\eclipse\equinox\console\telnet\TelnetInputScanner.java
+	     org\eclipse\equinox\console\telnet\TelnetOutputStream.java
+	     org\eclipse\equinox\console\telnet\TelnetServer.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.console.jar" path="org.eclipse.equinox.console/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.felix.gogo.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

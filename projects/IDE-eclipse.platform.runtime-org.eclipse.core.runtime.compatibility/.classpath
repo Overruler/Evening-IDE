@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src-boot/|src-model/|src-runtime/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.runtime.compatibility.jar" path="org.eclipse.core.runtime.compatibility"/>
+	<!-- org\eclipse\core\boot\BootLoader.java
+	     org\eclipse\core\boot\IPlatformConfiguration.java
+	     org\eclipse\core\boot\IPlatformRunnable.java
+	     org\eclipse\core\internal\boot\FeatureEntry.java
+	     org\eclipse\core\internal\boot\PlatformConfiguration.java
+	     org\eclipse\core\internal\boot\SiteEntry.java
+	     org\eclipse\core\internal\boot\SitePolicy.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.runtime.compatibility.jar" path="org.eclipse.core.runtime.compatibility/src-boot"/>
+	<!-- org\eclipse\core\internal\model\IModel.java
+	     org\eclipse\core\internal\model\PluginMap.java
+	     org\eclipse\core\internal\model\PluginParser.java
+	     org\eclipse\core\internal\model\RegistryLoader.java
+	     org\eclipse\core\internal\model\RegistryResolver.java
+	     org\eclipse\core\runtime\model\ConfigurationElementModel.java
+	     org\eclipse\core\runtime\model\ConfigurationPropertyModel.java
+	     org\eclipse\core\runtime\model\ExtensionModel.java
+	     org\eclipse\core\runtime\model\ExtensionPointModel.java
+	     org\eclipse\core\runtime\model\Factory.java
+	     org\eclipse\core\runtime\model\LibraryModel.java
+	     org\eclipse\core\runtime\model\PluginDescriptorModel.java
+	     org\eclipse\core\runtime\model\PluginFragmentModel.java
+	     org\eclipse\core\runtime\model\PluginModel.java
+	     org\eclipse\core\runtime\model\PluginModelObject.java
+	     org\eclipse\core\runtime\model\PluginPrerequisiteModel.java
+	     org\eclipse\core\runtime\model\PluginRegistryModel.java
+	     org\eclipse\core\runtime\model\URLModel.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.runtime.compatibility.jar" path="org.eclipse.core.runtime.compatibility/src-model"/>
+	<!-- org\eclipse\core\internal\compatibility\PluginActivator.java
+	     org\eclipse\core\internal\plugins\CompatibilityActivator.java
+	     org\eclipse\core\internal\plugins\DefaultPlugin.java
+	     org\eclipse\core\internal\plugins\DevClassPathHelper.java
+	     org\eclipse\core\internal\plugins\InternalPlatform.java
+	     org\eclipse\core\internal\plugins\Library.java
+	     org\eclipse\core\internal\plugins\messages.properties
+	     org\eclipse\core\internal\plugins\PluginClassLoader.java
+	     org\eclipse\core\internal\plugins\PluginDescriptor.java
+	     org\eclipse\core\internal\plugins\PluginPrerequisite.java
+	     org\eclipse\core\internal\plugins\PluginRegistry.java
+	     org\eclipse\core\internal\plugins\Policy.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.runtime.compatibility.jar" path="org.eclipse.core.runtime.compatibility/src-runtime"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.platform-org.eclipse.update.configurator"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

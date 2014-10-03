@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\install_wiz.gif
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\importexport.xml
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|icons/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.importexport.jar" path="org.eclipse.equinox.p2.ui.importexport"/>
+	<!-- org\eclipse\equinox\internal\p2\importexport\internal\Constants.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\ImportExportActivator.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\ImportExportImpl.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\Messages.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\messages.properties
+	     org\eclipse\equinox\internal\p2\importexport\internal\wizard\AbstractImportPage.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\wizard\AbstractPage.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\wizard\AbstractWizard.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\wizard\ExportPage.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\wizard\ExportWizard.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\wizard\ImportFromInstallationPage.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\wizard\ImportFromInstallationWizard.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\wizard\ImportPage.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\wizard\ImportWizard.java
+	     org\eclipse\equinox\internal\p2\importexport\internal\wizard\StyledErrorDialog.java
+	     org\eclipse\equinox\internal\p2\importexport\IUDetail.java
+	     org\eclipse\equinox\internal\p2\importexport\P2ImportExport.java
+	     org\eclipse\equinox\internal\p2\importexport\persistence\P2FConstants.java
+	     org\eclipse\equinox\internal\p2\importexport\persistence\P2FParser.java
+	     org\eclipse\equinox\internal\p2\importexport\persistence\P2FWriter.java
+	     org\eclipse\equinox\internal\p2\importexport\VersionIncompatibleException.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.importexport.jar" path="org.eclipse.equinox.p2.ui.importexport/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.director"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.extensionlocation"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.operations"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

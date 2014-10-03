@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.discovery.jar" path="org.eclipse.equinox.p2.discovery"/>
+	<!-- org\eclipse\equinox\internal\p2\discovery\AbstractCatalogSource.java
+	     org\eclipse\equinox\internal\p2\discovery\AbstractDiscoveryStrategy.java
+	     org\eclipse\equinox\internal\p2\discovery\Catalog.java
+	     org\eclipse\equinox\internal\p2\discovery\DiscoveryCore.java
+	     org\eclipse\equinox\internal\p2\discovery\messages.properties
+	     org\eclipse\equinox\internal\p2\discovery\model\AbstractCatalogItem.java
+	     org\eclipse\equinox\internal\p2\discovery\model\CatalogCategory.java
+	     org\eclipse\equinox\internal\p2\discovery\model\CatalogItem.java
+	     org\eclipse\equinox\internal\p2\discovery\model\Certification.java
+	     org\eclipse\equinox\internal\p2\discovery\model\FeatureFilter.java
+	     org\eclipse\equinox\internal\p2\discovery\model\Group.java
+	     org\eclipse\equinox\internal\p2\discovery\model\Icon.java
+	     org\eclipse\equinox\internal\p2\discovery\model\messages.properties
+	     org\eclipse\equinox\internal\p2\discovery\model\Overview.java
+	     org\eclipse\equinox\internal\p2\discovery\model\Tag.java
+	     org\eclipse\equinox\internal\p2\discovery\model\ValidationException.java
+	     org\eclipse\equinox\internal\p2\discovery\Policy.java
+	     org\eclipse\equinox\internal\p2\discovery\util\CatalogCategoryComparator.java
+	     org\eclipse\equinox\internal\p2\discovery\util\CatalogItemComparator.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.discovery.jar" path="org.eclipse.equinox.p2.discovery/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

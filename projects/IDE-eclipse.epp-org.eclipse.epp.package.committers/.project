@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>IDE-eclipse.epp-org.eclipse.epp.package.committers</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>org.eclipse.epp.package.committers</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/eclipse.epp/packages/org.eclipse.epp.package.committers</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

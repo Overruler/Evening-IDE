@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .classpath
+	     .project
+	     .settings\org.eclipse.core.resources.prefs
+	     .settings\org.eclipse.core.runtime.prefs
+	     .settings\org.eclipse.jdt.core.prefs
+	     .settings\org.eclipse.jdt.launching.prefs
+	     .settings\org.eclipse.jdt.ui.prefs
+	     .settings\org.eclipse.pde.api.tools.prefs
+	     .settings\org.eclipse.pde.core.prefs
+	     .settings\org.eclipse.pde.prefs
+	     about.html
+	     build.properties
+	     META-INF\MANIFEST.MF
+	     OSGI-INF\tracingInitializer.xml
+	     plugin.properties
+	     plugin.xml
+	     schema\traceComponents.exsd -->
+	<classpathentry excluding="src/|.*|.*/" including=".classpath|.project|.settings/|META-INF/|OSGI-INF/|about.html|build.properties|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.ui.trace.jar" path="org.eclipse.ui.trace"/>
+	<!-- org\eclipse\ui\trace\internal\datamodel\AbstractTracingNode.java
+	     org\eclipse\ui\trace\internal\datamodel\ModifiedDebugOptions.java
+	     org\eclipse\ui\trace\internal\datamodel\TracingCollections.java
+	     org\eclipse\ui\trace\internal\datamodel\TracingComponent.java
+	     org\eclipse\ui\trace\internal\datamodel\TracingComponentDebugOption.java
+	     org\eclipse\ui\trace\internal\datamodel\TracingNode.java
+	     org\eclipse\ui\trace\internal\IHelpContextIds.java
+	     org\eclipse\ui\trace\internal\Messages.java
+	     org\eclipse\ui\trace\internal\messages.properties
+	     org\eclipse\ui\trace\internal\providers\TracingComponentColumnLabelProvider.java
+	     org\eclipse\ui\trace\internal\providers\TracingComponentContentProvider.java
+	     org\eclipse\ui\trace\internal\providers\TracingComponentLabelProvider.java
+	     org\eclipse\ui\trace\internal\TracingComponentColumnEditingSupport.java
+	     org\eclipse\ui\trace\internal\TracingComponentComparator.java
+	     org\eclipse\ui\trace\internal\TracingComponentTreeViewer.java
+	     org\eclipse\ui\trace\internal\TracingComponentViewerFilter.java
+	     org\eclipse\ui\trace\internal\TracingDoubleClickListener.java
+	     org\eclipse\ui\trace\internal\TracingPreferencePage.java
+	     org\eclipse\ui\trace\internal\TracingStartupMonitor.java
+	     org\eclipse\ui\trace\internal\TracingUIActivator.java
+	     org\eclipse\ui\trace\internal\utils\DebugOptionsHandler.java
+	     org\eclipse\ui\trace\internal\utils\PreferenceHandler.java
+	     org\eclipse\ui\trace\internal\utils\TracingConstants.java
+	     org\eclipse\ui\trace\internal\utils\TracingInitializer.java
+	     org\eclipse\ui\trace\internal\utils\TracingUtils.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.trace.jar" path="org.eclipse.ui.trace/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

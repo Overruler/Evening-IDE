@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     about_files\copyright-software-19980720.htm
+	     command_link.png
+	     dtds\internal\xhtml-lat1.ent
+	     dtds\internal\xhtml-special.ent
+	     dtds\internal\xhtml-symbol.ent
+	     dtds\internal\xhtml1-frameset.dtd
+	     dtds\internal\xhtml1-strict.dtd
+	     dtds\internal\xhtml1-transitional.dtd
+	     dtds\internal\xhtml11-flat.dtd
+	     dtds\internal\xhtml11.dtd
+	     livehelp.js
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     preferences.ini -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|about_files/|command_link.png|dtds/internal/|livehelp.js|plugin.properties|plugin.xml|preferences.ini" kind="src" output="bin/1/plugins/org.eclipse.help.jar" path="org.eclipse.help"/>
+	<!-- org\eclipse\help\AbstractContentExtensionProvider.java
+	     org\eclipse\help\AbstractContextProvider.java
+	     org\eclipse\help\AbstractCriteriaDefinitionProvider.java
+	     org\eclipse\help\AbstractCriteriaProvider.java
+	     org\eclipse\help\AbstractIndexProvider.java
+	     org\eclipse\help\AbstractTocProvider.java
+	     org\eclipse\help\HelpSystem.java
+	     org\eclipse\help\IAnchor.java
+	     org\eclipse\help\ICommandLink.java
+	     org\eclipse\help\IContentExtension.java
+	     org\eclipse\help\IContext.java
+	     org\eclipse\help\IContext2.java
+	     org\eclipse\help\IContext3.java
+	     org\eclipse\help\IContextProvider.java
+	     org\eclipse\help\ICriteria.java
+	     org\eclipse\help\ICriteriaDefinition.java
+	     org\eclipse\help\ICriteriaDefinitionContribution.java
+	     org\eclipse\help\ICriterionDefinition.java
+	     org\eclipse\help\ICriterionValueDefinition.java
+	     org\eclipse\help\IHelp.java
+	     org\eclipse\help\IHelpContentProducer.java
+	     org\eclipse\help\IHelpResource.java
+	     org\eclipse\help\IInclude.java
+	     org\eclipse\help\IIndex.java
+	     org\eclipse\help\IIndexContribution.java
+	     org\eclipse\help\IIndexEntry.java
+	     org\eclipse\help\IIndexEntry2.java
+	     org\eclipse\help\IIndexSee.java
+	     org\eclipse\help\IIndexSubpath.java
+	     org\eclipse\help\ILink.java
+	     org\eclipse\help\ILiveHelpAction.java
+	     org\eclipse\help\internal\Anchor.java
+	     org\eclipse\help\internal\CachedEntityResolver.java
+	     org\eclipse\help\internal\CommandLink.java
+	     org\eclipse\help\internal\context\Context.java
+	     org\eclipse\help\internal\context\ContextFile.java
+	     org\eclipse\help\internal\context\ContextFileProvider.java
+	     org\eclipse\help\internal\context\ContextManager.java
+	     org\eclipse\help\internal\context\IStyledContext.java
+	     org\eclipse\help\internal\criteria\Criteria.java
+	     org\eclipse\help\internal\criteria\CriteriaDefinition.java
+	     org\eclipse\help\internal\criteria\CriteriaDefinitionAssembler.java
+	     org\eclipse\help\internal\criteria\CriteriaDefinitionContribution.java
+	     org\eclipse\help\internal\criteria\CriteriaDefinitionDocumentReader.java
+	     org\eclipse\help\internal\criteria\CriteriaDefinitionFile.java
+	     org\eclipse\help\internal\criteria\CriteriaDefinitionFileParser.java
+	     org\eclipse\help\internal\criteria\CriteriaDefinitionFileProvider.java
+	     org\eclipse\help\internal\criteria\CriteriaDefinitionManager.java
+	     org\eclipse\help\internal\criteria\CriteriaManager.java
+	     org\eclipse\help\internal\criteria\CriteriaProviderRegistry.java
+	     org\eclipse\help\internal\criteria\CriterionDefinition.java
+	     org\eclipse\help\internal\criteria\CriterionResource.java
+	     org\eclipse\help\internal\criteria\CriterionValueDefinition.java
+	     org\eclipse\help\internal\dynamic\DocumentProcessor.java
+	     org\eclipse\help\internal\dynamic\DocumentReader.java
+	     org\eclipse\help\internal\dynamic\DocumentWriter.java
+	     org\eclipse\help\internal\dynamic\ExtensionHandler.java
+	     org\eclipse\help\internal\dynamic\ExtensionResolver.java
+	     org\eclipse\help\internal\dynamic\FilterHandler.java
+	     org\eclipse\help\internal\dynamic\FilterResolver.java
+	     org\eclipse\help\internal\dynamic\IncludeHandler.java
+	     org\eclipse\help\internal\dynamic\IncludeResolver.java
+	     org\eclipse\help\internal\dynamic\ProcessorHandler.java
+	     org\eclipse\help\internal\dynamic\ValidationHandler.java
+	     org\eclipse\help\internal\dynamic\XMLProcessor.java
+	     org\eclipse\help\internal\entityresolver\LocalEntityResolver.java
+	     org\eclipse\help\internal\extension\ContentExtension.java
+	     org\eclipse\help\internal\extension\ContentExtensionFileParser.java
+	     org\eclipse\help\internal\extension\ContentExtensionFileProvider.java
+	     org\eclipse\help\internal\extension\ContentExtensionManager.java
+	     org\eclipse\help\internal\HelpData.java
+	     org\eclipse\help\internal\HelpPlugin.java
+	     org\eclipse\help\internal\Include.java
+	     org\eclipse\help\internal\index\Index.java
+	     org\eclipse\help\internal\index\IndexAssembler.java
+	     org\eclipse\help\internal\index\IndexContribution.java
+	     org\eclipse\help\internal\index\IndexDocumentReader.java
+	     org\eclipse\help\internal\index\IndexEntry.java
+	     org\eclipse\help\internal\index\IndexFile.java
+	     org\eclipse\help\internal\index\IndexFileParser.java
+	     org\eclipse\help\internal\index\IndexFileProvider.java
+	     org\eclipse\help\internal\index\IndexManager.java
+	     org\eclipse\help\internal\index\IndexSee.java
+	     org\eclipse\help\internal\index\IndexSubpath.java
+	     org\eclipse\help\internal\toc\DocumentFinder.java
+	     org\eclipse\help\internal\toc\HrefUtil.java
+	     org\eclipse\help\internal\toc\Link.java
+	     org\eclipse\help\internal\toc\Toc.java
+	     org\eclipse\help\internal\toc\TocAssembler.java
+	     org\eclipse\help\internal\toc\TocContribution.java
+	     org\eclipse\help\internal\toc\TocFile.java
+	     org\eclipse\help\internal\toc\TocFileParser.java
+	     org\eclipse\help\internal\toc\TocFileProvider.java
+	     org\eclipse\help\internal\toc\TocManager.java
+	     org\eclipse\help\internal\toc\TocProviderComparator.java
+	     org\eclipse\help\internal\toc\TocSorter.java
+	     org\eclipse\help\internal\toc\TopicSorter.java
+	     org\eclipse\help\internal\Topic.java
+	     org\eclipse\help\internal\UAElement.java
+	     org\eclipse\help\internal\UAElementFactory.java
+	     org\eclipse\help\internal\util\FastStack.java
+	     org\eclipse\help\internal\util\ProductPreferences.java
+	     org\eclipse\help\internal\util\ResourceLocator.java
+	     org\eclipse\help\internal\util\SequenceResolver.java
+	     org\eclipse\help\internal\util\URLCoder.java
+	     org\eclipse\help\IToc.java
+	     org\eclipse\help\IToc2.java
+	     org\eclipse\help\ITocContribution.java
+	     org\eclipse\help\ITopic.java
+	     org\eclipse\help\ITopic2.java
+	     org\eclipse\help\IUAElement.java
+	     org\eclipse\help\UAContentFilter.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.help.jar" path="org.eclipse.help/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

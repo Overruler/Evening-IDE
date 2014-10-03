@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.databinding.property.jar" path="org.eclipse.core.databinding.property"/>
+	<!-- org\eclipse\core\databinding\property\INativePropertyListener.java
+	     org\eclipse\core\databinding\property\IProperty.java
+	     org\eclipse\core\databinding\property\IPropertyObservable.java
+	     org\eclipse\core\databinding\property\ISimplePropertyListener.java
+	     org\eclipse\core\databinding\property\list\DelegatingListProperty.java
+	     org\eclipse\core\databinding\property\list\IListProperty.java
+	     org\eclipse\core\databinding\property\list\ListProperty.java
+	     org\eclipse\core\databinding\property\list\MultiListProperty.java
+	     org\eclipse\core\databinding\property\list\SimpleListProperty.java
+	     org\eclipse\core\databinding\property\map\DelegatingMapProperty.java
+	     org\eclipse\core\databinding\property\map\IMapProperty.java
+	     org\eclipse\core\databinding\property\map\MapProperty.java
+	     org\eclipse\core\databinding\property\map\SimpleMapProperty.java
+	     org\eclipse\core\databinding\property\NativePropertyListener.java
+	     org\eclipse\core\databinding\property\Properties.java
+	     org\eclipse\core\databinding\property\set\DelegatingSetProperty.java
+	     org\eclipse\core\databinding\property\set\ISetProperty.java
+	     org\eclipse\core\databinding\property\set\SetProperty.java
+	     org\eclipse\core\databinding\property\set\SimpleSetProperty.java
+	     org\eclipse\core\databinding\property\set\UnionSetProperty.java
+	     org\eclipse\core\databinding\property\SimplePropertyEvent.java
+	     org\eclipse\core\databinding\property\value\DelegatingValueProperty.java
+	     org\eclipse\core\databinding\property\value\IValueProperty.java
+	     org\eclipse\core\databinding\property\value\SimpleValueProperty.java
+	     org\eclipse\core\databinding\property\value\ValueProperty.java
+	     org\eclipse\core\internal\databinding\property\ListPropertyDetailValuesList.java
+	     org\eclipse\core\internal\databinding\property\list\SelfListProperty.java
+	     org\eclipse\core\internal\databinding\property\list\SimplePropertyObservableList.java
+	     org\eclipse\core\internal\databinding\property\MapPropertyDetailValuesMap.java
+	     org\eclipse\core\internal\databinding\property\map\SelfMapProperty.java
+	     org\eclipse\core\internal\databinding\property\map\SimplePropertyObservableMap.java
+	     org\eclipse\core\internal\databinding\property\PropertyObservableUtil.java
+	     org\eclipse\core\internal\databinding\property\SetPropertyDetailValuesMap.java
+	     org\eclipse\core\internal\databinding\property\set\SelfSetProperty.java
+	     org\eclipse\core\internal\databinding\property\set\SimplePropertyObservableSet.java
+	     org\eclipse\core\internal\databinding\property\Util.java
+	     org\eclipse\core\internal\databinding\property\ValuePropertyDetailList.java
+	     org\eclipse\core\internal\databinding\property\ValuePropertyDetailMap.java
+	     org\eclipse\core\internal\databinding\property\ValuePropertyDetailSet.java
+	     org\eclipse\core\internal\databinding\property\ValuePropertyDetailValue.java
+	     org\eclipse\core\internal\databinding\property\value\ListDelegatingValueObservableList.java
+	     org\eclipse\core\internal\databinding\property\value\ListSimpleValueObservableList.java
+	     org\eclipse\core\internal\databinding\property\value\MapDelegatingValueObservableMap.java
+	     org\eclipse\core\internal\databinding\property\value\MapSimpleValueObservableMap.java
+	     org\eclipse\core\internal\databinding\property\value\ObservableValueProperty.java
+	     org\eclipse\core\internal\databinding\property\value\SelfValueProperty.java
+	     org\eclipse\core\internal\databinding\property\value\SetDelegatingValueObservableMap.java
+	     org\eclipse\core\internal\databinding\property\value\SetSimpleValueObservableMap.java
+	     org\eclipse\core\internal\databinding\property\value\SimplePropertyObservableValue.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.databinding.property.jar" path="org.eclipse.core.databinding.property/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding.observable"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

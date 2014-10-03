@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     about.properties
+	     ecf32.png
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema\container.exsd
+	     schema\containerFactory.exsd
+	     schema\start.exsd -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|about.ini|about.properties|ecf32.png|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.ecf.jar" path="org.eclipse.ecf"/>
+	<!-- org\eclipse\ecf\core\AbstractContainer.java
+	     org\eclipse\ecf\core\AbstractContainerAdapterFactory.java
+	     org\eclipse\ecf\core\BaseContainer.java
+	     org\eclipse\ecf\core\ContainerAuthenticationException.java
+	     org\eclipse\ecf\core\ContainerConnectException.java
+	     org\eclipse\ecf\core\ContainerCreateException.java
+	     org\eclipse\ecf\core\ContainerFactory.java
+	     org\eclipse\ecf\core\ContainerTypeDescription.java
+	     org\eclipse\ecf\core\events\ContainerConnectedEvent.java
+	     org\eclipse\ecf\core\events\ContainerConnectingEvent.java
+	     org\eclipse\ecf\core\events\ContainerDisconnectedEvent.java
+	     org\eclipse\ecf\core\events\ContainerDisconnectingEvent.java
+	     org\eclipse\ecf\core\events\ContainerDisposeEvent.java
+	     org\eclipse\ecf\core\events\ContainerEjectedEvent.java
+	     org\eclipse\ecf\core\events\IContainerConnectedEvent.java
+	     org\eclipse\ecf\core\events\IContainerConnectingEvent.java
+	     org\eclipse\ecf\core\events\IContainerDisconnectedEvent.java
+	     org\eclipse\ecf\core\events\IContainerDisconnectingEvent.java
+	     org\eclipse\ecf\core\events\IContainerDisposeEvent.java
+	     org\eclipse\ecf\core\events\IContainerEjectedEvent.java
+	     org\eclipse\ecf\core\events\IContainerEvent.java
+	     org\eclipse\ecf\core\IContainer.java
+	     org\eclipse\ecf\core\IContainerFactory.java
+	     org\eclipse\ecf\core\IContainerListener.java
+	     org\eclipse\ecf\core\IContainerManager.java
+	     org\eclipse\ecf\core\IContainerManagerListener.java
+	     org\eclipse\ecf\core\IReliableContainer.java
+	     org\eclipse\ecf\core\jobs\JobsExecutor.java
+	     org\eclipse\ecf\core\provider\BaseContainerInstantiator.java
+	     org\eclipse\ecf\core\provider\BaseRemoteServiceContainerInstantiator.java
+	     org\eclipse\ecf\core\provider\IContainerInstantiator.java
+	     org\eclipse\ecf\core\provider\IRemoteServiceContainerInstantiator.java
+	     org\eclipse\ecf\core\security\BooleanCallback.java
+	     org\eclipse\ecf\core\security\Callback.java
+	     org\eclipse\ecf\core\security\CallbackHandler.java
+	     org\eclipse\ecf\core\security\ConnectContextFactory.java
+	     org\eclipse\ecf\core\security\IConnectContext.java
+	     org\eclipse\ecf\core\security\IConnectHandlerPolicy.java
+	     org\eclipse\ecf\core\security\IConnectInitiatorPolicy.java
+	     org\eclipse\ecf\core\security\IContainerPolicy.java
+	     org\eclipse\ecf\core\security\NameCallback.java
+	     org\eclipse\ecf\core\security\ObjectCallback.java
+	     org\eclipse\ecf\core\security\PassphraseCallback.java
+	     org\eclipse\ecf\core\security\PasswordCallback.java
+	     org\eclipse\ecf\core\security\UnsupportedCallbackException.java
+	     org\eclipse\ecf\core\start\ECFStartJob.java
+	     org\eclipse\ecf\core\start\IECFStart.java
+	     org\eclipse\ecf\core\status\SerializableMultiStatus.java
+	     org\eclipse\ecf\core\status\SerializableStatus.java
+	     org\eclipse\ecf\core\user\IUser.java
+	     org\eclipse\ecf\core\user\User.java
+	     org\eclipse\ecf\core\util\AdapterContainerFilter.java
+	     org\eclipse\ecf\core\util\ConnectedContainerFilter.java
+	     org\eclipse\ecf\core\util\ContainerFactoryTracker.java
+	     org\eclipse\ecf\core\util\ContainerManagerTracker.java
+	     org\eclipse\ecf\core\util\Event.java
+	     org\eclipse\ecf\core\util\IContainerFilter.java
+	     org\eclipse\ecf\core\util\IEventProcessor.java
+	     org\eclipse\ecf\core\util\IExceptionHandler.java
+	     org\eclipse\ecf\core\util\Proxy.java
+	     org\eclipse\ecf\core\util\ProxyAddress.java
+	     org\eclipse\ecf\core\util\reflection\ClassUtil.java
+	     org\eclipse\ecf\internal\core\ECFDebugOptions.java
+	     org\eclipse\ecf\internal\core\ECFPlugin.java
+	     org\eclipse\ecf\internal\core\IDisposable.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ecf.jar" path="org.eclipse.ecf/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.ecf-org.eclipse.ecf.identity"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.concurrent"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

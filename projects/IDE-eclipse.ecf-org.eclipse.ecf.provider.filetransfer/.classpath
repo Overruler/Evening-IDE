@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema\browseFileTransferProtocolFactory.exsd
+	     schema\retrieveFileTransferProtocolFactory.exsd
+	     schema\sendFileTransferProtocolFactory.exsd -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.jar" path="org.eclipse.ecf.provider.filetransfer"/>
+	<!-- org\eclipse\ecf\internal\provider\filetransfer\Activator.java
+	     org\eclipse\ecf\internal\provider\filetransfer\DebugOptions.java
+	     org\eclipse\ecf\internal\provider\filetransfer\IURLConnectionModifier.java
+	     org\eclipse\ecf\internal\provider\filetransfer\Messages.java
+	     org\eclipse\ecf\internal\provider\filetransfer\messages.properties
+	     org\eclipse\ecf\provider\filetransfer\browse\AbstractFileSystemBrowser.java
+	     org\eclipse\ecf\provider\filetransfer\browse\LocalFileSystemBrowser.java
+	     org\eclipse\ecf\provider\filetransfer\browse\LocalRemoteFile.java
+	     org\eclipse\ecf\provider\filetransfer\browse\LocalRemoteFileAttributes.java
+	     org\eclipse\ecf\provider\filetransfer\browse\MultiProtocolFileSystemBrowserAdapter.java
+	     org\eclipse\ecf\provider\filetransfer\browse\MultiProtocolFileSystemBrowserAdapterFactory.java
+	     org\eclipse\ecf\provider\filetransfer\browse\URLFileSystemBrowser.java
+	     org\eclipse\ecf\provider\filetransfer\browse\URLRemoteFile.java
+	     org\eclipse\ecf\provider\filetransfer\browse\URLRemoteFileAttributes.java
+	     org\eclipse\ecf\provider\filetransfer\events\socket\AbstractSocketEvent.java
+	     org\eclipse\ecf\provider\filetransfer\events\socket\AbstractSocketWrapper.java
+	     org\eclipse\ecf\provider\filetransfer\events\socket\SocketClosedEvent.java
+	     org\eclipse\ecf\provider\filetransfer\events\socket\SocketConnectedEvent.java
+	     org\eclipse\ecf\provider\filetransfer\events\socket\SocketCreatedEvent.java
+	     org\eclipse\ecf\provider\filetransfer\events\socket\SocketEventCreateUtil.java
+	     org\eclipse\ecf\provider\filetransfer\events\socket\SocketEventSource.java
+	     org\eclipse\ecf\provider\filetransfer\identity\FileTransferID.java
+	     org\eclipse\ecf\provider\filetransfer\identity\FileTransferNamespace.java
+	     org\eclipse\ecf\provider\filetransfer\IFileTransferProtocolToFactoryMapper.java
+	     org\eclipse\ecf\provider\filetransfer\outgoing\AbstractOutgoingFileTransfer.java
+	     org\eclipse\ecf\provider\filetransfer\outgoing\AbstractUrlConnectionOutgoingFileTransfer.java
+	     org\eclipse\ecf\provider\filetransfer\outgoing\LocalFileOutgoingFileTransfer.java
+	     org\eclipse\ecf\provider\filetransfer\outgoing\MultiProtocolOutgoingAdapter.java
+	     org\eclipse\ecf\provider\filetransfer\outgoing\MultiProtocolOutgoingAdapterFactory.java
+	     org\eclipse\ecf\provider\filetransfer\retrieve\AbstractRetrieveFileTransfer.java
+	     org\eclipse\ecf\provider\filetransfer\retrieve\HttpHelper.java
+	     org\eclipse\ecf\provider\filetransfer\retrieve\MultiProtocolRetrieveAdapter.java
+	     org\eclipse\ecf\provider\filetransfer\retrieve\MultiProtocolRetrieveAdapterFactory.java
+	     org\eclipse\ecf\provider\filetransfer\retrieve\UrlConnectionRetrieveFileTransfer.java
+	     org\eclipse\ecf\provider\filetransfer\util\JREProxyHelper.java
+	     org\eclipse\ecf\provider\filetransfer\util\PollingInputStream.java
+	     org\eclipse\ecf\provider\filetransfer\util\ProxySetupHelper.java
+	     org\eclipse\ecf\provider\filetransfer\util\TimeoutInputStream.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.jar" path="org.eclipse.ecf.provider.filetransfer/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.ecf-org.eclipse.ecf"/>
+	<classpathentry kind="src" path="/IDE-eclipse.ecf-org.eclipse.ecf.filetransfer"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

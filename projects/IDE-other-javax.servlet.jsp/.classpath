@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- javax\servlet\jsp\el\ELException.java
+	     javax\servlet\jsp\el\ELParseException.java
+	     javax\servlet\jsp\el\Expression.java
+	     javax\servlet\jsp\el\ExpressionEvaluator.java
+	     javax\servlet\jsp\el\FunctionMapper.java
+	     javax\servlet\jsp\el\ImplicitObjectELResolver.java
+	     javax\servlet\jsp\el\ScopedAttributeELResolver.java
+	     javax\servlet\jsp\el\VariableResolver.java
+	     javax\servlet\jsp\ErrorData.java
+	     javax\servlet\jsp\HttpJspPage.java
+	     javax\servlet\jsp\JspApplicationContext.java
+	     javax\servlet\jsp\JspContext.java
+	     javax\servlet\jsp\JspEngineInfo.java
+	     javax\servlet\jsp\JspException.java
+	     javax\servlet\jsp\JspFactory.java
+	     javax\servlet\jsp\JspPage.java
+	     javax\servlet\jsp\JspTagException.java
+	     javax\servlet\jsp\JspWriter.java
+	     javax\servlet\jsp\PageContext.java
+	     javax\servlet\jsp\resources\jspxml_2_0.dtd
+	     javax\servlet\jsp\resources\jspxml_2_0.xsd
+	     javax\servlet\jsp\resources\jsp_2_0.xsd
+	     javax\servlet\jsp\resources\jsp_2_1.xsd
+	     javax\servlet\jsp\resources\jsp_2_2.xsd
+	     javax\servlet\jsp\resources\web-jsptaglibrary_1_1.dtd
+	     javax\servlet\jsp\resources\web-jsptaglibrary_1_2.dtd
+	     javax\servlet\jsp\resources\web-jsptaglibrary_2_0.xsd
+	     javax\servlet\jsp\resources\web-jsptaglibrary_2_1.xsd
+	     javax\servlet\jsp\SkipPageException.java
+	     javax\servlet\jsp\tagext\BodyContent.java
+	     javax\servlet\jsp\tagext\BodyTag.java
+	     javax\servlet\jsp\tagext\BodyTagSupport.java
+	     javax\servlet\jsp\tagext\DynamicAttributes.java
+	     javax\servlet\jsp\tagext\FunctionInfo.java
+	     javax\servlet\jsp\tagext\IterationTag.java
+	     javax\servlet\jsp\tagext\JspFragment.java
+	     javax\servlet\jsp\tagext\JspIdConsumer.java
+	     javax\servlet\jsp\tagext\JspTag.java
+	     javax\servlet\jsp\tagext\PageData.java
+	     javax\servlet\jsp\tagext\SimpleTag.java
+	     javax\servlet\jsp\tagext\SimpleTagSupport.java
+	     javax\servlet\jsp\tagext\Tag.java
+	     javax\servlet\jsp\tagext\TagAdapter.java
+	     javax\servlet\jsp\tagext\TagAttributeInfo.java
+	     javax\servlet\jsp\tagext\TagData.java
+	     javax\servlet\jsp\tagext\TagExtraInfo.java
+	     javax\servlet\jsp\tagext\TagFileInfo.java
+	     javax\servlet\jsp\tagext\TagInfo.java
+	     javax\servlet\jsp\tagext\TagLibraryInfo.java
+	     javax\servlet\jsp\tagext\TagLibraryValidator.java
+	     javax\servlet\jsp\tagext\TagSupport.java
+	     javax\servlet\jsp\tagext\TagVariableInfo.java
+	     javax\servlet\jsp\tagext\TryCatchFinally.java
+	     javax\servlet\jsp\tagext\ValidationMessage.java
+	     javax\servlet\jsp\tagext\VariableInfo.java -->
+	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" including="javax/servlet/jsp/|javax/servlet/jsp/el/|javax/servlet/jsp/resources/|javax/servlet/jsp/tagext/" kind="src" output="bin/1/plugins/javax.servlet.jsp.jar" path="javax.servlet.jsp"/>
+	<!-- about.html
+	     about_files\LICENSE_CDDL.txt
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/javax.servlet.jsp.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.el"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

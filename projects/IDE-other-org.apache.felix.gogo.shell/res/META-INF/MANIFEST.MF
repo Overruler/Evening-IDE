@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-DocURL: http://www.apache.org/
+Bundle-Localization: plugin
+Bundle-SymbolicName: org.apache.felix.gogo.shell
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/org.apache.felix.gogo.shell;tag=v201212101605
+Bundle-Activator: org.apache.felix.gogo.shell.Activator
+Bundle-Version: 0.10.0.v201212101605
+Bundle-Description: Apache Felix Gogo Subproject
+Bundle-Vendor: %providerName
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Name: %pluginName
+Import-Package: org.apache.felix.service.command;status=provisional;ve
+ rsion="0.10",org.osgi.framework,org.osgi.service.startlevel,org.osgi.
+ util.tracker
+Bundle-ManifestVersion: 2

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     icons\full\obj16\green.GIF
+	     icons\full\obj16\red.GIF
+	     icons\full\obj16\signed_yes_tbl.gif
+	     icons\full\obj16\yellow.GIF
+	     icons\storage\decrypt.gif
+	     icons\storage\encrypt.gif
+	     icons\storage\export_secure.gif
+	     icons\storage\export_secure_wiz.png
+	     icons\storage\login_wiz.png
+	     icons\storage\new_value_wiz.png
+	     icons\storage\node_delete.gif
+	     icons\storage\node_new.gif
+	     icons\storage\node_refresh.gif
+	     icons\storage\save.gif
+	     icons\storage\secure_storage.gif
+	     icons\storage\value_delete.gif
+	     icons\storage\value_new.gif
+	     icons\storage\value_show.gif
+	     icons\titleAreaCert.gif
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|icons/|icons/full/obj16/|icons/storage/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.security.ui.jar" path="org.eclipse.equinox.security.ui"/>
+	<!-- org\eclipse\equinox\internal\provisional\security\ui\AuthorizationManager.java
+	     org\eclipse\equinox\internal\provisional\security\ui\SecurityContributionItemFactory.java
+	     org\eclipse\equinox\internal\provisional\security\ui\X500PrincipalHelper.java
+	     org\eclipse\equinox\internal\provisional\security\ui\X509CertificateViewDialog.java
+	     org\eclipse\equinox\internal\security\ui\Activator.java
+	     org\eclipse\equinox\internal\security\ui\ConfirmationDialog.java
+	     org\eclipse\equinox\internal\security\ui\DefaultAuthorizationManager.java
+	     org\eclipse\equinox\internal\security\ui\nls\messages.properties
+	     org\eclipse\equinox\internal\security\ui\nls\SecUIMessages.java
+	     org\eclipse\equinox\internal\security\ui\preferences\SecurityCategoryPage.java
+	     org\eclipse\equinox\internal\security\ui\SecurityConfigurationSection.java
+	     org\eclipse\equinox\internal\security\ui\SecurityStatusControl.java
+	     org\eclipse\equinox\internal\security\ui\SecurityUIMsg.java
+	     org\eclipse\equinox\internal\security\ui\SecurityUIMsg.properties
+	     org\eclipse\equinox\internal\security\ui\storage\ChallengeResponseDialog.java
+	     org\eclipse\equinox\internal\security\ui\storage\ChangePasswordWizard.java
+	     org\eclipse\equinox\internal\security\ui\storage\ChangePasswordWizardDialog.java
+	     org\eclipse\equinox\internal\security\ui\storage\DefaultPasswordProvider.java
+	     org\eclipse\equinox\internal\security\ui\storage\IStorageConst.java
+	     org\eclipse\equinox\internal\security\ui\storage\PasswordRecoveryDialog.java
+	     org\eclipse\equinox\internal\security\ui\storage\StorageLoginDialog.java
+	     org\eclipse\equinox\internal\security\ui\storage\StoragePreferencePage.java
+	     org\eclipse\equinox\internal\security\ui\storage\StorageUtils.java
+	     org\eclipse\equinox\internal\security\ui\storage\TabAdvanced.java
+	     org\eclipse\equinox\internal\security\ui\storage\TabContents.java
+	     org\eclipse\equinox\internal\security\ui\storage\TabPassword.java
+	     org\eclipse\equinox\internal\security\ui\storage\UICallbackProvider.java
+	     org\eclipse\equinox\internal\security\ui\storage\view\ExportDialog.java
+	     org\eclipse\equinox\internal\security\ui\storage\view\ISecurePreferencesSelection.java
+	     org\eclipse\equinox\internal\security\ui\storage\view\NewNodeDialog.java
+	     org\eclipse\equinox\internal\security\ui\storage\view\NewValueDialog.java
+	     org\eclipse\equinox\internal\security\ui\storage\view\NodesView.java
+	     org\eclipse\equinox\internal\security\ui\storage\view\ValuesView.java
+	     org\eclipse\equinox\internal\security\ui\wizard\CertificateImportCertSelectPage.java
+	     org\eclipse\equinox\internal\security\ui\wizard\CertificateImportConfirmationPage.java
+	     org\eclipse\equinox\internal\security\ui\wizard\CertificateImportFileSelectPage.java
+	     org\eclipse\equinox\internal\security\ui\wizard\CertificateImportTrustEngineSelectPage.java
+	     org\eclipse\equinox\internal\security\ui\wizard\CertificateImportWizard.java
+	     org\eclipse\equinox\internal\security\ui\wizard\CertificateViewer.java
+	     org\eclipse\equinox\internal\security\ui\X509CertificateAttribute.java
+	     org\eclipse\equinox\internal\security\ui\X509CertificateAttributeContentProvider.java
+	     org\eclipse\equinox\internal\security\ui\X509CertificateAttributeLabelProvider.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.security.ui.jar" path="org.eclipse.equinox.security.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.preferences"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

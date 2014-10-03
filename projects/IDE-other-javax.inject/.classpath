@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- javax\inject\Inject.java
+	     javax\inject\Named.java
+	     javax\inject\Provider.java
+	     javax\inject\Qualifier.java
+	     javax\inject\Scope.java
+	     javax\inject\Singleton.java -->
+	<classpathentry excluding="META-INF/ECLIPSEF.RSA|META-INF/ECLIPSEF.SF|META-INF/eclipse.inf|about.html|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/javax.inject.jar" path="javax.inject"/>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/javax.inject.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

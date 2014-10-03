@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.junit.runtime.jar" path="org.eclipse.pde.junit.runtime"/>
+	<!-- org\eclipse\pde\internal\junit\runtime\CoreTestApplication.java
+	     org\eclipse\pde\internal\junit\runtime\LegacyUITestApplication.java
+	     org\eclipse\pde\internal\junit\runtime\NonUIThreadTestApplication.java
+	     org\eclipse\pde\internal\junit\runtime\PDEJUnitRuntimePlugin.java
+	     org\eclipse\pde\internal\junit\runtime\PlatformUITestHarness.java
+	     org\eclipse\pde\internal\junit\runtime\RemotePluginTestRunner.java
+	     org\eclipse\pde\internal\junit\runtime\UITestApplication.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.junit.runtime.jar" path="org.eclipse.pde.junit.runtime/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench3"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.junit.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-other-org.junit"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

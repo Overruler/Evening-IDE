@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.operations.jar" path="org.eclipse.equinox.p2.operations"/>
+	<!-- org\eclipse\equinox\internal\p2\operations\Activator.java
+	     org\eclipse\equinox\internal\p2\operations\IFailedStatusEvaluator.java
+	     org\eclipse\equinox\internal\p2\operations\IStatusCodes.java
+	     org\eclipse\equinox\internal\p2\operations\Messages.java
+	     org\eclipse\equinox\internal\p2\operations\messages.properties
+	     org\eclipse\equinox\internal\p2\operations\PlanAnalyzer.java
+	     org\eclipse\equinox\internal\p2\operations\PlannerResolutionJob.java
+	     org\eclipse\equinox\internal\p2\operations\RemediationResolutionJob.java
+	     org\eclipse\equinox\internal\p2\operations\RequestFlexer.java
+	     org\eclipse\equinox\internal\p2\operations\ResolutionResult.java
+	     org\eclipse\equinox\internal\p2\operations\SearchForUpdatesResolutionJob.java
+	     org\eclipse\equinox\p2\operations\InstallOperation.java
+	     org\eclipse\equinox\p2\operations\IProfileChangeJob.java
+	     org\eclipse\equinox\p2\operations\OperationFactory.java
+	     org\eclipse\equinox\p2\operations\ProfileChangeOperation.java
+	     org\eclipse\equinox\p2\operations\ProfileModificationJob.java
+	     org\eclipse\equinox\p2\operations\ProvisioningJob.java
+	     org\eclipse\equinox\p2\operations\ProvisioningSession.java
+	     org\eclipse\equinox\p2\operations\RemediationOperation.java
+	     org\eclipse\equinox\p2\operations\Remedy.java
+	     org\eclipse\equinox\p2\operations\RemedyConfig.java
+	     org\eclipse\equinox\p2\operations\RemedyIUDetail.java
+	     org\eclipse\equinox\p2\operations\RepositoryTracker.java
+	     org\eclipse\equinox\p2\operations\SynchronizeOperation.java
+	     org\eclipse\equinox\p2\operations\UninstallOperation.java
+	     org\eclipse\equinox\p2\operations\Update.java
+	     org\eclipse\equinox\p2\operations\UpdateOperation.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.operations.jar" path="org.eclipse.equinox.p2.operations/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.director"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.simpleconfigurator"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.metadata.jar" path="org.eclipse.equinox.p2.metadata"/>
+	<!-- org\eclipse\equinox\internal\p2\metadata\ArtifactKey.java
+	     org\eclipse\equinox\internal\p2\metadata\BasicVersion.java
+	     org\eclipse\equinox\internal\p2\metadata\Copyright.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Binary.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\BooleanFunction.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\ClassFunction.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\CoercingComparator.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\CollectionFilter.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\CompoundIterator.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\ContextExpression.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\EvaluationContext.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Everything.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Expression.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\ExpressionFactory.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\FilterFunction.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Function.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\IExpressionConstants.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\IRepeatableIterator.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\LambdaExpression.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\LDAPApproximation.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\LDAPFilter.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Literal.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Matches.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\MatchExpression.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\MatchIteratorFilter.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Member.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\MemberProvider.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\NAry.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Parameter.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\parser\ExpressionParser.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\parser\LDAPFilterParser.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\parser\QLParser.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Pipe.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\QueryResult.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\RangeFunction.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\RepeatableIterator.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\SetFunction.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Unary.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\Variable.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\VersionFunction.java
+	     org\eclipse\equinox\internal\p2\metadata\expression\WrappedIQuery.java
+	     org\eclipse\equinox\internal\p2\metadata\index\CapabilityIndex.java
+	     org\eclipse\equinox\internal\p2\metadata\index\CompoundIndex.java
+	     org\eclipse\equinox\internal\p2\metadata\index\IdIndex.java
+	     org\eclipse\equinox\internal\p2\metadata\index\Index.java
+	     org\eclipse\equinox\internal\p2\metadata\index\IndexProvider.java
+	     org\eclipse\equinox\internal\p2\metadata\InstallableUnit.java
+	     org\eclipse\equinox\internal\p2\metadata\InstallableUnitFragment.java
+	     org\eclipse\equinox\internal\p2\metadata\InstallableUnitPatch.java
+	     org\eclipse\equinox\internal\p2\metadata\IRequiredCapability.java
+	     org\eclipse\equinox\internal\p2\metadata\IUMap.java
+	     org\eclipse\equinox\internal\p2\metadata\License.java
+	     org\eclipse\equinox\internal\p2\metadata\Messages.java
+	     org\eclipse\equinox\internal\p2\metadata\messages.properties
+	     org\eclipse\equinox\internal\p2\metadata\MetadataActivator.java
+	     org\eclipse\equinox\internal\p2\metadata\OmniVersion.java
+	     org\eclipse\equinox\internal\p2\metadata\OSGiVersion.java
+	     org\eclipse\equinox\internal\p2\metadata\ProvidedCapability.java
+	     org\eclipse\equinox\internal\p2\metadata\query\UpdateQuery.java
+	     org\eclipse\equinox\internal\p2\metadata\RequiredCapability.java
+	     org\eclipse\equinox\internal\p2\metadata\RequirementChange.java
+	     org\eclipse\equinox\internal\p2\metadata\ResolvedInstallableUnit.java
+	     org\eclipse\equinox\internal\p2\metadata\TouchpointData.java
+	     org\eclipse\equinox\internal\p2\metadata\TouchpointInstruction.java
+	     org\eclipse\equinox\internal\p2\metadata\TouchpointType.java
+	     org\eclipse\equinox\internal\p2\metadata\TranslationSupport.java
+	     org\eclipse\equinox\internal\p2\metadata\UpdateDescriptor.java
+	     org\eclipse\equinox\internal\p2\metadata\VersionFormat.java
+	     org\eclipse\equinox\internal\p2\metadata\VersionParser.java
+	     org\eclipse\equinox\internal\p2\metadata\VersionVector.java
+	     org\eclipse\equinox\p2\metadata\expression\ExpressionParseException.java
+	     org\eclipse\equinox\p2\metadata\expression\ExpressionUtil.java
+	     org\eclipse\equinox\p2\metadata\expression\IContextExpression.java
+	     org\eclipse\equinox\p2\metadata\expression\IEvaluationContext.java
+	     org\eclipse\equinox\p2\metadata\expression\IExpression.java
+	     org\eclipse\equinox\p2\metadata\expression\IExpressionFactory.java
+	     org\eclipse\equinox\p2\metadata\expression\IExpressionParser.java
+	     org\eclipse\equinox\p2\metadata\expression\IExpressionVisitor.java
+	     org\eclipse\equinox\p2\metadata\expression\IFilterExpression.java
+	     org\eclipse\equinox\p2\metadata\expression\IMatchExpression.java
+	     org\eclipse\equinox\p2\metadata\expression\IMemberProvider.java
+	     org\eclipse\equinox\p2\metadata\expression\SimplePattern.java
+	     org\eclipse\equinox\p2\metadata\IArtifactKey.java
+	     org\eclipse\equinox\p2\metadata\ICopyright.java
+	     org\eclipse\equinox\p2\metadata\IInstallableUnit.java
+	     org\eclipse\equinox\p2\metadata\IInstallableUnitFragment.java
+	     org\eclipse\equinox\p2\metadata\IInstallableUnitPatch.java
+	     org\eclipse\equinox\p2\metadata\ILicense.java
+	     org\eclipse\equinox\p2\metadata\index\IIndex.java
+	     org\eclipse\equinox\p2\metadata\index\IIndexProvider.java
+	     org\eclipse\equinox\p2\metadata\index\IQueryWithIndex.java
+	     org\eclipse\equinox\p2\metadata\IProvidedCapability.java
+	     org\eclipse\equinox\p2\metadata\IRequirement.java
+	     org\eclipse\equinox\p2\metadata\IRequirementChange.java
+	     org\eclipse\equinox\p2\metadata\ITouchpointData.java
+	     org\eclipse\equinox\p2\metadata\ITouchpointInstruction.java
+	     org\eclipse\equinox\p2\metadata\ITouchpointType.java
+	     org\eclipse\equinox\p2\metadata\IUpdateDescriptor.java
+	     org\eclipse\equinox\p2\metadata\IVersionedId.java
+	     org\eclipse\equinox\p2\metadata\IVersionFormat.java
+	     org\eclipse\equinox\p2\metadata\KeyWithLocale.java
+	     org\eclipse\equinox\p2\metadata\MetadataFactory.java
+	     org\eclipse\equinox\p2\metadata\Version.java
+	     org\eclipse\equinox\p2\metadata\VersionedId.java
+	     org\eclipse\equinox\p2\metadata\VersionFormatException.java
+	     org\eclipse\equinox\p2\metadata\VersionRange.java
+	     org\eclipse\equinox\p2\query\CollectionResult.java
+	     org\eclipse\equinox\p2\query\Collector.java
+	     org\eclipse\equinox\p2\query\CompoundQueryable.java
+	     org\eclipse\equinox\p2\query\ExpressionMatchQuery.java
+	     org\eclipse\equinox\p2\query\ExpressionQuery.java
+	     org\eclipse\equinox\p2\query\IMatchQuery.java
+	     org\eclipse\equinox\p2\query\IQuery.java
+	     org\eclipse\equinox\p2\query\IQueryable.java
+	     org\eclipse\equinox\p2\query\IQueryResult.java
+	     org\eclipse\equinox\p2\query\MatchQuery.java
+	     org\eclipse\equinox\p2\query\QueryUtil.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.metadata.jar" path="org.eclipse.equinox.p2.metadata/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

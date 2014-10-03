@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/|fragments/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.net.jar" path="org.eclipse.core.net"/>
+	<!-- org\eclipse\core\internal\net\AbstractProxyProvider.java
+	     org\eclipse\core\internal\net\Activator.java
+	     org\eclipse\core\internal\net\Messages.java
+	     org\eclipse\core\internal\net\messages.properties
+	     org\eclipse\core\internal\net\Policy.java
+	     org\eclipse\core\internal\net\PreferenceInitializer.java
+	     org\eclipse\core\internal\net\PreferenceManager.java
+	     org\eclipse\core\internal\net\PreferenceModifyListener.java
+	     org\eclipse\core\internal\net\ProxyChangeEvent.java
+	     org\eclipse\core\internal\net\ProxyData.java
+	     org\eclipse\core\internal\net\ProxyManager.java
+	     org\eclipse\core\internal\net\ProxySelector.java
+	     org\eclipse\core\internal\net\ProxyType.java
+	     org\eclipse\core\internal\net\proxy\unix\UnixProxyProvider.java
+	     org\eclipse\core\internal\net\proxy\win32\winhttp\AutoProxyHolder.java
+	     org\eclipse\core\internal\net\proxy\win32\winhttp\ProxyBypass.java
+	     org\eclipse\core\internal\net\proxy\win32\winhttp\ProxyProviderUtil.java
+	     org\eclipse\core\internal\net\proxy\win32\winhttp\StaticProxyConfig.java
+	     org\eclipse\core\internal\net\proxy\win32\winhttp\WinHttp.java
+	     org\eclipse\core\internal\net\proxy\win32\winhttp\WinHttpAutoProxyOptions.java
+	     org\eclipse\core\internal\net\proxy\win32\winhttp\WinHttpCurrentUserIEProxyConfig.java
+	     org\eclipse\core\internal\net\proxy\win32\winhttp\WinHttpProxyInfo.java
+	     org\eclipse\core\internal\net\proxy\win32\winhttp\WinHttpProxyProvider.java
+	     org\eclipse\core\internal\net\StringMatcher.java
+	     org\eclipse\core\internal\net\StringUtil.java
+	     org\eclipse\core\internal\net\WindowsProxyProvider.java
+	     org\eclipse\core\net\proxy\IProxyChangeEvent.java
+	     org\eclipse\core\net\proxy\IProxyChangeListener.java
+	     org\eclipse\core\net\proxy\IProxyData.java
+	     org\eclipse\core\net\proxy\IProxyService.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.net.jar" path="org.eclipse.core.net/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.preferences"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

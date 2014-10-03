@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.filesystem.jar" path="org.eclipse.core.filesystem"/>
+	<!-- org\eclipse\core\filesystem\EFS.java
+	     org\eclipse\core\filesystem\IFileInfo.java
+	     org\eclipse\core\filesystem\IFileStore.java
+	     org\eclipse\core\filesystem\IFileSystem.java
+	     org\eclipse\core\filesystem\IFileTree.java
+	     org\eclipse\core\filesystem\provider\FileInfo.java
+	     org\eclipse\core\filesystem\provider\FileStore.java
+	     org\eclipse\core\filesystem\provider\FileSystem.java
+	     org\eclipse\core\filesystem\provider\FileTree.java
+	     org\eclipse\core\filesystem\URIUtil.java
+	     org\eclipse\core\internal\filesystem\Activator.java
+	     org\eclipse\core\internal\filesystem\FileCache.java
+	     org\eclipse\core\internal\filesystem\InternalFileSystemCore.java
+	     org\eclipse\core\internal\filesystem\local\Convert.java
+	     org\eclipse\core\internal\filesystem\local\InfiniteProgress.java
+	     org\eclipse\core\internal\filesystem\local\LocalFile.java
+	     org\eclipse\core\internal\filesystem\local\LocalFileHandler.java
+	     org\eclipse\core\internal\filesystem\local\LocalFileNativesManager.java
+	     org\eclipse\core\internal\filesystem\local\LocalFileSystem.java
+	     org\eclipse\core\internal\filesystem\local\NativeHandler.java
+	     org\eclipse\core\internal\filesystem\local\unix\StructStat.java
+	     org\eclipse\core\internal\filesystem\local\unix\UnixFileFlags.java
+	     org\eclipse\core\internal\filesystem\local\unix\UnixFileHandler.java
+	     org\eclipse\core\internal\filesystem\local\unix\UnixFileNatives.java
+	     org\eclipse\core\internal\filesystem\Messages.java
+	     org\eclipse\core\internal\filesystem\messages.properties
+	     org\eclipse\core\internal\filesystem\NullFileStore.java
+	     org\eclipse\core\internal\filesystem\NullFileSystem.java
+	     org\eclipse\core\internal\filesystem\Policy.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.filesystem.jar" path="org.eclipse.core.filesystem/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

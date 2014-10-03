@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.runtime.jar" path="org.eclipse.core.runtime"/>
+	<!-- org\eclipse\core\internal\preferences\legacy\InitLegacyPreferences.java
+	     org\eclipse\core\internal\preferences\legacy\PreferenceForwarder.java
+	     org\eclipse\core\internal\preferences\legacy\ProductPreferencesService.java
+	     org\eclipse\core\internal\runtime\AuthorizationHandler.java
+	     org\eclipse\core\internal\runtime\CompatibilityHelper.java
+	     org\eclipse\core\internal\runtime\InternalPlatform.java
+	     org\eclipse\core\internal\runtime\Log.java
+	     org\eclipse\core\internal\runtime\Messages.java
+	     org\eclipse\core\internal\runtime\messages.properties
+	     org\eclipse\core\internal\runtime\PerformanceStatsProcessor.java
+	     org\eclipse\core\internal\runtime\PlatformActivator.java
+	     org\eclipse\core\internal\runtime\Product.java
+	     org\eclipse\core\runtime\ILibrary.java
+	     org\eclipse\core\runtime\ILog.java
+	     org\eclipse\core\runtime\IPlatformRunnable.java
+	     org\eclipse\core\runtime\IPluginDescriptor.java
+	     org\eclipse\core\runtime\IPluginPrerequisite.java
+	     org\eclipse\core\runtime\IPluginRegistry.java
+	     org\eclipse\core\runtime\IProduct.java
+	     org\eclipse\core\runtime\IProductProvider.java
+	     org\eclipse\core\runtime\PerformanceStats.java
+	     org\eclipse\core\runtime\Platform.java
+	     org\eclipse\core\runtime\Plugin.java
+	     org\eclipse\core\runtime\Preferences.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.runtime.jar" path="org.eclipse.core.runtime/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="src" path="/IDE-other-javax.annotation"/>
+	<classpathentry exported="true" kind="src" path="/IDE-other-javax.inject"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.contenttype"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.app"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.preferences"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

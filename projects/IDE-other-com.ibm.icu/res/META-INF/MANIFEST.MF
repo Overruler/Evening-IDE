@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Implementation-Vendor: IBM Corporation
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: com.ibm.icu;singleton:=true
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/com.ibm.icu;tag=v201404241930
+Export-Package: com.ibm.icu.impl;x-internal:=true,com.ibm.icu.impl.dat
+ a;x-internal:=true,com.ibm.icu.impl.data.icudt52b;x-internal:=true,co
+ m.ibm.icu.impl.data.icudt52b.brkitr;x-internal:=true,com.ibm.icu.impl
+ .data.icudt52b.coll;x-internal:=true,com.ibm.icu.impl.data.icudt52b.c
+ urr;x-internal:=true,com.ibm.icu.impl.data.icudt52b.lang;x-internal:=
+ true,com.ibm.icu.impl.data.icudt52b.rbnf;x-internal:=true,com.ibm.icu
+ .impl.data.icudt52b.region;x-internal:=true,com.ibm.icu.impl.data.icu
+ dt52b.translit;x-internal:=true,com.ibm.icu.impl.data.icudt52b.zone;x
+ -internal:=true,com.ibm.icu.impl.duration;x-internal:=true,com.ibm.ic
+ u.impl.locale;x-internal:=true,com.ibm.icu.lang;base=true;full=true;v
+ ersion="52.1",com.ibm.icu.math;base=true;full=true;version="52.1",com
+ .ibm.icu.text;base=true;full=true;version="52.1",com.ibm.icu.util;bas
+ e=true;full=true;version="52.1"
+Bundle-Version: 52.1.0.v201404241930
+Bundle-ClassPath: icu-data.jar,.
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Eclipse-ExtensibleAPI: true
+Bundle-Copyright: %Bundle-Copyright
+Implementation-Version: 52.1.0.v20140218
+Implementation-Title: International Components for Unicode for Java (I
+ CU4J)
+Bundle-ManifestVersion: 2

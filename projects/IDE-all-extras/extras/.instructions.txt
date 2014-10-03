@@ -1,0 +1,26 @@
+This directory is to allow customizing a build locally by including 
+additional binary plugins without them showing as changes in git.
+
+Add any additional files and directory trees to this source folder, 
+arranged exatcly in the structure they should appear in the final 
+build result.
+
+Typically there would be a plugins-directory containing binary 
+plugins that you have downloaded earlier from an update site 
+for offline installation.
+
+This file and any directories starting with a dot are not included 
+in the final build. For example, you could have a directories like:
+ 
+/.downloaded/some-update-site-1.2.3.zip
+/.unzipped/some-update-site-1.2.3/some-plugin-1.2.3.jar
+/.unzipped/some-update-site-1.2.3/some-dependency-1.1.1.jar
+
+for organizing files and then the directories for including them 
+in the build like:
+
+/plugins/some-plugin-1.2.3.jar
+/plugins/some-dependency-1.1.1.jar
+/features/some-feature/feature.xml 
+etc..
+

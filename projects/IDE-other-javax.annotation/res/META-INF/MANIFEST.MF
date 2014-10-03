@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %bundleProvider
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Name: %bundleName
+Bundle-SymbolicName: javax.annotation
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/javax.annotation;tag=v201401042248
+Bundle-Version: 1.2.0.v201401042248
+Export-Package: javax.annotation;version="1.2.0",javax.annotation.secu
+ rity;version="1.2.0",javax.annotation.sql;version="1.2.0"
+Bundle-ManifestVersion: 2
+Import-Package: javax.annotation;version="1.2.0",javax.annotation.secu
+ rity;version="1.2.0",javax.annotation.sql;version="1.2.0"

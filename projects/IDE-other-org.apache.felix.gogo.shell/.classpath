@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about_files\LICENSE
+	     gosh_profile
+	     META-INF\DEPENDENCIES
+	     META-INF\LICENSE
+	     META-INF\MANIFEST.MF
+	     META-INF\maven\org.apache.felix\org.apache.felix.gogo.shell\pom.properties
+	     META-INF\maven\org.apache.felix\org.apache.felix.gogo.shell\pom.xml
+	     META-INF\NOTICE
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.felix.gogo.shell.jar" path="res"/>
+	<!-- org\apache\felix\gogo\options\Option.java
+	     org\apache\felix\gogo\options\Options.java
+	     org\apache\felix\gogo\shell\Activator.java
+	     org\apache\felix\gogo\shell\Builtin.java
+	     org\apache\felix\gogo\shell\Console.java
+	     org\apache\felix\gogo\shell\Posix.java
+	     org\apache\felix\gogo\shell\Procedural.java
+	     org\apache\felix\gogo\shell\Shell.java
+	     org\apache\felix\gogo\shell\Telnet.java -->
+	<classpathentry excluding="org/apache/felix/gogo/shell/Converters.java" kind="src" output="bin/1/plugins/org.apache.felix.gogo.shell.jar" path="shell/src/main/java"/>
+	<!-- org\apache\felix\gogo\shell\Converters.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.felix.gogo.shell.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.felix.gogo.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

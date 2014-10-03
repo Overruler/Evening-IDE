@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.core.jar" path="org.eclipse.jdt.junit.core"/>
+	<!-- org\eclipse\jdt\internal\junit\BasicElementLabels.java
+	     org\eclipse\jdt\internal\junit\buildpath\BuildPathSupport.java
+	     org\eclipse\jdt\internal\junit\buildpath\JUnitContainerInitializer.java
+	     org\eclipse\jdt\internal\junit\buildpath\JUnitHomeInitializer.java
+	     org\eclipse\jdt\internal\junit\JUnitCorePlugin.java
+	     org\eclipse\jdt\internal\junit\JUnitMessages.java
+	     org\eclipse\jdt\internal\junit\JUnitMessages.properties
+	     org\eclipse\jdt\internal\junit\JunitPreferenceInitializer.java
+	     org\eclipse\jdt\internal\junit\JUnitPreferencesConstants.java
+	     org\eclipse\jdt\internal\junit\JUnitPropertyTester.java
+	     org\eclipse\jdt\internal\junit\launcher\ContainerComparator.java
+	     org\eclipse\jdt\internal\junit\launcher\ITestFinder.java
+	     org\eclipse\jdt\internal\junit\launcher\ITestKind.java
+	     org\eclipse\jdt\internal\junit\launcher\JUnit3TestFinder.java
+	     org\eclipse\jdt\internal\junit\launcher\JUnit4TestFinder.java
+	     org\eclipse\jdt\internal\junit\launcher\JUnitLaunchConfigurationConstants.java
+	     org\eclipse\jdt\internal\junit\launcher\JUnitMigrationDelegate.java
+	     org\eclipse\jdt\internal\junit\launcher\JUnitRuntimeClasspathEntry.java
+	     org\eclipse\jdt\internal\junit\launcher\TestKind.java
+	     org\eclipse\jdt\internal\junit\launcher\TestKindRegistry.java
+	     org\eclipse\jdt\internal\junit\launcher\TestSearchResult.java
+	     org\eclipse\jdt\internal\junit\Messages.java
+	     org\eclipse\jdt\internal\junit\model\ITestRunListener2.java
+	     org\eclipse\jdt\internal\junit\model\ITestRunSessionListener.java
+	     org\eclipse\jdt\internal\junit\model\ITestSessionListener.java
+	     org\eclipse\jdt\internal\junit\model\IXMLTags.java
+	     org\eclipse\jdt\internal\junit\model\JUnitModel.java
+	     org\eclipse\jdt\internal\junit\model\ModelMessages.java
+	     org\eclipse\jdt\internal\junit\model\ModelMessages.properties
+	     org\eclipse\jdt\internal\junit\model\RemoteTestRunnerClient.java
+	     org\eclipse\jdt\internal\junit\model\TestCaseElement.java
+	     org\eclipse\jdt\internal\junit\model\TestElement.java
+	     org\eclipse\jdt\internal\junit\model\TestRoot.java
+	     org\eclipse\jdt\internal\junit\model\TestRunHandler.java
+	     org\eclipse\jdt\internal\junit\model\TestRunListenerAdapter.java
+	     org\eclipse\jdt\internal\junit\model\TestRunSession.java
+	     org\eclipse\jdt\internal\junit\model\TestRunSessionSerializer.java
+	     org\eclipse\jdt\internal\junit\model\TestSuiteElement.java
+	     org\eclipse\jdt\internal\junit\util\CoreTestSearchEngine.java
+	     org\eclipse\jdt\internal\junit\util\IJUnitStatusConstants.java
+	     org\eclipse\jdt\junit\ITestRunListener.java
+	     org\eclipse\jdt\junit\JUnitCore.java
+	     org\eclipse\jdt\junit\launcher\JUnitLaunchConfigurationDelegate.java
+	     org\eclipse\jdt\junit\model\ITestCaseElement.java
+	     org\eclipse\jdt\junit\model\ITestElement.java
+	     org\eclipse\jdt\junit\model\ITestElementContainer.java
+	     org\eclipse\jdt\junit\model\ITestRunSession.java
+	     org\eclipse\jdt\junit\model\ITestSuiteElement.java
+	     org\eclipse\jdt\junit\TestRunListener.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.core.jar" path="org.eclipse.jdt.junit.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.core.variables"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.frameworkadmin"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.simpleconfigurator.manipulator"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.junit.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

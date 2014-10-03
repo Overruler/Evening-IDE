@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\obj\iu_obj.gif
+	     icons\obj\iu_update_obj.gif
+	     icons\obj\profile_obj.gif
+	     META-INF\MANIFEST.MF
+	     META-INF\p2.inf
+	     OSGI-INF\licenseManager_component.xml
+	     OSGI-INF\policy_component.xml
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|icons/obj/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.sdk.jar" path="org.eclipse.equinox.p2.ui.sdk"/>
+	<!-- org\eclipse\equinox\internal\p2\ui\sdk\InstallNewSoftwareHandler.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\IProvSDKHelpContextIds.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\messages.properties
+	     org\eclipse\equinox\internal\p2\ui\sdk\prefs\PreferenceConstants.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\prefs\PreferenceInitializer.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\prefs\ProvisioningPreferencePage.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\ProvSDKMessages.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\ProvSDKUIActivator.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\RevertProfilePageExtensionFactory.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\RevertProfilePageWithCompare.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\SDKPolicy.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\SimpleLicenseManager.java
+	     org\eclipse\equinox\internal\p2\ui\sdk\UpdateHandler.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.sdk.jar" path="org.eclipse.equinox.p2.ui.sdk/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.director"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.operations"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

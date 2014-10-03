@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\apache\felix\gogo\command\Activator.java
+	     org\apache\felix\gogo\command\Base64Encoder.java
+	     org\apache\felix\gogo\command\Basic.java
+	     org\apache\felix\gogo\command\Files.java
+	     org\apache\felix\gogo\command\Inspect.java
+	     org\apache\felix\gogo\command\OBR.java
+	     org\apache\felix\gogo\command\Util.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.felix.gogo.command.jar" path="command/src/main/java"/>
+	<!-- org\osgi\service\log\LogEntry.java
+	     org\osgi\service\log\LogListener.java
+	     org\osgi\service\log\LogReaderService.java
+	     org\osgi\service\log\LogService.java
+	     org\osgi\service\log\packageinfo -->
+	<classpathentry including="org/osgi/service/log/" kind="src" output="bin/1/plugins/org.apache.felix.gogo.command.jar" path="org.eclipse.osgi.services/src"/>
+	<!-- about.html
+	     about_files\LICENSE
+	     META-INF\DEPENDENCIES
+	     META-INF\LICENSE
+	     META-INF\MANIFEST.MF
+	     META-INF\maven\org.apache.felix\org.apache.felix.gogo.command\pom.properties
+	     META-INF\maven\org.apache.felix\org.apache.felix.gogo.command\pom.xml
+	     META-INF\NOTICE
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.felix.gogo.command.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.felix"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.felix.gogo.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

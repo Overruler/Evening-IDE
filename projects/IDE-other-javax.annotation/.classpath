@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- javax\annotation\Generated.java
+	     javax\annotation\ManagedBean.java
+	     javax\annotation\PostConstruct.java
+	     javax\annotation\PreDestroy.java
+	     javax\annotation\Priority.java
+	     javax\annotation\Resource.java
+	     javax\annotation\Resources.java
+	     javax\annotation\security\DeclareRoles.java
+	     javax\annotation\security\DenyAll.java
+	     javax\annotation\security\PermitAll.java
+	     javax\annotation\security\RolesAllowed.java
+	     javax\annotation\security\RunAs.java
+	     javax\annotation\sql\DataSourceDefinition.java
+	     javax\annotation\sql\DataSourceDefinitions.java -->
+	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/javax.annotation.jar" path="javax.annotation"/>
+	<!-- about.html
+	     about_files\LICENSE_CDDL.txt
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/javax.annotation.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding=".*|.*/" including="META-INF/|about.html|about.ini|about.mappings|about.properties|book.css|build.properties|disabled_book.css|eclipse16.png|eclipse256.png|eclipse32.png|eclipse48.png|eclipse_lg.png|eppfeature32.png|helpData.xml|intro-eclipse.png|introData.xml|macosx_narrow_book.css|narrow_book.css|plugin.properties|plugin.xml|plugin_customization.ini|plugin_customization.properties|pom.xml" kind="src" path="org.eclipse.epp.package.committers"/>
+	<classpathentry kind="src" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.app"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help.base"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform-org.eclipse.platform"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.ui.cheatsheets"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide.application"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

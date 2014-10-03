@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.compare.core.jar" path="org.eclipse.compare.core"/>
+	<!-- org\eclipse\compare\internal\core\ComparePlugin.java
+	     org\eclipse\compare\internal\core\LCS.java
+	     org\eclipse\compare\internal\core\Messages.java
+	     org\eclipse\compare\internal\core\messages.properties
+	     org\eclipse\compare\internal\core\patch\DiffProject.java
+	     org\eclipse\compare\internal\core\patch\FileDiffResult.java
+	     org\eclipse\compare\internal\core\patch\FilePatch2.java
+	     org\eclipse\compare\internal\core\patch\Hunk.java
+	     org\eclipse\compare\internal\core\patch\HunkResult.java
+	     org\eclipse\compare\internal\core\patch\LineReader.java
+	     org\eclipse\compare\internal\core\patch\PatchReader.java
+	     org\eclipse\compare\internal\core\patch\Utilities.java
+	     org\eclipse\compare\internal\core\TextLineLCS.java
+	     org\eclipse\compare\patch\IFilePatch2.java
+	     org\eclipse\compare\patch\IFilePatchResult.java
+	     org\eclipse\compare\patch\IHunk.java
+	     org\eclipse\compare\patch\IHunkFilter.java
+	     org\eclipse\compare\patch\PatchBuilder.java
+	     org\eclipse\compare\patch\PatchConfiguration.java
+	     org\eclipse\compare\patch\PatchParser.java
+	     org\eclipse\compare\patch\ReaderCreator.java
+	     org\eclipse\compare\rangedifferencer\AbstractRangeDifferenceFactory.java
+	     org\eclipse\compare\rangedifferencer\IRangeComparator.java
+	     org\eclipse\compare\rangedifferencer\RangeDifference.java
+	     org\eclipse\compare\rangedifferencer\RangeDifferencer.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.compare.core.jar" path="org.eclipse.compare.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

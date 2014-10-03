@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\full\dlcl16\configs.png
+	     icons\full\dlcl16\usearch_obj.png
+	     icons\full\dview16\resource_persp.png
+	     icons\full\elcl16\configs.gif
+	     icons\full\elcl16\configs.png
+	     icons\full\elcl16\usearch_obj.gif
+	     icons\full\elcl16\usearch_obj.png
+	     icons\full\eview16\resource_persp.gif
+	     icons\full\eview16\resource_persp.png
+	     LegacyIDE_fragment.e4xmi
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="LegacyIDE_fragment.e4xmi|META-INF/|about.html|icons/full/dlcl16/|icons/full/dview16/|icons/full/elcl16/|icons/full/eview16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.ide.application.jar" path="org.eclipse.ui.ide.application"/>
+	<!-- org\eclipse\ui\internal\ide\application\DelayedEventsProcessor.java
+	     org\eclipse\ui\internal\ide\application\dialogs\IDEStartupPreferencePage.java
+	     org\eclipse\ui\internal\ide\application\dialogs\RecentWorkspacesPreferencePage.java
+	     org\eclipse\ui\internal\ide\application\IDEApplication.java
+	     org\eclipse\ui\internal\ide\application\IDEWorkbenchAdvisor.java
+	     org\eclipse\ui\internal\ide\application\IDEWorkbenchWindowAdvisor.java
+	     org\eclipse\ui\internal\ide\application\ResourcePerspective.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.ide.application.jar" path="org.eclipse.ui.ide.application/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator.resources"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

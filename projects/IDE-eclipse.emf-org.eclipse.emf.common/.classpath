@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     about.mappings
+	     about.properties
+	     META-INF\MANIFEST.MF
+	     modeling32.png
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|about.ini|about.mappings|about.properties|modeling32.png|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.emf.common.jar" path="org.eclipse.emf.common"/>
+	<!-- org\eclipse\emf\common\archive\ArchiveURLConnection.java
+	     org\eclipse\emf\common\archive\Handler.java
+	     org\eclipse\emf\common\archive\package.html
+	     org\eclipse\emf\common\command\AbortExecutionException.java
+	     org\eclipse\emf\common\command\AbstractCommand.java
+	     org\eclipse\emf\common\command\BasicCommandStack.java
+	     org\eclipse\emf\common\command\Command.java
+	     org\eclipse\emf\common\command\CommandStack.java
+	     org\eclipse\emf\common\command\CommandStackListener.java
+	     org\eclipse\emf\common\command\CommandWrapper.java
+	     org\eclipse\emf\common\command\CompoundCommand.java
+	     org\eclipse\emf\common\command\IdentityCommand.java
+	     org\eclipse\emf\common\command\package.html
+	     org\eclipse\emf\common\command\StrictCompoundCommand.java
+	     org\eclipse\emf\common\command\UnexecutableCommand.java
+	     org\eclipse\emf\common\CommonPlugin.java
+	     org\eclipse\emf\common\EMFPlugin.java
+	     org\eclipse\emf\common\notify\Adapter.java
+	     org\eclipse\emf\common\notify\AdapterFactory.java
+	     org\eclipse\emf\common\notify\impl\AdapterFactoryImpl.java
+	     org\eclipse\emf\common\notify\impl\AdapterImpl.java
+	     org\eclipse\emf\common\notify\impl\BasicNotifierImpl.java
+	     org\eclipse\emf\common\notify\impl\DelegatingNotifyingListImpl.java
+	     org\eclipse\emf\common\notify\impl\NotificationChainImpl.java
+	     org\eclipse\emf\common\notify\impl\NotificationImpl.java
+	     org\eclipse\emf\common\notify\impl\NotifierImpl.java
+	     org\eclipse\emf\common\notify\impl\NotifyingListImpl.java
+	     org\eclipse\emf\common\notify\impl\package.html
+	     org\eclipse\emf\common\notify\impl\SingletonAdapterImpl.java
+	     org\eclipse\emf\common\notify\Notification.java
+	     org\eclipse\emf\common\notify\NotificationChain.java
+	     org\eclipse\emf\common\notify\NotificationWrapper.java
+	     org\eclipse\emf\common\notify\Notifier.java
+	     org\eclipse\emf\common\notify\NotifyingList.java
+	     org\eclipse\emf\common\notify\package.html
+	     org\eclipse\emf\common\package.html
+	     org\eclipse\emf\common\util\AbstractEList.java
+	     org\eclipse\emf\common\util\AbstractEnumerator.java
+	     org\eclipse\emf\common\util\AbstractTreeIterator.java
+	     org\eclipse\emf\common\util\ArrayDelegatingEList.java
+	     org\eclipse\emf\common\util\BasicDiagnostic.java
+	     org\eclipse\emf\common\util\BasicEList.java
+	     org\eclipse\emf\common\util\BasicEMap.java
+	     org\eclipse\emf\common\util\BasicMonitor.java
+	     org\eclipse\emf\common\util\CommonUtil.java
+	     org\eclipse\emf\common\util\DelegatingEList.java
+	     org\eclipse\emf\common\util\DelegatingResourceLocator.java
+	     org\eclipse\emf\common\util\Diagnostic.java
+	     org\eclipse\emf\common\util\DiagnosticChain.java
+	     org\eclipse\emf\common\util\DiagnosticException.java
+	     org\eclipse\emf\common\util\ECollections.java
+	     org\eclipse\emf\common\util\EList.java
+	     org\eclipse\emf\common\util\EMap.java
+	     org\eclipse\emf\common\util\Enumerator.java
+	     org\eclipse\emf\common\util\InterningSet.java
+	     org\eclipse\emf\common\util\Logger.java
+	     org\eclipse\emf\common\util\Monitor.java
+	     org\eclipse\emf\common\util\package.html
+	     org\eclipse\emf\common\util\Pool.java
+	     org\eclipse\emf\common\util\Reflect.java
+	     org\eclipse\emf\common\util\ResourceLocator.java
+	     org\eclipse\emf\common\util\SegmentSequence.java
+	     org\eclipse\emf\common\util\TreeIterator.java
+	     org\eclipse\emf\common\util\UniqueEList.java
+	     org\eclipse\emf\common\util\URI.java
+	     org\eclipse\emf\common\util\WeakInterningHashSet.java
+	     org\eclipse\emf\common\util\WrappedException.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.emf.common.jar" path="org.eclipse.emf.common/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

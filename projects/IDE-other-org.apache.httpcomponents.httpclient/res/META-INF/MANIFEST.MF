@@ -1,0 +1,85 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Version: 4.4.0.SNAPSHOT
+Bundle-ClassPath: .
+Bundle-Activator: org.apache.http.osgi.impl.HttpProxyConfigurationActivator
+Specification-Version: 4.4.0
+Specification-Title: HttpComponents Apache HttpClient OSGi bundle
+Specification-Vendor: The Apache Software Foundation
+Created-By: Apache Maven Bundle Plugin
+Import-Package: 
+ javax.crypto,
+ javax.crypto.spec,
+ javax.naming,
+ javax.net,
+ javax.net.ssl,
+ javax.security.auth.x500,
+ net.sf.ehcache;resolution:=optional,
+ net.spy.memcached;resolution:=optional,
+ org.apache.commons.logging;version="[1.1.0, 1.2.0)",
+ org.apache.http;version="[4.4.0, 4.5.0)",
+ org.apache.http.config;version="[4.4.0, 4.5.0)",
+ org.apache.http.concurrent;version="[4.4.0, 4.5.0)",
+ org.apache.http.entity;version="[4.4.0, 4.5.0)",
+ org.apache.http.impl;version="[4.4.0, 4.5.0)",
+ org.apache.http.impl.entity;version="[4.4.0, 4.5.0)",
+ org.apache.http.impl.io;version="[4.4.0, 4.5.0)",
+ org.apache.http.impl.pool;version="[4.4.0, 4.5.0)",
+ org.apache.http.io;version="[4.4.0, 4.5.0)",
+ org.apache.http.message;version="[4.4.0, 4.5.0)",
+ org.apache.http.params;version="[4.4.0, 4.5.0)",
+ org.apache.http.pool;version="[4.4.0, 4.5.0)",
+ org.apache.http.protocol;version="[4.4.0, 4.5.0)",
+ org.apache.http.util;version="[4.4.0, 4.5.0)",
+ org.ietf.jgss,
+ org.osgi.framework,
+ org.osgi.service.cm
+Bundle-DocURL: http://www.apache.org/
+Implementation-Vendor-Id: org.apache
+Bundle-SymbolicName: org.apache.httpcomponents.httpclient
+Export-Package: 
+ org.apache.http.auth;version="4.4.0",
+ org.apache.http.auth.params;version="4.4.0",
+ org.apache.http.client;version="4.4.0",
+ org.apache.http.client.cache;version="4.4.0",
+ org.apache.http.client.config;version="4.4.0",
+ org.apache.http.client.entity;version="4.4.0",
+ org.apache.http.client.fluent;version="4.4.0",
+ org.apache.http.client.methods;version="4.4.0",
+ org.apache.http.client.params;version="4.4.0",
+ org.apache.http.client.protocol;version="4.4.0",
+ org.apache.http.client.utils;version="4.4.0",
+ org.apache.http.conn;version="4.4.0",
+ org.apache.http.conn.params;version="4.4.0",
+ org.apache.http.conn.routing;version="4.4.0",
+ org.apache.http.conn.scheme;version="4.4.0",
+ org.apache.http.conn.socket;version="4.4.0",
+ org.apache.http.conn.ssl;version="4.4.0",
+ org.apache.http.conn.util;version="4.4.0",
+ org.apache.http.cookie;version="4.4.0",
+ org.apache.http.cookie.params;version="4.4.0",
+ org.apache.http.entity.mime;version="4.4.0",
+ org.apache.http.entity.mime.content;version="4.4.0",
+ org.apache.http.impl;version="4.4.0",
+ org.apache.http.impl.auth;version="4.4.0",
+ org.apache.http.impl.client;version="4.4.0",
+ org.apache.http.impl.client.cache;version="4.4.0",
+ org.apache.http.impl.client.cache.ehcache;version="4.4.0",
+ org.apache.http.impl.client.cache.memcached;version="4.4.0",
+ org.apache.http.impl.conn;version="4.4.0",
+ org.apache.http.impl.conn.tsccm;version="4.4.0",
+ org.apache.http.impl.cookie;version="4.4.0",
+ org.apache.http.impl.execchain;version="4.4.0",
+ org.apache.http.osgi.services;version="4.4.0"
+url: http://hc.apache.org/httpcomponents-client
+Bundle-Description: HttpComponents Client (OSGi bundle)
+Bundle-Vendor: %bundleProvider
+Bundle-Name: %bundleName
+Bundle-License: LICENSE.txt
+Implementation-Title: HttpComponents Apache HttpClient OSGi bundle
+Implementation-Version: 4.4-alpha2-SNAPSHOT
+Bundle-ManifestVersion: 2
+Embed-Dependency: *;scope=compile|runtime;inline=true
+Require-Bundle: org.apache.httpcomponents.httpcore;bundle-version="4.4.0"

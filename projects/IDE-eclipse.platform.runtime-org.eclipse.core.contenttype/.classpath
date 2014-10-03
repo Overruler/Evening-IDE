@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.contenttype.jar" path="org.eclipse.core.contenttype"/>
+	<!-- org\eclipse\core\internal\content\Activator.java
+	     org\eclipse\core\internal\content\BasicDescription.java
+	     org\eclipse\core\internal\content\ContentDescription.java
+	     org\eclipse\core\internal\content\ContentMessages.java
+	     org\eclipse\core\internal\content\ContentType.java
+	     org\eclipse\core\internal\content\ContentTypeBuilder.java
+	     org\eclipse\core\internal\content\ContentTypeCatalog.java
+	     org\eclipse\core\internal\content\ContentTypeHandler.java
+	     org\eclipse\core\internal\content\ContentTypeManager.java
+	     org\eclipse\core\internal\content\ContentTypeMatcher.java
+	     org\eclipse\core\internal\content\ContentTypeSettings.java
+	     org\eclipse\core\internal\content\ContentTypeVisitor.java
+	     org\eclipse\core\internal\content\DefaultDescription.java
+	     org\eclipse\core\internal\content\IContentConstants.java
+	     org\eclipse\core\internal\content\IContentTypeInfo.java
+	     org\eclipse\core\internal\content\ILazySource.java
+	     org\eclipse\core\internal\content\LazyInputStream.java
+	     org\eclipse\core\internal\content\LazyReader.java
+	     org\eclipse\core\internal\content\messages.properties
+	     org\eclipse\core\internal\content\PreferenceModifyListener.java
+	     org\eclipse\core\internal\content\TextContentDescriber.java
+	     org\eclipse\core\internal\content\Util.java
+	     org\eclipse\core\internal\content\XMLContentDescriber.java
+	     org\eclipse\core\internal\content\XMLRootHandler.java
+	     org\eclipse\core\runtime\content\BinarySignatureDescriber.java
+	     org\eclipse\core\runtime\content\IContentDescriber.java
+	     org\eclipse\core\runtime\content\IContentDescription.java
+	     org\eclipse\core\runtime\content\IContentType.java
+	     org\eclipse\core\runtime\content\IContentTypeManager.java
+	     org\eclipse\core\runtime\content\IContentTypeMatcher.java
+	     org\eclipse\core\runtime\content\IContentTypeSettings.java
+	     org\eclipse\core\runtime\content\ITextContentDescriber.java
+	     org\eclipse\core\runtime\content\XMLContentDescriber.java
+	     org\eclipse\core\runtime\content\XMLRootElementContentDescriber.java
+	     org\eclipse\core\runtime\content\XMLRootElementContentDescriber2.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.contenttype.jar" path="org.eclipse.core.contenttype/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.preferences"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

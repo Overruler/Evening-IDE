@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.launching.jar" path="org.eclipse.pde.launching"/>
+	<!-- org\eclipse\pde\internal\launching\ILaunchingPreferenceConstants.java
+	     org\eclipse\pde\internal\launching\IPDEConstants.java
+	     org\eclipse\pde\internal\launching\launcher\BundleLauncherHelper.java
+	     org\eclipse\pde\internal\launching\launcher\EclipsePluginValidationOperation.java
+	     org\eclipse\pde\internal\launching\launcher\EquinoxInitializer.java
+	     org\eclipse\pde\internal\launching\launcher\LaunchArgumentsHelper.java
+	     org\eclipse\pde\internal\launching\launcher\LaunchConfigurationHelper.java
+	     org\eclipse\pde\internal\launching\launcher\LaunchConfigurationListener.java
+	     org\eclipse\pde\internal\launching\launcher\LauncherUtils.java
+	     org\eclipse\pde\internal\launching\launcher\LaunchListener.java
+	     org\eclipse\pde\internal\launching\launcher\LaunchPluginValidator.java
+	     org\eclipse\pde\internal\launching\launcher\LaunchValidationOperation.java
+	     org\eclipse\pde\internal\launching\launcher\OSGiFrameworkManager.java
+	     org\eclipse\pde\internal\launching\launcher\OSGiMigrationDelegate.java
+	     org\eclipse\pde\internal\launching\launcher\OSGiValidationOperation.java
+	     org\eclipse\pde\internal\launching\launcher\PDEMigrationDelegate.java
+	     org\eclipse\pde\internal\launching\launcher\ProductValidationOperation.java
+	     org\eclipse\pde\internal\launching\launcher\RequirementHelper.java
+	     org\eclipse\pde\internal\launching\launcher\VMHelper.java
+	     org\eclipse\pde\internal\launching\PDELaunchingPlugin.java
+	     org\eclipse\pde\internal\launching\PDEMessages.java
+	     org\eclipse\pde\internal\launching\pderesources.properties
+	     org\eclipse\pde\internal\launching\PreferenceInitializer.java
+	     org\eclipse\pde\internal\launching\sourcelookup\PDESourceLookupDirector.java
+	     org\eclipse\pde\internal\launching\sourcelookup\PDESourceLookupQuery.java
+	     org\eclipse\pde\launching\AbstractPDELaunchConfiguration.java
+	     org\eclipse\pde\launching\EclipseApplicationLaunchConfiguration.java
+	     org\eclipse\pde\launching\EquinoxLaunchConfiguration.java
+	     org\eclipse\pde\launching\IPDELauncherConstants.java
+	     org\eclipse\pde\launching\JUnitLaunchConfigurationDelegate.java
+	     org\eclipse\pde\launching\OSGiLaunchConfigurationDelegate.java
+	     org\eclipse\pde\launching\OSGiLaunchConfigurationInitializer.java
+	     org\eclipse\pde\launching\PDESourcePathProvider.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.launching.jar" path="org.eclipse.pde.launching/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.core.variables"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.debug"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.junit.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching"/>
+	<classpathentry kind="src" path="/IDE-eclipse.pde.build-org.eclipse.pde.build"/>
+	<classpathentry kind="src" path="/IDE-eclipse.pde.ui-org.eclipse.pde.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

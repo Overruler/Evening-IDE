@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     icons\clcl16\nav_backward.gif
+	     icons\clcl16\nav_forward.gif
+	     icons\clcl16\nav_go.gif
+	     icons\clcl16\nav_home.gif
+	     icons\clcl16\nav_print.gif
+	     icons\clcl16\nav_refresh.gif
+	     icons\clcl16\nav_stop.gif
+	     icons\dlcl16\nav_backward.gif
+	     icons\dlcl16\nav_forward.gif
+	     icons\dlcl16\nav_go.gif
+	     icons\dlcl16\nav_home.gif
+	     icons\dlcl16\nav_print.gif
+	     icons\dlcl16\nav_refresh.gif
+	     icons\dlcl16\nav_stop.gif
+	     icons\dlcl16\synced.gif
+	     icons\elcl16\nav_backward.gif
+	     icons\elcl16\nav_forward.gif
+	     icons\elcl16\nav_go.gif
+	     icons\elcl16\nav_home.gif
+	     icons\elcl16\nav_print.gif
+	     icons\elcl16\nav_refresh.gif
+	     icons\elcl16\nav_stop.gif
+	     icons\elcl16\synced.gif
+	     icons\obj16\busy\1.gif
+	     icons\obj16\busy\10.gif
+	     icons\obj16\busy\11.gif
+	     icons\obj16\busy\12.gif
+	     icons\obj16\busy\13.gif
+	     icons\obj16\busy\2.gif
+	     icons\obj16\busy\3.gif
+	     icons\obj16\busy\4.gif
+	     icons\obj16\busy\5.gif
+	     icons\obj16\busy\6.gif
+	     icons\obj16\busy\7.gif
+	     icons\obj16\busy\8.gif
+	     icons\obj16\busy\9.gif
+	     icons\obj16\external_browser.gif
+	     icons\obj16\internal_browser.gif
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|icons/clcl16/|icons/dlcl16/|icons/elcl16/|icons/obj16/|icons/obj16/busy/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.browser.jar" path="org.eclipse.ui.browser"/>
+	<!-- org\eclipse\ui\browser\BrowserFactory.java
+	     org\eclipse\ui\internal\browser\BrowserDescriptor.java
+	     org\eclipse\ui\internal\browser\BrowserDescriptorDialog.java
+	     org\eclipse\ui\internal\browser\BrowserDescriptorWorkingCopy.java
+	     org\eclipse\ui\internal\browser\BrowserExt.java
+	     org\eclipse\ui\internal\browser\BrowserLauncher.java
+	     org\eclipse\ui\internal\browser\BrowserManager.java
+	     org\eclipse\ui\internal\browser\browsers\BrowserLog.java
+	     org\eclipse\ui\internal\browser\browsers\DefaultBrowser.java
+	     org\eclipse\ui\internal\browser\browsers\DefaultBrowserFactory.java
+	     org\eclipse\ui\internal\browser\browsers\MozillaBrowser.java
+	     org\eclipse\ui\internal\browser\browsers\MozillaFactory.java
+	     org\eclipse\ui\internal\browser\browsers\NullBrowser.java
+	     org\eclipse\ui\internal\browser\browsers\StreamConsumer.java
+	     org\eclipse\ui\internal\browser\BrowserText.java
+	     org\eclipse\ui\internal\browser\BrowserViewer.java
+	     org\eclipse\ui\internal\browser\BusyIndicator.java
+	     org\eclipse\ui\internal\browser\ContextIds.java
+	     org\eclipse\ui\internal\browser\DefaultBrowserSupport.java
+	     org\eclipse\ui\internal\browser\ExternalBrowserInstance.java
+	     org\eclipse\ui\internal\browser\FallbackScrolledComposite.java
+	     org\eclipse\ui\internal\browser\IBrowserDescriptor.java
+	     org\eclipse\ui\internal\browser\IBrowserDescriptorWorkingCopy.java
+	     org\eclipse\ui\internal\browser\IBrowserExt.java
+	     org\eclipse\ui\internal\browser\IBrowserViewerContainer.java
+	     org\eclipse\ui\internal\browser\ImageResource.java
+	     org\eclipse\ui\internal\browser\InternalBrowserEditorInstance.java
+	     org\eclipse\ui\internal\browser\InternalBrowserInstance.java
+	     org\eclipse\ui\internal\browser\InternalBrowserViewInstance.java
+	     org\eclipse\ui\internal\browser\macosx\DefaultBrowser.java
+	     org\eclipse\ui\internal\browser\macosx\DefaultBrowserFactory.java
+	     org\eclipse\ui\internal\browser\macosx\SafariBrowser.java
+	     org\eclipse\ui\internal\browser\macosx\SafariBrowserFactory.java
+	     org\eclipse\ui\internal\browser\Messages.java
+	     org\eclipse\ui\internal\browser\Messages.properties
+	     org\eclipse\ui\internal\browser\OpenBrowserHandler.java
+	     org\eclipse\ui\internal\browser\OpenBrowserWorkbenchAction.java
+	     org\eclipse\ui\internal\browser\SWTUtil.java
+	     org\eclipse\ui\internal\browser\SystemBrowserDescriptor.java
+	     org\eclipse\ui\internal\browser\SystemBrowserInstance.java
+	     org\eclipse\ui\internal\browser\TextAction.java
+	     org\eclipse\ui\internal\browser\ToolbarLayout.java
+	     org\eclipse\ui\internal\browser\Trace.java
+	     org\eclipse\ui\internal\browser\WebBrowserEditor.java
+	     org\eclipse\ui\internal\browser\WebBrowserEditorActionBarContributor.java
+	     org\eclipse\ui\internal\browser\WebBrowserEditorInput.java
+	     org\eclipse\ui\internal\browser\WebBrowserPreference.java
+	     org\eclipse\ui\internal\browser\WebBrowserPreferencePage.java
+	     org\eclipse\ui\internal\browser\WebBrowserUIPlugin.java
+	     org\eclipse\ui\internal\browser\WebBrowserUtil.java
+	     org\eclipse\ui\internal\browser\WebBrowserView.java
+	     org\eclipse\ui\internal\browser\WebBrowserViewDropAdapter.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.browser.jar" path="org.eclipse.ui.browser/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

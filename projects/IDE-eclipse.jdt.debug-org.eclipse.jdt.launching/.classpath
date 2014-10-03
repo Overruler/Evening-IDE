@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     java.policy.applet
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="launching/|support/|.*|.*/|lib/" including=".options|META-INF/|about.html|java.policy.applet|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.launching.jar" path="org.eclipse.jdt.launching"/>
+	<!-- org\eclipse\jdt\internal\launching\AbstractRuntimeClasspathEntry.java
+	     org\eclipse\jdt\internal\launching\ClasspathContainerSourceContainerTypeDelegate.java
+	     org\eclipse\jdt\internal\launching\ClasspathVariableSourceContainerTypeDelegate.java
+	     org\eclipse\jdt\internal\launching\CompositeId.java
+	     org\eclipse\jdt\internal\launching\DefaultEntryResolver.java
+	     org\eclipse\jdt\internal\launching\DefaultProjectClasspathEntry.java
+	     org\eclipse\jdt\internal\launching\EECompilationParticipant.java
+	     org\eclipse\jdt\internal\launching\EEVMInstall.java
+	     org\eclipse\jdt\internal\launching\EEVMType.java
+	     org\eclipse\jdt\internal\launching\environments\DefaultAccessRuleParticipant.java
+	     org\eclipse\jdt\internal\launching\environments\EnvironmentMessages.java
+	     org\eclipse\jdt\internal\launching\environments\EnvironmentMessages.properties
+	     org\eclipse\jdt\internal\launching\environments\EnvironmentsManager.java
+	     org\eclipse\jdt\internal\launching\environments\ExecutionEnvironmentAnalyzer.java
+	     org\eclipse\jdt\internal\launching\environments\ExecutionEnvironmentVariableResolver.java
+	     org\eclipse\jdt\internal\launching\JavaAppletLaunchConfigurationDelegate.java
+	     org\eclipse\jdt\internal\launching\JavaClasspathVariablesInitializer.java
+	     org\eclipse\jdt\internal\launching\JavaFxLibraryResolver.java
+	     org\eclipse\jdt\internal\launching\JavaLaunchableTester.java
+	     org\eclipse\jdt\internal\launching\JavaMigrationDelegate.java
+	     org\eclipse\jdt\internal\launching\JavaProjectSourceContainerTypeDelegate.java
+	     org\eclipse\jdt\internal\launching\JavaRemoteApplicationLaunchConfigurationDelegate.java
+	     org\eclipse\jdt\internal\launching\JavaSourceLookupDirector.java
+	     org\eclipse\jdt\internal\launching\JavaSourceLookupUtil.java
+	     org\eclipse\jdt\internal\launching\JREContainer.java
+	     org\eclipse\jdt\internal\launching\JREContainerInitializer.java
+	     org\eclipse\jdt\internal\launching\JREPreferenceModifyListener.java
+	     org\eclipse\jdt\internal\launching\JRERuntimeClasspathEntryResolver.java
+	     org\eclipse\jdt\internal\launching\LaunchingMessages.java
+	     org\eclipse\jdt\internal\launching\LaunchingMessages.properties
+	     org\eclipse\jdt\internal\launching\LaunchingPlugin.java
+	     org\eclipse\jdt\internal\launching\LaunchingPreferenceInitializer.java
+	     org\eclipse\jdt\internal\launching\LibraryInfo.java
+	     org\eclipse\jdt\internal\launching\MacInstalledJREs.java
+	     org\eclipse\jdt\internal\launching\PackageFragmentRootSourceContainerTypeDelegate.java
+	     org\eclipse\jdt\internal\launching\PListParser.java
+	     org\eclipse\jdt\internal\launching\ProjectClasspathVariableResolver.java
+	     org\eclipse\jdt\internal\launching\RuntimeClasspathEntry.java
+	     org\eclipse\jdt\internal\launching\RuntimeClasspathEntryListComparator.java
+	     org\eclipse\jdt\internal\launching\RuntimeClasspathEntryResolver.java
+	     org\eclipse\jdt\internal\launching\RuntimeClasspathProvider.java
+	     org\eclipse\jdt\internal\launching\SocketAttachConnector.java
+	     org\eclipse\jdt\internal\launching\SocketListenConnector.java
+	     org\eclipse\jdt\internal\launching\SocketListenConnectorProcess.java
+	     org\eclipse\jdt\internal\launching\Standard11xVM.java
+	     org\eclipse\jdt\internal\launching\Standard11xVMRunner.java
+	     org\eclipse\jdt\internal\launching\Standard11xVMType.java
+	     org\eclipse\jdt\internal\launching\StandardVM.java
+	     org\eclipse\jdt\internal\launching\StandardVMDebugger.java
+	     org\eclipse\jdt\internal\launching\StandardVMRunner.java
+	     org\eclipse\jdt\internal\launching\StandardVMType.java
+	     org\eclipse\jdt\internal\launching\VariableClasspathEntry.java
+	     org\eclipse\jdt\internal\launching\VariableClasspathResolver.java
+	     org\eclipse\jdt\internal\launching\VMDefinitionsContainer.java
+	     org\eclipse\jdt\internal\launching\VMListener.java
+	     org\eclipse\jdt\launching\AbstractJavaLaunchConfigurationDelegate.java
+	     org\eclipse\jdt\launching\AbstractVMInstall.java
+	     org\eclipse\jdt\launching\AbstractVMInstallType.java
+	     org\eclipse\jdt\launching\AbstractVMRunner.java
+	     org\eclipse\jdt\launching\environments\CompatibleEnvironment.java
+	     org\eclipse\jdt\launching\environments\ExecutionEnvironmentDescription.java
+	     org\eclipse\jdt\launching\environments\IAccessRuleParticipant.java
+	     org\eclipse\jdt\launching\environments\IExecutionEnvironment.java
+	     org\eclipse\jdt\launching\environments\IExecutionEnvironmentAnalyzerDelegate.java
+	     org\eclipse\jdt\launching\environments\IExecutionEnvironmentsManager.java
+	     org\eclipse\jdt\launching\ExecutionArguments.java
+	     org\eclipse\jdt\launching\IJavaLaunchConfigurationConstants.java
+	     org\eclipse\jdt\launching\ILibraryLocationResolver.java
+	     org\eclipse\jdt\launching\IRuntimeClasspathEntry.java
+	     org\eclipse\jdt\launching\IRuntimeClasspathEntry2.java
+	     org\eclipse\jdt\launching\IRuntimeClasspathEntryResolver.java
+	     org\eclipse\jdt\launching\IRuntimeClasspathEntryResolver2.java
+	     org\eclipse\jdt\launching\IRuntimeClasspathProvider.java
+	     org\eclipse\jdt\launching\IRuntimeContainerComparator.java
+	     org\eclipse\jdt\launching\IVMConnector.java
+	     org\eclipse\jdt\launching\IVMInstall.java
+	     org\eclipse\jdt\launching\IVMInstall2.java
+	     org\eclipse\jdt\launching\IVMInstall3.java
+	     org\eclipse\jdt\launching\IVMInstallChangedListener.java
+	     org\eclipse\jdt\launching\IVMInstallType.java
+	     org\eclipse\jdt\launching\IVMRunner.java
+	     org\eclipse\jdt\launching\JavaLaunchDelegate.java
+	     org\eclipse\jdt\launching\JavaRuntime.java
+	     org\eclipse\jdt\launching\LibraryLocation.java
+	     org\eclipse\jdt\launching\PropertyChangeEvent.java
+	     org\eclipse\jdt\launching\SocketUtil.java
+	     org\eclipse\jdt\launching\sourcelookup\ArchiveSourceLocation.java
+	     org\eclipse\jdt\launching\sourcelookup\containers\ClasspathContainerSourceContainer.java
+	     org\eclipse\jdt\launching\sourcelookup\containers\ClasspathVariableSourceContainer.java
+	     org\eclipse\jdt\launching\sourcelookup\containers\JavaProjectSourceContainer.java
+	     org\eclipse\jdt\launching\sourcelookup\containers\JavaSourceLookupParticipant.java
+	     org\eclipse\jdt\launching\sourcelookup\containers\JavaSourcePathComputer.java
+	     org\eclipse\jdt\launching\sourcelookup\containers\PackageFragmentRootSourceContainer.java
+	     org\eclipse\jdt\launching\sourcelookup\DirectorySourceLocation.java
+	     org\eclipse\jdt\launching\sourcelookup\IJavaSourceLocation.java
+	     org\eclipse\jdt\launching\sourcelookup\JavaProjectSourceLocation.java
+	     org\eclipse\jdt\launching\sourcelookup\JavaSourceLocator.java
+	     org\eclipse\jdt\launching\sourcelookup\LocalFileStorage.java
+	     org\eclipse\jdt\launching\sourcelookup\PackageFragmentRootSourceLocation.java
+	     org\eclipse\jdt\launching\sourcelookup\ZipEntryStorage.java
+	     org\eclipse\jdt\launching\StandardClasspathProvider.java
+	     org\eclipse\jdt\launching\StandardSourcePathProvider.java
+	     org\eclipse\jdt\launching\VMRunnerConfiguration.java
+	     org\eclipse\jdt\launching\VMStandin.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.launching.jar" path="org.eclipse.jdt.launching/launching"/>
+	<!-- org\eclipse\jdt\internal\launching\support\LegacySystemProperties.java
+	     org\eclipse\jdt\internal\launching\support\LibraryDetector.java -->
+	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.jdt.launching.jar/lib/launchingsupport.jar" path="org.eclipse.jdt.launching/support"/>
+	<!-- lib\launchingsupport.jar\META-INF\MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.launching.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.core.variables"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.debug"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

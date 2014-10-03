@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Version: 4.4.0.SNAPSHOT
+Specification-Version: 4.4.0
+Specification-Title: HttpComponents Apache HttpCore OSGi bundle
+Specification-Vendor: The Apache Software Foundation
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.net.ssl
+Bundle-DocURL: http://www.apache.org/
+Implementation-Vendor-Id: org.apache
+Bundle-SymbolicName: org.apache.httpcomponents.httpcore
+Export-Package: 
+ org.apache.http;version="4.4.0",
+ org.apache.http.annotation;version="4.4.0",
+ org.apache.http.concurrent;version="4.4.0",
+ org.apache.http.config;version="4.4.0",
+ org.apache.http.entity;version="4.4.0",
+ org.apache.http.impl;version="4.4.0",
+ org.apache.http.impl.bootstrap;version="4.4.0",
+ org.apache.http.impl.entity;version="4.4.0",
+ org.apache.http.impl.io;version="4.4.0",
+ org.apache.http.impl.pool;version="4.4.0",
+ org.apache.http.io;version="4.4.0",
+ org.apache.http.message;version="4.4.0",
+ org.apache.http.params;version="4.4.0",
+ org.apache.http.pool;version="4.4.0",
+ org.apache.http.protocol;version="4.4.0",
+ org.apache.http.ssl;version="4.4.0",
+ org.apache.http.util;version="4.4.0"
+url: http://hc.apache.org/httpcomponents-core-ga
+Bundle-Description: HttpComponents Core (OSGi bundle)
+Bundle-Vendor: %bundleProvider
+Bundle-Name: %bundleName
+Bundle-License: LICENSE.txt
+Implementation-Title: HttpComponents Apache HttpCore OSGi bundle
+Implementation-Version: 4.4-alpha2-SNAPSHOT
+Bundle-ManifestVersion: 2
+Embed-Dependency: *;scope=compile|runtime;inline=true

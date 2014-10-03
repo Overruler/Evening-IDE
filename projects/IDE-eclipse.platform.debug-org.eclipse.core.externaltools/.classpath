@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.externaltools.jar" path="org.eclipse.core.externaltools"/>
+	<!-- org\eclipse\core\externaltools\internal\ExternalToolsCore.java
+	     org\eclipse\core\externaltools\internal\IExternalToolConstants.java
+	     org\eclipse\core\externaltools\internal\launchConfigurations\BackgroundResourceRefresher.java
+	     org\eclipse\core\externaltools\internal\launchConfigurations\ExternalToolsCoreUtil.java
+	     org\eclipse\core\externaltools\internal\launchConfigurations\ExternalToolsProgramMessages.java
+	     org\eclipse\core\externaltools\internal\launchConfigurations\ExternalToolsProgramMessages.properties
+	     org\eclipse\core\externaltools\internal\launchConfigurations\ProgramLaunchDelegate.java
+	     org\eclipse\core\externaltools\internal\model\BuilderCoreUtils.java
+	     org\eclipse\core\externaltools\internal\model\ExternalToolBuilder.java
+	     org\eclipse\core\externaltools\internal\model\ExternalToolsModelMessages.java
+	     org\eclipse\core\externaltools\internal\model\ExternalToolsModelMessages.properties
+	     org\eclipse\core\externaltools\internal\registry\ExternalToolMigration.java
+	     org\eclipse\core\externaltools\internal\registry\ExternalToolsMigrationMessages.java
+	     org\eclipse\core\externaltools\internal\registry\ExternalToolsMigrationMessages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.externaltools.jar" path="org.eclipse.core.externaltools/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.core.variables"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

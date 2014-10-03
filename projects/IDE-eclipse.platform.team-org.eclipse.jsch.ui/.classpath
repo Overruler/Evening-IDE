@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\full\wizban\keylock.gif
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jsch.ui.jar" path="org.eclipse.jsch.ui"/>
+	<!-- org\eclipse\jsch\internal\ui\authenticator\IHelpContextIds.java
+	     org\eclipse\jsch\internal\ui\authenticator\KeyboardInteractiveDialog.java
+	     org\eclipse\jsch\internal\ui\authenticator\UserValidationDialog.java
+	     org\eclipse\jsch\internal\ui\authenticator\WorkbenchUserAuthenticator.java
+	     org\eclipse\jsch\internal\ui\IHelpContextIds.java
+	     org\eclipse\jsch\internal\ui\IUIConstants.java
+	     org\eclipse\jsch\internal\ui\JSchUIPlugin.java
+	     org\eclipse\jsch\internal\ui\KeyboardInteractiveDialog.java
+	     org\eclipse\jsch\internal\ui\Messages.java
+	     org\eclipse\jsch\internal\ui\messages.properties
+	     org\eclipse\jsch\internal\ui\preference\PixelConverter.java
+	     org\eclipse\jsch\internal\ui\preference\PreferencePage.java
+	     org\eclipse\jsch\internal\ui\preference\SWTUtils.java
+	     org\eclipse\jsch\internal\ui\UserValidationDialog.java
+	     org\eclipse\jsch\ui\UserInfoPrompter.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jsch.ui.jar" path="org.eclipse.jsch.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.jcraft.jsch"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.jsch.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

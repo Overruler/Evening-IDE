@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     launcher.properties
+	     META-INF\MANIFEST.MF -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|launcher.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.launcher.jar" path="org.eclipse.equinox.launcher"/>
+	<!-- org\eclipse\core\launcher\Main.java
+	     org\eclipse\equinox\internal\launcher\Constants.java
+	     org\eclipse\equinox\launcher\JNIBridge.java
+	     org\eclipse\equinox\launcher\Main.java
+	     org\eclipse\equinox\launcher\WebStartMain.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.launcher.jar" path="org.eclipse.equinox.launcher/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

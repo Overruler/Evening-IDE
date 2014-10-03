@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\w3c\dom\events\CustomEvent.java
+	     org\w3c\dom\events\DocumentEvent.java
+	     org\w3c\dom\events\Event.java
+	     org\w3c\dom\events\EventException.java
+	     org\w3c\dom\events\EventListener.java
+	     org\w3c\dom\events\EventTarget.java
+	     org\w3c\dom\events\KeyboardEvent.java
+	     org\w3c\dom\events\MouseEvent.java
+	     org\w3c\dom\events\MutationEvent.java
+	     org\w3c\dom\events\MutationNameEvent.java
+	     org\w3c\dom\events\TextEvent.java
+	     org\w3c\dom\events\UIEvent.java -->
+	<classpathentry excluding="META-INF/ECLIPSEF.RSA|META-INF/ECLIPSEF.SF|META-INF/eclipse.inf|about.html|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/org.w3c.dom.events.jar" path="org.w3c.dom.events"/>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.w3c.dom.events.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

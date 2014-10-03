@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\full\dlcl16\save.gif
+	     icons\full\elcl16\editor_area.gif
+	     icons\full\elcl16\save.gif
+	     META-INF\MANIFEST.MF
+	     META-INF\p2.inf
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/dlcl16/|icons/full/elcl16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.compare.win32.jar" path="org.eclipse.compare.win32"/>
+	<!-- org\eclipse\compare\internal\win32\AbstractMergeViewer.java
+	     org\eclipse\compare\internal\win32\Activator.java
+	     org\eclipse\compare\internal\win32\CompareWin32Messages.java
+	     org\eclipse\compare\internal\win32\messages.properties
+	     org\eclipse\compare\internal\win32\WordComparison.java
+	     org\eclipse\compare\internal\win32\WordMergeViewer.java
+	     org\eclipse\compare\internal\win32\WordMergeViewer.properties
+	     org\eclipse\compare\internal\win32\WordViewerCreator.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.compare.win32.jar" path="org.eclipse.compare.win32/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org\objectweb\asm\AnnotationVisitor.java
+	     org\objectweb\asm\Attribute.java
+	     org\objectweb\asm\ByteVector.java
+	     org\objectweb\asm\ClassReader.java
+	     org\objectweb\asm\ClassVisitor.java
+	     org\objectweb\asm\ClassWriter.java
+	     org\objectweb\asm\FieldVisitor.java
+	     org\objectweb\asm\Handle.java
+	     org\objectweb\asm\Label.java
+	     org\objectweb\asm\MethodVisitor.java
+	     org\objectweb\asm\Opcodes.java
+	     org\objectweb\asm\signature\SignatureReader.java
+	     org\objectweb\asm\signature\SignatureVisitor.java
+	     org\objectweb\asm\signature\SignatureWriter.java
+	     org\objectweb\asm\Type.java
+	     org\objectweb\asm\TypePath.java
+	     org\objectweb\asm\TypeReference.java -->
+	<classpathentry including="org/objectweb/asm/|org/objectweb/asm/signature/" kind="src" output="bin/1/plugins/org.objectweb.asm.jar" path="asm/src"/>
+	<!-- about.html
+	     about_files\LICENSE.txt
+	     about_files\README.txt
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.objectweb.asm.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

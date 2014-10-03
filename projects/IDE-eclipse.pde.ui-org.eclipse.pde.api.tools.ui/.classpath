@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\full\dlcl16\compare_apis.gif
+	     icons\full\dlcl16\expandall.gif
+	     icons\full\dlcl16\export.gif
+	     icons\full\dlcl16\next_nav.gif
+	     icons\full\dlcl16\prev_nav.gif
+	     icons\full\elcl16\compare_apis.gif
+	     icons\full\elcl16\expandall.gif
+	     icons\full\elcl16\export.gif
+	     icons\full\elcl16\filter_ps.gif
+	     icons\full\elcl16\next_nav.gif
+	     icons\full\elcl16\open_page.gif
+	     icons\full\elcl16\prev_nav.gif
+	     icons\full\elcl16\remove_exc.gif
+	     icons\full\elcl16\text_edit.gif
+	     icons\full\obj16\annotation_obj.gif
+	     icons\full\obj16\api_tools.gif
+	     icons\full\obj16\bundleversion.gif
+	     icons\full\obj16\category_menu.gif
+	     icons\full\obj16\collect_apis.gif
+	     icons\full\obj16\collect_references.gif
+	     icons\full\obj16\collect_users.gif
+	     icons\full\obj16\correction_change.gif
+	     icons\full\obj16\eclipse16.png
+	     icons\full\obj16\extract_references.gif
+	     icons\full\obj16\frgmt_obj.gif
+	     icons\full\obj16\library_obj.gif
+	     icons\full\obj16\plugin_obj.gif
+	     icons\full\ovr16\error_ovr.gif
+	     icons\full\ovr16\success_ovr.gif
+	     icons\full\ovr16\warning_ovr.gif
+	     icons\full\wizban\compare_wiz.png
+	     icons\full\wizban\profile_wiz.png
+	     META-INF\MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/dlcl16/|icons/full/elcl16/|icons/full/obj16/|icons/full/ovr16/|icons/full/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.api.tools.ui.jar" path="org.eclipse.pde.api.tools.ui"/>
+	<!-- org\eclipse\pde\api\tools\ui\internal\actions\ActionMessages.java
+	     org\eclipse\pde\api\tools\ui\internal\actions\actionmessages.properties
+	     org\eclipse\pde\api\tools\ui\internal\actions\CollapseAllAction.java
+	     org\eclipse\pde\api\tools\ui\internal\actions\CompareWithAction.java
+	     org\eclipse\pde\api\tools\ui\internal\actions\DeltaSession.java
+	     org\eclipse\pde\api\tools\ui\internal\actions\ExpandAllAction.java
+	     org\eclipse\pde\api\tools\ui\internal\actions\ExportDialog.java
+	     org\eclipse\pde\api\tools\ui\internal\actions\ExportSessionAction.java
+	     org\eclipse\pde\api\tools\ui\internal\actions\NavigateAction.java
+	     org\eclipse\pde\api\tools\ui\internal\actions\RemoveActiveSessionAction.java
+	     org\eclipse\pde\api\tools\ui\internal\actions\RemoveAllSessionsAction.java
+	     org\eclipse\pde\api\tools\ui\internal\actions\SelectSessionAction.java
+	     org\eclipse\pde\api\tools\ui\internal\ApiImageDescriptor.java
+	     org\eclipse\pde\api\tools\ui\internal\ApiToolsLabelProvider.java
+	     org\eclipse\pde\api\tools\ui\internal\ApiUIPlugin.java
+	     org\eclipse\pde\api\tools\ui\internal\commands\CompareToBaselineHandler.java
+	     org\eclipse\pde\api\tools\ui\internal\commands\ConvertJavadocTagsHandler.java
+	     org\eclipse\pde\api\tools\ui\internal\commands\Messages.java
+	     org\eclipse\pde\api\tools\ui\internal\commands\messages.properties
+	     org\eclipse\pde\api\tools\ui\internal\commands\RemoveFiltersHandler.java
+	     org\eclipse\pde\api\tools\ui\internal\commands\SetupApiToolsHandler.java
+	     org\eclipse\pde\api\tools\ui\internal\completion\APIToolsJavadocCompletionProposal.java
+	     org\eclipse\pde\api\tools\ui\internal\completion\APIToolsJavadocCompletionProposalComputer.java
+	     org\eclipse\pde\api\tools\ui\internal\CompositeApiImageDescriptor.java
+	     org\eclipse\pde\api\tools\ui\internal\IApiToolsConstants.java
+	     org\eclipse\pde\api\tools\ui\internal\IApiToolsHelpContextIds.java
+	     org\eclipse\pde\api\tools\ui\internal\JavaElementActionFilter.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\ApiMarkerResolutionGenerator.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\ApiQuickFixProcessor.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\CreateApiFilterOperation.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\DefaultApiProfileResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\DuplicateAnnotationResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\DuplicateTagResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\FilterProblemResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\FilterProblemWithCommentResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\InstallEEDescriptionProblemResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\JavadocTagOperation.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\MarkerMessages.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\markermessages.properties
+	     org\eclipse\pde\api\tools\ui\internal\markers\MissingEEDescriptionProblemResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\NodeFinder.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\OpenPropertyPageResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\RemoveFilterProblemResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\RemoveUnsupportedAnnotationOperation.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\RemoveUnsupportedTagOperation.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\SinceTagResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\UnsupportedAnnotationResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\UnsupportedTagResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\UpdateBundleVersionOperation.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\UpdateProjectSettingResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\UpdateProjectSettingsOperation.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\UpdateSinceTagOperation.java
+	     org\eclipse\pde\api\tools\ui\internal\markers\VersionNumberingResolution.java
+	     org\eclipse\pde\api\tools\ui\internal\Messages.java
+	     org\eclipse\pde\api\tools\ui\internal\messages.properties
+	     org\eclipse\pde\api\tools\ui\internal\preferences\ApiBaselinePreferencePage.java
+	     org\eclipse\pde\api\tools\ui\internal\preferences\ApiBaselinesConfigurationBlock.java
+	     org\eclipse\pde\api\tools\ui\internal\preferences\ApiErrorsWarningsConfigurationBlock.java
+	     org\eclipse\pde\api\tools\ui\internal\preferences\ApiErrorsWarningsPreferencePage.java
+	     org\eclipse\pde\api\tools\ui\internal\preferences\ApiUseScanConfigurationBlock.java
+	     org\eclipse\pde\api\tools\ui\internal\preferences\ApiUseScanPreferencePage.java
+	     org\eclipse\pde\api\tools\ui\internal\preferences\PreferenceMessages.java
+	     org\eclipse\pde\api\tools\ui\internal\preferences\preferencemessages.properties
+	     org\eclipse\pde\api\tools\ui\internal\preferences\ProjectSelectionDialog.java
+	     org\eclipse\pde\api\tools\ui\internal\properties\ApiErrorsWarningsPropertyPage.java
+	     org\eclipse\pde\api\tools\ui\internal\properties\ApiFiltersPropertyPage.java
+	     org\eclipse\pde\api\tools\ui\internal\properties\PropertiesMessages.java
+	     org\eclipse\pde\api\tools\ui\internal\properties\propertiesmessages.properties
+	     org\eclipse\pde\api\tools\ui\internal\refactoring\CreateFileChange.java
+	     org\eclipse\pde\api\tools\ui\internal\refactoring\FilterChange.java
+	     org\eclipse\pde\api\tools\ui\internal\refactoring\FilterDeleteParticipant.java
+	     org\eclipse\pde\api\tools\ui\internal\refactoring\FilterMoveParticipant.java
+	     org\eclipse\pde\api\tools\ui\internal\refactoring\FilterRenameParticipant.java
+	     org\eclipse\pde\api\tools\ui\internal\refactoring\RefactoringMessages.java
+	     org\eclipse\pde\api\tools\ui\internal\refactoring\refactoringmessages.properties
+	     org\eclipse\pde\api\tools\ui\internal\refactoring\RefactoringUtils.java
+	     org\eclipse\pde\api\tools\ui\internal\refactoring\TypeFilterChange.java
+	     org\eclipse\pde\api\tools\ui\internal\SWTFactory.java
+	     org\eclipse\pde\api\tools\ui\internal\use\ApiUseLaunchDelegate.java
+	     org\eclipse\pde\api\tools\ui\internal\use\ApiUsePatternTab.java
+	     org\eclipse\pde\api\tools\ui\internal\use\ApiUseScanJob.java
+	     org\eclipse\pde\api\tools\ui\internal\use\ApiUseScanTab.java
+	     org\eclipse\pde\api\tools\ui\internal\use\ApiUseTabGroup.java
+	     org\eclipse\pde\api\tools\ui\internal\use\ArchivePatternPage.java
+	     org\eclipse\pde\api\tools\ui\internal\use\DescriptionPatternPage.java
+	     org\eclipse\pde\api\tools\ui\internal\use\Messages.java
+	     org\eclipse\pde\api\tools\ui\internal\use\messages.properties
+	     org\eclipse\pde\api\tools\ui\internal\use\PatternSelectionPage.java
+	     org\eclipse\pde\api\tools\ui\internal\use\PatternWizard.java
+	     org\eclipse\pde\api\tools\ui\internal\use\ReportPatternPage.java
+	     org\eclipse\pde\api\tools\ui\internal\use\UsePatternPage.java
+	     org\eclipse\pde\api\tools\ui\internal\views\APIToolingView.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\ApiBaselineWizard.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\ApiBaselineWizardPage.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\ApiToolingSetupRefactoring.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\ApiToolingSetupWizard.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\ApiToolingSetupWizardPage.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\CompareOperation.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\CompareToBaselineWizard.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\CompareToBaselineWizardPage.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\JavadocConversionPage.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\JavadocConversionRefactoring.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\JavadocConversionWizard.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\ProjectUpdateChange.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\WizardMessages.java
+	     org\eclipse\pde\api\tools\ui\internal\wizards\wizardmessages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.api.tools.ui.jar" path="org.eclipse.pde.api.tools.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.frameworkadmin"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.core.manipulation"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.core.refactoring"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.ui.refactoring"/>
+	<classpathentry kind="src" path="/IDE-eclipse.pde.ui-org.eclipse.pde.api.tools"/>
+	<classpathentry kind="src" path="/IDE-eclipse.pde.ui-org.eclipse.pde.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.search"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.pde.ui-org.eclipse.ui.trace"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

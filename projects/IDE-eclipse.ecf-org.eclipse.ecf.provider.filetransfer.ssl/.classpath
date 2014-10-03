@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF\MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.ssl.jar" path="org.eclipse.ecf.provider.filetransfer.ssl"/>
+	<!-- org\eclipse\ecf\internal\provider\filetransfer\ssl\ECFURLConnectionModifier.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.ssl.jar" path="org.eclipse.ecf.provider.filetransfer.ssl/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.ecf-org.eclipse.ecf.provider.filetransfer"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons\dlcl16\refresh.gif
+	     icons\elcl16\collapseall.gif
+	     icons\elcl16\cpyqual_menu.gif
+	     icons\elcl16\refresh.gif
+	     icons\eview16\horizontal_view.gif
+	     icons\eview16\registry.gif
+	     icons\eview16\vertical_view.gif
+	     icons\obj16\attr_xml_obj.gif
+	     icons\obj16\bundle-exporter.gif
+	     icons\obj16\bundle-importer-exporter.gif
+	     icons\obj16\bundle-importer.gif
+	     icons\obj16\class_obj.gif
+	     icons\obj16\contextid_obj.gif
+	     icons\obj16\error_stack.gif
+	     icons\obj16\error_st_obj.gif
+	     icons\obj16\extensions_obj.gif
+	     icons\obj16\extension_obj.gif
+	     icons\obj16\ext_points_obj.gif
+	     icons\obj16\ext_point_obj.gif
+	     icons\obj16\frgmt_obj.gif
+	     icons\obj16\generic_xml_obj.gif
+	     icons\obj16\info_st_obj.gif
+	     icons\obj16\int_obj.gif
+	     icons\obj16\java_lib_obj.gif
+	     icons\obj16\location_obj.gif
+	     icons\obj16\menuspy_obj.gif
+	     icons\obj16\menu_obj.gif
+	     icons\obj16\ok_st_obj.gif
+	     icons\obj16\package_obj.gif
+	     icons\obj16\pdespy_obj.gif
+	     icons\obj16\plugins_obj.gif
+	     icons\obj16\plugin_obj.gif
+	     icons\obj16\property_obj.gif
+	     icons\obj16\req_plugins_obj.gif
+	     icons\obj16\req_plugin_obj.gif
+	     icons\obj16\runtime_obj.gif
+	     icons\obj16\save_image_as_obj.gif
+	     icons\obj16\warning_st_obj.gif
+	     icons\ovr16\default_co.gif
+	     icons\ovr16\error_co.gif
+	     icons\ovr16\export_co.gif
+	     icons\ovr16\run_co.gif
+	     META-INF\MANIFEST.MF
+	     META-INF\p2.inf
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/dlcl16/|icons/elcl16/|icons/eview16/|icons/obj16/|icons/ovr16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.runtime.jar" path="org.eclipse.pde.runtime"/>
+	<!-- org\eclipse\pde\internal\runtime\IHelpContextIds.java
+	     org\eclipse\pde\internal\runtime\MessageHelper.java
+	     org\eclipse\pde\internal\runtime\OverlayIcon.java
+	     org\eclipse\pde\internal\runtime\PDERuntimeMessages.java
+	     org\eclipse\pde\internal\runtime\PDERuntimePlugin.java
+	     org\eclipse\pde\internal\runtime\PDERuntimePluginImages.java
+	     org\eclipse\pde\internal\runtime\pderuntimeresources.properties
+	     org\eclipse\pde\internal\runtime\registry\DiagnosticsDialog.java
+	     org\eclipse\pde\internal\runtime\registry\model\Attribute.java
+	     org\eclipse\pde\internal\runtime\registry\model\BackendChangeListener.java
+	     org\eclipse\pde\internal\runtime\registry\model\Bundle.java
+	     org\eclipse\pde\internal\runtime\registry\model\BundleLibrary.java
+	     org\eclipse\pde\internal\runtime\registry\model\BundlePrerequisite.java
+	     org\eclipse\pde\internal\runtime\registry\model\ConfigurationElement.java
+	     org\eclipse\pde\internal\runtime\registry\model\Extension.java
+	     org\eclipse\pde\internal\runtime\registry\model\ExtensionPoint.java
+	     org\eclipse\pde\internal\runtime\registry\model\Folder.java
+	     org\eclipse\pde\internal\runtime\registry\model\LocalRegistryBackend.java
+	     org\eclipse\pde\internal\runtime\registry\model\ModelChangeDelta.java
+	     org\eclipse\pde\internal\runtime\registry\model\ModelChangeListener.java
+	     org\eclipse\pde\internal\runtime\registry\model\ModelObject.java
+	     org\eclipse\pde\internal\runtime\registry\model\Property.java
+	     org\eclipse\pde\internal\runtime\registry\model\RegistryBackend.java
+	     org\eclipse\pde\internal\runtime\registry\model\RegistryModel.java
+	     org\eclipse\pde\internal\runtime\registry\model\RegistryModelFactory.java
+	     org\eclipse\pde\internal\runtime\registry\model\ServiceName.java
+	     org\eclipse\pde\internal\runtime\registry\model\ServiceRegistration.java
+	     org\eclipse\pde\internal\runtime\registry\RegistryBrowser.java
+	     org\eclipse\pde\internal\runtime\registry\RegistryBrowserContentProvider.java
+	     org\eclipse\pde\internal\runtime\registry\RegistryBrowserLabelProvider.java
+	     org\eclipse\pde\internal\runtime\registry\RegistryBrowserModelChangeListener.java
+	     org\eclipse\pde\internal\runtime\registry\RegistryFilteredTree.java
+	     org\eclipse\pde\internal\runtime\spy\dialogs\MenuSpyDialog.java
+	     org\eclipse\pde\internal\runtime\spy\dialogs\SpyDialog.java
+	     org\eclipse\pde\internal\runtime\spy\handlers\MenuSpyHandler.java
+	     org\eclipse\pde\internal\runtime\spy\handlers\SpyHandler.java
+	     org\eclipse\pde\internal\runtime\spy\sections\ActiveDialogPageSection.java
+	     org\eclipse\pde\internal\runtime\spy\sections\ActiveFormEditorSection.java
+	     org\eclipse\pde\internal\runtime\spy\sections\ActiveHelpSection.java
+	     org\eclipse\pde\internal\runtime\spy\sections\ActiveMenuSection.java
+	     org\eclipse\pde\internal\runtime\spy\sections\ActivePartSection.java
+	     org\eclipse\pde\internal\runtime\spy\sections\ActiveSelectionSection.java
+	     org\eclipse\pde\internal\runtime\spy\sections\ActiveShellSection.java
+	     org\eclipse\pde\internal\runtime\spy\sections\ActiveWizardSection.java
+	     org\eclipse\pde\internal\runtime\spy\sections\ISpySection.java
+	     org\eclipse\pde\internal\runtime\spy\SpyFormToolkit.java
+	     org\eclipse\pde\internal\runtime\spy\SpyIDEUtil.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.runtime.jar" path="org.eclipse.pde.runtime/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.pde.ui-org.eclipse.pde.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,138 @@
+[submodule "libraries/eclipse.jdt.core"]
+	path = libraries/eclipse.jdt.core
+	url = https://github.com/Overruler/eclipse.jdt.core.git
+[submodule "libraries/eclipse.jdt.debug"]
+	path = libraries/eclipse.jdt.debug
+	url = https://github.com/Overruler/eclipse.jdt.debug.git
+[submodule "libraries/eclipse.jdt.ui"]
+	path = libraries/eclipse.jdt.ui
+	url = https://github.com/Overruler/eclipse.jdt.ui.git
+[submodule "libraries/eclipse.pde.build"]
+	path = libraries/eclipse.pde.build
+	url = https://github.com/Overruler/eclipse.pde.build.git
+[submodule "libraries/eclipse.pde.ui"]
+	path = libraries/eclipse.pde.ui
+	url = https://github.com/Overruler/eclipse.pde.ui.git
+[submodule "libraries/eclipse.platform"]
+	path = libraries/eclipse.platform
+	url = https://github.com/Overruler/eclipse.platform.git
+[submodule "libraries/eclipse.platform.common"]
+	path = libraries/eclipse.platform.common
+	url = https://github.com/Overruler/eclipse.platform.common.git
+[submodule "libraries/eclipse.platform.debug"]
+	path = libraries/eclipse.platform.debug
+	url = https://github.com/Overruler/eclipse.platform.debug.git
+[submodule "libraries/eclipse.platform.releng"]
+	path = libraries/eclipse.platform.releng
+	url = https://github.com/Overruler/eclipse.platform.releng.git
+[submodule "libraries/eclipse.platform.resources"]
+	path = libraries/eclipse.platform.resources
+	url = https://github.com/Overruler/eclipse.platform.resources.git
+[submodule "libraries/eclipse.platform.runtime"]
+	path = libraries/eclipse.platform.runtime
+	url = https://github.com/Overruler/eclipse.platform.runtime.git
+[submodule "libraries/eclipse.platform.swt"]
+	path = libraries/eclipse.platform.swt
+	url = https://github.com/Overruler/eclipse.platform.swt.git
+[submodule "libraries/eclipse.platform.swt.binaries"]
+	path = libraries/eclipse.platform.swt.binaries
+	url = https://github.com/Overruler/eclipse.platform.swt.binaries.git
+[submodule "libraries/eclipse.platform.text"]
+	path = libraries/eclipse.platform.text
+	url = https://github.com/Overruler/eclipse.platform.text.git
+[submodule "libraries/eclipse.platform.team"]
+	path = libraries/eclipse.platform.team
+	url = https://github.com/Overruler/eclipse.platform.team.git
+[submodule "libraries/eclipse.platform.ua"]
+	path = libraries/eclipse.platform.ua
+	url = https://github.com/Overruler/eclipse.platform.ua.git
+[submodule "libraries/eclipse.platform.ui"]
+	path = libraries/eclipse.platform.ui
+	url = https://github.com/Overruler/eclipse.platform.ui.git
+[submodule "libraries/eclipse.rt.equinox.binaries.git"]
+	path = libraries/eclipse.rt.equinox.binaries.git
+	url = https://github.com/Overruler/rt.equinox.binaries.git
+[submodule "libraries/eclipse.rt.equinox.binaries"]
+	path = libraries/eclipse.rt.equinox.binaries
+	url = https://github.com/Overruler/rt.equinox.binaries.git
+[submodule "libraries/eclipse.rt.equinox.bundles"]
+	path = libraries/eclipse.rt.equinox.bundles
+	url = https://github.com/Overruler/rt.equinox.bundles.git
+[submodule "libraries/eclipse.rt.equinox.framework"]
+	path = libraries/eclipse.rt.equinox.framework
+	url = https://github.com/Overruler/rt.equinox.framework.git
+[submodule "libraries/eclipse.rt.equinox.p2"]
+	path = libraries/eclipse.rt.equinox.p2
+	url = https://github.com/Overruler/rt.equinox.p2.git
+[submodule "libraries/eclipse.ecf"]
+	path = libraries/eclipse.ecf
+	url = https://github.com/Overruler/ecf.git
+[submodule "libraries/eclipse.emf"]
+	path = libraries/eclipse.emf
+	url = https://github.com/Overruler/eclipse.emf.git
+[submodule "libraries/eclipse.jgit"]
+	path = libraries/eclipse.jgit
+	url = https://github.com/Overruler/eclipse.jgit.git
+[submodule "libraries/eclipse.jetty.project"]
+	path = libraries/eclipse.jetty.project
+	url = https://github.com/Overruler/eclipse.jetty.project.git
+[submodule "libraries/eclipse.egit"]
+	path = libraries/eclipse.egit
+	url = https://github.com/Overruler/egit.git
+[submodule "libraries/apache.ant"]
+	path = libraries/apache.ant
+	url = https://github.com/Overruler/ant.git
+[submodule "libraries/SuperiorStreams"]
+	path = libraries/SuperiorStreams
+	url = https://github.com/Overruler/SuperiorStreams.git
+[submodule "libraries/eclipse.jdt"]
+	path = libraries/eclipse.jdt
+	url = https://github.com/Overruler/eclipse.jdt.git
+[submodule "libraries/eclipse.mpc"]
+	path = libraries/eclipse.mpc
+	url = https://github.com/Overruler/epp.mpc.git
+[submodule "libraries/eclipse.epp"]
+	path = libraries/eclipse.epp
+	url = http://git.eclipse.org/gitroot/epp/org.eclipse.epp.packages.git
+[submodule "libraries/apache.lucene-solr"]
+	path = libraries/apache.lucene-solr
+	url = https://github.com/apache/lucene-solr.git
+[submodule "libraries/apache.httpclient"]
+	path = libraries/apache.httpclient
+	url = https://github.com/apache/httpclient.git
+[submodule "libraries/apache.httpcore"]
+	path = libraries/apache.httpcore
+	url = https://github.com/apache/httpcore.git
+[submodule "libraries/apache.felix"]
+	path = libraries/apache.felix
+	url = https://github.com/apache/felix.git
+[submodule "libraries/apache.commons-logging"]
+	path = libraries/apache.commons-logging
+	url = https://github.com/apache/commons-logging.git
+[submodule "libraries/apache.commons-compress"]
+	path = libraries/apache.commons-compress
+	url = https://github.com/apache/commons-compress.git
+[submodule "libraries/apache.commons-codec"]
+	path = libraries/apache.commons-codec
+	url = https://github.com/apache/commons-codec.git
+[submodule "libraries/apache.batik"]
+	path = libraries/apache.batik
+	url = https://github.com/apache/batik.git
+[submodule "libraries/apache.xerces.xml-commons"]
+	path = libraries/apache.xerces.xml-commons
+	url = https://github.com/svn2github/xerces-xml-commons.git
+[submodule "libraries/ow2.sat4j"]
+	path = libraries/ow2.sat4j
+	url = https://github.com/svn2github/SAT4J.git
+[submodule "libraries/ow2.asm"]
+	path = libraries/ow2.asm
+	url = https://github.com/svn2github/ASM.git
+[submodule "libraries/orbit-sources"]
+	path = libraries/orbit-sources
+	url = https://github.com/Overruler/orbit-sources.git
+[submodule "libraries/javaewah"]
+	path = libraries/javaewah
+	url = https://github.com/lemire/javaewah.git
+[submodule "libraries/apache.xalan-j"]
+	path = libraries/apache.xalan-j
+	url = https://github.com/apache/xalan-j.git
