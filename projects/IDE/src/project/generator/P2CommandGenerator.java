@@ -169,17 +169,13 @@ public class P2CommandGenerator {
 			if(string == null) {
 				return 0;
 			}
-			try {
-				return Integer.parseInt(string);
-			} catch(NumberFormatException e) {
-				String s = string.replaceAll("\\D", "");
-				if(s.length() == 8) {
-					s += "0000";
-				} else if(s.length() > 12 || s.length() == 0) {
-					return 0;
-				}
-				return Long.parseLong(s);
+			String s = string.replaceAll("\\D", "");
+			if(s.length() == 8) {
+				s += "0000";
+			} else if(s.length() > 12 || s.length() == 0) {
+				return 0;
 			}
+			return Long.parseLong(s);
 		}
 		@Override
 		public String toString() {
