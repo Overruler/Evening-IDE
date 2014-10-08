@@ -103,8 +103,10 @@ public class MainBuildIDE {
 		try {
 			replacePlaceholders();
 			pluginToManifest = getPluginToManifest();
-			if(workspace != null) {
+			if(workspace != null && isRunningSelfHosted()) {
 				registerFile(ORG_ECLIPSE_UI_IDE_PREFS, orgEclipseUiIdePrefs(workspace), p2Modified);
+			} else {
+				snapshot.removeFile(Paths.get(ORG_ECLIPSE_UI_IDE_PREFS));
 			}
 			registerFile(JVMARGS, jvmargs(), p2Modified);
 			registerFile(BUNDLES_INFO, bundlesInfo(), pluginsModified);
@@ -677,7 +679,7 @@ public class MainBuildIDE {
 			return true;
 		}
 		try {
-			if(Paths.get(RUNNING).toAbsolutePath().equals(target.toAbsolutePath())) {
+			if(isSameAsRunning(target)) {
 				return false;
 			}
 			return Files.list(folder).noneMatch(p -> p.getFileName().toString().matches("\\.tmp\\d+\\.instance"));
@@ -686,6 +688,12 @@ public class MainBuildIDE {
 			e.printStackTrace(System.out);
 			return false;
 		}
+	}
+	private static boolean isRunningSelfHosted() {
+		return isSameAsRunning(TARGET_IDE1) || isSameAsRunning(TARGET_IDE2) || isSameAsRunning(TARGET_IDE3);
+	}
+	private static boolean isSameAsRunning(Path target) {
+		return Paths.get(RUNNING).toAbsolutePath().equals(target.toAbsolutePath());
 	}
 	private static Map<String, String> environment() {
 		Map<String, String> map = Map.from(System.getenv());
