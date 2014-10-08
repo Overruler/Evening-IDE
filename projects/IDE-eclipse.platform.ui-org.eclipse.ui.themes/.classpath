@@ -38,7 +38,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding=".*|.*/" including="META-INF/|about.html|css/|css/dark/|images/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.themes" path="org.eclipse.ui.themes"/>
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|css/*|css/dark/*|images/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.themes" path="org.eclipse.ui.themes"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.swt.theme"/>
 	<classpathentry kind="output" path="classes"/>

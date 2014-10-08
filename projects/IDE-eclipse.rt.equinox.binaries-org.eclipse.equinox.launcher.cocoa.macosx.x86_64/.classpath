@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     launcher.cocoa.macosx.x86_64.properties
+	     META-INF\MANIFEST.MF -->
+	<classpathentry including="META-INF/*|about.html|launcher.cocoa.macosx.x86_64.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.launcher.cocoa.macosx.x86_64" path="bundles/org.eclipse.equinox.launcher.cocoa.macosx.x86_64"/>
+	<!-- eclipse_####.so -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.launcher.cocoa.macosx.x86_64" path="eclipse.rt.equinox.binaries/org.eclipse.equinox.launcher.cocoa.macosx.x86_64"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.equinox.launcher"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

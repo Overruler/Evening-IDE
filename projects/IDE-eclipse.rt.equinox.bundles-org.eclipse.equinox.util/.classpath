@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.util.jar" path="org.eclipse.equinox.util"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.util.jar" path="org.eclipse.equinox.util"/>
 	<!-- org\eclipse\equinox\internal\util\event\EventThread.java
 	     org\eclipse\equinox\internal\util\event\Queue.java
 	     org\eclipse\equinox\internal\util\event\SystemListener.java

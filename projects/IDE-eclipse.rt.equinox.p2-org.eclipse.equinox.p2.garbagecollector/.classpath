@@ -6,7 +6,7 @@
 	     plugin.properties
 	     plugin.xml
 	     schema\GarbageCollector.exsd -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.garbagecollector.jar" path="org.eclipse.equinox.p2.garbagecollector"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.garbagecollector.jar" path="org.eclipse.equinox.p2.garbagecollector"/>
 	<!-- org\eclipse\equinox\internal\p2\garbagecollector\Application.java
 	     org\eclipse\equinox\internal\p2\garbagecollector\CoreGarbageCollector.java
 	     org\eclipse\equinox\internal\p2\garbagecollector\GarbageCollector.java

@@ -42,7 +42,7 @@
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient-cache/src/main/java-deprecated"/>
 	<!-- org\apache\http\osgi\impl\OSGiClientBuilderFactory.java
 	     org\apache\http\osgi\services\HttpClientBuilderFactory.java -->
-	<classpathentry including="org/apache/http/osgi/impl/|org/apache/http/osgi/services/" kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient-osgi/src/main/java"/>
+	<classpathentry including="org/apache/http/osgi/impl/*|org/apache/http/osgi/services/*" kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient-osgi/src/main/java"/>
 	<!-- org\apache\http\auth\AUTH.java
 	     org\apache\http\auth\AuthenticationException.java
 	     org\apache\http\auth\AuthOption.java
@@ -226,8 +226,10 @@
 	     org\apache\http\impl\cookie\RFC2965PortAttributeHandler.java
 	     org\apache\http\impl\cookie\RFC2965Spec.java
 	     org\apache\http\impl\cookie\RFC2965VersionAttributeHandler.java
+	     org\apache\http\client\config\CookieSpecs.java
+	     org\apache\http\conn\socket\ConnectionSocketFactory.java
 	     org\apache\http\impl\execchain\BackoffStrategyExec.java -->
-	<classpathentry including="org/apache/http/auth/|org/apache/http/auth/params/|org/apache/http/client/|org/apache/http/client/entity/|org/apache/http/client/methods/|org/apache/http/client/params/|org/apache/http/client/protocol/|org/apache/http/client/utils/|org/apache/http/conn/|org/apache/http/conn/params/|org/apache/http/conn/routing/|org/apache/http/conn/scheme/|org/apache/http/conn/ssl/|org/apache/http/conn/util/|org/apache/http/cookie/|org/apache/http/cookie/params/|org/apache/http/impl/auth/|org/apache/http/impl/client/|org/apache/http/impl/conn/|org/apache/http/impl/cookie/|org/apache/http/impl/execchain/" kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient/src/main/java"/>
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient/src/main/java"/>
 	<!-- org\apache\http\auth\params\AuthParamBean.java
 	     org\apache\http\auth\params\AuthParams.java
 	     org\apache\http\client\AuthenticationHandler.java

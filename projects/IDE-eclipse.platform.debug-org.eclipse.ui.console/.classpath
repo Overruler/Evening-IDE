@@ -37,7 +37,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/clcl16/|icons/full/cview16/|icons/full/dlcl16/|icons/full/dview16/|icons/full/elcl16/|icons/full/eview16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.console.jar" path="org.eclipse.ui.console"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/clcl16/*|icons/full/cview16/*|icons/full/dlcl16/*|icons/full/dview16/*|icons/full/elcl16/*|icons/full/eview16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.console.jar" path="org.eclipse.ui.console"/>
 	<!-- org\eclipse\ui\console\AbstractConsole.java
 	     org\eclipse\ui\console\actions\ClearOutputAction.java
 	     org\eclipse\ui\console\actions\CloseConsoleAction.java

@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.filesystem.jar" path="org.eclipse.core.filesystem"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.filesystem.jar" path="org.eclipse.core.filesystem"/>
 	<!-- org\eclipse\core\filesystem\EFS.java
 	     org\eclipse\core\filesystem\IFileInfo.java
 	     org\eclipse\core\filesystem\IFileStore.java

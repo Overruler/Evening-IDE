@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.http.registry.jar" path="org.eclipse.equinox.http.registry"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.http.registry.jar" path="org.eclipse.equinox.http.registry"/>
 	<!-- org\eclipse\equinox\http\registry\HttpContextExtensionService.java
 	     org\eclipse\equinox\http\registry\internal\Activator.java
 	     org\eclipse\equinox\http\registry\internal\DefaultRegistryHttpContext.java

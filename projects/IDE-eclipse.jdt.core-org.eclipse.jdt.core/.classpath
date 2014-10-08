@@ -5,13 +5,13 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="antadapter/|batch/|codeassist/|compiler/|dom/|eval/|formatter/|model/|search/|.*|.*/|scripts/|META-INF/eclipse.inf" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.core.jar" path="org.eclipse.jdt.core"/>
+	<classpathentry excluding="antadapter/|batch/|codeassist/|compiler/|dom/|eval/|formatter/|model/|search/|.*|.*/|scripts/|META-INF/eclipse.inf" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.core.jar" path="org.eclipse.jdt.core"/>
 	<!-- org\eclipse\jdt\core\BuildJarIndex.java
 	     org\eclipse\jdt\core\CheckDebugAttributes.java
 	     org\eclipse\jdt\core\JDTCompilerAdapter.java
 	     org\eclipse\jdt\internal\antadapter\AntAdapterMessages.java
 	     org\eclipse\jdt\internal\antadapter\messages.properties -->
-	<classpathentry excluding="META-INF/eclipse.inf" including="org/eclipse/jdt/core/|org/eclipse/jdt/internal/antadapter/" kind="src" output="bin/2/plugins/org.eclipse.jdt.core.jar/jdtCompilerAdapter.jar" path="org.eclipse.jdt.core/antadapter"/>
+	<classpathentry excluding="META-INF/eclipse.inf" including="org/eclipse/jdt/core/*|org/eclipse/jdt/internal/antadapter/*" kind="src" output="bin/2/plugins/org.eclipse.jdt.core.jar/jdtCompilerAdapter.jar" path="org.eclipse.jdt.core/antadapter"/>
 	<!-- org\eclipse\jdt\core\compiler\batch\BatchCompiler.java
 	     org\eclipse\jdt\internal\compiler\batch\BatchCompilerRequestor.java
 	     org\eclipse\jdt\internal\compiler\batch\ClasspathDirectory.java
@@ -1284,7 +1284,7 @@
 	     org\eclipse\jdt\internal\core\search\TypeNameRequestorWrapper.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.core.jar" path="org.eclipse.jdt.core/search"/>
 	<!-- jdtCompilerAdapter.jar\META-INF\MANIFEST.MF -->
-	<classpathentry including="jdtCompilerAdapter.jar/META-INF/" kind="src" output="bin/1/plugins/org.eclipse.jdt.core.jar" path="res"/>
+	<classpathentry including="jdtCompilerAdapter.jar/META-INF/*" kind="src" output="bin/1/plugins/org.eclipse.jdt.core.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>

@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.variables.jar" path="org.eclipse.core.variables"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.variables.jar" path="org.eclipse.core.variables"/>
 	<!-- org\eclipse\core\internal\variables\ContributedValueVariable.java
 	     org\eclipse\core\internal\variables\DynamicVariable.java
 	     org\eclipse\core\internal\variables\EclipseHomeVariableResolver.java

@@ -5,7 +5,7 @@
 	     OSGI-INF\director.xml
 	     OSGI-INF\planner.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.director.jar" path="org.eclipse.equinox.p2.director"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.director.jar" path="org.eclipse.equinox.p2.director"/>
 	<!-- org\eclipse\equinox\internal\p2\director\ApplicablePatchQuery.java
 	     org\eclipse\equinox\internal\p2\director\AttachmentHelper.java
 	     org\eclipse\equinox\internal\p2\director\DirectorActivator.java

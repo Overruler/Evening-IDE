@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit4.runtime.jar" path="org.eclipse.jdt.junit4.runtime"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit4.runtime.jar" path="org.eclipse.jdt.junit4.runtime"/>
 	<!-- org\eclipse\jdt\internal\junit4\runner\FailuresFirstSorter.java
 	     org\eclipse\jdt\internal\junit4\runner\JUnit4Identifier.java
 	     org\eclipse\jdt\internal\junit4\runner\JUnit4TestClassReference.java

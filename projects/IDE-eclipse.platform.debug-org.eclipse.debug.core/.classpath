@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="core/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.debug.core.jar" path="org.eclipse.debug.core"/>
+	<classpathentry excluding="core/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.debug.core.jar" path="org.eclipse.debug.core"/>
 	<!-- org\eclipse\debug\core\commands\AbstractDebugCommand.java
 	     org\eclipse\debug\core\commands\IDebugCommandHandler.java
 	     org\eclipse\debug\core\commands\IDebugCommandRequest.java

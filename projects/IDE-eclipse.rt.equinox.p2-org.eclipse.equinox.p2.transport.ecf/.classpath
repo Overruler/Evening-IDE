@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\ecfTransport.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.transport.ecf.jar" path="org.eclipse.equinox.p2.transport.ecf"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.transport.ecf.jar" path="org.eclipse.equinox.p2.transport.ecf"/>
 	<!-- org\eclipse\equinox\internal\p2\transport\ecf\Activator.java
 	     org\eclipse\equinox\internal\p2\transport\ecf\ECFTransportComponent.java
 	     org\eclipse\equinox\internal\p2\transport\ecf\FileInfoReader.java

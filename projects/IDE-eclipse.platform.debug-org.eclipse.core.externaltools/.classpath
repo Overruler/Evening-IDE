@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.externaltools.jar" path="org.eclipse.core.externaltools"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.externaltools.jar" path="org.eclipse.core.externaltools"/>
 	<!-- org\eclipse\core\externaltools\internal\ExternalToolsCore.java
 	     org\eclipse\core\externaltools\internal\IExternalToolConstants.java
 	     org\eclipse\core\externaltools\internal\launchConfigurations\BackgroundResourceRefresher.java

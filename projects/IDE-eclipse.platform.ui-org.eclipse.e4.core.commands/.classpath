@@ -5,7 +5,7 @@
 	     OSGI-INF\commands.xml
 	     OSGI-INF\handlers.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.commands.jar" path="org.eclipse.e4.core.commands"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.commands.jar" path="org.eclipse.e4.core.commands"/>
 	<!-- org\eclipse\e4\core\commands\CommandServiceAddon.java
 	     org\eclipse\e4\core\commands\ECommandService.java
 	     org\eclipse\e4\core\commands\EHandlerService.java

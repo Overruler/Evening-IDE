@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- .options
-	     about.html
+	<!-- about.html
 	     about.ini
 	     icons\iu_obj.gif
 	     icons\iu_update_obj.gif
@@ -20,7 +19,7 @@
 	     OSGI-INF\l10n\bundle.properties
 	     OSGI-INF\services\marketplace-client.xml
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|OSGI-INF/l10n/|OSGI-INF/services/|about.html|about.ini|icons/|intro/|intro/css/|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.epp.mpc.ui.jar" path="org.eclipse.epp.mpc.ui"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/l10n/*|OSGI-INF/services/*|about.html|about.ini|icons/*|intro/*|intro/css/*|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.epp.mpc.ui.jar" path="org.eclipse.epp.mpc.ui"/>
 	<!-- org\eclipse\epp\internal\mpc\ui\actions\messages.properties
 	     org\eclipse\epp\internal\mpc\ui\actions\WelcomeIntroAction.java
 	     org\eclipse\epp\internal\mpc\ui\CatalogRegistry.java

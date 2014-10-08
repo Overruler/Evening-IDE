@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\updatechecker.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.updatechecker.jar" path="org.eclipse.equinox.p2.updatechecker"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.updatechecker.jar" path="org.eclipse.equinox.p2.updatechecker"/>
 	<!-- org\eclipse\equinox\internal\p2\updatechecker\UpdateChecker.java
 	     org\eclipse\equinox\internal\p2\updatechecker\UpdateCheckerComponent.java
 	     org\eclipse\equinox\internal\provisional\p2\updatechecker\IUpdateChecker.java

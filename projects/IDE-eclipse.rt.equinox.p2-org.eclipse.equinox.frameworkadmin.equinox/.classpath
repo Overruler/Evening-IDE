@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\fwadmin.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.frameworkadmin.equinox.jar" path="org.eclipse.equinox.frameworkadmin.equinox"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.frameworkadmin.equinox.jar" path="org.eclipse.equinox.frameworkadmin.equinox"/>
 	<!-- org\eclipse\equinox\internal\frameworkadmin\equinox\EclipseLauncherImpl.java
 	     org\eclipse\equinox\internal\frameworkadmin\equinox\EclipseLauncherParser.java
 	     org\eclipse\equinox\internal\frameworkadmin\equinox\EquinoxBundlesState.java

@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.launching.jar" path="org.eclipse.pde.launching"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.launching.jar" path="org.eclipse.pde.launching"/>
 	<!-- org\eclipse\pde\internal\launching\ILaunchingPreferenceConstants.java
 	     org\eclipse\pde\internal\launching\IPDEConstants.java
 	     org\eclipse\pde\internal\launching\launcher\BundleLauncherHelper.java

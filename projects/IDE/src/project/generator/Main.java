@@ -282,6 +282,32 @@ public class Main {
 				return required.add("org.apache.ant");
 			case "org.eclipse.core.runtime.compatibility.registry":
 				return required.addAll("org.eclipse.core.runtime", "org.eclipse.osgi");
+			case "org.eclipse.e4.ui.model.workbench":
+				return required.add("org.eclipse.emf.common");
+			case "org.eclipse.e4.ui.workbench":
+				return required.addAll("org.eclipse.emf.ecore", "org.eclipse.emf.common");
+			case "org.eclipse.e4.ui.workbench.addons.swt":
+				return required.addAll("org.eclipse.emf.ecore", "org.eclipse.emf.common");
+			case "org.eclipse.e4.ui.workbench.renderers.swt":
+				return required.add("org.eclipse.emf.common");
+			case "org.eclipse.e4.ui.workbench.renderers.swt.cocoa":
+				return required.addAll(
+					"javax.inject",
+					"org.eclipse.core.commands",
+					"org.eclipse.e4.core.commands",
+					"org.eclipse.e4.core.contexts",
+					"org.eclipse.e4.core.di",
+					"org.eclipse.e4.core.services",
+					"org.eclipse.e4.ui.bindings",
+					"org.eclipse.e4.ui.model.workbench",
+					"org.eclipse.e4.ui.services",
+					"org.eclipse.e4.ui.workbench",
+					"org.eclipse.equinox.common",
+					"org.eclipse.osgi",
+					"org.eclipse.osgi.services",
+					"org.eclipse.swt.cocoa.macosx.x86_64");
+			case "org.eclipse.e4.ui.workbench.swt":
+				return required.addAll("org.eclipse.emf.ecore", "org.eclipse.emf.common");
 			case "org.eclipse.ecf.provider.filetransfer.httpclient4.ssl":
 				return required.addAll("org.eclipse.ecf.filetransfer", "org.eclipse.osgi");
 			case "org.eclipse.ecf.provider.filetransfer.ssl":
@@ -303,18 +329,9 @@ public class Main {
 				return required.add("org.apache.ant");
 			case "org.eclipse.equinox.p2.repository.tools":
 				return required.addAll("org.apache.ant", "org.eclipse.equinox.p2.jarprocessor");
+			case "org.eclipse.equinox.security.macosx":
 			case "org.eclipse.equinox.security.win32.x86_64":
 				return required.add("org.eclipse.osgi");
-			case "org.eclipse.e4.ui.model.workbench":
-				return required.add("org.eclipse.emf.common");
-			case "org.eclipse.e4.ui.workbench":
-				return required.addAll("org.eclipse.emf.ecore", "org.eclipse.emf.common");
-			case "org.eclipse.e4.ui.workbench.addons.swt":
-				return required.addAll("org.eclipse.emf.ecore", "org.eclipse.emf.common");
-			case "org.eclipse.e4.ui.workbench.renderers.swt":
-				return required.add("org.eclipse.emf.common");
-			case "org.eclipse.e4.ui.workbench.swt":
-				return required.addAll("org.eclipse.emf.ecore", "org.eclipse.emf.common");
 			case "org.eclipse.help.base":
 				return required.add("org.apache.ant");
 			case "org.eclipse.jetty.continuation":
@@ -356,6 +373,8 @@ public class Main {
 					"org.eclipse.jface",
 					"org.eclipse.swt",
 					"org.eclipse.ui.workbench");
+			case "org.eclipse.ui.cocoa":
+				return required.addAll("org.eclipse.swt.cocoa.macosx.x86_64");
 			case "org.apache.jasper.glassfish":
 				return required.addAll(
 					"org.apache.ant",
@@ -382,13 +401,17 @@ public class Main {
 			return "";
 		}
 		ArrayList<String> included = used.toArrayList().replaceAll(s -> s.replace('#', '?')).sort();
+		if(included.contains("org/apache/batik/")) {
+			included.remove("org/apache/batik/");
+			included.add("org/apache/batik/Version.java");
+		}
 		return " including=\"" + String.join("|", included) + "\"";
 	}
 	private static Set<String> gatherInclusionsFromFileList(List<Path> coveredFiles) {
 		HashSet<String> included =
 			coveredFiles.filter(p -> p.getNameCount() == 1).map(p -> p.getFileName().toString()).toHashSet();
 		included.addAll(coveredFiles.filter(p -> p.getNameCount() > 1).map(
-			p -> toUnixPath(p.subpath(0, p.getNameCount() - 1)) + "/").toSet());
+			p -> toUnixPath(p.subpath(0, p.getNameCount() - 1)) + "/*").toSet());
 		return included.toSet();
 	}
 	private static String collectExclusions(
@@ -494,6 +517,8 @@ public class Main {
 			case "org.eclipse.jdt.ui":
 				return excluded.addAll(".*", ".*/", "jar in jar loader/");
 			case "org.eclipse.swt.win32.win32.x86_64":
+			case "org.eclipse.swt.cocoa.macosx.x86_64":
+			case "org.eclipse.swt.gtk.linux.x86_64":
 				return excluded.addAll(".*");
 			case "org.eclipse.pde.ui.templates":
 				return excluded.addAll(
@@ -610,15 +635,28 @@ public class Main {
 					Paths.get("org.apache.batik.css.jar/org/apache/batik/css/engine/value/svg12/AbstractCIEColor.java")).toList();
 			case "org.apache.httpcomponents.httpclient":
 				return list.addAll(
+					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/client/config/CookieSpecs.java"),
+					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/conn/socket/ConnectionSocketFactory.java"),
 					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/impl/execchain/BackoffStrategyExec.java"),
 					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/osgi/impl/OSGiClientBuilderFactory.java"),
 					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/osgi/services/HttpClientBuilderFactory.java")).toList();
+			case "org.apache.httpcomponents.httpcore":
+				return list.addAll(
+					Paths.get("org.apache.httpcomponents.httpcore.jar/org/apache/http/config/Registry.java")).toList();
+			case "org.apache.jasper.glassfish":
+				return list.remove(
+					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.java")).remove(
+					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/parser/readableNames.properties")).addAll(
+					Paths.get("org.apache.jasper.glassfish.jar/org/apache/jasper/util/SystemLogHandler.java"),
+					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/parser/readableNames.props")).toList();
 			case "org.eclipse.jdt.doc.isv":
 				return list.removeIf(
 					p -> p.startsWith("org.eclipse.jdt.doc.isv.jar/index") ||
 					p.startsWith("org.eclipse.jdt.doc.isv.jar/reference")).toList();
 			case "org.eclipse.jdt.doc.user":
 				return list.removeIf(p -> p.startsWith("org.eclipse.jdt.doc.user.jar/index")).toList();
+			case "org.eclipse.help.webapp":
+				return list.removeIf(p -> p.getFileName().toString().endsWith("_jsp.java")).toList();
 			case "org.eclipse.pde.doc.user":
 				return list.removeIf(
 					p -> p.startsWith("org.eclipse.pde.doc.user.jar/index") ||
@@ -639,6 +677,13 @@ public class Main {
 					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/WebKit.java"),
 					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/Website.java"),
 					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/MozillaDelegate.java")).toList();
+			case "org.sat4j.core":
+				return list.remove(Paths.get("org.sat4j.core.jar/org/sat4j/minisat/core/Constr.java")).remove(
+					Paths.get("org.sat4j.core.jar/org/sat4j/minisat/core/Propagatable.java")).remove(
+					Paths.get("org.sat4j.core.jar/org/sat4j/MoreThanSAT.java")).toList();
+			case "org.sat4j.pb":
+				return list.remove(Paths.get("org.sat4j.pb.jar/org/sat4j/pb/PseudoBitsAdderDecorator.java")).addAll(
+					Paths.get("org.sat4j.pb.jar/org/sat4j/pb/multiobjective/IMultiObjOptimizationProblem.java")).toList();
 			default:
 				return list.toList();
 		}
@@ -684,6 +729,10 @@ public class Main {
 				return list.remove(Paths.get("org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/BitmapIndexImpl.java"));
 			case "org.eclipse.swt.win32.win32.x86_64":
 				return list.removeIf(Main::notForWindows);
+			case "org.eclipse.swt.cocoa.macosx.x86_64":
+				return list.removeIf(Main::notForMacOSX);
+			case "org.eclipse.swt.gtk.linux.x86_64":
+				return list.removeIf(Main::notForLinux);
 			case "org.junit":
 				return list.filter(p -> p.startsWith("org.junit/junitsrc"));
 			case "com.jcraft.jsch":
@@ -735,7 +784,52 @@ public class Main {
 				case "gtk":
 				case "motif":
 				case "photon":
+				case "wpf":
 					return true;
+			}
+		}
+		return false;
+	}
+	private static boolean notForMacOSX(Path p) {
+		for(Path path : p) {
+			switch(path.toString()) {
+				case "cairo":
+				case "carbon":
+				case "common_j2me":
+				case "gtk":
+				case "motif":
+				case "photon":
+				case "win32":
+				case "wpf":
+					return true;
+			}
+		}
+		return false;
+	}
+	private static boolean notForLinux(Path p) {
+		boolean afterEmulated = false;
+		for(Path path : p) {
+			switch(path.toString()) {
+				case "carbon":
+				case "cocoa":
+				case "common_j2me":
+				case "motif":
+				case "photon":
+				case "win32":
+				case "wpf":
+					return true;
+				case "emulated":
+					afterEmulated = true;
+					break;
+				case "org":
+				case "bidi":
+				case "coolbar":
+				case "taskbar":
+					if(afterEmulated) {
+						return path.toString().equals("org");
+					}
+				default:
+					afterEmulated = false;
 			}
 		}
 		return false;
@@ -744,7 +838,7 @@ public class Main {
 		String file = p.getFileName().toString();
 		if(file.endsWith(".class")) {
 			return p.resolveSibling(file.substring(0, file.length() - 6) + ".java");
-		} else if(file.endsWith(".dll")) {
+		} else if(file.endsWith(".dll") || file.endsWith(".so") || file.endsWith(".jnilib")) {
 			return p.resolveSibling(file.replaceAll("[0-9]", "#"));
 		}
 		return p;
@@ -869,6 +963,8 @@ public class Main {
 			case "org.apache.jasper.glassfish":
 				return libraries.add(Paths.get("libraries/eclipse.jdt.core"));
 			case "org.eclipse.swt.win32.win32.x86_64":
+			case "org.eclipse.swt.cocoa.macosx.x86_64":
+			case "org.eclipse.swt.gtk.linux.x86_64":
 				return libraries.add(Paths.get("libraries/eclipse.platform.swt/bundles/org.eclipse.swt"));
 			case "org.apache.felix.gogo.command":
 				return libraries.add(Paths.get("libraries/eclipse.rt.equinox.framework/bundles/org.eclipse.osgi.services"));

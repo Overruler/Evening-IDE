@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>IDE-eclipse.platform.swt.binaries-org.eclipse.swt.cocoa.macosx.x86_64</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>org.eclipse.swt.cocoa.macosx.x86_64</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/eclipse.platform.swt.binaries/bundles/org.eclipse.swt.cocoa.macosx.x86_64</locationURI>
+		</link>
+		<link>
+			<name>org.eclipse.swt</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/eclipse.platform.swt/bundles/org.eclipse.swt</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

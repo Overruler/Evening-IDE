@@ -16,7 +16,7 @@
 	     icons\full\title_banner.png
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jface.jar" path="org.eclipse.jface"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jface.jar" path="org.eclipse.jface"/>
 	<!-- org\eclipse\jface\action\AbstractAction.java
 	     org\eclipse\jface\action\AbstractGroupMarker.java
 	     org\eclipse\jface\action\Action.java

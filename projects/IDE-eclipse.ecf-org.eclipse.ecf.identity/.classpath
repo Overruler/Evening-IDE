@@ -5,7 +5,7 @@
 	     plugin.properties
 	     plugin.xml
 	     schema\namespace.exsd -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.ecf.identity.jar" path="org.eclipse.ecf.identity"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.ecf.identity.jar" path="org.eclipse.ecf.identity"/>
 	<!-- org\eclipse\ecf\core\identity\BaseID.java
 	     org\eclipse\ecf\core\identity\GUID.java
 	     org\eclipse\ecf\core\identity\ID.java

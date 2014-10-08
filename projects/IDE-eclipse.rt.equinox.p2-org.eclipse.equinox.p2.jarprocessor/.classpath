@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.jarprocessor.jar" path="org.eclipse.equinox.p2.jarprocessor"/>
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.jarprocessor.jar" path="org.eclipse.equinox.p2.jarprocessor"/>
 	<!-- org\eclipse\equinox\internal\p2\jarprocessor\CommandStep.java
 	     org\eclipse\equinox\internal\p2\jarprocessor\Main.java
 	     org\eclipse\equinox\internal\p2\jarprocessor\pack-readme.html

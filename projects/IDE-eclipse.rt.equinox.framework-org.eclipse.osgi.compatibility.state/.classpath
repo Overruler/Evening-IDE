@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\l10n\bundle.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/l10n/|about.html" kind="src" output="bin/1/plugins/org.eclipse.osgi.compatibility.state.jar" path="org.eclipse.osgi.compatibility.state"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html" kind="src" output="bin/1/plugins/org.eclipse.osgi.compatibility.state.jar" path="org.eclipse.osgi.compatibility.state"/>
 	<!-- org\eclipse\osgi\compatibility\state\Activator.java
 	     org\eclipse\osgi\compatibility\state\PlatformAdminImpl.java
 	     org\eclipse\osgi\compatibility\state\ReadOnlyState.java

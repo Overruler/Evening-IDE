@@ -46,7 +46,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding=".*|.*/" including="META-INF/|about.html|about.ini|about.mappings|about.properties|cheatsheets/|cheatsheets/helloworld/|cheatsheets/rcpapp/|eclipse32.png|images/topiclabel/|intro/|intro/css/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.jar" path="org.eclipse.pde"/>
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|about.ini|about.mappings|about.properties|cheatsheets/*|cheatsheets/helloworld/*|cheatsheets/rcpapp/*|eclipse32.png|images/topiclabel/*|intro/*|intro/css/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.jar" path="org.eclipse.pde"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>

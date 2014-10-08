@@ -7,7 +7,7 @@
 	     schema\browseFileTransferProtocolFactory.exsd
 	     schema\retrieveFileTransferProtocolFactory.exsd
 	     schema\sendFileTransferProtocolFactory.exsd -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.jar" path="org.eclipse.ecf.provider.filetransfer"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.jar" path="org.eclipse.ecf.provider.filetransfer"/>
 	<!-- org\eclipse\ecf\internal\provider\filetransfer\Activator.java
 	     org\eclipse\ecf\internal\provider\filetransfer\DebugOptions.java
 	     org\eclipse\ecf\internal\provider\filetransfer\IURLConnectionModifier.java

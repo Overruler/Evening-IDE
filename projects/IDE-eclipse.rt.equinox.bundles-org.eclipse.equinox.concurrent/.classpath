@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.concurrent.jar" path="org.eclipse.equinox.concurrent"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.concurrent.jar" path="org.eclipse.equinox.concurrent"/>
 	<!-- org\eclipse\equinox\concurrent\future\AbstractExecutor.java
 	     org\eclipse\equinox\concurrent\future\AbstractFuture.java
 	     org\eclipse\equinox\concurrent\future\AbstractListenableFuture.java

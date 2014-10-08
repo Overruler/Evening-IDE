@@ -22,13 +22,12 @@ import utils.streams2.Stream;
 import utils.streams2.Streams;
 
 class ComparisonSummaryGenerator {
-	static final Path IDE_FOLDER = Paths.get(System.getProperty("user.home", ""), "evening");
+	private static final Path USER_HOME_FOLDER = Paths.get(System.getProperty("user.home", ""));
+	private static final Path WORKING_FOLDER = Paths.get("").toAbsolutePath();
 
 	public static void main(String[] args) throws IOException {
-		Path version1 = IDE_FOLDER;
-		Path version2 = Paths.get("").toAbsolutePath().resolve("target/ide-1");
-		version1 = Paths.get("").toAbsolutePath().resolve("target/ide-1");
-		version2 = Paths.get("").toAbsolutePath().resolve("target/ide1");
+		Path version1 = chooseNewer(USER_HOME_FOLDER, "eclipse", "evening", 1);
+		Path version2 = chooseNewer(WORKING_FOLDER, "target/ide-1", "target/ide-2", 2);
 		Map<Path, Pair<byte[], Instant>> official =
 			readContents("--- Summary report of different files between two versions, by type of file", version1);
 		Map<Path, Pair<byte[], Instant>> current =
@@ -39,6 +38,29 @@ class ComparisonSummaryGenerator {
 		diffs = printReport("Full Report (ignoring only snapshot version differences)", official, current, 3);
 		if(diffs > 0) return;
 		printFullReport("Exhaustive Report (not ignoring any differences)", official, current);
+	}
+	private static Path chooseNewer(Path folder, String path1, String path2, int version) throws IOException {
+		Path version1 = folder.resolve(path1);
+		Path version2 = folder.resolve(path2);
+		boolean found1 = Files.isDirectory(version1);
+		boolean found2 = Files.isDirectory(version2);
+		if(found1 || found2) {
+			Instant modified1 = Files.getLastModifiedTime(version1).toInstant();
+			Instant modified2 = Files.getLastModifiedTime(version2).toInstant();
+			return modified1.isAfter(modified2) ? version1 : version2;
+		} else if(found1) {
+			return version1;
+		} else if(found2) {
+			return version2;
+		} else {
+			System.out.printf(
+				"Version %d for comparison doesn't exist.%nLooked in: %s%nAnd in: %s%n",
+				version,
+				version1,
+				version2);
+			System.exit(-1);
+			throw new AssertionError();
+		}
 	}
 	private static int printFullReport(
 		String info,
@@ -105,11 +127,16 @@ class ComparisonSummaryGenerator {
 		info(info, i++, n);
 		Map<Path, Pair<byte[], Instant>> currentContents = adjustVersions(current, versionIgnoreIndex);
 		info(info, i++, n);
-		officialContents.entrySet().removeIf(e -> e.lhs.toString().contains(".source_"));
+		officialContents =
+			officialContents.entrySet().removeIf(e -> e.lhs.toString().contains(".source_")).stream().toMap(
+				Pair::lhs,
+				Pair::rhs).toMap();
 		info(info, i++, n);
-		officialContents.entrySet().removeIf(e -> e.lhs.startsWith("features"));
+		officialContents =
+			officialContents.entrySet().removeIf(e -> e.lhs.startsWith("features")).stream().toMap(Pair::lhs, Pair::rhs).toMap();
 		info(info, i++, n);
-		currentContents.entrySet().removeIf(e -> e.lhs.startsWith("features"));
+		currentContents =
+			currentContents.entrySet().removeIf(e -> e.lhs.startsWith("features")).stream().toMap(Pair::lhs, Pair::rhs).toMap();
 		info(info, i++, n);
 		Set<Pair<String, Path>> officialFiles = groupedByFileExt(officialContents);
 		info(info, i++, n);
@@ -196,7 +223,7 @@ class ComparisonSummaryGenerator {
 			}
 		}
 		Map<Path, Path> adjusted = adjustments.toMap();
-		return target.entrySet().replaceAll(e -> adjust(adjusted, e)).stream().toMap(Pair::lhs,Pair::rhs).toMap();
+		return target.entrySet().replaceAll(e -> adjust(adjusted, e)).stream().toMap(Pair::lhs, Pair::rhs).toMap();
 	}
 	private static <V> Pair<Path, V> adjust(Map<Path, Path> adjustments, Pair<Path, V> e) {
 		for(int i = e.lhs.getNameCount() - 1; i > 0; i--) {

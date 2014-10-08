@@ -7,7 +7,7 @@
 	     OSGI-INF\ColorAndFontProvider.xml
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="Eclipse UI/|Eclipse UI Editor Support/|.*|.*/" including=".options|LegacyIDE.e4xmi|META-INF/|OSGI-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.workbench.jar" path="org.eclipse.ui.workbench"/>
+	<classpathentry excluding="Eclipse UI/|Eclipse UI Editor Support/|.*|.*/" including=".options|LegacyIDE.e4xmi|META-INF/*|OSGI-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.workbench.jar" path="org.eclipse.ui.workbench"/>
 	<!-- org\eclipse\e4\ui\workbench\addons\perspectiveswitcher\PerspectiveSwitcher.java
 	     org\eclipse\e4\ui\workbench\addons\perspectiveswitcher\PerspectiveSwitcherCSSHandler.java
 	     org\eclipse\ui\about\IInstallationPageContainer.java

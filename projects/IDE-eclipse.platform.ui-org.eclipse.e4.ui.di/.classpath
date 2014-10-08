@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\eventsui.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.di.jar" path="org.eclipse.e4.ui.di"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.di.jar" path="org.eclipse.e4.ui.di"/>
 	<!-- org\eclipse\e4\ui\di\AboutToHide.java
 	     org\eclipse\e4\ui\di\AboutToShow.java
 	     org\eclipse\e4\ui\di\Focus.java

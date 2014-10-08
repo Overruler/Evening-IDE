@@ -5,7 +5,7 @@
 	     plugin.properties
 	     plugin.xml
 	     schema\urlStreamHandlerService.exsd -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.ecf.filetransfer.jar" path="org.eclipse.ecf.filetransfer"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.ecf.filetransfer.jar" path="org.eclipse.ecf.filetransfer"/>
 	<!-- org\eclipse\ecf\filetransfer\BrowseFileTransferException.java
 	     org\eclipse\ecf\filetransfer\events\IFileTransferConnectStartEvent.java
 	     org\eclipse\ecf\filetransfer\events\IFileTransferEvent.java

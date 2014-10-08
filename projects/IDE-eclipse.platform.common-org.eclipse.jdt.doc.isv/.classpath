@@ -87,7 +87,7 @@
 	     topics_Porting.xml
 	     topics_Questions.xml
 	     topics_Reference.xml -->
-	<classpathentry excluding=".*|.*/" including="META-INF/|about.html|book.css|cpy.png|guide/|guide/images/|notices.html|plugin.properties|plugin.xml|pom.xml|porting/|porting/3.2/|porting/3.3/|porting/3.4/|porting/3.5/|porting/3.6/|porting/3.7/|porting/3.8/|porting/3.9/|porting/4.4/|questions/|schema.css|toc.xml|topics_Guide.xml|topics_Porting.xml|topics_Questions.xml|topics_Reference.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.doc.isv.jar" path="org.eclipse.jdt.doc.isv"/>
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|book.css|cpy.png|guide/*|guide/images/*|notices.html|plugin.properties|plugin.xml|pom.xml|porting/*|porting/3.2/*|porting/3.3/*|porting/3.4/*|porting/3.5/*|porting/3.6/*|porting/3.7/*|porting/3.8/*|porting/3.9/*|porting/4.4/*|questions/*|schema.css|toc.xml|topics_Guide.xml|topics_Porting.xml|topics_Questions.xml|topics_Reference.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.doc.isv.jar" path="org.eclipse.jdt.doc.isv"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
 	<classpathentry kind="output" path="classes"/>

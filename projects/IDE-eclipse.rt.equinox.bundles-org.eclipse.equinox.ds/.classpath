@@ -7,7 +7,7 @@
 	     META-INF\MANIFEST.MF
 	     META-INF\p2.inf
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|about_files/|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.ds.jar" path="org.eclipse.equinox.ds"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|about_files/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.ds.jar" path="org.eclipse.equinox.ds"/>
 	<!-- org\apache\felix\scr\Component.java
 	     org\apache\felix\scr\Reference.java
 	     org\apache\felix\scr\ScrService.java

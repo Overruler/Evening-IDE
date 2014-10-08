@@ -13,7 +13,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|icons/full/clcl16/|icons/full/elcl16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.navigator.jar" path="org.eclipse.ui.navigator"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|icons/full/clcl16/*|icons/full/elcl16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.navigator.jar" path="org.eclipse.ui.navigator"/>
 	<!-- org\eclipse\ui\internal\navigator\actions\CollapseAllAction.java
 	     org\eclipse\ui\internal\navigator\actions\CommonActionDescriptorManager.java
 	     org\eclipse\ui\internal\navigator\actions\CommonActionProviderDescriptor.java

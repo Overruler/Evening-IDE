@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.apt.pluggable.core.jar" path="org.eclipse.jdt.apt.pluggable.core"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.apt.pluggable.core.jar" path="org.eclipse.jdt.apt.pluggable.core"/>
 	<!-- org\eclipse\jdt\internal\apt\pluggable\core\Apt6CompilationParticipant.java
 	     org\eclipse\jdt\internal\apt\pluggable\core\Apt6Plugin.java
 	     org\eclipse\jdt\internal\apt\pluggable\core\dispatch\IdeAnnotationProcessorManager.java

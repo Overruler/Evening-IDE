@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.jsp.jasper.jar" path="org.eclipse.equinox.jsp.jasper"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.jsp.jasper.jar" path="org.eclipse.equinox.jsp.jasper"/>
 	<!-- org\eclipse\equinox\internal\jsp\jasper\Activator.java
 	     org\eclipse\equinox\internal\jsp\jasper\BundleProxyClassLoader.java
 	     org\eclipse\equinox\internal\jsp\jasper\JspClassLoader.java

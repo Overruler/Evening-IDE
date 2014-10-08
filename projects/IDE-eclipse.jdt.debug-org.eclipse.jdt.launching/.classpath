@@ -6,7 +6,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="launching/|support/|.*|.*/|lib/" including=".options|META-INF/|about.html|java.policy.applet|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.launching.jar" path="org.eclipse.jdt.launching"/>
+	<classpathentry excluding="launching/|support/|.*|.*/|lib/" including=".options|META-INF/*|about.html|java.policy.applet|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.launching.jar" path="org.eclipse.jdt.launching"/>
 	<!-- org\eclipse\jdt\internal\launching\AbstractRuntimeClasspathEntry.java
 	     org\eclipse\jdt\internal\launching\ClasspathContainerSourceContainerTypeDelegate.java
 	     org\eclipse\jdt\internal\launching\ClasspathVariableSourceContainerTypeDelegate.java

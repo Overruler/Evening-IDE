@@ -28,7 +28,7 @@
 	     org\objectweb\asm\tree\TypeAnnotationNode.java
 	     org\objectweb\asm\tree\TypeInsnNode.java
 	     org\objectweb\asm\tree\VarInsnNode.java -->
-	<classpathentry including="org/objectweb/asm/tree/" kind="src" output="bin/1/plugins/org.objectweb.asm.tree.jar" path="asm/src"/>
+	<classpathentry including="org/objectweb/asm/tree/*" kind="src" output="bin/1/plugins/org.objectweb.asm.tree.jar" path="asm/src"/>
 	<!-- about.html
 	     about_files\LICENSE.txt
 	     about_files\README.txt

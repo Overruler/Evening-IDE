@@ -411,7 +411,7 @@
 	     templates\default-swttemplates.xml
 	     templates\default-templates.properties
 	     templates\default-templates.xml -->
-	<classpathentry excluding="core extension/|core refactoring/|internal compatibility/|ui/|ui refactoring/|.*|.*/|jar in jar loader/" including=".options|JavadocHoverStyleSheet.css|JavadocViewStyleSheet.css|META-INF/|about.html|about_files/|css/|dictionaries/|icons/full/dlcl16/|icons/full/dtool16/|icons/full/elcl16/|icons/full/etool16/|icons/full/eview16/|icons/full/obj16/|icons/full/ovr16/|icons/full/wizban/|jar-in-jar-loader.zip|plugin.properties|plugin.xml|templates/" kind="src" output="bin/1/plugins/org.eclipse.jdt.ui.jar" path="org.eclipse.jdt.ui"/>
+	<classpathentry excluding="core extension/|core refactoring/|internal compatibility/|ui/|ui refactoring/|.*|.*/|jar in jar loader/" including=".options|JavadocHoverStyleSheet.css|JavadocViewStyleSheet.css|META-INF/*|about.html|about_files/*|css/*|dictionaries/*|icons/full/dlcl16/*|icons/full/dtool16/*|icons/full/elcl16/*|icons/full/etool16/*|icons/full/eview16/*|icons/full/obj16/*|icons/full/ovr16/*|icons/full/wizban/*|jar-in-jar-loader.zip|plugin.properties|plugin.xml|templates/*" kind="src" output="bin/1/plugins/org.eclipse.jdt.ui.jar" path="org.eclipse.jdt.ui"/>
 	<!-- org\eclipse\jdt\internal\corext\buildpath\BuildpathDelta.java
 	     org\eclipse\jdt\internal\corext\buildpath\ClasspathModifier.java
 	     org\eclipse\jdt\internal\corext\buildpath\CPJavaProject.java

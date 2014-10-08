@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.http.servlet.jar" path="org.eclipse.equinox.http.servlet"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.http.servlet.jar" path="org.eclipse.equinox.http.servlet"/>
 	<!-- org\eclipse\equinox\http\servlet\ExtendedHttpService.java
 	     org\eclipse\equinox\http\servlet\HttpServiceServlet.java
 	     org\eclipse\equinox\http\servlet\internal\Activator.java

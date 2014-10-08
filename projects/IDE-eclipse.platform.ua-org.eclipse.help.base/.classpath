@@ -20,7 +20,7 @@
 	     plugin.properties
 	     plugin.xml
 	     preferences.ini -->
-	<classpathentry excluding="src/|src_ant/|src_demo/|.*|.*/" including="META-INF/|about.html|about.ini|about.mappings|about.properties|doc/|eclipse32.png|plugin.properties|plugin.xml|preferences.ini" kind="src" output="bin/1/plugins/org.eclipse.help.base.jar" path="org.eclipse.help.base"/>
+	<classpathentry excluding="src/|src_ant/|src_demo/|.*|.*/" including="META-INF/*|about.html|about.ini|about.mappings|about.properties|doc/*|eclipse32.png|plugin.properties|plugin.xml|preferences.ini" kind="src" output="bin/1/plugins/org.eclipse.help.base.jar" path="org.eclipse.help.base"/>
 	<!-- org\eclipse\help\base\AbstractHelpDisplay.java
 	     org\eclipse\help\base\AbstractHelpScope.java
 	     org\eclipse\help\base\IHelpScopeProducer.java
@@ -172,7 +172,7 @@
 	     org\eclipse\help\standalone\Infocenter.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.help.base.jar" path="org.eclipse.help.base/src"/>
 	<!-- org\eclipse\help\internal\base\ant\BuildHelpIndex.java -->
-	<classpathentry including="org/eclipse/help/internal/base/ant/" kind="src" output="bin/2/plugins/org.eclipse.help.base.jar/ant_tasks/helpbase-ant.jar" path="org.eclipse.help.base/src_ant"/>
+	<classpathentry including="org/eclipse/help/internal/base/ant/*" kind="src" output="bin/2/plugins/org.eclipse.help.base.jar/ant_tasks/helpbase-ant.jar" path="org.eclipse.help.base/src_ant"/>
 	<!-- org\apache\lucene\demo\html\Entities.java
 	     org\apache\lucene\demo\html\HTMLParser.java
 	     org\apache\lucene\demo\html\HTMLParser.jj

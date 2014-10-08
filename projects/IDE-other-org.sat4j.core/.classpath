@@ -2,12 +2,7 @@
 <classpath>
 	<!-- META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/main/java/|.*|.*/|src/test/" including="META-INF/|plugin.properties" kind="src" output="bin/1/plugins/org.sat4j.core.jar" path="org.sat4j.core"/>
-	<!-- minisat\core\Constr.java
-	     minisat\core\Propagatable.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.sat4j.core.jar/org/sat4j" path="org.sat4j.core.jar/org/sat4j/x-miss-x"/> -->
-	<!-- org\sat4j\MoreThanSAT.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.sat4j.core.jar" path="org.sat4j.core.jar/x-miss-x"/> -->
+	<classpathentry excluding="src/main/java/|.*|.*/|src/test/" including="META-INF/*|plugin.properties" kind="src" output="bin/1/plugins/org.sat4j.core.jar" path="org.sat4j.core"/>
 	<!-- org\sat4j\AbstractLauncher.java
 	     org\sat4j\AbstractOptimizationLauncher.java
 	     org\sat4j\BasicLauncher.java
@@ -199,7 +194,7 @@
 	     org\sat4j\tools\xplain\QuickXplain2001Strategy.java
 	     org\sat4j\tools\xplain\QuickXplainStrategy.java
 	     org\sat4j\tools\xplain\Xplain.java -->
-	<classpathentry excluding="overview.html" including="org/sat4j/|org/sat4j/core/|org/sat4j/minisat/|org/sat4j/minisat/constraints/|org/sat4j/minisat/constraints/card/|org/sat4j/minisat/constraints/cnf/|org/sat4j/minisat/core/|org/sat4j/minisat/learning/|org/sat4j/minisat/orders/|org/sat4j/minisat/restarts/|org/sat4j/opt/|org/sat4j/reader/|org/sat4j/specs/|org/sat4j/tools/|org/sat4j/tools/encoding/|org/sat4j/tools/xplain/" kind="src" output="bin/1/plugins/org.sat4j.core.jar" path="org.sat4j.core/src/main/java"/>
+	<classpathentry excluding="overview.html" including="org/sat4j/*|org/sat4j/core/*|org/sat4j/minisat/*|org/sat4j/minisat/constraints/*|org/sat4j/minisat/constraints/card/*|org/sat4j/minisat/constraints/cnf/*|org/sat4j/minisat/core/*|org/sat4j/minisat/learning/*|org/sat4j/minisat/orders/*|org/sat4j/minisat/restarts/*|org/sat4j/opt/*|org/sat4j/reader/*|org/sat4j/specs/*|org/sat4j/tools/*|org/sat4j/tools/encoding/*|org/sat4j/tools/xplain/*" kind="src" output="bin/1/plugins/org.sat4j.core.jar" path="org.sat4j.core/src/main/java"/>
 	<!-- about.html
 	     overview.html
 	     sat4j.version -->

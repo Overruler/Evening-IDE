@@ -17,7 +17,7 @@
 	     org\objectweb\asm\Type.java
 	     org\objectweb\asm\TypePath.java
 	     org\objectweb\asm\TypeReference.java -->
-	<classpathentry including="org/objectweb/asm/|org/objectweb/asm/signature/" kind="src" output="bin/1/plugins/org.objectweb.asm.jar" path="asm/src"/>
+	<classpathentry including="org/objectweb/asm/*|org/objectweb/asm/signature/*" kind="src" output="bin/1/plugins/org.objectweb.asm.jar" path="asm/src"/>
 	<!-- about.html
 	     about_files\LICENSE.txt
 	     about_files\README.txt

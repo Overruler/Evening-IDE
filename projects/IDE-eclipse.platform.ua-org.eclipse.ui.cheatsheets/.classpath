@@ -50,7 +50,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/dlcl16/|icons/elcl16/|icons/obj16/|icons/ovr16/|icons/view16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.cheatsheets.jar" path="org.eclipse.ui.cheatsheets"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/dlcl16/*|icons/elcl16/*|icons/obj16/*|icons/ovr16/*|icons/view16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.cheatsheets.jar" path="org.eclipse.ui.cheatsheets"/>
 	<!-- org\eclipse\ui\cheatsheets\AbstractItemExtensionElement.java
 	     org\eclipse\ui\cheatsheets\CheatSheetExtensionFactory.java
 	     org\eclipse\ui\cheatsheets\CheatSheetListener.java

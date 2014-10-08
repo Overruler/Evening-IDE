@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="Bootstrap.product|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.reconciler.dropins.jar" path="org.eclipse.equinox.p2.reconciler.dropins"/>
+	<classpathentry excluding="src/|.*|.*/" including="Bootstrap.product|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.reconciler.dropins.jar" path="org.eclipse.equinox.p2.reconciler.dropins"/>
 	<!-- org\eclipse\equinox\internal\p2\reconciler\dropins\Activator.java
 	     org\eclipse\equinox\internal\p2\reconciler\dropins\Application.java
 	     org\eclipse\equinox\internal\p2\reconciler\dropins\DropinsRepositoryListener.java

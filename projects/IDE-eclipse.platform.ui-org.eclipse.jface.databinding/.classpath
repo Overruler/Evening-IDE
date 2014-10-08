@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jface.databinding.jar" path="org.eclipse.jface.databinding"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jface.databinding.jar" path="org.eclipse.jface.databinding"/>
 	<!-- org\eclipse\jface\databinding\dialog\DialogPageSupport.java
 	     org\eclipse\jface\databinding\dialog\IValidationMessageProvider.java
 	     org\eclipse\jface\databinding\dialog\TitleAreaDialogSupport.java

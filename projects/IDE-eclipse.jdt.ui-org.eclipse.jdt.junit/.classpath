@@ -82,7 +82,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="internal compatibility/|src/|.*|.*/" including="META-INF/|about.html|icons/full/dlcl16/|icons/full/dtool16/|icons/full/elcl16/|icons/full/etool16/|icons/full/eview16/|icons/full/obj16/|icons/full/ovr16/|icons/full/prgss/|icons/full/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.jar" path="org.eclipse.jdt.junit"/>
+	<classpathentry excluding="internal compatibility/|src/|.*|.*/" including="META-INF/*|about.html|icons/full/dlcl16/*|icons/full/dtool16/*|icons/full/elcl16/*|icons/full/etool16/*|icons/full/eview16/*|icons/full/obj16/*|icons/full/ovr16/*|icons/full/prgss/*|icons/full/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.jar" path="org.eclipse.jdt.junit"/>
 	<!-- org\eclipse\jdt\internal\junit\launcher\TestSelectionDialog.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.jar" path="org.eclipse.jdt.junit/internal compatibility"/>
 	<!-- org\eclipse\jdt\internal\junit\buildpath\ClasspathVariableMarkerResolutionGenerator.java

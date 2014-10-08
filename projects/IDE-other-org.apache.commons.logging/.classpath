@@ -16,7 +16,7 @@
 	     org\apache\commons\logging\LogFactory.java
 	     org\apache\commons\logging\LogSource.java
 	     org\apache\commons\logging\package.html -->
-	<classpathentry including="org/apache/commons/logging/|org/apache/commons/logging/impl/" kind="src" output="bin/1/plugins/org.apache.commons.logging.jar" path="apache.commons-logging/src/main/java"/>
+	<classpathentry including="org/apache/commons/logging/*|org/apache/commons/logging/impl/*" kind="src" output="bin/1/plugins/org.apache.commons.logging.jar" path="apache.commons-logging/src/main/java"/>
 	<!-- about.html
 	     about_files\LICENSE.txt
 	     about_files\NOTICE.txt

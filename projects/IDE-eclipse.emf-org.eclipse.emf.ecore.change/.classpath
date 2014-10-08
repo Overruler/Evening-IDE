@@ -6,7 +6,7 @@
 	     model\Change.genmodel
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|model/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.change.jar" path="org.eclipse.emf.ecore.change"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|model/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.change.jar" path="org.eclipse.emf.ecore.change"/>
 	<!-- org\eclipse\emf\ecore\change\ChangeDescription.java
 	     org\eclipse\emf\ecore\change\ChangeFactory.java
 	     org\eclipse\emf\ecore\change\ChangeKind.java
@@ -32,7 +32,7 @@
 	     org\eclipse\emf\ecore\change\util\ChangeSwitch.java
 	     org\eclipse\emf\ecore\change\util\ListDifferenceAnalyzer.java
 	     org\eclipse\emf\ecore\change\util\package.html -->
-	<classpathentry including="org/eclipse/emf/ecore/change/|org/eclipse/emf/ecore/change/impl/|org/eclipse/emf/ecore/change/util/" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.change.jar" path="org.eclipse.emf.ecore.change/src"/>
+	<classpathentry including="org/eclipse/emf/ecore/change/*|org/eclipse/emf/ecore/change/impl/*|org/eclipse/emf/ecore/change/util/*" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.change.jar" path="org.eclipse.emf.ecore.change/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
 	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>

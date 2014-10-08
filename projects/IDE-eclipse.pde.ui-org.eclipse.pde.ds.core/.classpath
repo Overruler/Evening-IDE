@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.ds.core.jar" path="org.eclipse.pde.ds.core"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.ds.core.jar" path="org.eclipse.pde.ds.core"/>
 	<!-- org\eclipse\pde\internal\ds\core\Activator.java
 	     org\eclipse\pde\internal\ds\core\builders\DefaultSAXParser.java
 	     org\eclipse\pde\internal\ds\core\builders\DSBuilder.java

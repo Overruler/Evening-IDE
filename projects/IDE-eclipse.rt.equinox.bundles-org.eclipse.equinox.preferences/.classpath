@@ -6,7 +6,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|about_files/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.preferences.jar" path="org.eclipse.equinox.preferences"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|about_files/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.preferences.jar" path="org.eclipse.equinox.preferences"/>
 	<!-- org\eclipse\core\internal\preferences\AbstractScope.java
 	     org\eclipse\core\internal\preferences\Activator.java
 	     org\eclipse\core\internal\preferences\Base64.java

@@ -381,7 +381,7 @@
 	     org\apache\lucene\util\UnicodeUtil.java
 	     org\apache\lucene\util\Version.java
 	     org\apache\lucene\util\VirtualMethod.java -->
-	<classpathentry including="org/apache/lucene/|org/apache/lucene/analysis/|org/apache/lucene/analysis/standard/|org/apache/lucene/analysis/standard/std31/|org/apache/lucene/analysis/tokenattributes/|org/apache/lucene/collation/|org/apache/lucene/document/|org/apache/lucene/index/|org/apache/lucene/messages/|org/apache/lucene/queryParser/|org/apache/lucene/search/|org/apache/lucene/search/function/|org/apache/lucene/search/payloads/|org/apache/lucene/search/spans/|org/apache/lucene/store/|org/apache/lucene/util/|org/apache/lucene/util/fst/|org/apache/lucene/util/packed/" kind="src" output="bin/1/plugins/org.apache.lucene.core.jar" path="lucene/src/java"/>
+	<classpathentry including="org/apache/lucene/*|org/apache/lucene/analysis/*|org/apache/lucene/analysis/standard/*|org/apache/lucene/analysis/standard/std31/*|org/apache/lucene/analysis/tokenattributes/*|org/apache/lucene/collation/*|org/apache/lucene/document/*|org/apache/lucene/index/*|org/apache/lucene/messages/*|org/apache/lucene/queryParser/*|org/apache/lucene/search/*|org/apache/lucene/search/function/*|org/apache/lucene/search/payloads/*|org/apache/lucene/search/spans/*|org/apache/lucene/store/*|org/apache/lucene/util/*|org/apache/lucene/util/fst/*|org/apache/lucene/util/packed/*" kind="src" output="bin/1/plugins/org.apache.lucene.core.jar" path="lucene/src/java"/>
 	<!-- about.html
 	     about_files\LICENSE.txt
 	     about_files\NOTICE.txt

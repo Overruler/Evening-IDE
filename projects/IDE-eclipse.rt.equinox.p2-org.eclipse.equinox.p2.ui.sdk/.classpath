@@ -10,7 +10,7 @@
 	     OSGI-INF\policy_component.xml
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|icons/obj/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.sdk.jar" path="org.eclipse.equinox.p2.ui.sdk"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|icons/obj/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.sdk.jar" path="org.eclipse.equinox.p2.ui.sdk"/>
 	<!-- org\eclipse\equinox\internal\p2\ui\sdk\InstallNewSoftwareHandler.java
 	     org\eclipse\equinox\internal\p2\ui\sdk\IProvSDKHelpContextIds.java
 	     org\eclipse\equinox\internal\p2\ui\sdk\messages.properties

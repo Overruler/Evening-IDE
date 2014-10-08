@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.publisher.eclipse.jar" path="org.eclipse.equinox.p2.publisher.eclipse"/>
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.publisher.eclipse.jar" path="org.eclipse.equinox.p2.publisher.eclipse"/>
 	<!-- org\eclipse\equinox\internal\p2\publisher\compatibility\GeneratorApplication.java
 	     org\eclipse\equinox\internal\p2\publisher\compatibility\IGeneratorConstants.java
 	     org\eclipse\equinox\internal\p2\publisher\eclipse\BrandingIron.java

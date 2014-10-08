@@ -11,7 +11,7 @@
 	     OSGI-INF\testableobject.xml
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|OSGI-INF/|about.html|icons/full/dtool16/|icons/full/etool16/|icons/full/obj16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.swt.jar" path="org.eclipse.e4.ui.workbench.swt"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|OSGI-INF/*|about.html|icons/full/dtool16/*|icons/full/etool16/*|icons/full/obj16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.swt.jar" path="org.eclipse.e4.ui.workbench.swt"/>
 	<!-- org\eclipse\e4\ui\internal\workbench\swt\AbstractPartRenderer.java
 	     org\eclipse\e4\ui\internal\workbench\swt\AnimationEngine.java
 	     org\eclipse\e4\ui\internal\workbench\swt\AnimationFeedbackBase.java

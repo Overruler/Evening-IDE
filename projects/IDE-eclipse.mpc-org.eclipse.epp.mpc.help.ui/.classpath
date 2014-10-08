@@ -17,7 +17,7 @@
 	     OSGI-INF\l10n\bundle.properties
 	     plugin.xml
 	     toc.xml -->
-	<classpathentry excluding=".*|.*/" including="EPP/MPC/User_Guide/|EPP/MPC/User_Guide/images/|META-INF/|OSGI-INF/l10n/|about.html|contextHelp.xml|images/|plugin.xml|toc.xml" kind="src" output="bin/1/plugins/org.eclipse.epp.mpc.help.ui.jar" path="org.eclipse.epp.mpc.help.ui"/>
+	<classpathentry excluding=".*|.*/" including="EPP/MPC/User_Guide/*|EPP/MPC/User_Guide/images/*|META-INF/*|OSGI-INF/l10n/*|about.html|contextHelp.xml|images/*|plugin.xml|toc.xml" kind="src" output="bin/1/plugins/org.eclipse.epp.mpc.help.ui.jar" path="org.eclipse.epp.mpc.help.ui"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
 	<classpathentry kind="output" path="classes"/>

@@ -10,7 +10,7 @@
 	     scripts\api-tasks.properties
 	     scripts\api-tasks.xml
 	     scripts\usescan.xml -->
-	<classpathentry excluding="src/|src_ant/|xslt/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml|report/|scripts/" kind="src" output="bin/1/plugins/org.eclipse.pde.api.tools.jar" path="org.eclipse.pde.api.tools"/>
+	<classpathentry excluding="src/|src_ant/|xslt/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml|report/*|scripts/*" kind="src" output="bin/1/plugins/org.eclipse.pde.api.tools.jar" path="org.eclipse.pde.api.tools"/>
 	<!-- org\eclipse\pde\api\tools\internal\AntFilterStore.java
 	     org\eclipse\pde\api\tools\internal\AnyValue.java
 	     org\eclipse\pde\api\tools\internal\ApiAccess.java

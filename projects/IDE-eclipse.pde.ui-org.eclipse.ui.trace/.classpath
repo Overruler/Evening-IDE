@@ -17,7 +17,7 @@
 	     plugin.properties
 	     plugin.xml
 	     schema\traceComponents.exsd -->
-	<classpathentry excluding="src/|.*|.*/" including=".classpath|.project|.settings/|META-INF/|OSGI-INF/|about.html|build.properties|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.ui.trace.jar" path="org.eclipse.ui.trace"/>
+	<classpathentry excluding="src/|.*|.*/" including=".classpath|.project|.settings/*|META-INF/*|OSGI-INF/*|about.html|build.properties|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.ui.trace.jar" path="org.eclipse.ui.trace"/>
 	<!-- org\eclipse\ui\trace\internal\datamodel\AbstractTracingNode.java
 	     org\eclipse\ui\trace\internal\datamodel\ModifiedDebugOptions.java
 	     org\eclipse\ui\trace\internal\datamodel\TracingCollections.java

@@ -11,7 +11,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/etool16/|icons/obj16/|icons/ovr32/|icons/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.discovery.jar" path="org.eclipse.equinox.p2.ui.discovery"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/etool16/*|icons/obj16/*|icons/ovr32/*|icons/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.discovery.jar" path="org.eclipse.equinox.p2.ui.discovery"/>
 	<!-- org\eclipse\equinox\internal\p2\ui\discovery\commands\Messages.java
 	     org\eclipse\equinox\internal\p2\ui\discovery\commands\messages.properties
 	     org\eclipse\equinox\internal\p2\ui\discovery\commands\ShowBundleCatalogCommandHandler.java

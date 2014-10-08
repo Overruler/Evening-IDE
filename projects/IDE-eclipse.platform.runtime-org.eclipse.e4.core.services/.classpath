@@ -9,7 +9,7 @@
 	     plugin.properties
 	     plugin.xml
 	     schema\org.eclipse.e4.languages.exsd -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|OSGI-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.e4.core.services.jar" path="org.eclipse.e4.core.services"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|OSGI-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.e4.core.services.jar" path="org.eclipse.e4.core.services"/>
 	<!-- org\eclipse\e4\core\internal\services\BundleTranslationProvider.java
 	     org\eclipse\e4\core\internal\services\DefaultResourceBundleProvider.java
 	     org\eclipse\e4\core\internal\services\EclipseAdapter.java

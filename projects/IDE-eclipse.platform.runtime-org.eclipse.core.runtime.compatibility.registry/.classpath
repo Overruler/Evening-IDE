@@ -3,7 +3,7 @@
 	<!-- about.html
 	     fragment.properties
 	     META-INF\MANIFEST.MF -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.core.runtime.compatibility.registry" path="org.eclipse.core.runtime.compatibility.registry"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.core.runtime.compatibility.registry" path="org.eclipse.core.runtime.compatibility.registry"/>
 	<!-- org\eclipse\core\internal\registry\BundleHelper.java
 	     org\eclipse\core\internal\registry\ExtensionHandle.java
 	     org\eclipse\core\internal\registry\ExtensionPointHandle.java

@@ -8,7 +8,7 @@
 	     OSGI-INF\progress.xml
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|OSGI-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.jar" path="org.eclipse.e4.ui.workbench"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|OSGI-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.jar" path="org.eclipse.e4.ui.workbench"/>
 	<!-- org\eclipse\e4\ui\internal\LocaleChangeServiceContextFunction.java
 	     org\eclipse\e4\ui\internal\LocaleChangeServiceImpl.java
 	     org\eclipse\e4\ui\internal\workbench\Activator.java

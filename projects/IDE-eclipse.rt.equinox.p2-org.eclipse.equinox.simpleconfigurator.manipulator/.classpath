@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\configurator.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.simpleconfigurator.manipulator.jar" path="org.eclipse.equinox.simpleconfigurator.manipulator"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.simpleconfigurator.manipulator.jar" path="org.eclipse.equinox.simpleconfigurator.manipulator"/>
 	<!-- org\eclipse\equinox\internal\simpleconfigurator\manipulator\SimpleConfiguratorManipulatorFactoryImpl.java
 	     org\eclipse\equinox\internal\simpleconfigurator\manipulator\SimpleConfiguratorManipulatorImpl.java
 	     org\eclipse\equinox\internal\simpleconfigurator\manipulator\SimpleConfiguratorManipulatorUtils.java

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     fragment-cocoa.properties
+	     fragment.xml
+	     META-INF\MANIFEST.MF
+	     META-INF\p2.inf -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|fragment-cocoa.properties|fragment.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.jar" path="org.eclipse.e4.ui.workbench.renderers.swt.cocoa"/>
+	<!-- org\eclipse\e4\ui\workbench\renderers\swt\cocoa\AbstractWindowHandler.java
+	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\ArrangeWindowHandler.java
+	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\CloseDialogHandler.java
+	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\CocoaUIHandler.java
+	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\CocoaUIProcessor.java
+	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\FullscreenWindowHandler.java
+	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\Messages.properties
+	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\MinimizeWindowHandler.java
+	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\SWTCocoaEnhancerDelegate.java
+	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\ZoomWindowHandler.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.jar" path="org.eclipse.e4.ui.workbench.renderers.swt.cocoa/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.inject"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.commands"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.core.commands"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.contexts"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.di"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.bindings"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.model.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench.renderers.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.swt.binaries-org.eclipse.swt.cocoa.macosx.x86_64"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

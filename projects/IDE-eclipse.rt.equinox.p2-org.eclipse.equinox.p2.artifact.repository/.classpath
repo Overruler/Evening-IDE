@@ -5,7 +5,7 @@
 	     OSGI-INF\repositoryManager.xml
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.artifact.repository.jar" path="org.eclipse.equinox.p2.artifact.repository"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.artifact.repository.jar" path="org.eclipse.equinox.p2.artifact.repository"/>
 	<!-- org\eclipse\equinox\internal\p2\artifact\processing\AbstractBufferingStep.java
 	     org\eclipse\equinox\internal\p2\artifact\processing\Messages.java
 	     org\eclipse\equinox\internal\p2\artifact\processing\messages.properties

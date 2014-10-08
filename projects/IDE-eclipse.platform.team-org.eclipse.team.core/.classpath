@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.team.core.jar" path="org.eclipse.team.core"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.team.core.jar" path="org.eclipse.team.core"/>
 	<!-- org\eclipse\team\core\DefaultRepositoryProviderType.java
 	     org\eclipse\team\core\diff\DiffFilter.java
 	     org\eclipse\team\core\diff\FastDiffFilter.java

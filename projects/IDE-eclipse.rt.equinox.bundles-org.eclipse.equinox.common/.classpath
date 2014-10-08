@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.common.jar" path="org.eclipse.equinox.common"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.common.jar" path="org.eclipse.equinox.common"/>
 	<!-- org\eclipse\core\internal\boot\PlatformURLBaseConnection.java
 	     org\eclipse\core\internal\boot\PlatformURLConnection.java
 	     org\eclipse\core\internal\boot\PlatformURLHandler.java

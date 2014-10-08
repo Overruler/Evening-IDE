@@ -3,7 +3,7 @@
 	<!-- about.html
 	     launcher.properties
 	     META-INF\MANIFEST.MF -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|launcher.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.launcher.jar" path="org.eclipse.equinox.launcher"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|launcher.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.launcher.jar" path="org.eclipse.equinox.launcher"/>
 	<!-- org\eclipse\core\launcher\Main.java
 	     org\eclipse\equinox\internal\launcher\Constants.java
 	     org\eclipse\equinox\launcher\JNIBridge.java

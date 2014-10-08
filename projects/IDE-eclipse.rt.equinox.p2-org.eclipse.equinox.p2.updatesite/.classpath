@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.updatesite.jar" path="org.eclipse.equinox.p2.updatesite"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.updatesite.jar" path="org.eclipse.equinox.p2.updatesite"/>
 	<!-- org\eclipse\equinox\internal\p2\updatesite\Activator.java
 	     org\eclipse\equinox\internal\p2\updatesite\artifact\UpdateSiteArtifactRepository.java
 	     org\eclipse\equinox\internal\p2\updatesite\artifact\UpdateSiteArtifactRepositoryFactory.java

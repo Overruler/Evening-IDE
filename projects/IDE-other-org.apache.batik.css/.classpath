@@ -3,7 +3,7 @@
 	<!-- org\apache\batik\css\engine\resources\Messages.properties
 	     org\apache\batik\css\engine\value\resources\Messages.properties
 	     org\apache\batik\css\parser\resources\Messages.properties -->
-	<classpathentry including="org/apache/batik/css/engine/resources/|org/apache/batik/css/engine/value/resources/|org/apache/batik/css/parser/resources/" kind="src" output="bin/1/plugins/org.apache.batik.css.jar" path="apache.batik/resources"/>
+	<classpathentry including="org/apache/batik/css/engine/resources/*|org/apache/batik/css/engine/value/resources/*|org/apache/batik/css/parser/resources/*" kind="src" output="bin/1/plugins/org.apache.batik.css.jar" path="apache.batik/resources"/>
 	<!-- org\apache\batik\css\dom\CSSOMComputedStyle.java
 	     org\apache\batik\css\dom\CSSOMStoredStyleDeclaration.java
 	     org\apache\batik\css\dom\CSSOMStyleDeclaration.java
@@ -177,7 +177,7 @@
 	     org\apache\batik\css\parser\Parser.java
 	     org\apache\batik\css\parser\Scanner.java
 	     org\apache\batik\css\parser\ScannerUtilities.java -->
-	<classpathentry excluding="org/apache/batik/css/engine/value/svg12/AbstractCIEColor.java" including="org/apache/batik/css/dom/|org/apache/batik/css/engine/|org/apache/batik/css/engine/sac/|org/apache/batik/css/engine/value/|org/apache/batik/css/engine/value/css2/|org/apache/batik/css/engine/value/svg/|org/apache/batik/css/engine/value/svg12/|org/apache/batik/css/parser/" kind="src" output="bin/1/plugins/org.apache.batik.css.jar" path="apache.batik/sources"/>
+	<classpathentry excluding="org/apache/batik/css/engine/value/svg12/AbstractCIEColor.java" including="org/apache/batik/css/dom/*|org/apache/batik/css/engine/*|org/apache/batik/css/engine/sac/*|org/apache/batik/css/engine/value/*|org/apache/batik/css/engine/value/css2/*|org/apache/batik/css/engine/value/svg/*|org/apache/batik/css/engine/value/svg12/*|org/apache/batik/css/parser/*" kind="src" output="bin/1/plugins/org.apache.batik.css.jar" path="apache.batik/sources"/>
 	<!-- about.html
 	     about_files\LICENSE-2.0.txt
 	     about_files\LICENSE.dom-software.txt

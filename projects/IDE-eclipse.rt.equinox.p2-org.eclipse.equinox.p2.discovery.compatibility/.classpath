@@ -6,7 +6,7 @@
 	     plugin.xml
 	     schema\connectorDiscovery.exsd
 	     xsd\directory.xsd -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml|schema/|xsd/" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.discovery.compatibility.jar" path="org.eclipse.equinox.p2.discovery.compatibility"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*|xsd/*" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.discovery.compatibility.jar" path="org.eclipse.equinox.p2.discovery.compatibility"/>
 	<!-- org\eclipse\equinox\internal\p2\discovery\compatibility\Activator.java
 	     org\eclipse\equinox\internal\p2\discovery\compatibility\BundleDiscoverySource.java
 	     org\eclipse\equinox\internal\p2\discovery\compatibility\BundleDiscoveryStrategy.java

@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.directorywatcher.jar" path="org.eclipse.equinox.p2.directorywatcher"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.directorywatcher.jar" path="org.eclipse.equinox.p2.directorywatcher"/>
 	<!-- org\eclipse\equinox\internal\provisional\p2\directorywatcher\Activator.java
 	     org\eclipse\equinox\internal\provisional\p2\directorywatcher\CachingArtifactRepository.java
 	     org\eclipse\equinox\internal\provisional\p2\directorywatcher\DirectoryChangeListener.java

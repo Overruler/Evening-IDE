@@ -6,7 +6,7 @@
 	     mirror-api-license.txt
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|mirror-api-license.txt|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.apt.core.jar" path="org.eclipse.jdt.apt.core"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|mirror-api-license.txt|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.apt.core.jar" path="org.eclipse.jdt.apt.core"/>
 	<!-- com\sun\mirror\apt\AnnotationProcessor.java
 	     com\sun\mirror\apt\AnnotationProcessorEnvironment.java
 	     com\sun\mirror\apt\AnnotationProcessorFactory.java

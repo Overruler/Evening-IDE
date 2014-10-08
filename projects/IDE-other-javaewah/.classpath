@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- javaewah\benchmark\Benchmark.java
-	     javaewah\benchmark\Benchmark32.java
-	     javaewah\benchmark\BenchmarkIntersection.java
-	     javaewah\benchmark\BenchmarkIntersection32.java
-	     javaewah\benchmark\BenchmarkUnion.java
-	     javaewah\benchmark\BenchmarkUnion32.java
-	     javaewah\benchmark\BenchmarkXOR.java
-	     javaewah\benchmark\BenchmarkXOR32.java
-	     javaewah\benchmark\ClusteredDataGenerator.java
-	     javaewah\benchmark\UniformDataGenerator.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/javaewah.jar/com/googlecode" path="javaewah.jar/com/googlecode/x-miss-x"/> -->
 	<!-- com\googlecode\javaewah32\BitCounter32.java
 	     com\googlecode\javaewah32\BitmapStorage32.java
 	     com\googlecode\javaewah32\BufferedIterator32.java
@@ -25,11 +14,19 @@
 	     com\googlecode\javaewah32\IteratorUtil32.java
 	     com\googlecode\javaewah32\NonEmptyVirtualStorage32.java
 	     com\googlecode\javaewah32\RunningLengthWord32.java
+	     com\googlecode\javaewah32\symmetric\BitmapSymmetricAlgorithm32.java
+	     com\googlecode\javaewah32\symmetric\EWAHPointer32.java
+	     com\googlecode\javaewah32\symmetric\RunningBitmapMerge32.java
+	     com\googlecode\javaewah32\symmetric\ThresholdFuncBitmap32.java
+	     com\googlecode\javaewah32\symmetric\UpdateableBitmapFunction32.java
 	     com\googlecode\javaewah\BitCounter.java
 	     com\googlecode\javaewah\BitmapStorage.java
 	     com\googlecode\javaewah\BufferedIterator.java
 	     com\googlecode\javaewah\BufferedRunningLengthWord.java
+	     com\googlecode\javaewah\ChunkIterator.java
 	     com\googlecode\javaewah\CloneableIterator.java
+	     com\googlecode\javaewah\datastructure\BitSet.java
+	     com\googlecode\javaewah\datastructure\PriorityQ.java
 	     com\googlecode\javaewah\EWAHCompressedBitmap.java
 	     com\googlecode\javaewah\EWAHIterator.java
 	     com\googlecode\javaewah\FastAggregation.java
@@ -41,8 +38,13 @@
 	     com\googlecode\javaewah\IteratorUtil.java
 	     com\googlecode\javaewah\LogicalElement.java
 	     com\googlecode\javaewah\NonEmptyVirtualStorage.java
-	     com\googlecode\javaewah\RunningLengthWord.java -->
-	<classpathentry including="com/googlecode/javaewah/|com/googlecode/javaewah32/" kind="src" output="bin/1/plugins/javaewah.jar" path="javaewah/src/main/java"/>
+	     com\googlecode\javaewah\RunningLengthWord.java
+	     com\googlecode\javaewah\symmetric\BitmapSymmetricAlgorithm.java
+	     com\googlecode\javaewah\symmetric\EWAHPointer.java
+	     com\googlecode\javaewah\symmetric\RunningBitmapMerge.java
+	     com\googlecode\javaewah\symmetric\ThresholdFuncBitmap.java
+	     com\googlecode\javaewah\symmetric\UpdateableBitmapFunction.java -->
+	<classpathentry kind="src" output="bin/1/plugins/javaewah.jar" path="javaewah/src/main/java"/>
 	<!-- about.html
 	     about_files\CHANGELOG
 	     about_files\LICENSE

@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.compare.core.jar" path="org.eclipse.compare.core"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.compare.core.jar" path="org.eclipse.compare.core"/>
 	<!-- org\eclipse\compare\internal\core\ComparePlugin.java
 	     org\eclipse\compare\internal\core\LCS.java
 	     org\eclipse\compare\internal\core\Messages.java

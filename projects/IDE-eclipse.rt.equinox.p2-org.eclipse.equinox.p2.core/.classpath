@@ -5,7 +5,7 @@
 	     OSGI-INF\agentProvider.xml
 	     OSGI-INF\eventBus.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.core.jar" path="org.eclipse.equinox.p2.core"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.core.jar" path="org.eclipse.equinox.p2.core"/>
 	<!-- org\eclipse\equinox\internal\p2\core\Activator.java
 	     org\eclipse\equinox\internal\p2\core\AgentLocation.java
 	     org\eclipse\equinox\internal\p2\core\DefaultAgentProvider.java

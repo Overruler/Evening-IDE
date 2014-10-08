@@ -7,7 +7,7 @@
 	     OSGI-INF\profileRegistry.xml
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|OSGI-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.engine.jar" path="org.eclipse.equinox.p2.engine"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|OSGI-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.engine.jar" path="org.eclipse.equinox.p2.engine"/>
 	<!-- org\eclipse\equinox\internal\p2\engine\ActionManager.java
 	     org\eclipse\equinox\internal\p2\engine\AssignVariableAction.java
 	     org\eclipse\equinox\internal\p2\engine\BeginOperationEvent.java

@@ -4,7 +4,7 @@
 	     about_files\LICENSE-2.0.txt
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|about_files/|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.osgi.util.jar" path="org.eclipse.osgi.util"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about_files/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.osgi.util.jar" path="org.eclipse.osgi.util"/>
 	<!-- org\osgi\util\measurement\Measurement.java
 	     org\osgi\util\measurement\packageinfo
 	     org\osgi\util\measurement\State.java

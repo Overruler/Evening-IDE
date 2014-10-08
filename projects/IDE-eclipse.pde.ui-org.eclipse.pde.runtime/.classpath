@@ -47,7 +47,7 @@
 	     META-INF\p2.inf
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/dlcl16/|icons/elcl16/|icons/eview16/|icons/obj16/|icons/ovr16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.runtime.jar" path="org.eclipse.pde.runtime"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/dlcl16/*|icons/elcl16/*|icons/eview16/*|icons/obj16/*|icons/ovr16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.runtime.jar" path="org.eclipse.pde.runtime"/>
 	<!-- org\eclipse\pde\internal\runtime\IHelpContextIds.java
 	     org\eclipse\pde\internal\runtime\MessageHelper.java
 	     org\eclipse\pde\internal\runtime\OverlayIcon.java

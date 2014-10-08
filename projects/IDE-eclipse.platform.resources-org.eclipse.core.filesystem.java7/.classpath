@@ -3,7 +3,7 @@
 	<!-- about.html
 	     java7Fragment.properties
 	     META-INF\MANIFEST.MF -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|java7Fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.core.filesystem.java7.jar" path="org.eclipse.core.filesystem.java7"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|java7Fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.core.filesystem.java7.jar" path="org.eclipse.core.filesystem.java7"/>
 	<!-- org\eclipse\core\internal\filesystem\java7\DefaultHandler.java
 	     org\eclipse\core\internal\filesystem\java7\DosHandler.java
 	     org\eclipse\core\internal\filesystem\java7\HandlerFactory.java

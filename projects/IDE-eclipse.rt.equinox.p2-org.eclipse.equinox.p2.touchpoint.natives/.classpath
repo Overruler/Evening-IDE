@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.natives.jar" path="org.eclipse.equinox.p2.touchpoint.natives"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.natives.jar" path="org.eclipse.equinox.p2.touchpoint.natives"/>
 	<!-- org\eclipse\equinox\internal\p2\touchpoint\natives\actions\ActionConstants.java
 	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\ChmodAction.java
 	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\CleanupcopyAction.java

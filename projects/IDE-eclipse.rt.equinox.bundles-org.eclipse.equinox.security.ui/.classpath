@@ -24,7 +24,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|icons/|icons/full/obj16/|icons/storage/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.security.ui.jar" path="org.eclipse.equinox.security.ui"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|icons/*|icons/full/obj16/*|icons/storage/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.security.ui.jar" path="org.eclipse.equinox.security.ui"/>
 	<!-- org\eclipse\equinox\internal\provisional\security\ui\AuthorizationManager.java
 	     org\eclipse\equinox\internal\provisional\security\ui\SecurityContributionItemFactory.java
 	     org\eclipse\equinox\internal\provisional\security\ui\X500PrincipalHelper.java

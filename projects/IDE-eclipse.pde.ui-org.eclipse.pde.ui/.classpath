@@ -278,7 +278,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|src_samples/|.*|.*/" including="META-INF/|about.html|css/|icons/dlcl16/|icons/dtool16/|icons/elcl16/|icons/etool16/|icons/eview16/|icons/obj16/|icons/ovr16/|icons/view16/|icons/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.ui.jar" path="org.eclipse.pde.ui"/>
+	<classpathentry excluding="src/|src_samples/|.*|.*/" including="META-INF/*|about.html|css/*|icons/dlcl16/*|icons/dtool16/*|icons/elcl16/*|icons/etool16/*|icons/eview16/*|icons/obj16/*|icons/ovr16/*|icons/view16/*|icons/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.ui.jar" path="org.eclipse.pde.ui"/>
 	<!-- org\eclipse\pde\internal\ui\build\BaseBuildAction.java
 	     org\eclipse\pde\internal\ui\build\BuildSiteAction.java
 	     org\eclipse\pde\internal\ui\build\FeatureExportJob.java

@@ -10,7 +10,7 @@
 	     schema\container.exsd
 	     schema\containerFactory.exsd
 	     schema\start.exsd -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|about.ini|about.properties|ecf32.png|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.ecf.jar" path="org.eclipse.ecf"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|about.properties|ecf32.png|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.ecf.jar" path="org.eclipse.ecf"/>
 	<!-- org\eclipse\ecf\core\AbstractContainer.java
 	     org\eclipse\ecf\core\AbstractContainerAdapterFactory.java
 	     org\eclipse\ecf\core\BaseContainer.java

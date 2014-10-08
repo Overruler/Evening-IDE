@@ -4,7 +4,7 @@
 	     fragment.properties
 	     jWinHttp-#.#.#.dll
 	     META-INF\MANIFEST.MF -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|fragment.properties|jWinHttp-?.?.?.dll" kind="src" output="bin/1/plugins/org.eclipse.core.net.win32.x86_64.jar" path="org.eclipse.core.net.win32.x86_64"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|fragment.properties|jWinHttp-?.?.?.dll" kind="src" output="bin/1/plugins/org.eclipse.core.net.win32.x86_64.jar" path="org.eclipse.core.net.win32.x86_64"/>
 	<!-- org\eclipse\core\net\ProxyProvider.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.net.win32.x86_64.jar" path="org.eclipse.core.net.win32.x86_64/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.net.jar" path="org.eclipse.ui.net"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.net.jar" path="org.eclipse.ui.net"/>
 	<!-- org\eclipse\ui\internal\net\Activator.java
 	     org\eclipse\ui\internal\net\auth\Authentication.java
 	     org\eclipse\ui\internal\net\auth\NetAuthenticator.java

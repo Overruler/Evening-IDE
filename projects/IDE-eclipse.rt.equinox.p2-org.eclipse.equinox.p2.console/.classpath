@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.console.jar" path="org.eclipse.equinox.p2.console"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.console.jar" path="org.eclipse.equinox.p2.console"/>
 	<!-- org\eclipse\equinox\internal\p2\console\Activator.java
 	     org\eclipse\equinox\internal\p2\console\Messages.java
 	     org\eclipse\equinox\internal\p2\console\messages.properties

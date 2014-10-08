@@ -5,7 +5,7 @@
 	     OSGI-INF\l10n\bundle.properties
 	     OSGI-INF\services\service-locator.xml
 	     OSGI-INF\services\unmarshaller.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/l10n/|OSGI-INF/services/|about.html" kind="src" output="bin/1/plugins/org.eclipse.epp.mpc.core.jar" path="org.eclipse.epp.mpc.core"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/l10n/*|OSGI-INF/services/*|about.html" kind="src" output="bin/1/plugins/org.eclipse.epp.mpc.core.jar" path="org.eclipse.epp.mpc.core"/>
 	<!-- org\eclipse\epp\internal\mpc\core\MarketplaceClientCore.java
 	     org\eclipse\epp\internal\mpc\core\MarketplaceClientCorePlugin.java
 	     org\eclipse\epp\internal\mpc\core\messages.properties

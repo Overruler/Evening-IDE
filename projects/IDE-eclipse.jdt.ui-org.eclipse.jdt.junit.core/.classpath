@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.core.jar" path="org.eclipse.jdt.junit.core"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.core.jar" path="org.eclipse.jdt.junit.core"/>
 	<!-- org\eclipse\jdt\internal\junit\BasicElementLabels.java
 	     org\eclipse\jdt\internal\junit\buildpath\BuildPathSupport.java
 	     org\eclipse\jdt\internal\junit\buildpath\JUnitContainerInitializer.java

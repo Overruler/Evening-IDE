@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     fragment.properties
+	     META-INF\MANIFEST.MF
+	     os\macosx\libunixfile_#_#_#.jnilib -->
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|fragment.properties|os/macosx/*" kind="src" output="bin/1/plugins/org.eclipse.core.filesystem.macosx.jar" path="org.eclipse.core.filesystem.macosx"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

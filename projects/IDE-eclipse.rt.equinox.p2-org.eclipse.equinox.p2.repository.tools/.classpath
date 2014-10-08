@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.repository.tools.jar" path="org.eclipse.equinox.p2.repository.tools"/>
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.repository.tools.jar" path="org.eclipse.equinox.p2.repository.tools"/>
 	<!-- org\eclipse\equinox\p2\internal\repository\comparator\JarComparator.java
 	     org\eclipse\equinox\p2\internal\repository\comparator\java\Annotation.java
 	     org\eclipse\equinox\p2\internal\repository\comparator\java\AnnotationComponent.java

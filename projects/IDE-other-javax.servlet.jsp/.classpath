@@ -55,7 +55,7 @@
 	     javax\servlet\jsp\tagext\TryCatchFinally.java
 	     javax\servlet\jsp\tagext\ValidationMessage.java
 	     javax\servlet\jsp\tagext\VariableInfo.java -->
-	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" including="javax/servlet/jsp/|javax/servlet/jsp/el/|javax/servlet/jsp/resources/|javax/servlet/jsp/tagext/" kind="src" output="bin/1/plugins/javax.servlet.jsp.jar" path="javax.servlet.jsp"/>
+	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" including="javax/servlet/jsp/*|javax/servlet/jsp/el/*|javax/servlet/jsp/resources/*|javax/servlet/jsp/tagext/*" kind="src" output="bin/1/plugins/javax.servlet.jsp.jar" path="javax.servlet.jsp"/>
 	<!-- about.html
 	     about_files\LICENSE_CDDL.txt
 	     META-INF\MANIFEST.MF

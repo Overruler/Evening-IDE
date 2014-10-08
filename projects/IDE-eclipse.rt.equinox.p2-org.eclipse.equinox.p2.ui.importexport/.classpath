@@ -6,7 +6,7 @@
 	     OSGI-INF\importexport.xml
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|icons/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.importexport.jar" path="org.eclipse.equinox.p2.ui.importexport"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|icons/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.importexport.jar" path="org.eclipse.equinox.p2.ui.importexport"/>
 	<!-- org\eclipse\equinox\internal\p2\importexport\internal\Constants.java
 	     org\eclipse\equinox\internal\p2\importexport\internal\ImportExportActivator.java
 	     org\eclipse\equinox\internal\p2\importexport\internal\ImportExportImpl.java

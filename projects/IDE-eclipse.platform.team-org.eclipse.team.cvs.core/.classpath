@@ -7,7 +7,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|about_files/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.team.cvs.core.jar" path="org.eclipse.team.cvs.core"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|about_files/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.team.cvs.core.jar" path="org.eclipse.team.cvs.core"/>
 	<!-- org\eclipse\team\internal\ccvs\core\client\Add.java
 	     org\eclipse\team\internal\ccvs\core\client\Admin.java
 	     org\eclipse\team\internal\ccvs\core\client\Annotate.java

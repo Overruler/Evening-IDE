@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.operations.jar" path="org.eclipse.equinox.p2.operations"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.operations.jar" path="org.eclipse.equinox.p2.operations"/>
 	<!-- org\eclipse\equinox\internal\p2\operations\Activator.java
 	     org\eclipse\equinox\internal\p2\operations\IFailedStatusEvaluator.java
 	     org\eclipse\equinox\internal\p2\operations\IStatusCodes.java

@@ -6,7 +6,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/etool16/|icons/full/obj16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.addons.swt.jar" path="org.eclipse.e4.ui.workbench.addons.swt"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/etool16/*|icons/full/obj16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.addons.swt.jar" path="org.eclipse.e4.ui.workbench.addons.swt"/>
 	<!-- org\eclipse\e4\ui\workbench\addons\cleanupaddon\CleanupAddon.java
 	     org\eclipse\e4\ui\workbench\addons\dndaddon\DetachedDropAgent.java
 	     org\eclipse\e4\ui\workbench\addons\dndaddon\DnDAddon.java

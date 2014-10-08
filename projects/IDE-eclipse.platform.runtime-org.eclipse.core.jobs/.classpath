@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.jobs.jar" path="org.eclipse.core.jobs"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.jobs.jar" path="org.eclipse.core.jobs"/>
 	<!-- org\eclipse\core\internal\jobs\Counter.java
 	     org\eclipse\core\internal\jobs\InternalJob.java
 	     org\eclipse\core\internal\jobs\InternalWorker.java

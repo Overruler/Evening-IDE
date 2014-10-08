@@ -6,7 +6,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/|about.html|about_files/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ant.core.jar" path="org.eclipse.ant.core"/>
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/*|about.html|about_files/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ant.core.jar" path="org.eclipse.ant.core"/>
 	<!-- org\eclipse\ant\core\AntCorePlugin.java
 	     org\eclipse\ant\core\AntCorePreferences.java
 	     org\eclipse\ant\core\AntRunner.java
@@ -44,7 +44,7 @@
 	     org\eclipse\ant\internal\core\ant\InternalProject2.java
 	     org\eclipse\ant\internal\core\ant\NullInputHandler.java
 	     org\eclipse\ant\internal\core\ant\ProgressBuildListener.java -->
-	<classpathentry including="org/eclipse/ant/internal/core/ant/" kind="src" output="bin/2/plugins/org.eclipse.ant.core.jar/lib/antsupportlib.jar" path="org.eclipse.ant.core/src_ant"/>
+	<classpathentry including="org/eclipse/ant/internal/core/ant/*" kind="src" output="bin/2/plugins/org.eclipse.ant.core.jar/lib/antsupportlib.jar" path="org.eclipse.ant.core/src_ant"/>
 	<!-- lib\antsupportlib.jar\META-INF\MANIFEST.MF -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ant.core.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

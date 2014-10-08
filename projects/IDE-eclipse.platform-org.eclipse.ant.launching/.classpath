@@ -4,16 +4,16 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="common/|loggers/|remote/|src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ant.launching.jar" path="org.eclipse.ant.launching"/>
+	<classpathentry excluding="common/|loggers/|remote/|src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ant.launching.jar" path="org.eclipse.ant.launching"/>
 	<!-- org\eclipse\ant\internal\launching\debug\AntDebugState.java
 	     org\eclipse\ant\internal\launching\debug\IDebugBuildLogger.java -->
-	<classpathentry including="org/eclipse/ant/internal/launching/debug/" kind="src" output="bin/2/plugins/org.eclipse.ant.launching.jar/lib/antdebug.jar" path="org.eclipse.ant.launching/common"/>
+	<classpathentry including="org/eclipse/ant/internal/launching/debug/*" kind="src" output="bin/2/plugins/org.eclipse.ant.launching.jar/lib/antdebug.jar" path="org.eclipse.ant.launching/common"/>
 	<!-- org\eclipse\ant\internal\launching\runtime\logger\AntProcessBuildLogger.java
 	     org\eclipse\ant\internal\launching\runtime\logger\AntProcessDebugBuildLogger.java
 	     org\eclipse\ant\internal\launching\runtime\logger\NullBuildLogger.java
 	     org\eclipse\ant\internal\launching\runtime\logger\RuntimeMessages.java
 	     org\eclipse\ant\internal\launching\runtime\logger\RuntimeMessages.properties -->
-	<classpathentry including="org/eclipse/ant/internal/launching/runtime/logger/" kind="src" output="bin/3/plugins/org.eclipse.ant.launching.jar/lib/loggers.jar" path="org.eclipse.ant.launching/loggers"/>
+	<classpathentry including="org/eclipse/ant/internal/launching/runtime/logger/*" kind="src" output="bin/3/plugins/org.eclipse.ant.launching.jar/lib/loggers.jar" path="org.eclipse.ant.launching/loggers"/>
 	<!-- org\eclipse\ant\internal\launching\remote\AntSecurityException.java
 	     org\eclipse\ant\internal\launching\remote\AntSecurityManager.java
 	     org\eclipse\ant\internal\launching\remote\EclipseDefaultExecutor.java
@@ -27,7 +27,7 @@
 	     org\eclipse\ant\internal\launching\remote\logger\RemoteAntDebugBuildLogger.java
 	     org\eclipse\ant\internal\launching\remote\RemoteAntMessages.java
 	     org\eclipse\ant\internal\launching\remote\RemoteAntMessages.properties -->
-	<classpathentry including="org/eclipse/ant/internal/launching/remote/|org/eclipse/ant/internal/launching/remote/inputhandler/|org/eclipse/ant/internal/launching/remote/logger/" kind="src" output="bin/4/plugins/org.eclipse.ant.launching.jar/lib/remote.jar" path="org.eclipse.ant.launching/remote"/>
+	<classpathentry including="org/eclipse/ant/internal/launching/remote/*|org/eclipse/ant/internal/launching/remote/inputhandler/*|org/eclipse/ant/internal/launching/remote/logger/*" kind="src" output="bin/4/plugins/org.eclipse.ant.launching.jar/lib/remote.jar" path="org.eclipse.ant.launching/remote"/>
 	<!-- org\eclipse\ant\internal\launching\AntCoreModelMessages.java
 	     org\eclipse\ant\internal\launching\AntCoreModelMessages.properties
 	     org\eclipse\ant\internal\launching\AntLaunch.java

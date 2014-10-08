@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.runtime.jar" path="org.eclipse.core.runtime"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.runtime.jar" path="org.eclipse.core.runtime"/>
 	<!-- org\eclipse\core\internal\preferences\legacy\InitLegacyPreferences.java
 	     org\eclipse\core\internal\preferences\legacy\PreferenceForwarder.java
 	     org\eclipse\core\internal\preferences\legacy\ProductPreferencesService.java

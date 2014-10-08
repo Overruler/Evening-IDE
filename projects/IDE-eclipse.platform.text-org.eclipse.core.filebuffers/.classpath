@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.filebuffers.jar" path="org.eclipse.core.filebuffers"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.filebuffers.jar" path="org.eclipse.core.filebuffers"/>
 	<!-- org\eclipse\core\filebuffers\FileBuffers.java
 	     org\eclipse\core\filebuffers\IAnnotationModelFactory.java
 	     org\eclipse\core\filebuffers\IDocumentFactory.java

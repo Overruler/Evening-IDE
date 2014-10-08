@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.contenttype.jar" path="org.eclipse.core.contenttype"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.contenttype.jar" path="org.eclipse.core.contenttype"/>
 	<!-- org\eclipse\core\internal\content\Activator.java
 	     org\eclipse\core\internal\content\BasicDescription.java
 	     org\eclipse\core\internal\content\ContentDescription.java

@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\cacheManager.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.repository.jar" path="org.eclipse.equinox.p2.repository"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.repository.jar" path="org.eclipse.equinox.p2.repository"/>
 	<!-- org\eclipse\equinox\internal\p2\persistence\CompositeParser.java
 	     org\eclipse\equinox\internal\p2\persistence\CompositeRepositoryIO.java
 	     org\eclipse\equinox\internal\p2\persistence\CompositeRepositoryState.java

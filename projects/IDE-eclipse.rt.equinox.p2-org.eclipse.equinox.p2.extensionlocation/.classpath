@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.extensionlocation.jar" path="org.eclipse.equinox.p2.extensionlocation"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.extensionlocation.jar" path="org.eclipse.equinox.p2.extensionlocation"/>
 	<!-- org\eclipse\equinox\internal\p2\extensionlocation\Activator.java
 	     org\eclipse\equinox\internal\p2\extensionlocation\BundlePoolFilteredListener.java
 	     org\eclipse\equinox\internal\p2\extensionlocation\Constants.java

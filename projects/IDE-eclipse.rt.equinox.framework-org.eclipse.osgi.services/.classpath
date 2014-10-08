@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     META-INF\p2.inf
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|about_files/|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.osgi.services.jar" path="org.eclipse.osgi.services"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about_files/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.osgi.services.jar" path="org.eclipse.osgi.services"/>
 	<!-- org\osgi\service\cm\Configuration.java
 	     org\osgi\service\cm\ConfigurationAdmin.java
 	     org\osgi\service\cm\ConfigurationEvent.java

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     fragment.properties
+	     fragment.xml
+	     libkeystoreNative.jnilib
+	     META-INF\MANIFEST.MF -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|fragment.properties|fragment.xml|libkeystoreNative.jnilib" kind="src" output="bin/1/plugins/org.eclipse.equinox.security.macosx.jar" path="org.eclipse.equinox.security.macosx"/>
+	<!-- org\eclipse\equinox\internal\security\osx\nls\messages.properties
+	     org\eclipse\equinox\internal\security\osx\nls\OSXProviderMessages.java
+	     org\eclipse\equinox\internal\security\osx\OSXProvider.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.security.macosx.jar" path="org.eclipse.equinox.security.macosx/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

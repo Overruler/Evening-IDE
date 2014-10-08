@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.databinding.observable.jar" path="org.eclipse.core.databinding.observable"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.databinding.observable.jar" path="org.eclipse.core.databinding.observable"/>
 	<!-- org\eclipse\core\databinding\observable\AbstractObservable.java
 	     org\eclipse\core\databinding\observable\ChangeEvent.java
 	     org\eclipse\core\databinding\observable\ChangeSupport.java

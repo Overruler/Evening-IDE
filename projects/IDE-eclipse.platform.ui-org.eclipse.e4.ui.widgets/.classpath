@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.widgets.jar" path="org.eclipse.e4.ui.widgets"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.widgets.jar" path="org.eclipse.e4.ui.widgets"/>
 	<!-- org\eclipse\e4\ui\widgets\ImageBasedFrame.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.ui.widgets.jar" path="org.eclipse.e4.ui.widgets/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

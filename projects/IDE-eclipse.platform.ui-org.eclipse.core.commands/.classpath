@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.commands.jar" path="org.eclipse.core.commands"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.commands.jar" path="org.eclipse.core.commands"/>
 	<!-- org\eclipse\core\commands\AbstractHandler.java
 	     org\eclipse\core\commands\AbstractHandlerWithState.java
 	     org\eclipse\core\commands\AbstractParameterValueConverter.java

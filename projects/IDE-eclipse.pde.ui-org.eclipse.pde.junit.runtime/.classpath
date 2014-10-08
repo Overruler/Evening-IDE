@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.junit.runtime.jar" path="org.eclipse.pde.junit.runtime"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.junit.runtime.jar" path="org.eclipse.pde.junit.runtime"/>
 	<!-- org\eclipse\pde\internal\junit\runtime\CoreTestApplication.java
 	     org\eclipse\pde\internal\junit\runtime\LegacyUITestApplication.java
 	     org\eclipse\pde\internal\junit\runtime\NonUIThreadTestApplication.java

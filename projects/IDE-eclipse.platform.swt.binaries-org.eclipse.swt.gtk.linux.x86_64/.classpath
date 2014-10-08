@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about_files\IJG_README
+	     about_files\lgpl-v21.txt
+	     about_files\mpl-v11.txt
+	     about_files\mpl-v20.txt
+	     about_files\webkit-bsd.txt
+	     fragment.properties
+	     libswt-atk-gtk-####.so
+	     libswt-awt-gtk-####.so
+	     libswt-cairo-gtk-####.so
+	     libswt-glx-gtk-####.so
+	     libswt-gnome-gtk-####.so
+	     libswt-gtk-####.so
+	     libswt-mozilla-gtk-####.so
+	     libswt-pi-gtk-####.so
+	     libswt-pi#-gtk-####.so
+	     libswt-webkit-gtk-####.so
+	     libswt-xpcominit-gtk-####.so
+	     libswt-xulrunner-fix##.so
+	     libswt-xulrunner-fix##.so
+	     libswt-xulrunner-gtk-####.so
+	     libswt-xulrunner##-gtk-####.so
+	     META-INF\MANIFEST.MF -->
+	<classpathentry excluding=".*" including="META-INF/*|about.html|about_files/*|fragment.properties|libswt-atk-gtk-????.so|libswt-awt-gtk-????.so|libswt-cairo-gtk-????.so|libswt-glx-gtk-????.so|libswt-gnome-gtk-????.so|libswt-gtk-????.so|libswt-mozilla-gtk-????.so|libswt-pi-gtk-????.so|libswt-pi?-gtk-????.so|libswt-webkit-gtk-????.so|libswt-xpcominit-gtk-????.so|libswt-xulrunner-fix??.so|libswt-xulrunner-gtk-????.so|libswt-xulrunner??-gtk-????.so" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt.gtk.linux.x86_64"/>
+	<!-- external.xpt -->
+	<classpathentry including="external.xpt" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/components"/>
+	<!-- org\eclipse\swt\accessibility\ACC.java
+	     org\eclipse\swt\accessibility\AccessibleActionAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleActionEvent.java
+	     org\eclipse\swt\accessibility\AccessibleActionListener.java
+	     org\eclipse\swt\accessibility\AccessibleAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleAttributeAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleAttributeEvent.java
+	     org\eclipse\swt\accessibility\AccessibleAttributeListener.java
+	     org\eclipse\swt\accessibility\AccessibleControlAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleControlEvent.java
+	     org\eclipse\swt\accessibility\AccessibleControlListener.java
+	     org\eclipse\swt\accessibility\AccessibleEditableTextAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleEditableTextEvent.java
+	     org\eclipse\swt\accessibility\AccessibleEditableTextListener.java
+	     org\eclipse\swt\accessibility\AccessibleEvent.java
+	     org\eclipse\swt\accessibility\AccessibleHyperlinkAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleHyperlinkEvent.java
+	     org\eclipse\swt\accessibility\AccessibleHyperlinkListener.java
+	     org\eclipse\swt\accessibility\AccessibleListener.java
+	     org\eclipse\swt\accessibility\AccessibleTableAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleTableCellAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleTableCellEvent.java
+	     org\eclipse\swt\accessibility\AccessibleTableCellListener.java
+	     org\eclipse\swt\accessibility\AccessibleTableEvent.java
+	     org\eclipse\swt\accessibility\AccessibleTableListener.java
+	     org\eclipse\swt\accessibility\AccessibleTextAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleTextAttributeEvent.java
+	     org\eclipse\swt\accessibility\AccessibleTextEvent.java
+	     org\eclipse\swt\accessibility\AccessibleTextExtendedAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleTextExtendedListener.java
+	     org\eclipse\swt\accessibility\AccessibleTextListener.java
+	     org\eclipse\swt\accessibility\AccessibleValueAdapter.java
+	     org\eclipse\swt\accessibility\AccessibleValueEvent.java
+	     org\eclipse\swt\accessibility\AccessibleValueListener.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Accessibility/common"/>
+	<!-- org\eclipse\swt\accessibility\Accessible.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Accessibility/gtk"/>
+	<!-- org\eclipse\swt\awt\SWT_AWT.java -->
+	<classpathentry including="org/eclipse/swt/awt/*" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT AWT/gtk"/>
+	<!-- org\eclipse\swt\browser\AuthenticationEvent.java
+	     org\eclipse\swt\browser\AuthenticationListener.java
+	     org\eclipse\swt\browser\Browser.java
+	     org\eclipse\swt\browser\BrowserFunction.java
+	     org\eclipse\swt\browser\CloseWindowListener.java
+	     org\eclipse\swt\browser\LocationAdapter.java
+	     org\eclipse\swt\browser\LocationEvent.java
+	     org\eclipse\swt\browser\LocationListener.java
+	     org\eclipse\swt\browser\OpenWindowListener.java
+	     org\eclipse\swt\browser\ProgressAdapter.java
+	     org\eclipse\swt\browser\ProgressEvent.java
+	     org\eclipse\swt\browser\ProgressListener.java
+	     org\eclipse\swt\browser\StatusTextEvent.java
+	     org\eclipse\swt\browser\StatusTextListener.java
+	     org\eclipse\swt\browser\TitleEvent.java
+	     org\eclipse\swt\browser\TitleListener.java
+	     org\eclipse\swt\browser\VisibilityWindowAdapter.java
+	     org\eclipse\swt\browser\VisibilityWindowListener.java
+	     org\eclipse\swt\browser\WindowEvent.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Browser/common"/>
+	<!-- org\eclipse\swt\custom\AnimatedProgress.java
+	     org\eclipse\swt\custom\BidiSegmentEvent.java
+	     org\eclipse\swt\custom\BidiSegmentListener.java
+	     org\eclipse\swt\custom\Bullet.java
+	     org\eclipse\swt\custom\BusyIndicator.java
+	     org\eclipse\swt\custom\CaretEvent.java
+	     org\eclipse\swt\custom\CaretListener.java
+	     org\eclipse\swt\custom\CBanner.java
+	     org\eclipse\swt\custom\CCombo.java
+	     org\eclipse\swt\custom\CLabel.java
+	     org\eclipse\swt\custom\ControlEditor.java
+	     org\eclipse\swt\custom\CTabFolder.java
+	     org\eclipse\swt\custom\CTabFolder2Adapter.java
+	     org\eclipse\swt\custom\CTabFolder2Listener.java
+	     org\eclipse\swt\custom\CTabFolderAdapter.java
+	     org\eclipse\swt\custom\CTabFolderEvent.java
+	     org\eclipse\swt\custom\CTabFolderListener.java
+	     org\eclipse\swt\custom\CTabFolderRenderer.java
+	     org\eclipse\swt\custom\CTabItem.java
+	     org\eclipse\swt\custom\ExtendedModifyEvent.java
+	     org\eclipse\swt\custom\ExtendedModifyListener.java
+	     org\eclipse\swt\custom\LineBackgroundEvent.java
+	     org\eclipse\swt\custom\LineBackgroundListener.java
+	     org\eclipse\swt\custom\LineStyleEvent.java
+	     org\eclipse\swt\custom\LineStyleListener.java
+	     org\eclipse\swt\custom\MovementEvent.java
+	     org\eclipse\swt\custom\MovementListener.java
+	     org\eclipse\swt\custom\PaintObjectEvent.java
+	     org\eclipse\swt\custom\PaintObjectListener.java
+	     org\eclipse\swt\custom\PopupList.java
+	     org\eclipse\swt\custom\SashForm.java
+	     org\eclipse\swt\custom\ScrolledComposite.java
+	     org\eclipse\swt\custom\ST.java
+	     org\eclipse\swt\custom\StackLayout.java
+	     org\eclipse\swt\custom\StyledText.java
+	     org\eclipse\swt\custom\StyledTextContent.java
+	     org\eclipse\swt\custom\StyledTextDropTargetEffect.java
+	     org\eclipse\swt\custom\StyledTextPrintOptions.java
+	     org\eclipse\swt\custom\StyleRange.java
+	     org\eclipse\swt\custom\TableCursor.java
+	     org\eclipse\swt\custom\TableEditor.java
+	     org\eclipse\swt\custom\TableTree.java
+	     org\eclipse\swt\custom\TableTreeEditor.java
+	     org\eclipse\swt\custom\TableTreeItem.java
+	     org\eclipse\swt\custom\TextChangedEvent.java
+	     org\eclipse\swt\custom\TextChangeListener.java
+	     org\eclipse\swt\custom\TextChangingEvent.java
+	     org\eclipse\swt\custom\TreeCursor.java
+	     org\eclipse\swt\custom\TreeEditor.java
+	     org\eclipse\swt\custom\VerifyKeyListener.java
+	     org\eclipse\swt\custom\ViewForm.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Custom Widgets/common"/>
+	<!-- org\eclipse\swt\dnd\DND.java
+	     org\eclipse\swt\dnd\DragSourceAdapter.java
+	     org\eclipse\swt\dnd\DragSourceEffect.java
+	     org\eclipse\swt\dnd\DragSourceEvent.java
+	     org\eclipse\swt\dnd\DragSourceListener.java
+	     org\eclipse\swt\dnd\DropTargetAdapter.java
+	     org\eclipse\swt\dnd\DropTargetEffect.java
+	     org\eclipse\swt\dnd\DropTargetEvent.java
+	     org\eclipse\swt\dnd\DropTargetListener.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Drag and Drop/common"/>
+	<!-- org\eclipse\swt\dnd\ByteArrayTransfer.java
+	     org\eclipse\swt\dnd\Clipboard.java
+	     org\eclipse\swt\dnd\DragSource.java
+	     org\eclipse\swt\dnd\DropTarget.java
+	     org\eclipse\swt\dnd\FileTransfer.java
+	     org\eclipse\swt\dnd\HTMLTransfer.java
+	     org\eclipse\swt\dnd\ImageTransfer.java
+	     org\eclipse\swt\dnd\RTFTransfer.java
+	     org\eclipse\swt\dnd\TableDragSourceEffect.java
+	     org\eclipse\swt\dnd\TableDropTargetEffect.java
+	     org\eclipse\swt\dnd\TextTransfer.java
+	     org\eclipse\swt\dnd\Transfer.java
+	     org\eclipse\swt\dnd\TransferData.java
+	     org\eclipse\swt\dnd\TreeDragSourceEffect.java
+	     org\eclipse\swt\dnd\TreeDropTargetEffect.java
+	     org\eclipse\swt\dnd\URLTransfer.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Drag and Drop/gtk"/>
+	<!-- org\eclipse\swt\internal\mozilla\IIDStore.java
+	     org\eclipse\swt\internal\mozilla\init\GREProperty.java
+	     org\eclipse\swt\internal\mozilla\init\GREVersionRange.java
+	     org\eclipse\swt\internal\mozilla\init\XPCOMInit.java
+	     org\eclipse\swt\internal\mozilla\MozillaVersion.java
+	     org\eclipse\swt\internal\mozilla\nsDynamicFunctionLoad.java
+	     org\eclipse\swt\internal\mozilla\nsEmbedString.java
+	     org\eclipse\swt\internal\mozilla\nsIAppShell.java
+	     org\eclipse\swt\internal\mozilla\nsIAuthInformation.java
+	     org\eclipse\swt\internal\mozilla\nsIBaseWindow.java
+	     org\eclipse\swt\internal\mozilla\nsICancelable.java
+	     org\eclipse\swt\internal\mozilla\nsICategoryManager.java
+	     org\eclipse\swt\internal\mozilla\nsICertificateDialogs.java
+	     org\eclipse\swt\internal\mozilla\nsICertOverrideService.java
+	     org\eclipse\swt\internal\mozilla\nsIChannel.java
+	     org\eclipse\swt\internal\mozilla\nsIClassInfo.java
+	     org\eclipse\swt\internal\mozilla\nsIComponentManager.java
+	     org\eclipse\swt\internal\mozilla\nsIComponentRegistrar.java
+	     org\eclipse\swt\internal\mozilla\nsICookie.java
+	     org\eclipse\swt\internal\mozilla\nsICookieManager.java
+	     org\eclipse\swt\internal\mozilla\nsICookieService.java
+	     org\eclipse\swt\internal\mozilla\nsID.java
+	     org\eclipse\swt\internal\mozilla\nsIDataType.java
+	     org\eclipse\swt\internal\mozilla\nsIDocShell.java
+	     org\eclipse\swt\internal\mozilla\nsIDOMDocument.java
+	     org\eclipse\swt\internal\mozilla\nsIDOMEvent.java
+	     org\eclipse\swt\internal\mozilla\nsIDOMEventTarget.java
+	     org\eclipse\swt\internal\mozilla\nsIDOMKeyEvent.java
+	     org\eclipse\swt\internal\mozilla\nsIDOMMouseEvent.java
+	     org\eclipse\swt\internal\mozilla\nsIDOMNode.java
+	     org\eclipse\swt\internal\mozilla\nsIDOMSerializer.java
+	     org\eclipse\swt\internal\mozilla\nsIDOMUIEvent.java
+	     org\eclipse\swt\internal\mozilla\nsIDOMWindow.java
+	     org\eclipse\swt\internal\mozilla\nsIDOMWindowCollection.java
+	     org\eclipse\swt\internal\mozilla\nsIEmbeddingSiteWindow.java
+	     org\eclipse\swt\internal\mozilla\nsIFile.java
+	     org\eclipse\swt\internal\mozilla\nsIFilePicker.java
+	     org\eclipse\swt\internal\mozilla\nsIFocusManager.java
+	     org\eclipse\swt\internal\mozilla\nsIHelperAppLauncher.java
+	     org\eclipse\swt\internal\mozilla\nsIHelperAppLauncher_1_8.java
+	     org\eclipse\swt\internal\mozilla\nsIHttpChannel.java
+	     org\eclipse\swt\internal\mozilla\nsIInputStream.java
+	     org\eclipse\swt\internal\mozilla\nsIInterfaceRequestor.java
+	     org\eclipse\swt\internal\mozilla\nsIIOService.java
+	     org\eclipse\swt\internal\mozilla\nsIJSContextStack.java
+	     org\eclipse\swt\internal\mozilla\nsILocalFile.java
+	     org\eclipse\swt\internal\mozilla\nsIMemory.java
+	     org\eclipse\swt\internal\mozilla\nsIMIMEInputStream.java
+	     org\eclipse\swt\internal\mozilla\nsIObserverService.java
+	     org\eclipse\swt\internal\mozilla\nsIPrefBranch.java
+	     org\eclipse\swt\internal\mozilla\nsIPrefLocalizedString.java
+	     org\eclipse\swt\internal\mozilla\nsIPrefService.java
+	     org\eclipse\swt\internal\mozilla\nsIPrincipal.java
+	     org\eclipse\swt\internal\mozilla\nsIPrompt.java
+	     org\eclipse\swt\internal\mozilla\nsIPromptService.java
+	     org\eclipse\swt\internal\mozilla\nsIProperties.java
+	     org\eclipse\swt\internal\mozilla\nsIRequest.java
+	     org\eclipse\swt\internal\mozilla\nsIScriptContext.java
+	     org\eclipse\swt\internal\mozilla\nsIScriptGlobalObject.java
+	     org\eclipse\swt\internal\mozilla\nsIScriptSecurityManager.java
+	     org\eclipse\swt\internal\mozilla\nsISeekableStream.java
+	     org\eclipse\swt\internal\mozilla\nsISerializable.java
+	     org\eclipse\swt\internal\mozilla\nsIServiceManager.java
+	     org\eclipse\swt\internal\mozilla\nsISimpleEnumerator.java
+	     org\eclipse\swt\internal\mozilla\nsISSLStatus.java
+	     org\eclipse\swt\internal\mozilla\nsISupports.java
+	     org\eclipse\swt\internal\mozilla\nsITransfer.java
+	     org\eclipse\swt\internal\mozilla\nsIUploadChannel.java
+	     org\eclipse\swt\internal\mozilla\nsIURI.java
+	     org\eclipse\swt\internal\mozilla\nsIVariant.java
+	     org\eclipse\swt\internal\mozilla\nsIWebBrowser.java
+	     org\eclipse\swt\internal\mozilla\nsIWebBrowserChrome.java
+	     org\eclipse\swt\internal\mozilla\nsIWebBrowserFocus.java
+	     org\eclipse\swt\internal\mozilla\nsIWebBrowserSetup.java
+	     org\eclipse\swt\internal\mozilla\nsIWebBrowserStream.java
+	     org\eclipse\swt\internal\mozilla\nsIWebNavigation.java
+	     org\eclipse\swt\internal\mozilla\nsIWebNavigationInfo.java
+	     org\eclipse\swt\internal\mozilla\nsIWebProgress.java
+	     org\eclipse\swt\internal\mozilla\nsIWebProgressListener.java
+	     org\eclipse\swt\internal\mozilla\nsIWebProgressListener2.java
+	     org\eclipse\swt\internal\mozilla\nsIWindowWatcher.java
+	     org\eclipse\swt\internal\mozilla\nsIWritableVariant.java
+	     org\eclipse\swt\internal\mozilla\nsIX509Cert.java
+	     org\eclipse\swt\internal\mozilla\nsIX509CertValidity.java
+	     org\eclipse\swt\internal\mozilla\nsIXPConnect.java
+	     org\eclipse\swt\internal\mozilla\nsIXPCSecurityManager.java
+	     org\eclipse\swt\internal\mozilla\XPCOM.java
+	     org\eclipse\swt\internal\mozilla\XPCOMObject.java -->
+	<classpathentry including="org/eclipse/swt/internal/mozilla/*|org/eclipse/swt/internal/mozilla/init/*" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Mozilla/common"/>
+	<!-- org\eclipse\swt\opengl\GLData.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT OpenGL/common"/>
+	<!-- org\eclipse\swt\internal\opengl\glx\GLX.java
+	     org\eclipse\swt\internal\opengl\glx\XVisualInfo.java -->
+	<classpathentry including="org/eclipse/swt/internal/opengl/glx/*" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT OpenGL/glx"/>
+	<!-- org\eclipse\swt\opengl\GLCanvas.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT OpenGL/gtk"/>
+	<!-- org\eclipse\swt\internal\cairo\Cairo.java
+	     org\eclipse\swt\internal\cairo\cairo_path_data_t.java
+	     org\eclipse\swt\internal\cairo\cairo_path_t.java -->
+	<classpathentry including="org/eclipse/swt/internal/cairo/*" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT PI/cairo"/>
+	<!-- org\eclipse\swt\internal\C.java
+	     org\eclipse\swt\internal\LONG.java -->
+	<classpathentry including="org/eclipse/swt/internal/*" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT PI/common"/>
+	<!-- org\eclipse\swt\internal\Library.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT PI/common_j2se"/>
+	<!-- org\eclipse\swt\internal\accessibility\gtk\ATK.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkActionIface.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkAttribute.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkComponentIface.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkEditableTextIface.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkHypertextIface.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkObjectClass.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkObjectFactoryClass.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkSelectionIface.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkTableIface.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkTextIface.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkTextRange.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkTextRectangle.java
+	     org\eclipse\swt\internal\accessibility\gtk\AtkValueIface.java
+	     org\eclipse\swt\internal\accessibility\gtk\GtkAccessible.java
+	     org\eclipse\swt\internal\gtk\GdkColor.java
+	     org\eclipse\swt\internal\gtk\GdkDragContext.java
+	     org\eclipse\swt\internal\gtk\GdkEvent.java
+	     org\eclipse\swt\internal\gtk\GdkEventAny.java
+	     org\eclipse\swt\internal\gtk\GdkEventButton.java
+	     org\eclipse\swt\internal\gtk\GdkEventCrossing.java
+	     org\eclipse\swt\internal\gtk\GdkEventExpose.java
+	     org\eclipse\swt\internal\gtk\GdkEventFocus.java
+	     org\eclipse\swt\internal\gtk\GdkEventKey.java
+	     org\eclipse\swt\internal\gtk\GdkEventMotion.java
+	     org\eclipse\swt\internal\gtk\GdkEventProperty.java
+	     org\eclipse\swt\internal\gtk\GdkEventScroll.java
+	     org\eclipse\swt\internal\gtk\GdkEventVisibility.java
+	     org\eclipse\swt\internal\gtk\GdkEventWindowState.java
+	     org\eclipse\swt\internal\gtk\GdkGCValues.java
+	     org\eclipse\swt\internal\gtk\GdkGeometry.java
+	     org\eclipse\swt\internal\gtk\GdkImage.java
+	     org\eclipse\swt\internal\gtk\GdkRectangle.java
+	     org\eclipse\swt\internal\gtk\GdkRGBA.java
+	     org\eclipse\swt\internal\gtk\GdkVisual.java
+	     org\eclipse\swt\internal\gtk\GdkWindowAttr.java
+	     org\eclipse\swt\internal\gtk\GInterfaceInfo.java
+	     org\eclipse\swt\internal\gtk\GObjectClass.java
+	     org\eclipse\swt\internal\gtk\GtkAdjustment.java
+	     org\eclipse\swt\internal\gtk\GtkAllocation.java
+	     org\eclipse\swt\internal\gtk\GtkBorder.java
+	     org\eclipse\swt\internal\gtk\GtkCellRendererClass.java
+	     org\eclipse\swt\internal\gtk\GtkColorSelectionDialog.java
+	     org\eclipse\swt\internal\gtk\GtkFixed.java
+	     org\eclipse\swt\internal\gtk\GtkRequisition.java
+	     org\eclipse\swt\internal\gtk\GtkSelectionData.java
+	     org\eclipse\swt\internal\gtk\GtkTargetEntry.java
+	     org\eclipse\swt\internal\gtk\GtkWidgetClass.java
+	     org\eclipse\swt\internal\gtk\GTypeInfo.java
+	     org\eclipse\swt\internal\gtk\GTypeQuery.java
+	     org\eclipse\swt\internal\gtk\OS.java
+	     org\eclipse\swt\internal\gtk\PangoAttrColor.java
+	     org\eclipse\swt\internal\gtk\PangoAttribute.java
+	     org\eclipse\swt\internal\gtk\PangoAttrInt.java
+	     org\eclipse\swt\internal\gtk\PangoItem.java
+	     org\eclipse\swt\internal\gtk\PangoLayoutLine.java
+	     org\eclipse\swt\internal\gtk\PangoLayoutRun.java
+	     org\eclipse\swt\internal\gtk\PangoLogAttr.java
+	     org\eclipse\swt\internal\gtk\PangoRectangle.java
+	     org\eclipse\swt\internal\gtk\XAnyEvent.java
+	     org\eclipse\swt\internal\gtk\XEvent.java
+	     org\eclipse\swt\internal\gtk\XExposeEvent.java
+	     org\eclipse\swt\internal\gtk\XFocusChangeEvent.java
+	     org\eclipse\swt\internal\gtk\XRenderPictureAttributes.java
+	     org\eclipse\swt\internal\gtk\XVisibilityEvent.java
+	     org\eclipse\swt\internal\gtk\XWindowChanges.java
+	     org\eclipse\swt\internal\Lock.java
+	     org\eclipse\swt\internal\Platform.java -->
+	<classpathentry including="org/eclipse/swt/internal/*|org/eclipse/swt/internal/accessibility/gtk/*|org/eclipse/swt/internal/gtk/*" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT PI/gtk"/>
+	<!-- org\eclipse\swt\printing\PrinterData.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Printing/common"/>
+	<!-- org\eclipse\swt\printing\PrintDialog.java
+	     org\eclipse\swt\printing\Printer.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Printing/gtk"/>
+	<!-- org\eclipse\swt\internal\cde\CDE.java
+	     org\eclipse\swt\internal\cde\DtActionArg.java -->
+	<classpathentry including="org/eclipse/swt/internal/cde/*" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Program/cde"/>
+	<!-- org\eclipse\swt\internal\gnome\GNOME.java
+	     org\eclipse\swt\internal\gnome\GnomeVFSMimeApplication.java -->
+	<classpathentry including="org/eclipse/swt/internal/gnome/*" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Program/gnome"/>
+	<!-- org\eclipse\swt\program\Program.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Program/gtk"/>
+	<!-- org\eclipse\swt\internal\theme\ButtonDrawData.java
+	     org\eclipse\swt\internal\theme\ComboDrawData.java
+	     org\eclipse\swt\internal\theme\DrawData.java
+	     org\eclipse\swt\internal\theme\ExpanderDrawData.java
+	     org\eclipse\swt\internal\theme\GroupDrawData.java
+	     org\eclipse\swt\internal\theme\ProgressBarDrawData.java
+	     org\eclipse\swt\internal\theme\RangeDrawData.java
+	     org\eclipse\swt\internal\theme\ScaleDrawData.java
+	     org\eclipse\swt\internal\theme\ScrollBarDrawData.java
+	     org\eclipse\swt\internal\theme\TabFolderDrawData.java
+	     org\eclipse\swt\internal\theme\TabItemDrawData.java
+	     org\eclipse\swt\internal\theme\Theme.java
+	     org\eclipse\swt\internal\theme\ToolBarDrawData.java
+	     org\eclipse\swt\internal\theme\ToolItemDrawData.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Theme/gtk"/>
+	<!-- org\eclipse\swt\internal\webkit\JSClassDefinition.java
+	     org\eclipse\swt\internal\webkit\WebKitGTK.java -->
+	<classpathentry including="org/eclipse/swt/internal/webkit/*" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT WebKit/gtk"/>
+	<!-- org\eclipse\swt\graphics\Path.java
+	     org\eclipse\swt\graphics\Pattern.java
+	     org\eclipse\swt\graphics\Transform.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT/cairo"/>
+	<!-- org\eclipse\swt\events\ArmEvent.java
+	     org\eclipse\swt\events\ArmListener.java
+	     org\eclipse\swt\events\ControlAdapter.java
+	     org\eclipse\swt\events\ControlEvent.java
+	     org\eclipse\swt\events\ControlListener.java
+	     org\eclipse\swt\events\DisposeEvent.java
+	     org\eclipse\swt\events\DisposeListener.java
+	     org\eclipse\swt\events\DragDetectEvent.java
+	     org\eclipse\swt\events\DragDetectListener.java
+	     org\eclipse\swt\events\ExpandAdapter.java
+	     org\eclipse\swt\events\ExpandEvent.java
+	     org\eclipse\swt\events\ExpandListener.java
+	     org\eclipse\swt\events\FocusAdapter.java
+	     org\eclipse\swt\events\FocusEvent.java
+	     org\eclipse\swt\events\FocusListener.java
+	     org\eclipse\swt\events\GestureEvent.java
+	     org\eclipse\swt\events\GestureListener.java
+	     org\eclipse\swt\events\HelpEvent.java
+	     org\eclipse\swt\events\HelpListener.java
+	     org\eclipse\swt\events\KeyAdapter.java
+	     org\eclipse\swt\events\KeyEvent.java
+	     org\eclipse\swt\events\KeyListener.java
+	     org\eclipse\swt\events\MenuAdapter.java
+	     org\eclipse\swt\events\MenuDetectEvent.java
+	     org\eclipse\swt\events\MenuDetectListener.java
+	     org\eclipse\swt\events\MenuEvent.java
+	     org\eclipse\swt\events\MenuListener.java
+	     org\eclipse\swt\events\ModifyEvent.java
+	     org\eclipse\swt\events\ModifyListener.java
+	     org\eclipse\swt\events\MouseAdapter.java
+	     org\eclipse\swt\events\MouseEvent.java
+	     org\eclipse\swt\events\MouseListener.java
+	     org\eclipse\swt\events\MouseMoveListener.java
+	     org\eclipse\swt\events\MouseTrackAdapter.java
+	     org\eclipse\swt\events\MouseTrackListener.java
+	     org\eclipse\swt\events\MouseWheelListener.java
+	     org\eclipse\swt\events\PaintEvent.java
+	     org\eclipse\swt\events\PaintListener.java
+	     org\eclipse\swt\events\SegmentEvent.java
+	     org\eclipse\swt\events\SegmentListener.java
+	     org\eclipse\swt\events\SelectionAdapter.java
+	     org\eclipse\swt\events\SelectionEvent.java
+	     org\eclipse\swt\events\SelectionListener.java
+	     org\eclipse\swt\events\ShellAdapter.java
+	     org\eclipse\swt\events\ShellEvent.java
+	     org\eclipse\swt\events\ShellListener.java
+	     org\eclipse\swt\events\TouchEvent.java
+	     org\eclipse\swt\events\TouchListener.java
+	     org\eclipse\swt\events\TraverseEvent.java
+	     org\eclipse\swt\events\TraverseListener.java
+	     org\eclipse\swt\events\TreeAdapter.java
+	     org\eclipse\swt\events\TreeEvent.java
+	     org\eclipse\swt\events\TreeListener.java
+	     org\eclipse\swt\events\TypedEvent.java
+	     org\eclipse\swt\events\VerifyEvent.java
+	     org\eclipse\swt\events\VerifyListener.java
+	     org\eclipse\swt\graphics\Drawable.java
+	     org\eclipse\swt\graphics\GlyphMetrics.java
+	     org\eclipse\swt\graphics\ImageData.java
+	     org\eclipse\swt\graphics\ImageLoader.java
+	     org\eclipse\swt\graphics\ImageLoaderEvent.java
+	     org\eclipse\swt\graphics\ImageLoaderListener.java
+	     org\eclipse\swt\graphics\LineAttributes.java
+	     org\eclipse\swt\graphics\PaletteData.java
+	     org\eclipse\swt\graphics\PathData.java
+	     org\eclipse\swt\graphics\Point.java
+	     org\eclipse\swt\graphics\Rectangle.java
+	     org\eclipse\swt\graphics\Resource.java
+	     org\eclipse\swt\graphics\RGB.java
+	     org\eclipse\swt\graphics\TextStyle.java
+	     org\eclipse\swt\internal\Callback.java
+	     org\eclipse\swt\internal\image\FileFormat.java
+	     org\eclipse\swt\internal\image\GIFFileFormat.java
+	     org\eclipse\swt\internal\image\JPEGDecoder.java
+	     org\eclipse\swt\internal\image\JPEGFileFormat.java
+	     org\eclipse\swt\internal\image\OS2BMPFileFormat.java
+	     org\eclipse\swt\internal\image\PngChunkReader.java
+	     org\eclipse\swt\internal\image\PngDecodingDataStream.java
+	     org\eclipse\swt\internal\image\PngDeflater.java
+	     org\eclipse\swt\internal\image\PNGFileFormat.java
+	     org\eclipse\swt\internal\image\PngHuffmanTable.java
+	     org\eclipse\swt\internal\image\PngHuffmanTables.java
+	     org\eclipse\swt\internal\image\PngInputStream.java
+	     org\eclipse\swt\internal\image\PngLzBlockReader.java
+	     org\eclipse\swt\internal\image\PngTrnsChunk.java
+	     org\eclipse\swt\internal\image\TIFFFileFormat.java
+	     org\eclipse\swt\internal\image\WinBMPFileFormat.java
+	     org\eclipse\swt\internal\image\WinICOFileFormat.java
+	     org\eclipse\swt\layout\FillLayout.java
+	     org\eclipse\swt\layout\FormAttachment.java
+	     org\eclipse\swt\layout\FormData.java
+	     org\eclipse\swt\layout\FormLayout.java
+	     org\eclipse\swt\layout\GridData.java
+	     org\eclipse\swt\layout\GridLayout.java
+	     org\eclipse\swt\layout\RowData.java
+	     org\eclipse\swt\layout\RowLayout.java
+	     org\eclipse\swt\SWT.java
+	     org\eclipse\swt\SWTError.java
+	     org\eclipse\swt\SWTException.java
+	     org\eclipse\swt\widgets\Dialog.java
+	     org\eclipse\swt\widgets\Event.java
+	     org\eclipse\swt\widgets\Item.java
+	     org\eclipse\swt\widgets\Layout.java
+	     org\eclipse\swt\widgets\Listener.java
+	     org\eclipse\swt\widgets\Monitor.java
+	     org\eclipse\swt\widgets\Synchronizer.java
+	     org\eclipse\swt\widgets\Touch.java
+	     org\eclipse\swt\widgets\TouchSource.java
+	     org\eclipse\swt\widgets\Tray.java
+	     org\eclipse\swt\widgets\TypedListener.java
+	     version.txt -->
+	<classpathentry including="org/eclipse/swt/*|org/eclipse/swt/events/*|org/eclipse/swt/graphics/*|org/eclipse/swt/internal/*|org/eclipse/swt/internal/image/*|org/eclipse/swt/layout/*|org/eclipse/swt/widgets/*|version.txt" kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT/common"/>
+	<!-- org\eclipse\swt\internal\CloneableCompatibility.java
+	     org\eclipse\swt\internal\Compatibility.java
+	     org\eclipse\swt\internal\SerializableCompatibility.java
+	     org\eclipse\swt\internal\SWTEventListener.java
+	     org\eclipse\swt\internal\SWTEventObject.java
+	     org\eclipse\swt\internal\SWTMessages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT/common_j2se"/>
+	<!-- org\eclipse\swt\internal\BidiUtil.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT/emulated/bidi"/>
+	<!-- org\eclipse\swt\widgets\CoolBar.java
+	     org\eclipse\swt\widgets\CoolItem.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT/emulated/coolbar"/>
+	<!-- org\eclipse\swt\widgets\TaskBar.java
+	     org\eclipse\swt\widgets\TaskItem.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT/emulated/taskbar"/>
+	<!-- org\eclipse\swt\graphics\Color.java
+	     org\eclipse\swt\graphics\Cursor.java
+	     org\eclipse\swt\graphics\Device.java
+	     org\eclipse\swt\graphics\DeviceData.java
+	     org\eclipse\swt\graphics\Font.java
+	     org\eclipse\swt\graphics\FontData.java
+	     org\eclipse\swt\graphics\FontMetrics.java
+	     org\eclipse\swt\graphics\GC.java
+	     org\eclipse\swt\graphics\GCData.java
+	     org\eclipse\swt\graphics\Image.java
+	     org\eclipse\swt\graphics\Region.java
+	     org\eclipse\swt\graphics\TextLayout.java
+	     org\eclipse\swt\internal\Converter.java
+	     org\eclipse\swt\internal\ImageList.java
+	     org\eclipse\swt\widgets\Button.java
+	     org\eclipse\swt\widgets\Canvas.java
+	     org\eclipse\swt\widgets\Caret.java
+	     org\eclipse\swt\widgets\ColorDialog.java
+	     org\eclipse\swt\widgets\Combo.java
+	     org\eclipse\swt\widgets\Composite.java
+	     org\eclipse\swt\widgets\Control.java
+	     org\eclipse\swt\widgets\DateTime.java
+	     org\eclipse\swt\widgets\Decorations.java
+	     org\eclipse\swt\widgets\DirectoryDialog.java
+	     org\eclipse\swt\widgets\Display.java
+	     org\eclipse\swt\widgets\ExpandBar.java
+	     org\eclipse\swt\widgets\ExpandItem.java
+	     org\eclipse\swt\widgets\FileDialog.java
+	     org\eclipse\swt\widgets\FontDialog.java
+	     org\eclipse\swt\widgets\Group.java
+	     org\eclipse\swt\widgets\IME.java
+	     org\eclipse\swt\widgets\Label.java
+	     org\eclipse\swt\widgets\Link.java
+	     org\eclipse\swt\widgets\List.java
+	     org\eclipse\swt\widgets\Menu.java
+	     org\eclipse\swt\widgets\MenuItem.java
+	     org\eclipse\swt\widgets\MessageBox.java
+	     org\eclipse\swt\widgets\ProgressBar.java
+	     org\eclipse\swt\widgets\Sash.java
+	     org\eclipse\swt\widgets\Scale.java
+	     org\eclipse\swt\widgets\Scrollable.java
+	     org\eclipse\swt\widgets\ScrollBar.java
+	     org\eclipse\swt\widgets\Shell.java
+	     org\eclipse\swt\widgets\Slider.java
+	     org\eclipse\swt\widgets\Spinner.java
+	     org\eclipse\swt\widgets\TabFolder.java
+	     org\eclipse\swt\widgets\TabItem.java
+	     org\eclipse\swt\widgets\Table.java
+	     org\eclipse\swt\widgets\TableColumn.java
+	     org\eclipse\swt\widgets\TableItem.java
+	     org\eclipse\swt\widgets\Text.java
+	     org\eclipse\swt\widgets\ToolBar.java
+	     org\eclipse\swt\widgets\ToolItem.java
+	     org\eclipse\swt\widgets\ToolTip.java
+	     org\eclipse\swt\widgets\Tracker.java
+	     org\eclipse\swt\widgets\TrayItem.java
+	     org\eclipse\swt\widgets\Tree.java
+	     org\eclipse\swt\widgets\TreeColumn.java
+	     org\eclipse\swt\widgets\TreeItem.java
+	     org\eclipse\swt\widgets\Widget.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.gtk.linux.x86_64.jar" path="org.eclipse.swt/Eclipse SWT/gtk"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.swt-org.eclipse.swt"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

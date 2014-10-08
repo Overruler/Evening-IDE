@@ -14,7 +14,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/clcl16/|icons/full/cview16/|icons/full/elcl16/|icons/full/eview16/|icons/full/obj16/|icons/full/ovr16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.navigator.resources.jar" path="org.eclipse.ui.navigator.resources"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/clcl16/*|icons/full/cview16/*|icons/full/elcl16/*|icons/full/eview16/*|icons/full/obj16/*|icons/full/ovr16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.navigator.resources.jar" path="org.eclipse.ui.navigator.resources"/>
 	<!-- org\eclipse\ui\internal\navigator\resources\actions\EditActionGroup.java
 	     org\eclipse\ui\internal\navigator\resources\actions\EditActionProvider.java
 	     org\eclipse\ui\internal\navigator\resources\actions\FoldersAsProjectsActionProvider.java

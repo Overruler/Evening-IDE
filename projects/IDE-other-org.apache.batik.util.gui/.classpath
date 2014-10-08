@@ -123,7 +123,7 @@
 	     org\apache\batik\util\gui\resources\text-html.png
 	     org\apache\batik\util\gui\resources\URIChooserMessages.properties
 	     org\apache\batik\util\gui\resources\UserStyleDialog.properties -->
-	<classpathentry including="org/apache/batik/util/gui/resources/|org/apache/batik/util/gui/resources/flags/" kind="src" output="bin/1/plugins/org.apache.batik.util.gui.jar" path="apache.batik/resources"/>
+	<classpathentry including="org/apache/batik/util/gui/resources/*|org/apache/batik/util/gui/resources/flags/*" kind="src" output="bin/1/plugins/org.apache.batik.util.gui.jar" path="apache.batik/resources"/>
 	<!-- org\apache\batik\util\gui\CSSMediaPanel.java
 	     org\apache\batik\util\gui\DropDownComponent.java
 	     org\apache\batik\util\gui\ExtendedGridBagConstraints.java
@@ -148,7 +148,7 @@
 	     org\apache\batik\util\gui\xmleditor\XMLTextEditor.java
 	     org\apache\batik\util\gui\xmleditor\XMLToken.java
 	     org\apache\batik\util\gui\xmleditor\XMLView.java -->
-	<classpathentry excluding="org/apache/batik/util/gui/xmleditor/XMLScanner.java" including="org/apache/batik/util/gui/|org/apache/batik/util/gui/resource/|org/apache/batik/util/gui/xmleditor/" kind="src" output="bin/1/plugins/org.apache.batik.util.gui.jar" path="apache.batik/sources"/>
+	<classpathentry excluding="org/apache/batik/util/gui/xmleditor/XMLScanner.java" including="org/apache/batik/util/gui/*|org/apache/batik/util/gui/resource/*|org/apache/batik/util/gui/xmleditor/*" kind="src" output="bin/1/plugins/org.apache.batik.util.gui.jar" path="apache.batik/sources"/>
 	<!-- about.html
 	     about_files\LICENSE-2.0.txt
 	     about_files\LICENSE.dom-software.txt

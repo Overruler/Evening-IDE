@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\component.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.event.jar" path="org.eclipse.equinox.event"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.event.jar" path="org.eclipse.equinox.event"/>
 	<!-- org\eclipse\equinox\internal\event\Activator.java
 	     org\eclipse\equinox\internal\event\EventAdminImpl.java
 	     org\eclipse\equinox\internal\event\EventAdminMsg.java

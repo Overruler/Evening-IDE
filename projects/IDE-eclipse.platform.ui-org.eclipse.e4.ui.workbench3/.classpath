@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench3.jar" path="org.eclipse.e4.ui.workbench3"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench3.jar" path="org.eclipse.e4.ui.workbench3"/>
 	<!-- org\eclipse\ui\testing\ContributionInfo.java
 	     org\eclipse\ui\testing\ITestHarness.java
 	     org\eclipse\ui\testing\IWorkbenchPartTestable.java

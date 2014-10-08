@@ -4,7 +4,7 @@
 	     about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.di.jar" path="org.eclipse.e4.core.di"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.di.jar" path="org.eclipse.e4.core.di"/>
 	<!-- org\eclipse\e4\core\di\annotations\CanExecute.java
 	     org\eclipse\e4\core\di\annotations\Creatable.java
 	     org\eclipse\e4\core\di\annotations\Execute.java

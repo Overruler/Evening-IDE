@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ltk.core.refactoring.jar" path="org.eclipse.ltk.core.refactoring"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ltk.core.refactoring.jar" path="org.eclipse.ltk.core.refactoring"/>
 	<!-- org\eclipse\ltk\core\refactoring\CategorizedTextEditGroup.java
 	     org\eclipse\ltk\core\refactoring\Change.java
 	     org\eclipse\ltk\core\refactoring\ChangeDescriptor.java

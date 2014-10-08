@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jsch.ui.jar" path="org.eclipse.jsch.ui"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jsch.ui.jar" path="org.eclipse.jsch.ui"/>
 	<!-- org\eclipse\jsch\internal\ui\authenticator\IHelpContextIds.java
 	     org\eclipse\jsch\internal\ui\authenticator\KeyboardInteractiveDialog.java
 	     org\eclipse\jsch\internal\ui\authenticator\UserValidationDialog.java

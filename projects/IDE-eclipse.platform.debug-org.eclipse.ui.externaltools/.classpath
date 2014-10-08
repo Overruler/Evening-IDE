@@ -21,7 +21,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="External Tools Base/|Program Tools Support/|.*|.*/" including="META-INF/|about.html|icons/full/dtool16/|icons/full/etool16/|icons/full/obj16/|icons/full/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.externaltools.jar" path="org.eclipse.ui.externaltools"/>
+	<classpathentry excluding="External Tools Base/|Program Tools Support/|.*|.*/" including="META-INF/*|about.html|icons/full/dtool16/*|icons/full/etool16/*|icons/full/obj16/*|icons/full/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.externaltools.jar" path="org.eclipse.ui.externaltools"/>
 	<!-- org\eclipse\ui\externaltools\internal\launchConfigurations\ExternalToolsBuilderTab.java
 	     org\eclipse\ui\externaltools\internal\launchConfigurations\ExternalToolsBuildTab.java
 	     org\eclipse\ui\externaltools\internal\launchConfigurations\ExternalToolsLaunchConfigurationMessages.java

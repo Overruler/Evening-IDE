@@ -33,7 +33,7 @@
 	     schema\setting_delegate.exsd
 	     schema\uri_mapping.exsd
 	     schema\validation_delegate.exsd -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|about.ini|about.mappings|about.properties|model/|modeling32.png|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.jar" path="org.eclipse.emf.ecore"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|about.mappings|about.properties|model/*|modeling32.png|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.jar" path="org.eclipse.emf.ecore"/>
 	<!-- org\eclipse\emf\ecore\EAnnotation.java
 	     org\eclipse\emf\ecore\EAttribute.java
 	     org\eclipse\emf\ecore\EClass.java
@@ -189,7 +189,7 @@
 	     org\eclipse\emf\ecore\xml\type\XMLTypeDocumentRoot.java
 	     org\eclipse\emf\ecore\xml\type\XMLTypeFactory.java
 	     org\eclipse\emf\ecore\xml\type\XMLTypePackage.java -->
-	<classpathentry including="org/eclipse/emf/ecore/|org/eclipse/emf/ecore/impl/|org/eclipse/emf/ecore/plugin/|org/eclipse/emf/ecore/resource/|org/eclipse/emf/ecore/resource/impl/|org/eclipse/emf/ecore/util/|org/eclipse/emf/ecore/xml/namespace/|org/eclipse/emf/ecore/xml/namespace/impl/|org/eclipse/emf/ecore/xml/namespace/util/|org/eclipse/emf/ecore/xml/type/|org/eclipse/emf/ecore/xml/type/impl/|org/eclipse/emf/ecore/xml/type/internal/|org/eclipse/emf/ecore/xml/type/util/" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.jar" path="org.eclipse.emf.ecore/src"/>
+	<classpathentry including="org/eclipse/emf/ecore/*|org/eclipse/emf/ecore/impl/*|org/eclipse/emf/ecore/plugin/*|org/eclipse/emf/ecore/resource/*|org/eclipse/emf/ecore/resource/impl/*|org/eclipse/emf/ecore/util/*|org/eclipse/emf/ecore/xml/namespace/*|org/eclipse/emf/ecore/xml/namespace/impl/*|org/eclipse/emf/ecore/xml/namespace/util/*|org/eclipse/emf/ecore/xml/type/*|org/eclipse/emf/ecore/xml/type/impl/*|org/eclipse/emf/ecore/xml/type/internal/*|org/eclipse/emf/ecore/xml/type/util/*" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.jar" path="org.eclipse.emf.ecore/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>

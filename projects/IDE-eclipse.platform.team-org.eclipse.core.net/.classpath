@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/|fragments/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.net.jar" path="org.eclipse.core.net"/>
+	<classpathentry excluding="src/|.*|.*/|fragments/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.net.jar" path="org.eclipse.core.net"/>
 	<!-- org\eclipse\core\internal\net\AbstractProxyProvider.java
 	     org\eclipse\core\internal\net\Activator.java
 	     org\eclipse\core\internal\net\Messages.java

@@ -11,7 +11,7 @@
 	     icons\progress\ani\8.png
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/progress/ani/|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.ui.forms.jar" path="org.eclipse.ui.forms"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/progress/ani/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.ui.forms.jar" path="org.eclipse.ui.forms"/>
 	<!-- org\eclipse\ui\forms\AbstractFormPart.java
 	     org\eclipse\ui\forms\DetailsPart.java
 	     org\eclipse\ui\forms\editor\FormEditor.java

@@ -24,29 +24,41 @@ import utils.lists.List;
 import utils.lists.Map;
 import utils.lists.Pair;
 import utils.lists.Paths;
+import utils.lists.PosixFilePermissions;
 import utils.streams.functions.ExDoubleConsumer;
 import utils.streams2.IOStream;
 
 public class MainBuildIDE {
+	private static final String DATE_PATTERN_LONG = "EEE MMM d HH':'mm':'ss zzz uuuu";
+	private static final String DATE_PATTERN_SHORT = "yyyyMMddHHmm";
 	private static final String ECLIPSE_INI = "eclipse.ini";
+	private static final String MACOS_ECLIPSE_INI = "Eclipse.app/Contents/MacOS/eclipse.ini";
 	private static final String CONFIG_INI = "configuration/config.ini";
 	private static final String BUNDLES_INFO = "configuration/org.eclipse.equinox.simpleconfigurator/bundles.info";
 	private static final String PLATFORM_XML = "configuration/org.eclipse.update/platform.xml";
 	private static final String SOURCE_INFO = "configuration/org.eclipse.equinox.source/source.info";
+	private static final String ORG_ECLIPSE_UI_IDE_PREFS = "configuration/.settings/org.eclipse.ui.ide.prefs";
 	private static final String ARTIFACTS_XML = "artifacts.xml";
 	private static final String DOT_ECLIPSEPRODUCT = ".eclipseproduct";
+	private static final String JVMARGS =
+		"p2/org.eclipse.equinox.p2.engine/profileRegistry/ECLIPSE_PROFILE_ID.profile/.data/org.eclipse.equinox.internal.p2.touchpoint.eclipse.actions/jvmargs";
 	private static final String PROFILE_GZ =
 		"p2/org.eclipse.equinox.p2.engine/profileRegistry/ECLIPSE_PROFILE_ID.profile/PROFILE_TIME.profile.gz/PROFILE_TIME.profile";
 	private static final String ECLIPSE_PRODUCT_ID = "org.eclipse.platform.ide";
 	private static final String ECLIPSE_PROFILE_ID = "SDKProfile";
+	private static final Locale ENGLISH = Locale.ENGLISH;
 	private static final Charset UTF8 = StandardCharsets.UTF_8;
+	private static final DateTimeFormatter DATE_SHORT = DateTimeFormatter.ofPattern(DATE_PATTERN_SHORT, ENGLISH);
+	private static final DateTimeFormatter DATE_LONG = DateTimeFormatter.ofPattern(DATE_PATTERN_LONG, ENGLISH);
 	private static final ZonedDateTime NOW = ZonedDateTime.now(ZoneId.of("UTC"));
-	private static final String TIMESTAMP = DateTimeFormatter.ofPattern("yyyyMMddHHmm", Locale.ENGLISH).format(NOW);
+	private static final String TIMESTAMP = DATE_SHORT.format(NOW);
 	private static final Map<String, String> ENV = environment();
 	private static final String FILES = ENV.getOrDefault("files", "");
 	private static final String BUILD_TYPE = ENV.getOrDefault("build", "test");
 	private static final String RUNNING = ENV.getOrDefault("running", "");
 	private static final String WORKSPACE = ENV.getOrDefault("workspace", "");
+	private static final String OSGI_OS = ENV.getOrDefault("osgios", "win32");
+	private static final String OSGI_WS = ENV.getOrDefault("osgiws", "win32");
 	private static final Path CURRENT_FOLDER = Paths.get("").toAbsolutePath();
 	private static final Path ROOT = CURRENT_FOLDER.getParent().getParent();
 	private static final Path IDE_ZIP = CURRENT_FOLDER.resolve("target/ide.zip");
@@ -91,9 +103,14 @@ public class MainBuildIDE {
 		try {
 			replacePlaceholders();
 			pluginToManifest = getPluginToManifest();
+			if(workspace != null) {
+				registerFile(ORG_ECLIPSE_UI_IDE_PREFS, orgEclipseUiIdePrefs(workspace), p2Modified);
+			}
+			registerFile(JVMARGS, jvmargs(), p2Modified);
 			registerFile(BUNDLES_INFO, bundlesInfo(), pluginsModified);
 			registerFile(CONFIG_INI, configIni(), platformModified);
-			registerFile(ECLIPSE_INI, eclipseIni(workspace), launcherModified);
+			registerFile(ECLIPSE_INI, eclipseIni(false), launcherModified);
+			registerFile(MACOS_ECLIPSE_INI, eclipseIni(true), launcherModified);
 			registerFile(PLATFORM_XML, platformXml(), featuresModified);
 			registerFile(SOURCE_INFO, sourceInfo(), sourceModified);
 			registerFile(ARTIFACTS_XML, artifactsXml(), p2Modified);
@@ -106,6 +123,18 @@ public class MainBuildIDE {
 			System.out.println("\nProbably transient error generating dynamic files: " + e.getMessage());
 			e.printStackTrace(System.out);
 		}
+	}
+	private static byte[] orgEclipseUiIdePrefs(String workspace) {
+		ArrayList<String> lines = new ArrayList<>();
+		String workspacePath = Paths.get(workspace).toString().replace("\\", "\\\\").replace(":", "\\:");
+		lines.add("MAX_RECENT_WORKSPACES=5");
+		lines.add("RECENT_WORKSPACES=" + workspacePath);
+		lines.add("RECENT_WORKSPACES_PROTOCOL=3");
+		lines.add("SHOW_WORKSPACE_SELECTION_DIALOG=false");
+		lines.add("eclipse.preferences.version=1");
+		lines.add("");
+		String orgEclipseUiIdePrefs = String.join("\n", lines);
+		return orgEclipseUiIdePrefs.getBytes(UTF8);
 	}
 	private static byte[] dotEclipseproduct() {
 		String buildID = getBundleVersion("org.eclipse.platform").replace(".qualifier", "");
@@ -178,66 +207,73 @@ public class MainBuildIDE {
 			suffix));
 		lines.add("\t\t</feature>");
 	}
-	private static byte[] eclipseIni(String workspace) {
+	private static byte[] eclipseIni(boolean insideEclipseApp) {
 		String launcher = getBundleFilename("org.eclipse.equinox.launcher");
-		String launcherLibrary = getBundleFilename("org.eclipse.equinox.launcher.win32.win32.x86_64");
+		String launcherName = "org.eclipse.equinox.launcher." + OSGI_OS + "." + OSGI_WS + ".x86_64";
+		String launcherLibrary = getBundleFilename(launcherName);
 		ArrayList<String> lines = new ArrayList<>();
 		Path jvmDLLPath = Paths.get(System.getProperty("java.home", "")).resolve("bin/server/jvm.dll");
+		String pluginsPath = insideEclipseApp ? "../../../plugins/" : "plugins/";
 		if(Files.isRegularFile(jvmDLLPath)) {
 			String jvmDLL = jvmDLLPath.toString();
 			lines.addAll("-vm", jvmDLL);
 		}
-		//		if(workspace != null) {
-		//			lines.addAll("-data", workspace);
-		//		}
-		lines.addAll(
-			"-startup",
-			"plugins/" + launcher,
-			"--launcher.library",
-			"plugins/" + launcherLibrary,
-			"-product",
-			ECLIPSE_PRODUCT_ID,
-			"--launcher.defaultAction",
-			"openFile",
-			"-showsplash",
-			"org.eclipse.platform",
-			"--launcher.defaultAction",
-			"openFile",
-			"--launcher.appendVmargs",
-			"-vmargs",
-			"-Dosgi.requiredJavaVersion=1.7",
-			"-Xms40m",
-			"-Xmx3500m",
-			"");
+		lines.add("-startup");
+		lines.add(pluginsPath + launcher);
+		lines.add("--launcher.library");
+		lines.add(pluginsPath + launcherLibrary);
+		lines.add("-product");
+		lines.add(ECLIPSE_PRODUCT_ID);
+		lines.add("--launcher.defaultAction");
+		lines.add("openFile");
+		lines.add("-showsplash");
+		lines.add("org.eclipse.platform");
+		lines.add("--launcher.defaultAction");
+		lines.add("openFile");
+		lines.add("--launcher.appendVmargs");
+		lines.add("-vmargs");
+		lines.add("-Dosgi.requiredJavaVersion=1.7");
+		lines.add("-Xms40m");
+		lines.add("-Xmx3500m");
+		if("macosx".equals(OSGI_OS)) {
+			if(insideEclipseApp) {
+				lines.add("-Xdock:icon=../Resources/Eclipse.icns");
+			} else {
+				lines.add("-Xdock:icon=Eclipse.app/Contents/Resources/Eclipse.icns");
+			}
+			lines.add("-XstartOnFirstThread");
+			lines.add("-Dorg.eclipse.swt.internal.carbon.smallFonts");
+		}
+		lines.add("");
 		String eclipseIni = String.join(System.lineSeparator(), lines);
 		return eclipseIni.getBytes(UTF8);
 	}
 	private static byte[] configIni() {
 		ZonedDateTime time = ZonedDateTime.ofInstant(platformModified, ZoneId.of("UTC"));
-		String date = DateTimeFormatter.ofPattern("EEE MMM d HH':'mm':'ss zzz uuuu", Locale.ENGLISH).format(time);
+		String date = DATE_LONG.format(time);
 		String osgi = getBundleFilename("org.eclipse.osgi");
-		String timestamp = DateTimeFormatter.ofPattern("yyyyMMddHHmm", Locale.ENGLISH).format(time);
+		String timestamp = DATE_SHORT.format(time);
 		String buildID = getBundleVersion("org.eclipse.platform").replace("qualifier", timestamp);
 		String simpleConfigurator = getBundleFilename("org.eclipse.equinox.simpleconfigurator");
 		String compatibilityState = getBundleFilename("org.eclipse.osgi.compatibility.state");
+		String documentsPath = "linux".equals(OSGI_OS) ? "" : "/Documents";
 		ArrayList<String> lines = new ArrayList<>();
-		lines.addAll(
-			"#This configuration file was written by: org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxFwConfigFileParser",
-			"#" + date,
-			"org.eclipse.update.reconcile=false",
-			"eclipse.p2.profile=" + ECLIPSE_PROFILE_ID,
-			"osgi.instance.area.default=@user.home/workspace",
-			"osgi.framework=file\\:plugins/" + osgi,
-			"equinox.use.ds=true",
-			"eclipse.buildId=" + buildID,
-			"osgi.bundles=reference\\:file\\:" + simpleConfigurator + "@1\\:start",
-			"org.eclipse.equinox.simpleconfigurator.configUrl=file\\:org.eclipse.equinox.simpleconfigurator/bundles.info",
-			"eclipse.product=" + ECLIPSE_PRODUCT_ID,
-			"osgi.splashPath=platform\\:/base/plugins/org.eclipse.platform",
-			"osgi.framework.extensions=reference\\:file\\:" + compatibilityState,
-			"eclipse.application=org.eclipse.ui.ide.workbench",
-			"eclipse.p2.data.area=@config.dir/../p2",
-			"osgi.bundles.defaultStartLevel=4");
+		lines.add("#This configuration file was written by: org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxFwConfigFileParser");
+		lines.add("#" + date);
+		lines.add("org.eclipse.update.reconcile=false");
+		lines.add("eclipse.p2.profile=" + ECLIPSE_PROFILE_ID);
+		lines.add("osgi.instance.area.default=@user.home" + documentsPath + "/workspace");
+		lines.add("osgi.framework=file\\:plugins/" + osgi);
+		lines.add("equinox.use.ds=true");
+		lines.add("eclipse.buildId=" + buildID);
+		lines.add("osgi.bundles=reference\\:file\\:" + simpleConfigurator + "@1\\:start");
+		lines.add("org.eclipse.equinox.simpleconfigurator.configUrl=file\\:org.eclipse.equinox.simpleconfigurator/bundles.info");
+		lines.add("eclipse.product=" + ECLIPSE_PRODUCT_ID);
+		lines.add("osgi.splashPath=platform\\:/base/plugins/org.eclipse.platform");
+		lines.add("osgi.framework.extensions=reference\\:file\\:" + compatibilityState);
+		lines.add("eclipse.application=org.eclipse.ui.ide.workbench");
+		lines.add("eclipse.p2.data.area=@config.dir/../p2");
+		lines.add("osgi.bundles.defaultStartLevel=4");
 		String configIni = String.join(System.lineSeparator(), lines);
 		return configIni.getBytes(UTF8);
 	}
@@ -273,6 +309,21 @@ public class MainBuildIDE {
 	}
 	private static void registerFile(String name, byte[] bytes, Instant modified) throws IOException {
 		snapshot.addFile(Paths.get(name), bytes, modified);
+	}
+	private static byte[] jvmargs() {
+		ArrayList<String> lines = new ArrayList<>();
+		String date = DATE_LONG.format(ZonedDateTime.ofInstant(p2Modified, ZoneId.of("UTC")));
+		lines.add("#" + date);
+		if("macosx".equals(OSGI_OS)) {
+			lines.add("-Xms=40m,40m");
+			lines.add("-Xmx=512m,512m");
+		} else {
+			lines.add("-Xms=40m");
+			lines.add("-Xmx=512m");
+		}
+		lines.add("");
+		String bundlesInfo = String.join("\n", lines);
+		return bundlesInfo.getBytes(UTF8);
 	}
 	private static byte[] bundlesInfo() {
 		ArrayList<String> lines = new ArrayList<>();
@@ -406,6 +457,17 @@ public class MainBuildIDE {
 			Files.walk(TARGET_IDE).forEach(p -> Files.setLastModifiedTime(p, epoch));
 		}
 		snapshot.write(TARGET_IDE, monitor("target"));
+		changePermissions("Eclipse.app/Contents/MacOS/eclipse", "rwxr-x---");
+		changePermissions("eclipse", "rwxr-xr-x");
+		changePermissions("icon.xpm", "rwxr-xr-x");
+	}
+	private static void changePermissions(String other, String permissions) {
+		Path path = TARGET_IDE.resolve(other);
+		if(Files.isRegularFile(path)) {
+			try {
+				Files.setPosixFilePermissions(path, PosixFilePermissions.fromString(permissions));
+			} catch(@SuppressWarnings("unused") IOException ignored) {}
+		}
 	}
 	private static Path remapP2(Path file) {
 		if(file.startsWith("p2/org.eclipse.equinox.p2.engine/profileRegistry") == false) {

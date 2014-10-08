@@ -32,7 +32,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|empty_swt.properties|icons/|icons/full/dlcl16/|icons/full/dtool16/|icons/full/elcl16/|icons/full/etool16/|invalidPage/|javascript/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.intro.jar" path="org.eclipse.ui.intro"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|empty_swt.properties|icons/*|icons/full/dlcl16/*|icons/full/dtool16/*|icons/full/elcl16/*|icons/full/etool16/*|invalidPage/*|javascript/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.intro.jar" path="org.eclipse.ui.intro"/>
 	<!-- org\eclipse\ui\internal\intro\impl\FontSelection.java
 	     org\eclipse\ui\internal\intro\impl\html\FormattedHTMLElement.java
 	     org\eclipse\ui\internal\intro\impl\html\HTMLElement.java

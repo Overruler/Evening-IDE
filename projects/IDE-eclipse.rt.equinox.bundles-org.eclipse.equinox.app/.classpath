@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|about_files/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.app.jar" path="org.eclipse.equinox.app"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about_files/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.app.jar" path="org.eclipse.equinox.app"/>
 	<!-- org\eclipse\equinox\app\IApplication.java
 	     org\eclipse\equinox\app\IApplicationContext.java
 	     org\eclipse\equinox\internal\app\Activator.java

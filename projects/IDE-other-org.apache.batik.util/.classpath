@@ -3,7 +3,7 @@
 	<!-- org\apache\batik\util\io\resources\Messages.properties
 	     org\apache\batik\util\resources\Messages.properties
 	     org\apache\batik\util\resources\XMLResourceDescriptor.properties -->
-	<classpathentry including="org/apache/batik/util/io/resources/|org/apache/batik/util/resources/" kind="src" output="bin/1/plugins/org.apache.batik.util.jar" path="apache.batik/resources"/>
+	<classpathentry including="org/apache/batik/util/io/resources/*|org/apache/batik/util/resources/*" kind="src" output="bin/1/plugins/org.apache.batik.util.jar" path="apache.batik/resources"/>
 	<!-- org\apache\batik\i18n\ExtendedLocalizable.java
 	     org\apache\batik\i18n\LocaleGroup.java
 	     org\apache\batik\i18n\Localizable.java
@@ -62,7 +62,7 @@
 	     org\apache\batik\util\XMLConstants.java
 	     org\apache\batik\util\XMLResourceDescriptor.java
 	     org\apache\batik\Version.java -->
-	<classpathentry including="org/apache/batik/|org/apache/batik/i18n/|org/apache/batik/util/|org/apache/batik/util/io/|org/apache/batik/util/resources/" kind="src" output="bin/1/plugins/org.apache.batik.util.jar" path="apache.batik/sources"/>
+	<classpathentry including="org/apache/batik/*|org/apache/batik/i18n/*|org/apache/batik/util/*|org/apache/batik/util/io/*|org/apache/batik/util/resources/*" kind="src" output="bin/1/plugins/org.apache.batik.util.jar" path="apache.batik/sources"/>
 	<!-- about.html
 	     about_files\LICENSE-2.0.txt
 	     about_files\LICENSE.dom-software.txt

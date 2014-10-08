@@ -22,7 +22,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/obj16/|icons/ovr16/|icons/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.ds.ui.jar" path="org.eclipse.pde.ds.ui"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/obj16/*|icons/ovr16/*|icons/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.ds.ui.jar" path="org.eclipse.pde.ds.ui"/>
 	<!-- org\eclipse\pde\internal\ds\ui\Activator.java
 	     org\eclipse\pde\internal\ds\ui\editor\contentassist\DSAttrCompletionProposal.java
 	     org\eclipse\pde\internal\ds\ui\editor\contentassist\DSCompletionProposal.java

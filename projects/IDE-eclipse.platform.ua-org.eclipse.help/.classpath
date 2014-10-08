@@ -17,7 +17,7 @@
 	     plugin.properties
 	     plugin.xml
 	     preferences.ini -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|about_files/|command_link.png|dtds/internal/|livehelp.js|plugin.properties|plugin.xml|preferences.ini" kind="src" output="bin/1/plugins/org.eclipse.help.jar" path="org.eclipse.help"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|about_files/*|command_link.png|dtds/internal/*|livehelp.js|plugin.properties|plugin.xml|preferences.ini" kind="src" output="bin/1/plugins/org.eclipse.help.jar" path="org.eclipse.help"/>
 	<!-- org\eclipse\help\AbstractContentExtensionProvider.java
 	     org\eclipse\help\AbstractContextProvider.java
 	     org\eclipse\help\AbstractCriteriaDefinitionProvider.java

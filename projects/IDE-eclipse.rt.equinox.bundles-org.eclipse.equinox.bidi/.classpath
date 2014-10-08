@@ -5,7 +5,7 @@
 	     plugin.properties
 	     plugin.xml
 	     schema\bidiTypes.exsd -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.equinox.bidi.jar" path="org.eclipse.equinox.bidi"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.equinox.bidi.jar" path="org.eclipse.equinox.bidi"/>
 	<!-- org\eclipse\equinox\bidi\advanced\IStructuredTextExpert.java
 	     org\eclipse\equinox\bidi\advanced\StructuredTextEnvironment.java
 	     org\eclipse\equinox\bidi\advanced\StructuredTextExpertFactory.java

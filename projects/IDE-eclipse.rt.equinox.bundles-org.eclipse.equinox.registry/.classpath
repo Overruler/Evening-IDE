@@ -7,7 +7,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|about_files/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.registry.jar" path="org.eclipse.equinox.registry"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|about_files/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.registry.jar" path="org.eclipse.equinox.registry"/>
 	<!-- org\eclipse\core\internal\adapter\AdapterManagerListener.java
 	     org\eclipse\core\internal\registry\BaseExtensionHandle.java
 	     org\eclipse\core\internal\registry\BaseExtensionPointHandle.java

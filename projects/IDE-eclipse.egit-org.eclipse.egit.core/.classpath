@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- .options
-	     about.html
+	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     META-INF\p2.inf
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.egit.core.jar" path="org.eclipse.egit.core"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.egit.core.jar" path="org.eclipse.egit.core"/>
 	<!-- org\eclipse\egit\core\Activator.java
 	     org\eclipse\egit\core\AdaptableFileTreeIterator.java
 	     org\eclipse\egit\core\AdapterUtils.java
@@ -34,6 +33,7 @@
 	     org\eclipse\egit\core\internal\ProjectReferenceImporter.java
 	     org\eclipse\egit\core\internal\rebase\RebaseInteractivePlan.java
 	     org\eclipse\egit\core\internal\storage\CommitBlobStorage.java
+	     org\eclipse\egit\core\internal\storage\CommitFileRevision.java
 	     org\eclipse\egit\core\internal\storage\GitFileHistoryProvider.java
 	     org\eclipse\egit\core\internal\storage\GitFileRevision.java
 	     org\eclipse\egit\core\internal\storage\IndexBlobStorage.java

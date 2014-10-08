@@ -6,7 +6,7 @@
 	     OSGI-INF\events.xml
 	     OSGI-INF\osgiBundle.xml
 	     OSGI-INF\preferences.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.di.extensions.jar" path="org.eclipse.e4.core.di.extensions"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.di.extensions.jar" path="org.eclipse.e4.core.di.extensions"/>
 	<!-- org\eclipse\e4\core\di\extensions\EventTopic.java
 	     org\eclipse\e4\core\di\extensions\EventUtils.java
 	     org\eclipse\e4\core\di\extensions\OSGiBundle.java

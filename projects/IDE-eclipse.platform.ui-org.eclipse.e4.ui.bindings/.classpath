@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\bindings.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.bindings.jar" path="org.eclipse.e4.ui.bindings"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.bindings.jar" path="org.eclipse.e4.ui.bindings"/>
 	<!-- org\eclipse\e4\ui\bindings\BindingServiceAddon.java
 	     org\eclipse\e4\ui\bindings\EBindingService.java
 	     org\eclipse\e4\ui\bindings\internal\BindingServiceCreationFunction.java

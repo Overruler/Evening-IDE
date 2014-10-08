@@ -25,7 +25,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/etool16/|icons/obj16/|icons/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.ua.ui.jar" path="org.eclipse.pde.ua.ui"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/etool16/*|icons/obj16/*|icons/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.ua.ui.jar" path="org.eclipse.pde.ua.ui"/>
 	<!-- org\eclipse\pde\internal\ua\ui\editor\cheatsheet\comp\actions\ActionsMessages.java
 	     org\eclipse\pde\internal\ua\ui\editor\cheatsheet\comp\actions\CompCSAbstractAddAction.java
 	     org\eclipse\pde\internal\ua\ui\editor\cheatsheet\comp\actions\CompCSAddGroupAction.java

@@ -19,7 +19,7 @@
 	     profiles\OSGi_Minimum-1.0.profile
 	     profiles\OSGi_Minimum-1.1.profile
 	     profiles\OSGi_Minimum-1.2.profile -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|profiles/" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.publisher.jar" path="org.eclipse.equinox.p2.publisher"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|profiles/*" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.publisher.jar" path="org.eclipse.equinox.p2.publisher"/>
 	<!-- org\eclipse\equinox\internal\p2\publisher\Activator.java
 	     org\eclipse\equinox\internal\p2\publisher\FileSetDescriptor.java
 	     org\eclipse\equinox\internal\p2\publisher\Messages.java

@@ -16,7 +16,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/dtool16/|icons/full/etool16/|icons/full/obj16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.editors.jar" path="org.eclipse.ui.editors"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/dtool16/*|icons/full/etool16/*|icons/full/obj16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.editors.jar" path="org.eclipse.ui.editors"/>
 	<!-- org\eclipse\ui\editors\text\ConstructedTextEditorMessages.properties
 	     org\eclipse\ui\editors\text\DefaultEncodingSupport.java
 	     org\eclipse\ui\editors\text\EditorsUI.java

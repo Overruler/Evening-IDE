@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|src_ant/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.resources.jar" path="org.eclipse.core.resources"/>
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.resources.jar" path="org.eclipse.core.resources"/>
 	<!-- org\eclipse\core\internal\dtree\AbstractDataTree.java
 	     org\eclipse\core\internal\dtree\AbstractDataTreeNode.java
 	     org\eclipse\core\internal\dtree\DataDeltaNode.java
@@ -278,7 +278,7 @@
 	     org\eclipse\core\resources\ant\messages.properties
 	     org\eclipse\core\resources\ant\Policy.java
 	     org\eclipse\core\resources\ant\RefreshLocalTask.java -->
-	<classpathentry including="org/eclipse/core/resources/ant/" kind="src" output="bin/2/plugins/org.eclipse.core.resources.jar/ant_tasks/resources-ant.jar" path="org.eclipse.core.resources/src_ant"/>
+	<classpathentry including="org/eclipse/core/resources/ant/*" kind="src" output="bin/2/plugins/org.eclipse.core.resources.jar/ant_tasks/resources-ant.jar" path="org.eclipse.core.resources/src_ant"/>
 	<!-- ant_tasks\resources-ant.jar\META-INF\MANIFEST.MF -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.resources.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

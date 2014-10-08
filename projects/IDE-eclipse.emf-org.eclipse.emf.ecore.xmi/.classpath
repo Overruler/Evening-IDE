@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.xmi.jar" path="org.eclipse.emf.ecore.xmi"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.xmi.jar" path="org.eclipse.emf.ecore.xmi"/>
 	<!-- org\eclipse\emf\ecore\xmi\ClassNotFoundException.java
 	     org\eclipse\emf\ecore\xmi\DanglingHREFException.java
 	     org\eclipse\emf\ecore\xmi\DOMHandler.java

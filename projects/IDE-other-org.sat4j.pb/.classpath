@@ -2,9 +2,7 @@
 <classpath>
 	<!-- META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/main/java/|.*|.*/|src/test/" including="META-INF/|plugin.properties" kind="src" output="bin/1/plugins/org.sat4j.pb.jar" path="org.sat4j.pb"/>
-	<!-- sat4j\pb\PseudoBitsAdderDecorator.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.sat4j.pb.jar/org" path="org.sat4j.pb.jar/org/x-miss-x"/> -->
+	<classpathentry excluding="src/main/java/|.*|.*/|src/test/" including="META-INF/*|plugin.properties" kind="src" output="bin/1/plugins/org.sat4j.pb.jar" path="org.sat4j.pb"/>
 	<!-- org\sat4j\pb\ConstraintRelaxingPseudoOptDecorator.java
 	     org\sat4j\pb\constraints\AbstractPBClauseCardConstrDataStructure.java
 	     org\sat4j\pb\constraints\AbstractPBDataStructureFactory.java
@@ -124,8 +122,9 @@
 	     org\sat4j\pb\tools\StringNegator.java
 	     org\sat4j\pb\tools\WeightedObject.java
 	     org\sat4j\pb\tools\XplainPB.java
-	     org\sat4j\pb\UserFriendlyPBStringSolver.java -->
-	<classpathentry excluding="overview.html" including="org/sat4j/pb/|org/sat4j/pb/constraints/|org/sat4j/pb/constraints/pb/|org/sat4j/pb/core/|org/sat4j/pb/orders/|org/sat4j/pb/reader/|org/sat4j/pb/tools/" kind="src" output="bin/1/plugins/org.sat4j.pb.jar" path="org.sat4j.pb/src/main/java"/>
+	     org\sat4j\pb\UserFriendlyPBStringSolver.java
+	     org\sat4j\pb\multiobjective\IMultiObjOptimizationProblem.java -->
+	<classpathentry excluding="overview.html" including="org/sat4j/pb/*|org/sat4j/pb/constraints/*|org/sat4j/pb/constraints/pb/*|org/sat4j/pb/core/*|org/sat4j/pb/multiobjective/*|org/sat4j/pb/orders/*|org/sat4j/pb/reader/*|org/sat4j/pb/tools/*" kind="src" output="bin/1/plugins/org.sat4j.pb.jar" path="org.sat4j.pb/src/main/java"/>
 	<!-- about.html
 	     overview.html -->
 	<classpathentry kind="src" output="bin/1/plugins/org.sat4j.pb.jar" path="res"/>

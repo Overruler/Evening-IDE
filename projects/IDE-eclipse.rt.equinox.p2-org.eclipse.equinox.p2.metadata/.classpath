@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.metadata.jar" path="org.eclipse.equinox.p2.metadata"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.metadata.jar" path="org.eclipse.equinox.p2.metadata"/>
 	<!-- org\eclipse\equinox\internal\p2\metadata\ArtifactKey.java
 	     org\eclipse\equinox\internal\p2\metadata\BasicVersion.java
 	     org\eclipse\equinox\internal\p2\metadata\Copyright.java

@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\l10n\bundle.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/l10n/|about.html" kind="src" output="bin/1/plugins/org.eclipse.pde.api.tools.annotations.jar" path="org.eclipse.pde.api.tools.annotations"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html" kind="src" output="bin/1/plugins/org.eclipse.pde.api.tools.annotations.jar" path="org.eclipse.pde.api.tools.annotations"/>
 	<!-- org\eclipse\pde\api\tools\annotations\NoExtend.java
 	     org\eclipse\pde\api\tools\annotations\NoImplement.java
 	     org\eclipse\pde\api\tools\annotations\NoInstantiate.java

@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.runtime.jar" path="org.eclipse.jdt.junit.runtime"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.runtime.jar" path="org.eclipse.jdt.junit.runtime"/>
 	<!-- org\eclipse\jdt\internal\junit\runner\AbstractTestLoader.java
 	     org\eclipse\jdt\internal\junit\runner\CustomHashtable.java
 	     org\eclipse\jdt\internal\junit\runner\DefaultClassifier.java

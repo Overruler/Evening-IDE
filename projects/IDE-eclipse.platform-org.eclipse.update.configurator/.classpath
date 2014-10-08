@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\bundleGroup.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.update.configurator.jar" path="org.eclipse.update.configurator"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.update.configurator.jar" path="org.eclipse.update.configurator"/>
 	<!-- org\eclipse\update\configurator\ConfiguratorUtils.java
 	     org\eclipse\update\configurator\IPlatformConfiguration.java
 	     org\eclipse\update\configurator\IPlatformConfigurationFactory.java

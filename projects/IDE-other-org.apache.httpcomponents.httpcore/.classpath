@@ -156,8 +156,9 @@
 	     org\apache\http\util\EncodingUtils.java
 	     org\apache\http\util\EntityUtils.java
 	     org\apache\http\util\LangUtils.java
-	     org\apache\http\util\VersionInfo.java -->
-	<classpathentry including="org/apache/http/|org/apache/http/annotation/|org/apache/http/concurrent/|org/apache/http/entity/|org/apache/http/impl/|org/apache/http/impl/entity/|org/apache/http/impl/io/|org/apache/http/impl/pool/|org/apache/http/io/|org/apache/http/message/|org/apache/http/params/|org/apache/http/pool/|org/apache/http/protocol/|org/apache/http/util/" kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpcore.jar" path="apache.httpcore/httpcore/src/main/java"/>
+	     org\apache\http\util\VersionInfo.java
+	     org\apache\http\config\Registry.java -->
+	<classpathentry including="org/apache/http/*|org/apache/http/annotation/*|org/apache/http/concurrent/*|org/apache/http/config/*|org/apache/http/entity/*|org/apache/http/impl/*|org/apache/http/impl/entity/*|org/apache/http/impl/io/*|org/apache/http/impl/pool/*|org/apache/http/io/*|org/apache/http/message/*|org/apache/http/params/*|org/apache/http/pool/*|org/apache/http/protocol/*|org/apache/http/util/*" kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpcore.jar" path="apache.httpcore/httpcore/src/main/java"/>
 	<!-- org\apache\http\impl\AbstractHttpClientConnection.java
 	     org\apache\http\impl\AbstractHttpServerConnection.java
 	     org\apache\http\impl\DefaultHttpClientConnection.java

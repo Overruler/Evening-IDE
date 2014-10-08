@@ -75,7 +75,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/dlcl16/|icons/full/dtool16/|icons/full/elcl16/|icons/full/etool16/|icons/full/eview16/|icons/full/glyphs/|icons/full/obj16/|icons/full/ovr16/|icons/full/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.team.cvs.ui.jar" path="org.eclipse.team.cvs.ui"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/dlcl16/*|icons/full/dtool16/*|icons/full/elcl16/*|icons/full/etool16/*|icons/full/eview16/*|icons/full/glyphs/*|icons/full/obj16/*|icons/full/ovr16/*|icons/full/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.team.cvs.ui.jar" path="org.eclipse.team.cvs.ui"/>
 	<!-- org\eclipse\team\internal\ccvs\ui\actions\actions.properties
 	     org\eclipse\team\internal\ccvs\ui\actions\AddAction.java
 	     org\eclipse\team\internal\ccvs\ui\actions\BranchAction.java

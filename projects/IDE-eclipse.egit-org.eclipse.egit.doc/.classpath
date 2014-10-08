@@ -5,8 +5,36 @@
 	     cheatsheets\push.xml
 	     contexts.xml
 	     help\book.css
+	     help\EGit\Contributor_Guide\Bugs.html
+	     help\EGit\Contributor_Guide\Builds.html
+	     help\EGit\Contributor_Guide\Contributing-Patches.html
+	     help\EGit\Contributor_Guide\Contributor-Guide.html
+	     help\EGit\Contributor_Guide\Development-IDE-Configuration.html
+	     help\EGit\Contributor_Guide\Documentation.html
+	     help\EGit\Contributor_Guide\Gerrit-Code-Review-Cheatsheet.html
+	     help\EGit\Contributor_Guide\images\EGit-Target-Platforms.png
+	     help\EGit\Contributor_Guide\images\Start-swtbot-test.png
+	     help\EGit\Contributor_Guide\Obtaining-Sources.html
+	     help\EGit\Contributor_Guide\Tests.html
+	     help\EGit\Contributor_Guide\Updating-This-Document.html
+	     help\EGit\Contributor_Guide\Website.html
 	     help\EGit\Git_For_Eclipse_Users\Git-For-Eclipse-Users.html
 	     help\EGit\Git_For_Eclipse_Users\Updating-This-Document.html
+	     help\EGit\New_and_Noteworthy\3.5\3.5.html
+	     help\EGit\New_and_Noteworthy\3.5\Bug-Fixes.html
+	     help\EGit\New_and_Noteworthy\3.5\Contributors.html
+	     help\EGit\New_and_Noteworthy\3.5\images\Egit-3.5-annotations-in-ruler.png
+	     help\EGit\New_and_Noteworthy\3.5\images\Egit-3.5-history-delete-tag.png
+	     help\EGit\New_and_Noteworthy\3.5\images\Egit-3.5-history-find-tag-branch.png
+	     help\EGit\New_and_Noteworthy\3.5\images\Egit-3.5-interactive-rebase-plan-menu.png
+	     help\EGit\New_and_Noteworthy\3.5\images\Egit-3.5-interactive-rebase.png
+	     help\EGit\New_and_Noteworthy\3.5\images\Egit-3.5-multi-cherry-pick.png
+	     help\EGit\New_and_Noteworthy\3.5\images\Egit-3.5-rebase-options.png
+	     help\EGit\New_and_Noteworthy\3.5\images\EGit-3.5-repository-submenu.png
+	     help\EGit\New_and_Noteworthy\3.5\images\EGit-3.5-stash-toolbar.png
+	     help\EGit\New_and_Noteworthy\3.5\images\EGit-3.5-stash-viewer.png
+	     help\EGit\New_and_Noteworthy\3.5\images\EGit-3.5-working-set-team-menu.png
+	     help\EGit\New_and_Noteworthy\3.5\Updating-This-Document.html
 	     help\EGit\User_Guide\Concepts.html
 	     help\EGit\User_Guide\images\01-TextDecorations.png
 	     help\EGit\User_Guide\images\02-IconDecorations.png
@@ -185,6 +213,8 @@
 	     help\EGit\User_Guide\images\Egit-3.2-StartedInteractiveRebase.png
 	     help\EGit\User_Guide\images\Egit-3.2-StartInteractiveRebase.png
 	     help\EGit\User_Guide\images\Egit-3.4-merge-options.png
+	     help\EGit\User_Guide\images\Egit-3.5-ConfigureBranchDialog.png
+	     help\EGit\User_Guide\images\Egit-3.5-CreateBranchDialog.png
 	     help\EGit\User_Guide\images\EGit-Corrected.png
 	     help\EGit\User_Guide\images\EGit-Typo.png
 	     help\EGit\User_Guide\images\Egit_no_home.png
@@ -193,6 +223,7 @@
 	     help\EGit\User_Guide\images\Git-search-dropdown.png
 	     help\EGit\User_Guide\images\Git-search-page.png
 	     help\EGit\User_Guide\images\Git-search-results.png
+	     help\EGit\User_Guide\images\Git_merge_conflict.png
 	     help\EGit\User_Guide\images\Pe_downarrow1.png
 	     help\EGit\User_Guide\images\RepoMgrAddRepositoryIcon.png
 	     help\EGit\User_Guide\images\RepoMgrBareRepository.png
@@ -221,6 +252,10 @@
 	     help\images\next.gif
 	     help\images\prev.gif
 	     help\images\topiclabel\git48.png
+	     help\JGit\New_and_Noteworthy\3.5\3.5.html
+	     help\JGit\New_and_Noteworthy\3.5\Bug-Fixes.html
+	     help\JGit\New_and_Noteworthy\3.5\Contributors.html
+	     help\JGit\New_and_Noteworthy\3.5\Updating-This-Document.html
 	     help\JGit\User_Guide\Advanced-Topics.html
 	     help\JGit\User_Guide\Concepts.html
 	     help\JGit\User_Guide\images\Jgit-glog.png
@@ -245,53 +280,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding=".*|.*/" including="META-INF/|about.html|cheatsheets/|contexts.xml|help/|help/EGit/Git_For_Eclipse_Users/|help/EGit/User_Guide/|help/EGit/User_Guide/images/|help/JGit/User_Guide/|help/JGit/User_Guide/images/|help/images/|help/images/topiclabel/|images/|images/topiclabel/|intro/|intro/css/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.egit.doc.jar" path="org.eclipse.egit.doc"/>
-	<!-- New_and_Noteworthy\3.4\3.4.html
-	     New_and_Noteworthy\3.4\Bug-Fixes.html
-	     New_and_Noteworthy\3.4\Contributors.html
-	     New_and_Noteworthy\3.4\Updating-This-Document.html
-	     User_Guide\images\Egit-0.10-ConfirmProjectRemoval.png
-	     User_Guide\images\Egit-0.10-ConfirmRepositoryDeletion.png
-	     User_Guide\images\EGit-0.10-RebaseConflictDialog.png
-	     User_Guide\images\Egit-0.10-repoview-refmenu.png
-	     User_Guide\images\Egit-0.11-BranchCreationDialog.png
-	     User_Guide\images\Egit-0.11-ConfigureFetchFromUpstream.png
-	     User_Guide\images\Egit-0.11-ConfigurePushToUpstream.png
-	     User_Guide\images\Egit-0.11-fetchChangeFromGerritDialog.png
-	     User_Guide\images\Egit-0.11-FetchResultDialog.png
-	     User_Guide\images\Egit-0.11-workbench-menu.png
-	     User_Guide\images\Egit-0.11-workbench-toolbar.png
-	     User_Guide\images\EGit-0.7-ViewDiffInResourceHistory.png
-	     User_Guide\images\Egit-0.8-tag-create.png
-	     User_Guide\images\Egit-0.8-tag-replace.png
-	     User_Guide\images\Egit-0.9-commit-dialog-amend.png
-	     User_Guide\images\Egit-0.9-fetch-wizard-result.png
-	     User_Guide\images\Egit-0.9-push-wizard-push-result.png
-	     User_Guide\images\Egit-1.0-blame-ruler.png
-	     User_Guide\images\Egit-1.2-project-menu-advanced.png
-	     User_Guide\images\Egit-1.2-project-menu-main.png
-	     User_Guide\images\Egit-1.2-project-menu-remote.png
-	     User_Guide\images\Egit-1.2-repoview-branch-menu.png
-	     User_Guide\images\Egit-1.2-repoview-fetchconfig-menu.png
-	     User_Guide\images\Egit-1.2-repoview-pushconfig-menu.png
-	     User_Guide\images\Egit-1.2-repoview-repository-menu.png
-	     User_Guide\images\Egit-1.2-repoview-tag-menu.png
-	     User_Guide\images\Egit-1.2-repoview-workingtree-menu.png
-	     User_Guide\images\Egit-1.2-resource-menu.png
-	     User_Guide\images\Egit-1.2-staging-view.png
-	     User_Guide\images\Egit-2.1-history-view-menu.png
-	     User_Guide\images\Egit-2.1-pushChangeToGerritDialog.png
-	     User_Guide\images\Egit-3.1-CreateBranchDialog.png
-	     User_Guide\images\Filters.png
-	     User_Guide\images\MergeDialog.png
-	     User_Guide\images\MergeResultMerged.png
-	     User_Guide\images\TagCreation.png -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.egit.doc.jar/help/EGit" path="org.eclipse.egit.doc.jar/help/EGit/x-miss-x"/> -->
-	<!-- New_and_Noteworthy\3.4\3.4.html
-	     New_and_Noteworthy\3.4\Bug-Fixes.html
-	     New_and_Noteworthy\3.4\Contributors.html
-	     New_and_Noteworthy\3.4\Updating-This-Document.html -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.egit.doc.jar/help/JGit" path="org.eclipse.egit.doc.jar/help/EGit/x-miss-x"/> -->
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|cheatsheets/*|contexts.xml|help/*|help/EGit/Contributor_Guide/*|help/EGit/Contributor_Guide/images/*|help/EGit/Git_For_Eclipse_Users/*|help/EGit/New_and_Noteworthy/3.5/*|help/EGit/New_and_Noteworthy/3.5/images/*|help/EGit/User_Guide/*|help/EGit/User_Guide/images/*|help/JGit/New_and_Noteworthy/3.5/*|help/JGit/User_Guide/*|help/JGit/User_Guide/images/*|help/images/*|help/images/topiclabel/*|images/*|images/topiclabel/*|intro/*|intro/css/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.egit.doc.jar" path="org.eclipse.egit.doc"/>
 	<!-- META-INF\maven\org.eclipse.egit\org.eclipse.egit.doc\pom.properties
 	     META-INF\maven\org.eclipse.egit\org.eclipse.egit.doc\pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.egit.doc.jar" path="res"/>

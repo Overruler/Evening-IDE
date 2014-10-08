@@ -11,7 +11,7 @@
 	     schema.css
 	     targets\rcp.target
 	     targets\rcpWithSource.target -->
-	<classpathentry excluding="src/|src_ant/|text/|.*|.*/" including=".options|META-INF/|about.html|book.css|macosx/|plugin.properties|plugin.xml|schema.css|targets/" kind="src" output="bin/1/plugins/org.eclipse.pde.core.jar" path="org.eclipse.pde.core"/>
+	<classpathentry excluding="src/|src_ant/|text/|.*|.*/" including=".options|META-INF/*|about.html|book.css|macosx/*|plugin.properties|plugin.xml|schema.css|targets/*" kind="src" output="bin/1/plugins/org.eclipse.pde.core.jar" path="org.eclipse.pde.core"/>
 	<!-- org\eclipse\pde\core\build\IBuild.java
 	     org\eclipse\pde\core\build\IBuildEntry.java
 	     org\eclipse\pde\core\build\IBuildModel.java
@@ -470,7 +470,7 @@
 	     org\eclipse\pde\internal\core\ant\FeatureExportTask.java
 	     org\eclipse\pde\internal\core\ant\PluginExportTask.java
 	     org\eclipse\pde\internal\core\ant\TargetPlatformProvisionTask.java -->
-	<classpathentry including="org/eclipse/pde/internal/core/ant/" kind="src" output="bin/2/plugins/org.eclipse.pde.core.jar/ant_tasks/pde-ant.jar" path="org.eclipse.pde.core/src_ant"/>
+	<classpathentry including="org/eclipse/pde/internal/core/ant/*" kind="src" output="bin/2/plugins/org.eclipse.pde.core.jar/ant_tasks/pde-ant.jar" path="org.eclipse.pde.core/src_ant"/>
 	<!-- org\eclipse\pde\internal\core\text\AbstractEditingModel.java
 	     org\eclipse\pde\internal\core\text\AbstractKeyValueTextChangeListener.java
 	     org\eclipse\pde\internal\core\text\AbstractTextChangeListener.java

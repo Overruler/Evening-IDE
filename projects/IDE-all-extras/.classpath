@@ -20,6 +20,9 @@
 	<classpathentry including="epl-v10.html|feature.properties|feature.xml|license.html" kind="src" output="bin/2/features/org.eclipse.help" path="org.eclipse.help-feature"/>
 	<classpathentry including="feature.properties|feature.xml" kind="src" output="bin/2/features/org.eclipse.platform" path="org.eclipse.platform-feature"/>
 	<classpathentry excluding="rootfiles/" including="feature.properties|feature.xml" kind="src" output="bin/2/features/org.eclipse.rcp" path="org.eclipse.rcp"/>
+	<classpathentry kind="src" output="bin/1" path="org.eclipse.equinox.executable/bin/carbon/macosx/x86"/>
+	<classpathentry kind="src" output="bin/1" path="org.eclipse.equinox.executable/bin/gtk/linux/x86_64"/>
+	<classpathentry including="about.html|about_files/" kind="src" output="bin/1" path="org.eclipse.swt.gtk.linux.x86_64"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>

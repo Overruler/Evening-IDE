@@ -150,60 +150,7 @@
 	     web-archive\org.eclipse.help.infocenter-feature\.project
 	     web-archive\org.eclipse.help.infocenter-feature\build.properties
 	     web-archive\org.eclipse.help.infocenter-feature\feature.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|advanced/|advanced/images/|advancedstate/|basic/|basic/images/|index.jsp|plugin.properties|plugin.xml|web-archive/help/META-INF/|web-archive/help/WEB-INF/|web-archive/help/WEB-INF/configuration/|web-archive/org.eclipse.help.infocenter-feature/" kind="src" output="bin/1/plugins/org.eclipse.help.webapp.jar" path="org.eclipse.help.webapp"/>
-	<!-- jsp\advancedstate\scopeState_jsp.java
-	     jsp\advancedstate\workingSetState_jsp.java
-	     jsp\advanced\advanced_jsp.java
-	     jsp\advanced\bookmarksToolbar_jsp.java
-	     jsp\advanced\bookmarksView_jsp.java
-	     jsp\advanced\confirmShowAll_jsp.java
-	     jsp\advanced\contentToolbar_jsp.java
-	     jsp\advanced\content_jsp.java
-	     jsp\advanced\deferredView_jsp.java
-	     jsp\advanced\err_jsp.java
-	     jsp\advanced\fheader_jsp.java
-	     jsp\advanced\header_jsp.java
-	     jsp\advanced\helpToolbar_jsp.java
-	     jsp\advanced\help_jsp.java
-	     jsp\advanced\indexToolbar_jsp.java
-	     jsp\advanced\indexView_jsp.java
-	     jsp\advanced\index_jsp.java
-	     jsp\advanced\livehelp_005fjs_jsp.java
-	     jsp\advanced\nav_jsp.java
-	     jsp\advanced\printConfirm_jsp.java
-	     jsp\advanced\printError_jsp.java
-	     jsp\advanced\print_jsp.java
-	     jsp\advanced\quickSearch_jsp.java
-	     jsp\advanced\searchScoped_jsp.java
-	     jsp\advanced\searchSimple_jsp.java
-	     jsp\advanced\searchToolbar_jsp.java
-	     jsp\advanced\searchView_jsp.java
-	     jsp\advanced\search_jsp.java
-	     jsp\advanced\tabs_jsp.java
-	     jsp\advanced\tocToolbar_jsp.java
-	     jsp\advanced\tocView_jsp.java
-	     jsp\advanced\toolbar_jsp.java
-	     jsp\advanced\views_jsp.java
-	     jsp\advanced\view_jsp.java
-	     jsp\advanced\workingSetManager_jsp.java
-	     jsp\advanced\workingSet_jsp.java
-	     jsp\basic\err_jsp.java
-	     jsp\basic\header_jsp.java
-	     jsp\basic\help_jsp.java
-	     jsp\basic\indexToolbar_jsp.java
-	     jsp\basic\indexView_jsp.java
-	     jsp\basic\index_jsp.java
-	     jsp\basic\livehelp_005fjs_jsp.java
-	     jsp\basic\searchToolbar_jsp.java
-	     jsp\basic\searchView_jsp.java
-	     jsp\basic\tabs_jsp.java
-	     jsp\basic\tocToolbar_jsp.java
-	     jsp\basic\tocView_jsp.java
-	     jsp\basic\toolbar_jsp.java
-	     jsp\basic\view_jsp.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.help.webapp.jar/org/eclipse/help/internal/webapp" path="org.eclipse.help.webapp.jar/org/eclipse/help/internal/webapp/x-miss-x"/> -->
-	<!-- webapp\jsp\index_jsp.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.help.webapp.jar/org/eclipse/help/internal" path="org.eclipse.help.webapp.jar/org/eclipse/help/internal/x-miss-x"/> -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|advanced/*|advanced/images/*|advancedstate/*|basic/*|basic/images/*|index.jsp|plugin.properties|plugin.xml|web-archive/help/META-INF/*|web-archive/help/WEB-INF/*|web-archive/help/WEB-INF/configuration/*|web-archive/org.eclipse.help.infocenter-feature/*" kind="src" output="bin/1/plugins/org.eclipse.help.webapp.jar" path="org.eclipse.help.webapp"/>
 	<!-- org\eclipse\help\internal\webapp\data\ActivitiesData.java
 	     org\eclipse\help\internal\webapp\data\BookmarksData.java
 	     org\eclipse\help\internal\webapp\data\ButtonData.java

@@ -3,7 +3,7 @@
 	<!-- about.html
 	     compiler_tool_fragment.properties
 	     META-INF\MANIFEST.MF -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|compiler_tool_fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.jdt.compiler.tool.jar" path="org.eclipse.jdt.compiler.tool"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|compiler_tool_fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.jdt.compiler.tool.jar" path="org.eclipse.jdt.compiler.tool"/>
 	<!-- META-INF\services\javax.tools.JavaCompiler
 	     org\eclipse\jdt\internal\compiler\tool\Archive.java
 	     org\eclipse\jdt\internal\compiler\tool\ArchiveFileObject.java

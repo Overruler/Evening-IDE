@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     OSGI-INF\eventBroker.xml
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.services.jar" path="org.eclipse.e4.ui.services"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.services.jar" path="org.eclipse.e4.ui.services"/>
 	<!-- org\eclipse\e4\ui\internal\services\Activator.java
 	     org\eclipse\e4\ui\internal\services\ActiveContextsFunction.java
 	     org\eclipse\e4\ui\internal\services\ContextContextFunction.java

@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.databinding.beans.jar" path="org.eclipse.core.databinding.beans"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.databinding.beans.jar" path="org.eclipse.core.databinding.beans"/>
 	<!-- org\eclipse\core\databinding\beans\BeanProperties.java
 	     org\eclipse\core\databinding\beans\BeansObservables.java
 	     org\eclipse\core\databinding\beans\IBeanListProperty.java

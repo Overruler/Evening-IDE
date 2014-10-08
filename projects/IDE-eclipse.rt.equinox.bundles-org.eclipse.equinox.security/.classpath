@@ -11,7 +11,7 @@
 	     schema\loginConfigurationProvider.exsd
 	     schema\loginModule.exsd
 	     schema\secureStorage.exsd -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml|schema/" kind="src" output="bin/1/plugins/org.eclipse.equinox.security.jar" path="org.eclipse.equinox.security"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.equinox.security.jar" path="org.eclipse.equinox.security"/>
 	<!-- org\eclipse\equinox\internal\security\auth\AuthPlugin.java
 	     org\eclipse\equinox\internal\security\auth\ConfigurationFactory.java
 	     org\eclipse\equinox\internal\security\auth\ConfigurationFederator.java

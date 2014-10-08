@@ -254,7 +254,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="extensions/|src/|.*|.*/" including=".options|META-INF/|about.html|icons/full/dlcl16/|icons/full/dtool16/|icons/full/dview16/|icons/full/elcl16/|icons/full/etool16/|icons/full/eview16/|icons/full/markers/|icons/full/obj16/|icons/full/ovr16/|icons/full/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.ide.jar" path="org.eclipse.ui.ide"/>
+	<classpathentry excluding="extensions/|src/|.*|.*/" including=".options|META-INF/*|about.html|icons/full/dlcl16/*|icons/full/dtool16/*|icons/full/dview16/*|icons/full/elcl16/*|icons/full/etool16/*|icons/full/eview16/*|icons/full/markers/*|icons/full/obj16/*|icons/full/ovr16/*|icons/full/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.ide.jar" path="org.eclipse.ui.ide"/>
 	<!-- org\eclipse\ui\actions\AddBookmarkAction.java
 	     org\eclipse\ui\actions\AddTaskAction.java
 	     org\eclipse\ui\actions\BuildAction.java

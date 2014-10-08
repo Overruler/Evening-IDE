@@ -13,7 +13,7 @@
 	     org\osgi\service\log\LogReaderService.java
 	     org\osgi\service\log\LogService.java
 	     org\osgi\service\log\packageinfo -->
-	<classpathentry including="org/osgi/service/log/" kind="src" output="bin/1/plugins/org.apache.felix.gogo.command.jar" path="org.eclipse.osgi.services/src"/>
+	<classpathentry including="org/osgi/service/log/*" kind="src" output="bin/1/plugins/org.apache.felix.gogo.command.jar" path="org.eclipse.osgi.services/src"/>
 	<!-- about.html
 	     about_files\LICENSE
 	     META-INF\DEPENDENCIES

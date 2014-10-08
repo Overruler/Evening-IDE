@@ -8,7 +8,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/tool/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.sdk.scheduler.jar" path="org.eclipse.equinox.p2.ui.sdk.scheduler"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/tool/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.sdk.scheduler.jar" path="org.eclipse.equinox.p2.ui.sdk.scheduler"/>
 	<!-- org\eclipse\equinox\internal\p2\ui\sdk\scheduler\AutomaticUpdateMessages.java
 	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\AutomaticUpdatePlugin.java
 	     org\eclipse\equinox\internal\p2\ui\sdk\scheduler\AutomaticUpdater.java

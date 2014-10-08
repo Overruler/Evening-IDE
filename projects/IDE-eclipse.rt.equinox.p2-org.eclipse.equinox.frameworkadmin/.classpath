@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.frameworkadmin.jar" path="org.eclipse.equinox.frameworkadmin"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.frameworkadmin.jar" path="org.eclipse.equinox.frameworkadmin"/>
 	<!-- org\eclipse\equinox\frameworkadmin\BundleInfo.java
 	     org\eclipse\equinox\internal\frameworkadmin\utils\Activator.java
 	     org\eclipse\equinox\internal\frameworkadmin\utils\SimpleBundlesState.java

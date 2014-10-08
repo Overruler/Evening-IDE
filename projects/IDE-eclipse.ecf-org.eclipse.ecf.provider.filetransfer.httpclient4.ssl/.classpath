@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.httpclient4.ssl.jar" path="org.eclipse.ecf.provider.filetransfer.httpclient4.ssl"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.httpclient4.ssl.jar" path="org.eclipse.ecf.provider.filetransfer.httpclient4.ssl"/>
 	<!-- org\eclipse\ecf\internal\provider\filetransfer\httpclient4\ssl\SSLSocketFactoryModifier.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.httpclient4.ssl.jar" path="org.eclipse.ecf.provider.filetransfer.httpclient4.ssl/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

@@ -7,7 +7,7 @@
 	     META-INF\MANIFEST.MF
 	     modeling32.png
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|about.ini|about.mappings|about.properties|modeling32.png|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.emf.common.jar" path="org.eclipse.emf.common"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|about.mappings|about.properties|modeling32.png|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.emf.common.jar" path="org.eclipse.emf.common"/>
 	<!-- org\eclipse\emf\common\archive\ArchiveURLConnection.java
 	     org\eclipse\emf\common\archive\Handler.java
 	     org\eclipse\emf\common\archive\package.html

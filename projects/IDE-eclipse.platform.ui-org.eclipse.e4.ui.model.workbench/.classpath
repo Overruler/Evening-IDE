@@ -10,7 +10,7 @@
 	     model\UIElements.genmodel
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|model/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.model.workbench.jar" path="org.eclipse.e4.ui.model.workbench"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|model/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.model.workbench.jar" path="org.eclipse.e4.ui.model.workbench"/>
 	<!-- org\eclipse\e4\ui\model\application\commands\impl\BindingContextImpl.java
 	     org\eclipse\e4\ui\model\application\commands\impl\BindingTableImpl.java
 	     org\eclipse\e4\ui\model\application\commands\impl\CategoryImpl.java

@@ -123,7 +123,7 @@
 	     templates\ant.properties
 	     templates\ant.xml
 	     templates\resolver.gif -->
-	<classpathentry excluding="Ant Editor/|Ant Runner Support/|Ant Tools Support/|Remote Ant Support/|.*|.*/|Ant Editor Content Assist Dev/" including="META-INF/|about.html|about_files/|icons/full/dlcl16/|icons/full/dtool16/|icons/full/dview16/|icons/full/elcl16/|icons/full/etool16/|icons/full/eview16/|icons/full/obj16/|icons/full/ovr16/|icons/full/wizban/|plugin.properties|plugin.xml|templates/" kind="src" output="bin/1/plugins/org.eclipse.ant.ui.jar" path="org.eclipse.ant.ui"/>
+	<classpathentry excluding="Ant Editor/|Ant Runner Support/|Ant Tools Support/|Remote Ant Support/|.*|.*/|Ant Editor Content Assist Dev/" including="META-INF/*|about.html|about_files/*|icons/full/dlcl16/*|icons/full/dtool16/*|icons/full/dview16/*|icons/full/elcl16/*|icons/full/etool16/*|icons/full/eview16/*|icons/full/obj16/*|icons/full/ovr16/*|icons/full/wizban/*|plugin.properties|plugin.xml|templates/*" kind="src" output="bin/1/plugins/org.eclipse.ant.ui.jar" path="org.eclipse.ant.ui"/>
 	<!-- org\eclipse\ant\internal\ui\dtd\AntDTDMessages.java
 	     org\eclipse\ant\internal\ui\dtd\AntDTDMessages.properties
 	     org\eclipse\ant\internal\ui\dtd\IAtom.java
@@ -247,7 +247,7 @@
 	<!-- org\eclipse\ant\internal\ui\antsupport\AntSupportMessages.java
 	     org\eclipse\ant\internal\ui\antsupport\AntSupportMessages.properties
 	     org\eclipse\ant\internal\ui\antsupport\inputhandler\AntInputHandler.java -->
-	<classpathentry including="org/eclipse/ant/internal/ui/antsupport/|org/eclipse/ant/internal/ui/antsupport/inputhandler/" kind="src" output="bin/2/plugins/org.eclipse.ant.ui.jar/lib/antrunner.jar" path="org.eclipse.ant.ui/Ant Runner Support"/>
+	<classpathentry including="org/eclipse/ant/internal/ui/antsupport/*|org/eclipse/ant/internal/ui/antsupport/inputhandler/*" kind="src" output="bin/2/plugins/org.eclipse.ant.ui.jar/lib/antrunner.jar" path="org.eclipse.ant.ui/Ant Runner Support"/>
 	<!-- org\eclipse\ant\internal\ui\AntDoubleClickStrategy.java
 	     org\eclipse\ant\internal\ui\AntImageDescriptor.java
 	     org\eclipse\ant\internal\ui\AntPropertyValueProvider.java
@@ -411,7 +411,7 @@
 	     org\eclipse\ant\internal\ui\antsupport\inputhandler\RemoteAntMessages.java
 	     org\eclipse\ant\internal\ui\antsupport\inputhandler\RemoteAntMessages.properties
 	     org\eclipse\ant\internal\ui\antsupport\inputhandler\SWTInputHandler.java -->
-	<classpathentry including="org/eclipse/ant/internal/ui/antsupport/inputhandler/" kind="src" output="bin/3/plugins/org.eclipse.ant.ui.jar/lib/remoteAnt.jar" path="org.eclipse.ant.ui/Remote Ant Support"/>
+	<classpathentry including="org/eclipse/ant/internal/ui/antsupport/inputhandler/*" kind="src" output="bin/3/plugins/org.eclipse.ant.ui.jar/lib/remoteAnt.jar" path="org.eclipse.ant.ui/Remote Ant Support"/>
 	<!-- lib\antrunner.jar\META-INF\MANIFEST.MF
 	     lib\remoteAnt.jar\META-INF\MANIFEST.MF -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ant.ui.jar" path="res"/>

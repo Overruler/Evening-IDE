@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src-boot/|src-model/|src-runtime/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.runtime.compatibility.jar" path="org.eclipse.core.runtime.compatibility"/>
+	<classpathentry excluding="src-boot/|src-model/|src-runtime/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.runtime.compatibility.jar" path="org.eclipse.core.runtime.compatibility"/>
 	<!-- org\eclipse\core\boot\BootLoader.java
 	     org\eclipse\core\boot\IPlatformConfiguration.java
 	     org\eclipse\core\boot\IPlatformRunnable.java

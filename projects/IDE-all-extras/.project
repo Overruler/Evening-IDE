@@ -101,6 +101,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/libraries/eclipse.platform.releng/features/org.eclipse.rcp</locationURI>
 		</link>
 		<link>
+			<name>org.eclipse.swt.gtk.linux.x86_64</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/eclipse.platform.swt.binaries/bundles/org.eclipse.swt.gtk.linux.x86_64</locationURI>
+		</link>
+		<link>
 			<name>org.eclipse.emf.common-feature/epl-v10.html</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/libraries/eclipse.emf/features/org.eclipse.emf.license-feature/rootfiles/epl-v10.html</locationURI>

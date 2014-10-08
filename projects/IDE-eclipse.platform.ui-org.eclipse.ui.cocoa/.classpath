@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     fragment-cocoa.properties
+	     fragment.xml
+	     META-INF\MANIFEST.MF -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|fragment-cocoa.properties|fragment.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.cocoa.jar" path="org.eclipse.ui.cocoa"/>
+	<!-- org\eclipse\ui\internal\cocoa\CocoaTitlePathUpdater.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.cocoa.jar" path="org.eclipse.ui.cocoa/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.swt.binaries-org.eclipse.swt.cocoa.macosx.x86_64"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

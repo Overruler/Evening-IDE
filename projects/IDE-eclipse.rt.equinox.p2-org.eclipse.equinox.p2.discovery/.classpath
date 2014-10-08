@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.discovery.jar" path="org.eclipse.equinox.p2.discovery"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.discovery.jar" path="org.eclipse.equinox.p2.discovery"/>
 	<!-- org\eclipse\equinox\internal\p2\discovery\AbstractCatalogSource.java
 	     org\eclipse\equinox\internal\p2\discovery\AbstractDiscoveryStrategy.java
 	     org\eclipse\equinox\internal\p2\discovery\Catalog.java

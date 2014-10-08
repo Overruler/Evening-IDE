@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.views.properties.tabbed.jar" path="org.eclipse.ui.views.properties.tabbed"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.views.properties.tabbed.jar" path="org.eclipse.ui.views.properties.tabbed"/>
 	<!-- org\eclipse\ui\internal\views\properties\tabbed\l10n\TabbedPropertyMessages.java
 	     org\eclipse\ui\internal\views\properties\tabbed\l10n\TabbedPropertyMessages.properties
 	     org\eclipse\ui\internal\views\properties\tabbed\TabbedPropertyViewPlugin.java

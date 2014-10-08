@@ -56,11 +56,11 @@
 	     org\eclipse\jdt\internal\compiler\tool\EclipseFileObject.java
 	     org\eclipse\jdt\internal\compiler\tool\Options.java
 	     org\eclipse\jdt\internal\compiler\tool\Util.java -->
-	<classpathentry including="org/eclipse/jdt/internal/compiler/tool/" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="eclipse.jdt.core/org.eclipse.jdt.compiler.tool/src"/>
+	<classpathentry including="org/eclipse/jdt/internal/compiler/tool/*" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="eclipse.jdt.core/org.eclipse.jdt.compiler.tool/src"/>
 	<!-- org\eclipse\jdt\core\JDTCompilerAdapter.java
 	     org\eclipse\jdt\internal\antadapter\AntAdapterMessages.java
 	     org\eclipse\jdt\internal\antadapter\messages.properties -->
-	<classpathentry including="org/eclipse/jdt/core/|org/eclipse/jdt/internal/antadapter/" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="eclipse.jdt.core/org.eclipse.jdt.core/antadapter"/>
+	<classpathentry including="org/eclipse/jdt/core/*|org/eclipse/jdt/internal/antadapter/*" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="eclipse.jdt.core/org.eclipse.jdt.core/antadapter"/>
 	<!-- org\eclipse\jdt\core\compiler\batch\BatchCompiler.java
 	     org\eclipse\jdt\internal\compiler\batch\ClasspathDirectory.java
 	     org\eclipse\jdt\internal\compiler\batch\ClasspathJar.java
@@ -435,12 +435,13 @@
 	     org\eclipse\jdt\internal\compiler\util\SimpleSet.java
 	     org\eclipse\jdt\internal\compiler\util\SimpleSetOfCharArray.java
 	     org\eclipse\jdt\internal\compiler\util\SuffixConstants.java
-	     org\eclipse\jdt\internal\compiler\util\Util.java -->
-	<classpathentry including="org/eclipse/jdt/core/compiler/|org/eclipse/jdt/internal/compiler/|org/eclipse/jdt/internal/compiler/ast/|org/eclipse/jdt/internal/compiler/classfmt/|org/eclipse/jdt/internal/compiler/codegen/|org/eclipse/jdt/internal/compiler/env/|org/eclipse/jdt/internal/compiler/flow/|org/eclipse/jdt/internal/compiler/impl/|org/eclipse/jdt/internal/compiler/lookup/|org/eclipse/jdt/internal/compiler/parser/|org/eclipse/jdt/internal/compiler/parser/diagnose/|org/eclipse/jdt/internal/compiler/parser/unicode/|org/eclipse/jdt/internal/compiler/parser/unicode6/|org/eclipse/jdt/internal/compiler/problem/|org/eclipse/jdt/internal/compiler/util/" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="eclipse.jdt.core/org.eclipse.jdt.core/compiler"/>
+	     org\eclipse\jdt\internal\compiler\util\Util.java
+	     org\eclipse\jdt\internal\compiler\parser\readableNames.props -->
+	<classpathentry including="org/eclipse/jdt/core/compiler/*|org/eclipse/jdt/internal/compiler/*|org/eclipse/jdt/internal/compiler/ast/*|org/eclipse/jdt/internal/compiler/classfmt/*|org/eclipse/jdt/internal/compiler/codegen/*|org/eclipse/jdt/internal/compiler/env/*|org/eclipse/jdt/internal/compiler/flow/*|org/eclipse/jdt/internal/compiler/impl/*|org/eclipse/jdt/internal/compiler/lookup/*|org/eclipse/jdt/internal/compiler/parser/*|org/eclipse/jdt/internal/compiler/parser/diagnose/*|org/eclipse/jdt/internal/compiler/parser/unicode/*|org/eclipse/jdt/internal/compiler/parser/unicode6/*|org/eclipse/jdt/internal/compiler/problem/*|org/eclipse/jdt/internal/compiler/util/*" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="eclipse.jdt.core/org.eclipse.jdt.core/compiler"/>
 	<!-- org\eclipse\jdt\internal\compiler\ExtraFlags.java
 	     org\eclipse\jdt\internal\compiler\parser\TypeConverter.java
 	     org\eclipse\jdt\internal\compiler\SourceElementNotifier.java -->
-	<classpathentry including="org/eclipse/jdt/internal/compiler/|org/eclipse/jdt/internal/compiler/parser/" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="eclipse.jdt.core/org.eclipse.jdt.core/model"/>
+	<classpathentry including="org/eclipse/jdt/internal/compiler/*|org/eclipse/jdt/internal/compiler/parser/*" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="eclipse.jdt.core/org.eclipse.jdt.core/model"/>
 	<!-- org\apache\jasper\compiler\Compiler.java
 	     org\apache\jasper\compiler\ELFunctionMapper.java
 	     org\apache\jasper\compiler\ELParser.java
@@ -517,11 +518,9 @@
 	     org\apache\jasper\xmlparser\XMLStringBuffer.java
 	     org\glassfish\jsp\api\ByteWriter.java
 	     org\glassfish\jsp\api\JspProbeEmitter.java
-	     org\glassfish\jsp\api\ResourceInjector.java -->
-	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|org/apache/jasper/runtime/PerThreadTagHandlerPool.java|org/apache/jasper/compiler/JDTJavaCompiler.java|about.html|META-INF/MANIFEST.MF|META-INF/services/javax.servlet.ServletContainerInitializer|plugin.properties" including="org/apache/jasper/|org/apache/jasper/compiler/|org/apache/jasper/compiler/tagplugin/|org/apache/jasper/resources/|org/apache/jasper/runtime/|org/apache/jasper/security/|org/apache/jasper/servlet/|org/apache/jasper/tagplugins/jstl/|org/apache/jasper/xmlparser/|org/glassfish/jsp/api/" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="org.apache.jasper.glassfish"/>
-	<!-- compiler\flow\NullInfoRegistry.java
-	     compiler\parser\readableNames.properties -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal" path="org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/x-miss-x"/> -->
+	     org\glassfish\jsp\api\ResourceInjector.java
+	     org\apache\jasper\util\SystemLogHandler.java -->
+	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|org/apache/jasper/runtime/PerThreadTagHandlerPool.java|org/apache/jasper/compiler/JDTJavaCompiler.java|about.html|META-INF/MANIFEST.MF|META-INF/services/javax.servlet.ServletContainerInitializer|plugin.properties" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="org.apache.jasper.glassfish"/>
 	<!-- about.html
 	     about_files\LICENSE_ASL20.txt
 	     about_files\LICENSE_CDDL.txt

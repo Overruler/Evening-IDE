@@ -2,8 +2,9 @@
 <classpath>
 	<!-- about.html
 	     META-INF\MANIFEST.MF
+	     META-INF\SOURCE-MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jgit.archive.jar" path="org.eclipse.jgit.archive"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jgit.archive.jar" path="org.eclipse.jgit.archive"/>
 	<!-- org\eclipse\jgit\archive\ArchiveFormats.java
 	     org\eclipse\jgit\archive\FormatActivator.java
 	     org\eclipse\jgit\archive\internal\ArchiveText.java

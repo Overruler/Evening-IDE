@@ -47,7 +47,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|icons/dlcl16/|icons/dtool16/|icons/elcl16/|icons/etool16/|icons/obj16/|icons/ovr16/|icons/view16/|icons/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.help.ui.jar" path="org.eclipse.help.ui"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|icons/dlcl16/*|icons/dtool16/*|icons/elcl16/*|icons/etool16/*|icons/obj16/*|icons/ovr16/*|icons/view16/*|icons/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.help.ui.jar" path="org.eclipse.help.ui"/>
 	<!-- org\eclipse\help\ui\browser\LaunchURL.java
 	     org\eclipse\help\ui\IEngineDescriptor.java
 	     org\eclipse\help\ui\internal\browser\embedded\EmbeddedBrowser.java

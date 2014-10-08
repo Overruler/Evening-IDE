@@ -14,7 +14,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="LegacyIDE_fragment.e4xmi|META-INF/|about.html|icons/full/dlcl16/|icons/full/dview16/|icons/full/elcl16/|icons/full/eview16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.ide.application.jar" path="org.eclipse.ui.ide.application"/>
+	<classpathentry excluding="src/|.*|.*/" including="LegacyIDE_fragment.e4xmi|META-INF/*|about.html|icons/full/dlcl16/*|icons/full/dview16/*|icons/full/elcl16/*|icons/full/eview16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.ide.application.jar" path="org.eclipse.ui.ide.application"/>
 	<!-- org\eclipse\ui\internal\ide\application\DelayedEventsProcessor.java
 	     org\eclipse\ui\internal\ide\application\dialogs\IDEStartupPreferencePage.java
 	     org\eclipse\ui\internal\ide\application\dialogs\RecentWorkspacesPreferencePage.java

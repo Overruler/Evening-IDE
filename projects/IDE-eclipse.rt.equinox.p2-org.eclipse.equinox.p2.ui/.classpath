@@ -28,7 +28,7 @@
 	     OSGI-INF\serviceui.xml
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|icons/obj/|icons/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.jar" path="org.eclipse.equinox.p2.ui"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|icons/obj/*|icons/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.jar" path="org.eclipse.equinox.p2.ui"/>
 	<!-- org\eclipse\equinox\internal\p2\ui\actions\ColocatedRepositoryAction.java
 	     org\eclipse\equinox\internal\p2\ui\actions\ExistingIUInProfileAction.java
 	     org\eclipse\equinox\internal\p2\ui\actions\ProfileModificationAction.java

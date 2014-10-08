@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- .options
-	     about.html
+	<!-- about.html
 	     css\e4-dark_egit_prefstyle.css
 	     icons\checkboxes\disabled_checked.gif
 	     icons\checkboxes\disabled_unchecked.gif
@@ -62,6 +61,8 @@
 	     icons\obj16\done_step.gif
 	     icons\obj16\editconfig.gif
 	     icons\obj16\fetch.gif
+	     icons\obj16\fixup-down.png
+	     icons\obj16\fixup-up.png
 	     icons\obj16\gerrit_fetch.gif
 	     icons\obj16\gerrit_obj.gif
 	     icons\obj16\gerrit_push.gif
@@ -92,6 +93,9 @@
 	     icons\obj16\reword.gif
 	     icons\obj16\search-commit.gif
 	     icons\obj16\signed-off.png
+	     icons\obj16\squash-down.png
+	     icons\obj16\squash-up.png
+	     icons\obj16\stash-apply.png
 	     icons\obj16\stash-create.png
 	     icons\obj16\stash.png
 	     icons\obj16\submodules.gif
@@ -120,28 +124,7 @@
 	     META-INF\p2.inf
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|css/|icons/checkboxes/|icons/elcl16/|icons/etool16/|icons/eview16/|icons/obj16/|icons/ovr/|icons/wizban/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.egit.ui.jar" path="org.eclipse.egit.ui"/>
-	<!-- tree\command\StashCreateCommand.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.egit.ui.jar/org/eclipse/egit/ui/internal/repository" path="org.eclipse.egit.ui.jar/org/eclipse/egit/ui/internal/repository/x-miss-x"/> -->
-	<!-- internal\actions\CreatePatchAction.java
-	     internal\actions\ShowHistoryAction.java
-	     internal\actions\ShowRepositoriesViewAction.java
-	     internal\components\SimplePushSpecPage.java
-	     internal\push\SimplePushRefWizard.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.egit.ui.jar/org/eclipse/egit/ui" path="org.eclipse.egit.ui.jar/org/eclipse/egit/ui/x-miss-x"/> -->
-	<!-- ui\internal\CachedCheckboxTreeViewer.java
-	     ui\internal\EditableRevision.java
-	     ui\internal\FileRevisionTypedElement.java
-	     ui\internal\FilteredCheckboxTree.java
-	     ui\internal\GitCompareFileRevisionEditorInput.java
-	     ui\internal\LocalFileRevision.java
-	     ui\internal\LocationEditableRevision.java
-	     ui\internal\ResourceEditableRevision.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.egit.ui.jar/org/eclipse/egit" path="org.eclipse.egit.ui.jar/org/eclipse/egit/x-miss-x"/> -->
-	<!-- icons\obj16\fixup.gif
-	     icons\obj16\squash.gif
-	     icons\obj16\todo_step.gif -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.egit.ui.jar" path="org.eclipse.egit.ui.jar/x-miss-x"/> -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|css/*|icons/checkboxes/*|icons/elcl16/*|icons/etool16/*|icons/eview16/*|icons/obj16/*|icons/ovr/*|icons/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.egit.ui.jar" path="org.eclipse.egit.ui"/>
 	<!-- org\eclipse\egit\ui\Activator.java
 	     org\eclipse\egit\ui\GitRepositoriesPerspectiveFactory.java
 	     org\eclipse\egit\ui\IBranchNameProvider.java
@@ -194,6 +177,7 @@
 	     org\eclipse\egit\ui\internal\actions\PushAction.java
 	     org\eclipse\egit\ui\internal\actions\PushActionHandler.java
 	     org\eclipse\egit\ui\internal\actions\PushBranchActionHandler.java
+	     org\eclipse\egit\ui\internal\actions\PushMenu.java
 	     org\eclipse\egit\ui\internal\actions\PushTagsActionHandler.java
 	     org\eclipse\egit\ui\internal\actions\PushUpstreamOrBranchAction.java
 	     org\eclipse\egit\ui\internal\actions\PushUpstreamOrBranchActionHandler.java
@@ -222,6 +206,9 @@
 	     org\eclipse\egit\ui\internal\actions\SimpleFetchAction.java
 	     org\eclipse\egit\ui\internal\actions\SimpleFetchActionHandler.java
 	     org\eclipse\egit\ui\internal\actions\SimplePushActionHandler.java
+	     org\eclipse\egit\ui\internal\actions\StashCreateHandler.java
+	     org\eclipse\egit\ui\internal\actions\StashesMenu.java
+	     org\eclipse\egit\ui\internal\actions\StashToolbarAction.java
 	     org\eclipse\egit\ui\internal\actions\SwitchToMenu.java
 	     org\eclipse\egit\ui\internal\actions\SynchronizeWithMenu.java
 	     org\eclipse\egit\ui\internal\actions\SynchronizeWorkspaceAction.java
@@ -272,6 +259,8 @@
 	     org\eclipse\egit\ui\internal\commit\command\RewordHandler.java
 	     org\eclipse\egit\ui\internal\commit\command\ShowInHistoryHandler.java
 	     org\eclipse\egit\ui\internal\commit\command\SquashHandler.java
+	     org\eclipse\egit\ui\internal\commit\command\StashApplyHandler.java
+	     org\eclipse\egit\ui\internal\commit\command\StashDropHandler.java
 	     org\eclipse\egit\ui\internal\commit\CommitEditor.java
 	     org\eclipse\egit\ui\internal\commit\CommitEditorInput.java
 	     org\eclipse\egit\ui\internal\commit\CommitEditorInputFactory.java
@@ -292,12 +281,15 @@
 	     org\eclipse\egit\ui\internal\commit\OpenCommitAction.java
 	     org\eclipse\egit\ui\internal\commit\RepositoryCommit.java
 	     org\eclipse\egit\ui\internal\commit\RepositoryCommitNote.java
+	     org\eclipse\egit\ui\internal\commit\StashEditorPage.java
 	     org\eclipse\egit\ui\internal\CommonUtils.java
 	     org\eclipse\egit\ui\internal\CompareUtils.java
+	     org\eclipse\egit\ui\internal\components\CachedCheckboxTreeViewer.java
 	     org\eclipse\egit\ui\internal\components\CenteredImageLabelProvider.java
 	     org\eclipse\egit\ui\internal\components\CheckboxLabelProvider.java
 	     org\eclipse\egit\ui\internal\components\ClickableCellEditor.java
 	     org\eclipse\egit\ui\internal\components\ComboLabelingSupport.java
+	     org\eclipse\egit\ui\internal\components\FilteredCheckboxTree.java
 	     org\eclipse\egit\ui\internal\components\RefContentAssistProvider.java
 	     org\eclipse\egit\ui\internal\components\RefContentProposal.java
 	     org\eclipse\egit\ui\internal\components\RefSpecPage.java
@@ -373,6 +365,7 @@
 	     org\eclipse\egit\ui\internal\gerrit\ConfigureGerritWizard.java
 	     org\eclipse\egit\ui\internal\gerrit\GerritUtil.java
 	     org\eclipse\egit\ui\internal\GitLabelProvider.java
+	     org\eclipse\egit\ui\internal\GitLabels.java
 	     org\eclipse\egit\ui\internal\handler\SelectionHandler.java
 	     org\eclipse\egit\ui\internal\history\command\AbstractRebaseHistoryCommandHandler.java
 	     org\eclipse\egit\ui\internal\history\command\CheckoutCommitHandler.java
@@ -384,6 +377,7 @@
 	     org\eclipse\egit\ui\internal\history\command\CreatePatchHandler.java
 	     org\eclipse\egit\ui\internal\history\command\CreateTagOnCommitHandler.java
 	     org\eclipse\egit\ui\internal\history\command\DeleteBranchOnCommitHandler.java
+	     org\eclipse\egit\ui\internal\history\command\DeleteTagOnCommitHandler.java
 	     org\eclipse\egit\ui\internal\history\command\EditHandler.java
 	     org\eclipse\egit\ui\internal\history\command\HistoryViewCommands.java
 	     org\eclipse\egit\ui\internal\history\command\MergeHandler.java
@@ -463,8 +457,10 @@
 	     org\eclipse\egit\ui\internal\rebase\CommitMessageEditorDialog.java
 	     org\eclipse\egit\ui\internal\rebase\RebaseInteractiveHandler.java
 	     org\eclipse\egit\ui\internal\rebase\RebaseInteractivePlanContentProvider.java
+	     org\eclipse\egit\ui\internal\rebase\RebaseInteractivePreferences.java
 	     org\eclipse\egit\ui\internal\rebase\RebaseInteractiveStepActionToolBarProvider.java
 	     org\eclipse\egit\ui\internal\rebase\RebaseInteractiveView.java
+	     org\eclipse\egit\ui\internal\rebase\RebasePlanIndexer.java
 	     org\eclipse\egit\ui\internal\rebase\RebaseResultDialog.java
 	     org\eclipse\egit\ui\internal\reflog\command\CheckoutHandler.java
 	     org\eclipse\egit\ui\internal\reflog\command\CopyHandler.java
@@ -568,6 +564,13 @@
 	     org\eclipse\egit\ui\internal\repository\tree\TagsNode.java
 	     org\eclipse\egit\ui\internal\repository\tree\WorkingDirNode.java
 	     org\eclipse\egit\ui\internal\ResourcePropertyTester.java
+	     org\eclipse\egit\ui\internal\revision\EditableRevision.java
+	     org\eclipse\egit\ui\internal\revision\FileRevisionEditorInput.java
+	     org\eclipse\egit\ui\internal\revision\FileRevisionTypedElement.java
+	     org\eclipse\egit\ui\internal\revision\GitCompareFileRevisionEditorInput.java
+	     org\eclipse\egit\ui\internal\revision\LocalFileRevision.java
+	     org\eclipse\egit\ui\internal\revision\LocationEditableRevision.java
+	     org\eclipse\egit\ui\internal\revision\ResourceEditableRevision.java
 	     org\eclipse\egit\ui\internal\search\CommitMatch.java
 	     org\eclipse\egit\ui\internal\search\CommitResultLabelProvider.java
 	     org\eclipse\egit\ui\internal\search\CommitSearchPage.java
@@ -578,6 +581,8 @@
 	     org\eclipse\egit\ui\internal\search\PatternUtils.java
 	     org\eclipse\egit\ui\internal\search\RepositoryMatch.java
 	     org\eclipse\egit\ui\internal\SecureStoreUtils.java
+	     org\eclipse\egit\ui\internal\selection\SelectionPropertyTester.java
+	     org\eclipse\egit\ui\internal\selection\SelectionUtils.java
 	     org\eclipse\egit\ui\internal\sharing\MoveProjectsLabelProvider.java
 	     org\eclipse\egit\ui\internal\sharing\RepoComboContentProvider.java
 	     org\eclipse\egit\ui\internal\sharing\RepoComboLabelProvider.java
@@ -639,7 +644,7 @@
 	     org\eclipse\egit\ui\PluginPreferenceInitializer.java
 	     org\eclipse\egit\ui\UIPreferences.java
 	     org\eclipse\egit\ui\UIUtils.java -->
-	<classpathentry including="org/eclipse/egit/ui/|org/eclipse/egit/ui/internal/|org/eclipse/egit/ui/internal/actions/|org/eclipse/egit/ui/internal/blame/|org/eclipse/egit/ui/internal/branch/|org/eclipse/egit/ui/internal/clean/|org/eclipse/egit/ui/internal/clone/|org/eclipse/egit/ui/internal/commands/|org/eclipse/egit/ui/internal/commands/shared/|org/eclipse/egit/ui/internal/commit/|org/eclipse/egit/ui/internal/commit/command/|org/eclipse/egit/ui/internal/components/|org/eclipse/egit/ui/internal/credentials/|org/eclipse/egit/ui/internal/decorators/|org/eclipse/egit/ui/internal/dialogs/|org/eclipse/egit/ui/internal/factories/|org/eclipse/egit/ui/internal/fetch/|org/eclipse/egit/ui/internal/gerrit/|org/eclipse/egit/ui/internal/handler/|org/eclipse/egit/ui/internal/history/|org/eclipse/egit/ui/internal/history/command/|org/eclipse/egit/ui/internal/importing/|org/eclipse/egit/ui/internal/merge/|org/eclipse/egit/ui/internal/operations/|org/eclipse/egit/ui/internal/patch/|org/eclipse/egit/ui/internal/preferences/|org/eclipse/egit/ui/internal/provisional/wizards/|org/eclipse/egit/ui/internal/pull/|org/eclipse/egit/ui/internal/push/|org/eclipse/egit/ui/internal/rebase/|org/eclipse/egit/ui/internal/reflog/|org/eclipse/egit/ui/internal/reflog/command/|org/eclipse/egit/ui/internal/repository/|org/eclipse/egit/ui/internal/repository/tree/|org/eclipse/egit/ui/internal/repository/tree/command/|org/eclipse/egit/ui/internal/search/|org/eclipse/egit/ui/internal/sharing/|org/eclipse/egit/ui/internal/staging/|org/eclipse/egit/ui/internal/stash/|org/eclipse/egit/ui/internal/submodule/|org/eclipse/egit/ui/internal/synchronize/|org/eclipse/egit/ui/internal/synchronize/action/|org/eclipse/egit/ui/internal/synchronize/compare/|org/eclipse/egit/ui/internal/synchronize/mapping/|org/eclipse/egit/ui/internal/synchronize/model/|org/eclipse/egit/ui/internal/trace/|org/eclipse/egit/ui/internal/variables/" kind="src" output="bin/1/plugins/org.eclipse.egit.ui.jar" path="org.eclipse.egit.ui/src"/>
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.egit.ui.jar" path="org.eclipse.egit.ui/src"/>
 	<!-- META-INF\maven\org.eclipse.egit\org.eclipse.egit.ui\pom.properties
 	     META-INF\maven\org.eclipse.egit\org.eclipse.egit.ui\pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.egit.ui.jar" path="res"/>

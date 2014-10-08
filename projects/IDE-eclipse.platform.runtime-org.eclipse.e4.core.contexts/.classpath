@@ -4,7 +4,7 @@
 	     about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.contexts.jar" path="org.eclipse.e4.core.contexts"/>
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.contexts.jar" path="org.eclipse.e4.core.contexts"/>
 	<!-- org\eclipse\e4\core\contexts\Active.java
 	     org\eclipse\e4\core\contexts\ContextFunction.java
 	     org\eclipse\e4\core\contexts\ContextInjectionFactory.java

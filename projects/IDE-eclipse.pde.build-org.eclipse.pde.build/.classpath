@@ -27,7 +27,7 @@
 	     templates\packager\packager.properties
 	     templates\packager\packaging.properties
 	     templates\plugins\customBuildCallbacks.xml -->
-	<classpathentry excluding="src/|src_ant/|.*|.*/" including=".options|META-INF/|about.html|about_files/|data/|data/21/fragment/|data/21/plugin/|data/30/fragment/|data/30/fragment/META-INF/|data/30/plugin/|data/30/plugin/META-INF/|plugin.properties|plugin.xml|scripts/|scripts/productBuild/|templates/features/|templates/headless-build/|templates/packager/|templates/plugins/" kind="src" output="bin/1/plugins/org.eclipse.pde.build" path="org.eclipse.pde.build"/>
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including=".options|META-INF/*|about.html|about_files/*|data/*|data/21/fragment/*|data/21/plugin/*|data/30/fragment/*|data/30/fragment/META-INF/*|data/30/plugin/*|data/30/plugin/META-INF/*|plugin.properties|plugin.xml|scripts/*|scripts/productBuild/*|templates/features/*|templates/headless-build/*|templates/packager/*|templates/plugins/*" kind="src" output="bin/1/plugins/org.eclipse.pde.build" path="org.eclipse.pde.build"/>
 	<!-- org\eclipse\pde\build\Constants.java
 	     org\eclipse\pde\build\IAntScript.java
 	     org\eclipse\pde\build\IFetchFactory.java
@@ -140,7 +140,7 @@
 	     org\eclipse\pde\internal\build\tasks\TaskMessages.java
 	     org\eclipse\pde\internal\build\tasks\UnzipperGeneratorTask.java
 	     org\eclipse\pde\internal\build\tasks\Version.java -->
-	<classpathentry including="org/eclipse/pde/internal/build/generator/|org/eclipse/pde/internal/build/publisher/|org/eclipse/pde/internal/build/tasks/" kind="src" output="bin/3/plugins/org.eclipse.pde.build/lib/pdebuild-ant.jar" path="org.eclipse.pde.build/src_ant"/>
+	<classpathentry including="org/eclipse/pde/internal/build/generator/*|org/eclipse/pde/internal/build/publisher/*|org/eclipse/pde/internal/build/tasks/*" kind="src" output="bin/3/plugins/org.eclipse.pde.build/lib/pdebuild-ant.jar" path="org.eclipse.pde.build/src_ant"/>
 	<!-- lib\pdebuild-ant.jar\META-INF\MANIFEST.MF
 	     pdebuild.jar\META-INF\MANIFEST.MF -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.build" path="res"/>

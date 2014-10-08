@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     fragment.properties
+	     META-INF\MANIFEST.MF
+	     os\linux\x86_64\libunixfile_#_#_#.so -->
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|fragment.properties|os/linux/x86_64/*" kind="src" output="bin/1/plugins/org.eclipse.core.filesystem.linux.x86_64.jar" path="org.eclipse.core.filesystem.linux.x86_64"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

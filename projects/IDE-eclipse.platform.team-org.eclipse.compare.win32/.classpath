@@ -8,7 +8,7 @@
 	     META-INF\p2.inf
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|icons/full/dlcl16/|icons/full/elcl16/|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.compare.win32.jar" path="org.eclipse.compare.win32"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/dlcl16/*|icons/full/elcl16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.compare.win32.jar" path="org.eclipse.compare.win32"/>
 	<!-- org\eclipse\compare\internal\win32\AbstractMergeViewer.java
 	     org\eclipse\compare\internal\win32\Activator.java
 	     org\eclipse\compare\internal\win32\CompareWin32Messages.java

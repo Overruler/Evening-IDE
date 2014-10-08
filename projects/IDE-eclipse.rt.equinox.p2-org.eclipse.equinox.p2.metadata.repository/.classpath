@@ -5,7 +5,7 @@
 	     OSGI-INF\repositoryManager.xml
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/|OSGI-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.metadata.repository.jar" path="org.eclipse.equinox.p2.metadata.repository"/>
+	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.metadata.repository.jar" path="org.eclipse.equinox.p2.metadata.repository"/>
 	<!-- org\eclipse\equinox\internal\p2\metadata\repository\Activator.java
 	     org\eclipse\equinox\internal\p2\metadata\repository\CompositeMetadataRepository.java
 	     org\eclipse\equinox\internal\p2\metadata\repository\CompositeMetadataRepositoryFactory.java

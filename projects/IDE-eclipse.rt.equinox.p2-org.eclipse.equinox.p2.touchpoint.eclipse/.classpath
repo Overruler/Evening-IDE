@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.eclipse.jar" path="org.eclipse.equinox.p2.touchpoint.eclipse"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.eclipse.jar" path="org.eclipse.equinox.p2.touchpoint.eclipse"/>
 	<!-- org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\ActionConstants.java
 	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\AddJVMArgumentAction.java
 	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\AddProgramArgumentAction.java

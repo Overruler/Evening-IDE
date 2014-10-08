@@ -5,7 +5,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="eval/|jdi/|jdi interfaces/|model/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.debug" path="org.eclipse.jdt.debug"/>
+	<classpathentry excluding="eval/|jdi/|jdi interfaces/|model/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.debug" path="org.eclipse.jdt.debug"/>
 	<!-- org\eclipse\jdt\debug\eval\EvaluationManager.java
 	     org\eclipse\jdt\debug\eval\IAstEvaluationEngine.java
 	     org\eclipse\jdt\debug\eval\IClassFileEvaluationEngine.java

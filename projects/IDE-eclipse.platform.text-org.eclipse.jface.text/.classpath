@@ -4,7 +4,7 @@
 	     about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="projection/|src/|.*|.*/" including=".options|META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jface.text.jar" path="org.eclipse.jface.text"/>
+	<classpathentry excluding="projection/|src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jface.text.jar" path="org.eclipse.jface.text"/>
 	<!-- org\eclipse\jface\text\source\projection\AnnotationBag.java
 	     org\eclipse\jface\text\source\projection\images\collapsed.gif
 	     org\eclipse\jface\text\source\projection\images\collapsed.png

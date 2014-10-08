@@ -2,8 +2,9 @@
 <classpath>
 	<!-- about.html
 	     META-INF\MANIFEST.MF
+	     META-INF\SOURCE-MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="resources/|src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jgit.jar" path="org.eclipse.jgit"/>
+	<classpathentry excluding="resources/|src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jgit.jar" path="org.eclipse.jgit"/>
 	<!-- org\eclipse\jgit\gitrepo\internal\RepoText.properties
 	     org\eclipse\jgit\internal\JGitText.properties
 	     org\eclipse\jgit\internal\storage\dfs\DfsText.properties -->
@@ -369,6 +370,7 @@
 	     org\eclipse\jgit\revwalk\RevTree.java
 	     org\eclipse\jgit\revwalk\RevWalk.java
 	     org\eclipse\jgit\revwalk\RevWalkUtils.java
+	     org\eclipse\jgit\revwalk\TreeRevFilter.java
 	     org\eclipse\jgit\storage\file\FileBasedConfig.java
 	     org\eclipse\jgit\storage\file\FileRepositoryBuilder.java
 	     org\eclipse\jgit\storage\file\WindowCacheConfig.java
@@ -385,6 +387,7 @@
 	     org\eclipse\jgit\transport\BasePackPushConnection.java
 	     org\eclipse\jgit\transport\BaseReceivePack.java
 	     org\eclipse\jgit\transport\BundleWriter.java
+	     org\eclipse\jgit\transport\ChainingCredentialsProvider.java
 	     org\eclipse\jgit\transport\Connection.java
 	     org\eclipse\jgit\transport\CredentialItem.java
 	     org\eclipse\jgit\transport\CredentialsProvider.java
@@ -402,6 +405,8 @@
 	     org\eclipse\jgit\transport\http\JDKHttpConnectionFactory.java
 	     org\eclipse\jgit\transport\JschConfigSessionFactory.java
 	     org\eclipse\jgit\transport\JschSession.java
+	     org\eclipse\jgit\transport\NetRC.java
+	     org\eclipse\jgit\transport\NetRCCredentialsProvider.java
 	     org\eclipse\jgit\transport\OpenSshConfig.java
 	     org\eclipse\jgit\transport\OperationResult.java
 	     org\eclipse\jgit\transport\PackedObjectInfo.java

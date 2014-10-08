@@ -11,7 +11,7 @@
 	     swt-win##-####.dll
 	     swt-xulrunner-win##-####.dll
 	     swt-xulrunner##-win##-####.dll -->
-	<classpathentry excluding=".*" including="META-INF/|about.html|about_files/|fragment.properties|swt-awt-win??-????.dll|swt-gdip-win??-????.dll|swt-wgl-win??-????.dll|swt-win??-????.dll|swt-xulrunner-win??-????.dll|swt-xulrunner??-win??-????.dll" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt.win32.win32.x86_64"/>
+	<classpathentry excluding=".*" including="META-INF/*|about.html|about_files/*|fragment.properties|swt-awt-win??-????.dll|swt-gdip-win??-????.dll|swt-wgl-win??-????.dll|swt-win??-????.dll|swt-xulrunner-win??-????.dll|swt-xulrunner??-win??-????.dll" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt.win32.win32.x86_64"/>
 	<!-- external.xpt -->
 	<classpathentry including="external.xpt" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/components"/>
 	<!-- org\eclipse\swt\accessibility\ACC.java
@@ -52,7 +52,7 @@
 	<!-- org\eclipse\swt\accessibility\Accessible.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Accessibility/win32"/>
 	<!-- org\eclipse\swt\awt\SWT_AWT.java -->
-	<classpathentry including="org/eclipse/swt/awt/" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT AWT/win32"/>
+	<classpathentry including="org/eclipse/swt/awt/*" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT AWT/win32"/>
 	<!-- org\eclipse\swt\browser\AuthenticationEvent.java
 	     org\eclipse\swt\browser\AuthenticationListener.java
 	     org\eclipse\swt\browser\Browser.java
@@ -243,7 +243,7 @@
 	     org\eclipse\swt\internal\mozilla\XPCOM.java
 	     org\eclipse\swt\internal\mozilla\XPCOMObject.java
 	     org\eclipse\swt\browser\Mozilla.java -->
-	<classpathentry including="org/eclipse/swt/browser/|org/eclipse/swt/internal/mozilla/|org/eclipse/swt/internal/mozilla/init/" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Mozilla/common"/>
+	<classpathentry including="org/eclipse/swt/browser/*|org/eclipse/swt/internal/mozilla/*|org/eclipse/swt/internal/mozilla/init/*" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Mozilla/common"/>
 	<!-- org\eclipse\swt\browser\MozillaDelegate.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Mozilla/win32"/>
 	<!-- org\eclipse\swt\internal\ole\win32\COMObject.java
@@ -265,10 +265,10 @@
 	     org\eclipse\swt\internal\opengl\win32\PIXELFORMATDESCRIPTOR.java
 	     org\eclipse\swt\internal\opengl\win32\WGL.java
 	     org\eclipse\swt\opengl\GLCanvas.java -->
-	<classpathentry including="org/eclipse/swt/internal/opengl/win32/|org/eclipse/swt/opengl/" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT OpenGL/win32"/>
+	<classpathentry including="org/eclipse/swt/internal/opengl/win32/*|org/eclipse/swt/opengl/*" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT OpenGL/win32"/>
 	<!-- org\eclipse\swt\internal\C.java
 	     org\eclipse\swt\internal\LONG.java -->
-	<classpathentry including="org/eclipse/swt/internal/" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT PI/common"/>
+	<classpathentry including="org/eclipse/swt/internal/*" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT PI/common"/>
 	<!-- org\eclipse\swt\internal\Library.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT PI/common_j2se"/>
 	<!-- org\eclipse\swt\internal\gdip\BitmapData.java
@@ -509,7 +509,7 @@
 	     org\eclipse\swt\internal\win32\WINDOWPLACEMENT.java
 	     org\eclipse\swt\internal\win32\WINDOWPOS.java
 	     org\eclipse\swt\internal\win32\WNDCLASS.java -->
-	<classpathentry including="org/eclipse/swt/internal/|org/eclipse/swt/internal/gdip/|org/eclipse/swt/internal/ole/win32/|org/eclipse/swt/internal/win32/" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT PI/win32"/>
+	<classpathentry including="org/eclipse/swt/internal/*|org/eclipse/swt/internal/gdip/*|org/eclipse/swt/internal/ole/win32/*|org/eclipse/swt/internal/win32/*" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT PI/win32"/>
 	<!-- org\eclipse\swt\printing\PrinterData.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT Printing/common"/>
 	<!-- org\eclipse\swt\printing\PrintDialog.java
@@ -557,7 +557,7 @@
 	     org\eclipse\swt\internal\webkit\JSClassDefinition.java
 	     org\eclipse\swt\internal\webkit\WebKit_win32.java
 	     org\eclipse\swt\browser\WebKit.java -->
-	<classpathentry including="org/eclipse/swt/browser/|org/eclipse/swt/internal/webkit/" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT WebKit/win32"/>
+	<classpathentry including="org/eclipse/swt/browser/*|org/eclipse/swt/internal/webkit/*" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT WebKit/win32"/>
 	<!-- org\eclipse\swt\events\ArmEvent.java
 	     org\eclipse\swt\events\ArmListener.java
 	     org\eclipse\swt\events\ControlAdapter.java
@@ -669,7 +669,7 @@
 	     org\eclipse\swt\widgets\Tray.java
 	     org\eclipse\swt\widgets\TypedListener.java
 	     version.txt -->
-	<classpathentry including="org/eclipse/swt/|org/eclipse/swt/events/|org/eclipse/swt/graphics/|org/eclipse/swt/internal/|org/eclipse/swt/internal/image/|org/eclipse/swt/layout/|org/eclipse/swt/widgets/|version.txt" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT/common"/>
+	<classpathentry including="org/eclipse/swt/*|org/eclipse/swt/events/*|org/eclipse/swt/graphics/*|org/eclipse/swt/internal/*|org/eclipse/swt/internal/image/*|org/eclipse/swt/layout/*|org/eclipse/swt/widgets/*|version.txt" kind="src" output="bin/1/plugins/org.eclipse.swt.win32.win32.x86_64.jar" path="org.eclipse.swt/Eclipse SWT/common"/>
 	<!-- org\eclipse\swt\internal\CloneableCompatibility.java
 	     org\eclipse\swt\internal\Compatibility.java
 	     org\eclipse\swt\internal\SerializableCompatibility.java

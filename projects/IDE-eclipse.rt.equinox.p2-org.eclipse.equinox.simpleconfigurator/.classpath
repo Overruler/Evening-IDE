@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.simpleconfigurator.jar" path="org.eclipse.equinox.simpleconfigurator"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.simpleconfigurator.jar" path="org.eclipse.equinox.simpleconfigurator"/>
 	<!-- org\eclipse\equinox\internal\provisional\configurator\Configurator.java
 	     org\eclipse\equinox\internal\simpleconfigurator\Activator.java
 	     org\eclipse\equinox\internal\simpleconfigurator\console\ApplyCommand.java

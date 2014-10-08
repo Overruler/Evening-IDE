@@ -495,7 +495,7 @@
 	     whatsNew\images\theme-association.png
 	     whatsNew\platform_isv_whatsnew.html
 	     workbench.png -->
-	<classpathentry excluding=".*|.*/" including="META-INF/|about.html|book.css|guide/|guide/images/|notices.html|plugin.properties|plugin.xml|porting/|porting/3.6/|porting/3.7/|porting/4.2/|porting/4.3/|porting/4.4/|questions/|schema.css|toc.xml|topics_Guide.xml|topics_Porting.xml|topics_Questions.xml|topics_Reference.xml|topics_Samples.xml|topics_WhatsNew.xml|whatsNew/|whatsNew/images/|whatsNew/images/css-bridge/|workbench.png" kind="src" output="bin/1/plugins/org.eclipse.platform.doc.isv.jar" path="org.eclipse.platform.doc.isv"/>
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|book.css|guide/*|guide/images/*|notices.html|plugin.properties|plugin.xml|porting/*|porting/3.6/*|porting/3.7/*|porting/4.2/*|porting/4.3/*|porting/4.4/*|questions/*|schema.css|toc.xml|topics_Guide.xml|topics_Porting.xml|topics_Questions.xml|topics_Reference.xml|topics_Samples.xml|topics_WhatsNew.xml|whatsNew/*|whatsNew/images/*|whatsNew/images/css-bridge/*|workbench.png" kind="src" output="bin/1/plugins/org.eclipse.platform.doc.isv.jar" path="org.eclipse.platform.doc.isv"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
 	<classpathentry kind="output" path="classes"/>

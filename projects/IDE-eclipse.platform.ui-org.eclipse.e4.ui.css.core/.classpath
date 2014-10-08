@@ -4,7 +4,7 @@
 	     META-INF\MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.css.core.jar" path="org.eclipse.e4.ui.css.core"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.css.core.jar" path="org.eclipse.e4.ui.css.core"/>
 	<!-- org\eclipse\e4\ui\css\core\css2\CSS2ColorHelper.java
 	     org\eclipse\e4\ui\css\core\css2\CSS2FontHelper.java
 	     org\eclipse\e4\ui\css\core\css2\CSS2FontPropertiesHelpers.java
