@@ -56,6 +56,10 @@ body {
   color: #666;
 }
 
+em {
+  font-style: italic;
+}
+
 a {
   color: #2879d0;
 }
