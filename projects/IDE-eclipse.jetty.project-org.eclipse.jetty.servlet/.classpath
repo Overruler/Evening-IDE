@@ -25,7 +25,7 @@
 	     org\eclipse\jetty\servlet\jmx\ServletHandler-mbean.properties
 	     org\eclipse\jetty\servlet\jmx\ServletHolder-mbean.properties
 	     org\eclipse\jetty\servlet\jmx\ServletMapping-mbean.properties -->
-	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.servlet.jar" path="jetty-servlet/src/main/resources"/>
+	<!-- <classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.servlet.jar" path="jetty-servlet/src/main/resources"/> -->
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     META-INF\maven\org.eclipse.jetty\jetty-servlet\pom.properties

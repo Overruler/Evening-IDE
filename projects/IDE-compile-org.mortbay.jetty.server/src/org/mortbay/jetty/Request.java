@@ -48,6 +48,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.servlet.http.HttpUpgradeHandler;
 import javax.servlet.http.Part;
 import org.mortbay.io.Buffer;
 import org.mortbay.io.BufferUtil;
@@ -2118,6 +2119,22 @@ public class Request implements HttpServletRequest
 
 	@Override
 	public Part getPart(String name) throws IOException, ServletException {
+		;return null;
+	}
+
+	@Override
+	public long getContentLengthLong() {
+		;return 0;
+	}
+
+	@Override
+	public String changeSessionId() {
+		;return null;
+	}
+
+	@Override
+	public <T extends HttpUpgradeHandler> T upgrade(Class<T> httpUpgradeHandlerClass) throws IOException,
+		ServletException {
 		;return null;
 	}
 }

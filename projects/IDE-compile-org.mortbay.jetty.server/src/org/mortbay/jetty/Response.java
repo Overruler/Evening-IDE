@@ -22,6 +22,7 @@ import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Locale;
 import javax.servlet.ServletOutputStream;
+import javax.servlet.WriteListener;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -1157,11 +1158,27 @@ public class Response implements HttpServletResponse
         public void write(int b) throws IOException
         {
         }
+
+		@Override
+		public boolean isReady() {
+			;return false;
+		}
+
+		@Override
+		public void setWriteListener(WriteListener listener) {
+			;
+		}
     }
 
 	@Override
 	public Collection<String> getHeaderNames() {
 		;return null;
+	}
+
+
+	@Override
+	public void setContentLengthLong(long length) {
+		;
 	}
 
 

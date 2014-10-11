@@ -93,7 +93,7 @@
 	     javax\servlet\SessionTrackingMode.java
 	     javax\servlet\SingleThreadModel.java
 	     javax\servlet\UnavailableException.java -->
-	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/javax.servlet.jar" path="javax.servlet"/>
+	<classpathentry including="javax/servlet/" excluding="javax/servlet/jsp/|META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/javax.servlet.jar" path="javax.servlet"/>
 	<!-- about.html
 	     about_files\LICENSE_CDDL.txt
 	     META-INF\MANIFEST.MF

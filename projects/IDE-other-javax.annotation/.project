@@ -18,7 +18,7 @@
 		<link>
 			<name>javax.annotation</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/libraries/orbit-sources/javax.annotation</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/apache.tomcat/java</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

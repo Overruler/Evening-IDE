@@ -16,9 +16,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>org.eclipse.equinox.http.jetty8</name>
+			<name>org.eclipse.equinox.http.jetty9</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/libraries/eclipse.rt.equinox.bundles/bundles/org.eclipse.equinox.http.jetty8</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/eclipse.rt.equinox.bundles/bundles/org.eclipse.equinox.http.jetty9</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

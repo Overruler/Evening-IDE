@@ -520,7 +520,7 @@
 	     org\glassfish\jsp\api\JspProbeEmitter.java
 	     org\glassfish\jsp\api\ResourceInjector.java
 	     org\apache\jasper\util\SystemLogHandler.java -->
-	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|org/apache/jasper/runtime/PerThreadTagHandlerPool.java|org/apache/jasper/compiler/JDTJavaCompiler.java|about.html|META-INF/MANIFEST.MF|META-INF/services/javax.servlet.ServletContainerInitializer|plugin.properties" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="org.apache.jasper.glassfish"/>
+	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|org/apache/jasper/runtime/PerThreadTagHandlerPool.java|org/apache/jasper/compiler/JDTJavaCompiler.java|org/apache/jasper/servlet/JspCServletContext.java|about.html|META-INF/MANIFEST.MF|META-INF/services/javax.servlet.ServletContainerInitializer|plugin.properties" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="org.apache.jasper.glassfish"/>
 	<!-- about.html
 	     about_files\LICENSE_ASL20.txt
 	     about_files\LICENSE_CDDL.txt

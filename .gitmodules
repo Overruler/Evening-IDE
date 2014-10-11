@@ -136,3 +136,6 @@
 [submodule "libraries/apache.xalan-j"]
 	path = libraries/apache.xalan-j
 	url = https://github.com/apache/xalan-j.git
+[submodule "libraries/apache.tomcat"]
+	path = libraries/apache.tomcat
+	url = https://github.com/apache/tomcat.git

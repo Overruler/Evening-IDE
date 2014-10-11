@@ -14,7 +14,7 @@
 	     javax\annotation\security\RunAs.java
 	     javax\annotation\sql\DataSourceDefinition.java
 	     javax\annotation\sql\DataSourceDefinitions.java -->
-	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/javax.annotation.jar" path="javax.annotation"/>
+	<classpathentry including="javax/annotation/" excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/javax.annotation.jar" path="javax.annotation"/>
 	<!-- about.html
 	     about_files\LICENSE_CDDL.txt
 	     META-INF\MANIFEST.MF

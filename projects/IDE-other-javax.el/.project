@@ -18,7 +18,7 @@
 		<link>
 			<name>javax.el</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/libraries/orbit-sources/javax.el</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/apache.tomcat/java</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

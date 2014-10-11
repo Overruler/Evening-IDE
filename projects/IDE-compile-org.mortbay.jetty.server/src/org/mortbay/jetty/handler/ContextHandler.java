@@ -1709,6 +1709,11 @@ public class ContextHandler extends HandlerWrapper implements Attributes, Server
 		public void declareRoles(String... roleNames) {
 			;
 		}
+
+		@Override
+		public String getVirtualServerName() {
+			;return null;
+		}
     }
 
     /* ------------------------------------------------------------ */

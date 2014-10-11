@@ -74,7 +74,7 @@
 	     org\eclipse\jetty\server\ssl\SslSelectChannelConnector.java
 	     org\eclipse\jetty\server\ssl\SslSocketConnector.java
 	     org\eclipse\jetty\server\UserIdentity.java -->
-	<classpathentry excluding="org/eclipse/jetty/server/handler/ContextHandler.java" kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="jetty-server/src/main/java"/>
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="jetty-server/src/main/java"/>
 	<!-- org\eclipse\jetty\favicon.ico
 	     org\eclipse\jetty\server\handler\jmx\AbstractHandler-mbean.properties
 	     org\eclipse\jetty\server\handler\jmx\ContextHandler-mbean.properties
@@ -97,7 +97,7 @@
 	     META-INF\maven\org.eclipse.jetty\jetty-server\pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="res"/>
 	<!-- org\eclipse\jetty\server\handler\ContextHandler.java -->
-	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="src"/>
+	<!-- <classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="src"/> -->
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-compile-org.eclipse.jetty.jmx"/>
 	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
