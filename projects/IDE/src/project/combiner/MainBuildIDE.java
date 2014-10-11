@@ -468,7 +468,7 @@ public class MainBuildIDE {
 		if(Files.isRegularFile(path)) {
 			try {
 				Files.setPosixFilePermissions(path, PosixFilePermissions.fromString(permissions));
-			} catch(@SuppressWarnings("unused") IOException ignored) {}
+			} catch(@SuppressWarnings("unused") IOException | UnsupportedOperationException ignored) {}
 		}
 	}
 	private static Path remapP2(Path file) {
