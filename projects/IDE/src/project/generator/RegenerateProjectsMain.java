@@ -29,7 +29,7 @@ import utils.streams2.IOStream;
 import utils.streams2.Stream;
 import utils.streams2.Streams;
 
-public class Main {
+public class RegenerateProjectsMain {
 	private static final Path MANIFEST_PATH = Paths.get(JarFile.MANIFEST_NAME);
 	private static final Path PLUGINS_FOLDER = Paths.get(System.getProperty("user.home", ""), "evening/plugins");
 
@@ -51,7 +51,7 @@ public class Main {
 	private static void expandPluginContents(List<Plugin> plugins) throws IOException {
 		for(Plugin plugin : plugins) {
 			Stream<Pair<Path, byte[]>> stream = plugin.contents.entrySet().map(Entry::toPair).stream();
-			IOStream<Pair<Path, byte[]>> expanded = stream.toIO().flatMap(Main::deepExpand);
+			IOStream<Pair<Path, byte[]>> expanded = stream.toIO().flatMap(RegenerateProjectsMain::deepExpand);
 			Path bundle = Paths.get(plugin.id + plugin.shape);
 			HashMap<Path, byte[]> hashMap = expanded.toMap(p -> bundle.resolve(p.lhs), Pair::rhs);
 			plugin.contents.clear().putAll(hashMap);
@@ -61,7 +61,7 @@ public class Main {
 		String name = content.lhs.getFileName().toString();
 		if(name.endsWith(".jar")) {
 			IOStream<Pair<Path, byte[]>> io = readZip(content.rhs).entrySet().stream().toIO();
-			IOStream<Pair<Path, byte[]>> expanded = io.flatMap(Main::deepExpand);
+			IOStream<Pair<Path, byte[]>> expanded = io.flatMap(RegenerateProjectsMain::deepExpand);
 			return expanded.map(p -> p.keepingRhs(content.lhs.resolve(p.lhs)));
 		}
 		return Stream.of(content).toIO();
@@ -98,7 +98,7 @@ public class Main {
 	private static void printDependencyLoops(Path projects) throws IOException {
 		Map<String, List<String>> deps =
 			Files.list(projects).map(p -> p.resolve(".classpath")).filter(Files::isRegularFile).map(
-				Main::readRequiredProjects).toMap(Pair::lhs, Pair::rhs).toMap();
+				RegenerateProjectsMain::readRequiredProjects).toMap(Pair::lhs, Pair::rhs).toMap();
 		HashSet<Pair<String, String>> checked = HashSet.of();
 		List<List<String>> chains = deps.keySet().stream().map(List::of).toList().toList();
 		while(chains.notEmpty()) {
@@ -419,7 +419,7 @@ public class Main {
 		Path src,
 		List<Path> locallyAvailableFiles,
 		List<Path> libs) throws IOException {
-		locallyAvailableFiles = locallyAvailableFiles.replaceAll(Main::flattenOne);
+		locallyAvailableFiles = locallyAvailableFiles.replaceAll(RegenerateProjectsMain::flattenOne);
 		libs = libs.filter(p -> p.endsWith(src.getName(0)));
 		Path lib = libs.size() == 1 ? libs.get(0) : null;
 		if(libs.isEmpty() && src.startsWith("src") == false && src.startsWith("res") == false) {
@@ -612,7 +612,7 @@ public class Main {
 			return new ArrayList<>();
 		}
 		Path srcParent = src.getParent();
-		return Files.walk(src).filter(Files::isRegularFile).map(Main::canonicalizeFileNameToMatch).map(
+		return Files.walk(src).filter(Files::isRegularFile).map(RegenerateProjectsMain::canonicalizeFileNameToMatch).map(
 			srcParent::relativize).toList();
 	}
 	private static Path missedFileCatcher(Path p) {
@@ -626,7 +626,7 @@ public class Main {
 		HashMap<Path, byte[]> pluginContent = plugin.contents;
 		Stream<Path> stream = pluginContent.keySet().stream().sorted();
 		ArrayList<Path> list =
-			stream.filter(p -> removesInnerClasses(p, pluginContent.get(p))).map(Main::canonicalizeFileNameToMatch).toList();
+			stream.filter(p -> removesInnerClasses(p, pluginContent.get(p))).map(RegenerateProjectsMain::canonicalizeFileNameToMatch).toList();
 		switch(plugin.id) {
 			case "com.sun.el":
 				return list.replaceAll(p -> convertComSunToOrgApache(p)).remove(
@@ -740,11 +740,11 @@ public class Main {
 			case "org.eclipse.jgit":
 				return list.remove(Paths.get("org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/BitmapIndexImpl.java"));
 			case "org.eclipse.swt.win32.win32.x86_64":
-				return list.removeIf(Main::notForWindows);
+				return list.removeIf(RegenerateProjectsMain::notForWindows);
 			case "org.eclipse.swt.cocoa.macosx.x86_64":
-				return list.removeIf(Main::notForMacOSX);
+				return list.removeIf(RegenerateProjectsMain::notForMacOSX);
 			case "org.eclipse.swt.gtk.linux.x86_64":
-				return list.removeIf(Main::notForLinux);
+				return list.removeIf(RegenerateProjectsMain::notForLinux);
 			case "org.junit":
 				return list.filter(p -> p.startsWith("org.junit/junitsrc"));
 			case "com.jcraft.jsch":
@@ -760,7 +760,7 @@ public class Main {
 			case "org.w3c.dom.events":
 			case "org.w3c.dom.smil":
 			case "org.w3c.dom.svg":
-				return list.removeIf(Main::orbitSourceIdentifier);
+				return list.removeIf(RegenerateProjectsMain::orbitSourceIdentifier);
 			default:
 				return list;
 		}
@@ -1090,7 +1090,7 @@ public class Main {
 			return List.of();
 		}
 		String[] split = required.replaceAll("\"[^\"]+\"", "\"\"").split(",");
-		return Stream.of(split).filter(s -> s.contains(tag)).map(Main::toBundleName).toList().toList();
+		return Stream.of(split).filter(s -> s.contains(tag)).map(RegenerateProjectsMain::toBundleName).toList().toList();
 	}
 	private static <A, B> HashMap<B, List<A>> invert(HashMap<A, List<B>> dag) {
 		Collector<A, ArrayList<A>, ArrayList<A>> toArrayList = Collectors.toList();
@@ -1123,7 +1123,7 @@ public class Main {
 			skipped.addAll(list);
 		}
 		IOStream<Path> stream = Files.list(pluginsFolder).filter(path -> filterExtraPluginsEntries(path, skipped));
-		IOStream<Pair<Path, Map<Path, byte[]>>> stream3 = stream.map(Main::readContents).filter(Main::hasManifest);
+		IOStream<Pair<Path, Map<Path, byte[]>>> stream3 = stream.map(RegenerateProjectsMain::readContents).filter(RegenerateProjectsMain::hasManifest);
 		IOStream<Plugin> stream4 = stream3.map(p -> new Plugin(p.lhs, p.rhs.toHashMap()));
 		List<Plugin> list =
 			stream4.toMultiMap(Plugin::name, l -> l.sort().get(-1), m -> m.values().toArrayList().sort().toList());
