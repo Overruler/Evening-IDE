@@ -54,9 +54,6 @@
 	     org\eclipse\osgi\container\namespaces\EquinoxFragmentNamespace.java
 	     org\eclipse\osgi\container\namespaces\EquinoxModuleDataNamespace.java
 	     org\eclipse\osgi\container\SystemModule.java
-	     org\eclipse\osgi\framework\console\CommandInterpreter.java
-	     org\eclipse\osgi\framework\console\CommandProvider.java
-	     org\eclipse\osgi\framework\console\ConsoleSession.java
 	     org\eclipse\osgi\framework\util\ArrayMap.java
 	     org\eclipse\osgi\framework\util\FilePath.java
 	     org\eclipse\osgi\framework\util\Headers.java
@@ -192,7 +189,6 @@
 	     org\eclipse\osgi\internal\weaving\WovenClassImpl.java
 	     org\eclipse\osgi\launch\Equinox.java
 	     org\eclipse\osgi\launch\EquinoxFactory.java
-	     org\eclipse\osgi\report\resolution\ResolutionReport.java
 	     org\eclipse\osgi\service\pluginconversion\PluginConversionException.java
 	     org\eclipse\osgi\service\pluginconversion\PluginConverter.java
 	     org\eclipse\osgi\service\resolver\BaseDescription.java
@@ -401,6 +397,9 @@
 	     org\eclipse\equinox\log\LogPermission.java
 	     org\eclipse\equinox\log\LogPermissionCollection.java
 	     org\eclipse\equinox\log\SynchronousLogListener.java
+	     org\eclipse\osgi\framework\console\CommandInterpreter.java
+	     org\eclipse\osgi\framework\console\CommandProvider.java
+	     org\eclipse\osgi\framework\console\ConsoleSession.java
 	     org\eclipse\osgi\framework\eventmgr\CopyOnWriteIdentityMap.java
 	     org\eclipse\osgi\framework\eventmgr\EventDispatcher.java
 	     org\eclipse\osgi\framework\eventmgr\EventListeners.java
@@ -419,6 +418,7 @@
 	     org\eclipse\osgi\internal\messages\Msg.java
 	     org\eclipse\osgi\internal\util\SupplementDebug.java
 	     org\eclipse\osgi\internal\util\Tokenizer.java
+	     org\eclipse\osgi\report\resolution\ResolutionReport.java
 	     org\eclipse\osgi\service\datalocation\Location.java
 	     org\eclipse\osgi\service\debug\DebugOptions.java
 	     org\eclipse\osgi\service\debug\DebugOptionsListener.java

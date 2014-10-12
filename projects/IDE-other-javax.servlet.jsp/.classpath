@@ -19,15 +19,6 @@
 	     javax\servlet\jsp\JspTagException.java
 	     javax\servlet\jsp\JspWriter.java
 	     javax\servlet\jsp\PageContext.java
-	     javax\servlet\jsp\resources\jspxml_2_0.dtd
-	     javax\servlet\jsp\resources\jspxml_2_0.xsd
-	     javax\servlet\jsp\resources\jsp_2_0.xsd
-	     javax\servlet\jsp\resources\jsp_2_1.xsd
-	     javax\servlet\jsp\resources\jsp_2_2.xsd
-	     javax\servlet\jsp\resources\web-jsptaglibrary_1_1.dtd
-	     javax\servlet\jsp\resources\web-jsptaglibrary_1_2.dtd
-	     javax\servlet\jsp\resources\web-jsptaglibrary_2_0.xsd
-	     javax\servlet\jsp\resources\web-jsptaglibrary_2_1.xsd
 	     javax\servlet\jsp\SkipPageException.java
 	     javax\servlet\jsp\tagext\BodyContent.java
 	     javax\servlet\jsp\tagext\BodyTag.java
@@ -55,7 +46,17 @@
 	     javax\servlet\jsp\tagext\TryCatchFinally.java
 	     javax\servlet\jsp\tagext\ValidationMessage.java
 	     javax\servlet\jsp\tagext\VariableInfo.java -->
-	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" including="javax/servlet/jsp/*|javax/servlet/jsp/el/*|javax/servlet/jsp/resources/*|javax/servlet/jsp/tagext/*" kind="src" output="bin/1/plugins/javax.servlet.jsp.jar" path="javax.servlet.jsp"/>
+	<classpathentry including="javax/servlet/jsp/*|javax/servlet/jsp/el/*|javax/servlet/jsp/tagext/*" kind="src" output="bin/1/plugins/javax.servlet.jsp.jar" path="apache.tomcat/java"/>
+	<!-- jsp\resources\jspxml_2_0.dtd
+	     jsp\resources\jspxml_2_0.xsd
+	     jsp\resources\jsp_2_0.xsd
+	     jsp\resources\jsp_2_1.xsd
+	     jsp\resources\jsp_2_2.xsd
+	     jsp\resources\web-jsptaglibrary_1_1.dtd
+	     jsp\resources\web-jsptaglibrary_1_2.dtd
+	     jsp\resources\web-jsptaglibrary_2_0.xsd
+	     jsp\resources\web-jsptaglibrary_2_1.xsd -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/javax.servlet.jsp.jar/javax/servlet" path="javax.servlet.jsp.jar/javax/servlet/x-miss-x"/> -->
 	<!-- about.html
 	     about_files\LICENSE_CDDL.txt
 	     META-INF\MANIFEST.MF

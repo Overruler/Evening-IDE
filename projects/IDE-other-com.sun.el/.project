@@ -16,9 +16,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>com.sun.el</name>
+			<name>apache.tomcat</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/libraries/orbit-sources/com.sun.el</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/apache.tomcat</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

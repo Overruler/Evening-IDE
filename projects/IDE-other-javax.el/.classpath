@@ -16,14 +16,15 @@
 	     javax\el\MethodExpression.java
 	     javax\el\MethodInfo.java
 	     javax\el\MethodNotFoundException.java
-	     javax\el\PrivateMessages.properties
 	     javax\el\PropertyNotFoundException.java
 	     javax\el\PropertyNotWritableException.java
 	     javax\el\ResourceBundleELResolver.java
 	     javax\el\ValueExpression.java
 	     javax\el\ValueReference.java
 	     javax\el\VariableMapper.java -->
-	<classpathentry including="javax/el/" excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE_CDDL.txt|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/javax.el.jar" path="javax.el"/>
+	<classpathentry including="javax/el/*" kind="src" output="bin/1/plugins/javax.el.jar" path="apache.tomcat/java"/>
+	<!-- javax\el\PrivateMessages.properties -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/javax.el.jar" path="javax.el.jar/x-miss-x"/> -->
 	<!-- about.html
 	     about_files\LICENSE_CDDL.txt
 	     META-INF\MANIFEST.MF

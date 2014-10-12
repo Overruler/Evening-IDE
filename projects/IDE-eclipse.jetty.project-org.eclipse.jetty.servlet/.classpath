@@ -19,13 +19,13 @@
 	     org\eclipse\jetty\servlet\ServletMapping.java
 	     org\eclipse\jetty\servlet\StatisticsServlet.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.servlet.jar" path="jetty-servlet/src/main/java"/>
-	<!-- org\eclipse\jetty\servlet\jmx\FilterMapping-mbean.properties
-	     org\eclipse\jetty\servlet\jmx\Holder-mbean.properties
-	     org\eclipse\jetty\servlet\jmx\ServletContextHandler-mbean.properties
-	     org\eclipse\jetty\servlet\jmx\ServletHandler-mbean.properties
-	     org\eclipse\jetty\servlet\jmx\ServletHolder-mbean.properties
-	     org\eclipse\jetty\servlet\jmx\ServletMapping-mbean.properties -->
-	<!-- <classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.servlet.jar" path="jetty-servlet/src/main/resources"/> -->
+	<!-- servlet\jmx\FilterMapping-mbean.properties
+	     servlet\jmx\Holder-mbean.properties
+	     servlet\jmx\ServletContextHandler-mbean.properties
+	     servlet\jmx\ServletHandler-mbean.properties
+	     servlet\jmx\ServletHolder-mbean.properties
+	     servlet\jmx\ServletMapping-mbean.properties -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.servlet.jar/org/eclipse/jetty" path="org.eclipse.jetty.servlet.jar/org/eclipse/jetty/x-miss-x"/> -->
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     META-INF\maven\org.eclipse.jetty\jetty-servlet\pom.properties

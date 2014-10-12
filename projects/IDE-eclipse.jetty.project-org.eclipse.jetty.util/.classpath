@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\eclipse\jetty\util\ajax\JSON.java
-	     org\eclipse\jetty\util\ajax\JSONCollectionConvertor.java
-	     org\eclipse\jetty\util\ajax\JSONDateConvertor.java
-	     org\eclipse\jetty\util\ajax\JSONEnumConvertor.java
-	     org\eclipse\jetty\util\ajax\JSONObjectConvertor.java
-	     org\eclipse\jetty\util\ajax\JSONPojoConvertor.java
-	     org\eclipse\jetty\util\ajax\JSONPojoConvertorFactory.java
-	     org\eclipse\jetty\util\ArrayQueue.java
+	<!-- org\eclipse\jetty\util\ArrayQueue.java
 	     org\eclipse\jetty\util\Atomics.java
 	     org\eclipse\jetty\util\Attributes.java
 	     org\eclipse\jetty\util\AttributesMap.java
@@ -16,7 +9,6 @@
 	     org\eclipse\jetty\util\ByteArrayISO8859Writer.java
 	     org\eclipse\jetty\util\ByteArrayOutputStream2.java
 	     org\eclipse\jetty\util\component\AbstractLifeCycle.java
-	     org\eclipse\jetty\util\component\AggregateLifeCycle.java
 	     org\eclipse\jetty\util\component\Container.java
 	     org\eclipse\jetty\util\component\Destroyable.java
 	     org\eclipse\jetty\util\component\Dumpable.java
@@ -40,7 +32,6 @@
 	     org\eclipse\jetty\util\log\StdErrLog.java
 	     org\eclipse\jetty\util\MultiException.java
 	     org\eclipse\jetty\util\MultiMap.java
-	     org\eclipse\jetty\util\MultiPartInputStream.java
 	     org\eclipse\jetty\util\MultiPartOutputStream.java
 	     org\eclipse\jetty\util\MultiPartWriter.java
 	     org\eclipse\jetty\util\PatternMatcher.java
@@ -64,7 +55,6 @@
 	     org\eclipse\jetty\util\resource\URLResource.java
 	     org\eclipse\jetty\util\RolloverFileOutputStream.java
 	     org\eclipse\jetty\util\Scanner.java
-	     org\eclipse\jetty\util\security\B64Code.java
 	     org\eclipse\jetty\util\security\CertificateUtils.java
 	     org\eclipse\jetty\util\security\CertificateValidator.java
 	     org\eclipse\jetty\util\security\Constraint.java
@@ -76,20 +66,33 @@
 	     org\eclipse\jetty\util\ssl\SslContextFactory.java
 	     org\eclipse\jetty\util\statistic\CounterStatistic.java
 	     org\eclipse\jetty\util\statistic\SampleStatistic.java
-	     org\eclipse\jetty\util\StringMap.java
 	     org\eclipse\jetty\util\StringUtil.java
 	     org\eclipse\jetty\util\thread\ExecutorThreadPool.java
 	     org\eclipse\jetty\util\thread\QueuedThreadPool.java
 	     org\eclipse\jetty\util\thread\ShutdownThread.java
 	     org\eclipse\jetty\util\thread\ThreadPool.java
-	     org\eclipse\jetty\util\thread\Timeout.java
 	     org\eclipse\jetty\util\TypeUtil.java
 	     org\eclipse\jetty\util\URIUtil.java
 	     org\eclipse\jetty\util\UrlEncoded.java
 	     org\eclipse\jetty\util\Utf8Appendable.java
 	     org\eclipse\jetty\util\Utf8StringBuffer.java
-	     org\eclipse\jetty\util\Utf8StringBuilder.java -->
+	     org\eclipse\jetty\util\Utf8StringBuilder.java
+	     org\eclipse\jetty\util\annotation\ManagedAttribute.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.util.jar" path="jetty-util/src/main/java"/>
+	<!-- util\ajax\JSON.java
+	     util\ajax\JSONCollectionConvertor.java
+	     util\ajax\JSONDateConvertor.java
+	     util\ajax\JSONEnumConvertor.java
+	     util\ajax\JSONObjectConvertor.java
+	     util\ajax\JSONPojoConvertor.java
+	     util\ajax\JSONPojoConvertorFactory.java
+	     util\component\AggregateLifeCycle.java
+	     util\security\B64Code.java
+	     util\thread\Timeout.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.util.jar/org/eclipse/jetty" path="org.eclipse.jetty.util.jar/org/eclipse/jetty/x-miss-x"/> -->
+	<!-- jetty\util\MultiPartInputStream.java
+	     jetty\util\StringMap.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.util.jar/org/eclipse" path="org.eclipse.jetty.util.jar/org/eclipse/x-miss-x"/> -->
 	<!-- about.html
 	     jetty-dir.css
 	     META-INF\MANIFEST.MF

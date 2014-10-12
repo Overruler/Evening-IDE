@@ -16,9 +16,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>javax.servlet.jsp</name>
+			<name>apache.tomcat</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/libraries/apache.tomcat/java</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/apache.tomcat</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

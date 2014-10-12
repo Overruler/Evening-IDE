@@ -628,6 +628,10 @@ public class Main {
 		ArrayList<Path> list =
 			stream.filter(p -> removesInnerClasses(p, pluginContent.get(p))).map(Main::canonicalizeFileNameToMatch).toList();
 		switch(plugin.id) {
+			case "com.sun.el":
+				return list.replaceAll(p -> convertComSunToOrgApache(p)).remove(
+					Paths.get("com.sun.el.jar/org/apache/el/parser/AstMethodArguments.java")).add(
+					Paths.get("com.sun.el.jar/org/apache/el/stream/Optional.java")).toList();
 			case "org.apache.ant":
 				return list.removeIf(p -> p.startsWith("org.apache.ant/etc")).toList();
 			case "org.apache.batik.css":
@@ -649,6 +653,11 @@ public class Main {
 					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/parser/readableNames.properties")).addAll(
 					Paths.get("org.apache.jasper.glassfish.jar/org/apache/jasper/util/SystemLogHandler.java"),
 					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/parser/readableNames.props")).toList();
+			case "org.eclipse.jetty.io":
+				return list.add(Paths.get("org.eclipse.jetty.io.jar/org/eclipse/jetty/io/ssl/SslConnection.java")).toList();
+			case "org.eclipse.jetty.util":
+				return list.add(
+					Paths.get("org.eclipse.jetty.util.jar/org/eclipse/jetty/util/annotation/ManagedAttribute.java")).toList();
 			case "org.eclipse.jdt.doc.isv":
 				return list.removeIf(
 					p -> p.startsWith("org.eclipse.jdt.doc.isv.jar/index") ||
@@ -687,6 +696,9 @@ public class Main {
 			default:
 				return list.toList();
 		}
+	}
+	private static Path convertComSunToOrgApache(Path p) {
+		return Paths.get(toUnixPath(p).replace("com/sun/", "org/apache/"));
 	}
 	private static ArrayList<Path> filterLibrary(ArrayList<Path> list, String plugin) {
 		switch(plugin) {
@@ -862,37 +874,35 @@ public class Main {
 		if(Files.isRegularFile(projectFolder.resolve(".project.override"))) {
 			return;
 		}
-		String linked = "";
+		ArrayList<String> lines = new ArrayList<>();
+		lines.add("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+		lines.add("<projectDescription>");
+		lines.add("	<name>" + projectName + "</name>");
+		lines.add("	<comment></comment>");
+		lines.add("	<projects>");
+		lines.add("	</projects>");
+		lines.add("	<buildSpec>");
+		lines.add("		<buildCommand>");
+		lines.add("			<name>org.eclipse.jdt.core.javabuilder</name>");
+		lines.add("			<arguments>");
+		lines.add("			</arguments>");
+		lines.add("		</buildCommand>");
+		lines.add("	</buildSpec>");
+		lines.add("	<natures>");
+		lines.add("		<nature>org.eclipse.jdt.core.javanature</nature>");
+		lines.add("	</natures>");
+		lines.add("	<linkedResources>");
 		for(Path lib : libs) {
-			linked +=
-				"		<link>\n" +
-				("			<name>" + lib.getFileName() + "</name>\n") +
-				"			<type>2</type>\n" +
-				("			<locationURI>PARENT-2-PROJECT_LOC/" + toUnixPath(lib) + "</locationURI>\n") +
-				"		</link>\n";
+			lines.add("		<link>");
+			lines.add("			<name>" + lib.getFileName() + "</name>");
+			lines.add("			<type>2</type>");
+			lines.add("			<locationURI>PARENT-2-PROJECT_LOC/" + toUnixPath(lib) + "</locationURI>");
+			lines.add("		</link>");
 		}
-		String dotProject =
-			"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
-			"<projectDescription>\n" +
-			("	<name>" + projectName + "</name>\n") +
-			"	<comment></comment>\n" +
-			"	<projects>\n" +
-			"	</projects>\n" +
-			"	<buildSpec>\n" +
-			"		<buildCommand>\n" +
-			"			<name>org.eclipse.jdt.core.javabuilder</name>\n" +
-			"			<arguments>\n" +
-			"			</arguments>\n" +
-			"		</buildCommand>\n" +
-			"	</buildSpec>\n" +
-			"	<natures>\n" +
-			"		<nature>org.eclipse.jdt.core.javanature</nature>\n" +
-			"	</natures>\n" +
-			"	<linkedResources>\n" +
-			linked +
-			"	</linkedResources>\n" +
-			"</projectDescription>\n" +
-			"";
+		lines.add("	</linkedResources>");
+		lines.add("</projectDescription>");
+		lines.add("");
+		String dotProject = String.join("\n", lines);
 		writeFile(projectFolder, dotProject, ".project");
 	}
 	private static void writeFile(Path projectFolder, String fileData, String fileName) throws IOException {
@@ -928,7 +938,6 @@ public class Main {
 		}
 	}
 	private static List<Path> libraryFolders(Path root, List<Path> folders, String pluginName) {
-		Path pluginPath = pluginNameToPath(pluginName);
 		switch(pluginName) {
 			case "org.eclipse.equinox.launcher.carbon.macosx":
 			case "org.eclipse.equinox.launcher.cocoa.macosx":
@@ -958,6 +967,7 @@ public class Main {
 					Paths.get("libraries/eclipse.rt.equinox.binaries"),
 					Paths.get("libraries/eclipse.rt.equinox.framework/bundles"));
 		}
+		Path pluginPath = pluginNameToPath(pluginName);
 		List<Path> libraries = sourceInLibraries(root, folders, pluginPath);
 		switch(pluginName) {
 			case "org.apache.jasper.glassfish":
@@ -974,9 +984,12 @@ public class Main {
 	}
 	private static Path pluginNameToPath(String pluginName) {
 		switch(pluginName) {
+			case "com.sun.el":
+			case "javax.annotation":
+			case "javax.el":
 			case "javax.servlet":
 			case "javax.servlet.jsp":
-				return Paths.get("orbit-sources", pluginName);
+				return Paths.get("apache.tomcat");
 			case "org.apache.ant":
 				return Paths.get("apache.ant");
 			case "org.apache.batik.css":
@@ -1000,7 +1013,7 @@ public class Main {
 			case "javax.xml":
 				return Paths.get("apache.xerces.xml-commons", "java", "external");
 			case "org.eclipse.equinox.http.jetty":
-				return Paths.get("org.eclipse.equinox.http.jetty8");
+				return Paths.get("org.eclipse.equinox.http.jetty9");
 			case "org.eclipse.jetty.continuation":
 			case "org.eclipse.jetty.http":
 			case "org.eclipse.jetty.io":

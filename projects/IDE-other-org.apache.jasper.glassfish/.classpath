@@ -495,7 +495,6 @@
 	     org\apache\jasper\security\SecurityClassLoad.java
 	     org\apache\jasper\security\SecurityUtil.java
 	     org\apache\jasper\servlet\JasperLoader.java
-	     org\apache\jasper\servlet\JspCServletContext.java
 	     org\apache\jasper\servlet\JspServlet.java
 	     org\apache\jasper\servlet\JspServletWrapper.java
 	     org\apache\jasper\servlet\mbeans-descriptors.xml
@@ -528,7 +527,8 @@
 	     META-INF\services\javax.servlet.ServletContainerInitializer
 	     plugin.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="res"/>
-	<!-- org\apache\jasper\compiler\JDTJavaCompiler.java -->
+	<!-- org\apache\jasper\compiler\JDTJavaCompiler.java
+	     org\apache\jasper\servlet\JspCServletContext.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.el"/>
