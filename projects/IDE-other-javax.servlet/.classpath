@@ -92,7 +92,8 @@
 	     javax\servlet\SessionCookieConfig.java
 	     javax\servlet\SessionTrackingMode.java
 	     javax\servlet\SingleThreadModel.java
-	     javax\servlet\UnavailableException.java -->
+	     javax\servlet\UnavailableException.java
+	     javax\servlet\resources\web-jsptaglibrary_2_0.xsd -->
 	<classpathentry including="javax/servlet/*|javax/servlet/annotation/*|javax/servlet/descriptor/*|javax/servlet/http/*|javax/servlet/resources/*" kind="src" output="bin/1/plugins/javax.servlet.jar" path="apache.tomcat/java"/>
 	<!-- about.html
 	     about_files\LICENSE_CDDL.txt

@@ -45,8 +45,9 @@
 	     javax\servlet\jsp\tagext\TagVariableInfo.java
 	     javax\servlet\jsp\tagext\TryCatchFinally.java
 	     javax\servlet\jsp\tagext\ValidationMessage.java
-	     javax\servlet\jsp\tagext\VariableInfo.java -->
-	<classpathentry including="javax/servlet/jsp/*|javax/servlet/jsp/el/*|javax/servlet/jsp/tagext/*" kind="src" output="bin/1/plugins/javax.servlet.jsp.jar" path="apache.tomcat/java"/>
+	     javax\servlet\jsp\tagext\VariableInfo.java
+	     javax\servlet\jsp\resources\jspxml.xsd -->
+	<classpathentry including="javax/servlet/jsp/*|javax/servlet/jsp/el/*|javax/servlet/jsp/resources/*|javax/servlet/jsp/tagext/*" kind="src" output="bin/1/plugins/javax.servlet.jsp.jar" path="apache.tomcat/java"/>
 	<!-- jsp\resources\jspxml_2_0.dtd
 	     jsp\resources\jspxml_2_0.xsd
 	     jsp\resources\jsp_2_0.xsd

@@ -44,7 +44,8 @@ public class P2CommandGenerator {
 		Pair.of("D:\\p2_eclipse.egit.txt",							"http://download.eclipse.org/egit/updates"), 
 		Pair.of("D:\\p2_eclipse.m2e.txt",							"http://download.eclipse.org/technology/m2e/releases/"), 
 		Pair.of("D:\\p2_eclipse.mylyn.latest.txt",					"http://download.eclipse.org/mylyn/releases/latest"), 
-		Pair.of("D:\\p2_eclipse.mars.txt",							"http://download.eclipse.org/releases/mars")
+		Pair.of("D:\\p2_eclipse.mars.txt",							"http://download.eclipse.org/releases/mars"),
+		Pair.of("D:\\p2_eclipse.N20141012.txt",						"http://download.eclipse.org/eclipse/updates/4.5-N-builds/N20141012-2000/") 
 	); /*E*/
 	// -destination d:/evening/ -profile EveningIDE
 	private static final String INSTALL_COMMAND =

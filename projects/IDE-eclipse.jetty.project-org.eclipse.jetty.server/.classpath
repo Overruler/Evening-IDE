@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\eclipse\jetty\server\AbstractConnector.java
+	<!-- org\eclipse\jetty\server\AbstractConnectionFactory.java
+	     org\eclipse\jetty\server\AbstractConnector.java
+	     org\eclipse\jetty\server\AbstractNCSARequestLog.java
+	     org\eclipse\jetty\server\AbstractNetworkConnector.java
+	     org\eclipse\jetty\server\AsyncContextEvent.java
+	     org\eclipse\jetty\server\AsyncContextState.java
 	     org\eclipse\jetty\server\AsyncNCSARequestLog.java
 	     org\eclipse\jetty\server\Authentication.java
+	     org\eclipse\jetty\server\ByteBufferQueuedHttpInput.java
+	     org\eclipse\jetty\server\ClassLoaderDump.java
+	     org\eclipse\jetty\server\ConnectionFactory.java
 	     org\eclipse\jetty\server\Connector.java
+	     org\eclipse\jetty\server\ConnectorStatistics.java
 	     org\eclipse\jetty\server\CookieCutter.java
 	     org\eclipse\jetty\server\Dispatcher.java
+	     org\eclipse\jetty\server\EncodingHttpWriter.java
+	     org\eclipse\jetty\server\ForwardedRequestCustomizer.java
 	     org\eclipse\jetty\server\Handler.java
 	     org\eclipse\jetty\server\HandlerContainer.java
 	     org\eclipse\jetty\server\handler\AbstractHandler.java
 	     org\eclipse\jetty\server\handler\AbstractHandlerContainer.java
+	     org\eclipse\jetty\server\handler\AllowSymLinkAliasChecker.java
+	     org\eclipse\jetty\server\handler\ContextHandler.java
 	     org\eclipse\jetty\server\handler\ContextHandlerCollection.java
 	     org\eclipse\jetty\server\handler\DebugHandler.java
 	     org\eclipse\jetty\server\handler\DefaultHandler.java
@@ -18,6 +31,7 @@
 	     org\eclipse\jetty\server\handler\HandlerList.java
 	     org\eclipse\jetty\server\handler\HandlerWrapper.java
 	     org\eclipse\jetty\server\handler\HotSwapHandler.java
+	     org\eclipse\jetty\server\handler\IdleTimeoutHandler.java
 	     org\eclipse\jetty\server\handler\IPAccessHandler.java
 	     org\eclipse\jetty\server\handler\jmx\AbstractHandlerMBean.java
 	     org\eclipse\jetty\server\handler\jmx\ContextHandlerMBean.java
@@ -27,19 +41,38 @@
 	     org\eclipse\jetty\server\handler\ScopedHandler.java
 	     org\eclipse\jetty\server\handler\ShutdownHandler.java
 	     org\eclipse\jetty\server\handler\StatisticsHandler.java
+	     org\eclipse\jetty\server\HostHeaderCustomizer.java
+	     org\eclipse\jetty\server\HttpChannel.java
+	     org\eclipse\jetty\server\HttpChannelState.java
+	     org\eclipse\jetty\server\HttpConfiguration.java
+	     org\eclipse\jetty\server\HttpConnection.java
+	     org\eclipse\jetty\server\HttpConnectionFactory.java
 	     org\eclipse\jetty\server\HttpInput.java
+	     org\eclipse\jetty\server\HttpInputOverHTTP.java
 	     org\eclipse\jetty\server\HttpOutput.java
+	     org\eclipse\jetty\server\HttpTransport.java
 	     org\eclipse\jetty\server\HttpWriter.java
 	     org\eclipse\jetty\server\InclusiveByteRange.java
+	     org\eclipse\jetty\server\Iso88591HttpWriter.java
+	     org\eclipse\jetty\server\jmx\AbstractConnectorMBean.java
 	     org\eclipse\jetty\server\jmx\ServerMBean.java
 	     org\eclipse\jetty\server\LocalConnector.java
+	     org\eclipse\jetty\server\LowResourceMonitor.java
 	     org\eclipse\jetty\server\NCSARequestLog.java
+	     org\eclipse\jetty\server\NegotiatingServerConnection.java
+	     org\eclipse\jetty\server\NegotiatingServerConnectionFactory.java
+	     org\eclipse\jetty\server\NetworkConnector.java
+	     org\eclipse\jetty\server\NetworkTrafficServerConnector.java
 	     org\eclipse\jetty\server\nio\NetworkTrafficSelectChannelConnector.java
+	     org\eclipse\jetty\server\QueuedHttpInput.java
+	     org\eclipse\jetty\server\QuietServletException.java
 	     org\eclipse\jetty\server\Request.java
 	     org\eclipse\jetty\server\RequestLog.java
 	     org\eclipse\jetty\server\ResourceCache.java
 	     org\eclipse\jetty\server\Response.java
+	     org\eclipse\jetty\server\SecureRequestCustomizer.java
 	     org\eclipse\jetty\server\Server.java
+	     org\eclipse\jetty\server\ServerConnector.java
 	     org\eclipse\jetty\server\ServletRequestHttpWrapper.java
 	     org\eclipse\jetty\server\ServletResponseHttpWrapper.java
 	     org\eclipse\jetty\server\SessionIdManager.java
@@ -53,48 +86,16 @@
 	     org\eclipse\jetty\server\session\JDBCSessionIdManager.java
 	     org\eclipse\jetty\server\session\JDBCSessionManager.java
 	     org\eclipse\jetty\server\session\jmx\AbstractSessionManagerMBean.java
+	     org\eclipse\jetty\server\session\MemSession.java
 	     org\eclipse\jetty\server\session\SessionHandler.java
 	     org\eclipse\jetty\server\ShutdownMonitor.java
-	     org\eclipse\jetty\server\UserIdentity.java -->
+	     org\eclipse\jetty\server\Slf4jRequestLog.java
+	     org\eclipse\jetty\server\SslConnectionFactory.java
+	     org\eclipse\jetty\server\UserIdentity.java
+	     org\eclipse\jetty\server\Utf8HttpWriter.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="jetty-server/src/main/java"/>
 	<!-- org\eclipse\jetty\favicon.ico -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.server.jar" path="jetty-server/src/main/resources"/>
-	<!-- handler\jmx\AbstractHandler-mbean.properties
-	     handler\jmx\ContextHandler-mbean.properties
-	     handler\jmx\ContextHandlerCollection-mbean.properties
-	     handler\jmx\HandlerCollection-mbean.properties
-	     handler\jmx\HandlerWrapper-mbean.properties
-	     handler\jmx\StatisticsHandler-mbean.properties
-	     nio\jmx\SelectChannelConnector-mbean.properties
-	     session\jmx\AbstractSessionManager-mbean.properties -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.server.jar/org/eclipse/jetty/server" path="org.eclipse.jetty.server.jar/org/eclipse/jetty/server/x-miss-x"/> -->
-	<!-- server\bio\SocketConnector.java
-	     server\handler\ConnectHandler.java
-	     server\handler\ContextHandler.java
-	     server\handler\GzipHandler.java
-	     server\handler\ProxyHandler.java
-	     server\jmx\AbstractConnector-mbean.properties
-	     server\jmx\Connector-mbean.properties
-	     server\jmx\Handler-mbean.properties
-	     server\jmx\HandlerContainer-mbean.properties
-	     server\jmx\NCSARequestLog-mbean.properties
-	     server\jmx\Server-mbean.properties
-	     server\nio\AbstractNIOConnector.java
-	     server\nio\BlockingChannelConnector.java
-	     server\nio\InheritedChannelConnector.java
-	     server\nio\NIOConnector.java
-	     server\nio\SelectChannelConnector.java
-	     server\ssl\ServletSSL.java
-	     server\ssl\SslCertificates.java
-	     server\ssl\SslConnector.java
-	     server\ssl\SslSelectChannelConnector.java
-	     server\ssl\SslSocketConnector.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.server.jar/org/eclipse/jetty" path="org.eclipse.jetty.server.jar/org/eclipse/jetty/x-miss-x"/> -->
-	<!-- jetty\server\AbstractHttpConnection.java
-	     jetty\server\AsyncContinuation.java
-	     jetty\server\AsyncHttpConnection.java
-	     jetty\server\BlockingHttpConnection.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.server.jar/org/eclipse" path="org.eclipse.jetty.server.jar/org/eclipse/x-miss-x"/> -->
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     META-INF\maven\org.eclipse.jetty\jetty-server\pom.properties
@@ -103,7 +104,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-compile-org.eclipse.jetty.jmx"/>
 	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
-	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.continuation"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.http"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.io"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.util"/>

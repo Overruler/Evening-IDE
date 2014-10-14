@@ -1,47 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- org\eclipse\jetty\io\AbstractConnection.java
+	     org\eclipse\jetty\io\AbstractEndPoint.java
+	     org\eclipse\jetty\io\ArrayByteBufferPool.java
 	     org\eclipse\jetty\io\ByteArrayEndPoint.java
+	     org\eclipse\jetty\io\ByteBufferPool.java
+	     org\eclipse\jetty\io\ChannelEndPoint.java
+	     org\eclipse\jetty\io\ClientConnectionFactory.java
 	     org\eclipse\jetty\io\Connection.java
 	     org\eclipse\jetty\io\EndPoint.java
 	     org\eclipse\jetty\io\EofException.java
+	     org\eclipse\jetty\io\FillInterest.java
+	     org\eclipse\jetty\io\IdleTimeout.java
+	     org\eclipse\jetty\io\LeakTrackingByteBufferPool.java
+	     org\eclipse\jetty\io\MappedByteBufferPool.java
+	     org\eclipse\jetty\io\NegotiatingClientConnection.java
+	     org\eclipse\jetty\io\NegotiatingClientConnectionFactory.java
 	     org\eclipse\jetty\io\NetworkTrafficListener.java
+	     org\eclipse\jetty\io\NetworkTrafficSelectChannelEndPoint.java
 	     org\eclipse\jetty\io\RuntimeIOException.java
+	     org\eclipse\jetty\io\SelectChannelEndPoint.java
+	     org\eclipse\jetty\io\SelectorManager.java
+	     org\eclipse\jetty\io\ssl\SslClientConnectionFactory.java
+	     org\eclipse\jetty\io\ssl\SslConnection.java
 	     org\eclipse\jetty\io\UncheckedPrintWriter.java
+	     org\eclipse\jetty\io\WriteFlusher.java
 	     org\eclipse\jetty\io\WriterOutputStream.java
 	     org\eclipse\jetty\io\ssl\SslConnection.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.io.jar" path="jetty-io/src/main/java"/>
-	<!-- io\bio\SocketEndPoint.java
-	     io\bio\StreamEndPoint.java
-	     io\bio\StringEndPoint.java
-	     io\nio\AsyncConnection.java
-	     io\nio\ChannelEndPoint.java
-	     io\nio\DirectNIOBuffer.java
-	     io\nio\IndirectNIOBuffer.java
-	     io\nio\NetworkTrafficSelectChannelEndPoint.java
-	     io\nio\NIOBuffer.java
-	     io\nio\RandomAccessFileBuffer.java
-	     io\nio\SelectChannelEndPoint.java
-	     io\nio\SelectorManager.java
-	     io\nio\SslConnection.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.io.jar/org/eclipse/jetty" path="org.eclipse.jetty.io.jar/org/eclipse/jetty/x-miss-x"/> -->
-	<!-- jetty\io\AbstractBuffer.java
-	     jetty\io\AbstractBuffers.java
-	     jetty\io\AsyncEndPoint.java
-	     jetty\io\Buffer.java
-	     jetty\io\BufferCache.java
-	     jetty\io\BufferDateCache.java
-	     jetty\io\Buffers.java
-	     jetty\io\BuffersFactory.java
-	     jetty\io\BufferUtil.java
-	     jetty\io\ByteArrayBuffer.java
-	     jetty\io\ConnectedEndPoint.java
-	     jetty\io\PooledBuffers.java
-	     jetty\io\SimpleBuffers.java
-	     jetty\io\ThreadLocalBuffers.java
-	     jetty\io\UncheckedIOException.java
-	     jetty\io\View.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.io.jar/org/eclipse" path="org.eclipse.jetty.io.jar/org/eclipse/x-miss-x"/> -->
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     META-INF\maven\org.eclipse.jetty\jetty-io\pom.properties

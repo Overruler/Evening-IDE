@@ -472,11 +472,15 @@
 	     porting\4.4\faq.html
 	     porting\4.4\incompatibilities.html
 	     porting\4.4\recommended.html
+	     porting\4.5\faq.html
+	     porting\4.5\incompatibilities.html
+	     porting\4.5\recommended.html
 	     porting\eclipse_3_6_porting_guide.html
 	     porting\eclipse_3_7_porting_guide.html
 	     porting\eclipse_4_2_porting_guide.html
 	     porting\eclipse_4_3_porting_guide.html
 	     porting\eclipse_4_4_porting_guide.html
+	     porting\eclipse_4_5_porting_guide.html
 	     porting\removals.html
 	     questions\index.html
 	     schema.css
@@ -495,7 +499,7 @@
 	     whatsNew\images\theme-association.png
 	     whatsNew\platform_isv_whatsnew.html
 	     workbench.png -->
-	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|book.css|guide/*|guide/images/*|notices.html|plugin.properties|plugin.xml|porting/*|porting/3.6/*|porting/3.7/*|porting/4.2/*|porting/4.3/*|porting/4.4/*|questions/*|schema.css|toc.xml|topics_Guide.xml|topics_Porting.xml|topics_Questions.xml|topics_Reference.xml|topics_Samples.xml|topics_WhatsNew.xml|whatsNew/*|whatsNew/images/*|whatsNew/images/css-bridge/*|workbench.png" kind="src" output="bin/1/plugins/org.eclipse.platform.doc.isv.jar" path="org.eclipse.platform.doc.isv"/>
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|book.css|guide/*|guide/images/*|notices.html|plugin.properties|plugin.xml|porting/*|porting/3.6/*|porting/3.7/*|porting/4.2/*|porting/4.3/*|porting/4.4/*|porting/4.5/*|questions/*|schema.css|toc.xml|topics_Guide.xml|topics_Porting.xml|topics_Questions.xml|topics_Reference.xml|topics_Samples.xml|topics_WhatsNew.xml|whatsNew/*|whatsNew/images/*|whatsNew/images/css-bridge/*|workbench.png" kind="src" output="bin/1/plugins/org.eclipse.platform.doc.isv.jar" path="org.eclipse.platform.doc.isv"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
 	<classpathentry kind="output" path="classes"/>

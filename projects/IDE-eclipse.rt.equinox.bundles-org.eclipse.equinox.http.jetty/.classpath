@@ -16,7 +16,6 @@
 	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.http.servlet"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.http"/>
-	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.io"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.server"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.servlet"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.util"/>

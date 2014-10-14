@@ -987,8 +987,6 @@
 	     topics_Tasks.xml
 	     topics_Tips.xml -->
 	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|book.css|concepts/*|concepts/accessibility/*|contexts_AntUI.xml|contexts_CommonNavigator.xml|contexts_Compare.xml|contexts_ExternalTools.xml|contexts_JSch.xml|contexts_Net.xml|contexts_P2.xml|contexts_Search.xml|contexts_SecureStorage.xml|contexts_Team.xml|contexts_Team_CVS.xml|contexts_UserAssistance.xml|contexts_Workbench.xml|gettingStarted/*|gettingStarted/intro/*|images/*|images/org.eclipse.ui.externaltools/clcl16/*|images/org.eclipse.ui.externaltools/ctool16/*|images/org.eclipse.ui.externaltools/cview16/*|images/org.eclipse.ui.externaltools/obj16/*|notices.html|plugin.properties|plugin.xml|pom.xml|reference/*|tasks/*|tips/*|tips/images/*|toc.xml|topics_Concepts.xml|topics_GettingStarted.xml|topics_Reference.xml|topics_Tasks.xml|topics_Tips.xml" kind="src" output="bin/1/plugins/org.eclipse.platform.doc.user.jar" path="org.eclipse.platform.doc.user"/>
-	<!-- buildDoc_log.xml -->
-	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.platform.doc.user.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
 	<classpathentry kind="output" path="classes"/>

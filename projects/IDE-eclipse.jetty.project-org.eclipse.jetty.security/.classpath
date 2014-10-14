@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\eclipse\jetty\security\authentication\BasicAuthenticator.java
+	<!-- org\eclipse\jetty\security\AbstractUserAuthentication.java
+	     org\eclipse\jetty\security\authentication\BasicAuthenticator.java
 	     org\eclipse\jetty\security\authentication\ClientCertAuthenticator.java
 	     org\eclipse\jetty\security\authentication\DeferredAuthentication.java
 	     org\eclipse\jetty\security\authentication\DigestAuthenticator.java
@@ -14,9 +15,11 @@
 	     org\eclipse\jetty\security\ConstraintAware.java
 	     org\eclipse\jetty\security\ConstraintMapping.java
 	     org\eclipse\jetty\security\ConstraintSecurityHandler.java
+	     org\eclipse\jetty\security\CrossContextPsuedoSession.java
 	     org\eclipse\jetty\security\DefaultAuthenticatorFactory.java
 	     org\eclipse\jetty\security\DefaultIdentityService.java
 	     org\eclipse\jetty\security\DefaultUserIdentity.java
+	     org\eclipse\jetty\security\HashCrossContextPsuedoSession.java
 	     org\eclipse\jetty\security\HashLoginService.java
 	     org\eclipse\jetty\security\IdentityService.java
 	     org\eclipse\jetty\security\JDBCLoginService.java
@@ -34,9 +37,6 @@
 	     org\eclipse\jetty\security\UserAuthentication.java
 	     org\eclipse\jetty\security\UserDataConstraint.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.security.jar" path="jetty-security/src/main/java"/>
-	<!-- jetty\security\CrossContextPsuedoSession.java
-	     jetty\security\HashCrossContextPsuedoSession.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.security.jar/org/eclipse" path="org.eclipse.jetty.security.jar/org/eclipse/x-miss-x"/> -->
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     META-INF\maven\org.eclipse.jetty\jetty-security\pom.properties

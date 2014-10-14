@@ -1,27 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\eclipse\jetty\util\ArrayQueue.java
+	<!-- org\eclipse\jetty\util\AbstractTrie.java
+	     org\eclipse\jetty\util\annotation\ManagedAttribute.java
+	     org\eclipse\jetty\util\annotation\ManagedObject.java
+	     org\eclipse\jetty\util\annotation\ManagedOperation.java
+	     org\eclipse\jetty\util\annotation\Name.java
+	     org\eclipse\jetty\util\ArrayQueue.java
+	     org\eclipse\jetty\util\ArrayTernaryTrie.java
+	     org\eclipse\jetty\util\ArrayTrie.java
+	     org\eclipse\jetty\util\ArrayUtil.java
 	     org\eclipse\jetty\util\Atomics.java
 	     org\eclipse\jetty\util\Attributes.java
 	     org\eclipse\jetty\util\AttributesMap.java
 	     org\eclipse\jetty\util\B64Code.java
 	     org\eclipse\jetty\util\BlockingArrayQueue.java
+	     org\eclipse\jetty\util\BlockingCallback.java
+	     org\eclipse\jetty\util\BufferUtil.java
 	     org\eclipse\jetty\util\ByteArrayISO8859Writer.java
 	     org\eclipse\jetty\util\ByteArrayOutputStream2.java
+	     org\eclipse\jetty\util\Callback.java
+	     org\eclipse\jetty\util\ClassLoadingObjectInputStream.java
+	     org\eclipse\jetty\util\CompletableCallback.java
 	     org\eclipse\jetty\util\component\AbstractLifeCycle.java
 	     org\eclipse\jetty\util\component\Container.java
+	     org\eclipse\jetty\util\component\ContainerLifeCycle.java
 	     org\eclipse\jetty\util\component\Destroyable.java
 	     org\eclipse\jetty\util\component\Dumpable.java
 	     org\eclipse\jetty\util\component\FileDestroyable.java
 	     org\eclipse\jetty\util\component\FileNoticeLifeCycleListener.java
+	     org\eclipse\jetty\util\component\Graceful.java
 	     org\eclipse\jetty\util\component\LifeCycle.java
+	     org\eclipse\jetty\util\ConcurrentArrayQueue.java
 	     org\eclipse\jetty\util\ConcurrentHashSet.java
 	     org\eclipse\jetty\util\DateCache.java
+	     org\eclipse\jetty\util\Fields.java
+	     org\eclipse\jetty\util\FutureCallback.java
+	     org\eclipse\jetty\util\FuturePromise.java
 	     org\eclipse\jetty\util\HostMap.java
+	     org\eclipse\jetty\util\HttpCookieStore.java
 	     org\eclipse\jetty\util\IntrospectionUtil.java
 	     org\eclipse\jetty\util\IO.java
 	     org\eclipse\jetty\util\IPAddressMap.java
+	     org\eclipse\jetty\util\IteratingCallback.java
+	     org\eclipse\jetty\util\IteratingNestedCallback.java
+	     org\eclipse\jetty\util\Jetty.java
 	     org\eclipse\jetty\util\LazyList.java
+	     org\eclipse\jetty\util\LeakDetector.java
 	     org\eclipse\jetty\util\Loader.java
 	     org\eclipse\jetty\util\log\AbstractLogger.java
 	     org\eclipse\jetty\util\log\JavaUtilLog.java
@@ -29,9 +53,12 @@
 	     org\eclipse\jetty\util\log\Logger.java
 	     org\eclipse\jetty\util\log\LoggerLog.java
 	     org\eclipse\jetty\util\log\Slf4jLog.java
+	     org\eclipse\jetty\util\log\StacklessLogging.java
 	     org\eclipse\jetty\util\log\StdErrLog.java
+	     org\eclipse\jetty\util\MemoryUtils.java
 	     org\eclipse\jetty\util\MultiException.java
 	     org\eclipse\jetty\util\MultiMap.java
+	     org\eclipse\jetty\util\MultiPartInputStreamParser.java
 	     org\eclipse\jetty\util\MultiPartOutputStream.java
 	     org\eclipse\jetty\util\MultiPartWriter.java
 	     org\eclipse\jetty\util\PatternMatcher.java
@@ -45,10 +72,13 @@
 	     org\eclipse\jetty\util\preventers\LDAPLeakPreventer.java
 	     org\eclipse\jetty\util\preventers\LoginConfigurationLeakPreventer.java
 	     org\eclipse\jetty\util\preventers\SecurityProviderLeakPreventer.java
+	     org\eclipse\jetty\util\Promise.java
 	     org\eclipse\jetty\util\QuotedStringTokenizer.java
 	     org\eclipse\jetty\util\ReadLineInputStream.java
+	     org\eclipse\jetty\util\resource\EmptyResource.java
 	     org\eclipse\jetty\util\resource\FileResource.java
 	     org\eclipse\jetty\util\resource\JarResource.java
+	     org\eclipse\jetty\util\resource\PathResource.java
 	     org\eclipse\jetty\util\resource\Resource.java
 	     org\eclipse\jetty\util\resource\ResourceCollection.java
 	     org\eclipse\jetty\util\resource\ResourceFactory.java
@@ -61,6 +91,8 @@
 	     org\eclipse\jetty\util\security\Credential.java
 	     org\eclipse\jetty\util\security\Password.java
 	     org\eclipse\jetty\util\security\UnixCrypt.java
+	     org\eclipse\jetty\util\SharedBlockingCallback.java
+	     org\eclipse\jetty\util\SocketAddressResolver.java
 	     org\eclipse\jetty\util\ssl\AliasedX509ExtendedKeyManager.java
 	     org\eclipse\jetty\util\ssl\AliasedX509KeyManager.java
 	     org\eclipse\jetty\util\ssl\SslContextFactory.java
@@ -68,31 +100,24 @@
 	     org\eclipse\jetty\util\statistic\SampleStatistic.java
 	     org\eclipse\jetty\util\StringUtil.java
 	     org\eclipse\jetty\util\thread\ExecutorThreadPool.java
+	     org\eclipse\jetty\util\thread\NonBlockingThread.java
 	     org\eclipse\jetty\util\thread\QueuedThreadPool.java
+	     org\eclipse\jetty\util\thread\ScheduledExecutorScheduler.java
+	     org\eclipse\jetty\util\thread\Scheduler.java
 	     org\eclipse\jetty\util\thread\ShutdownThread.java
 	     org\eclipse\jetty\util\thread\ThreadPool.java
+	     org\eclipse\jetty\util\thread\TimerScheduler.java
+	     org\eclipse\jetty\util\TreeTrie.java
+	     org\eclipse\jetty\util\Trie.java
 	     org\eclipse\jetty\util\TypeUtil.java
 	     org\eclipse\jetty\util\URIUtil.java
 	     org\eclipse\jetty\util\UrlEncoded.java
 	     org\eclipse\jetty\util\Utf8Appendable.java
+	     org\eclipse\jetty\util\Utf8LineParser.java
 	     org\eclipse\jetty\util\Utf8StringBuffer.java
 	     org\eclipse\jetty\util\Utf8StringBuilder.java
 	     org\eclipse\jetty\util\annotation\ManagedAttribute.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.util.jar" path="jetty-util/src/main/java"/>
-	<!-- util\ajax\JSON.java
-	     util\ajax\JSONCollectionConvertor.java
-	     util\ajax\JSONDateConvertor.java
-	     util\ajax\JSONEnumConvertor.java
-	     util\ajax\JSONObjectConvertor.java
-	     util\ajax\JSONPojoConvertor.java
-	     util\ajax\JSONPojoConvertorFactory.java
-	     util\component\AggregateLifeCycle.java
-	     util\security\B64Code.java
-	     util\thread\Timeout.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.util.jar/org/eclipse/jetty" path="org.eclipse.jetty.util.jar/org/eclipse/jetty/x-miss-x"/> -->
-	<!-- jetty\util\MultiPartInputStream.java
-	     jetty\util\StringMap.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.util.jar/org/eclipse" path="org.eclipse.jetty.util.jar/org/eclipse/x-miss-x"/> -->
 	<!-- about.html
 	     jetty-dir.css
 	     META-INF\MANIFEST.MF

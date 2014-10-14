@@ -516,6 +516,8 @@ public class RegenerateProjectsMain {
 				return excluded.addAll(".*", ".*/", "lib/");
 			case "org.eclipse.jdt.ui":
 				return excluded.addAll(".*", ".*/", "jar in jar loader/");
+			case "jetty-http/src/test/java":
+				return excluded.addAll("org/eclipse/jetty/http/*Test.java");
 			case "org.eclipse.swt.win32.win32.x86_64":
 			case "org.eclipse.swt.cocoa.macosx.x86_64":
 			case "org.eclipse.swt.gtk.linux.x86_64":
@@ -626,12 +628,17 @@ public class RegenerateProjectsMain {
 		HashMap<Path, byte[]> pluginContent = plugin.contents;
 		Stream<Path> stream = pluginContent.keySet().stream().sorted();
 		ArrayList<Path> list =
-			stream.filter(p -> removesInnerClasses(p, pluginContent.get(p))).map(RegenerateProjectsMain::canonicalizeFileNameToMatch).toList();
+			stream.filter(p -> removesInnerClasses(p, pluginContent.get(p))).map(
+				RegenerateProjectsMain::canonicalizeFileNameToMatch).toList();
 		switch(plugin.id) {
 			case "com.sun.el":
 				return list.replaceAll(p -> convertComSunToOrgApache(p)).remove(
 					Paths.get("com.sun.el.jar/org/apache/el/parser/AstMethodArguments.java")).add(
 					Paths.get("com.sun.el.jar/org/apache/el/stream/Optional.java")).toList();
+			case "javax.servlet":
+				return list.add(Paths.get("javax.servlet.jar/javax/servlet/resources/web-jsptaglibrary_2_0.xsd")).toList();
+			case "javax.servlet.jsp":
+				return list.add(Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jspxml.xsd")).toList();
 			case "org.apache.ant":
 				return list.removeIf(p -> p.startsWith("org.apache.ant/etc")).toList();
 			case "org.apache.batik.css":
@@ -646,7 +653,8 @@ public class RegenerateProjectsMain {
 					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/osgi/services/HttpClientBuilderFactory.java")).toList();
 			case "org.apache.httpcomponents.httpcore":
 				return list.addAll(
-					Paths.get("org.apache.httpcomponents.httpcore.jar/org/apache/http/config/Registry.java")).toList();
+					Paths.get("org.apache.httpcomponents.httpcore.jar/org/apache/http/config/Registry.java"),
+					Paths.get("org.apache.httpcomponents.httpcore.jar/org/apache/http/ssl/TrustStrategy.java")).toList();
 			case "org.apache.jasper.glassfish":
 				return list.remove(
 					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.java")).remove(
@@ -735,8 +743,6 @@ public class RegenerateProjectsMain {
 			case "org.eclipse.equinox.launcher.win32.win32.x86_64":
 			case "org.eclipse.equinox.launcher.wpf.win32.x86":
 				return list.filter(p -> pathContains(p, plugin));
-			case "org.eclipse.jetty.server":
-				return list.remove(Paths.get("jetty-server/src/main/java/org/eclipse/jetty/server/handler/ContextHandler.java"));
 			case "org.eclipse.jgit":
 				return list.remove(Paths.get("org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/BitmapIndexImpl.java"));
 			case "org.eclipse.swt.win32.win32.x86_64":
@@ -1123,7 +1129,8 @@ public class RegenerateProjectsMain {
 			skipped.addAll(list);
 		}
 		IOStream<Path> stream = Files.list(pluginsFolder).filter(path -> filterExtraPluginsEntries(path, skipped));
-		IOStream<Pair<Path, Map<Path, byte[]>>> stream3 = stream.map(RegenerateProjectsMain::readContents).filter(RegenerateProjectsMain::hasManifest);
+		IOStream<Pair<Path, Map<Path, byte[]>>> stream3 =
+			stream.map(RegenerateProjectsMain::readContents).filter(RegenerateProjectsMain::hasManifest);
 		IOStream<Plugin> stream4 = stream3.map(p -> new Plugin(p.lhs, p.rhs.toHashMap()));
 		List<Plugin> list =
 			stream4.toMultiMap(Plugin::name, l -> l.sort().get(-1), m -> m.values().toArrayList().sort().toList());

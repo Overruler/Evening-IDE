@@ -539,6 +539,7 @@
 	     org\eclipse\debug\internal\ui\commands\actions\SuspendCommandActionDelegate.java
 	     org\eclipse\debug\internal\ui\commands\actions\SuspendCommandHandler.java
 	     org\eclipse\debug\internal\ui\commands\actions\TerminateAllAction.java
+	     org\eclipse\debug\internal\ui\commands\actions\TerminateAllActionDelegate.java
 	     org\eclipse\debug\internal\ui\commands\actions\TerminateAndRelaunchAction.java
 	     org\eclipse\debug\internal\ui\commands\actions\TerminateAndRelaunchHandler.java
 	     org\eclipse\debug\internal\ui\commands\actions\TerminateAndRemoveAction.java

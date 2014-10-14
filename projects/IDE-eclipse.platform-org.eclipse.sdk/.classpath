@@ -32,7 +32,7 @@
 	     plugin.xml
 	     plugin_customization.ini
 	     plugin_customization.properties -->
-	<classpathentry excluding=".*|.*/" including="META-INF/|about.html|about.ini|about.mappings|about.properties|book.css|disabled_book.css|eclipse1024.png|eclipse128.png|eclipse16.gif|eclipse16.png|eclipse22.png|eclipse24.png|eclipse256.gif|eclipse256.png|eclipse32.gif|eclipse32.png|eclipse48.gif|eclipse48.png|eclipse512.png|eclipse64.png|eclipse_lg.gif|eclipse_lg.png|helpData.xml|intro-eclipse.png|introData.xml|macosx_narrow_book.css|narrow_book.css|plugin.properties|plugin.xml|plugin_customization.ini|plugin_customization.properties" kind="src" output="bin/1/plugins/org.eclipse.sdk" path="org.eclipse.sdk"/>
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|about.ini|about.mappings|about.properties|book.css|disabled_book.css|eclipse1024.png|eclipse128.png|eclipse16.gif|eclipse16.png|eclipse22.png|eclipse24.png|eclipse256.gif|eclipse256.png|eclipse32.gif|eclipse32.png|eclipse48.gif|eclipse48.png|eclipse512.png|eclipse64.png|eclipse_lg.gif|eclipse_lg.png|helpData.xml|intro-eclipse.png|introData.xml|macosx_narrow_book.css|narrow_book.css|plugin.properties|plugin.xml|plugin_customization.ini|plugin_customization.properties" kind="src" output="bin/1/plugins/org.eclipse.sdk" path="org.eclipse.sdk"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help.base"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help.ui"/>

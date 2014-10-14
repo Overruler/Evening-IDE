@@ -7,8 +7,6 @@
 	     org\eclipse\jetty\continuation\ContinuationThrowable.java
 	     org\eclipse\jetty\continuation\Servlet3Continuation.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.continuation.jar" path="jetty-continuation/src/main/java"/>
-	<!-- jetty\continuation\Jetty6Continuation.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.continuation.jar/org/eclipse" path="org.eclipse.jetty.continuation.jar/org/eclipse/x-miss-x"/> -->
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     META-INF\maven\org.eclipse.jetty\jetty-continuation\pom.properties

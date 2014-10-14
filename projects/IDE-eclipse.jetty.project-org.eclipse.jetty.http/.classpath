@@ -1,45 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\eclipse\jetty\http\HttpContent.java
+	<!-- org\eclipse\jetty\http\DateGenerator.java
+	     org\eclipse\jetty\http\HttpContent.java
 	     org\eclipse\jetty\http\HttpCookie.java
+	     org\eclipse\jetty\http\HttpField.java
 	     org\eclipse\jetty\http\HttpFields.java
 	     org\eclipse\jetty\http\HttpGenerator.java
+	     org\eclipse\jetty\http\HttpHeader.java
+	     org\eclipse\jetty\http\HttpHeaderValue.java
+	     org\eclipse\jetty\http\HttpMethod.java
 	     org\eclipse\jetty\http\HttpParser.java
+	     org\eclipse\jetty\http\HttpScheme.java
 	     org\eclipse\jetty\http\HttpStatus.java
 	     org\eclipse\jetty\http\HttpTokens.java
 	     org\eclipse\jetty\http\HttpURI.java
+	     org\eclipse\jetty\http\HttpVersion.java
 	     org\eclipse\jetty\http\MimeTypes.java
 	     org\eclipse\jetty\http\PathMap.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="jetty-http/src/main/java"/>
 	<!-- org\eclipse\jetty\http\encoding.properties
 	     org\eclipse\jetty\http\mime.properties
 	     org\eclipse\jetty\http\useragents -->
-	<classpathentry including="org/eclipse/jetty/http/*" kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="jetty-http/src/main/resources"/>
-	<!-- http\gzip\AbstractCompressedStream.java
-	     http\gzip\CompressedResponseWrapper.java
-	     http\ssl\SslContextFactory.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.http.jar/org/eclipse/jetty" path="org.eclipse.jetty.http.jar/org/eclipse/jetty/x-miss-x"/> -->
-	<!-- jetty\http\AbstractGenerator.java
-	     jetty\http\EncodedHttpURI.java
-	     jetty\http\Generator.java
-	     jetty\http\HttpBuffers.java
-	     jetty\http\HttpBuffersImpl.java
-	     jetty\http\HttpException.java
-	     jetty\http\HttpHeaders.java
-	     jetty\http\HttpHeaderValues.java
-	     jetty\http\HttpMethods.java
-	     jetty\http\HttpSchemes.java
-	     jetty\http\HttpVersions.java
-	     jetty\http\Parser.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jetty.http.jar/org/eclipse" path="org.eclipse.jetty.http.jar/org/eclipse/x-miss-x"/> -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="jetty-http/src/main/resources"/>
+	<!-- org\eclipse\jetty\http\HttpTester.java -->
+	<classpathentry excluding="org/eclipse/jetty/http/*Test.java" kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="jetty-http/src/test/java"/>
 	<!-- about.html
 	     META-INF\MANIFEST.MF
 	     META-INF\maven\org.eclipse.jetty\jetty-http\pom.properties
 	     META-INF\maven\org.eclipse.jetty\jetty-http\pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
-	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.io"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.util"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>

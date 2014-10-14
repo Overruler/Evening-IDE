@@ -8,16 +8,6 @@
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="Eclipse UI/|Eclipse UI Editor Support/|.*|.*/" including=".options|LegacyIDE.e4xmi|META-INF/*|OSGI-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.workbench.jar" path="org.eclipse.ui.workbench"/>
-	<!-- ui\internal\DefaultStackPresentationSite.java
-	     ui\presentations\AbstractPresentationFactory.java
-	     ui\presentations\IPartMenu.java
-	     ui\presentations\IPresentablePart.java
-	     ui\presentations\IPresentationSerializer.java
-	     ui\presentations\IStackPresentationSite.java
-	     ui\presentations\PresentationUtil.java
-	     ui\presentations\StackDropResult.java
-	     ui\presentations\StackPresentation.java -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.ui.workbench.jar/org/eclipse" path="org.eclipse.ui.workbench.jar/org/eclipse/x-miss-x"/> -->
 	<!-- org\eclipse\e4\ui\workbench\addons\perspectiveswitcher\PerspectiveSwitcher.java
 	     org\eclipse\e4\ui\workbench\addons\perspectiveswitcher\PerspectiveSwitcherCSSHandler.java
 	     org\eclipse\ui\about\IInstallationPageContainer.java
