@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.console.jar" path="org.eclipse.equinox.p2.console"/>
-	<!-- org\eclipse\equinox\internal\p2\console\Activator.java
-	     org\eclipse\equinox\internal\p2\console\Messages.java
-	     org\eclipse\equinox\internal\p2\console\messages.properties
-	     org\eclipse\equinox\internal\p2\console\ProvCommandProvider.java
-	     org\eclipse\equinox\internal\p2\console\ProvisioningHelper.java -->
+	<!-- org/eclipse/equinox/internal/p2/console/Activator.java
+	     org/eclipse/equinox/internal/p2/console/Messages.java
+	     org/eclipse/equinox/internal/p2/console/messages.properties
+	     org/eclipse/equinox/internal/p2/console/ProvCommandProvider.java
+	     org/eclipse/equinox/internal/p2/console/ProvisioningHelper.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.console.jar" path="org.eclipse.equinox.p2.console/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>

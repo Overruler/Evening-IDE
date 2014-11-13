@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- com/google/gerrit/prettify/client/ClientSideFormatter.java
+	     com/google/gerrit/prettify/client/gerrit.css
+	     com/google/gerrit/prettify/client/lang-apollo.js
+	     com/google/gerrit/prettify/client/lang-css.js
+	     com/google/gerrit/prettify/client/lang-hs.js
+	     com/google/gerrit/prettify/client/lang-lisp.js
+	     com/google/gerrit/prettify/client/lang-lua.js
+	     com/google/gerrit/prettify/client/lang-ml.js
+	     com/google/gerrit/prettify/client/lang-proto.js
+	     com/google/gerrit/prettify/client/lang-sql.js
+	     com/google/gerrit/prettify/client/lang-vb.js
+	     com/google/gerrit/prettify/client/lang-wiki.js
+	     com/google/gerrit/prettify/client/prettify.css
+	     com/google/gerrit/prettify/client/prettify.js
+	     com/google/gerrit/prettify/client/PrivateScopeImpl.java
+	     com/google/gerrit/prettify/client/PrivateScopeImplIE6.java
+	     com/google/gerrit/prettify/client/server-env.js
+	     com/google/gerrit/prettify/common/EditList.java
+	     com/google/gerrit/prettify/common/PrettifyConstants.java
+	     com/google/gerrit/prettify/common/PrettyFactory.java
+	     com/google/gerrit/prettify/common/SparseFileContent.java
+	     com/google/gerrit/prettify/common/SparseHtmlFile.java -->
+	<classpathentry excluding="com/google/gerrit/prettify/common/PrettyFormatter.java|about.html|about_files/LICENSE.txt|META-INF/MANIFEST.MF|plugin.properties" including="com/google/gerrit/prettify/client/*|com/google/gerrit/prettify/common/*" kind="src" output="bin/1/plugins/com.google.gerrit.prettify.jar" path="com.google.gerrit.prettify"/>
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gerrit.prettify.jar" path="res"/>
+	<!-- com/google/gerrit/prettify/common/PrettyFormatter.java
+	     com/google/gerrit/prettify/common/PrettyFormatter.java
+	     com/google/gwtexpui/safehtml/client/SafeHtml.java -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gerrit.prettify.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-gwt"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gerrit.reviewdb"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwt.servlet"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwtjsonrpc"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwtorm"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.m2e.profiles.ui.jar" path="org.eclipse.m2e.profiles.ui"/>
+	<!-- org/eclipse/m2e/profiles/ui/internal/actions/GenericCommandActionDelegate.java
+	     org/eclipse/m2e/profiles/ui/internal/actions/ProfileSelectionHandler.java
+	     org/eclipse/m2e/profiles/ui/internal/dialog/ProfileSelection.java
+	     org/eclipse/m2e/profiles/ui/internal/dialog/ProfileSelectionStatus.java
+	     org/eclipse/m2e/profiles/ui/internal/dialog/ProfileUtil.java
+	     org/eclipse/m2e/profiles/ui/internal/dialog/SelectProfilesDialog.java
+	     org/eclipse/m2e/profiles/ui/internal/MavenProfilesUIActivator.java
+	     org/eclipse/m2e/profiles/ui/internal/Messages.java
+	     org/eclipse/m2e/profiles/ui/internal/messages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.profiles.ui.jar" path="org.eclipse.m2e.profiles.ui/src"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.profiles.ui/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.profiles.ui/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.profiles.ui.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.profiles.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

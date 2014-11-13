@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/searchParticipants.exsd
+	     schema/uiContextSensitiveClass.exsd
+	     schema/uiTester.exsd -->
+	<classpathentry excluding="src-search/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.wst.common.core.jar" path="org.eclipse.wst.common.core"/>
+	<!-- org/eclipse/wst/common/core/search/document/ComponentDeclarationEntry.java
+	     org/eclipse/wst/common/core/search/document/ComponentReferenceEntry.java
+	     org/eclipse/wst/common/core/search/document/Entry.java
+	     org/eclipse/wst/common/core/search/document/FileReferenceEntry.java
+	     org/eclipse/wst/common/core/search/document/SearchDocument.java
+	     org/eclipse/wst/common/core/search/document/SearchDocumentSet.java
+	     org/eclipse/wst/common/core/search/internal/Messages.java
+	     org/eclipse/wst/common/core/search/internal/messages.properties
+	     org/eclipse/wst/common/core/search/internal/SearchDocumentSetImpl.java
+	     org/eclipse/wst/common/core/search/internal/SearchParticipantDescriptor.java
+	     org/eclipse/wst/common/core/search/internal/SearchParticipantRegistry.java
+	     org/eclipse/wst/common/core/search/internal/SearchParticipantRegistryReader.java
+	     org/eclipse/wst/common/core/search/ISearchOptions.java
+	     org/eclipse/wst/common/core/search/pattern/ComponentDeclarationPattern.java
+	     org/eclipse/wst/common/core/search/pattern/ComponentReferencePattern.java
+	     org/eclipse/wst/common/core/search/pattern/ComponentSearchPattern.java
+	     org/eclipse/wst/common/core/search/pattern/FileReferencePattern.java
+	     org/eclipse/wst/common/core/search/pattern/QualifiedName.java
+	     org/eclipse/wst/common/core/search/pattern/SearchPattern.java
+	     org/eclipse/wst/common/core/search/scope/ContentTypeSearchScope.java
+	     org/eclipse/wst/common/core/search/scope/ProjectSearchScope.java
+	     org/eclipse/wst/common/core/search/scope/SearchScope.java
+	     org/eclipse/wst/common/core/search/scope/SearchScopeImpl.java
+	     org/eclipse/wst/common/core/search/scope/SelectionSearchScope.java
+	     org/eclipse/wst/common/core/search/scope/WorkingSetSearchScope.java
+	     org/eclipse/wst/common/core/search/scope/WorkspaceSearchScope.java
+	     org/eclipse/wst/common/core/search/SearchEngine.java
+	     org/eclipse/wst/common/core/search/SearchMatch.java
+	     org/eclipse/wst/common/core/search/SearchParticipant.java
+	     org/eclipse/wst/common/core/search/SearchPlugin.java
+	     org/eclipse/wst/common/core/search/SearchRequestor.java
+	     org/eclipse/wst/common/core/search/util/CollectingSearchRequestor.java
+	     org/eclipse/wst/common/core/util/RegistryReader.java
+	     org/eclipse/wst/common/core/util/UIContextDetermination.java
+	     org/eclipse/wst/common/core/util/UITester.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.core.jar" path="org.eclipse.wst.common.core/src-search"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

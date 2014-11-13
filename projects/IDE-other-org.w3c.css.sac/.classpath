@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\w3c\css\sac\AttributeCondition.java
-	     org\w3c\css\sac\CharacterDataSelector.java
-	     org\w3c\css\sac\CombinatorCondition.java
-	     org\w3c\css\sac\Condition.java
-	     org\w3c\css\sac\ConditionalSelector.java
-	     org\w3c\css\sac\ConditionFactory.java
-	     org\w3c\css\sac\ContentCondition.java
-	     org\w3c\css\sac\CSSException.java
-	     org\w3c\css\sac\CSSParseException.java
-	     org\w3c\css\sac\DescendantSelector.java
-	     org\w3c\css\sac\DocumentHandler.java
-	     org\w3c\css\sac\ElementSelector.java
-	     org\w3c\css\sac\ErrorHandler.java
-	     org\w3c\css\sac\helpers\ParserFactory.java
-	     org\w3c\css\sac\InputSource.java
-	     org\w3c\css\sac\LangCondition.java
-	     org\w3c\css\sac\LexicalUnit.java
-	     org\w3c\css\sac\Locator.java
-	     org\w3c\css\sac\NegativeCondition.java
-	     org\w3c\css\sac\NegativeSelector.java
-	     org\w3c\css\sac\Parser.java
-	     org\w3c\css\sac\PositionalCondition.java
-	     org\w3c\css\sac\ProcessingInstructionSelector.java
-	     org\w3c\css\sac\SACMediaList.java
-	     org\w3c\css\sac\Selector.java
-	     org\w3c\css\sac\SelectorFactory.java
-	     org\w3c\css\sac\SelectorList.java
-	     org\w3c\css\sac\SiblingSelector.java
-	     org\w3c\css\sac\SimpleSelector.java -->
+	<!-- org/w3c/css/sac/AttributeCondition.java
+	     org/w3c/css/sac/CharacterDataSelector.java
+	     org/w3c/css/sac/CombinatorCondition.java
+	     org/w3c/css/sac/Condition.java
+	     org/w3c/css/sac/ConditionalSelector.java
+	     org/w3c/css/sac/ConditionFactory.java
+	     org/w3c/css/sac/ContentCondition.java
+	     org/w3c/css/sac/CSSException.java
+	     org/w3c/css/sac/CSSParseException.java
+	     org/w3c/css/sac/DescendantSelector.java
+	     org/w3c/css/sac/DocumentHandler.java
+	     org/w3c/css/sac/ElementSelector.java
+	     org/w3c/css/sac/ErrorHandler.java
+	     org/w3c/css/sac/helpers/ParserFactory.java
+	     org/w3c/css/sac/InputSource.java
+	     org/w3c/css/sac/LangCondition.java
+	     org/w3c/css/sac/LexicalUnit.java
+	     org/w3c/css/sac/Locator.java
+	     org/w3c/css/sac/NegativeCondition.java
+	     org/w3c/css/sac/NegativeSelector.java
+	     org/w3c/css/sac/Parser.java
+	     org/w3c/css/sac/PositionalCondition.java
+	     org/w3c/css/sac/ProcessingInstructionSelector.java
+	     org/w3c/css/sac/SACMediaList.java
+	     org/w3c/css/sac/Selector.java
+	     org/w3c/css/sac/SelectorFactory.java
+	     org/w3c/css/sac/SelectorList.java
+	     org/w3c/css/sac/SiblingSelector.java
+	     org/w3c/css/sac/SimpleSelector.java -->
 	<classpathentry excluding="META-INF/ECLIPSEF.RSA|META-INF/ECLIPSEF.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE-2.0.txt|about_files/LICENSE-W3C-20021231.html|about_files/LICENSE.sax.txt|about_files/NOTICE|about_files/README|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/org.w3c.css.sac.jar" path="org.w3c.css.sac"/>
 	<!-- about.html
-	     about_files\LICENSE-2.0.txt
-	     about_files\LICENSE-W3C-20021231.html
-	     about_files\LICENSE.sac.html
-	     about_files\LICENSE.sax.txt
-	     about_files\NOTICE
-	     about_files\README
-	     META-INF\MANIFEST.MF
+	     about_files/LICENSE-2.0.txt
+	     about_files/LICENSE-W3C-20021231.html
+	     about_files/LICENSE.sac.html
+	     about_files/LICENSE.sax.txt
+	     about_files/NOTICE
+	     about_files/README
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.w3c.css.sac.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

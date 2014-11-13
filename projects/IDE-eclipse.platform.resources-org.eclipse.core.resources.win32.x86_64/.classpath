@@ -2,8 +2,8 @@
 <classpath>
 	<!-- about.html
 	     fragment.xml
-	     META-INF\MANIFEST.MF
-	     os\win32\x86_64\win##refresh.dll -->
+	     META-INF/MANIFEST.MF
+	     os/win32/x86_64/win##refresh.dll -->
 	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|fragment.xml|os/win32/x86_64/*" kind="src" output="bin/1/plugins/org.eclipse.core.resources.win32.x86_64.jar" path="org.eclipse.core.resources.win32.x86_64"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>

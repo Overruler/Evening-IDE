@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- com/google/gerrit/reviewdb/AbstractAgreement.java
+	     com/google/gerrit/reviewdb/Account.java
+	     com/google/gerrit/reviewdb/AccountAccess.java
+	     com/google/gerrit/reviewdb/AccountAgreement.java
+	     com/google/gerrit/reviewdb/AccountAgreementAccess.java
+	     com/google/gerrit/reviewdb/AccountDiffPreference.java
+	     com/google/gerrit/reviewdb/AccountDiffPreferenceAccess.java
+	     com/google/gerrit/reviewdb/AccountExternalId.java
+	     com/google/gerrit/reviewdb/AccountExternalIdAccess.java
+	     com/google/gerrit/reviewdb/AccountGeneralPreferences.java
+	     com/google/gerrit/reviewdb/AccountGroup.java
+	     com/google/gerrit/reviewdb/AccountGroupAccess.java
+	     com/google/gerrit/reviewdb/AccountGroupAgreement.java
+	     com/google/gerrit/reviewdb/AccountGroupAgreementAccess.java
+	     com/google/gerrit/reviewdb/AccountGroupMember.java
+	     com/google/gerrit/reviewdb/AccountGroupMemberAccess.java
+	     com/google/gerrit/reviewdb/AccountGroupMemberAudit.java
+	     com/google/gerrit/reviewdb/AccountGroupMemberAuditAccess.java
+	     com/google/gerrit/reviewdb/AccountGroupName.java
+	     com/google/gerrit/reviewdb/AccountGroupNameAccess.java
+	     com/google/gerrit/reviewdb/AccountPatchReview.java
+	     com/google/gerrit/reviewdb/AccountPatchReviewAccess.java
+	     com/google/gerrit/reviewdb/AccountProjectWatch.java
+	     com/google/gerrit/reviewdb/AccountProjectWatchAccess.java
+	     com/google/gerrit/reviewdb/AccountSshKey.java
+	     com/google/gerrit/reviewdb/AccountSshKeyAccess.java
+	     com/google/gerrit/reviewdb/ApprovalCategory.java
+	     com/google/gerrit/reviewdb/ApprovalCategoryAccess.java
+	     com/google/gerrit/reviewdb/ApprovalCategoryValue.java
+	     com/google/gerrit/reviewdb/ApprovalCategoryValueAccess.java
+	     com/google/gerrit/reviewdb/AuthType.java
+	     com/google/gerrit/reviewdb/Branch.java
+	     com/google/gerrit/reviewdb/Change.java
+	     com/google/gerrit/reviewdb/ChangeAccess.java
+	     com/google/gerrit/reviewdb/ChangeMessage.java
+	     com/google/gerrit/reviewdb/ChangeMessageAccess.java
+	     com/google/gerrit/reviewdb/CodedEnum.java
+	     com/google/gerrit/reviewdb/ContactInformation.java
+	     com/google/gerrit/reviewdb/ContributorAgreement.java
+	     com/google/gerrit/reviewdb/ContributorAgreementAccess.java
+	     com/google/gerrit/reviewdb/CurrentSchemaVersion.java
+	     com/google/gerrit/reviewdb/index_generic.sql
+	     com/google/gerrit/reviewdb/index_postgres.sql
+	     com/google/gerrit/reviewdb/mysql_nextval.sql
+	     com/google/gerrit/reviewdb/Patch.java
+	     com/google/gerrit/reviewdb/PatchLineComment.java
+	     com/google/gerrit/reviewdb/PatchLineCommentAccess.java
+	     com/google/gerrit/reviewdb/PatchSet.java
+	     com/google/gerrit/reviewdb/PatchSetAccess.java
+	     com/google/gerrit/reviewdb/PatchSetAncestor.java
+	     com/google/gerrit/reviewdb/PatchSetAncestorAccess.java
+	     com/google/gerrit/reviewdb/PatchSetApproval.java
+	     com/google/gerrit/reviewdb/PatchSetApprovalAccess.java
+	     com/google/gerrit/reviewdb/PatchSetInfo.java
+	     com/google/gerrit/reviewdb/Project.java
+	     com/google/gerrit/reviewdb/ProjectAccess.java
+	     com/google/gerrit/reviewdb/RefRight.java
+	     com/google/gerrit/reviewdb/RefRightAccess.java
+	     com/google/gerrit/reviewdb/RevId.java
+	     com/google/gerrit/reviewdb/ReviewDb.java
+	     com/google/gerrit/reviewdb/SchemaVersionAccess.java
+	     com/google/gerrit/reviewdb/StarredChange.java
+	     com/google/gerrit/reviewdb/StarredChangeAccess.java
+	     com/google/gerrit/reviewdb/SystemConfig.java
+	     com/google/gerrit/reviewdb/SystemConfigAccess.java
+	     com/google/gerrit/reviewdb/TrackingId.java
+	     com/google/gerrit/reviewdb/TrackingIdAccess.java
+	     com/google/gerrit/reviewdb/UserIdentity.java -->
+	<classpathentry excluding="about.html|META-INF/MANIFEST.MF|plugin.properties" including="com/google/gerrit/reviewdb/*" kind="src" output="bin/1/plugins/com.google.gerrit.reviewdb.jar" path="com.google.gerrit.reviewdb"/>
+	<!-- about.html
+	     build.properties
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gerrit.reviewdb.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwtjsonrpc"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwtorm"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/apache/commons/lang/ArrayUtils.java
+	     org/apache/commons/lang/BitField.java
+	     org/apache/commons/lang/BooleanUtils.java
+	     org/apache/commons/lang/builder/CompareToBuilder.java
+	     org/apache/commons/lang/builder/EqualsBuilder.java
+	     org/apache/commons/lang/builder/HashCodeBuilder.java
+	     org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+	     org/apache/commons/lang/builder/StandardToStringStyle.java
+	     org/apache/commons/lang/builder/ToStringBuilder.java
+	     org/apache/commons/lang/builder/ToStringStyle.java
+	     org/apache/commons/lang/CharEncoding.java
+	     org/apache/commons/lang/CharRange.java
+	     org/apache/commons/lang/CharSet.java
+	     org/apache/commons/lang/CharSetUtils.java
+	     org/apache/commons/lang/CharUtils.java
+	     org/apache/commons/lang/ClassUtils.java
+	     org/apache/commons/lang/enums/Enum.java
+	     org/apache/commons/lang/enums/EnumUtils.java
+	     org/apache/commons/lang/enums/ValuedEnum.java
+	     org/apache/commons/lang/enum/Enum.java
+	     org/apache/commons/lang/enum/EnumUtils.java
+	     org/apache/commons/lang/enum/ValuedEnum.java
+	     org/apache/commons/lang/exception/CloneFailedException.java
+	     org/apache/commons/lang/exception/ExceptionUtils.java
+	     org/apache/commons/lang/exception/Nestable.java
+	     org/apache/commons/lang/exception/NestableDelegate.java
+	     org/apache/commons/lang/exception/NestableError.java
+	     org/apache/commons/lang/exception/NestableException.java
+	     org/apache/commons/lang/exception/NestableRuntimeException.java
+	     org/apache/commons/lang/IllegalClassException.java
+	     org/apache/commons/lang/IncompleteArgumentException.java
+	     org/apache/commons/lang/LocaleUtils.java
+	     org/apache/commons/lang/math/DoubleRange.java
+	     org/apache/commons/lang/math/FloatRange.java
+	     org/apache/commons/lang/math/Fraction.java
+	     org/apache/commons/lang/math/IEEE754rUtils.java
+	     org/apache/commons/lang/math/IntRange.java
+	     org/apache/commons/lang/math/JVMRandom.java
+	     org/apache/commons/lang/math/LongRange.java
+	     org/apache/commons/lang/math/NumberRange.java
+	     org/apache/commons/lang/math/NumberUtils.java
+	     org/apache/commons/lang/math/RandomUtils.java
+	     org/apache/commons/lang/math/Range.java
+	     org/apache/commons/lang/mutable/Mutable.java
+	     org/apache/commons/lang/mutable/MutableBoolean.java
+	     org/apache/commons/lang/mutable/MutableByte.java
+	     org/apache/commons/lang/mutable/MutableDouble.java
+	     org/apache/commons/lang/mutable/MutableFloat.java
+	     org/apache/commons/lang/mutable/MutableInt.java
+	     org/apache/commons/lang/mutable/MutableLong.java
+	     org/apache/commons/lang/mutable/MutableObject.java
+	     org/apache/commons/lang/mutable/MutableShort.java
+	     org/apache/commons/lang/NotImplementedException.java
+	     org/apache/commons/lang/NullArgumentException.java
+	     org/apache/commons/lang/NumberRange.java
+	     org/apache/commons/lang/NumberUtils.java
+	     org/apache/commons/lang/ObjectUtils.java
+	     org/apache/commons/lang/RandomStringUtils.java
+	     org/apache/commons/lang/reflect/ConstructorUtils.java
+	     org/apache/commons/lang/reflect/FieldUtils.java
+	     org/apache/commons/lang/reflect/MethodUtils.java
+	     org/apache/commons/lang/SerializationException.java
+	     org/apache/commons/lang/SerializationUtils.java
+	     org/apache/commons/lang/StringEscapeUtils.java
+	     org/apache/commons/lang/StringUtils.java
+	     org/apache/commons/lang/SystemUtils.java
+	     org/apache/commons/lang/text/CompositeFormat.java
+	     org/apache/commons/lang/text/ExtendedMessageFormat.java
+	     org/apache/commons/lang/text/FormatFactory.java
+	     org/apache/commons/lang/text/StrBuilder.java
+	     org/apache/commons/lang/text/StrLookup.java
+	     org/apache/commons/lang/text/StrMatcher.java
+	     org/apache/commons/lang/text/StrSubstitutor.java
+	     org/apache/commons/lang/text/StrTokenizer.java
+	     org/apache/commons/lang/time/DateFormatUtils.java
+	     org/apache/commons/lang/time/DateUtils.java
+	     org/apache/commons/lang/time/DurationFormatUtils.java
+	     org/apache/commons/lang/time/FastDateFormat.java
+	     org/apache/commons/lang/time/StopWatch.java
+	     org/apache/commons/lang/UnhandledException.java
+	     org/apache/commons/lang/Validate.java
+	     org/apache/commons/lang/WordUtils.java -->
+	<classpathentry excluding="org/apache/commons/lang/enum/" kind="src" output="bin/1/plugins/org.apache.commons.lang.jar" path="apache.commons-lang/src/main/java"/>
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     META-INF/LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     META-INF/NOTICE.txt
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.commons.lang.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

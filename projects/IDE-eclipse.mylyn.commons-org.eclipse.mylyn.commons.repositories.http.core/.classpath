@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.repositories.http.core.jar" path="org.eclipse.mylyn.commons.repositories.http.core"/>
+	<!-- org/eclipse/mylyn/commons/repositories/http/core/CommonHttpClient.java
+	     org/eclipse/mylyn/commons/repositories/http/core/CommonHttpOperation.java
+	     org/eclipse/mylyn/commons/repositories/http/core/CommonHttpResponse.java
+	     org/eclipse/mylyn/commons/repositories/http/core/HttpRequestProcessor.java
+	     org/eclipse/mylyn/commons/repositories/http/core/HttpUtil.java
+	     org/eclipse/mylyn/internal/commons/repositories/http/core/IdleConnectionMonitorThread.java
+	     org/eclipse/mylyn/internal/commons/repositories/http/core/PollingProtocolSocketFactory.java
+	     org/eclipse/mylyn/internal/commons/repositories/http/core/PollingSslProtocolSocketFactory.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.repositories.http.core.jar" path="org.eclipse.mylyn.commons.repositories.http.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.logging"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.httpcomponents.httpclient"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.httpcomponents.httpcore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

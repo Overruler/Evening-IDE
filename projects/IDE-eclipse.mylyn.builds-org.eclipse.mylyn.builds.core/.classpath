@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     feature.gif
+	     META-INF/MANIFEST.MF
+	     models/builds.ecore
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|feature.gif|models/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.builds.core.jar" path="org.eclipse.mylyn.builds.core"/>
+	<!-- org/eclipse/mylyn/builds/core/BuildState.java
+	     org/eclipse/mylyn/builds/core/BuildStatus.java
+	     org/eclipse/mylyn/builds/core/EditType.java
+	     org/eclipse/mylyn/builds/core/IArtifact.java
+	     org/eclipse/mylyn/builds/core/IBooleanParameterDefinition.java
+	     org/eclipse/mylyn/builds/core/IBuild.java
+	     org/eclipse/mylyn/builds/core/IBuildCause.java
+	     org/eclipse/mylyn/builds/core/IBuildElement.java
+	     org/eclipse/mylyn/builds/core/IBuildFactory.java
+	     org/eclipse/mylyn/builds/core/IBuildModel.java
+	     org/eclipse/mylyn/builds/core/IBuildParameterDefinition.java
+	     org/eclipse/mylyn/builds/core/IBuildPlan.java
+	     org/eclipse/mylyn/builds/core/IBuildReference.java
+	     org/eclipse/mylyn/builds/core/IBuildServer.java
+	     org/eclipse/mylyn/builds/core/IBuildServerConfiguration.java
+	     org/eclipse/mylyn/builds/core/IChange.java
+	     org/eclipse/mylyn/builds/core/IChangeArtifact.java
+	     org/eclipse/mylyn/builds/core/IChangeSet.java
+	     org/eclipse/mylyn/builds/core/IChoiceParameterDefinition.java
+	     org/eclipse/mylyn/builds/core/IFileParameterDefinition.java
+	     org/eclipse/mylyn/builds/core/IHealthReport.java
+	     org/eclipse/mylyn/builds/core/IOperation.java
+	     org/eclipse/mylyn/builds/core/IParameterDefinition.java
+	     org/eclipse/mylyn/builds/core/IPasswordParameterDefinition.java
+	     org/eclipse/mylyn/builds/core/IPlanParameterDefinition.java
+	     org/eclipse/mylyn/builds/core/IStringParameterDefinition.java
+	     org/eclipse/mylyn/builds/core/ITestCase.java
+	     org/eclipse/mylyn/builds/core/ITestElement.java
+	     org/eclipse/mylyn/builds/core/ITestResult.java
+	     org/eclipse/mylyn/builds/core/ITestSuite.java
+	     org/eclipse/mylyn/builds/core/IUser.java
+	     org/eclipse/mylyn/builds/core/spi/AbstractConfigurationCache.java
+	     org/eclipse/mylyn/builds/core/spi/BuildConnector.java
+	     org/eclipse/mylyn/builds/core/spi/BuildPlanRequest.java
+	     org/eclipse/mylyn/builds/core/spi/BuildServerBehaviour.java
+	     org/eclipse/mylyn/builds/core/spi/BuildServerConfiguration.java
+	     org/eclipse/mylyn/builds/core/spi/GetBuildsRequest.java
+	     org/eclipse/mylyn/builds/core/spi/RunBuildRequest.java
+	     org/eclipse/mylyn/builds/core/TestCaseResult.java
+	     org/eclipse/mylyn/builds/internal/core/Artifact.java
+	     org/eclipse/mylyn/builds/internal/core/BooleanParameterDefinition.java
+	     org/eclipse/mylyn/builds/internal/core/Build.java
+	     org/eclipse/mylyn/builds/internal/core/BuildAdapterFactory.java
+	     org/eclipse/mylyn/builds/internal/core/BuildCause.java
+	     org/eclipse/mylyn/builds/internal/core/BuildElement.java
+	     org/eclipse/mylyn/builds/internal/core/BuildFactory.java
+	     org/eclipse/mylyn/builds/internal/core/BuildModel.java
+	     org/eclipse/mylyn/builds/internal/core/BuildPackage.java
+	     org/eclipse/mylyn/builds/internal/core/BuildParameterDefinition.java
+	     org/eclipse/mylyn/builds/internal/core/BuildPlan.java
+	     org/eclipse/mylyn/builds/internal/core/BuildReference.java
+	     org/eclipse/mylyn/builds/internal/core/BuildsCorePlugin.java
+	     org/eclipse/mylyn/builds/internal/core/BuildServer.java
+	     org/eclipse/mylyn/builds/internal/core/BuildSwitch.java
+	     org/eclipse/mylyn/builds/internal/core/Change.java
+	     org/eclipse/mylyn/builds/internal/core/ChangeArtifact.java
+	     org/eclipse/mylyn/builds/internal/core/ChangeSet.java
+	     org/eclipse/mylyn/builds/internal/core/ChoiceParameterDefinition.java
+	     org/eclipse/mylyn/builds/internal/core/FileParameterDefinition.java
+	     org/eclipse/mylyn/builds/internal/core/HealthReport.java
+	     org/eclipse/mylyn/builds/internal/core/IBuildLoader.java
+	     org/eclipse/mylyn/builds/internal/core/IBuildModelRealm.java
+	     org/eclipse/mylyn/builds/internal/core/operations/AbstractElementOperation.java
+	     org/eclipse/mylyn/builds/internal/core/operations/AbstractOperation.java
+	     org/eclipse/mylyn/builds/internal/core/operations/BuildJob.java
+	     org/eclipse/mylyn/builds/internal/core/operations/GetBuildOutputOperation.java
+	     org/eclipse/mylyn/builds/internal/core/operations/GetBuildsOperation.java
+	     org/eclipse/mylyn/builds/internal/core/operations/IOperationService.java
+	     org/eclipse/mylyn/builds/internal/core/operations/OperationChangeEvent.java
+	     org/eclipse/mylyn/builds/internal/core/operations/OperationChangeListener.java
+	     org/eclipse/mylyn/builds/internal/core/operations/RefreshConfigurationOperation.java
+	     org/eclipse/mylyn/builds/internal/core/operations/RefreshOperation.java
+	     org/eclipse/mylyn/builds/internal/core/operations/RefreshRequest.java
+	     org/eclipse/mylyn/builds/internal/core/operations/RefreshSession.java
+	     org/eclipse/mylyn/builds/internal/core/operations/RunBuildOperation.java
+	     org/eclipse/mylyn/builds/internal/core/ParameterDefinition.java
+	     org/eclipse/mylyn/builds/internal/core/PasswordParameterDefinition.java
+	     org/eclipse/mylyn/builds/internal/core/PlanParameterDefinition.java
+	     org/eclipse/mylyn/builds/internal/core/StringParameterDefinition.java
+	     org/eclipse/mylyn/builds/internal/core/StringToStringMap.java
+	     org/eclipse/mylyn/builds/internal/core/TestCase.java
+	     org/eclipse/mylyn/builds/internal/core/TestElement.java
+	     org/eclipse/mylyn/builds/internal/core/TestResult.java
+	     org/eclipse/mylyn/builds/internal/core/TestSuite.java
+	     org/eclipse/mylyn/builds/internal/core/User.java
+	     org/eclipse/mylyn/builds/internal/core/util/BuildModelManager.java
+	     org/eclipse/mylyn/builds/internal/core/util/BuildRunnable.java
+	     org/eclipse/mylyn/builds/internal/core/util/BuildRunnableWithResult.java
+	     org/eclipse/mylyn/builds/internal/core/util/BuildRunner.java
+	     org/eclipse/mylyn/builds/internal/core/util/BuildScheduler.java
+	     org/eclipse/mylyn/builds/internal/core/util/BuildsConstants.java
+	     org/eclipse/mylyn/builds/internal/core/util/JUnitResultGenerator.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.builds.core.jar" path="org.eclipse.mylyn.builds.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding.observable"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.ds.core.jar" path="org.eclipse.pde.ds.core"/>
-	<!-- org\eclipse\pde\internal\ds\core\Activator.java
-	     org\eclipse\pde\internal\ds\core\builders\DefaultSAXParser.java
-	     org\eclipse\pde\internal\ds\core\builders\DSBuilder.java
-	     org\eclipse\pde\internal\ds\core\builders\DSErrorReporter.java
-	     org\eclipse\pde\internal\ds\core\builders\DSJavaHelper.java
-	     org\eclipse\pde\internal\ds\core\builders\DSMarkerFactory.java
-	     org\eclipse\pde\internal\ds\core\builders\XMLErrorReporter.java
-	     org\eclipse\pde\internal\ds\core\IDSComponent.java
-	     org\eclipse\pde\internal\ds\core\IDSConstants.java
-	     org\eclipse\pde\internal\ds\core\IDSDocumentFactory.java
-	     org\eclipse\pde\internal\ds\core\IDSImplementation.java
-	     org\eclipse\pde\internal\ds\core\IDSModel.java
-	     org\eclipse\pde\internal\ds\core\IDSObject.java
-	     org\eclipse\pde\internal\ds\core\IDSProperties.java
-	     org\eclipse\pde\internal\ds\core\IDSProperty.java
-	     org\eclipse\pde\internal\ds\core\IDSProvide.java
-	     org\eclipse\pde\internal\ds\core\IDSReference.java
-	     org\eclipse\pde\internal\ds\core\IDSService.java
-	     org\eclipse\pde\internal\ds\core\Messages.java
-	     org\eclipse\pde\internal\ds\core\messages.properties
-	     org\eclipse\pde\internal\ds\core\text\DSComponent.java
-	     org\eclipse\pde\internal\ds\core\text\DSDocumentFactory.java
-	     org\eclipse\pde\internal\ds\core\text\DSDocumentHandler.java
-	     org\eclipse\pde\internal\ds\core\text\DSImplementation.java
-	     org\eclipse\pde\internal\ds\core\text\DSModel.java
-	     org\eclipse\pde\internal\ds\core\text\DSObject.java
-	     org\eclipse\pde\internal\ds\core\text\DSProperties.java
-	     org\eclipse\pde\internal\ds\core\text\DSProperty.java
-	     org\eclipse\pde\internal\ds\core\text\DSProvide.java
-	     org\eclipse\pde\internal\ds\core\text\DSReference.java
-	     org\eclipse\pde\internal\ds\core\text\DSService.java -->
+	<!-- org/eclipse/pde/internal/ds/core/Activator.java
+	     org/eclipse/pde/internal/ds/core/builders/DefaultSAXParser.java
+	     org/eclipse/pde/internal/ds/core/builders/DSBuilder.java
+	     org/eclipse/pde/internal/ds/core/builders/DSErrorReporter.java
+	     org/eclipse/pde/internal/ds/core/builders/DSJavaHelper.java
+	     org/eclipse/pde/internal/ds/core/builders/DSMarkerFactory.java
+	     org/eclipse/pde/internal/ds/core/builders/XMLErrorReporter.java
+	     org/eclipse/pde/internal/ds/core/IDSComponent.java
+	     org/eclipse/pde/internal/ds/core/IDSConstants.java
+	     org/eclipse/pde/internal/ds/core/IDSDocumentFactory.java
+	     org/eclipse/pde/internal/ds/core/IDSImplementation.java
+	     org/eclipse/pde/internal/ds/core/IDSModel.java
+	     org/eclipse/pde/internal/ds/core/IDSObject.java
+	     org/eclipse/pde/internal/ds/core/IDSProperties.java
+	     org/eclipse/pde/internal/ds/core/IDSProperty.java
+	     org/eclipse/pde/internal/ds/core/IDSProvide.java
+	     org/eclipse/pde/internal/ds/core/IDSReference.java
+	     org/eclipse/pde/internal/ds/core/IDSService.java
+	     org/eclipse/pde/internal/ds/core/Messages.java
+	     org/eclipse/pde/internal/ds/core/messages.properties
+	     org/eclipse/pde/internal/ds/core/text/DSComponent.java
+	     org/eclipse/pde/internal/ds/core/text/DSDocumentFactory.java
+	     org/eclipse/pde/internal/ds/core/text/DSDocumentHandler.java
+	     org/eclipse/pde/internal/ds/core/text/DSImplementation.java
+	     org/eclipse/pde/internal/ds/core/text/DSModel.java
+	     org/eclipse/pde/internal/ds/core/text/DSObject.java
+	     org/eclipse/pde/internal/ds/core/text/DSProperties.java
+	     org/eclipse/pde/internal/ds/core/text/DSProperty.java
+	     org/eclipse/pde/internal/ds/core/text/DSProvide.java
+	     org/eclipse/pde/internal/ds/core/text/DSReference.java
+	     org/eclipse/pde/internal/ds/core/text/DSService.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.ds.core.jar" path="org.eclipse.pde.ds.core/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.core.filebuffers"/>

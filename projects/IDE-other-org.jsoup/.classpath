@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/jsoup/Connection.java
+	     org/jsoup/examples/HtmlToPlainText.java
+	     org/jsoup/examples/ListLinks.java
+	     org/jsoup/helper/DataUtil.java
+	     org/jsoup/helper/DescendableLinkedList.java
+	     org/jsoup/helper/HttpConnection.java
+	     org/jsoup/helper/StringUtil.java
+	     org/jsoup/helper/Validate.java
+	     org/jsoup/HttpStatusException.java
+	     org/jsoup/Jsoup.java
+	     org/jsoup/nodes/Attribute.java
+	     org/jsoup/nodes/Attributes.java
+	     org/jsoup/nodes/Comment.java
+	     org/jsoup/nodes/DataNode.java
+	     org/jsoup/nodes/Document.java
+	     org/jsoup/nodes/DocumentType.java
+	     org/jsoup/nodes/Element.java
+	     org/jsoup/nodes/entities-base.properties
+	     org/jsoup/nodes/entities-full.properties
+	     org/jsoup/nodes/Entities.java
+	     org/jsoup/nodes/Node.java
+	     org/jsoup/nodes/TextNode.java
+	     org/jsoup/nodes/XmlDeclaration.java
+	     org/jsoup/parser/ParseError.java
+	     org/jsoup/parser/Parser.java
+	     org/jsoup/parser/Tag.java
+	     org/jsoup/parser/TokenQueue.java
+	     org/jsoup/parser/XmlTreeBuilder.java
+	     org/jsoup/safety/Cleaner.java
+	     org/jsoup/safety/Whitelist.java
+	     org/jsoup/select/Collector.java
+	     org/jsoup/select/Elements.java
+	     org/jsoup/select/Evaluator.java
+	     org/jsoup/select/NodeTraversor.java
+	     org/jsoup/select/NodeVisitor.java
+	     org/jsoup/select/Selector.java
+	     org/jsoup/UnsupportedMimeTypeException.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.jsoup.jar" path="jsoup/src/main/java"/>
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     META-INF/maven/org.jsoup/jsoup/pom.properties
+	     META-INF/maven/org.jsoup/jsoup/pom.xml
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.jsoup.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.git.ui.jar" path="org.eclipse.mylyn.git.ui"/>
+	<!-- org/eclipse/mylyn/internal/git/ui/connector/GitConnectorUi.java
+	     org/eclipse/mylyn/internal/git/ui/GetChangeSetDialog.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.git.ui.jar" path="org.eclipse.mylyn.git.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.egit-org.eclipse.egit.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.egit-org.eclipse.egit.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.git.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.versions.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.versions.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

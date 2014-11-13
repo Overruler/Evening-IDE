@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/antlr/runtime/ANTLRFileStream.java
+	     org/antlr/runtime/ANTLRInputStream.java
+	     org/antlr/runtime/ANTLRReaderStream.java
+	     org/antlr/runtime/ANTLRStringStream.java
+	     org/antlr/runtime/BaseRecognizer.java
+	     org/antlr/runtime/BitSet.java
+	     org/antlr/runtime/CharStream.java
+	     org/antlr/runtime/CharStreamState.java
+	     org/antlr/runtime/ClassicToken.java
+	     org/antlr/runtime/CommonToken.java
+	     org/antlr/runtime/CommonTokenStream.java
+	     org/antlr/runtime/debug/BlankDebugEventListener.java
+	     org/antlr/runtime/debug/DebugEventHub.java
+	     org/antlr/runtime/debug/DebugEventListener.java
+	     org/antlr/runtime/debug/DebugEventRepeater.java
+	     org/antlr/runtime/debug/DebugEventSocketProxy.java
+	     org/antlr/runtime/debug/DebugParser.java
+	     org/antlr/runtime/debug/DebugTokenStream.java
+	     org/antlr/runtime/debug/DebugTreeAdaptor.java
+	     org/antlr/runtime/debug/DebugTreeNodeStream.java
+	     org/antlr/runtime/debug/DebugTreeParser.java
+	     org/antlr/runtime/debug/ParseTreeBuilder.java
+	     org/antlr/runtime/debug/Profiler.java
+	     org/antlr/runtime/debug/RemoteDebugEventSocketListener.java
+	     org/antlr/runtime/debug/TraceDebugEventListener.java
+	     org/antlr/runtime/debug/Tracer.java
+	     org/antlr/runtime/DFA.java
+	     org/antlr/runtime/EarlyExitException.java
+	     org/antlr/runtime/FailedPredicateException.java
+	     org/antlr/runtime/IntStream.java
+	     org/antlr/runtime/Lexer.java
+	     org/antlr/runtime/misc/FastQueue.java
+	     org/antlr/runtime/misc/IntArray.java
+	     org/antlr/runtime/misc/LookaheadStream.java
+	     org/antlr/runtime/misc/Stats.java
+	     org/antlr/runtime/MismatchedNotSetException.java
+	     org/antlr/runtime/MismatchedRangeException.java
+	     org/antlr/runtime/MismatchedSetException.java
+	     org/antlr/runtime/MismatchedTokenException.java
+	     org/antlr/runtime/MismatchedTreeNodeException.java
+	     org/antlr/runtime/MissingTokenException.java
+	     org/antlr/runtime/NoViableAltException.java
+	     org/antlr/runtime/Parser.java
+	     org/antlr/runtime/ParserRuleReturnScope.java
+	     org/antlr/runtime/RecognitionException.java
+	     org/antlr/runtime/RecognizerSharedState.java
+	     org/antlr/runtime/RuleReturnScope.java
+	     org/antlr/runtime/SerializedGrammar.java
+	     org/antlr/runtime/Token.java
+	     org/antlr/runtime/TokenRewriteStream.java
+	     org/antlr/runtime/TokenSource.java
+	     org/antlr/runtime/TokenStream.java
+	     org/antlr/runtime/tree/BaseTree.java
+	     org/antlr/runtime/tree/BaseTreeAdaptor.java
+	     org/antlr/runtime/tree/BufferedTreeNodeStream.java
+	     org/antlr/runtime/tree/CommonErrorNode.java
+	     org/antlr/runtime/tree/CommonTree.java
+	     org/antlr/runtime/tree/CommonTreeAdaptor.java
+	     org/antlr/runtime/tree/CommonTreeNodeStream.java
+	     org/antlr/runtime/tree/DOTTreeGenerator.java
+	     org/antlr/runtime/tree/ParseTree.java
+	     org/antlr/runtime/tree/RewriteCardinalityException.java
+	     org/antlr/runtime/tree/RewriteEarlyExitException.java
+	     org/antlr/runtime/tree/RewriteEmptyStreamException.java
+	     org/antlr/runtime/tree/RewriteRuleElementStream.java
+	     org/antlr/runtime/tree/RewriteRuleNodeStream.java
+	     org/antlr/runtime/tree/RewriteRuleSubtreeStream.java
+	     org/antlr/runtime/tree/RewriteRuleTokenStream.java
+	     org/antlr/runtime/tree/Tree.java
+	     org/antlr/runtime/tree/TreeAdaptor.java
+	     org/antlr/runtime/tree/TreeFilter.java
+	     org/antlr/runtime/tree/TreeIterator.java
+	     org/antlr/runtime/tree/TreeNodeStream.java
+	     org/antlr/runtime/tree/TreeParser.java
+	     org/antlr/runtime/tree/TreePatternLexer.java
+	     org/antlr/runtime/tree/TreePatternParser.java
+	     org/antlr/runtime/tree/TreeRewriter.java
+	     org/antlr/runtime/tree/TreeRuleReturnScope.java
+	     org/antlr/runtime/tree/TreeVisitor.java
+	     org/antlr/runtime/tree/TreeVisitorAction.java
+	     org/antlr/runtime/tree/TreeWizard.java
+	     org/antlr/runtime/UnwantedTokenException.java -->
+	<classpathentry excluding="org/antlr/runtime/tree/DOTTreeGenerator.java" kind="src" output="bin/1/plugins/org.antlr.runtime.jar" path="antlr.antlr3/runtime/Java/src/main/java"/>
+	<!-- about.html
+	     about_files/CHANGES.txt
+	     about_files/LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.antlr.runtime.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

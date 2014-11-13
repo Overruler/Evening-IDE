@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/elcl16/apply-patch.gif
+	     icons/elcl16/context-add.gif
+	     icons/elcl16/context-commit.gif
+	     icons/elcl16/interest-increase.gif
+	     icons/elcl16/task-repository.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/elcl16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.team.ui.jar" path="org.eclipse.mylyn.team.ui"/>
+	<!-- org/eclipse/mylyn/internal/team/ui/AbstractCommitWorkflowProvider.java
+	     org/eclipse/mylyn/internal/team/ui/actions/AddToTaskContextAction.java
+	     org/eclipse/mylyn/internal/team/ui/actions/ApplyPatchAction.java
+	     org/eclipse/mylyn/internal/team/ui/actions/CommitContextAction.java
+	     org/eclipse/mylyn/internal/team/ui/actions/Messages.java
+	     org/eclipse/mylyn/internal/team/ui/actions/messages.properties
+	     org/eclipse/mylyn/internal/team/ui/actions/OpenCorrespondingTaskAction.java
+	     org/eclipse/mylyn/internal/team/ui/actions/TaskFinder.java
+	     org/eclipse/mylyn/internal/team/ui/actions/TaskResourceMappingActionProvider.java
+	     org/eclipse/mylyn/internal/team/ui/ContextActiveChangeSetManager.java
+	     org/eclipse/mylyn/internal/team/ui/ContextChangeSet.java
+	     org/eclipse/mylyn/internal/team/ui/ContextChangeSetDecorator.java
+	     org/eclipse/mylyn/internal/team/ui/FocusedTeamExtensionPointReader.java
+	     org/eclipse/mylyn/internal/team/ui/FocusedTeamUiPlugin.java
+	     org/eclipse/mylyn/internal/team/ui/history/Messages.java
+	     org/eclipse/mylyn/internal/team/ui/history/messages.properties
+	     org/eclipse/mylyn/internal/team/ui/history/TaskHistoryAdapterFactory.java
+	     org/eclipse/mylyn/internal/team/ui/history/TaskHistoryContentProvider.java
+	     org/eclipse/mylyn/internal/team/ui/history/TaskHistoryPage.java
+	     org/eclipse/mylyn/internal/team/ui/history/TaskHistoryPageSource.java
+	     org/eclipse/mylyn/internal/team/ui/LinkedTaskInfo.java
+	     org/eclipse/mylyn/internal/team/ui/LinkedTaskInfoAdapterFactory.java
+	     org/eclipse/mylyn/internal/team/ui/Messages.java
+	     org/eclipse/mylyn/internal/team/ui/messages.properties
+	     org/eclipse/mylyn/internal/team/ui/preferences/FocusedTeamPreferencePage.java
+	     org/eclipse/mylyn/internal/team/ui/preferences/Messages.java
+	     org/eclipse/mylyn/internal/team/ui/preferences/messages.properties
+	     org/eclipse/mylyn/internal/team/ui/properties/Messages.java
+	     org/eclipse/mylyn/internal/team/ui/properties/messages.properties
+	     org/eclipse/mylyn/internal/team/ui/properties/ProjectTeamPage.java
+	     org/eclipse/mylyn/internal/team/ui/properties/TeamPropertiesLinkProvider.java
+	     org/eclipse/mylyn/internal/team/ui/templates/CommitTemplateManager.java
+	     org/eclipse/mylyn/internal/team/ui/templates/CommitTemplateVariables.java
+	     org/eclipse/mylyn/internal/team/ui/templates/Messages.java
+	     org/eclipse/mylyn/internal/team/ui/templates/messages.properties
+	     org/eclipse/mylyn/internal/team/ui/templates/TemplateHandlerContentProposalProvider.java
+	     org/eclipse/mylyn/team/ui/AbstractActiveChangeSetProvider.java
+	     org/eclipse/mylyn/team/ui/AbstractCommitTemplateVariable.java
+	     org/eclipse/mylyn/team/ui/AbstractContextChangeSetManager.java
+	     org/eclipse/mylyn/team/ui/AbstractTaskReference.java
+	     org/eclipse/mylyn/team/ui/IContextChangeSet.java
+	     org/eclipse/mylyn/team/ui/TeamUiUtil.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.team.ui.jar" path="org.eclipse.mylyn.team.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.resources.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator.resources"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

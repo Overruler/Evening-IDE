@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/advanced_tabs.gif
+	     icons/clear.gif
+	     icons/clear_disabled.gif
+	     icons/collapseall.gif
+	     icons/copy.gif
+	     icons/cut.gif
+	     icons/editor-pom.gif
+	     icons/effective_pom.gif
+	     icons/element_obj.gif
+	     icons/exclude_obj.gif
+	     icons/execution_obj.gif
+	     icons/expandall.gif
+	     icons/filter.gif
+	     icons/filter_obj.gif
+	     icons/goal_obj.gif
+	     icons/group.gif
+	     icons/hierarchy.gif
+	     icons/include_obj.gif
+	     icons/inherited_obj.gif
+	     icons/jar_obj.gif
+	     icons/new_jar.gif
+	     icons/new_plugin.gif
+	     icons/new_project.gif
+	     icons/parent_pom.gif
+	     icons/paste.gif
+	     icons/person_obj.gif
+	     icons/plugin_obj.gif
+	     icons/profile_obj.gif
+	     icons/project_obj.gif
+	     icons/property_obj.gif
+	     icons/refresh.gif
+	     icons/report2_obj.gif
+	     icons/report_obj.gif
+	     icons/repository_obj.gif
+	     icons/resource_obj.gif
+	     icons/role_obj.gif
+	     icons/scope.gif
+	     icons/scope_obj.gif
+	     icons/select_jar.gif
+	     icons/select_maven.gif
+	     icons/select_plugin.gif
+	     icons/show_group.gif
+	     icons/show_group2.gif
+	     icons/show_inherited_dependencies.gif
+	     icons/sort.gif
+	     icons/web.gif
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/l10n/bundle.properties
+	     plugin.xml
+	     schema/configurationEditorContribution.exsd
+	     schema/pageFactories.exsd -->
+	<classpathentry excluding="src/|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html|icons/*|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.m2e.editor.jar" path="org.eclipse.m2e.editor"/>
+	<!-- org/eclipse/m2e/editor/composites/DependenciesComparator.java
+	     org/eclipse/m2e/editor/composites/DependenciesComposite.java
+	     org/eclipse/m2e/editor/composites/DependencyLabelProvider.java
+	     org/eclipse/m2e/editor/composites/ListEditorComposite.java
+	     org/eclipse/m2e/editor/composites/ListEditorContentProvider.java
+	     org/eclipse/m2e/editor/composites/SectionExpansionAdapter.java
+	     org/eclipse/m2e/editor/composites/StringLabelProvider.java
+	     org/eclipse/m2e/editor/dialogs/ManageDependenciesDialog.java
+	     org/eclipse/m2e/editor/dialogs/MavenModuleSelectionDialog.java
+	     org/eclipse/m2e/editor/dialogs/Messages.java
+	     org/eclipse/m2e/editor/dialogs/messages.properties
+	     org/eclipse/m2e/editor/internal/actions/ShowDependencyHierarchyAction.java
+	     org/eclipse/m2e/editor/internal/Messages.java
+	     org/eclipse/m2e/editor/internal/messages.properties
+	     org/eclipse/m2e/editor/MavenEditorImages.java
+	     org/eclipse/m2e/editor/MavenEditorPlugin.java
+	     org/eclipse/m2e/editor/pom/DependenciesPage.java
+	     org/eclipse/m2e/editor/pom/DependencyTreePage.java
+	     org/eclipse/m2e/editor/pom/ElementValueProvider.java
+	     org/eclipse/m2e/editor/pom/FormUtils.java
+	     org/eclipse/m2e/editor/pom/IPomFileChangedListener.java
+	     org/eclipse/m2e/editor/pom/Matcher.java
+	     org/eclipse/m2e/editor/pom/MavenPomEditor.java
+	     org/eclipse/m2e/editor/pom/MavenPomEditorContributor.java
+	     org/eclipse/m2e/editor/pom/MavenPomEditorPage.java
+	     org/eclipse/m2e/editor/pom/MavenPomEditorPageFactory.java
+	     org/eclipse/m2e/editor/pom/OverviewPage.java
+	     org/eclipse/m2e/editor/pom/PropertiesSection.java
+	     org/eclipse/m2e/editor/pom/ScopeArtifactFilter.java
+	     org/eclipse/m2e/editor/pom/SearchControl.java
+	     org/eclipse/m2e/editor/pom/SearchMatcher.java
+	     org/eclipse/m2e/editor/pom/ValueProvider.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.editor.jar" path="org.eclipse.m2e.editor/src"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.editor/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.editor/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.editor.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.editor.xml"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.search"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.swt-org.eclipse.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.emf"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xml.core"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

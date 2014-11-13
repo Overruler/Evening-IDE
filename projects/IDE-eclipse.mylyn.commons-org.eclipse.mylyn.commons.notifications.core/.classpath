@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.notifications.core.jar" path="org.eclipse.mylyn.commons.notifications.core"/>
+	<!-- org/eclipse/mylyn/commons/notifications/core/AbstractNotification.java
+	     org/eclipse/mylyn/commons/notifications/core/IFilterable.java
+	     org/eclipse/mylyn/commons/notifications/core/INotificationService.java
+	     org/eclipse/mylyn/commons/notifications/core/NotificationEnvironment.java
+	     org/eclipse/mylyn/commons/notifications/core/NotificationSink.java
+	     org/eclipse/mylyn/commons/notifications/core/NotificationSinkEvent.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.notifications.core.jar" path="org.eclipse.mylyn.commons.notifications.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

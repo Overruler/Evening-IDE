@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/apache/env/WhichFactory.properties
+	     org/apache/env/WhichJar.properties
+	     org/apache/xml/resolver/apps/resolver.java
+	     org/apache/xml/resolver/apps/xparse.java
+	     org/apache/xml/resolver/apps/XParseError.java
+	     org/apache/xml/resolver/apps/xread.java
+	     org/apache/xml/resolver/Catalog.java
+	     org/apache/xml/resolver/CatalogEntry.java
+	     org/apache/xml/resolver/CatalogException.java
+	     org/apache/xml/resolver/CatalogManager.java
+	     org/apache/xml/resolver/helpers/BootstrapResolver.java
+	     org/apache/xml/resolver/helpers/Debug.java
+	     org/apache/xml/resolver/helpers/FileURL.java
+	     org/apache/xml/resolver/helpers/Namespaces.java
+	     org/apache/xml/resolver/helpers/PublicId.java
+	     org/apache/xml/resolver/readers/CatalogReader.java
+	     org/apache/xml/resolver/readers/DOMCatalogParser.java
+	     org/apache/xml/resolver/readers/DOMCatalogReader.java
+	     org/apache/xml/resolver/readers/ExtendedXMLCatalogReader.java
+	     org/apache/xml/resolver/readers/OASISXMLCatalogReader.java
+	     org/apache/xml/resolver/readers/SAXCatalogParser.java
+	     org/apache/xml/resolver/readers/SAXCatalogReader.java
+	     org/apache/xml/resolver/readers/SAXParserHandler.java
+	     org/apache/xml/resolver/readers/TextCatalogReader.java
+	     org/apache/xml/resolver/readers/TR9401CatalogReader.java
+	     org/apache/xml/resolver/readers/XCatalogReader.java
+	     org/apache/xml/resolver/Resolver.java
+	     org/apache/xml/resolver/tools/CatalogResolver.java
+	     org/apache/xml/resolver/tools/ResolvingParser.java
+	     org/apache/xml/resolver/tools/ResolvingXMLFilter.java
+	     org/apache/xml/resolver/tools/ResolvingXMLReader.java -->
+	<classpathentry including="org/apache/env/*|org/apache/xml/resolver/*|org/apache/xml/resolver/apps/*|org/apache/xml/resolver/helpers/*|org/apache/xml/resolver/readers/*|org/apache/xml/resolver/tools/*" kind="src" output="bin/1/plugins/org.apache.xml.resolver.jar" path="apache.xerces.xml-commons/java/src"/>
+	<!-- about.html
+	     about_files/LICENSE
+	     about_files/NOTICE
+	     META-INF/MANIFEST.MF
+	     org/apache/xml/resolver/etc/catalog.dtd
+	     org/apache/xml/resolver/etc/catalog.rng
+	     org/apache/xml/resolver/etc/catalog.xsd
+	     org/apache/xml/resolver/etc/xcatalog.dtd
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.xml.resolver.jar" path="res"/>
+	<!-- org/apache/xml/resolver/Version.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.xml.resolver.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

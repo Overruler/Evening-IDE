@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
-	     OSGI-INF\commands.xml
-	     OSGI-INF\handlers.xml
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/commands.xml
+	     OSGI-INF/handlers.xml
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.commands.jar" path="org.eclipse.e4.core.commands"/>
-	<!-- org\eclipse\e4\core\commands\CommandServiceAddon.java
-	     org\eclipse\e4\core\commands\ECommandService.java
-	     org\eclipse\e4\core\commands\EHandlerService.java
-	     org\eclipse\e4\core\commands\ExpressionContext.java
-	     org\eclipse\e4\core\commands\internal\Activator.java
-	     org\eclipse\e4\core\commands\internal\CommandServiceCreationFunction.java
-	     org\eclipse\e4\core\commands\internal\CommandServiceImpl.java
-	     org\eclipse\e4\core\commands\internal\HandlerServiceCreationFunction.java
-	     org\eclipse\e4\core\commands\internal\HandlerServiceHandler.java
-	     org\eclipse\e4\core\commands\internal\HandlerServiceImpl.java
-	     org\eclipse\e4\core\commands\internal\ICommandHelpService.java
-	     org\eclipse\e4\core\commands\internal\SetEnabled.java -->
+	<!-- org/eclipse/e4/core/commands/CommandServiceAddon.java
+	     org/eclipse/e4/core/commands/ECommandService.java
+	     org/eclipse/e4/core/commands/EHandlerService.java
+	     org/eclipse/e4/core/commands/ExpressionContext.java
+	     org/eclipse/e4/core/commands/internal/Activator.java
+	     org/eclipse/e4/core/commands/internal/CommandServiceCreationFunction.java
+	     org/eclipse/e4/core/commands/internal/CommandServiceImpl.java
+	     org/eclipse/e4/core/commands/internal/HandlerServiceCreationFunction.java
+	     org/eclipse/e4/core/commands/internal/HandlerServiceHandler.java
+	     org/eclipse/e4/core/commands/internal/HandlerServiceImpl.java
+	     org/eclipse/e4/core/commands/internal/ICommandHelpService.java
+	     org/eclipse/e4/core/commands/internal/SetEnabled.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.core.commands.jar" path="org.eclipse.e4.core.commands/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.annotation"/>

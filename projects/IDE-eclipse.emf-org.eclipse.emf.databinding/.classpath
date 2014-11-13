@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     about.mappings
+	     about.properties
+	     META-INF/MANIFEST.MF
+	     modeling32.png
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|about.mappings|about.properties|modeling32.png|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.emf.databinding.jar" path="org.eclipse.emf.databinding"/>
+	<!-- org/eclipse/emf/databinding/DataBindingPlugin.java
+	     org/eclipse/emf/databinding/EMFDataBindingContext.java
+	     org/eclipse/emf/databinding/EMFObservables.java
+	     org/eclipse/emf/databinding/EMFProperties.java
+	     org/eclipse/emf/databinding/EMFUpdateListStrategy.java
+	     org/eclipse/emf/databinding/EMFUpdateValueStrategy.java
+	     org/eclipse/emf/databinding/EObjectObservableList.java
+	     org/eclipse/emf/databinding/EObjectObservableMap.java
+	     org/eclipse/emf/databinding/EObjectObservableValue.java
+	     org/eclipse/emf/databinding/FeaturePath.java
+	     org/eclipse/emf/databinding/IEMFListProperty.java
+	     org/eclipse/emf/databinding/IEMFMapProperty.java
+	     org/eclipse/emf/databinding/IEMFObservable.java
+	     org/eclipse/emf/databinding/IEMFProperty.java
+	     org/eclipse/emf/databinding/IEMFSetProperty.java
+	     org/eclipse/emf/databinding/IEMFValueProperty.java
+	     org/eclipse/emf/databinding/internal/DelegatingSet.java
+	     org/eclipse/emf/databinding/internal/EMFListProperty.java
+	     org/eclipse/emf/databinding/internal/EMFListPropertyDecorator.java
+	     org/eclipse/emf/databinding/internal/EMFListValueProperty.java
+	     org/eclipse/emf/databinding/internal/EMFMapProperty.java
+	     org/eclipse/emf/databinding/internal/EMFMapPropertyDecorator.java
+	     org/eclipse/emf/databinding/internal/EMFMultiListProperty.java
+	     org/eclipse/emf/databinding/internal/EMFObservableListDecorator.java
+	     org/eclipse/emf/databinding/internal/EMFObservableMapDecorator.java
+	     org/eclipse/emf/databinding/internal/EMFObservableSetDecorator.java
+	     org/eclipse/emf/databinding/internal/EMFObservableValueDecorator.java
+	     org/eclipse/emf/databinding/internal/EMFPropertyHelper.java
+	     org/eclipse/emf/databinding/internal/EMFPropertyListener.java
+	     org/eclipse/emf/databinding/internal/EMFResourceContentProperty.java
+	     org/eclipse/emf/databinding/internal/EMFSetProperty.java
+	     org/eclipse/emf/databinding/internal/EMFSetPropertyDecorator.java
+	     org/eclipse/emf/databinding/internal/EMFValueProperty.java
+	     org/eclipse/emf/databinding/internal/EMFValuePropertyDecorator.java
+	     org/eclipse/emf/databinding/internal/EWritableList.java
+	     org/eclipse/emf/databinding/internal/Util.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.emf.databinding.jar" path="org.eclipse.emf.databinding/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding.property"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Localization: plugin
+X-Compile-Target-JDK: 1.5
+Built-By: pemben
+Bundle-Version: 2.0.1.qualifier
+X-Compile-Source-JDK: 1.5
+Specification-Version: 2.0.1
+Specification-Title: Commons IO
+Build-Jdk: 1.5.0_22
+Specification-Vendor: The Apache Software Foundation
+Tool: Bnd-0.0.255
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+Bundle-DocURL: http://commons.apache.org/io/
+Implementation-Vendor-Id: org.apache
+Bundle-SymbolicName: org.apache.commons.io
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/org.apache.commons.io;tag=v201105210651
+Export-Package: org.apache.commons.io.output;version="2.0.1",org.apach
+ e.commons.io.comparator;version="2.0.1",org.apache.commons.io;version
+ ="2.0.1",org.apache.commons.io.monitor;version="2.0.1",org.apache.com
+ mons.io.input;version="2.0.1",org.apache.commons.io.filefilter;versio
+ n="2.0.1"
+Bundle-Description: Commons-IO contains utility classes, stream implem
+ entations, file filters, file comparators and endian classes.
+Bundle-Vendor: %providerName
+Bnd-LastModified: 1293076177722
+Bundle-Name: %pluginName
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Archiver-Version: Plexus Archiver
+Implementation-Title: Commons IO
+Implementation-Version: 2.0.1
+Bundle-ManifestVersion: 2

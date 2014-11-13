@@ -24,34 +24,49 @@ public class Plugin implements Comparable<Plugin> {
 	private final int version3;
 	private final String version4;
 
-	public Plugin(Path path, byte[] manifestBytes) throws IOException {
+	private Plugin(Path root, HashMap<Path, byte[]> contents, HashMap<String, String> manifest, String id,
+		String shape, String version, int version1, int version2, int version3, String version4) {
+		this.root = root;
+		this.contents = contents.toHashMap();
+		this.manifest = manifest.toHashMap();
+		this.id = id;
+		this.shape = shape;
+		this.version = version;
+		this.version1 = version1;
+		this.version2 = version2;
+		this.version3 = version3;
+		this.version4 = version4;
+	}
+	private Plugin(Path path, HashMap<Path, byte[]> contents, HashMap<String, String> manifest) {
 		this.shape = path.getFileName().toString().endsWith(".jar") ? ".jar" : "";
-		this.manifest = parseManifest(manifestBytes);
 		this.root = path;
-		this.contents = new HashMap<>();
-		this.version = manifest.get("Bundle-Version");
-		String[] split = Arrays.copyOfRange(version.split("\\.", 4), 0, 4);
+		this.contents = contents;
+		this.manifest = manifest;
+		String[] split;
+		if(manifest.containsKey("Bundle-Version")) {
+			this.version = manifest.get("Bundle-Version");
+			split = Arrays.copyOfRange(version.split("\\.", 4), 0, 4);
+		} else {
+			this.version = "0.0.0";
+			split = new String[4];
+		}
 		this.version1 = split[0] == null ? 0 : Integer.parseInt(split[0]);
 		this.version2 = split[1] == null ? 0 : Integer.parseInt(split[1]);
 		this.version3 = split[2] == null ? 0 : Integer.parseInt(split[2]);
 		this.version4 = split[3] == null ? "" : split[3];
 		this.id = parseName();
 	}
+	public Plugin(Path path, byte[] manifestBytes) throws IOException {
+		this(path, new HashMap<>(), parseManifest(manifestBytes));
+	}
 	public Plugin(Path path, HashMap<Path, byte[]> contents) throws IOException {
-		this.shape = path.getFileName().toString().endsWith(".jar") ? ".jar" : "";
-		this.manifest = readManifest(contents);
-		this.root = path;
-		this.contents = contents;
-		this.version = manifest.get("Bundle-Version");
-		String[] split = Arrays.copyOfRange(version.split("\\.", 4), 0, 4);
-		this.version1 = split[0] == null ? 0 : Integer.parseInt(split[0]);
-		this.version2 = split[1] == null ? 0 : Integer.parseInt(split[1]);
-		this.version3 = split[2] == null ? 0 : Integer.parseInt(split[2]);
-		this.version4 = split[3] == null ? "" : split[3];
-		this.id = parseName();
+		this(path, contents, readManifest(contents));
 	}
 	public String name() {
 		return id;
+	}
+	public Plugin name(String name) {
+		return new Plugin(root, contents, manifest, name, shape, version, version1, version2, version3, version4);
 	}
 	public @Override int compareTo(Plugin o) {
 		int n = id.compareTo(o.id);
@@ -108,8 +123,14 @@ public class Plugin implements Comparable<Plugin> {
 		return bundleName;
 	}
 	private String bundleName() {
-		String bundleName = manifest.get("Bundle-SymbolicName").split(";")[0].trim();
-		return bundleName;
+		if(manifest.containsKey("Bundle-SymbolicName")) {
+			return manifest.get("Bundle-SymbolicName").split(";")[0].trim();
+		}
+		String fileName = root.getFileName().toString();
+		if(shape == "") {
+			return fileName;
+		}
+		return fileName.substring(0, fileName.length() - shape.length());
 	}
 	public Map<String, String> getLocalization(Snapshot snapshot) throws IOException {
 		if(manifest.containsKey("Bundle-Localization")) {

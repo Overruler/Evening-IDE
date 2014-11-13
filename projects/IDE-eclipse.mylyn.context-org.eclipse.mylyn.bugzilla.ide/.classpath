@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/branding32/eclipse.png
+	     icons/branding32/mylyn.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/branding32/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.bugzilla.ide.jar" path="org.eclipse.mylyn.bugzilla.ide"/>
+	<!-- .placeholder -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.bugzilla.ide.jar" path="org.eclipse.mylyn.bugzilla.ide/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

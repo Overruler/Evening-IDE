@@ -18,6 +18,7 @@ import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 import javax.xml.stream.XMLStreamException;
 import utils.lists.ArrayList;
+import utils.lists.Arrays;
 import utils.lists.Files;
 import utils.lists.HashMap;
 import utils.lists.HashSet;
@@ -27,6 +28,7 @@ import utils.lists.Paths;
 import utils.lists.Set;
 import utils.streams.functions.ExDoubleConsumer;
 import utils.streams.functions.IOFunction;
+import utils.streams2.IntStream;
 import utils.streams2.Stream;
 import utils.streams2.Streams;
 
@@ -98,6 +100,9 @@ public class Snapshot {
 	}
 	public void replaceFile(Path path, String data) throws IOException {
 		replaceFileImplementation(path, data.getBytes(StandardCharsets.UTF_8));
+	}
+	public void copyFiles(String srcFolder, String dstFolder) throws IOException {
+		copyFilesImplementation(srcFolder, dstFolder);
 	}
 	public void addFolder(Path path, Instant modified) throws IOException {
 		addFileImplementation(path, null, modified);
@@ -226,6 +231,18 @@ public class Snapshot {
 		}
 		return src;
 	}
+	private void copyFilesImplementation(String srcFolder, String dstFolder) throws IOException {
+		Path dstPath = Paths.get(dstFolder);
+		removeFileImplementation(dstPath);
+		Path srcPath = Paths.get(srcFolder);
+		List<Path> files = listFilesOrFoldersImplementation(srcPath, true);
+		for(Path filePath : files) {
+			Path targetPath = dstPath.resolve(srcPath.relativize(filePath));
+			byte[] targetBytes = getFileImplementation(filePath);
+			Instant targetInstant = getInstantImplementation(filePath);
+			addFileImplementation(targetPath, targetBytes, targetInstant);
+		}
+	}
 	private void addFileImplementation(Path path, byte[] bytes, Instant when) throws IOException {
 		Path root = ROOT.resolve(path);
 		String name = path.getFileName().toString();
@@ -244,6 +261,14 @@ public class Snapshot {
 			return null;
 		}
 		return content.bytes;
+	}
+	private Instant getInstantImplementation(Path path) {
+		Path root = ROOT.resolve(path);
+		Content content = contents.get(root);
+		if(content == null) {
+			return null;
+		}
+		return content.modified;
 	}
 	private boolean containsImplementation(Path path) {
 		Path root = ROOT.resolve(path);
@@ -265,6 +290,24 @@ public class Snapshot {
 			while((entry = zip.getNextEntry()) != null) {
 				String name = entry.getName();
 				if(name.contains("..")) {
+					continue;
+				}
+				if(!IntStream.from(name).allMatch(
+					i -> i >= 'a' &&
+					i <= 'z' ||
+					i >= 'A' &&
+					i <= 'Z' ||
+					i >= '0' &&
+					i <= '9' ||
+					i == '.' ||
+					i == '/' ||
+					i == '$' ||
+					i == ' ' ||
+					i == '_' ||
+					i == '(' ||
+					i == ')' ||
+					i == '-')) {
+					System.out.println("Skipped " + Arrays.toString(name.toCharArray()));
 					continue;
 				}
 				Path path = root.resolve(name);
@@ -306,8 +349,8 @@ public class Snapshot {
 	private void removeFileImplementation(Path path) {
 		Path root = ROOT.resolve(path);
 		Content folder = contents.get(root);
-		if(folder != null && folder.bytes != null && folder.contained.notEmpty()) {
-			for(Path contentPath : folder.contained) {
+		if(folder != null && folder.contained.notEmpty()) {
+			for(Path contentPath : folder.contained.toList()) {
 				removeRecursive(contentPath);
 			}
 		}
@@ -316,7 +359,7 @@ public class Snapshot {
 	private void removeRecursive(Path root) {
 		Content folder = contents.get(root);
 		if(folder != null && folder.contained.notEmpty()) {
-			for(Path contentPath : folder.contained) {
+			for(Path contentPath : folder.contained.toList()) {
 				removeRecursive(contentPath);
 			}
 		}

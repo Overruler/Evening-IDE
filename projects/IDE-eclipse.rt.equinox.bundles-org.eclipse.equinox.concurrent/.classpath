@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.concurrent.jar" path="org.eclipse.equinox.concurrent"/>
-	<!-- org\eclipse\equinox\concurrent\future\AbstractExecutor.java
-	     org\eclipse\equinox\concurrent\future\AbstractFuture.java
-	     org\eclipse\equinox\concurrent\future\AbstractListenableFuture.java
-	     org\eclipse\equinox\concurrent\future\FutureProgressMonitor.java
-	     org\eclipse\equinox\concurrent\future\IExecutor.java
-	     org\eclipse\equinox\concurrent\future\IFuture.java
-	     org\eclipse\equinox\concurrent\future\IListenableFuture.java
-	     org\eclipse\equinox\concurrent\future\ImmediateExecutor.java
-	     org\eclipse\equinox\concurrent\future\IProgressRunnable.java
-	     org\eclipse\equinox\concurrent\future\IRunnableExecutor.java
-	     org\eclipse\equinox\concurrent\future\ISafeProgressRunner.java
-	     org\eclipse\equinox\concurrent\future\SingleOperationFuture.java
-	     org\eclipse\equinox\concurrent\future\SingleOperationListenableFuture.java
-	     org\eclipse\equinox\concurrent\future\ThreadsExecutor.java
-	     org\eclipse\equinox\concurrent\future\TimeoutException.java -->
+	<!-- org/eclipse/equinox/concurrent/future/AbstractExecutor.java
+	     org/eclipse/equinox/concurrent/future/AbstractFuture.java
+	     org/eclipse/equinox/concurrent/future/AbstractListenableFuture.java
+	     org/eclipse/equinox/concurrent/future/FutureProgressMonitor.java
+	     org/eclipse/equinox/concurrent/future/IExecutor.java
+	     org/eclipse/equinox/concurrent/future/IFuture.java
+	     org/eclipse/equinox/concurrent/future/IListenableFuture.java
+	     org/eclipse/equinox/concurrent/future/ImmediateExecutor.java
+	     org/eclipse/equinox/concurrent/future/IProgressRunnable.java
+	     org/eclipse/equinox/concurrent/future/IRunnableExecutor.java
+	     org/eclipse/equinox/concurrent/future/ISafeProgressRunner.java
+	     org/eclipse/equinox/concurrent/future/SingleOperationFuture.java
+	     org/eclipse/equinox/concurrent/future/SingleOperationListenableFuture.java
+	     org/eclipse/equinox/concurrent/future/ThreadsExecutor.java
+	     org/eclipse/equinox/concurrent/future/TimeoutException.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.concurrent.jar" path="org.eclipse.equinox.concurrent/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>

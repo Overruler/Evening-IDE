@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="resources/|src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jgit.ui.jar" path="org.eclipse.jgit.ui"/>
+	<!-- org/eclipse/jgit/awtui/UIText.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jgit.ui.jar" path="org.eclipse.jgit.ui/resources"/>
+	<!-- org/eclipse/jgit/awtui/AwtAuthenticator.java
+	     org/eclipse/jgit/awtui/AwtCredentialsProvider.java
+	     org/eclipse/jgit/awtui/CommitGraphPane.java
+	     org/eclipse/jgit/awtui/UIText.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jgit.ui.jar" path="org.eclipse.jgit.ui/src"/>
+	<!-- META-INF/maven/org.eclipse.jgit/org.eclipse.jgit.ui/pom.properties
+	     META-INF/maven/org.eclipse.jgit/org.eclipse.jgit.ui/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jgit.ui.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

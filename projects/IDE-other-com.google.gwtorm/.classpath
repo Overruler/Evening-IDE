@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- com/google/gwtorm/client/Access.java
+	     com/google/gwtorm/client/AtomicUpdate.java
+	     com/google/gwtorm/client/Column.java
+	     com/google/gwtorm/client/CompoundKey.java
+	     com/google/gwtorm/client/impl/AbstractAccess.java
+	     com/google/gwtorm/client/impl/AbstractTransaction.java
+	     com/google/gwtorm/client/impl/ListResultSet.java
+	     com/google/gwtorm/client/IntKey.java
+	     com/google/gwtorm/client/Key.java
+	     com/google/gwtorm/client/KeyUtil.java
+	     com/google/gwtorm/client/LongKey.java
+	     com/google/gwtorm/client/OrmConcurrencyException.java
+	     com/google/gwtorm/client/OrmDuplicateKeyException.java
+	     com/google/gwtorm/client/OrmException.java
+	     com/google/gwtorm/client/OrmRunnable.java
+	     com/google/gwtorm/client/PrimaryKey.java
+	     com/google/gwtorm/client/Query.java
+	     com/google/gwtorm/client/Relation.java
+	     com/google/gwtorm/client/ResultSet.java
+	     com/google/gwtorm/client/RowVersion.java
+	     com/google/gwtorm/client/Schema.java
+	     com/google/gwtorm/client/SchemaFactory.java
+	     com/google/gwtorm/client/Sequence.java
+	     com/google/gwtorm/client/ShortKey.java
+	     com/google/gwtorm/client/StatementExecutor.java
+	     com/google/gwtorm/client/StringKey.java
+	     com/google/gwtorm/client/Transaction.java
+	     com/google/gwtorm/jdbc/AbstractSchemaFactory.java
+	     com/google/gwtorm/jdbc/Database.java
+	     com/google/gwtorm/jdbc/gen/AccessGen.java
+	     com/google/gwtorm/jdbc/gen/CodeGenSupport.java
+	     com/google/gwtorm/jdbc/gen/GeneratedClassLoader.java
+	     com/google/gwtorm/jdbc/gen/SchemaFactoryGen.java
+	     com/google/gwtorm/jdbc/gen/SchemaGen.java
+	     com/google/gwtorm/jdbc/JdbcAccess.java
+	     com/google/gwtorm/jdbc/JdbcExecutor.java
+	     com/google/gwtorm/jdbc/JdbcSchema.java
+	     com/google/gwtorm/protobuf/CodecFactory.java
+	     com/google/gwtorm/protobuf/ProtobufCodec.java
+	     com/google/gwtorm/schema/ColumnModel.java
+	     com/google/gwtorm/schema/java/JavaColumnModel.java
+	     com/google/gwtorm/schema/java/JavaSchemaModel.java
+	     com/google/gwtorm/schema/KeyModel.java
+	     com/google/gwtorm/schema/QueryLexer.java
+	     com/google/gwtorm/schema/QueryModel.java
+	     com/google/gwtorm/schema/QueryParseException.java
+	     com/google/gwtorm/schema/QueryParser.java
+	     com/google/gwtorm/schema/RelationModel.java
+	     com/google/gwtorm/schema/SchemaModel.java
+	     com/google/gwtorm/schema/SequenceModel.java
+	     com/google/gwtorm/schema/sql/DialectH2.java
+	     com/google/gwtorm/schema/sql/DialectMySQL.java
+	     com/google/gwtorm/schema/sql/DialectPostgreSQL.java
+	     com/google/gwtorm/schema/sql/SqlBooleanTypeInfo.java
+	     com/google/gwtorm/schema/sql/SqlByteArrayTypeInfo.java
+	     com/google/gwtorm/schema/sql/SqlCharTypeInfo.java
+	     com/google/gwtorm/schema/sql/SqlDateTypeInfo.java
+	     com/google/gwtorm/schema/sql/SqlDialect.java
+	     com/google/gwtorm/schema/sql/SqlIntTypeInfo.java
+	     com/google/gwtorm/schema/sql/SqlLongTypeInfo.java
+	     com/google/gwtorm/schema/sql/SqlShortTypeInfo.java
+	     com/google/gwtorm/schema/sql/SqlStringTypeInfo.java
+	     com/google/gwtorm/schema/sql/SqlTimestampTypeInfo.java
+	     com/google/gwtorm/schema/sql/SqlTypeInfo.java
+	     com/google/gwtorm/schema/Util.java
+	     com/google/gwtorm/server/StandardKeyEncoder.java -->
+	<classpathentry excluding="com/google/gwtorm/jdbc/SimpleDataSource.java|about.html|about_files/LICENSE.txt|META-INF/MANIFEST.MF|plugin.properties" including="com/google/gwtorm/client/*|com/google/gwtorm/client/impl/*|com/google/gwtorm/jdbc/*|com/google/gwtorm/jdbc/gen/*|com/google/gwtorm/protobuf/*|com/google/gwtorm/schema/*|com/google/gwtorm/schema/java/*|com/google/gwtorm/schema/sql/*|com/google/gwtorm/server/*" kind="src" output="bin/1/plugins/com.google.gwtorm.jar" path="com.google.gwtorm"/>
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gwtorm.jar" path="res"/>
+	<!-- com/google/gwtorm/jdbc/SimpleDataSource.java -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gwtorm.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.protobuf"/>
+	<classpathentry kind="src" path="/IDE-other-org.antlr.runtime"/>
+	<classpathentry kind="src" path="/IDE-other-org.objectweb.asm"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

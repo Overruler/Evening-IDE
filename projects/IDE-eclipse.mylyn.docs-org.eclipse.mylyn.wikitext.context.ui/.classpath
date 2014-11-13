@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/elcl16/interest-decrease.gif
+	     icons/elcl16/interest-folding.gif
+	     icons/elcl16/interest-increase.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/elcl16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.context.ui.jar" path="org.eclipse.mylyn.wikitext.context.ui"/>
+	<!-- org/eclipse/mylyn/internal/wikitext/context/ui/actions/ToggleActiveFoldingEditorActionDelegate.java
+	     org/eclipse/mylyn/internal/wikitext/context/ui/ActiveFoldingEditorTracker.java
+	     org/eclipse/mylyn/internal/wikitext/context/ui/WikiTextContextStructureBridge.java
+	     org/eclipse/mylyn/internal/wikitext/context/ui/WikiTextContextUiBridge.java
+	     org/eclipse/mylyn/internal/wikitext/context/ui/WikiTextContextUiPlugin.java
+	     org/eclipse/mylyn/internal/wikitext/context/ui/WikiTextContextUiStartup.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.context.ui.jar" path="org.eclipse.mylyn.wikitext.context.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,16 +1,30 @@
 Manifest-Version: 1.0
-Bundle-Description: glassfish javax.servlet.3.1.0.b33
-Bundle-Vendor: %bundleProvider
+Bundle-DocURL: https://glassfish.dev.java.net
+Implementation-Vendor: GlassFish Community
+Provide-Capability: osgi.contract; osgi.contract=JavaServlet;uses:="javax.servlet,
+ javax.servlet.annotation,
+ javax.servlet.descriptor,
+ javax.servlet.http";version:List<Version>="2.5,3.0,3.1"
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Bundle-Name: %bundleName
+Implementation-Vendor-Id: org.glassfish
 Bundle-SymbolicName: javax.servlet
-Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
- ls:org.eclipse.orbit/javax.servlet;tag=v201112011016
-Export-Package: javax.servlet;version="2.6.0";uses:="javax.servlet.ann
- otation,javax.servlet.descriptor",javax.servlet.annotation;version="2
- .6.0";uses:="javax.servlet",javax.servlet.descriptor;version="2.6.0",
- javax.servlet.http;version="2.6.0";uses:="javax.servlet",javax.servle
- t.resources;version="2.6.0"
-Bundle-Version: 3.0.0.v201112011016
+Export-Package: javax.servlet;uses:="javax.servlet.descriptor,
+ javax.servlet.annotation";version="3.1.0",
+ javax.servlet.descriptor;version="3.1.0",
+ javax.servlet.annotation;uses:="javax.servlet";version="3.1.0",
+ javax.servlet.http;uses:="javax.servlet";version="3.1.0",
+ javax.servlet.resources;version="3.1.0"
+Bundle-Version: 3.1.0.qualifier
+Specification-Version: 3.1
+Bundle-Description: %bundleDescription
+Specification-Vendor: Oracle Corporation
+Bundle-Vendor: %bundleProvider
+Bundle-Name: %bundleName
+Extension-Name: javax.servlet
+Implementation-Version: 3.1.0
+Import-Package: javax.servlet;version="3.1.0",
+ javax.servlet.annotation;version="3.1.0",
+ javax.servlet.descriptor;version="3.1.0",
+ javax.servlet.http;version="3.1.0"
 Bundle-ManifestVersion: 2

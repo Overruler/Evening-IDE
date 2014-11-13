@@ -2,41 +2,41 @@
 <classpath>
 	<!-- .options
 	     about.html
-	     META-INF\MANIFEST.MF
-	     OSGI-INF\bundleGroup.xml
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/bundleGroup.xml
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.update.configurator.jar" path="org.eclipse.update.configurator"/>
-	<!-- org\eclipse\update\configurator\ConfiguratorUtils.java
-	     org\eclipse\update\configurator\IPlatformConfiguration.java
-	     org\eclipse\update\configurator\IPlatformConfigurationFactory.java
-	     org\eclipse\update\internal\configurator\branding\AboutInfo.java
-	     org\eclipse\update\internal\configurator\branding\IBundleGroupConstants.java
-	     org\eclipse\update\internal\configurator\branding\IniFileReader.java
-	     org\eclipse\update\internal\configurator\branding\IProductConstants.java
-	     org\eclipse\update\internal\configurator\BundleGroupComponent.java
-	     org\eclipse\update\internal\configurator\BundleManifest.java
-	     org\eclipse\update\internal\configurator\Configuration.java
-	     org\eclipse\update\internal\configurator\ConfigurationActivator.java
-	     org\eclipse\update\internal\configurator\ConfigurationParser.java
-	     org\eclipse\update\internal\configurator\FeatureEntry.java
-	     org\eclipse\update\internal\configurator\FeatureParser.java
-	     org\eclipse\update\internal\configurator\FullFeatureParser.java
-	     org\eclipse\update\internal\configurator\IConfigurationConstants.java
-	     org\eclipse\update\internal\configurator\Locker.java
-	     org\eclipse\update\internal\configurator\Locker_JavaIo.java
-	     org\eclipse\update\internal\configurator\Locker_JavaNio.java
-	     org\eclipse\update\internal\configurator\Messages.java
-	     org\eclipse\update\internal\configurator\messages.properties
-	     org\eclipse\update\internal\configurator\PlatformConfiguration.java
-	     org\eclipse\update\internal\configurator\PlatformConfigurationFactory.java
-	     org\eclipse\update\internal\configurator\PluginEntry.java
-	     org\eclipse\update\internal\configurator\PluginParser.java
-	     org\eclipse\update\internal\configurator\SiteEntry.java
-	     org\eclipse\update\internal\configurator\SitePolicy.java
-	     org\eclipse\update\internal\configurator\UpdateURLDecoder.java
-	     org\eclipse\update\internal\configurator\Utils.java
-	     org\eclipse\update\internal\configurator\VersionedIdentifier.java
-	     org\eclipse\update\internal\configurator\XMLPrintHandler.java -->
+	<!-- org/eclipse/update/configurator/ConfiguratorUtils.java
+	     org/eclipse/update/configurator/IPlatformConfiguration.java
+	     org/eclipse/update/configurator/IPlatformConfigurationFactory.java
+	     org/eclipse/update/internal/configurator/branding/AboutInfo.java
+	     org/eclipse/update/internal/configurator/branding/IBundleGroupConstants.java
+	     org/eclipse/update/internal/configurator/branding/IniFileReader.java
+	     org/eclipse/update/internal/configurator/branding/IProductConstants.java
+	     org/eclipse/update/internal/configurator/BundleGroupComponent.java
+	     org/eclipse/update/internal/configurator/BundleManifest.java
+	     org/eclipse/update/internal/configurator/Configuration.java
+	     org/eclipse/update/internal/configurator/ConfigurationActivator.java
+	     org/eclipse/update/internal/configurator/ConfigurationParser.java
+	     org/eclipse/update/internal/configurator/FeatureEntry.java
+	     org/eclipse/update/internal/configurator/FeatureParser.java
+	     org/eclipse/update/internal/configurator/FullFeatureParser.java
+	     org/eclipse/update/internal/configurator/IConfigurationConstants.java
+	     org/eclipse/update/internal/configurator/Locker.java
+	     org/eclipse/update/internal/configurator/Locker_JavaIo.java
+	     org/eclipse/update/internal/configurator/Locker_JavaNio.java
+	     org/eclipse/update/internal/configurator/Messages.java
+	     org/eclipse/update/internal/configurator/messages.properties
+	     org/eclipse/update/internal/configurator/PlatformConfiguration.java
+	     org/eclipse/update/internal/configurator/PlatformConfigurationFactory.java
+	     org/eclipse/update/internal/configurator/PluginEntry.java
+	     org/eclipse/update/internal/configurator/PluginParser.java
+	     org/eclipse/update/internal/configurator/SiteEntry.java
+	     org/eclipse/update/internal/configurator/SitePolicy.java
+	     org/eclipse/update/internal/configurator/UpdateURLDecoder.java
+	     org/eclipse/update/internal/configurator/Utils.java
+	     org/eclipse/update/internal/configurator/VersionedIdentifier.java
+	     org/eclipse/update/internal/configurator/XMLPrintHandler.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.update.configurator.jar" path="org.eclipse.update.configurator/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.xml"/>

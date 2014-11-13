@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|src-non_workbench/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.common.frameworks.jar" path="org.eclipse.wst.common.frameworks"/>
+	<!-- org/eclipse/wst/common/frameworks/datamodel/AbstractDataModelOperation.java
+	     org/eclipse/wst/common/frameworks/datamodel/AbstractDataModelProvider.java
+	     org/eclipse/wst/common/frameworks/datamodel/DataModelEvent.java
+	     org/eclipse/wst/common/frameworks/datamodel/DataModelFactory.java
+	     org/eclipse/wst/common/frameworks/datamodel/DataModelPropertyDescriptor.java
+	     org/eclipse/wst/common/frameworks/datamodel/IDataModel.java
+	     org/eclipse/wst/common/frameworks/datamodel/IDataModelListener.java
+	     org/eclipse/wst/common/frameworks/datamodel/IDataModelOperation.java
+	     org/eclipse/wst/common/frameworks/datamodel/IDataModelProperties.java
+	     org/eclipse/wst/common/frameworks/datamodel/IDataModelProvider.java
+	     org/eclipse/wst/common/frameworks/datamodel/package.xml
+	     org/eclipse/wst/common/frameworks/datamodel/properties/package.xml
+	     org/eclipse/wst/common/frameworks/internal/AbstractRegistryDescriptor.java
+	     org/eclipse/wst/common/frameworks/internal/activities/WTPActivityBridge.java
+	     org/eclipse/wst/common/frameworks/internal/activities/WTPActivityBridgeHelper.java
+	     org/eclipse/wst/common/frameworks/internal/AdaptabilityUtility.java
+	     org/eclipse/wst/common/frameworks/internal/ConfigurationElementWrapper.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/DataModelExtensionReader.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/DataModelImpl.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/DataModelPausibleOperationEventImpl.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/DataModelPausibleOperationImpl.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/IDataModelPausibleOperation.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/IDataModelPausibleOperationEvent.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/IDataModelPausibleOperationListener.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/IWorkspaceRunnableWithStatus.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/WrappedOperation.java
+	     org/eclipse/wst/common/frameworks/internal/DoNotUseMeThisWillBeDeletedPost15.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/AbstractIdentifiable.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/AscendingGroupComparator.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/DataModelEnablementFactory.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/DescendingGroupComparator.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/EnablementIdentifier.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/EnablementIdentifierEvent.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/EnablementManager.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/FunctionGroup.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/FunctionGroupPatternBinding.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/FunctionGroupRegistry.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/Identifiable.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/IdentifiableComparator.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/IEnablementIdentifier.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/IEnablementIdentifierListener.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/IEnablementManager.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/IGroupInitializer.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/Util.java
+	     org/eclipse/wst/common/frameworks/internal/ExceptionHelper.java
+	     org/eclipse/wst/common/frameworks/internal/HashUtil.java
+	     org/eclipse/wst/common/frameworks/internal/ISaveHandler.java
+	     org/eclipse/wst/common/frameworks/internal/ISimpleValidateEditContext.java
+	     org/eclipse/wst/common/frameworks/internal/IWrappedException.java
+	     org/eclipse/wst/common/frameworks/internal/Messages.java
+	     org/eclipse/wst/common/frameworks/internal/operations/ComposedExtendedOperationHolder.java
+	     org/eclipse/wst/common/frameworks/internal/operations/IHeadlessRunnableWithProgress.java
+	     org/eclipse/wst/common/frameworks/internal/operations/IOperationHandler.java
+	     org/eclipse/wst/common/frameworks/internal/operations/IProjectCreationPropertiesNew.java
+	     org/eclipse/wst/common/frameworks/internal/operations/OperationExtension.java
+	     org/eclipse/wst/common/frameworks/internal/operations/OperationExtensionReader.java
+	     org/eclipse/wst/common/frameworks/internal/operations/OperationStatus.java
+	     org/eclipse/wst/common/frameworks/internal/operations/package.html
+	     org/eclipse/wst/common/frameworks/internal/operations/package.xml
+	     org/eclipse/wst/common/frameworks/internal/operations/ProjectCreationDataModelProviderNew.java
+	     org/eclipse/wst/common/frameworks/internal/operations/ProjectCreationOperationNew.java
+	     org/eclipse/wst/common/frameworks/internal/plugin/WTPCommonMessages.java
+	     org/eclipse/wst/common/frameworks/internal/plugin/WTPCommonPlugin.java
+	     org/eclipse/wst/common/frameworks/internal/SaveFailedException.java
+	     org/eclipse/wst/common/frameworks/internal/SaveHandlerHeadless.java
+	     org/eclipse/wst/common/frameworks/internal/SaveHandlerRegister.java
+	     org/eclipse/wst/common/frameworks/internal/SimpleValidateEdit.java
+	     org/eclipse/wst/common/frameworks/internal/SimpleValidateEditContextHeadless.java
+	     org/eclipse/wst/common/frameworks/internal/WrappedException.java
+	     org/eclipse/wst/common/frameworks/internal/WrappedRuntimeException.java
+	     org/eclipse/wst/common/frameworks/internal/WTPPlugin.java
+	     org/eclipse/wst/common/frameworks/internal/WTPProjectUtilities.java
+	     org/eclipse/wst/common/frameworks/internal/WTPResourceHandler.java
+	     wtp_common.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.frameworks.jar" path="org.eclipse.wst.common.frameworks/src"/>
+	<!-- org/eclipse/wst/common/frameworks/internal/enablement/nonui/IWFTWrappedException.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/nonui/WFTWrappedException.java
+	     org/eclipse/wst/common/frameworks/internal/enablement/nonui/WorkbenchUtil.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.frameworks.jar" path="org.eclipse.wst.common.frameworks/src-non_workbench"/>
+	<!-- META-INF/maven/org.eclipse.webtools.common/org.eclipse.wst.common.frameworks/pom.properties
+	     META-INF/maven/org.eclipse.webtools.common/org.eclipse.wst.common.frameworks/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.frameworks.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.commands"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.core"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.environment"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

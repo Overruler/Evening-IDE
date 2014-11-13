@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     lifecycle-mapping-metadata.xml
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry including="META-INF/*|about.html|lifecycle-mapping-metadata.xml|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.m2e.lifecyclemapping.defaults.jar" path="org.eclipse.m2e.lifecyclemapping.defaults"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.lifecyclemapping.defaults/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.lifecyclemapping.defaults/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.lifecyclemapping.defaults.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.jdt"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

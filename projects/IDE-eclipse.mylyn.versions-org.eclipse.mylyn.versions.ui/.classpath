@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.versions.ui.jar" path="org.eclipse.mylyn.versions.ui"/>
+	<!-- org/eclipse/mylyn/versions/ui/ScmUi.java
+	     org/eclipse/mylyn/versions/ui/spi/ScmConnectorUi.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.versions.ui.jar" path="org.eclipse.mylyn.versions.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.versions.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.notifications.feed.jar" path="org.eclipse.mylyn.commons.notifications.feed"/>
+	<!-- org/eclipse/mylyn/commons/notifications/feed/IServiceMessageListener.java
+	     org/eclipse/mylyn/commons/notifications/feed/ServiceMessageEvent.java
+	     org/eclipse/mylyn/commons/notifications/feed/ServiceMessageManager.java
+	     org/eclipse/mylyn/internal/commons/notifications/feed/FeedEntry.java
+	     org/eclipse/mylyn/internal/commons/notifications/feed/FeedReader.java
+	     org/eclipse/mylyn/internal/commons/notifications/feed/INotificationsFeed.java
+	     org/eclipse/mylyn/internal/commons/notifications/feed/RSS.java
+	     org/eclipse/mylyn/internal/commons/notifications/feed/RSSItem.java
+	     org/eclipse/mylyn/internal/commons/notifications/feed/ServiceMessage.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.notifications.feed.jar" path="org.eclipse.mylyn.commons.notifications.feed/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

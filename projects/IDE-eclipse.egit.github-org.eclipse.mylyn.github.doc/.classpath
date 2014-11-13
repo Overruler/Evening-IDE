@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     help/book.css
+	     help/EGit/GitHub/User_Guide/images/GitHubMylynGistEditor.png
+	     help/EGit/GitHub/User_Guide/images/GitHubMylynIssueEditor.png
+	     help/EGit/GitHub/User_Guide/images/GitHubMylynIssueQueryPage.png
+	     help/EGit/GitHub/User_Guide/Updating-This-Document.html
+	     help/EGit/GitHub/User_Guide/User-Guide.html
+	     help/images/home.gif
+	     help/images/next.gif
+	     help/images/prev.gif
+	     help/images/topiclabel/git48.png
+	     help/toc.xml
+	     images/home.gif
+	     images/next.gif
+	     images/prev.gif
+	     images/topiclabel/git48.png
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|help/*|help/EGit/GitHub/User_Guide/*|help/EGit/GitHub/User_Guide/images/*|help/images/*|help/images/topiclabel/*|images/*|images/topiclabel/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.github.doc.jar" path="org.eclipse.mylyn.github.doc"/>
+	<!-- META-INF/maven/org.eclipse.mylyn.github/org.eclipse.mylyn.github.doc/pom.properties
+	     META-INF/maven/org.eclipse.mylyn.github/org.eclipse.mylyn.github.doc/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.github.doc.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.mediawiki.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

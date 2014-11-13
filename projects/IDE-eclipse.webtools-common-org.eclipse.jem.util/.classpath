@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="jemutil/|jemutil-nonworkbnech/|property_files/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jem.util.jar" path="org.eclipse.jem.util"/>
+	<!-- org/eclipse/jem/internal/util/emf/workbench/EMFWorkbenchContextFactory.java
+	     org/eclipse/jem/internal/util/emf/workbench/nature/EMFNatureRegistry.java
+	     org/eclipse/jem/internal/util/emf/workbench/nls/EMFWorkbenchResourceHandler.java
+	     org/eclipse/jem/internal/util/emf/workbench/ProjectResourceSetImpl.java
+	     org/eclipse/jem/internal/util/emf/workbench/WorkspaceResourceHandler.java
+	     org/eclipse/jem/internal/util/emf/workbench/WorkspaceResourceNotifier.java
+	     org/eclipse/jem/util/CharacterUtil.java
+	     org/eclipse/jem/util/emf/workbench/EMFWorkbenchContextBase.java
+	     org/eclipse/jem/util/emf/workbench/FlexibleProjectResourceSet.java
+	     org/eclipse/jem/util/emf/workbench/IEMFContextContributor.java
+	     org/eclipse/jem/util/emf/workbench/ISynchronizerExtender.java
+	     org/eclipse/jem/util/emf/workbench/nature/EMFNature.java
+	     org/eclipse/jem/util/emf/workbench/ProjectResourceSet.java
+	     org/eclipse/jem/util/emf/workbench/ProjectUtilities.java
+	     org/eclipse/jem/util/emf/workbench/ResourceHandler.java
+	     org/eclipse/jem/util/emf/workbench/ResourceSetWorkbenchSynchronizer.java
+	     org/eclipse/jem/util/emf/workbench/WorkbenchByteArrayOutputStream.java
+	     org/eclipse/jem/util/emf/workbench/WorkbenchResourceHelperBase.java
+	     org/eclipse/jem/util/emf/workbench/WorkbenchURIConverter.java
+	     org/eclipse/jem/util/emf/workbench/WorkbenchURIConverterImpl.java
+	     org/eclipse/jem/util/logger/proxyrender/AbstractWorkBenchRenderer.java
+	     org/eclipse/jem/util/logger/proxyrender/ConsoleLogRenderer.java
+	     org/eclipse/jem/util/logger/proxyrender/DefaultPluginTraceRenderer.java
+	     org/eclipse/jem/util/logger/proxyrender/EclipseLogger.java
+	     org/eclipse/jem/util/logger/proxyrender/IMsgLogger.java
+	     org/eclipse/jem/util/NotPresentPerformanceMonitor.java
+	     org/eclipse/jem/util/PerformanceMonitorUtil.java
+	     org/eclipse/jem/util/plugin/JEMUtilPlugin.java
+	     org/eclipse/jem/util/PresentPerformanceMonitor.java
+	     org/eclipse/jem/util/RegistryReader.java
+	     org/eclipse/jem/util/TimerTests.java
+	     org/eclipse/jem/util/UIContextDetermination.java
+	     org/eclipse/jem/util/UITester.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jem.util.jar" path="org.eclipse.jem.util/jemutil"/>
+	<!-- org/eclipse/jem/util/logger/LogEntry.java
+	     org/eclipse/jem/util/logger/proxy/ILogRenderer.java
+	     org/eclipse/jem/util/logger/proxy/ILogRenderer2.java
+	     org/eclipse/jem/util/logger/proxy/JDKConsoleRenderer.java
+	     org/eclipse/jem/util/logger/proxy/Logger.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jem.util.jar" path="org.eclipse.jem.util/jemutil-nonworkbnech"/>
+	<!-- emfworkbench.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jem.util.jar" path="org.eclipse.jem.util/property_files"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.core"/>
+	<classpathentry kind="lib" path="org.eclipse.jem.util/org.eclipse.perfmsr.core.stub/perfmsr.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

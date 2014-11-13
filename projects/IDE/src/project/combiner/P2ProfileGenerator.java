@@ -81,7 +81,7 @@ class P2ProfileGenerator {
 				"    <property name='eclipse.touchpoint.launcherName' value='eclipse'/>",
 				"    <property name='org.eclipse.equinox.p2.cache.extensions' value='" + cacheExtensions + "'/>",
 				"  </properties>");
-		HashMap<Path, HashMap<String, String>> pluginToManifest = getPluginToManifest();
+		HashMap<Path, HashMap<String, String>> pluginToManifest = MainBuildIDE.getPluginToManifest();
 		HashMap<Path, Map<String, String>> pluginToProperties = getPluginToProperties();
 		HashMap<Path, Map<String, String>> pluginToP2Inf = getPluginToP2Inf();
 		Path configJrePluginPath = fromZipPath("plugins/config.a.jre.javase");
@@ -2389,6 +2389,9 @@ class P2ProfileGenerator {
 		HashMap<Path, Map<String, String>> pluginToProperties = new HashMap<>();
 		for(Path pluginPath : snapshot.listAll(Paths.get("plugins"))) {
 			Plugin plugin = snapshot.getFileAsPlugin(pluginPath);
+			if(plugin == null) {
+				continue;
+			}
 			Map<String, String> localization = plugin.getLocalization(snapshot);
 			List<Path> metaInfFiles = snapshot.listFilesRecursive(pluginPath.resolve("META-INF"));
 			Optional<Path> optional = metaInfFiles.stream().filter(p -> p.endsWith("pom.properties")).findAny();
@@ -2399,14 +2402,6 @@ class P2ProfileGenerator {
 			pluginToProperties.put(fromZipPath(pluginPath), localization);
 		}
 		return pluginToProperties;
-	}
-	private static HashMap<Path, HashMap<String, String>> getPluginToManifest() throws IOException {
-		HashMap<Path, HashMap<String, String>> pluginToManifest = new HashMap<>();
-		for(Path pluginPath : snapshot.listAll(Paths.get("plugins"))) {
-			Plugin plugin = snapshot.getFileAsPlugin(pluginPath);
-			pluginToManifest.put(fromZipPath(pluginPath), plugin.manifest);
-		}
-		return pluginToManifest;
 	}
 	private static Path fromZipPath(String path) {
 		return MainBuildIDE.fromZipPath(path);

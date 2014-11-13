@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- icons/cssspy.gif
+	     icons/css_scratchpad.gif
+	     META-INF/MANIFEST.MF
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|icons/*|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.tools.css.spy.jar" path="org.eclipse.e4.tools.css.spy"/>
+	<!-- org/eclipse/e4/tools/css/spy/Activator.java
+	     org/eclipse/e4/tools/css/spy/CSSPropertiesContentProvider.java
+	     org/eclipse/e4/tools/css/spy/CSSPropertyProvider.java
+	     org/eclipse/e4/tools/css/spy/CSSScratchPadPart.java
+	     org/eclipse/e4/tools/css/spy/CssSpyPart.java
+	     org/eclipse/e4/tools/css/spy/TextPopupDialog.java
+	     org/eclipse/e4/tools/css/spy/WidgetTreeProvider.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.tools.css.spy.jar" path="org.eclipse.e4.tools.css.spy/src"/>
+	<!-- META-INF/maven/org.eclipse.e4/org.eclipse.e4.tools.css.spy/pom.properties
+	     META-INF/maven/org.eclipse.e4/org.eclipse.e4.tools.css.spy/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.tools.css.spy.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.inject"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.contexts"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.di"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.di.extensions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.e4.tools-org.eclipse.e4.tools.spy"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.bindings"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.swt.theme"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.di"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.model.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.widgets"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.swt-org.eclipse.swt"/>
+	<classpathentry kind="src" path="/IDE-other-org.w3c.css.sac"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

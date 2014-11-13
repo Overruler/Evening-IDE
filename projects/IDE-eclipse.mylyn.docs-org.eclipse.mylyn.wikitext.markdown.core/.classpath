@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.markdown.core.jar" path="org.eclipse.mylyn.wikitext.markdown.core"/>
+	<!-- org/eclipse/mylyn/internal/wikitext/markdown/core/block/CodeBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/HeadingBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/HorizontalRuleBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/InlineHtmlBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/LinkDefinitionBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/ListBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/NestableBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/ParagraphBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/QuoteBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/UnderlinedHeadingBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/LinkDefinition.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/LinkDefinitionParser.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/LinkDefinitionUsageTracker.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/MarkdownContentState.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/MarkdownDocumentBuilder.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/phrase/BackslashEscapePhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/phrase/SimplePhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/token/AutomaticLinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/token/InlineImageReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/token/InlineLinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/token/PreserverHtmlEntityToken.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/token/ReferenceStyleImageReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/token/ReferenceStyleLinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/util/LookAheadReader.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/util/ReadAheadBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/util/ReadAheadDispatcher.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/validation/LinkDefinitionValidationRule.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/validation/MarkdownReferenceValidationRule.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/validation/messages.properties
+	     org/eclipse/mylyn/wikitext/markdown/core/MarkdownLanguage.java
+	     services/org.eclipse.mylyn.wikitext.core.parser.markup.MarkupLanguage -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.markdown.core.jar" path="org.eclipse.mylyn.wikitext.markdown.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- icons/sample.gif
+	     META-INF/MANIFEST.MF
+	     plugin.xml -->
+	<classpathentry excluding="src/main/java/" including="META-INF/*|icons/*|plugin.xml" kind="src" output="bin/1/plugins/org.nodeclipse.pluginslist.core.jar" path="org.nodeclipse.pluginslist.core"/>
+	<!-- org/nodeclipse/pluginslist/core/Activator.java
+	     org/nodeclipse/pluginslist/core/PluginsListAction.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.nodeclipse.pluginslist.core.jar" path="org.nodeclipse.pluginslist.core/src/main/java"/>
+	<!-- META-INF/maven/org.nodeclipse.pluginslist/org.nodeclipse.pluginslist.core/pom.properties
+	     META-INF/maven/org.nodeclipse.pluginslist/org.nodeclipse.pluginslist.core/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.nodeclipse.pluginslist.core.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/obj16/add.png
+	     icons/obj16/checkall.gif
+	     icons/obj16/gist_private.png
+	     icons/obj16/gist_public.png
+	     icons/obj16/github.png
+	     icons/obj16/github_8x8.png
+	     icons/obj16/issue_label.png
+	     icons/obj16/org.png
+	     icons/obj16/uncheckall.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/obj16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.github.ui.jar" path="org.eclipse.mylyn.github.ui"/>
+	<!-- org/eclipse/mylyn/internal/github/ui/AvatarLabel.java
+	     org/eclipse/mylyn/internal/github/ui/AvatarStore.java
+	     org/eclipse/mylyn/internal/github/ui/CredentialsWizardPage.java
+	     org/eclipse/mylyn/internal/github/ui/gist/CloneGistHandler.java
+	     org/eclipse/mylyn/internal/github/ui/gist/CreateGistHandler.java
+	     org/eclipse/mylyn/internal/github/ui/gist/CreateGistJob.java
+	     org/eclipse/mylyn/internal/github/ui/gist/GistAttachmentPage.java
+	     org/eclipse/mylyn/internal/github/ui/gist/GistAttachmentPart.java
+	     org/eclipse/mylyn/internal/github/ui/gist/GistAttachmentSorter.java
+	     org/eclipse/mylyn/internal/github/ui/gist/GistConnectorSelectionDialog.java
+	     org/eclipse/mylyn/internal/github/ui/gist/GistConnectorUi.java
+	     org/eclipse/mylyn/internal/github/ui/gist/GistNotificationPopup.java
+	     org/eclipse/mylyn/internal/github/ui/gist/GistRepositoryQueryPage.java
+	     org/eclipse/mylyn/internal/github/ui/gist/GistRepositorySettingsPage.java
+	     org/eclipse/mylyn/internal/github/ui/gist/GistTaskEditorPage.java
+	     org/eclipse/mylyn/internal/github/ui/gist/GistTaskEditorPageFactory.java
+	     org/eclipse/mylyn/internal/github/ui/gist/Messages.java
+	     org/eclipse/mylyn/internal/github/ui/gist/messages.properties
+	     org/eclipse/mylyn/internal/github/ui/GitHubImages.java
+	     org/eclipse/mylyn/internal/github/ui/GitHubRepositoryQueryPage.java
+	     org/eclipse/mylyn/internal/github/ui/GitHubUi.java
+	     org/eclipse/mylyn/internal/github/ui/HttpRepositorySettingsPage.java
+	     org/eclipse/mylyn/internal/github/ui/issue/IssueAttributePart.java
+	     org/eclipse/mylyn/internal/github/ui/issue/IssueConnectorUi.java
+	     org/eclipse/mylyn/internal/github/ui/issue/IssueLabelAttributeEditor.java
+	     org/eclipse/mylyn/internal/github/ui/issue/IssueRepositoryQueryPage.java
+	     org/eclipse/mylyn/internal/github/ui/issue/IssueRepositorySettingsPage.java
+	     org/eclipse/mylyn/internal/github/ui/issue/IssueSummaryPart.java
+	     org/eclipse/mylyn/internal/github/ui/issue/IssueTaskEditorPage.java
+	     org/eclipse/mylyn/internal/github/ui/issue/IssueTaskEditorPageFactory.java
+	     org/eclipse/mylyn/internal/github/ui/issue/Messages.java
+	     org/eclipse/mylyn/internal/github/ui/issue/messages.properties
+	     org/eclipse/mylyn/internal/github/ui/Messages.java
+	     org/eclipse/mylyn/internal/github/ui/messages.properties
+	     org/eclipse/mylyn/internal/github/ui/pr/CheckoutPullRequestHandler.java
+	     org/eclipse/mylyn/internal/github/ui/pr/CommitAttributePart.java
+	     org/eclipse/mylyn/internal/github/ui/pr/FetchPullRequestHandler.java
+	     org/eclipse/mylyn/internal/github/ui/pr/MergePullRequestHandler.java
+	     org/eclipse/mylyn/internal/github/ui/pr/Messages.java
+	     org/eclipse/mylyn/internal/github/ui/pr/messages.properties
+	     org/eclipse/mylyn/internal/github/ui/pr/PullRequestAdapter.java
+	     org/eclipse/mylyn/internal/github/ui/pr/PullRequestCommitAdapter.java
+	     org/eclipse/mylyn/internal/github/ui/pr/PullRequestConnectorUi.java
+	     org/eclipse/mylyn/internal/github/ui/pr/PullRequestContextSynchronizer.java
+	     org/eclipse/mylyn/internal/github/ui/pr/PullRequestRepositoryQueryPage.java
+	     org/eclipse/mylyn/internal/github/ui/pr/PullRequestRepositorySettingsPage.java
+	     org/eclipse/mylyn/internal/github/ui/pr/PullRequestTaskEditorPage.java
+	     org/eclipse/mylyn/internal/github/ui/pr/PullRequestTaskEditorPageFactory.java
+	     org/eclipse/mylyn/internal/github/ui/pr/RebasePullRequestHandler.java
+	     org/eclipse/mylyn/internal/github/ui/RepositoryImportWizard.java
+	     org/eclipse/mylyn/internal/github/ui/RepositorySearchWizardPage.java
+	     org/eclipse/mylyn/internal/github/ui/RepositorySelectionWizardPage.java
+	     org/eclipse/mylyn/internal/github/ui/TaskDataHandler.java
+	     org/eclipse/mylyn/internal/github/ui/TaskRepositoryImportWizard.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.github.ui.jar" path="org.eclipse.mylyn.github.ui/src"/>
+	<!-- META-INF/maven/org.eclipse.mylyn.github/org.eclipse.mylyn.github.ui/pom.properties
+	     META-INF/maven/org.eclipse.mylyn.github/org.eclipse.mylyn.github.ui/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.github.ui.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.egit-org.eclipse.egit.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.egit.github-org.eclipse.egit.github.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.egit-org.eclipse.egit.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.egit.github-org.eclipse.mylyn.github.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.resources.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     lifecycle-mapping-metadata.xml
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/classifierClasspathProviders.exsd -->
+	<classpathentry excluding="src/|.*/" including="META-INF/*|about.html|lifecycle-mapping-metadata.xml|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.m2e.jdt.jar" path="org.eclipse.m2e.jdt"/>
+	<!-- org/eclipse/m2e/jdt/AbstractClassifierClasspathProvider.java
+	     org/eclipse/m2e/jdt/AbstractJavaProjectConfigurator.java
+	     org/eclipse/m2e/jdt/AbstractSourcesGenerationProjectConfigurator.java
+	     org/eclipse/m2e/jdt/IClassifierClasspathProvider.java
+	     org/eclipse/m2e/jdt/IClasspathDescriptor.java
+	     org/eclipse/m2e/jdt/IClasspathEntryDescriptor.java
+	     org/eclipse/m2e/jdt/IClasspathManager.java
+	     org/eclipse/m2e/jdt/IClasspathManagerDelegate.java
+	     org/eclipse/m2e/jdt/IJavaProjectConfigurator.java
+	     org/eclipse/m2e/jdt/IMavenClassifierManager.java
+	     org/eclipse/m2e/jdt/internal/AbstractJavaProjectConfigurator.java
+	     org/eclipse/m2e/jdt/internal/BuildPathManager.java
+	     org/eclipse/m2e/jdt/internal/ClasspathDescriptor.java
+	     org/eclipse/m2e/jdt/internal/ClasspathEntryDescriptor.java
+	     org/eclipse/m2e/jdt/internal/DefaultClasspathManagerDelegate.java
+	     org/eclipse/m2e/jdt/internal/JarLifecycleMapping.java
+	     org/eclipse/m2e/jdt/internal/JavaElementsAdapterFactory.java
+	     org/eclipse/m2e/jdt/internal/JavaProjectConfigurator.java
+	     org/eclipse/m2e/jdt/internal/JavaProjectConversionParticipant.java
+	     org/eclipse/m2e/jdt/internal/launch/BlankClassifierClasspathProvider.java
+	     org/eclipse/m2e/jdt/internal/launch/MavenLaunchConfigurationListener.java
+	     org/eclipse/m2e/jdt/internal/launch/MavenRuntimeClasspathProvider.java
+	     org/eclipse/m2e/jdt/internal/launch/MavenSourcePathProvider.java
+	     org/eclipse/m2e/jdt/internal/launch/NullClassifierClasspathProvider.java
+	     org/eclipse/m2e/jdt/internal/launch/TestsClassifierClasspathProvider.java
+	     org/eclipse/m2e/jdt/internal/MavenClassifierManager.java
+	     org/eclipse/m2e/jdt/internal/MavenClasspathContainer.java
+	     org/eclipse/m2e/jdt/internal/MavenClasspathContainerInitializer.java
+	     org/eclipse/m2e/jdt/internal/MavenClasspathContainerSaveHelper.java
+	     org/eclipse/m2e/jdt/internal/MavenClasspathHelpers.java
+	     org/eclipse/m2e/jdt/internal/MavenClasspathVariableInitializer.java
+	     org/eclipse/m2e/jdt/internal/Messages.java
+	     org/eclipse/m2e/jdt/internal/messages.properties
+	     org/eclipse/m2e/jdt/MavenJdtPlugin.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.jdt.jar" path="org.eclipse.m2e.jdt/src"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.jdt/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.jdt/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.jdt.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

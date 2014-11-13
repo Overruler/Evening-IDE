@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     icons\full\ctool16\exportappbundle_wiz.gif
-	     icons\full\wizban\exportapp_wiz.png
-	     META-INF\MANIFEST.MF
-	     META-INF\p2.inf
+	     icons/full/ctool16/exportappbundle_wiz.gif
+	     icons/full/wizban/exportapp_wiz.png
+	     META-INF/MANIFEST.MF
+	     META-INF/p2.inf
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/ctool16/*|icons/full/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.launching.ui.macosx.jar" path="org.eclipse.jdt.launching.ui.macosx"/>
-	<!-- org\eclipse\jdt\internal\ui\macbundler\BundleAttributes.java
-	     org\eclipse\jdt\internal\ui\macbundler\BundleBuilder.java
-	     org\eclipse\jdt\internal\ui\macbundler\BundleMessages.properties
-	     org\eclipse\jdt\internal\ui\macbundler\BundleWizardBasePage.java
-	     org\eclipse\jdt\internal\ui\macbundler\BundleWizardPage1.java
-	     org\eclipse\jdt\internal\ui\macbundler\BundleWizardPage2.java
-	     org\eclipse\jdt\internal\ui\macbundler\BundleWizardPage3.java
-	     org\eclipse\jdt\internal\ui\macbundler\MacBundleWizard.java
-	     org\eclipse\jdt\internal\ui\macbundler\MacOSXUILaunchingPlugin.java
-	     org\eclipse\jdt\internal\ui\macbundler\ResourceInfo.java
-	     org\eclipse\jdt\internal\ui\macbundler\Util.java -->
+	<!-- org/eclipse/jdt/internal/ui/macbundler/BundleAttributes.java
+	     org/eclipse/jdt/internal/ui/macbundler/BundleBuilder.java
+	     org/eclipse/jdt/internal/ui/macbundler/BundleMessages.properties
+	     org/eclipse/jdt/internal/ui/macbundler/BundleWizardBasePage.java
+	     org/eclipse/jdt/internal/ui/macbundler/BundleWizardPage1.java
+	     org/eclipse/jdt/internal/ui/macbundler/BundleWizardPage2.java
+	     org/eclipse/jdt/internal/ui/macbundler/BundleWizardPage3.java
+	     org/eclipse/jdt/internal/ui/macbundler/MacBundleWizard.java
+	     org/eclipse/jdt/internal/ui/macbundler/MacOSXUILaunchingPlugin.java
+	     org/eclipse/jdt/internal/ui/macbundler/ResourceInfo.java
+	     org/eclipse/jdt/internal/ui/macbundler/Util.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.launching.ui.macosx.jar" path="org.eclipse.jdt.launching.ui.macosx/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>

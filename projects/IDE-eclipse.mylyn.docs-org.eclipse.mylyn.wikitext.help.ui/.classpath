@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     contextHelp.xml
+	     help/book.css
+	     help/devguide/book.css
+	     help/devguide/images/home.gif
+	     help/devguide/images/markup-blocks.png
+	     help/devguide/images/markup-phrases.png
+	     help/devguide/images/markup-plain.png
+	     help/devguide/images/markup-tokens.png
+	     help/devguide/images/next.gif
+	     help/devguide/images/prev.gif
+	     help/devguide/WikiText Developer Guide.textile
+	     help/examples/build-wikitext-to-dita.xml
+	     help/images/editor-assist-document-internal-link-proposal.png
+	     help/images/editor-assist-proposals.png
+	     help/images/editor-assist-selection-proposal-completed.png
+	     help/images/editor-assist-selection-proposal.png
+	     help/images/editor-assist-template-proposal-selection.png
+	     help/images/editor-assist-template-proposal.png
+	     help/images/editor-cheat-sheet.png
+	     help/images/editor-command-help.png
+	     help/images/editor-document-internal-link-validation.png
+	     help/images/editor-folding-menu.png
+	     help/images/editor-folding.png
+	     help/images/editor-outline.png
+	     help/images/editor-overview.png
+	     help/images/editor-preferences-appearance.png
+	     help/images/editor-preferences-fonts.png
+	     help/images/editor-preferences-templates.png
+	     help/images/editor-preferences.png
+	     help/images/editor-quick-outline.png
+	     help/images/editor-spelling.png
+	     help/images/editor-switch-language.png
+	     help/images/editor-tabs.png
+	     help/images/editor-toggle-active-folding.png
+	     help/images/home.gif
+	     help/images/next.gif
+	     help/images/prev.gif
+	     help/images/project-settings.png
+	     help/images/repository-settings-task-editor-extension.png
+	     help/images/resource-conversion-menu.png
+	     help/images/task-editor-bugzilla-quote.png
+	     help/images/task-editor-bugzilla-text.png
+	     help/images/task-editor-font-preferences.png
+	     help/Mylyn WikiText User Guide.textile
+	     help/styles/main.css
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     toc-sdk.xml
+	     toc.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|contextHelp.xml|help/*|help/devguide/*|help/devguide/images/*|help/examples/*|help/images/*|help/styles/*|plugin.properties|plugin.xml|toc-sdk.xml|toc.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.help.ui.jar" path="org.eclipse.mylyn.wikitext.help.ui"/>
+	<!-- .empty -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.help.ui.jar" path="org.eclipse.mylyn.wikitext.help.ui/src"/>
+	<!-- help/devguide/Contributing.html
+	     help/devguide/Markup-Languages.html
+	     help/devguide/Using-The-WikiText-Parser.html
+	     help/devguide/WikiText Developer Guide-toc.xml
+	     help/devguide/WikiText Developer Guide.html
+	     help/devguide/WikiText-and-the-UI.html
+	     help/Getting-Started.html
+	     help/Markup-Generation.html
+	     help/More-Information.html
+	     help/Mylyn WikiText User Guide-toc.xml
+	     help/Mylyn WikiText User Guide.html
+	     help/Preferences.html
+	     help/Task-Editor-Integration.html
+	     help/Textile-Syntax.html
+	     help/Tips-and-Tricks.html
+	     help/Upgrading-From-Mylyn-WikiText-1-x-to-2-x.html -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.help.ui.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

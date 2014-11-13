@@ -2,19 +2,19 @@
 <classpath>
 	<!-- about.html
 	     contextHelp.xml
-	     EPP\MPC\User_Guide\images\MPC_ConfirmFeatures.png
-	     EPP\MPC\User_Guide\images\MPC_Licenses.png
-	     EPP\MPC\User_Guide\images\MPC_Popular.png
-	     EPP\MPC\User_Guide\images\MPC_SearchControls.png
-	     EPP\MPC\User_Guide\images\MPC_Selection.png
-	     EPP\MPC\User_Guide\images\MPC_WebsiteInstall.png
-	     EPP\MPC\User_Guide\Updating-This-Document.html
-	     EPP\MPC\User_Guide\User-Guide.html
-	     images\home.gif
-	     images\next.gif
-	     images\prev.gif
-	     META-INF\MANIFEST.MF
-	     OSGI-INF\l10n\bundle.properties
+	     EPP/MPC/User_Guide/images/MPC_ConfirmFeatures.png
+	     EPP/MPC/User_Guide/images/MPC_Licenses.png
+	     EPP/MPC/User_Guide/images/MPC_Popular.png
+	     EPP/MPC/User_Guide/images/MPC_SearchControls.png
+	     EPP/MPC/User_Guide/images/MPC_Selection.png
+	     EPP/MPC/User_Guide/images/MPC_WebsiteInstall.png
+	     EPP/MPC/User_Guide/Updating-This-Document.html
+	     EPP/MPC/User_Guide/User-Guide.html
+	     images/home.gif
+	     images/next.gif
+	     images/prev.gif
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/l10n/bundle.properties
 	     plugin.xml
 	     toc.xml -->
 	<classpathentry excluding=".*|.*/" including="EPP/MPC/User_Guide/*|EPP/MPC/User_Guide/images/*|META-INF/*|OSGI-INF/l10n/*|about.html|contextHelp.xml|images/*|plugin.xml|toc.xml" kind="src" output="bin/1/plugins/org.eclipse.epp.mpc.help.ui.jar" path="org.eclipse.epp.mpc.help.ui"/>

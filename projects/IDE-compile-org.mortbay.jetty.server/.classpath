@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="org/mortbay/jetty/Response.java|org/mortbay/jetty/Request.java|org/mortbay/jetty/handler/ContextHandler.java" kind="src" path="org.mortbay.jetty.server"/>
+	<classpathentry excluding="org/mortbay/jetty/Response.java|org/mortbay/jetty/Request.java|org/mortbay/jetty/handler/ContextHandler.java|org/mortbay/jetty/AbstractGenerator.java|org/mortbay/jetty/HttpParser.java" kind="src" path="org.mortbay.jetty.server"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/IDE-compile-org.osgi.annotation.versioning"/>

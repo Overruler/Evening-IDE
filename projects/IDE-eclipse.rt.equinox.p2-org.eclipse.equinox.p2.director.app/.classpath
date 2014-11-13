@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.director.app.jar" path="org.eclipse.equinox.p2.director.app"/>
-	<!-- org\eclipse\equinox\internal\p2\director\app\Activator.java
-	     org\eclipse\equinox\internal\p2\director\app\DirectorApplication.java
-	     org\eclipse\equinox\internal\p2\director\app\ILog.java
-	     org\eclipse\equinox\internal\p2\director\app\IUListFormatter.java
-	     org\eclipse\equinox\internal\p2\director\app\Messages.java
-	     org\eclipse\equinox\internal\p2\director\app\messages.properties
-	     org\eclipse\equinox\internal\p2\director\app\PrettyQuery.java -->
+	<!-- org/eclipse/equinox/internal/p2/director/app/Activator.java
+	     org/eclipse/equinox/internal/p2/director/app/DirectorApplication.java
+	     org/eclipse/equinox/internal/p2/director/app/ILog.java
+	     org/eclipse/equinox/internal/p2/director/app/IUListFormatter.java
+	     org/eclipse/equinox/internal/p2/director/app/Messages.java
+	     org/eclipse/equinox/internal/p2/director/app/messages.properties
+	     org/eclipse/equinox/internal/p2/director/app/PrettyQuery.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.director.app.jar" path="org.eclipse.equinox.p2.director.app/src"/>
-	<!-- org\eclipse\equinox\p2\director\app\ant\DirectorTask.java -->
+	<!-- org/eclipse/equinox/p2/director/app/ant/DirectorTask.java -->
 	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.equinox.p2.director.app.jar/ant_tasks/director-ant.jar" path="org.eclipse.equinox.p2.director.app/src_ant"/>
-	<!-- ant_tasks\director-ant.jar\META-INF\MANIFEST.MF -->
+	<!-- ant_tasks/director-ant.jar/META-INF/MANIFEST.MF -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.director.app.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>

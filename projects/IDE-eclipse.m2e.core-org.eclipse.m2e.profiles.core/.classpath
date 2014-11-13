@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.m2e.profiles.core.jar" path="org.eclipse.m2e.profiles.core"/>
+	<!-- org/eclipse/m2e/profiles/core/internal/IProfileManager.java
+	     org/eclipse/m2e/profiles/core/internal/management/ProfileManager.java
+	     org/eclipse/m2e/profiles/core/internal/MavenProfilesCoreActivator.java
+	     org/eclipse/m2e/profiles/core/internal/ProfileData.java
+	     org/eclipse/m2e/profiles/core/internal/ProfileState.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.profiles.core.jar" path="org.eclipse.m2e.profiles.core/src"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.profiles.core/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.profiles.core/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.profiles.core.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

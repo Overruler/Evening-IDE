@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about_files/LICENSE-2.0.txt
+	     OSGI-INF/l10n/bundle.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.maven.indexer" path="org.eclipse.m2e.maven.indexer/src/main/resources"/>
+	<!-- indexer-artifact-3.1.0.jar
+	     indexer-core-3.1.0.jar
+	     lucene-core-2.4.1.jar
+	     lucene-highlighter-2.4.1.jar
+	     META-INF/MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.maven.indexer" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-other-javax.inject"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.archetype.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry exported="true" kind="lib" path="lib/indexer-artifact-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/indexer-core-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/lucene-core-2.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/lucene-highlighter-2.4.1.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

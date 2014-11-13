@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %Bundle-Provider
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4,CDC-1.0/Foundation-1.0,J
+ 2SE-1.3
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.apache.ws.commons.util
+Bundle-Version: 1.0.1.qualifier
+Export-Package: org.apache.ws.commons.serialize;version="1.0.1",org.ap
+ ache.ws.commons.util;version="1.0.1"
+Bundle-ManifestVersion: 2
+Import-Package: javax.xml,javax.xml.namespace,org.w3c.dom,org.xml.sax,
+ org.xml.sax.ext,org.xml.sax.helpers

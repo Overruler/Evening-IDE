@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.filebuffers.jar" path="org.eclipse.core.filebuffers"/>
-	<!-- org\eclipse\core\filebuffers\FileBuffers.java
-	     org\eclipse\core\filebuffers\IAnnotationModelFactory.java
-	     org\eclipse\core\filebuffers\IDocumentFactory.java
-	     org\eclipse\core\filebuffers\IDocumentSetupParticipant.java
-	     org\eclipse\core\filebuffers\IDocumentSetupParticipantExtension.java
-	     org\eclipse\core\filebuffers\IFileBuffer.java
-	     org\eclipse\core\filebuffers\IFileBufferListener.java
-	     org\eclipse\core\filebuffers\IFileBufferManager.java
-	     org\eclipse\core\filebuffers\IFileBufferStatusCodes.java
-	     org\eclipse\core\filebuffers\IPersistableAnnotationModel.java
-	     org\eclipse\core\filebuffers\IStateValidationSupport.java
-	     org\eclipse\core\filebuffers\ISynchronizationContext.java
-	     org\eclipse\core\filebuffers\ITextFileBuffer.java
-	     org\eclipse\core\filebuffers\ITextFileBufferManager.java
-	     org\eclipse\core\filebuffers\LocationKind.java
-	     org\eclipse\core\filebuffers\manipulation\ContainerCreator.java
-	     org\eclipse\core\filebuffers\manipulation\ConvertLineDelimitersOperation.java
-	     org\eclipse\core\filebuffers\manipulation\FileBufferOperationRunner.java
-	     org\eclipse\core\filebuffers\manipulation\FileBuffersMessages.properties
-	     org\eclipse\core\filebuffers\manipulation\GenericFileBufferOperationRunner.java
-	     org\eclipse\core\filebuffers\manipulation\IFileBufferOperation.java
-	     org\eclipse\core\filebuffers\manipulation\MultiTextEditWithProgress.java
-	     org\eclipse\core\filebuffers\manipulation\RemoveTrailingWhitespaceOperation.java
-	     org\eclipse\core\filebuffers\manipulation\TextFileBufferOperation.java
-	     org\eclipse\core\internal\filebuffers\AbstractFileBuffer.java
-	     org\eclipse\core\internal\filebuffers\ExtensionsRegistry.java
-	     org\eclipse\core\internal\filebuffers\FileBuffersMessages.properties
-	     org\eclipse\core\internal\filebuffers\FileBuffersPlugin.java
-	     org\eclipse\core\internal\filebuffers\FileStoreFileBuffer.java
-	     org\eclipse\core\internal\filebuffers\FileStoreTextFileBuffer.java
-	     org\eclipse\core\internal\filebuffers\NLSUtility.java
-	     org\eclipse\core\internal\filebuffers\Progress.java
-	     org\eclipse\core\internal\filebuffers\ResourceExtensionRegistry.java
-	     org\eclipse\core\internal\filebuffers\ResourceFileBuffer.java
-	     org\eclipse\core\internal\filebuffers\ResourceTextFileBuffer.java
-	     org\eclipse\core\internal\filebuffers\ResourceTextFileBufferManager.java
-	     org\eclipse\core\internal\filebuffers\SynchronizableDocument.java
-	     org\eclipse\core\internal\filebuffers\TextFileBufferManager.java -->
+	<!-- org/eclipse/core/filebuffers/FileBuffers.java
+	     org/eclipse/core/filebuffers/IAnnotationModelFactory.java
+	     org/eclipse/core/filebuffers/IDocumentFactory.java
+	     org/eclipse/core/filebuffers/IDocumentSetupParticipant.java
+	     org/eclipse/core/filebuffers/IDocumentSetupParticipantExtension.java
+	     org/eclipse/core/filebuffers/IFileBuffer.java
+	     org/eclipse/core/filebuffers/IFileBufferListener.java
+	     org/eclipse/core/filebuffers/IFileBufferManager.java
+	     org/eclipse/core/filebuffers/IFileBufferStatusCodes.java
+	     org/eclipse/core/filebuffers/IPersistableAnnotationModel.java
+	     org/eclipse/core/filebuffers/IStateValidationSupport.java
+	     org/eclipse/core/filebuffers/ISynchronizationContext.java
+	     org/eclipse/core/filebuffers/ITextFileBuffer.java
+	     org/eclipse/core/filebuffers/ITextFileBufferManager.java
+	     org/eclipse/core/filebuffers/LocationKind.java
+	     org/eclipse/core/filebuffers/manipulation/ContainerCreator.java
+	     org/eclipse/core/filebuffers/manipulation/ConvertLineDelimitersOperation.java
+	     org/eclipse/core/filebuffers/manipulation/FileBufferOperationRunner.java
+	     org/eclipse/core/filebuffers/manipulation/FileBuffersMessages.properties
+	     org/eclipse/core/filebuffers/manipulation/GenericFileBufferOperationRunner.java
+	     org/eclipse/core/filebuffers/manipulation/IFileBufferOperation.java
+	     org/eclipse/core/filebuffers/manipulation/MultiTextEditWithProgress.java
+	     org/eclipse/core/filebuffers/manipulation/RemoveTrailingWhitespaceOperation.java
+	     org/eclipse/core/filebuffers/manipulation/TextFileBufferOperation.java
+	     org/eclipse/core/internal/filebuffers/AbstractFileBuffer.java
+	     org/eclipse/core/internal/filebuffers/ExtensionsRegistry.java
+	     org/eclipse/core/internal/filebuffers/FileBuffersMessages.properties
+	     org/eclipse/core/internal/filebuffers/FileBuffersPlugin.java
+	     org/eclipse/core/internal/filebuffers/FileStoreFileBuffer.java
+	     org/eclipse/core/internal/filebuffers/FileStoreTextFileBuffer.java
+	     org/eclipse/core/internal/filebuffers/NLSUtility.java
+	     org/eclipse/core/internal/filebuffers/Progress.java
+	     org/eclipse/core/internal/filebuffers/ResourceExtensionRegistry.java
+	     org/eclipse/core/internal/filebuffers/ResourceFileBuffer.java
+	     org/eclipse/core/internal/filebuffers/ResourceTextFileBuffer.java
+	     org/eclipse/core/internal/filebuffers/ResourceTextFileBufferManager.java
+	     org/eclipse/core/internal/filebuffers/SynchronizableDocument.java
+	     org/eclipse/core/internal/filebuffers/TextFileBufferManager.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.filebuffers.jar" path="org.eclipse.core.filebuffers/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>

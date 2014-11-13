@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/eview16/task-search.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/eview16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.tasks.search.jar" path="org.eclipse.mylyn.tasks.search"/>
+	<!-- org/eclipse/mylyn/internal/tasks/ui/actions/OpenTaskSearchAction.java
+	     org/eclipse/mylyn/internal/tasks/ui/messages.properties
+	     org/eclipse/mylyn/internal/tasks/ui/search/CreateQueryFromSearchAction.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/DefaultSearchProvider.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/Messages.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/messages.properties
+	     org/eclipse/mylyn/internal/tasks/ui/search/OpenSearchResultAction.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/RepositorySearchResult.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/RepositorySearchResultView.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/SearchHitCollector.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/SearchResultContentProvider.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/SearchResultsLabelProvider.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/SearchResultSortAction.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/SearchResultSorter.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/SearchResultTreeContentProvider.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/SearchScoreComputerAdapterFactory.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/SearchTaskHandler.java
+	     org/eclipse/mylyn/internal/tasks/ui/search/StackTraceDuplicateDetector.java
+	     org/eclipse/mylyn/internal/tasks/ui/TaskSearchPage.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.tasks.search.jar" path="org.eclipse.mylyn.tasks.search/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.search"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

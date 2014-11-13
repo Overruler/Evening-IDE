@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|src-gen/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.mylyn.hudson.core.jar" path="org.eclipse.mylyn.hudson.core"/>
+	<!-- org/eclipse/mylyn/hudson/core/HudsonCore.java
+	     org/eclipse/mylyn/internal/hudson/core/client/HudsonConfiguration.java
+	     org/eclipse/mylyn/internal/hudson/core/client/HudsonConfigurationCache.java
+	     org/eclipse/mylyn/internal/hudson/core/client/HudsonException.java
+	     org/eclipse/mylyn/internal/hudson/core/client/HudsonLoginForm.java
+	     org/eclipse/mylyn/internal/hudson/core/client/HudsonOperation.java
+	     org/eclipse/mylyn/internal/hudson/core/client/HudsonResourceNotFoundException.java
+	     org/eclipse/mylyn/internal/hudson/core/client/HudsonRunBuildForm.java
+	     org/eclipse/mylyn/internal/hudson/core/client/HudsonServerInfo.java
+	     org/eclipse/mylyn/internal/hudson/core/client/HudsonTestReport.java
+	     org/eclipse/mylyn/internal/hudson/core/client/HudsonUrl.java
+	     org/eclipse/mylyn/internal/hudson/core/client/RestfulHudsonClient.java
+	     org/eclipse/mylyn/internal/hudson/core/HudsonConnector.java
+	     org/eclipse/mylyn/internal/hudson/core/HudsonCorePlugin.java
+	     org/eclipse/mylyn/internal/hudson/core/HudsonServerBehaviour.java
+	     org/eclipse/mylyn/internal/hudson/core/HudsonStatus.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.hudson.core.jar" path="org.eclipse.mylyn.hudson.core/src"/>
+	<!-- org/eclipse/mylyn/internal/hudson/model/HudsonMavenAbstractMavenBuild.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonMavenMavenModuleSetBuild.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonMavenReportersSurefireAggregatedReport.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelAbstractBuild.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelAbstractItem.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelAbstractProject.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelActionable.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelBallColor.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelBuild.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelFreeStyleBuild.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelFreeStyleProject.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelHealthReport.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelHudson.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelJob.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelJobProperty.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelLabel.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelLoadStatistics.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelMultiStageTimeSeries.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelNode.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelNodeMode.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelOverallLoadStatistics.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelProject.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelQueueItem.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelRun.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelRunArtifact.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelTimeSeries.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelUser.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelUserProperty.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelView.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelViewPeople.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonModelViewUserInfo.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonScmChangeLogSet.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonScmRepositoryBrowser.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonScmSCM.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksJunitCaseResult.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksJunitCaseResultStatus.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksJunitSuiteResult.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksJunitTestObject.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksJunitTestResult.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksTestAbstractTestResultAction.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksTestAggregatedTestResultAction.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksTestAggregatedTestResultActionChildReport.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksTestMetaTabulatedResult.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksTestTabulatedResult.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksTestTestObject.java
+	     org/eclipse/mylyn/internal/hudson/model/HudsonTasksTestTestResult.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.hudson.core.jar" path="org.eclipse.mylyn.hudson.core/src-gen"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gson"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.httpcomponents.httpclient"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.httpcomponents.httpcore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.builds.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.http.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

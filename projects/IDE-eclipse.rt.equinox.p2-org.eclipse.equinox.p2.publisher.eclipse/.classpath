@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.publisher.eclipse.jar" path="org.eclipse.equinox.p2.publisher.eclipse"/>
-	<!-- org\eclipse\equinox\internal\p2\publisher\compatibility\GeneratorApplication.java
-	     org\eclipse\equinox\internal\p2\publisher\compatibility\IGeneratorConstants.java
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\BrandingIron.java
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\DataLoader.java
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\ExecutablesDescriptor.java
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\FeatureManifestParser.java
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\FeatureParser.java
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\GeneratorBundleInfo.java
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\IProductDescriptor.java
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\Messages.java
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\messages.properties
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\ProductContentType.java
-	     org\eclipse\equinox\internal\p2\publisher\eclipse\ProductFile.java
-	     org\eclipse\equinox\p2\publisher\eclipse\AccumulateConfigDataAction.java
-	     org\eclipse\equinox\p2\publisher\eclipse\ApplicationLauncherAction.java
-	     org\eclipse\equinox\p2\publisher\eclipse\BundlesAction.java
-	     org\eclipse\equinox\p2\publisher\eclipse\BundleShapeAdvice.java
-	     org\eclipse\equinox\p2\publisher\eclipse\ConfigAdvice.java
-	     org\eclipse\equinox\p2\publisher\eclipse\ConfigCUsAction.java
-	     org\eclipse\equinox\p2\publisher\eclipse\DefaultCUsAction.java
-	     org\eclipse\equinox\p2\publisher\eclipse\EclipseInstallAction.java
-	     org\eclipse\equinox\p2\publisher\eclipse\EclipsePublisherHelper.java
-	     org\eclipse\equinox\p2\publisher\eclipse\EquinoxExecutableAction.java
-	     org\eclipse\equinox\p2\publisher\eclipse\EquinoxLauncherCUAction.java
-	     org\eclipse\equinox\p2\publisher\eclipse\Feature.java
-	     org\eclipse\equinox\p2\publisher\eclipse\FeatureEntry.java
-	     org\eclipse\equinox\p2\publisher\eclipse\FeaturesAction.java
-	     org\eclipse\equinox\p2\publisher\eclipse\FeaturesAndBundlesPublisherApplication.java
-	     org\eclipse\equinox\p2\publisher\eclipse\IBrandingAdvice.java
-	     org\eclipse\equinox\p2\publisher\eclipse\IBundleShapeAdvice.java
-	     org\eclipse\equinox\p2\publisher\eclipse\IConfigAdvice.java
-	     org\eclipse\equinox\p2\publisher\eclipse\IExecutableAdvice.java
-	     org\eclipse\equinox\p2\publisher\eclipse\InstallPublisherApplication.java
-	     org\eclipse\equinox\p2\publisher\eclipse\IPlatformEntry.java
-	     org\eclipse\equinox\p2\publisher\eclipse\LaunchingAdvice.java
-	     org\eclipse\equinox\p2\publisher\eclipse\ProductAction.java
-	     org\eclipse\equinox\p2\publisher\eclipse\ProductFileAdvice.java
-	     org\eclipse\equinox\p2\publisher\eclipse\ProductPublisherApplication.java
-	     org\eclipse\equinox\p2\publisher\eclipse\URLEntry.java
-	     org\eclipse\pde\internal\build\publisher\BuildPublisherApplication.java
-	     org\eclipse\pde\internal\build\publisher\FeatureRootAdvice.java
-	     org\eclipse\pde\internal\build\publisher\GatherBundleAction.java
-	     org\eclipse\pde\internal\build\publisher\GatherFeatureAction.java
-	     org\eclipse\pde\internal\build\publisher\GatheringComputer.java
-	     org\eclipse\pde\internal\publishing\Activator.java
-	     org\eclipse\pde\internal\publishing\Constants.java
-	     org\eclipse\pde\internal\publishing\Utils.java
-	     org\eclipse\pde\internal\swt\tools\IconExe.java -->
+	<!-- org/eclipse/equinox/internal/p2/publisher/compatibility/GeneratorApplication.java
+	     org/eclipse/equinox/internal/p2/publisher/compatibility/IGeneratorConstants.java
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/BrandingIron.java
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/DataLoader.java
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/ExecutablesDescriptor.java
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/FeatureManifestParser.java
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/FeatureParser.java
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/GeneratorBundleInfo.java
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/IProductDescriptor.java
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/Messages.java
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/messages.properties
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/ProductContentType.java
+	     org/eclipse/equinox/internal/p2/publisher/eclipse/ProductFile.java
+	     org/eclipse/equinox/p2/publisher/eclipse/AccumulateConfigDataAction.java
+	     org/eclipse/equinox/p2/publisher/eclipse/ApplicationLauncherAction.java
+	     org/eclipse/equinox/p2/publisher/eclipse/BundlesAction.java
+	     org/eclipse/equinox/p2/publisher/eclipse/BundleShapeAdvice.java
+	     org/eclipse/equinox/p2/publisher/eclipse/ConfigAdvice.java
+	     org/eclipse/equinox/p2/publisher/eclipse/ConfigCUsAction.java
+	     org/eclipse/equinox/p2/publisher/eclipse/DefaultCUsAction.java
+	     org/eclipse/equinox/p2/publisher/eclipse/EclipseInstallAction.java
+	     org/eclipse/equinox/p2/publisher/eclipse/EclipsePublisherHelper.java
+	     org/eclipse/equinox/p2/publisher/eclipse/EquinoxExecutableAction.java
+	     org/eclipse/equinox/p2/publisher/eclipse/EquinoxLauncherCUAction.java
+	     org/eclipse/equinox/p2/publisher/eclipse/Feature.java
+	     org/eclipse/equinox/p2/publisher/eclipse/FeatureEntry.java
+	     org/eclipse/equinox/p2/publisher/eclipse/FeaturesAction.java
+	     org/eclipse/equinox/p2/publisher/eclipse/FeaturesAndBundlesPublisherApplication.java
+	     org/eclipse/equinox/p2/publisher/eclipse/IBrandingAdvice.java
+	     org/eclipse/equinox/p2/publisher/eclipse/IBundleShapeAdvice.java
+	     org/eclipse/equinox/p2/publisher/eclipse/IConfigAdvice.java
+	     org/eclipse/equinox/p2/publisher/eclipse/IExecutableAdvice.java
+	     org/eclipse/equinox/p2/publisher/eclipse/InstallPublisherApplication.java
+	     org/eclipse/equinox/p2/publisher/eclipse/IPlatformEntry.java
+	     org/eclipse/equinox/p2/publisher/eclipse/LaunchingAdvice.java
+	     org/eclipse/equinox/p2/publisher/eclipse/ProductAction.java
+	     org/eclipse/equinox/p2/publisher/eclipse/ProductFileAdvice.java
+	     org/eclipse/equinox/p2/publisher/eclipse/ProductPublisherApplication.java
+	     org/eclipse/equinox/p2/publisher/eclipse/URLEntry.java
+	     org/eclipse/pde/internal/build/publisher/BuildPublisherApplication.java
+	     org/eclipse/pde/internal/build/publisher/FeatureRootAdvice.java
+	     org/eclipse/pde/internal/build/publisher/GatherBundleAction.java
+	     org/eclipse/pde/internal/build/publisher/GatherFeatureAction.java
+	     org/eclipse/pde/internal/build/publisher/GatheringComputer.java
+	     org/eclipse/pde/internal/publishing/Activator.java
+	     org/eclipse/pde/internal/publishing/Constants.java
+	     org/eclipse/pde/internal/publishing/Utils.java
+	     org/eclipse/pde/internal/swt/tools/IconExe.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.publisher.eclipse.jar" path="org.eclipse.equinox.p2.publisher.eclipse/src"/>
-	<!-- org\eclipse\equinox\internal\p2\publisher\ant\AbstractPublishTask.java
-	     org\eclipse\equinox\internal\p2\publisher\ant\FeaturesAndBundlesPublisherTask.java
-	     org\eclipse\equinox\internal\p2\publisher\ant\messages.properties
-	     org\eclipse\equinox\internal\p2\publisher\ant\ProductPublisherTask.java
-	     org\eclipse\equinox\internal\p2\publisher\ant\PublisherTask.java
-	     org\eclipse\equinox\internal\p2\publisher\ant\TaskMessages.java -->
+	<!-- org/eclipse/equinox/internal/p2/publisher/ant/AbstractPublishTask.java
+	     org/eclipse/equinox/internal/p2/publisher/ant/FeaturesAndBundlesPublisherTask.java
+	     org/eclipse/equinox/internal/p2/publisher/ant/messages.properties
+	     org/eclipse/equinox/internal/p2/publisher/ant/ProductPublisherTask.java
+	     org/eclipse/equinox/internal/p2/publisher/ant/PublisherTask.java
+	     org/eclipse/equinox/internal/p2/publisher/ant/TaskMessages.java -->
 	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.equinox.p2.publisher.eclipse.jar/ant_tasks/pdepublishing-ant.jar" path="org.eclipse.equinox.p2.publisher.eclipse/src_ant"/>
-	<!-- ant_tasks\pdepublishing-ant.jar\META-INF\MANIFEST.MF -->
+	<!-- ant_tasks/pdepublishing-ant.jar/META-INF/MANIFEST.MF -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.publisher.eclipse.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>

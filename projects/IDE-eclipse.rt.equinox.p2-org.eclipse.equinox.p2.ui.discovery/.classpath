@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     icons\etool16\find.png
-	     icons\obj16\iu_disabled_obj.gif
-	     icons\obj16\iu_obj.gif
-	     icons\obj16\iu_update_obj.gif
-	     icons\obj16\message_info.gif
-	     icons\ovr32\message_warning.gif
-	     icons\wizban\banner-discovery.png
-	     META-INF\MANIFEST.MF
+	     icons/etool16/find.png
+	     icons/obj16/iu_disabled_obj.gif
+	     icons/obj16/iu_obj.gif
+	     icons/obj16/iu_update_obj.gif
+	     icons/obj16/message_info.gif
+	     icons/ovr32/message_warning.gif
+	     icons/wizban/banner-discovery.png
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/etool16/*|icons/obj16/*|icons/ovr32/*|icons/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.discovery.jar" path="org.eclipse.equinox.p2.ui.discovery"/>
-	<!-- org\eclipse\equinox\internal\p2\ui\discovery\commands\Messages.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\commands\messages.properties
-	     org\eclipse\equinox\internal\p2\ui\discovery\commands\ShowBundleCatalogCommandHandler.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\commands\ShowRepositoryCatalogCommandHandler.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\DiscoveryImages.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\DiscoveryUi.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\operations\DiscoveryInstallOperation.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\repository\RepositoryDiscoveryStrategy.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\repository\RepositorySource.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\CommonColors.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\ControlListItem.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\ControlListViewer.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\FilteredViewer.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\GradientCanvas.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\GradientToolTip.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\Messages.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\messages.properties
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\PatternFilter.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\SelectionProviderAdapter.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\TextSearchControl.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\util\WorkbenchUtil.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\AbstractDiscoveryItem.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\CatalogConfiguration.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\CatalogFilter.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\CatalogPage.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\CatalogViewer.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\CategoryItem.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\DiscoveryItem.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\DiscoveryResources.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\DiscoveryWizard.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\Messages.java
-	     org\eclipse\equinox\internal\p2\ui\discovery\wizards\messages.properties -->
+	<!-- org/eclipse/equinox/internal/p2/ui/discovery/commands/Messages.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/commands/messages.properties
+	     org/eclipse/equinox/internal/p2/ui/discovery/commands/ShowBundleCatalogCommandHandler.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/commands/ShowRepositoryCatalogCommandHandler.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/DiscoveryImages.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/DiscoveryUi.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/operations/DiscoveryInstallOperation.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/repository/RepositoryDiscoveryStrategy.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/repository/RepositorySource.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/CommonColors.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/ControlListItem.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/ControlListViewer.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/FilteredViewer.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/GradientCanvas.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/GradientToolTip.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/Messages.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/messages.properties
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/PatternFilter.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/SelectionProviderAdapter.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/TextSearchControl.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/util/WorkbenchUtil.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/AbstractDiscoveryItem.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/CatalogConfiguration.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/CatalogFilter.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/CatalogPage.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/CatalogViewer.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/CategoryItem.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/DiscoveryItem.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/DiscoveryResources.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/DiscoveryWizard.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/Messages.java
+	     org/eclipse/equinox/internal/p2/ui/discovery/wizards/messages.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ui.discovery.jar" path="org.eclipse.equinox.p2.ui.discovery/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>

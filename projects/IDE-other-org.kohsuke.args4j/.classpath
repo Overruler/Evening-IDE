@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/kohsuke/args4j/Argument.java
+	     org/kohsuke/args4j/ClassParser.java
+	     org/kohsuke/args4j/CmdLineException.java
+	     org/kohsuke/args4j/CmdLineParser.java
+	     org/kohsuke/args4j/Config.java
+	     org/kohsuke/args4j/ExampleMode.java
+	     org/kohsuke/args4j/FieldParser.java
+	     org/kohsuke/args4j/IllegalAnnotationError.java
+	     org/kohsuke/args4j/Messages.properties
+	     org/kohsuke/args4j/NamedOptionDef.java
+	     org/kohsuke/args4j/spi/AnnotationImpl.java
+	     org/kohsuke/args4j/spi/ArgumentImpl.java
+	     org/kohsuke/args4j/spi/BooleanOptionHandler.java
+	     org/kohsuke/args4j/spi/ByteOptionHandler.java
+	     org/kohsuke/args4j/spi/CharOptionHandler.java
+	     org/kohsuke/args4j/spi/ConfigElement.java
+	     org/kohsuke/args4j/spi/DoubleOptionHandler.java
+	     org/kohsuke/args4j/spi/EnumOptionHandler.java
+	     org/kohsuke/args4j/spi/ExplicitBooleanOptionHandler.java
+	     org/kohsuke/args4j/spi/FileOptionHandler.java
+	     org/kohsuke/args4j/spi/FloatOptionHandler.java
+	     org/kohsuke/args4j/spi/IntOptionHandler.java
+	     org/kohsuke/args4j/spi/LongOptionHandler.java
+	     org/kohsuke/args4j/spi/MapOptionHandler.java
+	     org/kohsuke/args4j/spi/Messages.properties
+	     org/kohsuke/args4j/spi/Messages_de.properties
+	     org/kohsuke/args4j/spi/Messages_ru.properties
+	     org/kohsuke/args4j/spi/MethodSetter.java
+	     org/kohsuke/args4j/spi/OneArgumentOptionHandler.java
+	     org/kohsuke/args4j/spi/OptionHandler.java
+	     org/kohsuke/args4j/spi/OptionImpl.java
+	     org/kohsuke/args4j/spi/Parameters.java
+	     org/kohsuke/args4j/spi/RestOfArgumentsHandler.java
+	     org/kohsuke/args4j/spi/Setter.java
+	     org/kohsuke/args4j/spi/Setters.java
+	     org/kohsuke/args4j/spi/ShortOptionHandler.java
+	     org/kohsuke/args4j/spi/StopOptionHandler.java
+	     org/kohsuke/args4j/spi/StringArrayOptionHandler.java
+	     org/kohsuke/args4j/spi/StringOptionHandler.java
+	     org/kohsuke/args4j/spi/URIOptionHandler.java
+	     org/kohsuke/args4j/spi/URLOptionHandler.java
+	     org/kohsuke/args4j/Starter.java
+	     org/kohsuke/args4j/XmlParser.java -->
+	<classpathentry excluding="org/kohsuke/args4j/Option.java|org/kohsuke/args4j/OptionDef.java" kind="src" output="bin/1/plugins/org.kohsuke.args4j.jar" path="kohsuke.args4j/args4j/src"/>
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.kohsuke.args4j.jar" path="res"/>
+	<!-- org/kohsuke/args4j/Option.java
+	     org/kohsuke/args4j/OptionDef.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.kohsuke.args4j.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

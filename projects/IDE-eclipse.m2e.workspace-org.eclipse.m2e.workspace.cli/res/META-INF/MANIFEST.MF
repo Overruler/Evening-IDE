@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-Description: Workspace dependency resolver implementation for M
+ aven command line build.
+Bundle-License: http://www.eclipse.org/legal/epl-v10.html
+Bundle-SymbolicName: org.eclipse.m2e.workspace.cli;singleton:=false
+Archiver-Version: Plexus Archiver
+Built-By: igor
+Bnd-LastModified: 1412176752255
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7,JavaSE-1.8
+Bundle-DocURL: https://www.eclipse.org/m2e
+Bundle-Vendor: eclipse m2e
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-2.3.0.201405100607
+Export-Package: org.eclipse.m2e.workspace
+Bundle-Name: m2e-workspace
+Bundle-Version: 99.99.99.99
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_20
+

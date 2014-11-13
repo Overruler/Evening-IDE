@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     about_files\IJG_README
-	     META-INF\MANIFEST.MF
-	     META-INF\p2.inf
+	     about_files/IJG_README
+	     META-INF/MANIFEST.MF
+	     META-INF/p2.inf
 	     plugin.properties -->
 	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|about_files/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.swt.jar" path="org.eclipse.swt"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

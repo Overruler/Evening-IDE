@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/elcl16/file-xml.gif
+	     icons/elcl16/file_obj.gif
+	     icons/elcl16/fldr_obj.gif
+	     icons/elcl16/focus-disabled.gif
+	     icons/elcl16/focus.gif
+	     icons/elcl16/interest-decrease.gif
+	     icons/elcl16/interest-increase.gif
+	     icons/elcl16/interest-landmark.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/elcl16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.context.ui.jar" path="org.eclipse.mylyn.context.ui"/>
+	<!-- org/eclipse/mylyn/context/ui/AbstractAutoFocusViewAction.java
+	     org/eclipse/mylyn/context/ui/AbstractContextUiBridge.java
+	     org/eclipse/mylyn/context/ui/AbstractFocusViewAction.java
+	     org/eclipse/mylyn/context/ui/ContextAwareEditorInput.java
+	     org/eclipse/mylyn/context/ui/ContextUi.java
+	     org/eclipse/mylyn/context/ui/IContextAwareEditor.java
+	     org/eclipse/mylyn/context/ui/IContextUiStartup.java
+	     org/eclipse/mylyn/context/ui/InterestFilter.java
+	     org/eclipse/mylyn/context/ui/InterestSorter.java
+	     org/eclipse/mylyn/internal/context/ui/AbstractContextLabelProvider.java
+	     org/eclipse/mylyn/internal/context/ui/actions/AbstractInterestManipulationAction.java
+	     org/eclipse/mylyn/internal/context/ui/actions/ContextActiveActionFilter.java
+	     org/eclipse/mylyn/internal/context/ui/actions/FocusOutlineAction.java
+	     org/eclipse/mylyn/internal/context/ui/actions/InterestDecrementAction.java
+	     org/eclipse/mylyn/internal/context/ui/actions/InterestIncrementAction.java
+	     org/eclipse/mylyn/internal/context/ui/actions/MarkAsLandmarkCommandHandler.java
+	     org/eclipse/mylyn/internal/context/ui/actions/Messages.java
+	     org/eclipse/mylyn/internal/context/ui/actions/messages.properties
+	     org/eclipse/mylyn/internal/context/ui/actions/OpenQuickContextPopupDialogAction.java
+	     org/eclipse/mylyn/internal/context/ui/actions/RemoveFromContextCommandHandler.java
+	     org/eclipse/mylyn/internal/context/ui/actions/ToggleDecorateInterestLevelAction.java
+	     org/eclipse/mylyn/internal/context/ui/BrowseFilteredListener.java
+	     org/eclipse/mylyn/internal/context/ui/ColorMap.java
+	     org/eclipse/mylyn/internal/context/ui/commands/FocusViewHandler.java
+	     org/eclipse/mylyn/internal/context/ui/commands/ToggleFocusActiveViewHandler.java
+	     org/eclipse/mylyn/internal/context/ui/CompoundContextComputationStrategy.java
+	     org/eclipse/mylyn/internal/context/ui/ContentOutlineManager.java
+	     org/eclipse/mylyn/internal/context/ui/ContextEditorManager.java
+	     org/eclipse/mylyn/internal/context/ui/ContextPopulationStrategy.java
+	     org/eclipse/mylyn/internal/context/ui/ContextUiImages.java
+	     org/eclipse/mylyn/internal/context/ui/ContextUiPlugin.java
+	     org/eclipse/mylyn/internal/context/ui/DoiOrderSorter.java
+	     org/eclipse/mylyn/internal/context/ui/FilteredChildrenDecorationDrawer.java
+	     org/eclipse/mylyn/internal/context/ui/FocusedViewerManager.java
+	     org/eclipse/mylyn/internal/context/ui/IContextUiConstants.java
+	     org/eclipse/mylyn/internal/context/ui/IContextUiPreferenceContstants.java
+	     org/eclipse/mylyn/internal/context/ui/InterestDecorator.java
+	     org/eclipse/mylyn/internal/context/ui/InterestDecoratorLightweight.java
+	     org/eclipse/mylyn/internal/context/ui/Messages.java
+	     org/eclipse/mylyn/internal/context/ui/messages.properties
+	     org/eclipse/mylyn/internal/context/ui/preferences/ContextUiPreferencePage.java
+	     org/eclipse/mylyn/internal/context/ui/preferences/Messages.java
+	     org/eclipse/mylyn/internal/context/ui/preferences/messages.properties
+	     org/eclipse/mylyn/internal/context/ui/state/ContextState.java
+	     org/eclipse/mylyn/internal/context/ui/state/ContextStateManager.java
+	     org/eclipse/mylyn/internal/context/ui/state/ContextStateParticipant.java
+	     org/eclipse/mylyn/internal/context/ui/state/E4EditorReflector.java
+	     org/eclipse/mylyn/internal/context/ui/state/EditorStateParticipant.java
+	     org/eclipse/mylyn/internal/context/ui/state/PerspectiveStateParticipant.java
+	     org/eclipse/mylyn/internal/context/ui/UiUtil.java
+	     org/eclipse/mylyn/internal/context/ui/views/ContextNodeOpenListener.java
+	     org/eclipse/mylyn/internal/context/ui/views/Messages.java
+	     org/eclipse/mylyn/internal/context/ui/views/messages.properties
+	     org/eclipse/mylyn/internal/context/ui/views/QuickContextPopupDialog.java
+	     org/eclipse/mylyn/internal/context/ui/views/QuickOutlinePatternAndInterestFilter.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.context.ui.jar" path="org.eclipse.mylyn.context.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.model.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

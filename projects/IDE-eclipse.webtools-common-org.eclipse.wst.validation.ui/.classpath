@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/fail_tbl.gif
+	     icons/fail_tbl_disabled.gif
+	     icons/ok_tbl.gif
+	     icons/ok_tbl_disabled.gif
+	     icons/settings.gif
+	     icons/settings_disabled.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="property_files/|validateui/|vf2/|.*|.*/" including="META-INF/*|about.html|icons/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.validation.ui.jar" path="org.eclipse.wst.validation.ui"/>
+	<!-- org/eclipse/wst/validation/internal/ui/validationui.properties
+	     org/eclipse/wst/validation/ui/internal/messages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.validation.ui.jar" path="org.eclipse.wst.validation.ui/property_files"/>
+	<!-- org/eclipse/wst/validation/internal/ui/ContextIds.java
+	     org/eclipse/wst/validation/internal/ui/DelegatingValidatorPreferencesDialog.java
+	     org/eclipse/wst/validation/internal/ui/ListContentProvider.java
+	     org/eclipse/wst/validation/internal/ui/plugin/RunnableWithProgressWrapper.java
+	     org/eclipse/wst/validation/internal/ui/plugin/ValidationUIPlugin.java
+	     org/eclipse/wst/validation/internal/ui/SaveFilesDialog.java
+	     org/eclipse/wst/validation/internal/ui/SaveFilesHelper.java
+	     org/eclipse/wst/validation/internal/ui/ValidateAction.java
+	     org/eclipse/wst/validation/internal/ui/ValidationJob.java
+	     org/eclipse/wst/validation/internal/ui/ValidationMenuAction.java
+	     org/eclipse/wst/validation/internal/ui/ValidationUIMessages.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.validation.ui.jar" path="org.eclipse.wst.validation.ui/validateui"/>
+	<!-- org/eclipse/wst/validation/ui/internal/AdapterFactory.java
+	     org/eclipse/wst/validation/ui/internal/dialog/FilterDialog.java
+	     org/eclipse/wst/validation/ui/internal/dialog/NewFilterRule.java
+	     org/eclipse/wst/validation/ui/internal/dialog/ResultsDialog.java
+	     org/eclipse/wst/validation/ui/internal/HelpContextIds.java
+	     org/eclipse/wst/validation/ui/internal/ImageNames.java
+	     org/eclipse/wst/validation/ui/internal/ManualValidationRunner.java
+	     org/eclipse/wst/validation/ui/internal/preferences/ValidationPreferencePage.java
+	     org/eclipse/wst/validation/ui/internal/preferences/ValidationPropertyPage.java
+	     org/eclipse/wst/validation/ui/internal/ValUIMessages.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.validation.ui.jar" path="org.eclipse.wst.validation.ui/vf2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.swt-org.eclipse.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.frameworks"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.frameworks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common.fproj-org.eclipse.wst.common.project.facet.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.validation"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

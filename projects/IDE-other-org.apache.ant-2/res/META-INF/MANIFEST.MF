@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Ant-Version: Apache Ant 1.9.2
-Created-By: 1.6.0_27-b27 (Sun Microsystems Inc.)
-ORIGINAL-Class-Path: ant.jar xalan.jar
-Main-Class: org.apache.tools.ant.Main
-

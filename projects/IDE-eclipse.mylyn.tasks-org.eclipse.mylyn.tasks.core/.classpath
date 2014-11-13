@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     feature.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|feature.gif|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.tasks.core.jar" path="org.eclipse.mylyn.tasks.core"/>
+	<!-- org/eclipse/mylyn/internal/tasks/core/AbstractSearchHandler.java
+	     org/eclipse/mylyn/internal/tasks/core/AbstractTask.java
+	     org/eclipse/mylyn/internal/tasks/core/AbstractTaskCategory.java
+	     org/eclipse/mylyn/internal/tasks/core/AbstractTaskContainer.java
+	     org/eclipse/mylyn/internal/tasks/core/activity/DefaultTaskActivityMonitor.java
+	     org/eclipse/mylyn/internal/tasks/core/AttributeMap.java
+	     org/eclipse/mylyn/internal/tasks/core/AutomaticRepositoryTaskContainer.java
+	     org/eclipse/mylyn/internal/tasks/core/Category.java
+	     org/eclipse/mylyn/internal/tasks/core/CommentQuoter.java
+	     org/eclipse/mylyn/internal/tasks/core/context/DefaultTaskContextStore.java
+	     org/eclipse/mylyn/internal/tasks/core/data/FileTaskAttachmentSource.java
+	     org/eclipse/mylyn/internal/tasks/core/data/ITaskDataConstants.java
+	     org/eclipse/mylyn/internal/tasks/core/data/ITaskDataManagerListener.java
+	     org/eclipse/mylyn/internal/tasks/core/data/Messages.java
+	     org/eclipse/mylyn/internal/tasks/core/data/messages.properties
+	     org/eclipse/mylyn/internal/tasks/core/data/SynchronizationManger.java
+	     org/eclipse/mylyn/internal/tasks/core/data/TaskAttributeDiff.java
+	     org/eclipse/mylyn/internal/tasks/core/data/TaskDataDiff.java
+	     org/eclipse/mylyn/internal/tasks/core/data/TaskDataExternalizer.java
+	     org/eclipse/mylyn/internal/tasks/core/data/TaskDataManager.java
+	     org/eclipse/mylyn/internal/tasks/core/data/TaskDataManagerEvent.java
+	     org/eclipse/mylyn/internal/tasks/core/data/TaskDataState.java
+	     org/eclipse/mylyn/internal/tasks/core/data/TaskDataStateReader.java
+	     org/eclipse/mylyn/internal/tasks/core/data/TaskDataStateWriter.java
+	     org/eclipse/mylyn/internal/tasks/core/data/TaskDataStore.java
+	     org/eclipse/mylyn/internal/tasks/core/data/TextTaskAttachmentSource.java
+	     org/eclipse/mylyn/internal/tasks/core/DateRange.java
+	     org/eclipse/mylyn/internal/tasks/core/DayDateRange.java
+	     org/eclipse/mylyn/internal/tasks/core/DefaultTaskMapping.java
+	     org/eclipse/mylyn/internal/tasks/core/externalization/AbstractExternalizationParticipant.java
+	     org/eclipse/mylyn/internal/tasks/core/externalization/DelegatingTaskExternalizer.java
+	     org/eclipse/mylyn/internal/tasks/core/externalization/ExternalizationManager.java
+	     org/eclipse/mylyn/internal/tasks/core/externalization/IExternalizationContext.java
+	     org/eclipse/mylyn/internal/tasks/core/externalization/IExternalizationParticipant.java
+	     org/eclipse/mylyn/internal/tasks/core/externalization/Messages.java
+	     org/eclipse/mylyn/internal/tasks/core/externalization/messages.properties
+	     org/eclipse/mylyn/internal/tasks/core/externalization/TaskActivationExternalizationParticipant.java
+	     org/eclipse/mylyn/internal/tasks/core/externalization/TaskListExternalizationParticipant.java
+	     org/eclipse/mylyn/internal/tasks/core/externalization/TaskListExternalizer.java
+	     org/eclipse/mylyn/internal/tasks/core/IRepositoryChangeListener.java
+	     org/eclipse/mylyn/internal/tasks/core/IRepositoryConstants.java
+	     org/eclipse/mylyn/internal/tasks/core/IRepositoryModelListener.java
+	     org/eclipse/mylyn/internal/tasks/core/ITaskJobFactory.java
+	     org/eclipse/mylyn/internal/tasks/core/ITaskList.java
+	     org/eclipse/mylyn/internal/tasks/core/ITaskListChangeListener.java
+	     org/eclipse/mylyn/internal/tasks/core/ITaskListRunnable.java
+	     org/eclipse/mylyn/internal/tasks/core/ITaskRepositoryElement.java
+	     org/eclipse/mylyn/internal/tasks/core/ITaskRepositoryFilter.java
+	     org/eclipse/mylyn/internal/tasks/core/ITasksCoreConstants.java
+	     org/eclipse/mylyn/internal/tasks/core/ITransferList.java
+	     org/eclipse/mylyn/internal/tasks/core/LocalRepositoryConnector.java
+	     org/eclipse/mylyn/internal/tasks/core/LocalTask.java
+	     org/eclipse/mylyn/internal/tasks/core/Messages.java
+	     org/eclipse/mylyn/internal/tasks/core/messages.properties
+	     org/eclipse/mylyn/internal/tasks/core/Person.java
+	     org/eclipse/mylyn/internal/tasks/core/RepositoryExternalizationParticipant.java
+	     org/eclipse/mylyn/internal/tasks/core/RepositoryModel.java
+	     org/eclipse/mylyn/internal/tasks/core/RepositoryPerson.java
+	     org/eclipse/mylyn/internal/tasks/core/RepositoryQuery.java
+	     org/eclipse/mylyn/internal/tasks/core/RepositoryTaskHandleUtil.java
+	     org/eclipse/mylyn/internal/tasks/core/RepositoryTemplateManager.java
+	     org/eclipse/mylyn/internal/tasks/core/SaxRepositoriesContentHandler.java
+	     org/eclipse/mylyn/internal/tasks/core/SaxRepositoriesWriter.java
+	     org/eclipse/mylyn/internal/tasks/core/ScheduledTaskContainer.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/DeleteTasksJob.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/GetTaskHistoryJob.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/Messages.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/messages.properties
+	     org/eclipse/mylyn/internal/tasks/core/sync/SubmitTaskAttachmentJob.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/SubmitTaskJob.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/SynchronizationScheduler.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/SynchronizationSession.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/SynchronizeQueriesJob.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/SynchronizeRepositoriesJob.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/SynchronizeTasksJob.java
+	     org/eclipse/mylyn/internal/tasks/core/sync/UpdateRepositoryConfigurationJob.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskActivationHistory.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskActivityManager.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskActivityUtil.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskAttachment.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskCategory.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskComment.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskContainerDelta.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskExternalizationException.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskGroup.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskJobFactory.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskList.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskRepositoriesExternalizer.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskRepositoryAdapter.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskRepositoryChangeEvent.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskRepositoryDelta.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskRepositoryLocation.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskRepositoryManager.java
+	     org/eclipse/mylyn/internal/tasks/core/TaskTask.java
+	     org/eclipse/mylyn/internal/tasks/core/TransferList.java
+	     org/eclipse/mylyn/internal/tasks/core/UncategorizedTaskContainer.java
+	     org/eclipse/mylyn/internal/tasks/core/UnmatchedTaskContainer.java
+	     org/eclipse/mylyn/internal/tasks/core/UnsubmittedTaskContainer.java
+	     org/eclipse/mylyn/internal/tasks/core/util/ContributorBlackList.java
+	     org/eclipse/mylyn/internal/tasks/core/util/KeyringMigrator.java
+	     org/eclipse/mylyn/internal/tasks/core/util/RepositoryConnectorExtensionReader.java
+	     org/eclipse/mylyn/internal/tasks/core/util/RepositoryConnectorLoader.java
+	     org/eclipse/mylyn/internal/tasks/core/util/RepositoryTemplateExtensionReader.java
+	     org/eclipse/mylyn/internal/tasks/core/util/TaskRepositoryKeyringMigrator.java
+	     org/eclipse/mylyn/internal/tasks/core/util/TaskRepositorySecureStoreMigrator.java
+	     org/eclipse/mylyn/internal/tasks/core/util/TasksCoreExtensionReader.java
+	     org/eclipse/mylyn/internal/tasks/core/WeekDateRange.java
+	     org/eclipse/mylyn/internal/tasks/core/XmlReaderUtil.java
+	     org/eclipse/mylyn/tasks/core/AbstractDuplicateDetector.java
+	     org/eclipse/mylyn/tasks/core/AbstractRepositoryConnector.java
+	     org/eclipse/mylyn/tasks/core/AbstractRepositoryMigrator.java
+	     org/eclipse/mylyn/tasks/core/AbstractTaskListMigrator.java
+	     org/eclipse/mylyn/tasks/core/activity/AbstractTaskActivityMonitor.java
+	     org/eclipse/mylyn/tasks/core/context/AbstractTaskContextStore.java
+	     org/eclipse/mylyn/tasks/core/data/AbstractTaskAttachmentHandler.java
+	     org/eclipse/mylyn/tasks/core/data/AbstractTaskAttachmentSource.java
+	     org/eclipse/mylyn/tasks/core/data/AbstractTaskDataHandler.java
+	     org/eclipse/mylyn/tasks/core/data/AbstractTaskSchema.java
+	     org/eclipse/mylyn/tasks/core/data/DefaultTaskSchema.java
+	     org/eclipse/mylyn/tasks/core/data/ITaskAttributeDiff.java
+	     org/eclipse/mylyn/tasks/core/data/ITaskDataDiff.java
+	     org/eclipse/mylyn/tasks/core/data/ITaskDataManager.java
+	     org/eclipse/mylyn/tasks/core/data/ITaskDataWorkingCopy.java
+	     org/eclipse/mylyn/tasks/core/data/TaskAttachmentMapper.java
+	     org/eclipse/mylyn/tasks/core/data/TaskAttachmentModel.java
+	     org/eclipse/mylyn/tasks/core/data/TaskAttachmentPartSource.java
+	     org/eclipse/mylyn/tasks/core/data/TaskAttribute.java
+	     org/eclipse/mylyn/tasks/core/data/TaskAttributeMapper.java
+	     org/eclipse/mylyn/tasks/core/data/TaskAttributeMetaData.java
+	     org/eclipse/mylyn/tasks/core/data/TaskCommentMapper.java
+	     org/eclipse/mylyn/tasks/core/data/TaskData.java
+	     org/eclipse/mylyn/tasks/core/data/TaskDataCollector.java
+	     org/eclipse/mylyn/tasks/core/data/TaskDataModel.java
+	     org/eclipse/mylyn/tasks/core/data/TaskDataModelEvent.java
+	     org/eclipse/mylyn/tasks/core/data/TaskDataModelListener.java
+	     org/eclipse/mylyn/tasks/core/data/TaskHistory.java
+	     org/eclipse/mylyn/tasks/core/data/TaskMapper.java
+	     org/eclipse/mylyn/tasks/core/data/TaskOperation.java
+	     org/eclipse/mylyn/tasks/core/data/TaskRelation.java
+	     org/eclipse/mylyn/tasks/core/data/TaskRevision.java
+	     org/eclipse/mylyn/tasks/core/data/UnsubmittedTaskAttachment.java
+	     org/eclipse/mylyn/tasks/core/IAttributeContainer.java
+	     org/eclipse/mylyn/tasks/core/IRepositoryElement.java
+	     org/eclipse/mylyn/tasks/core/IRepositoryListener.java
+	     org/eclipse/mylyn/tasks/core/IRepositoryManager.java
+	     org/eclipse/mylyn/tasks/core/IRepositoryModel.java
+	     org/eclipse/mylyn/tasks/core/IRepositoryPerson.java
+	     org/eclipse/mylyn/tasks/core/IRepositoryQuery.java
+	     org/eclipse/mylyn/tasks/core/ITask.java
+	     org/eclipse/mylyn/tasks/core/ITaskActivationListener.java
+	     org/eclipse/mylyn/tasks/core/ITaskActivityListener.java
+	     org/eclipse/mylyn/tasks/core/ITaskActivityManager.java
+	     org/eclipse/mylyn/tasks/core/ITaskActivityManager2.java
+	     org/eclipse/mylyn/tasks/core/ITaskAttachment.java
+	     org/eclipse/mylyn/tasks/core/ITaskComment.java
+	     org/eclipse/mylyn/tasks/core/ITaskContainer.java
+	     org/eclipse/mylyn/tasks/core/ITaskMapping.java
+	     org/eclipse/mylyn/tasks/core/RepositoryClientManager.java
+	     org/eclipse/mylyn/tasks/core/RepositoryInfo.java
+	     org/eclipse/mylyn/tasks/core/RepositoryResponse.java
+	     org/eclipse/mylyn/tasks/core/RepositoryStatus.java
+	     org/eclipse/mylyn/tasks/core/RepositoryTemplate.java
+	     org/eclipse/mylyn/tasks/core/RepositoryVersion.java
+	     org/eclipse/mylyn/tasks/core/spi/RepositoryConnectorBranding.java
+	     org/eclipse/mylyn/tasks/core/spi/RepositoryConnectorContributor.java
+	     org/eclipse/mylyn/tasks/core/spi/RepositoryConnectorDescriptor.java
+	     org/eclipse/mylyn/tasks/core/sync/ISynchronizationSession.java
+	     org/eclipse/mylyn/tasks/core/sync/SubmitJob.java
+	     org/eclipse/mylyn/tasks/core/sync/SubmitJobEvent.java
+	     org/eclipse/mylyn/tasks/core/sync/SubmitJobListener.java
+	     org/eclipse/mylyn/tasks/core/sync/SynchronizationJob.java
+	     org/eclipse/mylyn/tasks/core/sync/SynchronizationParticipant.java
+	     org/eclipse/mylyn/tasks/core/sync/TaskJob.java
+	     org/eclipse/mylyn/tasks/core/TaskActivationAdapter.java
+	     org/eclipse/mylyn/tasks/core/TaskActivityAdapter.java
+	     org/eclipse/mylyn/tasks/core/TaskInitializationData.java
+	     org/eclipse/mylyn/tasks/core/TaskJobEvent.java
+	     org/eclipse/mylyn/tasks/core/TaskJobListener.java
+	     org/eclipse/mylyn/tasks/core/TaskMapping.java
+	     org/eclipse/mylyn/tasks/core/TaskMigrationEvent.java
+	     org/eclipse/mylyn/tasks/core/TaskRepository.java
+	     org/eclipse/mylyn/tasks/core/TaskRepositoryLocationFactory.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.tasks.core.jar" path="org.eclipse.mylyn.tasks.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.xerces"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.annotation"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

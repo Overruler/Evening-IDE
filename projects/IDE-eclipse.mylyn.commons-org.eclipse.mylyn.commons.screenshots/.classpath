@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/draw16/edit_arrow1.gif
+	     icons/draw16/edit_arrow2.gif
+	     icons/draw16/edit_box.gif
+	     icons/draw16/edit_fill_box.gif
+	     icons/draw16/edit_fill_oval.gif
+	     icons/draw16/edit_fill_rbox.gif
+	     icons/draw16/edit_free.gif
+	     icons/draw16/edit_line.gif
+	     icons/draw16/edit_oval.gif
+	     icons/draw16/edit_rbox.gif
+	     icons/draw16/line_bold1.gif
+	     icons/draw16/line_bold2.gif
+	     icons/draw16/line_bold4.gif
+	     icons/draw16/line_bold8.gif
+	     icons/draw16/line_dash.gif
+	     icons/draw16/line_dash1d.gif
+	     icons/draw16/line_dash2d.gif
+	     icons/draw16/line_dot.gif
+	     icons/draw16/line_sold.gif
+	     icons/etool16/capture-fit.png
+	     icons/etool16/capture-screen-bold.png
+	     icons/etool16/capture-screen.png
+	     icons/etool16/clear.gif
+	     icons/etool16/clipboard_obj.gif
+	     icons/etool16/copy.png
+	     icons/etool16/cut.gif
+	     icons/etool16/edit.gif
+	     icons/etool16/file_obj.gif
+	     icons/etool16/monitor_delay_obj.gif
+	     icons/etool16/monitor_obj.gif
+	     icons/etool16/redo_edit.gif
+	     icons/etool16/select_rect.gif
+	     icons/etool16/undo_edit.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/draw16/*|icons/etool16/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.screenshots.jar" path="org.eclipse.mylyn.commons.screenshots"/>
+	<!-- org/eclipse/mylyn/commons/ui/screenshots/ScreenshotViewer.java
+	     org/eclipse/mylyn/internal/commons/ui/screenshots/Messages.java
+	     org/eclipse/mylyn/internal/commons/ui/screenshots/messages.properties
+	     org/eclipse/mylyn/internal/commons/ui/screenshots/ScreenshotImages.java
+	     org/eclipse/mylyn/internal/commons/ui/screenshots/SelectToolAction.java
+	     org/eclipse/mylyn/internal/commons/ui/screenshots/SwtUtil.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.screenshots.jar" path="org.eclipse.mylyn.commons.screenshots/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

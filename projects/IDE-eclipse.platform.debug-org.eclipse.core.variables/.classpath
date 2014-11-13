@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.variables.jar" path="org.eclipse.core.variables"/>
-	<!-- org\eclipse\core\internal\variables\ContributedValueVariable.java
-	     org\eclipse\core\internal\variables\DynamicVariable.java
-	     org\eclipse\core\internal\variables\EclipseHomeVariableResolver.java
-	     org\eclipse\core\internal\variables\StringSubstitutionEngine.java
-	     org\eclipse\core\internal\variables\StringVariable.java
-	     org\eclipse\core\internal\variables\StringVariableManager.java
-	     org\eclipse\core\internal\variables\ValueVariable.java
-	     org\eclipse\core\internal\variables\VariablesMessages.java
-	     org\eclipse\core\internal\variables\VariablesMessages.properties
-	     org\eclipse\core\variables\IDynamicVariable.java
-	     org\eclipse\core\variables\IDynamicVariableResolver.java
-	     org\eclipse\core\variables\IStringVariable.java
-	     org\eclipse\core\variables\IStringVariableManager.java
-	     org\eclipse\core\variables\IValueVariable.java
-	     org\eclipse\core\variables\IValueVariableInitializer.java
-	     org\eclipse\core\variables\IValueVariableListener.java
-	     org\eclipse\core\variables\VariablesPlugin.java -->
+	<!-- org/eclipse/core/internal/variables/ContributedValueVariable.java
+	     org/eclipse/core/internal/variables/DynamicVariable.java
+	     org/eclipse/core/internal/variables/EclipseHomeVariableResolver.java
+	     org/eclipse/core/internal/variables/StringSubstitutionEngine.java
+	     org/eclipse/core/internal/variables/StringVariable.java
+	     org/eclipse/core/internal/variables/StringVariableManager.java
+	     org/eclipse/core/internal/variables/ValueVariable.java
+	     org/eclipse/core/internal/variables/VariablesMessages.java
+	     org/eclipse/core/internal/variables/VariablesMessages.properties
+	     org/eclipse/core/variables/IDynamicVariable.java
+	     org/eclipse/core/variables/IDynamicVariableResolver.java
+	     org/eclipse/core/variables/IStringVariable.java
+	     org/eclipse/core/variables/IStringVariableManager.java
+	     org/eclipse/core/variables/IValueVariable.java
+	     org/eclipse/core/variables/IValueVariableInitializer.java
+	     org/eclipse/core/variables/IValueVariableListener.java
+	     org/eclipse/core/variables/VariablesPlugin.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.variables.jar" path="org.eclipse.core.variables/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>

@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.views.properties.tabbed.jar" path="org.eclipse.ui.views.properties.tabbed"/>
-	<!-- org\eclipse\ui\internal\views\properties\tabbed\l10n\TabbedPropertyMessages.java
-	     org\eclipse\ui\internal\views\properties\tabbed\l10n\TabbedPropertyMessages.properties
-	     org\eclipse\ui\internal\views\properties\tabbed\TabbedPropertyViewPlugin.java
-	     org\eclipse\ui\internal\views\properties\tabbed\TabbedPropertyViewStatusCodes.java
-	     org\eclipse\ui\internal\views\properties\tabbed\view\SectionDescriptor.java
-	     org\eclipse\ui\internal\views\properties\tabbed\view\TabbedPropertyComposite.java
-	     org\eclipse\ui\internal\views\properties\tabbed\view\TabbedPropertyList.java
-	     org\eclipse\ui\internal\views\properties\tabbed\view\TabbedPropertyRegistry.java
-	     org\eclipse\ui\internal\views\properties\tabbed\view\TabbedPropertyRegistryClassSectionFilter.java
-	     org\eclipse\ui\internal\views\properties\tabbed\view\TabbedPropertyRegistryFactory.java
-	     org\eclipse\ui\internal\views\properties\tabbed\view\TabbedPropertyTitle.java
-	     org\eclipse\ui\internal\views\properties\tabbed\view\TabbedPropertyViewer.java
-	     org\eclipse\ui\internal\views\properties\tabbed\view\TabDescriptor.java
-	     org\eclipse\ui\internal\views\properties\tabbed\view\TabListContentProvider.java
-	     org\eclipse\ui\views\properties\tabbed\AbstractOverridableTabListPropertySection.java
-	     org\eclipse\ui\views\properties\tabbed\AbstractPropertySection.java
-	     org\eclipse\ui\views\properties\tabbed\AbstractSectionDescriptor.java
-	     org\eclipse\ui\views\properties\tabbed\AbstractTabDescriptor.java
-	     org\eclipse\ui\views\properties\tabbed\AbstractTypeMapper.java
-	     org\eclipse\ui\views\properties\tabbed\AdvancedPropertySection.java
-	     org\eclipse\ui\views\properties\tabbed\IActionProvider.java
-	     org\eclipse\ui\views\properties\tabbed\IOverridableTabList.java
-	     org\eclipse\ui\views\properties\tabbed\IOverridableTabListContentProvider.java
-	     org\eclipse\ui\views\properties\tabbed\ISection.java
-	     org\eclipse\ui\views\properties\tabbed\ISectionDescriptor.java
-	     org\eclipse\ui\views\properties\tabbed\ISectionDescriptorProvider.java
-	     org\eclipse\ui\views\properties\tabbed\ITabbedPropertyConstants.java
-	     org\eclipse\ui\views\properties\tabbed\ITabbedPropertySheetPageContributor.java
-	     org\eclipse\ui\views\properties\tabbed\ITabDescriptor.java
-	     org\eclipse\ui\views\properties\tabbed\ITabDescriptorProvider.java
-	     org\eclipse\ui\views\properties\tabbed\ITabItem.java
-	     org\eclipse\ui\views\properties\tabbed\ITabSelectionListener.java
-	     org\eclipse\ui\views\properties\tabbed\ITypeMapper.java
-	     org\eclipse\ui\views\properties\tabbed\TabbedPropertySheetPage.java
-	     org\eclipse\ui\views\properties\tabbed\TabbedPropertySheetWidgetFactory.java
-	     org\eclipse\ui\views\properties\tabbed\TabContents.java -->
+	<!-- org/eclipse/ui/internal/views/properties/tabbed/l10n/TabbedPropertyMessages.java
+	     org/eclipse/ui/internal/views/properties/tabbed/l10n/TabbedPropertyMessages.properties
+	     org/eclipse/ui/internal/views/properties/tabbed/TabbedPropertyViewPlugin.java
+	     org/eclipse/ui/internal/views/properties/tabbed/TabbedPropertyViewStatusCodes.java
+	     org/eclipse/ui/internal/views/properties/tabbed/view/SectionDescriptor.java
+	     org/eclipse/ui/internal/views/properties/tabbed/view/TabbedPropertyComposite.java
+	     org/eclipse/ui/internal/views/properties/tabbed/view/TabbedPropertyList.java
+	     org/eclipse/ui/internal/views/properties/tabbed/view/TabbedPropertyRegistry.java
+	     org/eclipse/ui/internal/views/properties/tabbed/view/TabbedPropertyRegistryClassSectionFilter.java
+	     org/eclipse/ui/internal/views/properties/tabbed/view/TabbedPropertyRegistryFactory.java
+	     org/eclipse/ui/internal/views/properties/tabbed/view/TabbedPropertyTitle.java
+	     org/eclipse/ui/internal/views/properties/tabbed/view/TabbedPropertyViewer.java
+	     org/eclipse/ui/internal/views/properties/tabbed/view/TabDescriptor.java
+	     org/eclipse/ui/internal/views/properties/tabbed/view/TabListContentProvider.java
+	     org/eclipse/ui/views/properties/tabbed/AbstractOverridableTabListPropertySection.java
+	     org/eclipse/ui/views/properties/tabbed/AbstractPropertySection.java
+	     org/eclipse/ui/views/properties/tabbed/AbstractSectionDescriptor.java
+	     org/eclipse/ui/views/properties/tabbed/AbstractTabDescriptor.java
+	     org/eclipse/ui/views/properties/tabbed/AbstractTypeMapper.java
+	     org/eclipse/ui/views/properties/tabbed/AdvancedPropertySection.java
+	     org/eclipse/ui/views/properties/tabbed/IActionProvider.java
+	     org/eclipse/ui/views/properties/tabbed/IOverridableTabList.java
+	     org/eclipse/ui/views/properties/tabbed/IOverridableTabListContentProvider.java
+	     org/eclipse/ui/views/properties/tabbed/ISection.java
+	     org/eclipse/ui/views/properties/tabbed/ISectionDescriptor.java
+	     org/eclipse/ui/views/properties/tabbed/ISectionDescriptorProvider.java
+	     org/eclipse/ui/views/properties/tabbed/ITabbedPropertyConstants.java
+	     org/eclipse/ui/views/properties/tabbed/ITabbedPropertySheetPageContributor.java
+	     org/eclipse/ui/views/properties/tabbed/ITabDescriptor.java
+	     org/eclipse/ui/views/properties/tabbed/ITabDescriptorProvider.java
+	     org/eclipse/ui/views/properties/tabbed/ITabItem.java
+	     org/eclipse/ui/views/properties/tabbed/ITabSelectionListener.java
+	     org/eclipse/ui/views/properties/tabbed/ITypeMapper.java
+	     org/eclipse/ui/views/properties/tabbed/TabbedPropertySheetPage.java
+	     org/eclipse/ui/views/properties/tabbed/TabbedPropertySheetWidgetFactory.java
+	     org/eclipse/ui/views/properties/tabbed/TabContents.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.views.properties.tabbed.jar" path="org.eclipse.ui.views.properties.tabbed/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>

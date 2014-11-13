@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     about_files\LICENSE
-	     META-INF\DEPENDENCIES
-	     META-INF\LICENSE
-	     META-INF\MANIFEST.MF
-	     META-INF\maven\org.apache.felix\org.apache.felix.gogo.runtime\pom.properties
-	     META-INF\maven\org.apache.felix\org.apache.felix.gogo.runtime\pom.xml
-	     META-INF\NOTICE
+	     about_files/LICENSE
+	     META-INF/DEPENDENCIES
+	     META-INF/LICENSE
+	     META-INF/MANIFEST.MF
+	     META-INF/maven/org.apache.felix/org.apache.felix.gogo.runtime/pom.properties
+	     META-INF/maven/org.apache.felix/org.apache.felix.gogo.runtime/pom.xml
+	     META-INF/NOTICE
 	     plugin.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.felix.gogo.runtime.jar" path="res"/>
-	<!-- org\apache\felix\gogo\api\CommandSessionListener.java
-	     org\apache\felix\gogo\runtime\activator\Activator.java
-	     org\apache\felix\gogo\runtime\Closure.java
-	     org\apache\felix\gogo\runtime\CommandNotFoundException.java
-	     org\apache\felix\gogo\runtime\CommandProcessorImpl.java
-	     org\apache\felix\gogo\runtime\CommandProxy.java
-	     org\apache\felix\gogo\runtime\CommandSessionImpl.java
-	     org\apache\felix\gogo\runtime\EOFError.java
-	     org\apache\felix\gogo\runtime\Evaluate.java
-	     org\apache\felix\gogo\runtime\Parser.java
-	     org\apache\felix\gogo\runtime\Pipe.java
-	     org\apache\felix\gogo\runtime\Reflective.java
-	     org\apache\felix\gogo\runtime\SyntaxError.java
-	     org\apache\felix\gogo\runtime\threadio\Marker.java
-	     org\apache\felix\gogo\runtime\threadio\ThreadInputStream.java
-	     org\apache\felix\gogo\runtime\threadio\ThreadIOImpl.java
-	     org\apache\felix\gogo\runtime\threadio\ThreadPrintStream.java
-	     org\apache\felix\gogo\runtime\Token.java
-	     org\apache\felix\gogo\runtime\Tokenizer.java
-	     org\apache\felix\service\command\CommandProcessor.java
-	     org\apache\felix\service\command\CommandSession.java
-	     org\apache\felix\service\command\Converter.java
-	     org\apache\felix\service\command\Descriptor.java
-	     org\apache\felix\service\command\Function.java
-	     org\apache\felix\service\command\Parameter.java
-	     org\apache\felix\service\threadio\ThreadIO.java -->
+	<!-- org/apache/felix/gogo/api/CommandSessionListener.java
+	     org/apache/felix/gogo/runtime/activator/Activator.java
+	     org/apache/felix/gogo/runtime/Closure.java
+	     org/apache/felix/gogo/runtime/CommandNotFoundException.java
+	     org/apache/felix/gogo/runtime/CommandProcessorImpl.java
+	     org/apache/felix/gogo/runtime/CommandProxy.java
+	     org/apache/felix/gogo/runtime/CommandSessionImpl.java
+	     org/apache/felix/gogo/runtime/EOFError.java
+	     org/apache/felix/gogo/runtime/Evaluate.java
+	     org/apache/felix/gogo/runtime/Parser.java
+	     org/apache/felix/gogo/runtime/Pipe.java
+	     org/apache/felix/gogo/runtime/Reflective.java
+	     org/apache/felix/gogo/runtime/SyntaxError.java
+	     org/apache/felix/gogo/runtime/threadio/Marker.java
+	     org/apache/felix/gogo/runtime/threadio/ThreadInputStream.java
+	     org/apache/felix/gogo/runtime/threadio/ThreadIOImpl.java
+	     org/apache/felix/gogo/runtime/threadio/ThreadPrintStream.java
+	     org/apache/felix/gogo/runtime/Token.java
+	     org/apache/felix/gogo/runtime/Tokenizer.java
+	     org/apache/felix/service/command/CommandProcessor.java
+	     org/apache/felix/service/command/CommandSession.java
+	     org/apache/felix/service/command/Converter.java
+	     org/apache/felix/service/command/Descriptor.java
+	     org/apache/felix/service/command/Function.java
+	     org/apache/felix/service/command/Parameter.java
+	     org/apache/felix/service/threadio/ThreadIO.java -->
 	<classpathentry excluding="org/apache/felix/gogo/runtime/activator/EventAdminListener.java" kind="src" output="bin/1/plugins/org.apache.felix.gogo.runtime.jar" path="runtime/src/main/java"/>
-	<!-- org\apache\felix\gogo\runtime\activator\EventAdminListener.java -->
+	<!-- org/apache/felix/gogo/runtime/activator/EventAdminListener.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.felix.gogo.runtime.jar" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>

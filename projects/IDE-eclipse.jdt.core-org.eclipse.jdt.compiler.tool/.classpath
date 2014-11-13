@@ -2,20 +2,20 @@
 <classpath>
 	<!-- about.html
 	     compiler_tool_fragment.properties
-	     META-INF\MANIFEST.MF -->
+	     META-INF/MANIFEST.MF -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|compiler_tool_fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.jdt.compiler.tool.jar" path="org.eclipse.jdt.compiler.tool"/>
-	<!-- META-INF\services\javax.tools.JavaCompiler
-	     org\eclipse\jdt\internal\compiler\tool\Archive.java
-	     org\eclipse\jdt\internal\compiler\tool\ArchiveFileObject.java
-	     org\eclipse\jdt\internal\compiler\tool\EclipseBatchRequestor.java
-	     org\eclipse\jdt\internal\compiler\tool\EclipseCompiler.java
-	     org\eclipse\jdt\internal\compiler\tool\EclipseCompilerImpl.java
-	     org\eclipse\jdt\internal\compiler\tool\EclipseCompilerRequestor.java
-	     org\eclipse\jdt\internal\compiler\tool\EclipseDiagnostic.java
-	     org\eclipse\jdt\internal\compiler\tool\EclipseFileManager.java
-	     org\eclipse\jdt\internal\compiler\tool\EclipseFileObject.java
-	     org\eclipse\jdt\internal\compiler\tool\Options.java
-	     org\eclipse\jdt\internal\compiler\tool\Util.java -->
+	<!-- META-INF/services/javax.tools.JavaCompiler
+	     org/eclipse/jdt/internal/compiler/tool/Archive.java
+	     org/eclipse/jdt/internal/compiler/tool/ArchiveFileObject.java
+	     org/eclipse/jdt/internal/compiler/tool/EclipseBatchRequestor.java
+	     org/eclipse/jdt/internal/compiler/tool/EclipseCompiler.java
+	     org/eclipse/jdt/internal/compiler/tool/EclipseCompilerImpl.java
+	     org/eclipse/jdt/internal/compiler/tool/EclipseCompilerRequestor.java
+	     org/eclipse/jdt/internal/compiler/tool/EclipseDiagnostic.java
+	     org/eclipse/jdt/internal/compiler/tool/EclipseFileManager.java
+	     org/eclipse/jdt/internal/compiler/tool/EclipseFileObject.java
+	     org/eclipse/jdt/internal/compiler/tool/Options.java
+	     org/eclipse/jdt/internal/compiler/tool/Util.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.compiler.tool.jar" path="org.eclipse.jdt.compiler.tool/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>

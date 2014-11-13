@@ -2,57 +2,57 @@
 <classpath>
 	<!-- .options
 	     about.html
-	     about_files\LICENSE-2.0.txt
-	     META-INF\MANIFEST.MF
+	     about_files/LICENSE-2.0.txt
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|about_files/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.preferences.jar" path="org.eclipse.equinox.preferences"/>
-	<!-- org\eclipse\core\internal\preferences\AbstractScope.java
-	     org\eclipse\core\internal\preferences\Activator.java
-	     org\eclipse\core\internal\preferences\Base64.java
-	     org\eclipse\core\internal\preferences\BundleDefaultPreferences.java
-	     org\eclipse\core\internal\preferences\ConfigurationPreferences.java
-	     org\eclipse\core\internal\preferences\DefaultPreferences.java
-	     org\eclipse\core\internal\preferences\EclipsePreferences.java
-	     org\eclipse\core\internal\preferences\exchange\ILegacyPreferences.java
-	     org\eclipse\core\internal\preferences\exchange\IProductPreferencesService.java
-	     org\eclipse\core\internal\preferences\ExportedPreferences.java
-	     org\eclipse\core\internal\preferences\ImmutableMap.java
-	     org\eclipse\core\internal\preferences\InstancePreferences.java
-	     org\eclipse\core\internal\preferences\IPreferencesConstants.java
-	     org\eclipse\core\internal\preferences\ListenerRegistry.java
-	     org\eclipse\core\internal\preferences\LookupOrder.java
-	     org\eclipse\core\internal\preferences\messages.properties
-	     org\eclipse\core\internal\preferences\OSGiPreferencesServiceImpl.java
-	     org\eclipse\core\internal\preferences\OSGiPreferencesServiceManager.java
-	     org\eclipse\core\internal\preferences\PreferenceServiceRegistryHelper.java
-	     org\eclipse\core\internal\preferences\PreferencesOSGiUtils.java
-	     org\eclipse\core\internal\preferences\PreferencesService.java
-	     org\eclipse\core\internal\preferences\PrefsMessages.java
-	     org\eclipse\core\internal\preferences\RootPreferences.java
-	     org\eclipse\core\internal\preferences\SafeFileInputStream.java
-	     org\eclipse\core\internal\preferences\SafeFileOutputStream.java
-	     org\eclipse\core\internal\preferences\ScopeDescriptor.java
-	     org\eclipse\core\internal\preferences\StringPool.java
-	     org\eclipse\core\internal\preferences\TestHelper.java
-	     org\eclipse\core\runtime\preferences\AbstractPreferenceInitializer.java
-	     org\eclipse\core\runtime\preferences\AbstractPreferenceStorage.java
-	     org\eclipse\core\runtime\preferences\BundleDefaultsScope.java
-	     org\eclipse\core\runtime\preferences\ConfigurationScope.java
-	     org\eclipse\core\runtime\preferences\DefaultScope.java
-	     org\eclipse\core\runtime\preferences\IEclipsePreferences.java
-	     org\eclipse\core\runtime\preferences\IExportedPreferences.java
-	     org\eclipse\core\runtime\preferences\InstanceScope.java
-	     org\eclipse\core\runtime\preferences\IPreferenceFilter.java
-	     org\eclipse\core\runtime\preferences\IPreferenceNodeVisitor.java
-	     org\eclipse\core\runtime\preferences\IPreferencesService.java
-	     org\eclipse\core\runtime\preferences\IScope.java
-	     org\eclipse\core\runtime\preferences\IScopeContext.java
-	     org\eclipse\core\runtime\preferences\PreferenceFilterEntry.java
-	     org\eclipse\core\runtime\preferences\PreferenceModifyListener.java
-	     org\osgi\service\prefs\BackingStoreException.java
-	     org\osgi\service\prefs\Preferences.java
-	     org\osgi\service\prefs\PreferencesService.java -->
+	<!-- org/eclipse/core/internal/preferences/AbstractScope.java
+	     org/eclipse/core/internal/preferences/Activator.java
+	     org/eclipse/core/internal/preferences/Base64.java
+	     org/eclipse/core/internal/preferences/BundleDefaultPreferences.java
+	     org/eclipse/core/internal/preferences/ConfigurationPreferences.java
+	     org/eclipse/core/internal/preferences/DefaultPreferences.java
+	     org/eclipse/core/internal/preferences/EclipsePreferences.java
+	     org/eclipse/core/internal/preferences/exchange/ILegacyPreferences.java
+	     org/eclipse/core/internal/preferences/exchange/IProductPreferencesService.java
+	     org/eclipse/core/internal/preferences/ExportedPreferences.java
+	     org/eclipse/core/internal/preferences/ImmutableMap.java
+	     org/eclipse/core/internal/preferences/InstancePreferences.java
+	     org/eclipse/core/internal/preferences/IPreferencesConstants.java
+	     org/eclipse/core/internal/preferences/ListenerRegistry.java
+	     org/eclipse/core/internal/preferences/LookupOrder.java
+	     org/eclipse/core/internal/preferences/messages.properties
+	     org/eclipse/core/internal/preferences/OSGiPreferencesServiceImpl.java
+	     org/eclipse/core/internal/preferences/OSGiPreferencesServiceManager.java
+	     org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.java
+	     org/eclipse/core/internal/preferences/PreferencesOSGiUtils.java
+	     org/eclipse/core/internal/preferences/PreferencesService.java
+	     org/eclipse/core/internal/preferences/PrefsMessages.java
+	     org/eclipse/core/internal/preferences/RootPreferences.java
+	     org/eclipse/core/internal/preferences/SafeFileInputStream.java
+	     org/eclipse/core/internal/preferences/SafeFileOutputStream.java
+	     org/eclipse/core/internal/preferences/ScopeDescriptor.java
+	     org/eclipse/core/internal/preferences/StringPool.java
+	     org/eclipse/core/internal/preferences/TestHelper.java
+	     org/eclipse/core/runtime/preferences/AbstractPreferenceInitializer.java
+	     org/eclipse/core/runtime/preferences/AbstractPreferenceStorage.java
+	     org/eclipse/core/runtime/preferences/BundleDefaultsScope.java
+	     org/eclipse/core/runtime/preferences/ConfigurationScope.java
+	     org/eclipse/core/runtime/preferences/DefaultScope.java
+	     org/eclipse/core/runtime/preferences/IEclipsePreferences.java
+	     org/eclipse/core/runtime/preferences/IExportedPreferences.java
+	     org/eclipse/core/runtime/preferences/InstanceScope.java
+	     org/eclipse/core/runtime/preferences/IPreferenceFilter.java
+	     org/eclipse/core/runtime/preferences/IPreferenceNodeVisitor.java
+	     org/eclipse/core/runtime/preferences/IPreferencesService.java
+	     org/eclipse/core/runtime/preferences/IScope.java
+	     org/eclipse/core/runtime/preferences/IScopeContext.java
+	     org/eclipse/core/runtime/preferences/PreferenceFilterEntry.java
+	     org/eclipse/core/runtime/preferences/PreferenceModifyListener.java
+	     org/osgi/service/prefs/BackingStoreException.java
+	     org/osgi/service/prefs/Preferences.java
+	     org/osgi/service/prefs/PreferencesService.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.preferences.jar" path="org.eclipse.equinox.preferences/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>

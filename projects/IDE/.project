@@ -41,9 +41,29 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-apache.felix</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-compile-apache.maven</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-apache.maven</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-compile-com.jcraft.jzlib</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-com.jcraft.jzlib</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-compile-gwt</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-gwt</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-compile-jsr305</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-jsr305</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-compile-lucene-2.9.4</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-lucene-2.9.4</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-compile-netrexx</name>
@@ -73,7 +93,7 @@
 		<link>
 			<name>links/IDE-compile-org.slf4j</name>
 			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-org.slf4j</locationURI>
+			<location>C:/Evening-IDE/projects/IDE-compile-org.slf4j</location>
 		</link>
 		<link>
 			<name>links/IDE-compile-org.tukaani.xz</name>
@@ -89,6 +109,16 @@
 			<name>links/IDE-compile-various.caches</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-various.caches</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.e4.tools-org.eclipse.e4.tools.css.spy</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.e4.tools-org.eclipse.e4.tools.css.spy</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.e4.tools-org.eclipse.e4.tools.spy</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.e4.tools-org.eclipse.e4.tools.spy</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.ecf-org.eclipse.ecf</name>
@@ -151,6 +181,26 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.egit-org.eclipse.egit.ui</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.egit.github-org.eclipse.egit.github.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.egit.github-org.eclipse.egit.github.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.egit.github-org.eclipse.mylyn.github.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.egit.github-org.eclipse.mylyn.github.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.egit.github-org.eclipse.mylyn.github.doc</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.egit.github-org.eclipse.mylyn.github.doc</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.egit.github-org.eclipse.mylyn.github.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.egit.github-org.eclipse.mylyn.github.ui</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.emf-org.eclipse.emf.common</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.emf-org.eclipse.emf.common</locationURI>
@@ -166,14 +216,29 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.emf-org.eclipse.emf.ecore.change</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.emf-org.eclipse.emf.ecore.edit</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.emf-org.eclipse.emf.ecore.edit</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.emf-org.eclipse.emf.edit</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.emf-org.eclipse.emf.edit</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.epp-org.eclipse.epp.package.committers</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.epp-org.eclipse.epp.package.committers</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.gef-org.eclipse.draw2d</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.gef-org.eclipse.draw2d</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.jdt-org.eclipse.jdt</name>
@@ -234,6 +299,16 @@
 			<name>links/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching.macosx</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching.macosx</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching.ui.macosx</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching.ui.macosx</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.jdt.ui-org.eclipse.jdt.core.manipulation</name>
@@ -321,6 +396,111 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.jgit-org.eclipse.jgit.archive</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.jgit-org.eclipse.jgit.pgm</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.jgit-org.eclipse.jgit.pgm</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.jgit-org.eclipse.jgit.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.jgit-org.eclipse.jgit.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.archetype.common</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.archetype.common</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.core.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.core.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.discovery</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.discovery</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.editor</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.editor</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.editor.xml</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.editor.xml</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.jdt</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.jdt</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.jdt.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.jdt.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.launching</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.launching</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.lifecyclemapping.defaults</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.lifecyclemapping.defaults</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.indexer</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.indexer</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime.slf4j.simple</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime.slf4j.simple</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.model.edit</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.model.edit</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.profiles.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.profiles.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.profiles.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.profiles.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.refactoring</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.refactoring</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.scm</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.scm</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.workspace.cli</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.workspace.cli</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.mpc-org.eclipse.epp.mpc.core</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mpc-org.eclipse.epp.mpc.core</locationURI>
@@ -334,6 +514,286 @@
 			<name>links/IDE-eclipse.mpc-org.eclipse.epp.mpc.ui</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mpc-org.eclipse.epp.mpc.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.identity.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.identity.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.feed</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.feed</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.screenshots</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.screenshots</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.xmlrpc</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.xmlrpc</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.discovery.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.discovery.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.discovery.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.discovery.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.tasks.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.tasks.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.context-org.eclipse.mylyn.resources.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.resources.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.confluence.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.confluence.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.confluence.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.confluence.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.context.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.context.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core.ant</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core.ant</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core.osgi</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core.osgi</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.help.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.help.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.html.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.html.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.markdown.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.markdown.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.markdown.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.markdown.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.mediawiki.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.mediawiki.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.mediawiki.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.mediawiki.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.tasks.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.tasks.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.textile.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.textile.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.textile.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.textile.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.tracwiki.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.tracwiki.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.tracwiki.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.tracwiki.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.twiki.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.twiki.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.twiki.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.twiki.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.gerrit.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.gerrit.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.gerrit.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.gerrit.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.reviews.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.reviews.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.reviews.edit</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.reviews.edit</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.reviews.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.reviews.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.bugzilla.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.bugzilla.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.bugzilla.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.bugzilla.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.index.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.index.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.index.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.index.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.search</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.search</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.git.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.git.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.git.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.git.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.versions.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.versions.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.versions.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.versions.ui</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.pde.build-org.eclipse.pde.build</name>
@@ -441,6 +901,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform-org.eclipse.platform</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.platform-org.eclipse.sdk</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform-org.eclipse.sdk</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.platform-org.eclipse.update.configurator</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform-org.eclipse.update.configurator</locationURI>
@@ -521,6 +986,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.resources-org.eclipse.core.filesystem.java7</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.platform.resources-org.eclipse.core.filesystem.linux.x86_64</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.resources-org.eclipse.core.filesystem.linux.x86_64</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.platform.resources-org.eclipse.core.filesystem.macosx</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.resources-org.eclipse.core.filesystem.macosx</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.platform.resources-org.eclipse.core.filesystem.win32.x86_64</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.resources-org.eclipse.core.filesystem.win32.x86_64</locationURI>
@@ -591,6 +1066,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.swt-org.eclipse.swt</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.platform.swt.binaries-org.eclipse.swt.cocoa.macosx.x86_64</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.swt.binaries-org.eclipse.swt.cocoa.macosx.x86_64</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.platform.swt.binaries-org.eclipse.swt.gtk.linux.x86_64</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.swt.binaries-org.eclipse.swt.gtk.linux.x86_64</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.platform.swt.binaries-org.eclipse.swt.win32.win32.x86_64</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.swt.binaries-org.eclipse.swt.win32.win32.x86_64</locationURI>
@@ -614,6 +1099,11 @@
 			<name>links/IDE-eclipse.platform.team-org.eclipse.core.net</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.team-org.eclipse.core.net</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.platform.team-org.eclipse.core.net.linux.x86_64</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.team-org.eclipse.core.net.linux.x86_64</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.platform.team-org.eclipse.core.net.win32.x86_64</name>
@@ -811,6 +1301,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench.renderers.swt</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench.renderers.swt.cocoa</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench.renderers.swt.cocoa</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench.swt</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench.swt</locationURI>
@@ -841,6 +1336,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.ui.browser</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.platform.ui-org.eclipse.ui.cocoa</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.ui.cocoa</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.platform.ui-org.eclipse.ui.forms</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.ui.forms</locationURI>
@@ -854,6 +1354,11 @@
 			<name>links/IDE-eclipse.platform.ui-org.eclipse.ui.ide.application</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.ui.ide.application</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.platform.ui-org.eclipse.ui.monitoring</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.ui.monitoring</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.platform.ui-org.eclipse.ui.navigator</name>
@@ -889,6 +1394,16 @@
 			<name>links/IDE-eclipse.platform.ui-org.eclipse.ui.workbench</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.ui.workbench</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.rt.equinox.binaries-org.eclipse.equinox.launcher.cocoa.macosx.x86_64</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.rt.equinox.binaries-org.eclipse.equinox.launcher.cocoa.macosx.x86_64</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.rt.equinox.binaries-org.eclipse.equinox.launcher.gtk.linux.x86_64</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.rt.equinox.binaries-org.eclipse.equinox.launcher.gtk.linux.x86_64</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.rt.equinox.binaries-org.eclipse.equinox.launcher.win32.win32.x86_64</name>
@@ -969,6 +1484,11 @@
 			<name>links/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security.macosx</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security.macosx</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security.ui</name>
@@ -1186,6 +1706,141 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.simpleconfigurator.manipulator</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.jem.util</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.jem.util</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.wst.common.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.wst.common.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.wst.common.emf</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.wst.common.emf</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.wst.common.emfworkbench.integration</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.wst.common.emfworkbench.integration</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.wst.common.environment</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.wst.common.environment</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.wst.common.frameworks</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.wst.common.frameworks</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.wst.common.frameworks.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.wst.common.frameworks.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.wst.common.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.wst.common.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.wst.common.uriresolver</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.wst.common.uriresolver</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.wst.validation</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.wst.validation</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common-org.eclipse.wst.validation.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common-org.eclipse.wst.validation.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-common.fproj-org.eclipse.wst.common.project.facet.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-common.fproj-org.eclipse.wst.common.project.facet.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xml.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xml.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xml.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xml.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xsd.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xsd.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.xsd-org.eclipse.xsd</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.xsd-org.eclipse.xsd</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-com.google.gerrit.common</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.google.gerrit.common</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-com.google.gerrit.prettify</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.google.gerrit.prettify</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-com.google.gerrit.reviewdb</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.google.gerrit.reviewdb</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-com.google.gson</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.google.gson</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-com.google.guava</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.google.guava</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-com.google.gwt.servlet</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.google.gwt.servlet</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-com.google.gwtjsonrpc</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.google.gwtjsonrpc</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-com.google.gwtorm</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.google.gwtorm</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-com.google.protobuf</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.google.protobuf</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-other-com.ibm.icu</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.ibm.icu</locationURI>
@@ -1199,6 +1854,11 @@
 			<name>links/IDE-other-com.sun.el</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.sun.el</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-it.unibz.instasearch</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-it.unibz.instasearch</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-other-javaewah</name>
@@ -1236,14 +1896,29 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-javax.xml</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-other-net.jeeeyul.eclipse.themes</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-net.jeeeyul.eclipse.themes</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-net.jeeeyul.eclipse.themes.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-net.jeeeyul.eclipse.themes.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-net.jeeeyul.swtend</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-net.jeeeyul.swtend</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.antlr.runtime</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.antlr.runtime</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-other-org.apache.ant</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.ant</locationURI>
-		</link>
-		<link>
-			<name>links/IDE-other-org.apache.ant-2</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.ant-2</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-other-org.apache.batik.css</name>
@@ -1269,6 +1944,21 @@
 			<name>links/IDE-other-org.apache.commons.compress</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.commons.compress</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.commons.httpclient</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.commons.httpclient</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.commons.io</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.commons.io</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.commons.lang</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.commons.lang</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-other-org.apache.commons.logging</name>
@@ -1306,6 +1996,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.jasper.glassfish</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-other-org.apache.lucene</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-other-org.apache.lucene.analysis</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.analysis</locationURI>
@@ -1316,14 +2011,89 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.core</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-other-org.apache.lucene.highlighter</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.highlighter</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.lucene.memory</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.memory</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.lucene.misc</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.misc</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.lucene.queries</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.queries</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.lucene.snowball</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.snowball</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.lucene.spellchecker</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.spellchecker</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.ws.commons.util</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.ws.commons.util</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.xerces</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.xerces</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.xml.resolver</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.xml.resolver</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.xml.serializer</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.xml.serializer</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.xmlrpc</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.xmlrpc</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.eclipse_icons.editor</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.eclipse_icons.editor</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-other-org.hamcrest.core</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.hamcrest.core</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-other-org.jsoup</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.jsoup</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-other-org.junit</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.junit</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.kohsuke.args4j</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.kohsuke.args4j</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.nodeclipse.pluginslist.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.nodeclipse.pluginslist.core</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-other-org.objectweb.asm</name>
@@ -1346,6 +2116,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.sat4j.pb</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-other-org.slf4j.api</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.slf4j.api</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-other-org.w3c.css.sac</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.w3c.css.sac</locationURI>
@@ -1364,6 +2139,11 @@
 			<name>links/IDE-other-org.w3c.dom.svg</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.w3c.dom.svg</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-pm.eclipse.editbox</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-pm.eclipse.editbox</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/l10n/bundle.properties
+	     META-INF/MANIFEST.MF -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|META-INF/l10n/*|about.html" kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.core.ant.jar" path="org.eclipse.mylyn.wikitext.core.ant"/>
+	<!-- org/eclipse/mylyn/internal/wikitext/core/ant/HtmlToMarkupTask.java
+	     org/eclipse/mylyn/internal/wikitext/core/ant/MarkupTask.java
+	     org/eclipse/mylyn/internal/wikitext/core/ant/MarkupToDitaTask.java
+	     org/eclipse/mylyn/internal/wikitext/core/ant/MarkupToDocbookTask.java
+	     org/eclipse/mylyn/internal/wikitext/core/ant/MarkupToEclipseHelpTask.java
+	     org/eclipse/mylyn/internal/wikitext/core/ant/MarkupToHtmlTask.java
+	     org/eclipse/mylyn/internal/wikitext/core/ant/MarkupToXslfoTask.java
+	     org/eclipse/mylyn/internal/wikitext/core/ant/messages.properties
+	     org/eclipse/mylyn/wikitext/core/ant/tasks.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.core.ant.jar" path="org.eclipse.mylyn.wikitext.core.ant/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

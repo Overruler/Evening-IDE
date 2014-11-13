@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- com/google/gson/annotations/Expose.java
+	     com/google/gson/annotations/SerializedName.java
+	     com/google/gson/annotations/Since.java
+	     com/google/gson/annotations/Until.java
+	     com/google/gson/ExclusionStrategy.java
+	     com/google/gson/FieldAttributes.java
+	     com/google/gson/FieldNamingPolicy.java
+	     com/google/gson/FieldNamingStrategy.java
+	     com/google/gson/Gson.java
+	     com/google/gson/GsonBuilder.java
+	     com/google/gson/InstanceCreator.java
+	     com/google/gson/internal/bind/ArrayTypeAdapter.java
+	     com/google/gson/internal/bind/CollectionTypeAdapterFactory.java
+	     com/google/gson/internal/bind/DateTypeAdapter.java
+	     com/google/gson/internal/bind/JsonTreeReader.java
+	     com/google/gson/internal/bind/JsonTreeWriter.java
+	     com/google/gson/internal/bind/MapTypeAdapterFactory.java
+	     com/google/gson/internal/bind/ObjectTypeAdapter.java
+	     com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java
+	     com/google/gson/internal/bind/SqlDateTypeAdapter.java
+	     com/google/gson/internal/bind/TimeTypeAdapter.java
+	     com/google/gson/internal/bind/TypeAdapters.java
+	     com/google/gson/internal/ConstructorConstructor.java
+	     com/google/gson/internal/Excluder.java
+	     com/google/gson/internal/JsonReaderInternalAccess.java
+	     com/google/gson/internal/LazilyParsedNumber.java
+	     com/google/gson/internal/ObjectConstructor.java
+	     com/google/gson/internal/Primitives.java
+	     com/google/gson/internal/Streams.java
+	     com/google/gson/internal/UnsafeAllocator.java
+	     com/google/gson/JsonArray.java
+	     com/google/gson/JsonDeserializationContext.java
+	     com/google/gson/JsonDeserializer.java
+	     com/google/gson/JsonElement.java
+	     com/google/gson/JsonIOException.java
+	     com/google/gson/JsonNull.java
+	     com/google/gson/JsonObject.java
+	     com/google/gson/JsonParseException.java
+	     com/google/gson/JsonParser.java
+	     com/google/gson/JsonPrimitive.java
+	     com/google/gson/JsonSerializationContext.java
+	     com/google/gson/JsonSerializer.java
+	     com/google/gson/JsonStreamParser.java
+	     com/google/gson/JsonSyntaxException.java
+	     com/google/gson/LongSerializationPolicy.java
+	     com/google/gson/reflect/TypeToken.java
+	     com/google/gson/stream/JsonReader.java
+	     com/google/gson/stream/JsonToken.java
+	     com/google/gson/stream/JsonWriter.java
+	     com/google/gson/stream/MalformedJsonException.java
+	     com/google/gson/TypeAdapter.java
+	     com/google/gson/TypeAdapterFactory.java -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gson.jar" path="google.gson/gson/src/main/java"/>
+	<!-- about.html
+	     about_files/LICENSE
+	     about_files/README
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gson.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/build_obj.gif
+	     icons/close.gif
+	     icons/element_obj.gif
+	     icons/exclude_obj.gif
+	     icons/execution_obj.gif
+	     icons/filter_obj.gif
+	     icons/goal_obj.gif
+	     icons/include_obj.gif
+	     icons/jars_obj.gif
+	     icons/jar_obj.gif
+	     icons/license.png
+	     icons/open_pom.gif
+	     icons/parameter_obj.gif
+	     icons/person_obj.gif
+	     icons/plugins_obj.gif
+	     icons/plugin_obj.gif
+	     icons/profiles_obj.gif
+	     icons/profile_obj.gif
+	     icons/project_obj.gif
+	     icons/properties_obj.gif
+	     icons/property_obj.gif
+	     icons/report2_obj.gif
+	     icons/report_obj.gif
+	     icons/repository_obj.gif
+	     icons/resources_obj.gif
+	     icons/resource_obj.gif
+	     icons/role_obj.gif
+	     icons/sample.gif
+	     icons/template_obj.gif
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/component.xml
+	     OSGI-INF/l10n/bundle.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/main/java/|.*/" including="META-INF/*|OSGI-INF/*|OSGI-INF/l10n/*|about.html|icons/*|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.m2e.editor.xml.jar" path="org.eclipse.m2e.editor.xml"/>
+	<!-- org/eclipse/m2e/editor/xml/AddLicensePomOperation.java
+	     org/eclipse/m2e/editor/xml/InsertArtifactProposal.java
+	     org/eclipse/m2e/editor/xml/InsertExpressionProposal.java
+	     org/eclipse/m2e/editor/xml/InsertSPDXLicenseProposal.java
+	     org/eclipse/m2e/editor/xml/internal/dialogs/SelectSPDXLicenseDialog.java
+	     org/eclipse/m2e/editor/xml/internal/dialogs/SPDXLicense.java
+	     org/eclipse/m2e/editor/xml/internal/FormHoverProvider.java
+	     org/eclipse/m2e/editor/xml/internal/lifecycle/LifecycleMappingDialog.java
+	     org/eclipse/m2e/editor/xml/internal/lifecycle/LifecycleMappingProposal.java
+	     org/eclipse/m2e/editor/xml/internal/lifecycle/WorkspaceLifecycleMappingProposal.java
+	     org/eclipse/m2e/editor/xml/internal/MarkerHoverControl.java
+	     org/eclipse/m2e/editor/xml/internal/MarkerLocationService.java
+	     org/eclipse/m2e/editor/xml/internal/Messages.java
+	     org/eclipse/m2e/editor/xml/internal/messages.properties
+	     org/eclipse/m2e/editor/xml/internal/NodeOperation.java
+	     org/eclipse/m2e/editor/xml/internal/POMMarkerAnnotationModel.java
+	     org/eclipse/m2e/editor/xml/internal/POMMarkerAnnotationModelFactory.java
+	     org/eclipse/m2e/editor/xml/internal/XmlUtils.java
+	     org/eclipse/m2e/editor/xml/MavenMarkerResolutionGenerator.java
+	     org/eclipse/m2e/editor/xml/MvnImages.java
+	     org/eclipse/m2e/editor/xml/MvnIndexPlugin.java
+	     org/eclipse/m2e/editor/xml/PomContentAssistProcessor.java
+	     org/eclipse/m2e/editor/xml/PomContentOutlineConfiguration.java
+	     org/eclipse/m2e/editor/xml/PomHyperlinkDetector.java
+	     org/eclipse/m2e/editor/xml/PomModelHandler.java
+	     org/eclipse/m2e/editor/xml/PomQuickAssistProcessor.java
+	     org/eclipse/m2e/editor/xml/PomStructuredTextViewConfiguration.java
+	     org/eclipse/m2e/editor/xml/PomTemplateContext.java
+	     org/eclipse/m2e/editor/xml/PomTemplateContextType.java
+	     org/eclipse/m2e/editor/xml/PomTextHover.java
+	     org/eclipse/m2e/editor/xml/preferences/PomTemplatesPreferencePage.java
+	     org/eclipse/m2e/editor/xml/XMLSchemaMarkerResolution.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.editor.xml.jar" path="org.eclipse.m2e.editor.xml/src/main/java"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.editor.xml/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.editor.xml/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.editor.xml.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.uriresolver"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xml.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xml.ui"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

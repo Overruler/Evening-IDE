@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     feature.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|feature.gif|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.core.jar" path="org.eclipse.mylyn.commons.core"/>
+	<!-- org/eclipse/mylyn/commons/core/AbstractErrorReporter.java
+	     org/eclipse/mylyn/commons/core/CommonListenerList.java
+	     org/eclipse/mylyn/commons/core/CommonMessages.java
+	     org/eclipse/mylyn/commons/core/CoreUtil.java
+	     org/eclipse/mylyn/commons/core/DateUtil.java
+	     org/eclipse/mylyn/commons/core/DelegatingProgressMonitor.java
+	     org/eclipse/mylyn/commons/core/ExtensionPointReader.java
+	     org/eclipse/mylyn/commons/core/HtmlStreamTokenizer.java
+	     org/eclipse/mylyn/commons/core/HtmlTag.java
+	     org/eclipse/mylyn/commons/core/HtmlUtil.java
+	     org/eclipse/mylyn/commons/core/ICoreRunnable.java
+	     org/eclipse/mylyn/commons/core/IDelegatingProgressMonitor.java
+	     org/eclipse/mylyn/commons/core/InfiniteSubProgressMonitor.java
+	     org/eclipse/mylyn/commons/core/io/messages.properties
+	     org/eclipse/mylyn/commons/core/io/PollingInputStream.java
+	     org/eclipse/mylyn/commons/core/io/PollingOutputStream.java
+	     org/eclipse/mylyn/commons/core/io/ProgressMonitorInputStream.java
+	     org/eclipse/mylyn/commons/core/io/TimeoutInputStream.java
+	     org/eclipse/mylyn/commons/core/io/TimeoutOutputStream.java
+	     org/eclipse/mylyn/commons/core/messages.properties
+	     org/eclipse/mylyn/commons/core/net/AuthenticatedProxy.java
+	     org/eclipse/mylyn/commons/core/net/NetUtil.java
+	     org/eclipse/mylyn/commons/core/net/ProxyProvider.java
+	     org/eclipse/mylyn/commons/core/net/SslCertificateException.java
+	     org/eclipse/mylyn/commons/core/net/SslSupport.java
+	     org/eclipse/mylyn/commons/core/net/TrustAllTrustManager.java
+	     org/eclipse/mylyn/commons/core/operations/CancellableOperationMonitorThread.java
+	     org/eclipse/mylyn/commons/core/operations/ICancellable.java
+	     org/eclipse/mylyn/commons/core/operations/ICancellableOperation.java
+	     org/eclipse/mylyn/commons/core/operations/IOperationMonitor.java
+	     org/eclipse/mylyn/commons/core/operations/MonitoredOperation.java
+	     org/eclipse/mylyn/commons/core/operations/Operation.java
+	     org/eclipse/mylyn/commons/core/operations/OperationUtil.java
+	     org/eclipse/mylyn/commons/core/StatusHandler.java
+	     org/eclipse/mylyn/commons/core/storage/CommonStore.java
+	     org/eclipse/mylyn/commons/core/storage/ICommonStorable.java
+	     org/eclipse/mylyn/commons/core/XmlMemento.java
+	     org/eclipse/mylyn/internal/commons/core/CommonsCorePlugin.java
+	     org/eclipse/mylyn/internal/commons/core/ErrorReporterManager.java
+	     org/eclipse/mylyn/internal/commons/core/Html2TextReader.java
+	     org/eclipse/mylyn/internal/commons/core/ICommonsCoreConstants.java
+	     org/eclipse/mylyn/internal/commons/core/Messages.java
+	     org/eclipse/mylyn/internal/commons/core/messages.properties
+	     org/eclipse/mylyn/internal/commons/core/operations/NullOperationMonitor.java
+	     org/eclipse/mylyn/internal/commons/core/operations/OperationMonitor.java
+	     org/eclipse/mylyn/internal/commons/core/SingleCharReader.java
+	     org/eclipse/mylyn/internal/commons/core/SubstitutionTextReader.java
+	     org/eclipse/mylyn/internal/commons/core/XmlStringConverter.java
+	     org/eclipse/mylyn/internal/commons/core/ZipFileUtil.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.core.jar" path="org.eclipse.mylyn.commons.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

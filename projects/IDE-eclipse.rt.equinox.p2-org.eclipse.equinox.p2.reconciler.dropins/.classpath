@@ -2,17 +2,17 @@
 <classpath>
 	<!-- about.html
 	     Bootstrap.product
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="Bootstrap.product|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.reconciler.dropins.jar" path="org.eclipse.equinox.p2.reconciler.dropins"/>
-	<!-- org\eclipse\equinox\internal\p2\reconciler\dropins\Activator.java
-	     org\eclipse\equinox\internal\p2\reconciler\dropins\Application.java
-	     org\eclipse\equinox\internal\p2\reconciler\dropins\DropinsRepositoryListener.java
-	     org\eclipse\equinox\internal\p2\reconciler\dropins\Messages.java
-	     org\eclipse\equinox\internal\p2\reconciler\dropins\messages.properties
-	     org\eclipse\equinox\internal\p2\reconciler\dropins\PlatformXmlListener.java
-	     org\eclipse\equinox\internal\p2\reconciler\dropins\ProfileSynchronizer.java -->
+	<!-- org/eclipse/equinox/internal/p2/reconciler/dropins/Activator.java
+	     org/eclipse/equinox/internal/p2/reconciler/dropins/Application.java
+	     org/eclipse/equinox/internal/p2/reconciler/dropins/DropinsRepositoryListener.java
+	     org/eclipse/equinox/internal/p2/reconciler/dropins/Messages.java
+	     org/eclipse/equinox/internal/p2/reconciler/dropins/messages.properties
+	     org/eclipse/equinox/internal/p2/reconciler/dropins/PlatformXmlListener.java
+	     org/eclipse/equinox/internal/p2/reconciler/dropins/ProfileSynchronizer.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.reconciler.dropins.jar" path="org.eclipse.equinox.p2.reconciler.dropins/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.app"/>

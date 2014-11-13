@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     feature.gif
+	     META-INF/MANIFEST.MF
+	     model/reviews.ecore
+	     model/reviews.genmodel
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|feature.gif|model/*|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.reviews.core.jar" path="org.eclipse.mylyn.reviews.core"/>
+	<!-- org/eclipse/mylyn/reviews/core/model/IApprovalType.java
+	     org/eclipse/mylyn/reviews/core/model/IChange.java
+	     org/eclipse/mylyn/reviews/core/model/IComment.java
+	     org/eclipse/mylyn/reviews/core/model/ICommentContainer.java
+	     org/eclipse/mylyn/reviews/core/model/IDated.java
+	     org/eclipse/mylyn/reviews/core/model/IFileItem.java
+	     org/eclipse/mylyn/reviews/core/model/IFileVersion.java
+	     org/eclipse/mylyn/reviews/core/model/IIndexed.java
+	     org/eclipse/mylyn/reviews/core/model/ILineLocation.java
+	     org/eclipse/mylyn/reviews/core/model/ILineRange.java
+	     org/eclipse/mylyn/reviews/core/model/ILocation.java
+	     org/eclipse/mylyn/reviews/core/model/IRepository.java
+	     org/eclipse/mylyn/reviews/core/model/IRequirementEntry.java
+	     org/eclipse/mylyn/reviews/core/model/IReview.java
+	     org/eclipse/mylyn/reviews/core/model/IReviewerEntry.java
+	     org/eclipse/mylyn/reviews/core/model/IReviewItem.java
+	     org/eclipse/mylyn/reviews/core/model/IReviewItemSet.java
+	     org/eclipse/mylyn/reviews/core/model/IReviewsFactory.java
+	     org/eclipse/mylyn/reviews/core/model/IUser.java
+	     org/eclipse/mylyn/reviews/core/model/RequirementStatus.java
+	     org/eclipse/mylyn/reviews/core/model/ReviewStatus.java
+	     org/eclipse/mylyn/reviews/core/spi/ModelUtil.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/AbstractDataLocator.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/AbstractRemoteConsumer.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/AbstractRemoteFactoryProvider.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/AbstractRemoteService.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/emf/AbstractRemoteEmfFactory.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/emf/AbstractRemoteEmfFactoryProvider.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/emf/Messages.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/emf/messages.properties
+	     org/eclipse/mylyn/reviews/core/spi/remote/emf/RemoteEmfConsumer.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/emf/RemoteEmfObserver.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/JobRemoteService.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/RemoteFactoryProviderConfigurer.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/ReviewsDataLocator.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/review/IReviewRemoteFactoryProvider.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/review/ReviewItemSetContentRemoteFactory.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/review/ReviewItemSetRemoteFactory.java
+	     org/eclipse/mylyn/reviews/core/spi/remote/review/ReviewRemoteFactory.java
+	     org/eclipse/mylyn/reviews/core/spi/ReviewsClient.java
+	     org/eclipse/mylyn/reviews/core/spi/ReviewsConnector.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ApprovalType.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ApprovalValueMap.java
+	     org/eclipse/mylyn/reviews/internal/core/model/Change.java
+	     org/eclipse/mylyn/reviews/internal/core/model/Comment.java
+	     org/eclipse/mylyn/reviews/internal/core/model/CommentContainer.java
+	     org/eclipse/mylyn/reviews/internal/core/model/FileItem.java
+	     org/eclipse/mylyn/reviews/internal/core/model/FileVersion.java
+	     org/eclipse/mylyn/reviews/internal/core/model/LineLocation.java
+	     org/eclipse/mylyn/reviews/internal/core/model/LineRange.java
+	     org/eclipse/mylyn/reviews/internal/core/model/Location.java
+	     org/eclipse/mylyn/reviews/internal/core/model/Repository.java
+	     org/eclipse/mylyn/reviews/internal/core/model/RequirementEntry.java
+	     org/eclipse/mylyn/reviews/internal/core/model/Review.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewerEntry.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewItem.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewItemSet.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewRequirementsMap.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewsAdapterFactory.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewsFactory.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewsPackage.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewsResource.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewsResourceFactory.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewsSwitch.java
+	     org/eclipse/mylyn/reviews/internal/core/model/ReviewsXMLProcessor.java
+	     org/eclipse/mylyn/reviews/internal/core/model/User.java
+	     org/eclipse/mylyn/reviews/internal/core/model/UserApprovalsMap.java
+	     org/eclipse/mylyn/reviews/internal/core/ReviewsCoreConstants.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.reviews.core.jar" path="org.eclipse.mylyn.reviews.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.io"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.lang"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

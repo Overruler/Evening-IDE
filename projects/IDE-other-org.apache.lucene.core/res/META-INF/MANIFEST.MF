@@ -20,7 +20,7 @@ Export-Package: org.apache.lucene;version="3.5.0",org.apache.lucene.an
  on="3.5.0";mandatory:=core,org.apache.lucene.util;version="3.5.0",org
  .apache.lucene.util.fst;version="3.5.0",org.apache.lucene.util.packed
  ;version="3.5.0"
-Bundle-Version: 3.5.0.v20120725-1805
+Bundle-Version: 3.5.0.qualifier
 X-Compile-Source-JDK: 1.5
 Specification-Version: 3.5.0
 Specification-Title: Lucene Search Engine: core

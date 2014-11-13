@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %bundleProvider
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Name: %bundleName
+Bundle-SymbolicName: com.google.gerrit.prettify
+Export-Package: com.google.gerrit.prettify.client;version="2.1.5",
+ com.google.gerrit.prettify.common;version="2.1.5"
+Bundle-Version: 2.1.5.qualifier
+Bundle-ManifestVersion: 2
+Require-Bundle: com.google.gwt.servlet
+Import-Package: com.google.gwtjsonrpc.client;version="1.2.2",
+ com.google.gwtorm.client;version="1.1.4",
+ org.eclipse.jgit.diff;resolution:=optional

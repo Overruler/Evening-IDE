@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.updatesite.jar" path="org.eclipse.equinox.p2.updatesite"/>
-	<!-- org\eclipse\equinox\internal\p2\updatesite\Activator.java
-	     org\eclipse\equinox\internal\p2\updatesite\artifact\UpdateSiteArtifactRepository.java
-	     org\eclipse\equinox\internal\p2\updatesite\artifact\UpdateSiteArtifactRepositoryFactory.java
-	     org\eclipse\equinox\internal\p2\updatesite\CategoryParser.java
-	     org\eclipse\equinox\internal\p2\updatesite\CategoryPublisherApplication.java
-	     org\eclipse\equinox\internal\p2\updatesite\CategoryXMLAction.java
-	     org\eclipse\equinox\internal\p2\updatesite\DefaultSiteParser.java
-	     org\eclipse\equinox\internal\p2\updatesite\DigestParser.java
-	     org\eclipse\equinox\internal\p2\updatesite\LocalUpdateSiteAction.java
-	     org\eclipse\equinox\internal\p2\updatesite\Messages.java
-	     org\eclipse\equinox\internal\p2\updatesite\messages.properties
-	     org\eclipse\equinox\internal\p2\updatesite\metadata\UpdateSiteMetadataRepository.java
-	     org\eclipse\equinox\internal\p2\updatesite\metadata\UpdateSiteMetadataRepositoryFactory.java
-	     org\eclipse\equinox\internal\p2\updatesite\RemoteFeaturesAction.java
-	     org\eclipse\equinox\internal\p2\updatesite\RemoteUpdateSiteAction.java
-	     org\eclipse\equinox\internal\p2\updatesite\SiteBundle.java
-	     org\eclipse\equinox\internal\p2\updatesite\SiteCategory.java
-	     org\eclipse\equinox\internal\p2\updatesite\SiteFeature.java
-	     org\eclipse\equinox\internal\p2\updatesite\SiteIU.java
-	     org\eclipse\equinox\internal\p2\updatesite\SiteModel.java
-	     org\eclipse\equinox\internal\p2\updatesite\SiteXMLAction.java
-	     org\eclipse\equinox\internal\p2\updatesite\UpdateSite.java
-	     org\eclipse\equinox\internal\p2\updatesite\UpdateSitePublisherApplication.java
-	     org\eclipse\equinox\internal\p2\updatesite\VersionSuffixGenerator.java -->
+	<!-- org/eclipse/equinox/internal/p2/updatesite/Activator.java
+	     org/eclipse/equinox/internal/p2/updatesite/artifact/UpdateSiteArtifactRepository.java
+	     org/eclipse/equinox/internal/p2/updatesite/artifact/UpdateSiteArtifactRepositoryFactory.java
+	     org/eclipse/equinox/internal/p2/updatesite/CategoryParser.java
+	     org/eclipse/equinox/internal/p2/updatesite/CategoryPublisherApplication.java
+	     org/eclipse/equinox/internal/p2/updatesite/CategoryXMLAction.java
+	     org/eclipse/equinox/internal/p2/updatesite/DefaultSiteParser.java
+	     org/eclipse/equinox/internal/p2/updatesite/DigestParser.java
+	     org/eclipse/equinox/internal/p2/updatesite/LocalUpdateSiteAction.java
+	     org/eclipse/equinox/internal/p2/updatesite/Messages.java
+	     org/eclipse/equinox/internal/p2/updatesite/messages.properties
+	     org/eclipse/equinox/internal/p2/updatesite/metadata/UpdateSiteMetadataRepository.java
+	     org/eclipse/equinox/internal/p2/updatesite/metadata/UpdateSiteMetadataRepositoryFactory.java
+	     org/eclipse/equinox/internal/p2/updatesite/RemoteFeaturesAction.java
+	     org/eclipse/equinox/internal/p2/updatesite/RemoteUpdateSiteAction.java
+	     org/eclipse/equinox/internal/p2/updatesite/SiteBundle.java
+	     org/eclipse/equinox/internal/p2/updatesite/SiteCategory.java
+	     org/eclipse/equinox/internal/p2/updatesite/SiteFeature.java
+	     org/eclipse/equinox/internal/p2/updatesite/SiteIU.java
+	     org/eclipse/equinox/internal/p2/updatesite/SiteModel.java
+	     org/eclipse/equinox/internal/p2/updatesite/SiteXMLAction.java
+	     org/eclipse/equinox/internal/p2/updatesite/UpdateSite.java
+	     org/eclipse/equinox/internal/p2/updatesite/UpdateSitePublisherApplication.java
+	     org/eclipse/equinox/internal/p2/updatesite/VersionSuffixGenerator.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.updatesite.jar" path="org.eclipse.equinox.p2.updatesite/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.xml"/>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- icons/palette.gif
+	     icons/pipette-mask.png
+	     icons/pipette.png
+	     META-INF/MANIFEST.MF -->
+	<classpathentry excluding="src/|src-gen/|.*|.*/" including="META-INF/*|icons/*" kind="src" output="bin/1/plugins/net.jeeeyul.swtend.jar" path="net.jeeeyul.swtend"/>
+	<!-- net/jeeeyul/swtend/geometry/IntRange.java
+	     net/jeeeyul/swtend/geometry/KPoint.java
+	     net/jeeeyul/swtend/geometry/KRectangle.java
+	     net/jeeeyul/swtend/internal/AutoDisposeQueue.java
+	     net/jeeeyul/swtend/internal/CollectionContentProvider.java
+	     net/jeeeyul/swtend/internal/Debug.java
+	     net/jeeeyul/swtend/internal/StringUtil.java
+	     net/jeeeyul/swtend/internal/WidgetIterator.java
+	     net/jeeeyul/swtend/sam/Function1.java
+	     net/jeeeyul/swtend/sam/Procedure0.java
+	     net/jeeeyul/swtend/sam/Procedure1.java
+	     net/jeeeyul/swtend/SWTExtensions.java
+	     net/jeeeyul/swtend/ui/ColorPicker.java
+	     net/jeeeyul/swtend/ui/ColorStop.java
+	     net/jeeeyul/swtend/ui/ColorWell.java
+	     net/jeeeyul/swtend/ui/Gradient.java
+	     net/jeeeyul/swtend/ui/GradientEdit.java
+	     net/jeeeyul/swtend/ui/GradientEditItem.java
+	     net/jeeeyul/swtend/ui/HSB.java
+	     net/jeeeyul/swtend/ui/internal/ColorFieldSet.java
+	     net/jeeeyul/swtend/ui/internal/FloatRange.java
+	     net/jeeeyul/swtend/ui/internal/HueCanvas.java
+	     net/jeeeyul/swtend/ui/internal/HueScale.java
+	     net/jeeeyul/swtend/ui/internal/IntRange.java
+	     net/jeeeyul/swtend/ui/internal/Palette.java
+	     net/jeeeyul/swtend/ui/internal/pipette-mask.png
+	     net/jeeeyul/swtend/ui/internal/pipette.png
+	     net/jeeeyul/swtend/ui/internal/PipetteTool.java
+	     net/jeeeyul/swtend/ui/internal/SystemColor.java
+	     net/jeeeyul/swtend/ui/internal/SystemColorLabelProvider.java
+	     net/jeeeyul/swtend/ui/internal/UserHomePalette.java
+	     net/jeeeyul/swtend/ui/LightWeightResource.java
+	     net/jeeeyul/swtend/ui/NinePatch.java
+	     net/jeeeyul/swtend/ui/ResourceRegistry.java -->
+	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.swtend.jar" path="net.jeeeyul.swtend/src"/>
+	<!-- net/jeeeyul/swtend/ui/internal/SharedImages.java -->
+	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.swtend.jar" path="net.jeeeyul.swtend/src-gen"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

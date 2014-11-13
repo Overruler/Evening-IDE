@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.context.tasks.ui.jar" path="org.eclipse.mylyn.context.tasks.ui"/>
+	<!-- org/eclipse/mylyn/internal/context/tasks/ui/ActiveContextExternalizationParticipant.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/ActivityExternalizationParticipant.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/ChangeActivityHandleOperation.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/ContextMementoMigrator.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/ContextStatePersistenceHandler.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/ContextTasksAdapterFactory.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/ContextTasksStartupHandler.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/editors/ContextEditorFormPage.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/editors/ContextPageFactory.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/editors/InvisibleContextElementsPart.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/editors/Messages.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/editors/messages.properties
+	     org/eclipse/mylyn/internal/context/tasks/ui/editors/ScalableInterestFilter.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/Messages.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/messages.properties
+	     org/eclipse/mylyn/internal/context/tasks/ui/TaskActivityMonitor.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/TaskContextStore.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/TaskContextStoreEvent.java
+	     org/eclipse/mylyn/internal/context/tasks/ui/TaskContextStoreListener.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.context.tasks.ui.jar" path="org.eclipse.mylyn.context.tasks.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

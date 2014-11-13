@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.git.core.jar" path="org.eclipse.mylyn.git.core"/>
+	<!-- org/eclipse/mylyn/internal/git/core/GitArtifact.java
+	     org/eclipse/mylyn/internal/git/core/GitConnector.java
+	     org/eclipse/mylyn/internal/git/core/GitRepository.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.git.core.jar" path="org.eclipse.mylyn.git.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.egit-org.eclipse.egit.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.versions.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

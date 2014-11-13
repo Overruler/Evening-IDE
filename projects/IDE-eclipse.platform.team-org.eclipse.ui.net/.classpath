@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.net.jar" path="org.eclipse.ui.net"/>
-	<!-- org\eclipse\ui\internal\net\Activator.java
-	     org\eclipse\ui\internal\net\auth\Authentication.java
-	     org\eclipse\ui\internal\net\auth\NetAuthenticator.java
-	     org\eclipse\ui\internal\net\auth\UserValidationDialog.java
-	     org\eclipse\ui\internal\net\messages.properties
-	     org\eclipse\ui\internal\net\NetUIMessages.java
-	     org\eclipse\ui\internal\net\NonProxyHostsComposite.java
-	     org\eclipse\ui\internal\net\NonProxyHostsContentProvider.java
-	     org\eclipse\ui\internal\net\NonProxyHostsLabelProvider.java
-	     org\eclipse\ui\internal\net\ProxyBypassData.java
-	     org\eclipse\ui\internal\net\ProxyEntriesComposite.java
-	     org\eclipse\ui\internal\net\ProxyEntriesContentProvider.java
-	     org\eclipse\ui\internal\net\ProxyEntriesLabelProvider.java
-	     org\eclipse\ui\internal\net\ProxyEntryDialog.java
-	     org\eclipse\ui\internal\net\ProxyPreferencePage.java -->
+	<!-- org/eclipse/ui/internal/net/Activator.java
+	     org/eclipse/ui/internal/net/auth/Authentication.java
+	     org/eclipse/ui/internal/net/auth/NetAuthenticator.java
+	     org/eclipse/ui/internal/net/auth/UserValidationDialog.java
+	     org/eclipse/ui/internal/net/messages.properties
+	     org/eclipse/ui/internal/net/NetUIMessages.java
+	     org/eclipse/ui/internal/net/NonProxyHostsComposite.java
+	     org/eclipse/ui/internal/net/NonProxyHostsContentProvider.java
+	     org/eclipse/ui/internal/net/NonProxyHostsLabelProvider.java
+	     org/eclipse/ui/internal/net/ProxyBypassData.java
+	     org/eclipse/ui/internal/net/ProxyEntriesComposite.java
+	     org/eclipse/ui/internal/net/ProxyEntriesContentProvider.java
+	     org/eclipse/ui/internal/net/ProxyEntriesLabelProvider.java
+	     org/eclipse/ui/internal/net/ProxyEntryDialog.java
+	     org/eclipse/ui/internal/net/ProxyPreferencePage.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.net.jar" path="org.eclipse.ui.net/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>

@@ -2,52 +2,52 @@
 <classpath>
 	<!-- .options
 	     about.html
-	     icons\full\dtool16\clear_co.gif
-	     icons\full\etool16\clear_co.gif
-	     icons\full\obj16\fldr_obj.gif
-	     META-INF\MANIFEST.MF
-	     OSGI-INF\menuservice.xml
-	     OSGI-INF\statusreporter.xml
-	     OSGI-INF\testableobject.xml
+	     icons/full/dtool16/clear_co.gif
+	     icons/full/etool16/clear_co.gif
+	     icons/full/obj16/fldr_obj.gif
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/menuservice.xml
+	     OSGI-INF/statusreporter.xml
+	     OSGI-INF/testableobject.xml
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|OSGI-INF/*|about.html|icons/full/dtool16/*|icons/full/etool16/*|icons/full/obj16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.swt.jar" path="org.eclipse.e4.ui.workbench.swt"/>
-	<!-- org\eclipse\e4\ui\internal\workbench\swt\AbstractPartRenderer.java
-	     org\eclipse\e4\ui\internal\workbench\swt\AnimationEngine.java
-	     org\eclipse\e4\ui\internal\workbench\swt\AnimationFeedbackBase.java
-	     org\eclipse\e4\ui\internal\workbench\swt\CSSConstants.java
-	     org\eclipse\e4\ui\internal\workbench\swt\CSSRenderingUtils.java
-	     org\eclipse\e4\ui\internal\workbench\swt\E4Application.java
-	     org\eclipse\e4\ui\internal\workbench\swt\E4Testable.java
-	     org\eclipse\e4\ui\internal\workbench\swt\FaderAnimationFeedback.java
-	     org\eclipse\e4\ui\internal\workbench\swt\GenTopic.java
-	     org\eclipse\e4\ui\internal\workbench\swt\handlers\ShowViewHandler.java
-	     org\eclipse\e4\ui\internal\workbench\swt\handlers\ThemeUtil.java
-	     org\eclipse\e4\ui\internal\workbench\swt\IEventLoopAdvisor.java
-	     org\eclipse\e4\ui\internal\workbench\swt\MenuService.java
-	     org\eclipse\e4\ui\internal\workbench\swt\MenuServiceCreationFunction.java
-	     org\eclipse\e4\ui\internal\workbench\swt\PartRenderingEngine.java
-	     org\eclipse\e4\ui\internal\workbench\swt\Policy.java
-	     org\eclipse\e4\ui\internal\workbench\swt\ResourceUtility.java
-	     org\eclipse\e4\ui\internal\workbench\swt\SelectionAdapterFactory.java
-	     org\eclipse\e4\ui\internal\workbench\swt\ShellActivationListener.java
-	     org\eclipse\e4\ui\internal\workbench\swt\StatusReporterCreationFunction.java
-	     org\eclipse\e4\ui\internal\workbench\swt\WorkbenchStatusReporter.java
-	     org\eclipse\e4\ui\internal\workbench\swt\WorkbenchSWTActivator.java
-	     org\eclipse\e4\ui\workbench\swt\factories\IRendererFactory.java
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\BasicUIJob.java
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\FilteredTree.java
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\messages.properties
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\PatternFilter.java
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\ShowViewDialog.java
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\StringMatcher.java
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\ViewComparator.java
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\ViewContentProvider.java
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\ViewLabelProvider.java
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\ViewPatternFilter.java
-	     org\eclipse\e4\ui\workbench\swt\internal\copy\WorkbenchSWTMessages.java
-	     org\eclipse\e4\ui\workbench\swt\util\BindingProcessingAddon.java
-	     org\eclipse\e4\ui\workbench\swt\util\ISWTResourceUtilities.java -->
+	<!-- org/eclipse/e4/ui/internal/workbench/swt/AbstractPartRenderer.java
+	     org/eclipse/e4/ui/internal/workbench/swt/AnimationEngine.java
+	     org/eclipse/e4/ui/internal/workbench/swt/AnimationFeedbackBase.java
+	     org/eclipse/e4/ui/internal/workbench/swt/CSSConstants.java
+	     org/eclipse/e4/ui/internal/workbench/swt/CSSRenderingUtils.java
+	     org/eclipse/e4/ui/internal/workbench/swt/E4Application.java
+	     org/eclipse/e4/ui/internal/workbench/swt/E4Testable.java
+	     org/eclipse/e4/ui/internal/workbench/swt/FaderAnimationFeedback.java
+	     org/eclipse/e4/ui/internal/workbench/swt/GenTopic.java
+	     org/eclipse/e4/ui/internal/workbench/swt/handlers/ShowViewHandler.java
+	     org/eclipse/e4/ui/internal/workbench/swt/handlers/ThemeUtil.java
+	     org/eclipse/e4/ui/internal/workbench/swt/IEventLoopAdvisor.java
+	     org/eclipse/e4/ui/internal/workbench/swt/MenuService.java
+	     org/eclipse/e4/ui/internal/workbench/swt/MenuServiceCreationFunction.java
+	     org/eclipse/e4/ui/internal/workbench/swt/PartRenderingEngine.java
+	     org/eclipse/e4/ui/internal/workbench/swt/Policy.java
+	     org/eclipse/e4/ui/internal/workbench/swt/ResourceUtility.java
+	     org/eclipse/e4/ui/internal/workbench/swt/SelectionAdapterFactory.java
+	     org/eclipse/e4/ui/internal/workbench/swt/ShellActivationListener.java
+	     org/eclipse/e4/ui/internal/workbench/swt/StatusReporterCreationFunction.java
+	     org/eclipse/e4/ui/internal/workbench/swt/WorkbenchStatusReporter.java
+	     org/eclipse/e4/ui/internal/workbench/swt/WorkbenchSWTActivator.java
+	     org/eclipse/e4/ui/workbench/swt/factories/IRendererFactory.java
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/BasicUIJob.java
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/FilteredTree.java
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/messages.properties
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/PatternFilter.java
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/ShowViewDialog.java
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/StringMatcher.java
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/ViewComparator.java
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/ViewContentProvider.java
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/ViewLabelProvider.java
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/ViewPatternFilter.java
+	     org/eclipse/e4/ui/workbench/swt/internal/copy/WorkbenchSWTMessages.java
+	     org/eclipse/e4/ui/workbench/swt/util/BindingProcessingAddon.java
+	     org/eclipse/e4/ui/workbench/swt/util/ISWTResourceUtilities.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.swt.jar" path="org.eclipse.e4.ui.workbench.swt/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>

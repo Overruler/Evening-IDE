@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about_files/slf4j-simple-LICENSE.txt
+	     OSGI-INF/l10n/bundle.properties
+	     simplelogger.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple" path="org.eclipse.m2e.maven.runtime.slf4j.simple/src/main/resources"/>
+	<!-- jars/slf4j-simple-1.7.5.jar
+	     META-INF/MANIFEST.MF -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

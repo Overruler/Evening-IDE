@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\apache\commons\logging\impl\AvalonLogger.java
-	     org\apache\commons\logging\impl\Jdk13LumberjackLogger.java
-	     org\apache\commons\logging\impl\Jdk14Logger.java
-	     org\apache\commons\logging\impl\Log4JLogger.java
-	     org\apache\commons\logging\impl\LogFactoryImpl.java
-	     org\apache\commons\logging\impl\LogKitLogger.java
-	     org\apache\commons\logging\impl\NoOpLog.java
-	     org\apache\commons\logging\impl\package.html
-	     org\apache\commons\logging\impl\ServletContextCleaner.java
-	     org\apache\commons\logging\impl\SimpleLog.java
-	     org\apache\commons\logging\impl\WeakHashtable.java
-	     org\apache\commons\logging\Log.java
-	     org\apache\commons\logging\LogConfigurationException.java
-	     org\apache\commons\logging\LogFactory.java
-	     org\apache\commons\logging\LogSource.java
-	     org\apache\commons\logging\package.html -->
+	<!-- org/apache/commons/logging/impl/AvalonLogger.java
+	     org/apache/commons/logging/impl/Jdk13LumberjackLogger.java
+	     org/apache/commons/logging/impl/Jdk14Logger.java
+	     org/apache/commons/logging/impl/Log4JLogger.java
+	     org/apache/commons/logging/impl/LogFactoryImpl.java
+	     org/apache/commons/logging/impl/LogKitLogger.java
+	     org/apache/commons/logging/impl/NoOpLog.java
+	     org/apache/commons/logging/impl/package.html
+	     org/apache/commons/logging/impl/ServletContextCleaner.java
+	     org/apache/commons/logging/impl/SimpleLog.java
+	     org/apache/commons/logging/impl/WeakHashtable.java
+	     org/apache/commons/logging/Log.java
+	     org/apache/commons/logging/LogConfigurationException.java
+	     org/apache/commons/logging/LogFactory.java
+	     org/apache/commons/logging/LogSource.java
+	     org/apache/commons/logging/package.html -->
 	<classpathentry including="org/apache/commons/logging/*|org/apache/commons/logging/impl/*" kind="src" output="bin/1/plugins/org.apache.commons.logging.jar" path="apache.commons-logging/src/main/java"/>
 	<!-- about.html
-	     about_files\LICENSE.txt
-	     about_files\NOTICE.txt
-	     META-INF\MANIFEST.MF
+	     about_files/LICENSE.txt
+	     about_files/NOTICE.txt
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.commons.logging.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

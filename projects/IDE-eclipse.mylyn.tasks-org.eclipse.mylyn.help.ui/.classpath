@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     book.css
+	     cheatsheets/Query.xml
+	     cheatsheets/TaskFocus.xml
+	     doc/notices.html
+	     icons/etool16/icons-legend.gif
+	     images/home.gif
+	     images/mylyn-overview-small.gif
+	     images/mylyn-overview.gif
+	     images/next.gif
+	     images/prev.gif
+	     images/topiclabel/ov_legend48.gif
+	     images/topiclabel/ov_legend48_hov.gif
+	     images/topiclabel/ov_mylyn48.gif
+	     images/topiclabel/ov_mylyn48_hov.gif
+	     images/topiclabel/tu_query48.gif
+	     images/topiclabel/tu_query48_hov.gif
+	     images/topiclabel/tu_task48.gif
+	     images/topiclabel/tu_task48_hov.gif
+	     images/topiclabel/wn_mylyn48.gif
+	     images/topiclabel/wn_mylyn48_hov.gif
+	     intro/css/overview.css
+	     intro/css/overview.properties
+	     intro/css/tutorials.css
+	     intro/css/tutorials.properties
+	     intro/css/whatsnew.css
+	     intro/css/whatsnew.properties
+	     intro/overviewExtensionContent.xml
+	     intro/tutorialsExtensionContent.xml
+	     intro/whatsnewExtensionContent.xml
+	     META-INF/MANIFEST.MF
+	     Mylyn-FAQ-toc.xml
+	     Mylyn-User-Guide-toc.xml
+	     Mylyn/FAQ/Bugzilla-Connector.html
+	     Mylyn/FAQ/Context-and-Timing-data.html
+	     Mylyn/FAQ/FAQ.html
+	     Mylyn/FAQ/images/AuthenticationTroubleshooting2.png
+	     Mylyn/FAQ/images/Mylar-eclipse-manage-configuration.gif
+	     Mylyn/FAQ/images/Mylar-java-filtering-declarations.gif
+	     Mylyn/FAQ/images/Mylar-resource-exclusion.gif
+	     Mylyn/FAQ/images/Mylar-spell-checking-preference.gif
+	     Mylyn/FAQ/images/Mylar-tasklist-weblink-editor.gif
+	     Mylyn/FAQ/images/Mylyn-content-assist-prefs.png
+	     Mylyn/FAQ/images/Mylyn-content-assist-timeout.gif
+	     Mylyn/FAQ/images/Mylyn-project-repository-association.gif
+	     Mylyn/FAQ/images/Tasklist-filter.png
+	     Mylyn/FAQ/Installation.html
+	     Mylyn/FAQ/Integration-with-other-tools.html
+	     Mylyn/FAQ/Java-Development.html
+	     Mylyn/FAQ/JIRA-Connector.html
+	     Mylyn/FAQ/Misc.html
+	     Mylyn/FAQ/Task-Editor.html
+	     Mylyn/FAQ/Task-Focused-UI.html
+	     Mylyn/FAQ/Task-List.html
+	     Mylyn/FAQ/Task-Repositories.html
+	     Mylyn/FAQ/Team-Support.html
+	     Mylyn/FAQ/Trac-Connector.html
+	     Mylyn/FAQ/Updating-This-Document.html
+	     Mylyn/FAQ/Web-Templates-Connector.html
+	     Mylyn/FAQ/WikiText.html
+	     Mylyn/User_Guide/images/Feature-Guide-3.0-Focused-Editor.png
+	     Mylyn/User_Guide/images/Feature-Guide-3.0-Local-Task1.png
+	     Mylyn/User_Guide/images/Feature-Guide-3.0-Package-Explorer-Focused.png
+	     Mylyn/User_Guide/images/Feature-Guide-3.0-Repository-Task1.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Add-Task-Repository.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Add-To-Context.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Category-Progress.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Change-Sets.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Context-Tab.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Error-Log.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-New-Query-Combined.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-New-Task1.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Open-Task.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Planning-Tab.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Task-Editor-Bottom.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Task-Editor-Top.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Task-List-Categorized1.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Task-List-Presentation-Select-Categorized.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Task-List-Presentation-Select-Scheduled.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Task-List-Tooltip.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-UI-Legend.png
+	     Mylyn/User_Guide/images/Feature-Reference-3.0-Weekly-Progress.png
+	     Mylyn/User_Guide/images/Generic-web-repository-settings.gif
+	     Mylyn/User_Guide/images/Show_filtered_children.png
+	     Mylyn/User_Guide/images/Task-list-index-content-assist.png
+	     Mylyn/User_Guide/images/Task-list-index-reporter.png
+	     Mylyn/User_Guide/Preferences.html
+	     Mylyn/User_Guide/Shortcuts.html
+	     Mylyn/User_Guide/Task-Editor.html
+	     Mylyn/User_Guide/Task-Focused-Interface.html
+	     Mylyn/User_Guide/Task-Repositories.html
+	     Mylyn/User_Guide/Task-Repository-Connectors.html
+	     Mylyn/User_Guide/Team-Support.html
+	     Mylyn/User_Guide/Updating-This-Document.html
+	     Mylyn/User_Guide/User-Guide.html
+	     plugin.properties
+	     plugin.xml
+	     primary-toc.xml
+	     toc.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|Mylyn-FAQ-toc.xml|Mylyn-User-Guide-toc.xml|Mylyn/FAQ/*|Mylyn/FAQ/images/*|Mylyn/User_Guide/*|Mylyn/User_Guide/images/*|about.html|book.css|cheatsheets/*|doc/*|icons/etool16/*|images/*|images/topiclabel/*|intro/*|intro/css/*|plugin.properties|plugin.xml|primary-toc.xml|toc.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.help.ui.jar" path="org.eclipse.mylyn.help.ui"/>
+	<!-- .empty -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.help.ui.jar" path="org.eclipse.mylyn.help.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

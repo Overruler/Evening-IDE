@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.core.databinding.beans.jar" path="org.eclipse.core.databinding.beans"/>
-	<!-- org\eclipse\core\databinding\beans\BeanProperties.java
-	     org\eclipse\core\databinding\beans\BeansObservables.java
-	     org\eclipse\core\databinding\beans\IBeanListProperty.java
-	     org\eclipse\core\databinding\beans\IBeanMapProperty.java
-	     org\eclipse\core\databinding\beans\IBeanObservable.java
-	     org\eclipse\core\databinding\beans\IBeanProperty.java
-	     org\eclipse\core\databinding\beans\IBeanSetProperty.java
-	     org\eclipse\core\databinding\beans\IBeanValueProperty.java
-	     org\eclipse\core\databinding\beans\PojoObservables.java
-	     org\eclipse\core\databinding\beans\PojoProperties.java
-	     org\eclipse\core\internal\databinding\beans\AnonymousBeanListProperty.java
-	     org\eclipse\core\internal\databinding\beans\AnonymousBeanMapProperty.java
-	     org\eclipse\core\internal\databinding\beans\AnonymousBeanSetProperty.java
-	     org\eclipse\core\internal\databinding\beans\AnonymousBeanValueProperty.java
-	     org\eclipse\core\internal\databinding\beans\AnonymousPojoListProperty.java
-	     org\eclipse\core\internal\databinding\beans\AnonymousPojoMapProperty.java
-	     org\eclipse\core\internal\databinding\beans\AnonymousPojoSetProperty.java
-	     org\eclipse\core\internal\databinding\beans\AnonymousPojoValueProperty.java
-	     org\eclipse\core\internal\databinding\beans\BeanListProperty.java
-	     org\eclipse\core\internal\databinding\beans\BeanListPropertyDecorator.java
-	     org\eclipse\core\internal\databinding\beans\BeanMapProperty.java
-	     org\eclipse\core\internal\databinding\beans\BeanMapPropertyDecorator.java
-	     org\eclipse\core\internal\databinding\beans\BeanObservableListDecorator.java
-	     org\eclipse\core\internal\databinding\beans\BeanObservableMapDecorator.java
-	     org\eclipse\core\internal\databinding\beans\BeanObservableSetDecorator.java
-	     org\eclipse\core\internal\databinding\beans\BeanObservableValueDecorator.java
-	     org\eclipse\core\internal\databinding\beans\BeanPropertyHelper.java
-	     org\eclipse\core\internal\databinding\beans\BeanPropertyListener.java
-	     org\eclipse\core\internal\databinding\beans\BeanPropertyListenerSupport.java
-	     org\eclipse\core\internal\databinding\beans\BeanSetProperty.java
-	     org\eclipse\core\internal\databinding\beans\BeanSetPropertyDecorator.java
-	     org\eclipse\core\internal\databinding\beans\BeanValueProperty.java
-	     org\eclipse\core\internal\databinding\beans\BeanValuePropertyDecorator.java
-	     org\eclipse\core\internal\databinding\beans\PojoListProperty.java
-	     org\eclipse\core\internal\databinding\beans\PojoListPropertyDecorator.java
-	     org\eclipse\core\internal\databinding\beans\PojoMapProperty.java
-	     org\eclipse\core\internal\databinding\beans\PojoMapPropertyDecorator.java
-	     org\eclipse\core\internal\databinding\beans\PojoSetProperty.java
-	     org\eclipse\core\internal\databinding\beans\PojoSetPropertyDecorator.java
-	     org\eclipse\core\internal\databinding\beans\PojoValueProperty.java
-	     org\eclipse\core\internal\databinding\beans\PojoValuePropertyDecorator.java
-	     org\eclipse\core\internal\databinding\beans\Util.java -->
+	<!-- org/eclipse/core/databinding/beans/BeanProperties.java
+	     org/eclipse/core/databinding/beans/BeansObservables.java
+	     org/eclipse/core/databinding/beans/IBeanListProperty.java
+	     org/eclipse/core/databinding/beans/IBeanMapProperty.java
+	     org/eclipse/core/databinding/beans/IBeanObservable.java
+	     org/eclipse/core/databinding/beans/IBeanProperty.java
+	     org/eclipse/core/databinding/beans/IBeanSetProperty.java
+	     org/eclipse/core/databinding/beans/IBeanValueProperty.java
+	     org/eclipse/core/databinding/beans/PojoObservables.java
+	     org/eclipse/core/databinding/beans/PojoProperties.java
+	     org/eclipse/core/internal/databinding/beans/AnonymousBeanListProperty.java
+	     org/eclipse/core/internal/databinding/beans/AnonymousBeanMapProperty.java
+	     org/eclipse/core/internal/databinding/beans/AnonymousBeanSetProperty.java
+	     org/eclipse/core/internal/databinding/beans/AnonymousBeanValueProperty.java
+	     org/eclipse/core/internal/databinding/beans/AnonymousPojoListProperty.java
+	     org/eclipse/core/internal/databinding/beans/AnonymousPojoMapProperty.java
+	     org/eclipse/core/internal/databinding/beans/AnonymousPojoSetProperty.java
+	     org/eclipse/core/internal/databinding/beans/AnonymousPojoValueProperty.java
+	     org/eclipse/core/internal/databinding/beans/BeanListProperty.java
+	     org/eclipse/core/internal/databinding/beans/BeanListPropertyDecorator.java
+	     org/eclipse/core/internal/databinding/beans/BeanMapProperty.java
+	     org/eclipse/core/internal/databinding/beans/BeanMapPropertyDecorator.java
+	     org/eclipse/core/internal/databinding/beans/BeanObservableListDecorator.java
+	     org/eclipse/core/internal/databinding/beans/BeanObservableMapDecorator.java
+	     org/eclipse/core/internal/databinding/beans/BeanObservableSetDecorator.java
+	     org/eclipse/core/internal/databinding/beans/BeanObservableValueDecorator.java
+	     org/eclipse/core/internal/databinding/beans/BeanPropertyHelper.java
+	     org/eclipse/core/internal/databinding/beans/BeanPropertyListener.java
+	     org/eclipse/core/internal/databinding/beans/BeanPropertyListenerSupport.java
+	     org/eclipse/core/internal/databinding/beans/BeanSetProperty.java
+	     org/eclipse/core/internal/databinding/beans/BeanSetPropertyDecorator.java
+	     org/eclipse/core/internal/databinding/beans/BeanValueProperty.java
+	     org/eclipse/core/internal/databinding/beans/BeanValuePropertyDecorator.java
+	     org/eclipse/core/internal/databinding/beans/PojoListProperty.java
+	     org/eclipse/core/internal/databinding/beans/PojoListPropertyDecorator.java
+	     org/eclipse/core/internal/databinding/beans/PojoMapProperty.java
+	     org/eclipse/core/internal/databinding/beans/PojoMapPropertyDecorator.java
+	     org/eclipse/core/internal/databinding/beans/PojoSetProperty.java
+	     org/eclipse/core/internal/databinding/beans/PojoSetPropertyDecorator.java
+	     org/eclipse/core/internal/databinding/beans/PojoValueProperty.java
+	     org/eclipse/core/internal/databinding/beans/PojoValuePropertyDecorator.java
+	     org/eclipse/core/internal/databinding/beans/Util.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.databinding.beans.jar" path="org.eclipse.core.databinding.beans/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding.observable"/>

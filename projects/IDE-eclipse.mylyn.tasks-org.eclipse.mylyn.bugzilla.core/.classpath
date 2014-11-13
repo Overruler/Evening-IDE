@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.bugzilla.core.jar" path="org.eclipse.mylyn.bugzilla.core"/>
+	<!-- org/eclipse/mylyn/internal/bugzilla/core/AbstractBugzillaOperation.java
+	     org/eclipse/mylyn/internal/bugzilla/core/AbstractReportFactory.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugHistory.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaAttachmentMapper.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaAttribute.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaAttributeMapper.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaClient.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaClientFactory.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaClientManager.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaCorePlugin.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaCustomField.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaFilePart.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaFlag.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaFlagMapper.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaLanguageSettings.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaOperation.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaRepositoryConnector.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaRepositoryMigrator.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaRepositoryResponse.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaSearch.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaStatus.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaTaskAttachmentHandler.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaTaskDataCollector.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaTaskDataHandler.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaTaskListMigrator.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaUserMatchResponse.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaUtil.java
+	     org/eclipse/mylyn/internal/bugzilla/core/BugzillaVersion.java
+	     org/eclipse/mylyn/internal/bugzilla/core/CustomTransitionManager.java
+	     org/eclipse/mylyn/internal/bugzilla/core/GzipGetMethod.java
+	     org/eclipse/mylyn/internal/bugzilla/core/GzipPostMethod.java
+	     org/eclipse/mylyn/internal/bugzilla/core/IBugzillaConstants.java
+	     org/eclipse/mylyn/internal/bugzilla/core/Messages.java
+	     org/eclipse/mylyn/internal/bugzilla/core/messages.properties
+	     org/eclipse/mylyn/internal/bugzilla/core/MultiBugReportFactory.java
+	     org/eclipse/mylyn/internal/bugzilla/core/RepositoryConfiguration.java
+	     org/eclipse/mylyn/internal/bugzilla/core/RepositoryConfigurationFactory.java
+	     org/eclipse/mylyn/internal/bugzilla/core/RepositoryQueryResultsFactory.java
+	     org/eclipse/mylyn/internal/bugzilla/core/SaxBugzillaQueryContentHandler.java
+	     org/eclipse/mylyn/internal/bugzilla/core/SaxConfigurationContentHandler.java
+	     org/eclipse/mylyn/internal/bugzilla/core/SaxMultiBugReportContentHandler.java
+	     org/eclipse/mylyn/internal/bugzilla/core/service/BugzillaXmlRpcClient.java
+	     org/eclipse/mylyn/internal/bugzilla/core/service/BugzillaXmlRpcOperation.java
+	     org/eclipse/mylyn/internal/bugzilla/core/service/temp.txt
+	     org/eclipse/mylyn/internal/bugzilla/core/service/XmlRpcClassCastException.java
+	     org/eclipse/mylyn/internal/bugzilla/core/UnrecognizedReponseException.java
+	     org/eclipse/mylyn/internal/bugzilla/core/XmlCleaner.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.bugzilla.core.jar" path="org.eclipse.mylyn.bugzilla.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.xmlrpc"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.xmlrpc"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

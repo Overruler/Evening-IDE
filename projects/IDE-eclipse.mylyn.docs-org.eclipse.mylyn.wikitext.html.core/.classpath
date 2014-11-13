@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/l10n/bundle.properties
+	     META-INF/MANIFEST.MF -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|META-INF/l10n/*|about.html" kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.html.core.jar" path="org.eclipse.mylyn.wikitext.html.core"/>
+	<!-- org/eclipse/mylyn/internal/wikitext/html/core/ElementMatcher.java
+	     org/eclipse/mylyn/internal/wikitext/html/core/FontElementStrategy.java
+	     org/eclipse/mylyn/internal/wikitext/html/core/HtmlElementStrategy.java
+	     org/eclipse/mylyn/internal/wikitext/html/core/HtmlSubsetDocumentBuilder.java
+	     org/eclipse/mylyn/internal/wikitext/html/core/HtmlSubsetLanguage.java
+	     org/eclipse/mylyn/internal/wikitext/html/core/LiteralHtmlDocumentHandler.java
+	     org/eclipse/mylyn/internal/wikitext/html/core/SpanHtmlElementStrategy.java
+	     org/eclipse/mylyn/internal/wikitext/html/core/SpanStrategies.java
+	     org/eclipse/mylyn/wikitext/html/core/HtmlLanguage.java
+	     org/eclipse/mylyn/wikitext/html/core/HtmlLanguageBuilder.java
+	     services/org.eclipse.mylyn.wikitext.core.parser.markup.MarkupLanguage -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.html.core.jar" path="org.eclipse.mylyn.wikitext.html.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core"/>
+	<classpathentry kind="src" path="/IDE-other-org.jsoup"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

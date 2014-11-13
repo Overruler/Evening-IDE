@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.monitor.ui.jar" path="org.eclipse.mylyn.monitor.ui"/>
+	<!-- org/eclipse/mylyn/internal/monitor/ui/ActionExecutionMonitor.java
+	     org/eclipse/mylyn/internal/monitor/ui/ActivityChangeMonitor.java
+	     org/eclipse/mylyn/internal/monitor/ui/ActivityContextManager.java
+	     org/eclipse/mylyn/internal/monitor/ui/CheckActivityJob.java
+	     org/eclipse/mylyn/internal/monitor/ui/IActivityManagerCallback.java
+	     org/eclipse/mylyn/internal/monitor/ui/IMonitoredWindow.java
+	     org/eclipse/mylyn/internal/monitor/ui/KeybindingCommandMonitor.java
+	     org/eclipse/mylyn/internal/monitor/ui/MenuCommandMonitor.java
+	     org/eclipse/mylyn/internal/monitor/ui/Messages.java
+	     org/eclipse/mylyn/internal/monitor/ui/messages.properties
+	     org/eclipse/mylyn/internal/monitor/ui/MonitorUiPlugin.java
+	     org/eclipse/mylyn/internal/monitor/ui/PerspectiveChangeMonitor.java
+	     org/eclipse/mylyn/internal/monitor/ui/PreferenceChangeMonitor.java
+	     org/eclipse/mylyn/internal/monitor/ui/WindowChangeMonitor.java
+	     org/eclipse/mylyn/internal/monitor/ui/WorkbenchUserActivityMonitor.java
+	     org/eclipse/mylyn/monitor/ui/AbstractCommandMonitor.java
+	     org/eclipse/mylyn/monitor/ui/AbstractEditorTracker.java
+	     org/eclipse/mylyn/monitor/ui/AbstractPartTracker.java
+	     org/eclipse/mylyn/monitor/ui/AbstractUserActivityMonitor.java
+	     org/eclipse/mylyn/monitor/ui/AbstractUserInteractionMonitor.java
+	     org/eclipse/mylyn/monitor/ui/IActionExecutionListener.java
+	     org/eclipse/mylyn/monitor/ui/IActivityContextManager.java
+	     org/eclipse/mylyn/monitor/ui/IMonitorLifecycleListener.java
+	     org/eclipse/mylyn/monitor/ui/IUserAttentionListener.java
+	     org/eclipse/mylyn/monitor/ui/MonitorUi.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.monitor.ui.jar" path="org.eclipse.mylyn.monitor.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

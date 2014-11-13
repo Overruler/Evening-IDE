@@ -2,36 +2,36 @@
 <classpath>
 	<!-- .options
 	     about.html
-	     META-INF\MANIFEST.MF
-	     OSGI-INF\messagesfactory.xml
-	     OSGI-INF\resourcebundleprovider.xml
-	     OSGI-INF\translationsupplier.xml
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/messagesfactory.xml
+	     OSGI-INF/resourcebundleprovider.xml
+	     OSGI-INF/translationsupplier.xml
 	     plugin.properties
 	     plugin.xml
-	     schema\org.eclipse.e4.languages.exsd -->
+	     schema/org.eclipse.e4.languages.exsd -->
 	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|OSGI-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.e4.core.services.jar" path="org.eclipse.e4.core.services"/>
-	<!-- org\eclipse\e4\core\internal\services\BundleTranslationProvider.java
-	     org\eclipse\e4\core\internal\services\DefaultResourceBundleProvider.java
-	     org\eclipse\e4\core\internal\services\EclipseAdapter.java
-	     org\eclipse\e4\core\internal\services\MessageFactoryServiceImpl.java
-	     org\eclipse\e4\core\internal\services\ResourceBundleHelper.java
-	     org\eclipse\e4\core\internal\services\ResourceBundleTranslationProvider.java
-	     org\eclipse\e4\core\internal\services\ServicesActivator.java
-	     org\eclipse\e4\core\internal\services\TranslationObjectSupplier.java
-	     org\eclipse\e4\core\services\adapter\Adapter.java
-	     org\eclipse\e4\core\services\contributions\IContributionFactory.java
-	     org\eclipse\e4\core\services\contributions\IContributionFactorySpi.java
-	     org\eclipse\e4\core\services\events\IEventBroker.java
-	     org\eclipse\e4\core\services\log\ILoggerProvider.java
-	     org\eclipse\e4\core\services\log\Logger.java
-	     org\eclipse\e4\core\services\nls\ILocaleChangeService.java
-	     org\eclipse\e4\core\services\nls\IMessageFactoryService.java
-	     org\eclipse\e4\core\services\nls\Message.java
-	     org\eclipse\e4\core\services\nls\Translation.java
-	     org\eclipse\e4\core\services\statusreporter\StatusReporter.java
-	     org\eclipse\e4\core\services\translation\ResourceBundleProvider.java
-	     org\eclipse\e4\core\services\translation\TranslationProviderFactory.java
-	     org\eclipse\e4\core\services\translation\TranslationService.java -->
+	<!-- org/eclipse/e4/core/internal/services/BundleTranslationProvider.java
+	     org/eclipse/e4/core/internal/services/DefaultResourceBundleProvider.java
+	     org/eclipse/e4/core/internal/services/EclipseAdapter.java
+	     org/eclipse/e4/core/internal/services/MessageFactoryServiceImpl.java
+	     org/eclipse/e4/core/internal/services/ResourceBundleHelper.java
+	     org/eclipse/e4/core/internal/services/ResourceBundleTranslationProvider.java
+	     org/eclipse/e4/core/internal/services/ServicesActivator.java
+	     org/eclipse/e4/core/internal/services/TranslationObjectSupplier.java
+	     org/eclipse/e4/core/services/adapter/Adapter.java
+	     org/eclipse/e4/core/services/contributions/IContributionFactory.java
+	     org/eclipse/e4/core/services/contributions/IContributionFactorySpi.java
+	     org/eclipse/e4/core/services/events/IEventBroker.java
+	     org/eclipse/e4/core/services/log/ILoggerProvider.java
+	     org/eclipse/e4/core/services/log/Logger.java
+	     org/eclipse/e4/core/services/nls/ILocaleChangeService.java
+	     org/eclipse/e4/core/services/nls/IMessageFactoryService.java
+	     org/eclipse/e4/core/services/nls/Message.java
+	     org/eclipse/e4/core/services/nls/Translation.java
+	     org/eclipse/e4/core/services/statusreporter/StatusReporter.java
+	     org/eclipse/e4/core/services/translation/ResourceBundleProvider.java
+	     org/eclipse/e4/core/services/translation/TranslationProviderFactory.java
+	     org/eclipse/e4/core/services/translation/TranslationService.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.core.services.jar" path="org.eclipse.e4.core.services/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.annotation"/>

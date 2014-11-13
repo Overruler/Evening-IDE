@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.pde.junit.runtime.jar" path="org.eclipse.pde.junit.runtime"/>
-	<!-- org\eclipse\pde\internal\junit\runtime\CoreTestApplication.java
-	     org\eclipse\pde\internal\junit\runtime\LegacyUITestApplication.java
-	     org\eclipse\pde\internal\junit\runtime\NonUIThreadTestApplication.java
-	     org\eclipse\pde\internal\junit\runtime\PDEJUnitRuntimePlugin.java
-	     org\eclipse\pde\internal\junit\runtime\PlatformUITestHarness.java
-	     org\eclipse\pde\internal\junit\runtime\RemotePluginTestRunner.java
-	     org\eclipse\pde\internal\junit\runtime\UITestApplication.java -->
+	<!-- org/eclipse/pde/internal/junit/runtime/CoreTestApplication.java
+	     org/eclipse/pde/internal/junit/runtime/LegacyUITestApplication.java
+	     org/eclipse/pde/internal/junit/runtime/NonUIThreadTestApplication.java
+	     org/eclipse/pde/internal/junit/runtime/PDEJUnitRuntimePlugin.java
+	     org/eclipse/pde/internal/junit/runtime/PlatformUITestHarness.java
+	     org/eclipse/pde/internal/junit/runtime/RemotePluginTestRunner.java
+	     org/eclipse/pde/internal/junit/runtime/UITestApplication.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.pde.junit.runtime.jar" path="org.eclipse.pde.junit.runtime/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>

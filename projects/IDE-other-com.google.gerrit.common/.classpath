@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- com/google/gerrit/common/auth/openid/DiscoveryResult.java
+	     com/google/gerrit/common/auth/openid/OpenIdProviderPattern.java
+	     com/google/gerrit/common/auth/openid/OpenIdService.java
+	     com/google/gerrit/common/auth/openid/OpenIdUrls.java
+	     com/google/gerrit/common/auth/SignInMode.java
+	     com/google/gerrit/common/auth/SignInRequired.java
+	     com/google/gerrit/common/auth/userpass/LoginResult.java
+	     com/google/gerrit/common/auth/userpass/UserPassAuthService.java
+	     com/google/gerrit/common/ClientVersion.java
+	     com/google/gerrit/common/data/AccountDashboardInfo.java
+	     com/google/gerrit/common/data/AccountInfo.java
+	     com/google/gerrit/common/data/AccountInfoCache.java
+	     com/google/gerrit/common/data/AccountProjectWatchInfo.java
+	     com/google/gerrit/common/data/AccountSecurity.java
+	     com/google/gerrit/common/data/AccountService.java
+	     com/google/gerrit/common/data/AgreementInfo.java
+	     com/google/gerrit/common/data/ApprovalDetail.java
+	     com/google/gerrit/common/data/ApprovalSummary.java
+	     com/google/gerrit/common/data/ApprovalSummarySet.java
+	     com/google/gerrit/common/data/ApprovalType.java
+	     com/google/gerrit/common/data/ApprovalTypes.java
+	     com/google/gerrit/common/data/ChangeDetail.java
+	     com/google/gerrit/common/data/ChangeDetailService.java
+	     com/google/gerrit/common/data/ChangeInfo.java
+	     com/google/gerrit/common/data/ChangeListService.java
+	     com/google/gerrit/common/data/ChangeManageService.java
+	     com/google/gerrit/common/data/CommentDetail.java
+	     com/google/gerrit/common/data/GitwebLink.java
+	     com/google/gerrit/common/data/GitWebType.java
+	     com/google/gerrit/common/data/GroupAdminService.java
+	     com/google/gerrit/common/data/GroupDetail.java
+	     com/google/gerrit/common/data/HostPageData.java
+	     com/google/gerrit/common/data/IncludedInDetail.java
+	     com/google/gerrit/common/data/InheritedRefRight.java
+	     com/google/gerrit/common/data/ListBranchesResult.java
+	     com/google/gerrit/common/data/ParamertizedString.java
+	     com/google/gerrit/common/data/PatchDetailService.java
+	     com/google/gerrit/common/data/PatchScript.java
+	     com/google/gerrit/common/data/PatchSetDetail.java
+	     com/google/gerrit/common/data/PatchSetPublishDetail.java
+	     com/google/gerrit/common/data/ProjectAdminService.java
+	     com/google/gerrit/common/data/ProjectDetail.java
+	     com/google/gerrit/common/data/ProjectInfo.java
+	     com/google/gerrit/common/data/ReviewerResult.java
+	     com/google/gerrit/common/data/SingleListChangeInfo.java
+	     com/google/gerrit/common/data/SshHostKey.java
+	     com/google/gerrit/common/data/SuggestService.java
+	     com/google/gerrit/common/data/SystemInfoService.java
+	     com/google/gerrit/common/data/ToggleStarRequest.java
+	     com/google/gerrit/common/errors/ContactInformationStoreException.java
+	     com/google/gerrit/common/errors/CorruptEntityException.java
+	     com/google/gerrit/common/errors/InvalidNameException.java
+	     com/google/gerrit/common/errors/InvalidQueryException.java
+	     com/google/gerrit/common/errors/InvalidRevisionException.java
+	     com/google/gerrit/common/errors/InvalidSshKeyException.java
+	     com/google/gerrit/common/errors/InvalidUserNameException.java
+	     com/google/gerrit/common/errors/NameAlreadyUsedException.java
+	     com/google/gerrit/common/errors/NoSuchAccountException.java
+	     com/google/gerrit/common/errors/NoSuchEntityException.java
+	     com/google/gerrit/common/errors/NotSignedInException.java
+	     com/google/gerrit/common/PageLinks.java -->
+	<classpathentry excluding="com/google/gerrit/common/data/GerritConfig.java|about.html|about_files/LICENSE.txt|META-INF/MANIFEST.MF|plugin.properties" including="com/google/gerrit/common/*|com/google/gerrit/common/auth/*|com/google/gerrit/common/auth/openid/*|com/google/gerrit/common/auth/userpass/*|com/google/gerrit/common/data/*|com/google/gerrit/common/errors/*" kind="src" output="bin/1/plugins/com.google.gerrit.common.jar" path="com.google.gerrit.common"/>
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gerrit.common.jar" path="res"/>
+	<!-- com/google/gerrit/common/data/GerritConfig.java
+	     com/google/gerrit/common/Version -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gerrit.common.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-gwt"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gerrit.prettify"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gerrit.reviewdb"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwt.servlet"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwtjsonrpc"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwtorm"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

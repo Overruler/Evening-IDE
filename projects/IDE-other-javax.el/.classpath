@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- javax\el\ArrayELResolver.java
-	     javax\el\BeanELResolver.java
-	     javax\el\CompositeELResolver.java
-	     javax\el\ELContext.java
-	     javax\el\ELContextEvent.java
-	     javax\el\ELContextListener.java
-	     javax\el\ELException.java
-	     javax\el\ELResolver.java
-	     javax\el\Expression.java
-	     javax\el\ExpressionFactory.java
-	     javax\el\FunctionMapper.java
-	     javax\el\ListELResolver.java
-	     javax\el\MapELResolver.java
-	     javax\el\MethodExpression.java
-	     javax\el\MethodInfo.java
-	     javax\el\MethodNotFoundException.java
-	     javax\el\PropertyNotFoundException.java
-	     javax\el\PropertyNotWritableException.java
-	     javax\el\ResourceBundleELResolver.java
-	     javax\el\ValueExpression.java
-	     javax\el\ValueReference.java
-	     javax\el\VariableMapper.java -->
+	<!-- javax/el/ArrayELResolver.java
+	     javax/el/BeanELResolver.java
+	     javax/el/CompositeELResolver.java
+	     javax/el/ELContext.java
+	     javax/el/ELContextEvent.java
+	     javax/el/ELContextListener.java
+	     javax/el/ELException.java
+	     javax/el/ELResolver.java
+	     javax/el/Expression.java
+	     javax/el/ExpressionFactory.java
+	     javax/el/FunctionMapper.java
+	     javax/el/ListELResolver.java
+	     javax/el/MapELResolver.java
+	     javax/el/MethodExpression.java
+	     javax/el/MethodInfo.java
+	     javax/el/MethodNotFoundException.java
+	     javax/el/PropertyNotFoundException.java
+	     javax/el/PropertyNotWritableException.java
+	     javax/el/ResourceBundleELResolver.java
+	     javax/el/ValueExpression.java
+	     javax/el/ValueReference.java
+	     javax/el/VariableMapper.java -->
 	<classpathentry including="javax/el/*" kind="src" output="bin/1/plugins/javax.el.jar" path="apache.tomcat/java"/>
-	<!-- javax\el\PrivateMessages.properties -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/javax.el.jar" path="javax.el.jar/x-miss-x"/> -->
 	<!-- about.html
-	     about_files\LICENSE_CDDL.txt
-	     META-INF\MANIFEST.MF
+	     about_files/LICENSE_CDDL.txt
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/javax.el.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

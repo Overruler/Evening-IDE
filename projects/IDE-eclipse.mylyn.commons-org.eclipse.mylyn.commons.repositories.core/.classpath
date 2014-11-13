@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.repositories.core.jar" path="org.eclipse.mylyn.commons.repositories.core"/>
+	<!-- org/eclipse/mylyn/commons/repositories/core/auth/AuthenticationCredentials.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/AuthenticationException.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/AuthenticationRequest.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/AuthenticationType.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/CertificateCredentials.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/CredentialsStores.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/ICredentialsStore.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/OpenIdAuthenticationRequest.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/OpenIdCredentials.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/UnavailableException.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/UserAuthenticationRequest.java
+	     org/eclipse/mylyn/commons/repositories/core/auth/UserCredentials.java
+	     org/eclipse/mylyn/commons/repositories/core/ILocationService.java
+	     org/eclipse/mylyn/commons/repositories/core/IRepositoryLocationChangeListener.java
+	     org/eclipse/mylyn/commons/repositories/core/RepositoryCategory.java
+	     org/eclipse/mylyn/commons/repositories/core/RepositoryLocation.java
+	     org/eclipse/mylyn/commons/repositories/core/RepositoryLocationChangeEvent.java
+	     org/eclipse/mylyn/commons/repositories/core/RepositoryValidator.java
+	     org/eclipse/mylyn/internal/commons/repositories/core/CredentialsFactory.java
+	     org/eclipse/mylyn/internal/commons/repositories/core/InMemoryCredentialsStore.java
+	     org/eclipse/mylyn/internal/commons/repositories/core/LocationService.java
+	     org/eclipse/mylyn/internal/commons/repositories/core/RepositoriesCoreInternal.java
+	     org/eclipse/mylyn/internal/commons/repositories/core/SecureCredentialsStore.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.repositories.core.jar" path="org.eclipse.mylyn.commons.repositories.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

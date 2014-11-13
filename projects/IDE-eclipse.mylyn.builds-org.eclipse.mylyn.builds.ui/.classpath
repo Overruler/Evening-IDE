@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/dtool16/run_exc.gif
+	     icons/etool16/console.gif
+	     icons/etool16/run_exc.gif
+	     icons/etool16/task-new.gif
+	     icons/eview16/build-view.png
+	     icons/eview16/history_view.gif
+	     icons/eview16/junit.gif
+	     icons/eview16/repositories.gif
+	     icons/obj16/changeset.gif
+	     icons/obj16/disabled-status.png
+	     icons/obj16/failed-status.gif
+	     icons/obj16/failures.gif
+	     icons/obj16/passed-status.png
+	     icons/obj16/server.gif
+	     icons/obj16/test.gif
+	     icons/obj16/testerr.gif
+	     icons/obj16/testfail.gif
+	     icons/obj16/testignored.gif
+	     icons/obj16/testok.gif
+	     icons/obj16/tsuite.gif
+	     icons/obj16/tsuiteerror.gif
+	     icons/obj16/tsuitefail.gif
+	     icons/obj16/tsuiteignored.gif
+	     icons/obj16/tsuiteok.gif
+	     icons/obj16/unstable-status.png
+	     icons/obj16/weather_clouds.png
+	     icons/obj16/weather_cloudy.png
+	     icons/obj16/weather_lightning.png
+	     icons/obj16/weather_rain.png
+	     icons/obj16/weather_snow.png
+	     icons/obj16/weather_sun.png
+	     icons/ovr16/run_co.gif
+	     META-INF/MANIFEST.MF
+	     META-INF/p2.inf
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/dtool16/*|icons/etool16/*|icons/eview16/*|icons/obj16/*|icons/ovr16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.builds.ui.jar" path="org.eclipse.mylyn.builds.ui"/>
+	<!-- org/eclipse/mylyn/builds/ui/BuildsUi.java
+	     org/eclipse/mylyn/builds/ui/BuildsUiConstants.java
+	     org/eclipse/mylyn/builds/ui/BuildsUiStartup.java
+	     org/eclipse/mylyn/builds/ui/BuildsUiUtil.java
+	     org/eclipse/mylyn/builds/ui/spi/BuildConnectorUi.java
+	     org/eclipse/mylyn/builds/ui/spi/BuildServerPart.java
+	     org/eclipse/mylyn/builds/ui/spi/BuildServerWizard.java
+	     org/eclipse/mylyn/builds/ui/spi/BuildServerWizardPage.java
+	     org/eclipse/mylyn/internal/builds/ui/actions/NewTaskFromBuildAction.java
+	     org/eclipse/mylyn/internal/builds/ui/actions/RunBuildAction.java
+	     org/eclipse/mylyn/internal/builds/ui/actions/ShowBuildOutputAction.java
+	     org/eclipse/mylyn/internal/builds/ui/actions/ShowHistoryAction.java
+	     org/eclipse/mylyn/internal/builds/ui/actions/ShowTestResultsAction.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildConnectorDelegate.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildConnectorDescriptor.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildConnectorUiDelegate.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildElementPropertyTester.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildImages.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildNotification.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildNotifier.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildPlanPropertyTester.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildPropertyTester.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildRefresher.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildsAdapterFactory.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildServerValidator.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildsPreferencesInitializer.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildsPreferencesPage.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildsStartup.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildsUiInternal.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildsUiPlugin.java
+	     org/eclipse/mylyn/internal/builds/ui/BuildToolTip.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/BuildElementPropertiesHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/CopyDetailsHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/CopyDetailsParameterValues.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/DeleteBuildElementHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/NewTaskFromBuildHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/NewTaskFromTestHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/OpenHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/OpenWithBrowserHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/RefreshHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/RunBuildHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/ShowBuildOutputHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/ShowInBuildsViewHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/commands/ShowTestResultsHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/console/BuildConsole.java
+	     org/eclipse/mylyn/internal/builds/ui/console/BuildConsoleManager.java
+	     org/eclipse/mylyn/internal/builds/ui/console/BuildConsolePageParticipant.java
+	     org/eclipse/mylyn/internal/builds/ui/console/UrlHyperLink.java
+	     org/eclipse/mylyn/internal/builds/ui/console/UrlPatternMatchListener.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/AbstractBuildEditorPart.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/ActionPart.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/ArtifactsLabelProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/ArtifactsPart.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/BuildDetailsPage.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/BuildEditor.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/BuildEditorActionContribution.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/BuildEditorInput.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/BuildEditorPage.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/BuildOutputPart.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/ChangesLabelProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/ChangesPart.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/HeaderPart.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/Messages.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/messages.properties
+	     org/eclipse/mylyn/internal/builds/ui/editor/SummaryPart.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/TaskReference.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/TestResultLabelProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/TestResultPart.java
+	     org/eclipse/mylyn/internal/builds/ui/editor/TimestampToStringConverter.java
+	     org/eclipse/mylyn/internal/builds/ui/history/BuildHistoryContentProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/history/BuildHistoryPage.java
+	     org/eclipse/mylyn/internal/builds/ui/history/BuildHistoryPageSource.java
+	     org/eclipse/mylyn/internal/builds/ui/navigator/BuildNavigatorActionProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/navigator/BuildNavigatorContentProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/notifications/BuildsServiceMessageControl.java
+	     org/eclipse/mylyn/internal/builds/ui/notifications/BuildsServiceNotification.java
+	     org/eclipse/mylyn/internal/builds/ui/notifications/Messages.java
+	     org/eclipse/mylyn/internal/builds/ui/notifications/messages.properties
+	     org/eclipse/mylyn/internal/builds/ui/OperationFactory.java
+	     org/eclipse/mylyn/internal/builds/ui/OperationServiceUi.java
+	     org/eclipse/mylyn/internal/builds/ui/util/BuildsUrlHandler.java
+	     org/eclipse/mylyn/internal/builds/ui/util/TestResultManager.java
+	     org/eclipse/mylyn/internal/builds/ui/view/BuildContentProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/view/BuildDurationLabelProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/view/BuildElementPropertiesAction.java
+	     org/eclipse/mylyn/internal/builds/ui/view/BuildLabelProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/view/BuildModelContentAdapter.java
+	     org/eclipse/mylyn/internal/builds/ui/view/BuildStatusFilter.java
+	     org/eclipse/mylyn/internal/builds/ui/view/BuildSummaryLabelProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/view/BuildsView.java
+	     org/eclipse/mylyn/internal/builds/ui/view/BuildTimeLabelProvider.java
+	     org/eclipse/mylyn/internal/builds/ui/view/FilterByStatusAction.java
+	     org/eclipse/mylyn/internal/builds/ui/view/NewBuildServerAction.java
+	     org/eclipse/mylyn/internal/builds/ui/view/NewBuildServerMenuAction.java
+	     org/eclipse/mylyn/internal/builds/ui/view/NotificationSinkProxy.java
+	     org/eclipse/mylyn/internal/builds/ui/view/OpenBuildsPreferencesAction.java
+	     org/eclipse/mylyn/internal/builds/ui/view/OpenWithBrowserAction.java
+	     org/eclipse/mylyn/internal/builds/ui/view/ParametersDialog.java
+	     org/eclipse/mylyn/internal/builds/ui/view/PresentationMenuAction.java
+	     org/eclipse/mylyn/internal/builds/ui/view/RefreshAction.java
+	     org/eclipse/mylyn/internal/builds/ui/view/RefreshAutomaticallyAction.java
+	     org/eclipse/mylyn/internal/builds/ui/view/RelativeBuildTimeLabelProvider.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.builds.ui.jar" path="org.eclipse.mylyn.builds.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding.observable"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding.property"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.databinding"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.debug.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.junit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface.databinding"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.builds.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.team.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.versions.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.versions-org.eclipse.mylyn.versions.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.ui.console"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

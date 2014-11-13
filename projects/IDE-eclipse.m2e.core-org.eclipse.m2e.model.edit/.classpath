@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/l10n/bundle.properties
+	     plugin.properties
+	     plugin.xml
+	     xsd/archetype-1.0.0.xsd
+	     xsd/archetype-catalog-1.0.0.xsd
+	     xsd/archetype-descriptor-1.0.0.xsd
+	     xsd/maven-v4_0_0.xsd
+	     xsd/profiles-v1_0_0.xsd
+	     xsd/settings-v1_0_0.xsd -->
+	<classpathentry excluding="src/main/java/|src/main/xsd/|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html|plugin.properties|plugin.xml|xsd/*" kind="src" output="bin/1/plugins/org.eclipse.m2e.model.edit.jar" path="org.eclipse.m2e.model.edit"/>
+	<!-- org/eclipse/m2e/model/edit/pom/Activation.java
+	     org/eclipse/m2e/model/edit/pom/ActivationFile.java
+	     org/eclipse/m2e/model/edit/pom/ActivationOS.java
+	     org/eclipse/m2e/model/edit/pom/ActivationProperty.java
+	     org/eclipse/m2e/model/edit/pom/Build.java
+	     org/eclipse/m2e/model/edit/pom/BuildBase.java
+	     org/eclipse/m2e/model/edit/pom/CiManagement.java
+	     org/eclipse/m2e/model/edit/pom/Configuration.java
+	     org/eclipse/m2e/model/edit/pom/Contributor.java
+	     org/eclipse/m2e/model/edit/pom/Dependency.java
+	     org/eclipse/m2e/model/edit/pom/DependencyManagement.java
+	     org/eclipse/m2e/model/edit/pom/DeploymentRepository.java
+	     org/eclipse/m2e/model/edit/pom/Developer.java
+	     org/eclipse/m2e/model/edit/pom/DistributionManagement.java
+	     org/eclipse/m2e/model/edit/pom/DocumentRoot.java
+	     org/eclipse/m2e/model/edit/pom/Exclusion.java
+	     org/eclipse/m2e/model/edit/pom/Extension.java
+	     org/eclipse/m2e/model/edit/pom/impl/ActivationFileImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ActivationImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ActivationOSImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ActivationPropertyImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/BuildBaseImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/BuildImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/CiManagementImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ConfigurationImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ContributorImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/DependencyImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/DependencyManagementImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/DeploymentRepositoryImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/DeveloperImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/DistributionManagementImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/DocumentRootImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ExclusionImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ExtensionImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/IssueManagementImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/LicenseImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/MailingListImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ModelImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/NotifierImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/OrganizationImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ParentImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/PluginExecutionImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/PluginImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/PluginManagementImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/PomFactoryImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/PomPackageImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/PrerequisitesImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ProfileImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/PropertyElementImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/RelocationImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ReportingImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ReportPluginImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ReportSetImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/RepositoryImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/RepositoryPolicyImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ResourceImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/ScmImpl.java
+	     org/eclipse/m2e/model/edit/pom/impl/SiteImpl.java
+	     org/eclipse/m2e/model/edit/pom/IssueManagement.java
+	     org/eclipse/m2e/model/edit/pom/License.java
+	     org/eclipse/m2e/model/edit/pom/MailingList.java
+	     org/eclipse/m2e/model/edit/pom/Model.java
+	     org/eclipse/m2e/model/edit/pom/Notifier.java
+	     org/eclipse/m2e/model/edit/pom/Organization.java
+	     org/eclipse/m2e/model/edit/pom/Parent.java
+	     org/eclipse/m2e/model/edit/pom/Plugin.java
+	     org/eclipse/m2e/model/edit/pom/PluginExecution.java
+	     org/eclipse/m2e/model/edit/pom/PluginManagement.java
+	     org/eclipse/m2e/model/edit/pom/PomFactory.java
+	     org/eclipse/m2e/model/edit/pom/PomPackage.java
+	     org/eclipse/m2e/model/edit/pom/Prerequisites.java
+	     org/eclipse/m2e/model/edit/pom/Profile.java
+	     org/eclipse/m2e/model/edit/pom/PropertyElement.java
+	     org/eclipse/m2e/model/edit/pom/provider/ActivationFileItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ActivationItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ActivationOSItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ActivationPropertyItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/BuildBaseItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/BuildItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/CiManagementItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ConfigurationItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ContributorItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/DependencyItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/DependencyManagementItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/DeploymentRepositoryItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/DeveloperItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/DistributionManagementItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/DocumentRootItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ExclusionItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ExtensionItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/IssueManagementItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/LicenseItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/MailingListItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ModelItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/NotifierItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/OrganizationItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ParentItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/PluginExecutionItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/PluginItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/PluginManagementItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/PomEditPlugin.java
+	     org/eclipse/m2e/model/edit/pom/provider/PomItemProviderAdapterFactory.java
+	     org/eclipse/m2e/model/edit/pom/provider/PrerequisitesItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ProfileItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/PropertyElementItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/RelocationItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ReportingItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ReportPluginItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ReportSetItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/RepositoryItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/RepositoryPolicyItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ResourceItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/ScmItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/provider/SiteItemProvider.java
+	     org/eclipse/m2e/model/edit/pom/Relocation.java
+	     org/eclipse/m2e/model/edit/pom/Reporting.java
+	     org/eclipse/m2e/model/edit/pom/ReportPlugin.java
+	     org/eclipse/m2e/model/edit/pom/ReportSet.java
+	     org/eclipse/m2e/model/edit/pom/Repository.java
+	     org/eclipse/m2e/model/edit/pom/RepositoryPolicy.java
+	     org/eclipse/m2e/model/edit/pom/Resource.java
+	     org/eclipse/m2e/model/edit/pom/Scm.java
+	     org/eclipse/m2e/model/edit/pom/Site.java
+	     org/eclipse/m2e/model/edit/pom/translators/ListAdapter.java
+	     org/eclipse/m2e/model/edit/pom/translators/ModelObjectAdapter.java
+	     org/eclipse/m2e/model/edit/pom/translators/PropertiesAdapter.java
+	     org/eclipse/m2e/model/edit/pom/translators/SSESyncResource.java
+	     org/eclipse/m2e/model/edit/pom/translators/TranslatorAdapter.java
+	     org/eclipse/m2e/model/edit/pom/util/PomAdapterFactory.java
+	     org/eclipse/m2e/model/edit/pom/util/PomResourceFactoryImpl.java
+	     org/eclipse/m2e/model/edit/pom/util/PomResourceImpl.java
+	     org/eclipse/m2e/model/edit/pom/util/PomSwitch.java
+	     org/eclipse/m2e/model/edit/pom/util/PomXMLProcessor.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.model.edit.jar" path="org.eclipse.m2e.model.edit/src/main/java"/>
+	<!-- org/eclipse/m2e/model/pom/pom.ecore
+	     org/eclipse/m2e/model/pom/pom.genmodel
+	     org/eclipse/m2e/model/pom/pom.xsd
+	     org/eclipse/m2e/model/pom/pom.xsd2ecore
+	     org/eclipse/m2e/model/pom/readme.txt -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.model.edit.jar" path="org.eclipse.m2e.model.edit/src/main/xsd"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.model.edit/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.model.edit/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.model.edit.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.edit"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.edit"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.jem.util"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.emf"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.core"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xml.core"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xsd.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

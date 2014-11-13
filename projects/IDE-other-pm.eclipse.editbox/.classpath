@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- epl-v10.html
+	     META-INF/MANIFEST.MF
+	     plugin.xml
+	     icons/editbox.png -->
+	<classpathentry excluding="src/|.*" including="META-INF/*|epl-v10.html|icons/*|plugin.xml" kind="src" output="bin/1/plugins/pm.eclipse.editbox.jar" path="pm.eclipse.editbox"/>
+	<!-- 1BlueToDeepBlue17-3-3noGRad(from Enide Studio).eb
+	     1RainbowDropsLineNoFill-from-ADT-Bundle-2.eb
+	     BlueGradient22WithDarkBoldLeftBorder.eb
+	     BlueLight.eb
+	     BlueToDeepBlue.eb
+	     GreyGradient.eb
+	     Java_v_20.eb
+	     OnClick.eb
+	     OrangeToRed.eb
+	     pm.eclipse.editbox.provider.java.eb
+	     pm.eclipse.editbox.provider.markup.eb
+	     pm.eclipse.editbox.provider.python.eb
+	     pm.eclipse.editbox.provider.text.eb
+	     pm/eclipse/editbox/actions/EditBoxStartup.java
+	     pm/eclipse/editbox/actions/EnableEditBox.java
+	     pm/eclipse/editbox/actions/SelectBox.java
+	     pm/eclipse/editbox/actions/UnselectBox.java
+	     pm/eclipse/editbox/Box.java
+	     pm/eclipse/editbox/EditBox.java
+	     pm/eclipse/editbox/IBoxBuilder.java
+	     pm/eclipse/editbox/IBoxDecorator.java
+	     pm/eclipse/editbox/IBoxProvider.java
+	     pm/eclipse/editbox/IBoxSettings.java
+	     pm/eclipse/editbox/IBoxSettingsStore.java
+	     pm/eclipse/editbox/impl/AbstractBoxBuilder.java
+	     pm/eclipse/editbox/impl/BoxBuilderImpl.java
+	     pm/eclipse/editbox/impl/BoxDecoratorImpl.java
+	     pm/eclipse/editbox/impl/BoxProviderImpl.java
+	     pm/eclipse/editbox/impl/BoxProviderRegistry.java
+	     pm/eclipse/editbox/impl/BoxSettingsImpl.java
+	     pm/eclipse/editbox/impl/BoxSettingsStoreImpl.java
+	     pm/eclipse/editbox/impl/JavaBoxBuilder.java
+	     pm/eclipse/editbox/impl/MarkupBoxBuilder.java
+	     pm/eclipse/editbox/impl/MarkupBuilder2.java
+	     pm/eclipse/editbox/impl/TextBoxBuilder.java
+	     pm/eclipse/editbox/pref/BoxSettingsTab.java
+	     pm/eclipse/editbox/pref/EditboxPreferencePage.java
+	     RainbowDrops.eb
+	     RainbowDropsLine.eb
+	     RainbowDropsLineFill.eb
+	     Whitebox.eb -->
+	<classpathentry including="1BlueToDeepBlue17-3-3noGRad(from Enide Studio).eb|1RainbowDropsLineNoFill-from-ADT-Bundle-2.eb|BlueGradient22WithDarkBoldLeftBorder.eb|BlueLight.eb|BlueToDeepBlue.eb|GreyGradient.eb|Java_v_20.eb|OnClick.eb|OrangeToRed.eb|RainbowDrops.eb|RainbowDropsLine.eb|RainbowDropsLineFill.eb|Whitebox.eb|pm.eclipse.editbox.provider.java.eb|pm.eclipse.editbox.provider.markup.eb|pm.eclipse.editbox.provider.python.eb|pm.eclipse.editbox.provider.text.eb|pm/eclipse/editbox/*|pm/eclipse/editbox/actions/*|pm/eclipse/editbox/impl/*|pm/eclipse/editbox/pref/*" kind="src" output="bin/1/plugins/pm.eclipse.editbox.jar" path="pm.eclipse.editbox/src"/>
+	<!-- META-INF/maven/pm.eclipse.editbox/pm.eclipse.editbox/pom.properties
+	     META-INF/maven/pm.eclipse.editbox/pm.eclipse.editbox/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/pm.eclipse.editbox.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

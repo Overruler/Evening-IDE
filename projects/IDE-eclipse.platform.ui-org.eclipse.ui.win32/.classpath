@@ -2,11 +2,11 @@
 <classpath>
 	<!-- about.html
 	     fragment-win32.properties
-	     META-INF\MANIFEST.MF -->
+	     META-INF/MANIFEST.MF -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|fragment-win32.properties" kind="src" output="bin/1/plugins/org.eclipse.ui.win32.jar" path="org.eclipse.ui.win32"/>
-	<!-- org\eclipse\ui\internal\editorsupport\win32\messages.properties
-	     org\eclipse\ui\internal\editorsupport\win32\OleEditor.java
-	     org\eclipse\ui\internal\editorsupport\win32\OleMessages.java -->
+	<!-- org/eclipse/ui/internal/editorsupport/win32/messages.properties
+	     org/eclipse/ui/internal/editorsupport/win32/OleEditor.java
+	     org/eclipse/ui/internal/editorsupport/win32/OleMessages.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.win32.jar" path="org.eclipse.ui.win32/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>

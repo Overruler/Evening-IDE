@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\eclipse\jetty\servlet\BaseHolder.java
-	     org\eclipse\jetty\servlet\DefaultServlet.java
-	     org\eclipse\jetty\servlet\ErrorPageErrorHandler.java
-	     org\eclipse\jetty\servlet\FilterHolder.java
-	     org\eclipse\jetty\servlet\FilterMapping.java
-	     org\eclipse\jetty\servlet\Holder.java
-	     org\eclipse\jetty\servlet\Invoker.java
-	     org\eclipse\jetty\servlet\jmx\FilterMappingMBean.java
-	     org\eclipse\jetty\servlet\jmx\HolderMBean.java
-	     org\eclipse\jetty\servlet\jmx\ServletMappingMBean.java
-	     org\eclipse\jetty\servlet\JspPropertyGroupServlet.java
-	     org\eclipse\jetty\servlet\ListenerHolder.java
-	     org\eclipse\jetty\servlet\listener\ELContextCleaner.java
-	     org\eclipse\jetty\servlet\listener\IntrospectorCleaner.java
-	     org\eclipse\jetty\servlet\NoJspServlet.java
-	     org\eclipse\jetty\servlet\ServletContextHandler.java
-	     org\eclipse\jetty\servlet\ServletHandler.java
-	     org\eclipse\jetty\servlet\ServletHolder.java
-	     org\eclipse\jetty\servlet\ServletMapping.java
-	     org\eclipse\jetty\servlet\ServletTester.java
-	     org\eclipse\jetty\servlet\StatisticsServlet.java -->
+	<!-- org/eclipse/jetty/servlet/BaseHolder.java
+	     org/eclipse/jetty/servlet/DefaultServlet.java
+	     org/eclipse/jetty/servlet/ErrorPageErrorHandler.java
+	     org/eclipse/jetty/servlet/FilterHolder.java
+	     org/eclipse/jetty/servlet/FilterMapping.java
+	     org/eclipse/jetty/servlet/Holder.java
+	     org/eclipse/jetty/servlet/Invoker.java
+	     org/eclipse/jetty/servlet/jmx/FilterMappingMBean.java
+	     org/eclipse/jetty/servlet/jmx/HolderMBean.java
+	     org/eclipse/jetty/servlet/jmx/ServletMappingMBean.java
+	     org/eclipse/jetty/servlet/JspPropertyGroupServlet.java
+	     org/eclipse/jetty/servlet/ListenerHolder.java
+	     org/eclipse/jetty/servlet/listener/ELContextCleaner.java
+	     org/eclipse/jetty/servlet/listener/IntrospectorCleaner.java
+	     org/eclipse/jetty/servlet/NoJspServlet.java
+	     org/eclipse/jetty/servlet/ServletContextHandler.java
+	     org/eclipse/jetty/servlet/ServletHandler.java
+	     org/eclipse/jetty/servlet/ServletHolder.java
+	     org/eclipse/jetty/servlet/ServletMapping.java
+	     org/eclipse/jetty/servlet/ServletTester.java
+	     org/eclipse/jetty/servlet/StatisticsServlet.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.servlet.jar" path="jetty-servlet/src/main/java"/>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
-	     META-INF\maven\org.eclipse.jetty\jetty-servlet\pom.properties
-	     META-INF\maven\org.eclipse.jetty\jetty-servlet\pom.xml -->
+	     META-INF/MANIFEST.MF
+	     META-INF/maven/org.eclipse.jetty/jetty-servlet/pom.properties
+	     META-INF/maven/org.eclipse.jetty/jetty-servlet/pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.servlet.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-compile-org.eclipse.jetty.jmx"/>

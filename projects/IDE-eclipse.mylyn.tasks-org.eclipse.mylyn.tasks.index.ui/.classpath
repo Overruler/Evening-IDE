@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/l10n/bundle.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.tasks.index.ui.jar" path="org.eclipse.mylyn.tasks.index.ui"/>
+	<!-- org/eclipse/mylyn/internal/tasks/index/ui/AbstractIndexReference.java
+	     org/eclipse/mylyn/internal/tasks/index/ui/commands/messages.properties
+	     org/eclipse/mylyn/internal/tasks/index/ui/commands/ResetIndexHandler.java
+	     org/eclipse/mylyn/internal/tasks/index/ui/ContentProposalProvider.java
+	     org/eclipse/mylyn/internal/tasks/index/ui/IndexedSubstringPatternFilter.java
+	     org/eclipse/mylyn/internal/tasks/index/ui/IndexReference.java
+	     org/eclipse/mylyn/internal/tasks/index/ui/IndexSearchHandler.java
+	     org/eclipse/mylyn/internal/tasks/index/ui/messages.properties
+	     org/eclipse/mylyn/internal/tasks/index/ui/TasksIndexUi.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.tasks.index.ui.jar" path="org.eclipse.mylyn.tasks.index.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.index.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

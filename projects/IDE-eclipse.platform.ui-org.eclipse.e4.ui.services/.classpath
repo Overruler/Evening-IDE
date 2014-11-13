@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
-	     OSGI-INF\eventBroker.xml
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/eventBroker.xml
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.services.jar" path="org.eclipse.e4.ui.services"/>
-	<!-- org\eclipse\e4\ui\internal\services\Activator.java
-	     org\eclipse\e4\ui\internal\services\ActiveContextsFunction.java
-	     org\eclipse\e4\ui\internal\services\ContextContextFunction.java
-	     org\eclipse\e4\ui\internal\services\ContextContextService.java
-	     org\eclipse\e4\ui\internal\services\ServiceMessages.java
-	     org\eclipse\e4\ui\internal\services\serviceMessages.properties
-	     org\eclipse\e4\ui\services\ContextServiceAddon.java
-	     org\eclipse\e4\ui\services\EContextService.java
-	     org\eclipse\e4\ui\services\EMenuService.java
-	     org\eclipse\e4\ui\services\events\EventBrokerFactory.java
-	     org\eclipse\e4\ui\services\internal\events\EventBroker.java
-	     org\eclipse\e4\ui\services\internal\events\UIEventHandler.java
-	     org\eclipse\e4\ui\services\IServiceConstants.java
-	     org\eclipse\e4\ui\services\IStylingEngine.java -->
+	<!-- org/eclipse/e4/ui/internal/services/Activator.java
+	     org/eclipse/e4/ui/internal/services/ActiveContextsFunction.java
+	     org/eclipse/e4/ui/internal/services/ContextContextFunction.java
+	     org/eclipse/e4/ui/internal/services/ContextContextService.java
+	     org/eclipse/e4/ui/internal/services/ServiceMessages.java
+	     org/eclipse/e4/ui/internal/services/serviceMessages.properties
+	     org/eclipse/e4/ui/services/ContextServiceAddon.java
+	     org/eclipse/e4/ui/services/EContextService.java
+	     org/eclipse/e4/ui/services/EMenuService.java
+	     org/eclipse/e4/ui/services/events/EventBrokerFactory.java
+	     org/eclipse/e4/ui/services/internal/events/EventBroker.java
+	     org/eclipse/e4/ui/services/internal/events/UIEventHandler.java
+	     org/eclipse/e4/ui/services/IServiceConstants.java
+	     org/eclipse/e4/ui/services/IStylingEngine.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.ui.services.jar" path="org.eclipse.e4.ui.services/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.annotation"/>

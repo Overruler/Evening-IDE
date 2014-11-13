@@ -4,11 +4,11 @@
 	     fragment.properties
 	     fragment.xml
 	     jnicrypt##.dll
-	     META-INF\MANIFEST.MF -->
+	     META-INF/MANIFEST.MF -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|fragment.properties|fragment.xml|jnicrypt??.dll" kind="src" output="bin/1/plugins/org.eclipse.equinox.security.win32.x86_64.jar" path="org.eclipse.equinox.security.win32.x86_64"/>
-	<!-- org\eclipse\equinox\internal\security\win32\nls\messages.properties
-	     org\eclipse\equinox\internal\security\win32\nls\WinCryptoMessages.java
-	     org\eclipse\equinox\internal\security\win32\WinCrypto.java -->
+	<!-- org/eclipse/equinox/internal/security/win32/nls/messages.properties
+	     org/eclipse/equinox/internal/security/win32/nls/WinCryptoMessages.java
+	     org/eclipse/equinox/internal/security/win32/WinCrypto.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.security.win32.x86_64.jar" path="org.eclipse.equinox.security.win32.x86_64/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security"/>

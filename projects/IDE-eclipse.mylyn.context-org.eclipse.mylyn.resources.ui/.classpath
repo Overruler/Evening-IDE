@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     doc/ant.html
+	     doc/book.css
+	     doc/pde.html
+	     doc/toc.xml
+	     doc/xml.html
+	     icons/elcl16/edge-ref-xml.gif
+	     icons/elcl16/focus-disabled.gif
+	     icons/elcl16/focus.gif
+	     icons/elcl16/interest-decrease.gif
+	     icons/elcl16/interest-increase.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|doc/*|icons/elcl16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.resources.ui.jar" path="org.eclipse.mylyn.resources.ui"/>
+	<!-- org/eclipse/mylyn/internal/resources/ui/EditorInteractionMonitor.java
+	     org/eclipse/mylyn/internal/resources/ui/IResourceExclusionStrategy.java
+	     org/eclipse/mylyn/internal/resources/ui/preferences/FocusedResourcesPreferencePage.java
+	     org/eclipse/mylyn/internal/resources/ui/preferences/Messages.java
+	     org/eclipse/mylyn/internal/resources/ui/preferences/messages.properties
+	     org/eclipse/mylyn/internal/resources/ui/ResourceChangeMonitor.java
+	     org/eclipse/mylyn/internal/resources/ui/ResourceContextLabelProvider.java
+	     org/eclipse/mylyn/internal/resources/ui/ResourceInteractionMonitor.java
+	     org/eclipse/mylyn/internal/resources/ui/ResourceInterestUpdater.java
+	     org/eclipse/mylyn/internal/resources/ui/ResourceModifiedDateExclusionStrategy.java
+	     org/eclipse/mylyn/internal/resources/ui/ResourcePatternExclusionStrategy.java
+	     org/eclipse/mylyn/internal/resources/ui/ResourceStructureBridge.java
+	     org/eclipse/mylyn/internal/resources/ui/ResourcesUiBridgePlugin.java
+	     org/eclipse/mylyn/internal/resources/ui/ResourcesUiExtensionPointReader.java
+	     org/eclipse/mylyn/internal/resources/ui/ResourcesUiPreferenceInitializer.java
+	     org/eclipse/mylyn/internal/resources/ui/ResourceUiBridge.java
+	     org/eclipse/mylyn/resources/ui/FocusCommonNavigatorAction.java
+	     org/eclipse/mylyn/resources/ui/ResourcesUi.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.resources.ui.jar" path="org.eclipse.mylyn.resources.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

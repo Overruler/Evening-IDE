@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     icons/full/ctool16/spellcheck.gif
+	     icons/full/dlcl16/collapseall.gif
+	     icons/full/dlcl16/delete.gif
+	     icons/full/dlcl16/synced.gif
+	     icons/full/dtool16/spellcheck.gif
+	     icons/full/elcl16/collapseall.gif
+	     icons/full/elcl16/delete.gif
+	     icons/full/elcl16/filter_ps.gif
+	     icons/full/elcl16/synced.gif
+	     icons/full/etool16/spellcheck.gif
+	     icons/full/obj16/occ_match.gif
+	     icons/full/obj16/preferences.gif
+	     icons/full/obj16/prop_ps.gif
+	     icons/sourceEditor.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|src-encoding/|src-extensions/|src-tasktags/|.*|.*/" including=".options|META-INF/*|about.html|icons/*|icons/full/ctool16/*|icons/full/dlcl16/*|icons/full/dtool16/*|icons/full/elcl16/*|icons/full/etool16/*|icons/full/obj16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.sse.ui.jar" path="org.eclipse.wst.sse.ui"/>
+	<!-- org/eclipse/wst/sse/ui/contentassist/AutoActivationDelegate.java
+	     org/eclipse/wst/sse/ui/contentassist/CompletionProposalInvocationContext.java
+	     org/eclipse/wst/sse/ui/contentassist/ICompletionProposalComputer.java
+	     org/eclipse/wst/sse/ui/contentassist/StructuredContentAssistProcessor.java
+	     org/eclipse/wst/sse/ui/IContentSelectionProvider.java
+	     org/eclipse/wst/sse/ui/internal/AbstractDropAction.java
+	     org/eclipse/wst/sse/ui/internal/actions/ActionContributor.java
+	     org/eclipse/wst/sse/ui/internal/actions/ActionDefinitionIds.java
+	     org/eclipse/wst/sse/ui/internal/actions/ActiveEditorActionHandler.java
+	     org/eclipse/wst/sse/ui/internal/actions/CleanupAction.java
+	     org/eclipse/wst/sse/ui/internal/actions/FormatActionDelegate.java
+	     org/eclipse/wst/sse/ui/internal/actions/ResourceActionDelegate.java
+	     org/eclipse/wst/sse/ui/internal/actions/StructuredTextEditorActionConstants.java
+	     org/eclipse/wst/sse/ui/internal/CaretMediator.java
+	     org/eclipse/wst/sse/ui/internal/comment/BlockCommentingStrategy.java
+	     org/eclipse/wst/sse/ui/internal/comment/CommentingStrategy.java
+	     org/eclipse/wst/sse/ui/internal/comment/CommentingStrategyRegistry.java
+	     org/eclipse/wst/sse/ui/internal/comment/LineCommentingStrategy.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/CompletionProposalCategory.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/CompletionProposalComputerRegistry.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/CompletionProposalContentTypeContext.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/CompletionProposoalCatigoriesConfigurationRegistry.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/CompoundContentAssistProcessor.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/ContentAssistUtils.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/ContextInformationValidator.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/CustomCompletionProposal.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/IRelevanceCompletionProposal.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/IRelevanceConstants.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/OptionalMessageDialog.java
+	     org/eclipse/wst/sse/ui/internal/contentassist/StructuredContentAssistant.java
+	     org/eclipse/wst/sse/ui/internal/contentoutline/ConfigurableContentOutlinePage.java
+	     org/eclipse/wst/sse/ui/internal/contentoutline/IJFaceNodeAdapter.java
+	     org/eclipse/wst/sse/ui/internal/contentoutline/IJFaceNodeAdapterFactory.java
+	     org/eclipse/wst/sse/ui/internal/contentoutline/PropertyChangeUpdateAction.java
+	     org/eclipse/wst/sse/ui/internal/contentoutline/PropertyChangeUpdateActionContributionItem.java
+	     org/eclipse/wst/sse/ui/internal/contentproperties/ui/ComboList.java
+	     org/eclipse/wst/sse/ui/internal/contentproperties/ui/ComboListOnPropertyPage.java
+	     org/eclipse/wst/sse/ui/internal/contentproperties/ui/ContentSettingsPropertyPage.java
+	     org/eclipse/wst/sse/ui/internal/correction/CompoundQuickAssistProcessor.java
+	     org/eclipse/wst/sse/ui/internal/correction/ContributedProcessorDescriptor.java
+	     org/eclipse/wst/sse/ui/internal/correction/CorrectionAssistantProvider.java
+	     org/eclipse/wst/sse/ui/internal/correction/IQuickAssistProcessor.java
+	     org/eclipse/wst/sse/ui/internal/correction/IQuickFixProcessor.java
+	     org/eclipse/wst/sse/ui/internal/correction/NoModificationCompletionProposal.java
+	     org/eclipse/wst/sse/ui/internal/correction/QuickFixRegistry.java
+	     org/eclipse/wst/sse/ui/internal/correction/QuickFixRegistryReader.java
+	     org/eclipse/wst/sse/ui/internal/correction/SourceValidationQuickAssistProcessor.java
+	     org/eclipse/wst/sse/ui/internal/correction/StructuredCorrectionProcessor.java
+	     org/eclipse/wst/sse/ui/internal/debug/BreakpointRulerAction.java
+	     org/eclipse/wst/sse/ui/internal/debug/DebugTextEditor.java
+	     org/eclipse/wst/sse/ui/internal/debug/EditBreakpointAction.java
+	     org/eclipse/wst/sse/ui/internal/debug/ManageBreakpointAction.java
+	     org/eclipse/wst/sse/ui/internal/debug/ToggleBreakpointAction.java
+	     org/eclipse/wst/sse/ui/internal/debug/ToggleBreakpointsTarget.java
+	     org/eclipse/wst/sse/ui/internal/derived/HTML2TextReader.java
+	     org/eclipse/wst/sse/ui/internal/derived/HTMLTextPresenter.java
+	     org/eclipse/wst/sse/ui/internal/derived/LineBreakingReader.java
+	     org/eclipse/wst/sse/ui/internal/derived/SingleCharReader.java
+	     org/eclipse/wst/sse/ui/internal/derived/SubstitutionTextReader.java
+	     org/eclipse/wst/sse/ui/internal/editor/EditorModelUtil.java
+	     org/eclipse/wst/sse/ui/internal/editor/EditorPluginImageHelper.java
+	     org/eclipse/wst/sse/ui/internal/editor/EditorPluginImages.java
+	     org/eclipse/wst/sse/ui/internal/editor/IHelpContextIds.java
+	     org/eclipse/wst/sse/ui/internal/editor/SelectionConvertor.java
+	     org/eclipse/wst/sse/ui/internal/editor/StructuredModelDocumentProvider.java
+	     org/eclipse/wst/sse/ui/internal/edit/util/SharedEditorPluginImageHelper.java
+	     org/eclipse/wst/sse/ui/internal/ExtendedConfigurationBuilder.java
+	     org/eclipse/wst/sse/ui/internal/ExtendedEditorActionBuilder.java
+	     org/eclipse/wst/sse/ui/internal/ExtendedEditorDropTargetAdapter.java
+	     org/eclipse/wst/sse/ui/internal/extension/ActionDescriptor.java
+	     org/eclipse/wst/sse/ui/internal/extension/BreakpointProviderBuilder.java
+	     org/eclipse/wst/sse/ui/internal/extension/DropActionProxy.java
+	     org/eclipse/wst/sse/ui/internal/extension/ExtendedEditorActionProxy.java
+	     org/eclipse/wst/sse/ui/internal/extension/ExtendedEditorActionProxyForDelayLoading.java
+	     org/eclipse/wst/sse/ui/internal/extension/IExtendedEditorActionProxyForDelayLoading.java
+	     org/eclipse/wst/sse/ui/internal/extension/ImageUtil.java
+	     org/eclipse/wst/sse/ui/internal/extension/RegistryReader.java
+	     org/eclipse/wst/sse/ui/internal/FileDropAction.java
+	     org/eclipse/wst/sse/ui/internal/filter/OutlineCustomFiltersDialog.java
+	     org/eclipse/wst/sse/ui/internal/filter/OutlineFilterDescriptor.java
+	     org/eclipse/wst/sse/ui/internal/filter/OutlineFilterMessages.java
+	     org/eclipse/wst/sse/ui/internal/filter/OutlineFilterMessages.properties
+	     org/eclipse/wst/sse/ui/internal/filter/OutlineNamePatternFilter.java
+	     org/eclipse/wst/sse/ui/internal/filter/StringMatcher.java
+	     org/eclipse/wst/sse/ui/internal/FormatProcessorsExtensionReader.java
+	     org/eclipse/wst/sse/ui/internal/format/FormattingDelegate.java
+	     org/eclipse/wst/sse/ui/internal/format/StructuredFormattingStrategy.java
+	     org/eclipse/wst/sse/ui/internal/GotoAnnotationAction.java
+	     org/eclipse/wst/sse/ui/internal/handlers/AbstractCommentHandler.java
+	     org/eclipse/wst/sse/ui/internal/handlers/AbstractStructuredSelectHandler.java
+	     org/eclipse/wst/sse/ui/internal/handlers/AddBlockCommentHandler.java
+	     org/eclipse/wst/sse/ui/internal/handlers/CustomFilterHandler.java
+	     org/eclipse/wst/sse/ui/internal/handlers/FindOccurrencesHandler.java
+	     org/eclipse/wst/sse/ui/internal/handlers/FormatHandler.java
+	     org/eclipse/wst/sse/ui/internal/handlers/RemoveBlockCommentHandler.java
+	     org/eclipse/wst/sse/ui/internal/handlers/StructuredSelectHistoryHandler.java
+	     org/eclipse/wst/sse/ui/internal/handlers/ToggleLineCommentHandler.java
+	     org/eclipse/wst/sse/ui/internal/hyperlink/HighlighterHyperlinkPresenter.java
+	     org/eclipse/wst/sse/ui/internal/hyperlink/OpenHyperlinkAction.java
+	     org/eclipse/wst/sse/ui/internal/IActionValidator.java
+	     org/eclipse/wst/sse/ui/internal/IDropAction.java
+	     org/eclipse/wst/sse/ui/internal/IExtendedContributor.java
+	     org/eclipse/wst/sse/ui/internal/IExtendedEditorAction.java
+	     org/eclipse/wst/sse/ui/internal/IExtendedMarkupEditor.java
+	     org/eclipse/wst/sse/ui/internal/IExtendedSimpleEditor.java
+	     org/eclipse/wst/sse/ui/internal/IModelProvider.java
+	     org/eclipse/wst/sse/ui/internal/IPopupMenuContributor.java
+	     org/eclipse/wst/sse/ui/internal/IReleasable.java
+	     org/eclipse/wst/sse/ui/internal/ISourceViewerActionBarContributor.java
+	     org/eclipse/wst/sse/ui/internal/IStructuredTextEditorActionConstants.java
+	     org/eclipse/wst/sse/ui/internal/ITemporaryAnnotation.java
+	     org/eclipse/wst/sse/ui/internal/Logger.java
+	     org/eclipse/wst/sse/ui/internal/openon/AbstractOpenOn.java
+	     org/eclipse/wst/sse/ui/internal/openon/ExternalFileEditorInput.java
+	     org/eclipse/wst/sse/ui/internal/openon/IOpenOn.java
+	     org/eclipse/wst/sse/ui/internal/openon/OpenFileHyperlinkTracker.java
+	     org/eclipse/wst/sse/ui/internal/openon/OpenOnAction.java
+	     org/eclipse/wst/sse/ui/internal/openon/OpenOnBuilder.java
+	     org/eclipse/wst/sse/ui/internal/openon/OpenOnDefinition.java
+	     org/eclipse/wst/sse/ui/internal/openon/OpenOnProvider.java
+	     org/eclipse/wst/sse/ui/internal/PreferenceInitializer.java
+	     org/eclipse/wst/sse/ui/internal/preferences/EditorPreferenceNames.java
+	     org/eclipse/wst/sse/ui/internal/preferences/OverlayPreferenceStore.java
+	     org/eclipse/wst/sse/ui/internal/preferences/TabFolderLayout.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/AbstractColorPage.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/AbstractPreferencePage.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/AbstractPreferenceTab.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/AbstractSyntaxColoringPage.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/AbstractValidationSettingsPage.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/ColorEditor.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/ColorHelper.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/ColorNames.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/EmptyFilePreferencePage.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/FilePreferencePage.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/IPreferenceTab.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/ScrolledPageContent.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/StructuredTextEditorPreferencePage.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/StyledTextColorPicker.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/TextHoverPreferenceTab.java
+	     org/eclipse/wst/sse/ui/internal/preferences/ui/TranslucencyPreferenceTab.java
+	     org/eclipse/wst/sse/ui/internal/projection/AbstractStructuredCommentFoldingPosition.java
+	     org/eclipse/wst/sse/ui/internal/projection/AbstractStructuredFoldingPosition.java
+	     org/eclipse/wst/sse/ui/internal/projection/AbstractStructuredFoldingStrategy.java
+	     org/eclipse/wst/sse/ui/internal/properties/AdapterPropertySheetEntryLabelProvider.java
+	     org/eclipse/wst/sse/ui/internal/properties/ConfigurablePropertySheetPage.java
+	     org/eclipse/wst/sse/ui/internal/properties/CustomPropertyDescriptor.java
+	     org/eclipse/wst/sse/ui/internal/properties/RemoveAction.java
+	     org/eclipse/wst/sse/ui/internal/properties/ShowPropertiesAction.java
+	     org/eclipse/wst/sse/ui/internal/propertytester/CustomFilterPropertyTester.java
+	     org/eclipse/wst/sse/ui/internal/provisional/preferences/CommonEditorPreferenceNames.java
+	     org/eclipse/wst/sse/ui/internal/provisional/registry/AdapterFactoryProvider.java
+	     org/eclipse/wst/sse/ui/internal/provisional/registry/AdapterFactoryRegistry.java
+	     org/eclipse/wst/sse/ui/internal/provisional/registry/AdapterFactoryRegistryExtension.java
+	     org/eclipse/wst/sse/ui/internal/provisional/registry/AdapterFactoryRegistryImpl.java
+	     org/eclipse/wst/sse/ui/internal/provisional/style/AbstractLineStyleProvider.java
+	     org/eclipse/wst/sse/ui/internal/provisional/style/CompatibleHighlighter.java
+	     org/eclipse/wst/sse/ui/internal/provisional/style/Highlighter.java
+	     org/eclipse/wst/sse/ui/internal/provisional/style/IHighlighter.java
+	     org/eclipse/wst/sse/ui/internal/provisional/style/LineStyleProvider.java
+	     org/eclipse/wst/sse/ui/internal/provisional/style/LineStyleProviderForNoOp.java
+	     org/eclipse/wst/sse/ui/internal/provisional/style/ReconcilerHighlighter.java
+	     org/eclipse/wst/sse/ui/internal/provisional/style/StructuredPresentationReconciler.java
+	     org/eclipse/wst/sse/ui/internal/quickoutline/QuickOutlineHandler.java
+	     org/eclipse/wst/sse/ui/internal/quickoutline/QuickOutlinePopupDialog.java
+	     org/eclipse/wst/sse/ui/internal/quickoutline/StringPatternFilter.java
+	     org/eclipse/wst/sse/ui/internal/ReadOnlyAwareDropTargetAdapter.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/AbstractStructuredTextReconcilingStrategy.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/DirtyRegionProcessor.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/DocumentAdapter.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/DocumentRegionProcessor.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/IConfigurableReconciler.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/IReconcileAnnotationKey.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/IStructuredReconcileStep.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/IStructuredReconcilingStrategy.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/ReconcileAnnotationKey.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/StructuredReconcileStep.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/StructuredRegionProcessor.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/StructuredTextReconcilingStrategy.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/TemporaryAnnotation.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/validator/AnnotationInfo.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/validator/IncrementalHelper.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/validator/IncrementalReporter.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/validator/ISourceValidator.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/validator/ReconcileStepForValidator.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/validator/ValidatorBuilder.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/validator/ValidatorMetaData.java
+	     org/eclipse/wst/sse/ui/internal/reconcile/validator/ValidatorStrategy.java
+	     org/eclipse/wst/sse/ui/internal/rules/StructuredDocumentDamagerRepairer.java
+	     org/eclipse/wst/sse/ui/internal/search/BasicSearchLabelProvider.java
+	     org/eclipse/wst/sse/ui/internal/search/BasicSearchMatchElement.java
+	     org/eclipse/wst/sse/ui/internal/search/BasicSearchQuery.java
+	     org/eclipse/wst/sse/ui/internal/search/FindOccurrencesActionDelegate.java
+	     org/eclipse/wst/sse/ui/internal/search/FindOccurrencesProcessor.java
+	     org/eclipse/wst/sse/ui/internal/search/OccurrencesContentProvider.java
+	     org/eclipse/wst/sse/ui/internal/search/OccurrencesSearchQuery.java
+	     org/eclipse/wst/sse/ui/internal/search/OccurrencesSearchResult.java
+	     org/eclipse/wst/sse/ui/internal/search/OccurrencesSearchViewPage.java
+	     org/eclipse/wst/sse/ui/internal/selection/SelectionHistory.java
+	     org/eclipse/wst/sse/ui/internal/selection/StructuredSelectActionDelegate.java
+	     org/eclipse/wst/sse/ui/internal/selection/StructuredSelectHistoryActionDelegate.java
+	     org/eclipse/wst/sse/ui/internal/selection/StructureSelectAction.java
+	     org/eclipse/wst/sse/ui/internal/selection/StructureSelectHistoryAction.java
+	     org/eclipse/wst/sse/ui/internal/ShowViewAction.java
+	     org/eclipse/wst/sse/ui/internal/spelling/ISpellcheckDelegate.java
+	     org/eclipse/wst/sse/ui/internal/spelling/SpellcheckStrategy.java
+	     org/eclipse/wst/sse/ui/internal/SSEUIMessages.java
+	     org/eclipse/wst/sse/ui/internal/SSEUIPlugin.java
+	     org/eclipse/wst/sse/ui/internal/SSEUIPluginResources.properties
+	     org/eclipse/wst/sse/ui/internal/StorageModelProvider.java
+	     org/eclipse/wst/sse/ui/internal/StructuredDocumentToTextAdapter.java
+	     org/eclipse/wst/sse/ui/internal/StructuredLineChangeHover.java
+	     org/eclipse/wst/sse/ui/internal/StructuredMarkerAnnotation.java
+	     org/eclipse/wst/sse/ui/internal/StructuredResourceMarkerAnnotationModel.java
+	     org/eclipse/wst/sse/ui/internal/StructuredResourceMarkerAnnotationModelFactory.java
+	     org/eclipse/wst/sse/ui/internal/StructuredTextAnnotationHover.java
+	     org/eclipse/wst/sse/ui/internal/StructuredTextLineBreakingReader.java
+	     org/eclipse/wst/sse/ui/internal/StructuredTextSelectionChangedEvent.java
+	     org/eclipse/wst/sse/ui/internal/StructuredTextViewer.java
+	     org/eclipse/wst/sse/ui/internal/style/SemanticHighlightingManager.java
+	     org/eclipse/wst/sse/ui/internal/style/SemanticHighlightingPresenter.java
+	     org/eclipse/wst/sse/ui/internal/style/SemanticHighlightingReconciler.java
+	     org/eclipse/wst/sse/ui/internal/taginfo/AbstractHoverProcessor.java
+	     org/eclipse/wst/sse/ui/internal/taginfo/AnnotationHoverProcessor.java
+	     org/eclipse/wst/sse/ui/internal/taginfo/BestMatchHover.java
+	     org/eclipse/wst/sse/ui/internal/taginfo/DebugInfoHoverProcessor.java
+	     org/eclipse/wst/sse/ui/internal/taginfo/ProblemAnnotationHoverProcessor.java
+	     org/eclipse/wst/sse/ui/internal/taginfo/TextHoverManager.java
+	     org/eclipse/wst/sse/ui/internal/TextDropAction.java
+	     org/eclipse/wst/sse/ui/internal/text/DocumentRegionEdgeMatcher.java
+	     org/eclipse/wst/sse/ui/internal/text/SourceInfoProvider.java
+	     org/eclipse/wst/sse/ui/internal/text/StructuredAutoEditStrategy.java
+	     org/eclipse/wst/sse/ui/internal/text/WordFinder.java
+	     org/eclipse/wst/sse/ui/internal/TransferBuilder.java
+	     org/eclipse/wst/sse/ui/internal/ui/OffsetStatusLineContributionItem.java
+	     org/eclipse/wst/sse/ui/internal/ui/StructuredTextAnnotationImageProvider.java
+	     org/eclipse/wst/sse/ui/internal/UnknownContentTypeDialog.java
+	     org/eclipse/wst/sse/ui/internal/util/Assert.java
+	     org/eclipse/wst/sse/ui/internal/util/EditorUtility.java
+	     org/eclipse/wst/sse/ui/internal/util/PixelConverter.java
+	     org/eclipse/wst/sse/ui/internal/util/PlatformStatusLineUtil.java
+	     org/eclipse/wst/sse/ui/internal/util/RegistryReader.java
+	     org/eclipse/wst/sse/ui/internal/util/Sorter.java
+	     org/eclipse/wst/sse/ui/internal/util/SWTUtil.java
+	     org/eclipse/wst/sse/ui/internal/view/events/CaretEvent.java
+	     org/eclipse/wst/sse/ui/internal/view/events/ICaretListener.java
+	     org/eclipse/wst/sse/ui/internal/view/events/INodeSelectionListener.java
+	     org/eclipse/wst/sse/ui/internal/view/events/ITextSelectionListener.java
+	     org/eclipse/wst/sse/ui/internal/view/events/NodeSelectionChangedEvent.java
+	     org/eclipse/wst/sse/ui/internal/view/events/TextSelectionChangedEvent.java
+	     org/eclipse/wst/sse/ui/ISemanticHighlighting.java
+	     org/eclipse/wst/sse/ui/ISemanticHighlightingExtension.java
+	     org/eclipse/wst/sse/ui/ISemanticHighlightingExtension2.java
+	     org/eclipse/wst/sse/ui/preferences/AbstractCompletionProposalCategoriesConfiguration.java
+	     org/eclipse/wst/sse/ui/preferences/CodeAssistCyclingConfigurationBlock.java
+	     org/eclipse/wst/sse/ui/preferences/ICompletionProposalCategoriesConfigurationReader.java
+	     org/eclipse/wst/sse/ui/preferences/ICompletionProposalCategoriesConfigurationWriter.java
+	     org/eclipse/wst/sse/ui/quickoutline/AbstractQuickOutlineConfiguration.java
+	     org/eclipse/wst/sse/ui/reconcile/ISourceReconcilingListener.java
+	     org/eclipse/wst/sse/ui/StructuredTextEditor.java
+	     org/eclipse/wst/sse/ui/StructuredTextInvocationContext.java
+	     org/eclipse/wst/sse/ui/StructuredTextViewerConfiguration.java
+	     org/eclipse/wst/sse/ui/typing/AbstractCharacterPairInserter.java
+	     org/eclipse/wst/sse/ui/views/contentoutline/ContentOutlineConfiguration.java
+	     org/eclipse/wst/sse/ui/views/contentoutline/ContentOutlineFilterProcessor.java
+	     org/eclipse/wst/sse/ui/views/properties/IPropertySourceExtension.java
+	     org/eclipse/wst/sse/ui/views/properties/PropertySheetConfiguration.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.sse.ui.jar" path="org.eclipse.wst.sse.ui/src"/>
+	<!-- org/eclipse/wst/sse/ui/internal/encoding/ui/EncodingPreferencePage.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.sse.ui.jar" path="org.eclipse.wst.sse.ui/src-encoding"/>
+	<!-- org/eclipse/wst/sse/ui/internal/provisional/extensions/breakpoint/IBreakpointConstants.java
+	     org/eclipse/wst/sse/ui/internal/provisional/extensions/breakpoint/IBreakpointProvider.java
+	     org/eclipse/wst/sse/ui/internal/provisional/extensions/breakpoint/IExtendedStorageEditorInput.java
+	     org/eclipse/wst/sse/ui/internal/provisional/extensions/breakpoint/NodeLocation.java
+	     org/eclipse/wst/sse/ui/internal/provisional/extensions/breakpoint/NullSourceEditingTextTools.java
+	     org/eclipse/wst/sse/ui/internal/provisional/extensions/ConfigurationPointCalculator.java
+	     org/eclipse/wst/sse/ui/internal/provisional/extensions/ISelfValidateEditAction.java
+	     org/eclipse/wst/sse/ui/internal/provisional/extensions/ISourceEditingTextTools.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.sse.ui.jar" path="org.eclipse.wst.sse.ui/src-extensions"/>
+	<!-- org/eclipse/wst/sse/ui/internal/preferences/ui/TaskTagPreferencePage.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.sse.ui.jar" path="org.eclipse.wst.sse.ui/src-tasktags"/>
+	<!-- META-INF/maven/org.eclipse.webtools.sourceediting/org.eclipse.wst.sse.ui/pom.properties
+	     META-INF/maven/org.eclipse.webtools.sourceediting/org.eclipse.wst.sse.ui/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.sse.ui.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.search"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.validation"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

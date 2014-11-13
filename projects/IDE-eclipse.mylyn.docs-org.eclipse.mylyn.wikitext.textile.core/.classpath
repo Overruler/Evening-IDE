@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.textile.core.jar" path="org.eclipse.mylyn.wikitext.textile.core"/>
+	<!-- org/eclipse/mylyn/internal/wikitext/textile/core/block/AbstractTableOfContentsBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/CodeBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/CommentBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/DefinitionListBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/FootnoteBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/HeadingBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/ListBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/NotextileBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/ParagraphBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/PreformattedBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/QuoteBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/TableBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/TableOfContentsBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/block/TextileGlossaryBlock.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/phrase/EscapeTextilePhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/phrase/HyperlinkPhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/phrase/ImageTextilePhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/phrase/SimpleTextilePhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/Textile.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/TextileContentState.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/TextileDocumentBuilder.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/token/EntityReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/token/FootnoteReferenceReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/validation/BlockWhitespaceRule.java
+	     org/eclipse/mylyn/internal/wikitext/textile/core/validation/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/textile/core/validation/TextileReferenceValidationRule.java
+	     org/eclipse/mylyn/wikitext/textile/core/language.properties
+	     org/eclipse/mylyn/wikitext/textile/core/language_de.properties
+	     org/eclipse/mylyn/wikitext/textile/core/language_fr.properties
+	     org/eclipse/mylyn/wikitext/textile/core/TextileLanguage.java
+	     services/org.eclipse.mylyn.wikitext.core.parser.markup.MarkupLanguage -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.textile.core.jar" path="org.eclipse.mylyn.wikitext.textile.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

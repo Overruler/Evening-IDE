@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/l10n/bundle.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html" kind="src" output="bin/1/plugins/org.eclipse.mylyn.tasks.index.core.jar" path="org.eclipse.mylyn.tasks.index.core"/>
+	<!-- org/eclipse/mylyn/internal/tasks/index/core/messages.properties
+	     org/eclipse/mylyn/internal/tasks/index/core/TaskListIndex.java
+	     org/eclipse/mylyn/internal/tasks/index/core/TasksIndexCore.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.tasks.index.core.jar" path="org.eclipse.mylyn.tasks.index.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.lucene.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/annotationFiles.exsd
+	     schema/catalogContributions.exsd
+	     schema/documentFactories.exsd
+	     schema/errorCustomizer.exsd
+	     schema/externalSchemaLocations.exsd
+	     schema/modelQueryExtensions.exsd -->
+	<classpathentry excluding="src/|src-catalog/|src-contentmodel/|src-emfModelSynch/|src-search/|src-validation/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.wst.xml.core.jar" path="org.eclipse.wst.xml.core"/>
+	<!-- org/eclipse/wst/xml/core/internal/cleanup/CleanupProcessorXML.java
+	     org/eclipse/wst/xml/core/internal/cleanup/ElementNodeCleanupHandler.java
+	     org/eclipse/wst/xml/core/internal/cleanup/NodeCleanupHandler.java
+	     org/eclipse/wst/xml/core/internal/cleanup/XMLCleanupPreferencesImpl.java
+	     org/eclipse/wst/xml/core/internal/commentelement/CommentElementAdapter.java
+	     org/eclipse/wst/xml/core/internal/commentelement/CommentElementHandler.java
+	     org/eclipse/wst/xml/core/internal/commentelement/impl/CommentElementConfiguration.java
+	     org/eclipse/wst/xml/core/internal/commentelement/impl/CommentElementRegistry.java
+	     org/eclipse/wst/xml/core/internal/commentelement/util/CommentElementFactory.java
+	     org/eclipse/wst/xml/core/internal/commentelement/util/TagScanner.java
+	     org/eclipse/wst/xml/core/internal/contenttype/AbstractResourceEncodingDetector.java
+	     org/eclipse/wst/xml/core/internal/contenttype/ByteReader.java
+	     org/eclipse/wst/xml/core/internal/contenttype/ContentDescriberForXML.java
+	     org/eclipse/wst/xml/core/internal/contenttype/EncodingParserConstants.java
+	     org/eclipse/wst/xml/core/internal/contenttype/HeadParserToken.java
+	     org/eclipse/wst/xml/core/internal/contenttype/IntStack.java
+	     org/eclipse/wst/xml/core/internal/contenttype/NullMemento.java
+	     org/eclipse/wst/xml/core/internal/contenttype/XMLDeclDetector.java
+	     org/eclipse/wst/xml/core/internal/contenttype/XMLHeadTokenizer.java
+	     org/eclipse/wst/xml/core/internal/contenttype/XMLHeadTokenizerConstants.java
+	     org/eclipse/wst/xml/core/internal/contenttype/XMLResourceEncodingDetector.java
+	     org/eclipse/wst/xml/core/internal/DebugAdapterFactory.java
+	     org/eclipse/wst/xml/core/internal/document/AttrImpl.java
+	     org/eclipse/wst/xml/core/internal/document/CDATASectionImpl.java
+	     org/eclipse/wst/xml/core/internal/document/CharacterDataImpl.java
+	     org/eclipse/wst/xml/core/internal/document/CMNodeUtil.java
+	     org/eclipse/wst/xml/core/internal/document/CommentImpl.java
+	     org/eclipse/wst/xml/core/internal/document/DocumentFragmentImpl.java
+	     org/eclipse/wst/xml/core/internal/document/DocumentImpl.java
+	     org/eclipse/wst/xml/core/internal/document/DocumentTypeAdapter.java
+	     org/eclipse/wst/xml/core/internal/document/DocumentTypeAdapterImpl.java
+	     org/eclipse/wst/xml/core/internal/document/DocumentTypeImpl.java
+	     org/eclipse/wst/xml/core/internal/document/DOMMessages.properties
+	     org/eclipse/wst/xml/core/internal/document/DOMModelImpl.java
+	     org/eclipse/wst/xml/core/internal/document/ElementImpl.java
+	     org/eclipse/wst/xml/core/internal/document/EntityImpl.java
+	     org/eclipse/wst/xml/core/internal/document/EntityReferenceImpl.java
+	     org/eclipse/wst/xml/core/internal/document/InvalidCharacterException.java
+	     org/eclipse/wst/xml/core/internal/document/JSPTag.java
+	     org/eclipse/wst/xml/core/internal/document/ModelParserAdapter.java
+	     org/eclipse/wst/xml/core/internal/document/NodeContainer.java
+	     org/eclipse/wst/xml/core/internal/document/NodeImpl.java
+	     org/eclipse/wst/xml/core/internal/document/NodeIteratorImpl.java
+	     org/eclipse/wst/xml/core/internal/document/NodeListImpl.java
+	     org/eclipse/wst/xml/core/internal/document/NotationImpl.java
+	     org/eclipse/wst/xml/core/internal/document/ProcessingInstructionImpl.java
+	     org/eclipse/wst/xml/core/internal/document/RangeImpl.java
+	     org/eclipse/wst/xml/core/internal/document/SourceValidator.java
+	     org/eclipse/wst/xml/core/internal/document/StructuredDocumentRegionChecker.java
+	     org/eclipse/wst/xml/core/internal/document/StructuredDocumentRegionManagementException.java
+	     org/eclipse/wst/xml/core/internal/document/TagAdapter.java
+	     org/eclipse/wst/xml/core/internal/document/TextImpl.java
+	     org/eclipse/wst/xml/core/internal/document/XMLGeneratorImpl.java
+	     org/eclipse/wst/xml/core/internal/document/XMLModelNotifier.java
+	     org/eclipse/wst/xml/core/internal/document/XMLModelNotifierImpl.java
+	     org/eclipse/wst/xml/core/internal/document/XMLModelParser.java
+	     org/eclipse/wst/xml/core/internal/document/XMLModelUpdater.java
+	     org/eclipse/wst/xml/core/internal/encoding/XMLDocumentCharsetDetector.java
+	     org/eclipse/wst/xml/core/internal/encoding/XMLDocumentLoader.java
+	     org/eclipse/wst/xml/core/internal/EveryNodeDebugAdapter.java
+	     org/eclipse/wst/xml/core/internal/formatter/DefaultXMLPartitionFormatter.java
+	     org/eclipse/wst/xml/core/internal/formatter/XMLFormatterFormatProcessor.java
+	     org/eclipse/wst/xml/core/internal/formatter/XMLFormattingConstraints.java
+	     org/eclipse/wst/xml/core/internal/formatter/XMLFormattingPreferences.java
+	     org/eclipse/wst/xml/core/internal/IDebugAdapter.java
+	     org/eclipse/wst/xml/core/internal/Logger.java
+	     org/eclipse/wst/xml/core/internal/modelhandler/EmbeddedXML.java
+	     org/eclipse/wst/xml/core/internal/modelhandler/ModelHandlerForXML.java
+	     org/eclipse/wst/xml/core/internal/modelhandler/XMLModelLoader.java
+	     org/eclipse/wst/xml/core/internal/modelquery/ModelQueryAdapterFactoryForEmbeddedXML.java
+	     org/eclipse/wst/xml/core/internal/modelquery/ModelQueryAdapterFactoryForXML.java
+	     org/eclipse/wst/xml/core/internal/modelquery/ModelQueryUtil.java
+	     org/eclipse/wst/xml/core/internal/modelquery/XMLCatalogIdResolver.java
+	     org/eclipse/wst/xml/core/internal/modelquery/XMLModelQueryAssociationProvider.java
+	     org/eclipse/wst/xml/core/internal/modelquery/XMLModelQueryImpl.java
+	     org/eclipse/wst/xml/core/internal/parser/BlockStructuredDocumentRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/ContextRegionContainer.java
+	     org/eclipse/wst/xml/core/internal/parser/IntStack.java
+	     org/eclipse/wst/xml/core/internal/parser/RegionFactory.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/AttributeEqualsRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/AttributeNameRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/AttributeValueRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/EmptyTagCloseRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/EndTagOpenRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/GenericTemplateRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/RegionToStringUtil.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/RegionUpdateRule.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/TagCloseRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/TagNameRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/TagOpenRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/WhiteSpaceOnlyRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/XMLCDataTextRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/XMLContentRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/XMLHeadParserFactory.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/XMLHeadParserRegion.java
+	     org/eclipse/wst/xml/core/internal/parser/regions/XMLParserRegionFactory.java
+	     org/eclipse/wst/xml/core/internal/parser/XML10Names.java
+	     org/eclipse/wst/xml/core/internal/parser/XMLLineTokenizer.java
+	     org/eclipse/wst/xml/core/internal/parser/XMLSourceParser.java
+	     org/eclipse/wst/xml/core/internal/parser/XMLStructuredDocumentReParser.java
+	     org/eclipse/wst/xml/core/internal/parser/XMLStructuredRegionFactory.java
+	     org/eclipse/wst/xml/core/internal/parser/XMLTokenizer.java
+	     org/eclipse/wst/xml/core/internal/preferences/XMLCorePreferenceInitializer.java
+	     org/eclipse/wst/xml/core/internal/preferences/XMLCorePreferenceNames.java
+	     org/eclipse/wst/xml/core/internal/propagate/PropagatingAdapterFactoryImpl.java
+	     org/eclipse/wst/xml/core/internal/propagate/PropagatingAdapterImpl.java
+	     org/eclipse/wst/xml/core/internal/provisional/contentmodel/CMDocType.java
+	     org/eclipse/wst/xml/core/internal/provisional/contentmodel/CMDocumentTracker.java
+	     org/eclipse/wst/xml/core/internal/provisional/contentmodel/CMNodeWrapper.java
+	     org/eclipse/wst/xml/core/internal/provisional/contentmodel/ContentModelAdapter.java
+	     org/eclipse/wst/xml/core/internal/provisional/contentmodel/NullContentModel.java
+	     org/eclipse/wst/xml/core/internal/provisional/contenttype/ContentTypeIdForXML.java
+	     org/eclipse/wst/xml/core/internal/provisional/document/IDOMAttr.java
+	     org/eclipse/wst/xml/core/internal/provisional/document/IDOMDocument.java
+	     org/eclipse/wst/xml/core/internal/provisional/document/IDOMDocumentType.java
+	     org/eclipse/wst/xml/core/internal/provisional/document/IDOMElement.java
+	     org/eclipse/wst/xml/core/internal/provisional/document/IDOMEntity.java
+	     org/eclipse/wst/xml/core/internal/provisional/document/IDOMImplementation.java
+	     org/eclipse/wst/xml/core/internal/provisional/document/IDOMModel.java
+	     org/eclipse/wst/xml/core/internal/provisional/document/IDOMNode.java
+	     org/eclipse/wst/xml/core/internal/provisional/document/IDOMText.java
+	     org/eclipse/wst/xml/core/internal/provisional/document/ISourceGenerator.java
+	     org/eclipse/wst/xml/core/internal/provisional/format/CommentNodeFormatter.java
+	     org/eclipse/wst/xml/core/internal/provisional/format/DocumentNodeFormatter.java
+	     org/eclipse/wst/xml/core/internal/provisional/format/ElementNodeFormatter.java
+	     org/eclipse/wst/xml/core/internal/provisional/format/FormatProcessorXML.java
+	     org/eclipse/wst/xml/core/internal/provisional/format/NodeFormatter.java
+	     org/eclipse/wst/xml/core/internal/provisional/format/StructuredFormatPreferencesXML.java
+	     org/eclipse/wst/xml/core/internal/provisional/format/TextNodeFormatter.java
+	     org/eclipse/wst/xml/core/internal/provisional/IXMLCharEntity.java
+	     org/eclipse/wst/xml/core/internal/provisional/IXMLNamespace.java
+	     org/eclipse/wst/xml/core/internal/provisional/IXMLPreferenceNames.java
+	     org/eclipse/wst/xml/core/internal/provisional/NameValidator.java
+	     org/eclipse/wst/xml/core/internal/provisional/text/IXMLPartitions.java
+	     org/eclipse/wst/xml/core/internal/regions/DOMRegionContext.java
+	     org/eclipse/wst/xml/core/internal/ssemodelquery/ModelQueryAdapter.java
+	     org/eclipse/wst/xml/core/internal/ssemodelquery/ModelQueryAdapterImpl.java
+	     org/eclipse/wst/xml/core/internal/ssemodelquery/MovableModelQuery.java
+	     org/eclipse/wst/xml/core/internal/tasks/XMLFileTaskScanner.java
+	     org/eclipse/wst/xml/core/internal/tasks/XMLStreamingFileTaskScanner.java
+	     org/eclipse/wst/xml/core/internal/text/rules/StructuredTextPartitionerForXML.java
+	     org/eclipse/wst/xml/core/internal/text/XMLStructuredDocumentRegion.java
+	     org/eclipse/wst/xml/core/internal/validate/AbstractPropagatingValidator.java
+	     org/eclipse/wst/xml/core/internal/validate/Propagator.java
+	     org/eclipse/wst/xml/core/internal/validate/ValidationComponent.java
+	     org/eclipse/wst/xml/core/internal/XMLCoreMessages.java
+	     org/eclipse/wst/xml/core/internal/XMLCorePlugin.java
+	     org/eclipse/wst/xml/core/internal/XMLCorePluginResources.properties
+	     org/eclipse/wst/xml/core/text/IXMLPartitions.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.core.jar" path="org.eclipse.wst.xml.core/src"/>
+	<!-- org/eclipse/wst/xml/core/internal/catalog/Catalog.java
+	     org/eclipse/wst/xml/core/internal/catalog/CatalogContributorRegistryReader.java
+	     org/eclipse/wst/xml/core/internal/catalog/CatalogElement.java
+	     org/eclipse/wst/xml/core/internal/catalog/CatalogEntry.java
+	     org/eclipse/wst/xml/core/internal/catalog/CatalogEvent.java
+	     org/eclipse/wst/xml/core/internal/catalog/CatalogReader.java
+	     org/eclipse/wst/xml/core/internal/catalog/CatalogSet.java
+	     org/eclipse/wst/xml/core/internal/catalog/CatalogWriter.java
+	     org/eclipse/wst/xml/core/internal/catalog/DelegateCatalog.java
+	     org/eclipse/wst/xml/core/internal/catalog/NextCatalog.java
+	     org/eclipse/wst/xml/core/internal/catalog/OASISCatalogConstants.java
+	     org/eclipse/wst/xml/core/internal/catalog/provisional/ICatalog.java
+	     org/eclipse/wst/xml/core/internal/catalog/provisional/ICatalogElement.java
+	     org/eclipse/wst/xml/core/internal/catalog/provisional/ICatalogEntry.java
+	     org/eclipse/wst/xml/core/internal/catalog/provisional/ICatalogEvent.java
+	     org/eclipse/wst/xml/core/internal/catalog/provisional/ICatalogListener.java
+	     org/eclipse/wst/xml/core/internal/catalog/provisional/IDelegateCatalog.java
+	     org/eclipse/wst/xml/core/internal/catalog/provisional/INextCatalog.java
+	     org/eclipse/wst/xml/core/internal/catalog/provisional/IRewriteEntry.java
+	     org/eclipse/wst/xml/core/internal/catalog/provisional/ISuffixEntry.java
+	     org/eclipse/wst/xml/core/internal/catalog/RewriteEntry.java
+	     org/eclipse/wst/xml/core/internal/catalog/SuffixEntry.java
+	     org/eclipse/wst/xml/core/internal/catalog/TypedCatalogElement.java
+	     org/eclipse/wst/xml/core/internal/catalog/XMLCatalogURIResolverExtension.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.core.jar" path="org.eclipse.wst.xml.core/src-catalog"/>
+	<!-- org/eclipse/wst/xml/core/contentmodel/modelquery/IExternalSchemaLocationProvider.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/annotation/Annotation.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/annotation/AnnotationMap.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMAnyElementImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMAttributeDeclarationImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMContentImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMDataTypeImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMDocumentImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMElementDeclarationImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMEntityDeclarationImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMGroupImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMNamedNodeMapImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMNodeImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/basic/CMNodeListImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMAnyElement.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMAttributeDeclaration.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMContent.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMDataType.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMDocument.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMDocumentation.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMElementDeclaration.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMEntityDeclaration.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMGroup.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMNamedNodeMap.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMNamespace.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMNode.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/CMNodeList.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/ContentModelManager.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/factory/CMDocumentFactory.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/factory/CMDocumentFactoryDescriptor.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/factory/CMDocumentFactoryRegistry.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/factory/CMDocumentFactoryRegistryReader.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/annotation/AnnotationFileInfo.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/annotation/AnnotationFileParser.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/annotation/AnnotationFileRegistry.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/annotation/AnnotationFileRegistryReader.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/annotation/AnnotationUtility.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/annotation/ResourceBundleHelper.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/modelqueryimpl/InferredGrammarFactory.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/modelqueryimpl/ModelQueryExtensionDescriptor.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/modelqueryimpl/ModelQueryExtensionManagerImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/modelqueryimpl/ModelQueryExtensionRegistry.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/util/CMDataTypeValueHelper.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/util/CMValidator.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/internal/util/DOMValidator.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/BaseAssociationProvider.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/CMDocumentLoader.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/CMDocumentManagerImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/CMDocumentReferenceImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/ExternalSchemaLocationProviderRegistry.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/GlobalCMDocumentCache.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/InferredGrammarBuildingCMDocumentLoader.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/ModelQueryActionHelper.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/ModelQueryImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/SimpleAssociationProvider.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelqueryimpl/XMLAssociationProvider.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/CMDocumentManager.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/CMDocumentManagerListener.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/CMDocumentReference.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/CMDocumentReferenceProvider.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/extension/ModelQueryExtension.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/extension/ModelQueryExtensionManager.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/IExternalSchemaLocationProvider.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/ModelQuery.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/ModelQueryAction.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/ModelQueryAssociationProvider.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/modelquery/ModelQueryCMProvider.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/CMDescriptionBuilder.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/CMDocumentCache.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/CMDocumentCacheListener.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/CMVisitor.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/ContentBuilder.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/DOMContentBuilder.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/DOMContentBuilderImpl.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/DOMNamespaceHelper.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/DOMNamespaceInfoManager.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/DOMVisitor.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/DOMWriter.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/InferredGrammarFactory.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/NamespaceAttributeVisitor.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/NamespaceInfo.java
+	     org/eclipse/wst/xml/core/internal/contentmodel/util/NamespaceTable.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.core.jar" path="org.eclipse.wst.xml.core/src-contentmodel"/>
+	<!-- org/eclipse/wst/xml/core/internal/emf2xml/EMF2DOMSSEAdapter.java
+	     org/eclipse/wst/xml/core/internal/emf2xml/EMF2DOMSSERenderer.java
+	     org/eclipse/wst/xml/core/internal/emf2xml/EMF2DOMSSERendererFactory.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.core.jar" path="org.eclipse.wst.xml.core/src-emfModelSynch"/>
+	<!-- org/eclipse/wst/xml/core/internal/search/ComponentSearchContributor.java
+	     org/eclipse/wst/xml/core/internal/search/impl/IXMLSearchConstants.java
+	     org/eclipse/wst/xml/core/internal/search/impl/Messages.java
+	     org/eclipse/wst/xml/core/internal/search/impl/messages.properties
+	     org/eclipse/wst/xml/core/internal/search/impl/XMLSearchDocument.java
+	     org/eclipse/wst/xml/core/internal/search/matching/PatternMatcher.java
+	     org/eclipse/wst/xml/core/internal/search/matching/SAXSearchElement.java
+	     org/eclipse/wst/xml/core/internal/search/matching/XMLSearchPatternMatcher.java
+	     org/eclipse/wst/xml/core/internal/search/quickscan/XMLQuickScan.java
+	     org/eclipse/wst/xml/core/internal/search/quickscan/XMLQuickScanContentHandler.java
+	     org/eclipse/wst/xml/core/internal/search/TargetNamespaceReferencePattern.java
+	     org/eclipse/wst/xml/core/internal/search/XMLComponentDeclarationPattern.java
+	     org/eclipse/wst/xml/core/internal/search/XMLComponentReferencePattern.java
+	     org/eclipse/wst/xml/core/internal/search/XMLComponentSearchPattern.java
+	     org/eclipse/wst/xml/core/internal/search/XMLSearchParticipant.java
+	     org/eclipse/wst/xml/core/internal/search/XMLSearchPattern.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.core.jar" path="org.eclipse.wst.xml.core/src-search"/>
+	<!-- org/eclipse/wst/xml/core/internal/validation/AnnotationMsg.java
+	     org/eclipse/wst/xml/core/internal/validation/core/AbstractNestedValidator.java
+	     org/eclipse/wst/xml/core/internal/validation/core/Helper.java
+	     org/eclipse/wst/xml/core/internal/validation/core/LazyURLInputStream.java
+	     org/eclipse/wst/xml/core/internal/validation/core/logging/CommandLineLogger.java
+	     org/eclipse/wst/xml/core/internal/validation/core/logging/EclipseLogger.java
+	     org/eclipse/wst/xml/core/internal/validation/core/logging/ILogger.java
+	     org/eclipse/wst/xml/core/internal/validation/core/logging/LoggerFactory.java
+	     org/eclipse/wst/xml/core/internal/validation/core/NestedValidatorContext.java
+	     org/eclipse/wst/xml/core/internal/validation/core/ValidationInfo.java
+	     org/eclipse/wst/xml/core/internal/validation/core/ValidationMessage.java
+	     org/eclipse/wst/xml/core/internal/validation/core/ValidationReport.java
+	     org/eclipse/wst/xml/core/internal/validation/eclipse/ErrorCustomizationPluginRegistryReader.java
+	     org/eclipse/wst/xml/core/internal/validation/eclipse/Validator.java
+	     org/eclipse/wst/xml/core/internal/validation/eclipse/XMLMessageInfoHelper.java
+	     org/eclipse/wst/xml/core/internal/validation/eclipse/XMLValidator.java
+	     org/eclipse/wst/xml/core/internal/validation/errorcustomization/ElementInformation.java
+	     org/eclipse/wst/xml/core/internal/validation/errorcustomization/ErrorCustomizationManager.java
+	     org/eclipse/wst/xml/core/internal/validation/errorcustomization/ErrorCustomizationRegistry.java
+	     org/eclipse/wst/xml/core/internal/validation/errorcustomization/ErrorMessageCustomizerDelegate.java
+	     org/eclipse/wst/xml/core/internal/validation/errorcustomization/IErrorMessageCustomizer.java
+	     org/eclipse/wst/xml/core/internal/validation/MarkupValidator.java
+	     org/eclipse/wst/xml/core/internal/validation/ProblemIDsXML.java
+	     org/eclipse/wst/xml/core/internal/validation/StreamingMarkupValidator.java
+	     org/eclipse/wst/xml/core/internal/validation/ValidatorHelper.java
+	     org/eclipse/wst/xml/core/internal/validation/XMLNestedValidatorContext.java
+	     org/eclipse/wst/xml/core/internal/validation/xmlvalidation.properties
+	     org/eclipse/wst/xml/core/internal/validation/XMLValidationConfiguration.java
+	     org/eclipse/wst/xml/core/internal/validation/XMLValidationInfo.java
+	     org/eclipse/wst/xml/core/internal/validation/XMLValidationMessages.java
+	     org/eclipse/wst/xml/core/internal/validation/XMLValidationReport.java -->
+	<classpathentry excluding="org/eclipse/wst/xml/core/internal/validation/XMLValidator.java" kind="src" output="bin/1/plugins/org.eclipse.wst.xml.core.jar" path="org.eclipse.wst.xml.core/src-validation"/>
+	<!-- META-INF/maven/org.eclipse.webtools.sourceediting/org.eclipse.wst.xml.core/pom.properties
+	     META-INF/maven/org.eclipse.webtools.sourceediting/org.eclipse.wst.xml.core/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.core.jar" path="res"/>
+	<!-- org/eclipse/wst/xml/core/internal/validation/XMLValidator.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.core.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.core.filebuffers"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.jem.util"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.emf"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.emfworkbench.integration"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.uriresolver"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.validation"/>
+	<classpathentry exported="true" kind="src" path="/IDE-other-org.apache.xerces"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

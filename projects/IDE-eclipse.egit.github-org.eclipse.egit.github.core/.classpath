@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     META-INF/SOURCE-MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.egit.github.core.jar" path="org.eclipse.egit.github.core"/>
+	<!-- org/eclipse/egit/github/core/Application.java
+	     org/eclipse/egit/github/core/Authorization.java
+	     org/eclipse/egit/github/core/Blob.java
+	     org/eclipse/egit/github/core/client/DateFormatter.java
+	     org/eclipse/egit/github/core/client/EventFormatter.java
+	     org/eclipse/egit/github/core/client/GitHubClient.java
+	     org/eclipse/egit/github/core/client/GitHubRequest.java
+	     org/eclipse/egit/github/core/client/GitHubResponse.java
+	     org/eclipse/egit/github/core/client/GsonUtils.java
+	     org/eclipse/egit/github/core/client/IGitHubConstants.java
+	     org/eclipse/egit/github/core/client/NoSuchPageException.java
+	     org/eclipse/egit/github/core/client/PagedRequest.java
+	     org/eclipse/egit/github/core/client/PageIterator.java
+	     org/eclipse/egit/github/core/client/PageLinks.java
+	     org/eclipse/egit/github/core/client/RequestException.java
+	     org/eclipse/egit/github/core/Comment.java
+	     org/eclipse/egit/github/core/Commit.java
+	     org/eclipse/egit/github/core/CommitComment.java
+	     org/eclipse/egit/github/core/CommitFile.java
+	     org/eclipse/egit/github/core/CommitStats.java
+	     org/eclipse/egit/github/core/CommitStatus.java
+	     org/eclipse/egit/github/core/CommitUser.java
+	     org/eclipse/egit/github/core/Contributor.java
+	     org/eclipse/egit/github/core/Download.java
+	     org/eclipse/egit/github/core/DownloadResource.java
+	     org/eclipse/egit/github/core/event/CommitCommentPayload.java
+	     org/eclipse/egit/github/core/event/CreatePayload.java
+	     org/eclipse/egit/github/core/event/DeletePayload.java
+	     org/eclipse/egit/github/core/event/DownloadPayload.java
+	     org/eclipse/egit/github/core/event/Event.java
+	     org/eclipse/egit/github/core/event/EventPayload.java
+	     org/eclipse/egit/github/core/event/EventRepository.java
+	     org/eclipse/egit/github/core/event/FollowPayload.java
+	     org/eclipse/egit/github/core/event/ForkApplyPayload.java
+	     org/eclipse/egit/github/core/event/ForkPayload.java
+	     org/eclipse/egit/github/core/event/GistPayload.java
+	     org/eclipse/egit/github/core/event/GollumPayload.java
+	     org/eclipse/egit/github/core/event/IssueCommentPayload.java
+	     org/eclipse/egit/github/core/event/IssuesPayload.java
+	     org/eclipse/egit/github/core/event/MemberPayload.java
+	     org/eclipse/egit/github/core/event/PublicPayload.java
+	     org/eclipse/egit/github/core/event/PullRequestPayload.java
+	     org/eclipse/egit/github/core/event/PullRequestReviewCommentPayload.java
+	     org/eclipse/egit/github/core/event/PushPayload.java
+	     org/eclipse/egit/github/core/event/TeamAddPayload.java
+	     org/eclipse/egit/github/core/event/WatchPayload.java
+	     org/eclipse/egit/github/core/FieldError.java
+	     org/eclipse/egit/github/core/Gist.java
+	     org/eclipse/egit/github/core/GistChangeStatus.java
+	     org/eclipse/egit/github/core/GistFile.java
+	     org/eclipse/egit/github/core/GistRevision.java
+	     org/eclipse/egit/github/core/GollumPage.java
+	     org/eclipse/egit/github/core/Id.java
+	     org/eclipse/egit/github/core/IRepositoryIdProvider.java
+	     org/eclipse/egit/github/core/IResourceProvider.java
+	     org/eclipse/egit/github/core/Issue.java
+	     org/eclipse/egit/github/core/IssueEvent.java
+	     org/eclipse/egit/github/core/Key.java
+	     org/eclipse/egit/github/core/Label.java
+	     org/eclipse/egit/github/core/Language.java
+	     org/eclipse/egit/github/core/MergeStatus.java
+	     org/eclipse/egit/github/core/Milestone.java
+	     org/eclipse/egit/github/core/PullRequest.java
+	     org/eclipse/egit/github/core/PullRequestMarker.java
+	     org/eclipse/egit/github/core/Reference.java
+	     org/eclipse/egit/github/core/Repository.java
+	     org/eclipse/egit/github/core/RepositoryBranch.java
+	     org/eclipse/egit/github/core/RepositoryCommit.java
+	     org/eclipse/egit/github/core/RepositoryCommitCompare.java
+	     org/eclipse/egit/github/core/RepositoryContents.java
+	     org/eclipse/egit/github/core/RepositoryHook.java
+	     org/eclipse/egit/github/core/RepositoryHookResponse.java
+	     org/eclipse/egit/github/core/RepositoryId.java
+	     org/eclipse/egit/github/core/RepositoryIssue.java
+	     org/eclipse/egit/github/core/RepositoryTag.java
+	     org/eclipse/egit/github/core/RequestError.java
+	     org/eclipse/egit/github/core/SearchIssue.java
+	     org/eclipse/egit/github/core/SearchRepository.java
+	     org/eclipse/egit/github/core/service/CollaboratorService.java
+	     org/eclipse/egit/github/core/service/CommitService.java
+	     org/eclipse/egit/github/core/service/ContentsService.java
+	     org/eclipse/egit/github/core/service/DataService.java
+	     org/eclipse/egit/github/core/service/DeployKeyService.java
+	     org/eclipse/egit/github/core/service/DownloadService.java
+	     org/eclipse/egit/github/core/service/EventService.java
+	     org/eclipse/egit/github/core/service/GistService.java
+	     org/eclipse/egit/github/core/service/GitHubService.java
+	     org/eclipse/egit/github/core/service/IssueService.java
+	     org/eclipse/egit/github/core/service/LabelService.java
+	     org/eclipse/egit/github/core/service/MarkdownService.java
+	     org/eclipse/egit/github/core/service/MilestoneService.java
+	     org/eclipse/egit/github/core/service/OAuthService.java
+	     org/eclipse/egit/github/core/service/OrganizationService.java
+	     org/eclipse/egit/github/core/service/PullRequestService.java
+	     org/eclipse/egit/github/core/service/RepositoryService.java
+	     org/eclipse/egit/github/core/service/TeamService.java
+	     org/eclipse/egit/github/core/service/UserService.java
+	     org/eclipse/egit/github/core/service/WatcherService.java
+	     org/eclipse/egit/github/core/ShaResource.java
+	     org/eclipse/egit/github/core/Tag.java
+	     org/eclipse/egit/github/core/Team.java
+	     org/eclipse/egit/github/core/Tree.java
+	     org/eclipse/egit/github/core/TreeEntry.java
+	     org/eclipse/egit/github/core/TypedResource.java
+	     org/eclipse/egit/github/core/User.java
+	     org/eclipse/egit/github/core/UserPlan.java
+	     org/eclipse/egit/github/core/util/DateUtils.java
+	     org/eclipse/egit/github/core/util/EncodingUtils.java
+	     org/eclipse/egit/github/core/util/LabelComparator.java
+	     org/eclipse/egit/github/core/util/MilestoneComparator.java
+	     org/eclipse/egit/github/core/util/MultiPartUtils.java
+	     org/eclipse/egit/github/core/util/UrlUtils.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.egit.github.core.jar" path="org.eclipse.egit.github.core/src"/>
+	<!-- META-INF/maven/org.eclipse.mylyn.github/org.eclipse.egit.github.core/pom.properties
+	     META-INF/maven/org.eclipse.mylyn.github/org.eclipse.egit.github.core/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.egit.github.core.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gson"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

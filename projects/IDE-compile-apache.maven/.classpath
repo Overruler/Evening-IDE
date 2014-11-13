@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/maven-model-3.2.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/archetype-common-2.0-alpha-4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/plexus-build-api-0.0.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/maven-settings-3.2.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/maven-artifact-3.2.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/maven-core-3.2.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/maven-settings-builder-3.2.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/wagon-provider-api-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/aether-api-1.0.0.v20140518.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/maven-embedder-3.2.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/aether-util-1.0.0.v20140518.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/plexus-interpolation-1.21.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/plexus-utils-3.0.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/maven-plugin-api-3.2.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.sisu.plexus-0.3.0.M1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/plexus-classworlds-2.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/sisu-guice-3.2.3-no_aop.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/maven-model-builder-3.2.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/aether-connector-okhttp-0.14.0-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/maven-compat-3.2.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/plexus-component-annotations-1.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/aether-api-1.7.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

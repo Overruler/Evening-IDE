@@ -2,54 +2,54 @@
 <classpath>
 	<!-- .options
 	     about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.expressions.jar" path="org.eclipse.core.expressions"/>
-	<!-- org\eclipse\core\expressions\ElementHandler.java
-	     org\eclipse\core\expressions\EvaluationContext.java
-	     org\eclipse\core\expressions\EvaluationResult.java
-	     org\eclipse\core\expressions\Expression.java
-	     org\eclipse\core\expressions\ExpressionConverter.java
-	     org\eclipse\core\expressions\ExpressionInfo.java
-	     org\eclipse\core\expressions\ExpressionTagNames.java
-	     org\eclipse\core\expressions\ICountable.java
-	     org\eclipse\core\expressions\IEvaluationContext.java
-	     org\eclipse\core\expressions\IIterable.java
-	     org\eclipse\core\expressions\IPropertyTester.java
-	     org\eclipse\core\expressions\IVariableResolver.java
-	     org\eclipse\core\expressions\PropertyTester.java
-	     org\eclipse\core\internal\expressions\AdaptExpression.java
-	     org\eclipse\core\internal\expressions\AndExpression.java
-	     org\eclipse\core\internal\expressions\CompositeExpression.java
-	     org\eclipse\core\internal\expressions\CountExpression.java
-	     org\eclipse\core\internal\expressions\DefaultVariable.java
-	     org\eclipse\core\internal\expressions\DefinitionRegistry.java
-	     org\eclipse\core\internal\expressions\EnablementExpression.java
-	     org\eclipse\core\internal\expressions\EqualsExpression.java
-	     org\eclipse\core\internal\expressions\ExpressionMessages.java
-	     org\eclipse\core\internal\expressions\ExpressionMessages.properties
-	     org\eclipse\core\internal\expressions\ExpressionPlugin.java
-	     org\eclipse\core\internal\expressions\Expressions.java
-	     org\eclipse\core\internal\expressions\ExpressionStatus.java
-	     org\eclipse\core\internal\expressions\InstanceofExpression.java
-	     org\eclipse\core\internal\expressions\IterateExpression.java
-	     org\eclipse\core\internal\expressions\Messages.java
-	     org\eclipse\core\internal\expressions\NotExpression.java
-	     org\eclipse\core\internal\expressions\OrExpression.java
-	     org\eclipse\core\internal\expressions\Property.java
-	     org\eclipse\core\internal\expressions\PropertyTesterDescriptor.java
-	     org\eclipse\core\internal\expressions\propertytester\PlatformPropertyTester.java
-	     org\eclipse\core\internal\expressions\ReferenceExpression.java
-	     org\eclipse\core\internal\expressions\ResolveExpression.java
-	     org\eclipse\core\internal\expressions\StandardElementHandler.java
-	     org\eclipse\core\internal\expressions\SystemTestExpression.java
-	     org\eclipse\core\internal\expressions\TestExpression.java
-	     org\eclipse\core\internal\expressions\TypeExtension.java
-	     org\eclipse\core\internal\expressions\TypeExtensionManager.java
-	     org\eclipse\core\internal\expressions\util\LRUCache.java
-	     org\eclipse\core\internal\expressions\util\ToStringSorter.java
-	     org\eclipse\core\internal\expressions\WithExpression.java -->
+	<!-- org/eclipse/core/expressions/ElementHandler.java
+	     org/eclipse/core/expressions/EvaluationContext.java
+	     org/eclipse/core/expressions/EvaluationResult.java
+	     org/eclipse/core/expressions/Expression.java
+	     org/eclipse/core/expressions/ExpressionConverter.java
+	     org/eclipse/core/expressions/ExpressionInfo.java
+	     org/eclipse/core/expressions/ExpressionTagNames.java
+	     org/eclipse/core/expressions/ICountable.java
+	     org/eclipse/core/expressions/IEvaluationContext.java
+	     org/eclipse/core/expressions/IIterable.java
+	     org/eclipse/core/expressions/IPropertyTester.java
+	     org/eclipse/core/expressions/IVariableResolver.java
+	     org/eclipse/core/expressions/PropertyTester.java
+	     org/eclipse/core/internal/expressions/AdaptExpression.java
+	     org/eclipse/core/internal/expressions/AndExpression.java
+	     org/eclipse/core/internal/expressions/CompositeExpression.java
+	     org/eclipse/core/internal/expressions/CountExpression.java
+	     org/eclipse/core/internal/expressions/DefaultVariable.java
+	     org/eclipse/core/internal/expressions/DefinitionRegistry.java
+	     org/eclipse/core/internal/expressions/EnablementExpression.java
+	     org/eclipse/core/internal/expressions/EqualsExpression.java
+	     org/eclipse/core/internal/expressions/ExpressionMessages.java
+	     org/eclipse/core/internal/expressions/ExpressionMessages.properties
+	     org/eclipse/core/internal/expressions/ExpressionPlugin.java
+	     org/eclipse/core/internal/expressions/Expressions.java
+	     org/eclipse/core/internal/expressions/ExpressionStatus.java
+	     org/eclipse/core/internal/expressions/InstanceofExpression.java
+	     org/eclipse/core/internal/expressions/IterateExpression.java
+	     org/eclipse/core/internal/expressions/Messages.java
+	     org/eclipse/core/internal/expressions/NotExpression.java
+	     org/eclipse/core/internal/expressions/OrExpression.java
+	     org/eclipse/core/internal/expressions/Property.java
+	     org/eclipse/core/internal/expressions/PropertyTesterDescriptor.java
+	     org/eclipse/core/internal/expressions/propertytester/PlatformPropertyTester.java
+	     org/eclipse/core/internal/expressions/ReferenceExpression.java
+	     org/eclipse/core/internal/expressions/ResolveExpression.java
+	     org/eclipse/core/internal/expressions/StandardElementHandler.java
+	     org/eclipse/core/internal/expressions/SystemTestExpression.java
+	     org/eclipse/core/internal/expressions/TestExpression.java
+	     org/eclipse/core/internal/expressions/TypeExtension.java
+	     org/eclipse/core/internal/expressions/TypeExtensionManager.java
+	     org/eclipse/core/internal/expressions/util/LRUCache.java
+	     org/eclipse/core/internal/expressions/util/ToStringSorter.java
+	     org/eclipse/core/internal/expressions/WithExpression.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.core.expressions.jar" path="org.eclipse.core.expressions/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.xml"/>

@@ -7,7 +7,11 @@ import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Locale;
+import java.util.Objects;
+import java.util.Optional;
 import java.util.jar.JarFile;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collector;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
@@ -32,6 +36,11 @@ import utils.streams2.Streams;
 public class RegenerateProjectsMain {
 	private static final Path MANIFEST_PATH = Paths.get(JarFile.MANIFEST_NAME);
 	private static final Path PLUGINS_FOLDER = Paths.get(System.getProperty("user.home", ""), "evening/plugins");
+	private static final Set<Path> CLASS_FILE_INDICATORS = Set.of(
+		Paths.get("target"),
+		Paths.get("bin"),
+		Paths.get("classes"));
+	private static HashMap<Pair<String, String>, Integer> cachedDistances = new HashMap<>();
 
 	public static void main(String[] args) throws IOException {
 		List<Plugin> plugins = readPluginContents(PLUGINS_FOLDER);
@@ -59,12 +68,14 @@ public class RegenerateProjectsMain {
 	}
 	private static IOStream<Pair<Path, byte[]>> deepExpand(Pair<Path, byte[]> content) throws IOException {
 		String name = content.lhs.getFileName().toString();
+		IOStream<Pair<Path, byte[]>> ioStream = Stream.of(content).toIO();
 		if(name.endsWith(".jar")) {
 			IOStream<Pair<Path, byte[]>> io = readZip(content.rhs).entrySet().stream().toIO();
 			IOStream<Pair<Path, byte[]>> expanded = io.flatMap(RegenerateProjectsMain::deepExpand);
-			return expanded.map(p -> p.keepingRhs(content.lhs.resolve(p.lhs)));
+			IOStream<Pair<Path, byte[]>> ioStream2 = expanded.map(p -> p.keepingRhs(content.lhs.resolve(p.lhs)));
+			return ioStream.concat(ioStream2);
 		}
-		return Stream.of(content).toIO();
+		return ioStream;
 	}
 	private static void generateProjects(
 		Path root,
@@ -80,6 +91,7 @@ public class RegenerateProjectsMain {
 			String pluginName = plugin.id;
 			String projectName = projectName(sourceFolders, pluginName);
 			if(projectName == null) {
+				System.out.println("--- Missing library --- " + pluginName);
 				continue;
 			}
 			Path projectFolder = projects.resolve(projectName);
@@ -96,7 +108,8 @@ public class RegenerateProjectsMain {
 		printDependencyLoops(projects);
 	}
 	private static void printDependencyLoops(Path projects) throws IOException {
-		Map<String, List<String>> deps =
+		Map<String, List<String>> deps;
+		deps =
 			Files.list(projects).map(p -> p.resolve(".classpath")).filter(Files::isRegularFile).map(
 				RegenerateProjectsMain::readRequiredProjects).toMap(Pair::lhs, Pair::rhs).toMap();
 		HashSet<Pair<String, String>> checked = HashSet.of();
@@ -152,10 +165,7 @@ public class RegenerateProjectsMain {
 		List<String> depending,
 		Set<String> exported,
 		Plugin plugin) throws IOException {
-		if(libs.size() > 1) {
-			System.out.println(pluginName + " uses multiple repositories: " + libs);
-		}
-		List<Path> pluginFiles = sourceFilesForPlugin(plugin);
+		List<Path> pluginFiles = sourceFilesForPlugin(plugin).toList();
 		List<Path> locallyAvailableFiles = listLocallyAvailableFiles(project);
 		List<Path> availableFiles =
 			deepListAvailableFiles(locallyAvailableFiles, libs, pluginFiles, pluginName, project);
@@ -168,15 +178,17 @@ public class RegenerateProjectsMain {
 		for(int i = 0, n = srcs.size(); i < n; i++) {
 			Pair<Path, Path> mapping = srcs.get(i);
 			ArrayList<Path> files = srcMappings.get(mapping);
-			classpath.add(files.stream().map(Path::toString).collect(Collectors.joining("\n\t     ", "\t<!-- ", " -->")));
+			classpath.add(files.stream().map(p -> p.toString().replace('\\', '/')).collect(
+				Collectors.joining("\n\t     ", "\t<!-- ", " -->")));
 			boolean commented = mapping.lhs.toString().contains("x-miss-x");
 			String quoteBeg = commented ? "<!-- " : "";
 			String quoteEnd = commented ? " -->" : "";
 			String outputPath = combinableUnixPath(mapping.rhs);
-			if(commented == false && outputs.contains(outputPath) == false) {
-				outputs.add(outputPath);
+			String outputPathParent = combinableUnixPath(mapping.rhs.getParent());
+			if(commented == false && outputs.contains(outputPathParent) == false) {
+				outputs.add(outputPathParent);
 			}
-			int sequenceNum = commented ? 0 : outputs.indexOf(outputPath) + 1;
+			int sequenceNum = commented ? 0 : outputs.indexOf(outputPathParent) + 1;
 			String output = "bin/" + sequenceNum + "/plugins" + outputPath;
 			String path = toUnixPath(mapping.lhs);
 			String including = commented ? "" : collectInclusions(availableFiles, files, mapping.lhs);
@@ -193,12 +205,26 @@ public class RegenerateProjectsMain {
 			classpath.add(newItem);
 		}
 		classpath.add("	<classpathentry kind=\"con\" path=\"org.eclipse.jdt.launching.JRE_CONTAINER\"/>");
-		for(String name : requiredProjects(pluginName, depending).sort()) {
-			String export = exported.contains(name) ? " exported=\"true\"" : "";
-			String path = projectName(sourceFolders, name);
-			if(path != null) {
-				classpath.add("	<classpathentry" + export + " kind=\"src\" path=\"/" + path + "\"/>");
+		List<String> listReexportedProjects = listReexportedProjects(pluginName, exported);
+		for(String name : listRequiredProjects(pluginName, depending)) {
+			String projectName = customizeChangeProjectName(name);
+			String path = projectPath(sourceFolders, projectName);
+			if(path != null && !listReexportedProjects.contains(name)) {
+				classpath.add("	<classpathentry kind=\"src\" path=\"" + path + "\"/>");
 			}
+		}
+		for(String name : listReexportedProjects) {
+			String projectName = customizeChangeProjectName(name);
+			String path = projectPath(sourceFolders, projectName);
+			if(path != null) {
+				classpath.add("	<classpathentry exported=\"true\" kind=\"src\" path=\"" + path + "\"/>");
+			}
+		}
+		for(String path : customizeAddRequiredClasspathLibs(pluginName)) {
+			classpath.add("	<classpathentry kind=\"lib\" path=\"" + path + "\"/>");
+		}
+		for(String path : customizeAddReexportedLibsClasspath(pluginName)) {
+			classpath.add("	<classpathentry exported=\"true\" kind=\"lib\" path=\"" + path + "\"/>");
 		}
 		classpath.add("	<classpathentry kind=\"output\" path=\"classes\"/>");
 		classpath.add("</classpath>");
@@ -207,6 +233,28 @@ public class RegenerateProjectsMain {
 		String fileName = ".classpath";
 		writeFile(project, dotClasspath, fileName);
 		cleanOldOutputs(project, outputs);
+	}
+	private static List<String> listReexportedProjects(String pluginName, Set<String> exported) {
+		List<String> projects = customizeAddReexportedProjects(pluginName, exported.toList());
+		return projects.sort();
+	}
+	private static List<String> listRequiredProjects(String pluginName, List<String> depending) {
+		List<String> list = customizeAddRequiredProjects(pluginName, depending);
+		List<String> projects = customizeRemoveRequiredProjects(pluginName, list);
+		return projects.sort();
+	}
+	private static Map<String, List<String>> reexportedDependencies(List<Plugin> plugins) {
+		return gatherNamesWith(plugins, "Require-Bundle", "visibility:=reexport").toMap();
+	}
+	private static String projectPath(Map<String, List<Path>> sourceFolders, String plugin) {
+		if(plugin.startsWith("lib")) {
+			return plugin;
+		}
+		String projectName = projectName(sourceFolders, plugin);
+		if(projectName == null) {
+			return null;
+		}
+		return "/" + projectName;
 	}
 	private static String projectName(Map<String, List<Path>> sourceFolders, String plugin) {
 		if(plugin.startsWith("IDE-compile")) {
@@ -217,7 +265,8 @@ public class RegenerateProjectsMain {
 			return null;
 		}
 		Path source = list.get(0);
-		return projectName(plugin, source);
+		String name = source.getName(1).toString();
+		return name.startsWith("eclipse.") ? "IDE-" + name + "-" + plugin : "IDE-other-" + plugin;
 	}
 	private static void cleanOldOutputs(Path projectFolder, ArrayList<String> outputs) throws IOException {
 		Path binPath = projectFolder.resolve("bin");
@@ -244,8 +293,41 @@ public class RegenerateProjectsMain {
 			Files.delete(path2);
 		}
 	}
-	private static List<String> requiredProjects(String plugin, List<String> required) {
-		required = addCustomRequiredProjects(plugin, required);
+	private static String customizeChangeProjectName(String name) {
+		switch(name) {
+			case "org.eclipse.ecf.discovery":
+				return "IDE-compile-eclipse.ecf";
+			default:
+				return name;
+		}
+	}
+	private static List<String> customizeAddRequiredClasspathLibs(String plugin) {
+		switch(plugin) {
+			case "org.eclipse.jem.util":
+				return List.of("org.eclipse.jem.util/org.eclipse.perfmsr.core.stub/perfmsr.jar");
+			default:
+				return List.of();
+		}
+	}
+	private static List<String> customizeAddReexportedLibsClasspath(String plugin) {
+		switch(plugin) {
+			case "net.jeeeyul.eclipse.themes":
+				return List.of(
+					"lib/org.eclipse.xtend.lib.macro_2.7.1.v201409090713.jar",
+					"lib/com.google.guava_15.0.0.v201403281430.jar",
+					"lib/org.eclipse.xtend.lib_2.7.1.v201409090713.jar",
+					"lib/org.eclipse.xtext.xbase.lib_2.7.1.v201409090713.jar");
+			case "org.eclipse.m2e.maven.indexer":
+				return List.of(
+					"lib/indexer-artifact-3.1.0.jar",
+					"lib/indexer-core-3.1.0.jar",
+					"lib/lucene-core-2.4.1.jar",
+					"lib/lucene-highlighter-2.4.1.jar");
+			default:
+				return List.of();
+		}
+	}
+	private static List<String> customizeRemoveRequiredProjects(String plugin, List<String> required) {
 		switch(plugin) {
 			case "org.apache.batik.util":
 				return required.remove("org.apache.batik.util.gui");
@@ -262,8 +344,44 @@ public class RegenerateProjectsMain {
 				return required;
 		}
 	}
-	private static List<String> addCustomRequiredProjects(String plugin, List<String> required) {
+	private static List<String> customizeAddReexportedProjects(String plugin, List<String> exported) {
 		switch(plugin) {
+			case "org.eclipse.swt":
+				return exported.add("org.eclipse.swt.win32.win32.x86_64");
+			case "org.eclipse.jdt.junit":
+				return exported.add("org.eclipse.debug.ui");
+			default:
+				return exported;
+		}
+	}
+	private static List<String> customizeAddRequiredProjects(String plugin, List<String> required) {
+		switch(plugin) {
+			case "com.google.gerrit.common":
+				return required.addAll("com.google.guava", "IDE-compile-gwt");
+			case "com.google.gerrit.prettify":
+				return required.addAll("com.google.gwt.servlet", "com.google.gerrit.reviewdb", "IDE-compile-gwt");
+			case "com.google.gerrit.reviewdb":
+				return required.addAll("com.google.guava");
+			case "com.google.guava":
+				return required.addAll("IDE-compile-jsr305");
+			case "com.google.gwt.servlet":
+				return required.addAll(
+					"com.google.gson",
+					"com.google.guava",
+					"com.google.protobuf",
+					"org.w3c.css.sac",
+					"org.eclipse.jdt.core",
+					"org.junit",
+					"IDE-compile-gwt",
+					"IDE-compile-jsr305");
+			case "com.google.gwtjsonrpc":
+				return required.addAll("org.apache.commons.codec", "IDE-compile-gwt");
+			case "com.google.gwtorm":
+				return required.addAll("com.google.guava", "com.google.protobuf", "org.antlr.runtime");
+			case "it.unibz.instasearch":
+				return required.addAll("IDE-compile-lucene-2.9.4");
+			case "net.jeeeyul.eclipse.themes.ui":
+				return required.addAll("org.eclipse.ui.workbench.texteditor");
 			case "org.apache.ant":
 				return required.addAll("IDE-compile-various", "IDE-compile-netrexx", "org.junit");
 			case "org.apache.batik.util.gui":
@@ -276,6 +394,18 @@ public class RegenerateProjectsMain {
 				return required.add("IDE-compile-apache.felix");
 			case "org.apache.httpcomponents.httpclient":
 				return required.add("IDE-compile-various.caches");
+			case "org.apache.lucene.core":
+				return required.add("com.ibm.icu");
+			case "org.apache.lucene":
+			case "org.apache.lucene.highlighter":
+			case "org.apache.lucene.memory":
+			case "org.apache.lucene.misc":
+			case "org.apache.lucene.queries":
+			case "org.apache.lucene.snowball":
+			case "org.apache.lucene.spellchecker":
+				return required.add("IDE-compile-lucene-2.9.4");
+			case "org.apache.xmlrpc":
+				return required.add("javax.servlet");
 			case "org.eclipse.ant.core":
 				return required.add("org.apache.ant");
 			case "org.eclipse.core.resources":
@@ -315,8 +445,11 @@ public class RegenerateProjectsMain {
 			case "org.eclipse.egit.ui":
 				return required.add("org.eclipse.ui.views");
 			case "org.eclipse.emf.ecore.change":
+			case "org.eclipse.emf.ecore.edit":
 			case "org.eclipse.emf.ecore.xmi":
 				return required.add("org.eclipse.emf.common");
+			case "org.eclipse.equinox.http.servlet":
+				return required.add("IDE-compile-org.osgi.annotation.versioning");
 			case "org.eclipse.equinox.p2.director.app":
 				return required.add("org.apache.ant");
 			case "org.eclipse.equinox.p2.garbagecollector":
@@ -328,12 +461,18 @@ public class RegenerateProjectsMain {
 			case "org.eclipse.equinox.p2.publisher.eclipse":
 				return required.add("org.apache.ant");
 			case "org.eclipse.equinox.p2.repository.tools":
-				return required.addAll("org.apache.ant", "org.eclipse.equinox.p2.jarprocessor");
+				return required.addAll(
+					"org.apache.ant",
+					"org.eclipse.equinox.p2.jarprocessor",
+					"org.eclipse.equinox.frameworkadmin",
+					"org.eclipse.equinox.simpleconfigurator.manipulator");
 			case "org.eclipse.equinox.security.macosx":
 			case "org.eclipse.equinox.security.win32.x86_64":
 				return required.add("org.eclipse.osgi");
 			case "org.eclipse.help.base":
 				return required.add("org.apache.ant");
+			case "org.eclipse.jem.util":
+				return required.add("org.eclipse.emf.common");
 			case "org.eclipse.jetty.continuation":
 				return required.add("IDE-compile-org.mortbay.jetty.util");
 			case "org.eclipse.jetty.security":
@@ -341,10 +480,37 @@ public class RegenerateProjectsMain {
 			case "org.eclipse.jetty.server":
 			case "org.eclipse.jetty.servlet":
 				return required.add("IDE-compile-org.eclipse.jetty.jmx");
-			case "org.eclipse.jetty.util":
-				return required.add("IDE-compile-org.slf4j");
 			case "org.eclipse.jdt.core":
 				return required.add("org.apache.ant");
+			case "org.eclipse.m2e.core":
+			case "org.eclipse.m2e.core.ui":
+			case "org.eclipse.m2e.editor.xml":
+			case "org.eclipse.m2e.jdt":
+			case "org.eclipse.m2e.jdt.ui":
+			case "org.eclipse.m2e.launching":
+			case "org.eclipse.m2e.profiles.core":
+			case "org.eclipse.m2e.scm":
+				return required.addAll("IDE-compile-apache.maven");
+			case "org.eclipse.m2e.discovery":
+				return required.addAll("IDE-compile-apache.maven", "org.eclipse.e4.ui.workbench");
+			case "org.eclipse.m2e.model.edit":
+			case "org.eclipse.m2e.refactoring":
+				return required.addAll("IDE-compile-apache.maven", "org.eclipse.emf.common");
+			case "org.eclipse.m2e.editor":
+				return required.addAll("IDE-compile-apache.maven", "org.eclipse.ui.workbench.texteditor");
+			case "org.eclipse.m2e.maven.indexer":
+				return required.addAll("javax.inject", "org.slf4j.api", "IDE-compile-apache.maven");
+			case "org.eclipse.m2e.workspace.cli":
+				return required.addAll("javax.inject", "IDE-compile-apache.maven");
+			case "org.eclipse.mylyn.gerrit.core":
+				return required.addAll("org.apache.commons.httpclient", "IDE-compile-gwt");
+			case "org.eclipse.mylyn.reviews.ui":
+				return required.add("org.eclipse.emf.common");
+			case "org.eclipse.mylyn.tasks.core":
+			case "org.eclipse.mylyn.tasks.ui":
+				return required.addAll("IDE-compile-apache.maven", "org.eclipse.jdt.annotation");
+			case "org.eclipse.mylyn.wikitext.mediawiki.core":
+				return required.addAll("org.apache.ant");
 			case "org.eclipse.pde.api.tools":
 				return required.add("org.apache.ant");
 			case "org.eclipse.pde.api.tools.ui":
@@ -360,8 +526,8 @@ public class RegenerateProjectsMain {
 				return required.addAll("org.eclipse.ui.workbench.texteditor", "org.eclipse.ui.views");
 			case "org.eclipse.pde.ua.ui":
 				return required.add("org.eclipse.ui.views");
-			case "org.eclipse.swt":
-				return required.add("org.eclipse.swt.win32.win32.x86_64");
+				//			case "org.eclipse.swt":
+				//				return required.add("org.eclipse.swt.win32.win32.x86_64");
 			case "org.eclipse.team.ui":
 				return required.add("org.eclipse.ui.workbench.texteditor");
 			case "org.eclipse.ui.win32":
@@ -375,6 +541,13 @@ public class RegenerateProjectsMain {
 					"org.eclipse.ui.workbench");
 			case "org.eclipse.ui.cocoa":
 				return required.addAll("org.eclipse.swt.cocoa.macosx.x86_64");
+			case "org.eclipse.wst.common.emf":
+			case "org.eclipse.wst.common.emfworkbench.integration":
+			case "org.eclipse.wst.xml.core":
+			case "org.eclipse.wst.xsd.core":
+				return required.addAll("org.eclipse.emf.common", "org.eclipse.emf.ecore");
+			case "org.eclipse.xsd":
+				return required.addAll("org.eclipse.emf.common");
 			case "org.apache.jasper.glassfish":
 				return required.addAll(
 					"org.apache.ant",
@@ -386,6 +559,8 @@ public class RegenerateProjectsMain {
 					"org.eclipse.core.resources",
 					"org.eclipse.core.runtime",
 					"org.eclipse.text");
+			case "org.slf4j.api":
+				return required.add("IDE-compile-org.slf4j");
 			case "com.jcraft.jsch":
 				return required.add("IDE-compile-com.jcraft.jzlib");
 			default:
@@ -394,6 +569,9 @@ public class RegenerateProjectsMain {
 	}
 	private static String collectInclusions(List<Path> files, ArrayList<Path> usedFiles, Path src) {
 		int count = src.getNameCount();
+		if(count == 1 && (src.startsWith("src") || src.startsWith("res"))) {
+			return "";
+		}
 		List<Path> allFiles = files.filter(p -> p.startsWith(src) && p.getNameCount() > count).map(src::relativize);
 		Set<String> all = gatherInclusionsFromFileList(allFiles);
 		Set<String> used = gatherInclusionsFromFileList(usedFiles.toList());
@@ -401,11 +579,48 @@ public class RegenerateProjectsMain {
 			return "";
 		}
 		ArrayList<String> included = used.toArrayList().replaceAll(s -> s.replace('#', '?')).sort();
-		if(included.contains("org/apache/batik/")) {
-			included.remove("org/apache/batik/");
-			included.add("org/apache/batik/Version.java");
-		}
+		replaceInclusion(included, "org.apache.batik.", "Version");
+		replaceInclusion(included, "com.google.gwt.dev.util.*", "Name", "StringKey");
+		replaceInclusion(
+			included,
+			"com.google.gwt.core.ext.*",
+			"LinkerContext",
+			"TreeLogger",
+			"UnableToCompleteException");
+		replaceInclusion(
+			included,
+			"com.google.gwt.core.ext.linker.*",
+			"AbstractLinker",
+			"Artifact",
+			"ArtifactSet",
+			"ConfigurationProperty",
+			"CompilationResult",
+			"EmittedArtifact",
+			"LinkerOrder",
+			"PropertyProviderGenerator",
+			"SelectionProperty",
+			"Shardable",
+			"SoftPermutation",
+			"SymbolData",
+			"SyntheticArtifact");
+		replaceInclusion(included, "com.google.gwt.core.linker.*", "SymbolMapsLinker");
+		replaceInclusion(included, "com.google.gwt.user.rebind.*", "SourceWriter", "StringSourceWriter");
+		replaceInclusion(included, "com.google.gwt.i18n.rebind.keygen.*", "KeyGenerator");
+		replaceInclusion(included, "com.google.gerrit.extensions.api.projects.*", "ProjectState");
+		replaceInclusion(included, "com.google.gerrit.extensions.common.*", "InheritableBoolean", "SubmitType");
 		return " including=\"" + String.join("|", included) + "\"";
+	}
+	private static void replaceInclusion(ArrayList<String> included, String inclusion, String... newInclusions) {
+		inclusion = inclusion.replace('.', '/');
+		if(included.contains(inclusion)) {
+			included.remove(inclusion);
+			if(inclusion.endsWith("*")) {
+				inclusion = inclusion.substring(0, inclusion.length() - 1);
+			}
+			for(String newInclusion : newInclusions) {
+				included.add(inclusion + newInclusion + ".java");
+			}
+		}
 	}
 	private static Set<String> gatherInclusionsFromFileList(List<Path> coveredFiles) {
 		HashSet<String> included =
@@ -432,7 +647,7 @@ public class RegenerateProjectsMain {
 		List<Path> list = srcs.removeIf(p -> p.getNameCount() <= srcNameCount);
 		List<Path> filter = list.filter(p -> p.startsWith(src));
 		List<String> excluded = filter.map(p -> toUnixPath(p.subpath(srcNameCount, p.getNameCount())) + "/");
-		excluded = addCustomExclusions(src, excluded).removeIf(s -> s.contains("x-miss-x"));
+		excluded = customizeAddClasspathEntryExclusions(src, excluded).removeIf(s -> s.contains("x-miss-x"));
 		ArrayList<String> excluded2 = new ArrayList<>();
 		if(lib != null) {
 			for(Path local : locallyAvailableFiles) {
@@ -480,9 +695,43 @@ public class RegenerateProjectsMain {
 	private static Path flattenOne(Path p) {
 		return p.subpath(1, p.getNameCount());
 	}
-	private static List<String> addCustomExclusions(Path src, List<String> excluded) {
+	private static List<String> customizeAddClasspathEntryExclusions(Path src, List<String> excluded) {
 		String unixPath = toUnixPath(src);
 		switch(unixPath) {
+			case "lucene-2.9.4/src/test":
+				return excluded.add("org/apache/lucene/util/*Test*.java");
+			case "apache.commons-lang/src/main/java":
+				return excluded.add("org/apache/commons/lang/enum/");
+			case "antlr.antlr3/runtime/Java/src/main/java":
+				return excluded.addAll("org/antlr/runtime/tree/DOTTreeGenerator.java");
+			case "apache.maven.indexer/indexer-core/src/main/java":
+				return excluded.addAll("org/apache/maven/index/DefaultIndexerEngine.java");
+			case "com.google.gerrit.common":
+			case "com.google.gerrit.prettify":
+			case "com.google.gerrit.reviewdb":
+			case "com.google.gwt.servlet":
+			case "com.google.gwtjsonrpc":
+			case "com.google.gwtorm":
+			case "org.apache.commons.httpclient":
+			case "org.eclipse.m2e.lifecyclemapping.defaults":
+			case "org.nodeclipse.pluginslist.core":
+			case "org.slf4j.api":
+				return excluded;
+			case "org.eclipse.m2e.core.ui":
+			case "org.eclipse.m2e.discovery":
+			case "org.eclipse.m2e.editor":
+			case "org.eclipse.m2e.editor.xml":
+			case "org.eclipse.m2e.jdt":
+			case "org.eclipse.m2e.jdt.ui":
+			case "org.eclipse.m2e.launching":
+			case "org.eclipse.m2e.model.edit":
+			case "org.eclipse.m2e.profiles.core":
+			case "org.eclipse.m2e.profiles.ui":
+			case "org.eclipse.m2e.refactoring":
+			case "org.eclipse.m2e.scm":
+				return excluded.addAll(".*/");
+			case "pm.eclipse.editbox":
+				return excluded.addAll(".*");
 			case "com.ibm.icu":
 			case "com.jcraft.jsch":
 			case "com.sun.el":
@@ -541,6 +790,9 @@ public class RegenerateProjectsMain {
 		}
 	}
 	private static String combinableUnixPath(Path path) {
+		if(path == null) {
+			return "";
+		}
 		String relative = toUnixPath(path);
 		if(relative.length() > 0) {
 			return "/" + relative;
@@ -551,11 +803,25 @@ public class RegenerateProjectsMain {
 		List<Path> available,
 		List<Path> target) {
 		HashMap<Path, ArrayList<Path>> map = available.stream().toMap(Path::getFileName);
-		Stream<Pair<Pair<Path, Path>, Path>> stream =
-			target.stream().map(p -> splitLongest(p, map.get(p.getFileName()))).filter(p -> p != null);
-		HashMap<Pair<Path, Path>, ArrayList<Path>> multiMap = stream.toMultiMap(Pair::lhs, Pair::rhs);
-		//		Map<Path, Pair<Path, List<Path>>> map2 =
-		//			multiMap.entrySet().stream().toMap(p -> p.lhs.lhs, p -> new Pair<>(p.lhs.rhs, p.rhs.toList())).toMap();
+		HashMap<Pair<Path, Path>, ArrayList<Path>> multiMap = new HashMap<>();
+		Path previousTargetFile = null;
+		for(Path targetFile : target) {
+			if(previousTargetFile == null || targetFile.startsWith(previousTargetFile) == false) {
+				Pair<Pair<Path, Path>, Path> splitLongest = splitLongest(targetFile, map.get(targetFile.getFileName()));
+				if(splitLongest != null) {
+					Pair<Path, Path> key = splitLongest.lhs;
+					Path value = splitLongest.rhs;
+					boolean found = key.lhs.endsWith("x-miss-x") == false;
+					if(found) {
+						previousTargetFile = targetFile;
+					}
+					if(found || value.getFileName().toString().endsWith(".jar") == false) {
+						multiMap.computeIfAbsent(key, p -> ArrayList.of());
+						multiMap.get(key).add(value);
+					}
+				}
+			}
+		}
 		return multiMap;
 	}
 	private static Pair<Pair<Path, Path>, Path> splitLongest(Path target, ArrayList<Path> available) {
@@ -564,6 +830,8 @@ public class RegenerateProjectsMain {
 			case "ECLIPSE_.SF":
 			case "ECLIPSEF.RSA":
 			case "ECLIPSEF.SF":
+			case "JEEEYUL_.DSA":
+			case "JEEEYUL_.SF":
 			case "eclipse.inf":
 			case ".api_description":
 				return null;
@@ -573,12 +841,17 @@ public class RegenerateProjectsMain {
 				Comparator.comparing(p -> p.toString().contains("x-miss-x") ? Integer.MAX_VALUE : p.getNameCount());
 			for(int i = 1, n = target.getNameCount(); i < n; i++) {
 				Path subpath = target.subpath(i, n);
-				Stream<Path> stream = available.stream().filter(p -> p.endsWith(subpath)).sorted(comparator);
+				Stream<Path> stream =
+					available.stream().filter(p -> p.endsWith(subpath) && p.getNameCount() > subpath.getNameCount()).sorted(
+						comparator);
 				ArrayList<Path> sorted = stream.toList();
 				if(sorted.notEmpty()) {
 					Path found = sorted.get(0);
 					int endIndex = found.getNameCount() - subpath.getNameCount();
-					Path src = endIndex == 0 ? Paths.get("") : found.subpath(0, endIndex);
+					if(endIndex == 0) {
+						throw new IllegalStateException("Ambiguous match from " + target + " and " + available);
+					}
+					Path src = found.subpath(0, endIndex);
 					Path dst = target.subpath(0, i);
 					return new Pair<>(new Pair<>(src, dst), subpath);
 				}
@@ -603,7 +876,9 @@ public class RegenerateProjectsMain {
 			list.addAll(Files.readAllLines(project.resolve(".project.override")).map(Paths::get));
 		}
 		for(Path lib : libs) {
-			list.addAll(filterLibrary(listSourceCode(lib), plugin));
+			ArrayList<Path> listSourceCode = listSourceCode(lib);
+			listSourceCode.removeIf(p -> p.getNameCount() > 2 && CLASS_FILE_INDICATORS.contains(p.getName(1)));
+			list.addAll(customizeAvailableFilesList(listSourceCode, plugin));
 		}
 		List<Path> missed = pluginFiles.map(p -> missedFileCatcher(p));
 		list.addAll(missed);
@@ -624,91 +899,183 @@ public class RegenerateProjectsMain {
 		Path subpath2 = p.subpath(off, len);
 		return subpath1.resolve("x-miss-x").resolve(subpath2);
 	}
-	private static List<Path> sourceFilesForPlugin(Plugin plugin) {
+	private static ArrayList<Path> sourceFilesForPlugin(Plugin plugin) {
 		HashMap<Path, byte[]> pluginContent = plugin.contents;
 		Stream<Path> stream = pluginContent.keySet().stream().sorted();
 		ArrayList<Path> list =
 			stream.filter(p -> removesInnerClasses(p, pluginContent.get(p))).map(
 				RegenerateProjectsMain::canonicalizeFileNameToMatch).toList();
-		switch(plugin.id) {
+		return customizeModelFilesList(plugin.id, list);
+	}
+	private static ArrayList<Path> customizeModelFilesList(String pluginName, ArrayList<Path> list) {
+		switch(pluginName) {
+			case "com.google.gerrit.prettify":
+				return list.addAll(
+					Paths.get("com.google.gerrit.prettify.jar/com/google/gerrit/prettify/common/PrettyFormatter.java"),
+					Paths.get("com.google.gerrit.prettify.jar/com/google/gwtexpui/safehtml/client/SafeHtml.java"));
+			case "com.google.gson":
+				return list.remove(
+					Paths.get("com.google.gson.jar/com/google/gson/internal/bind/BigDecimalTypeAdapter.java")).remove(
+					Paths.get("com.google.gson.jar/com/google/gson/internal/bind/BigIntegerTypeAdapter.java")).remove(
+					Paths.get("com.google.gson.jar/com/google/gson/internal/GsonInternalAccess.java")).remove(
+					Paths.get("com.google.gson.jar/com/google/gson/internal/Pair.java"));
+			case "com.google.guava":
+				return list.add(
+					Paths.get("com.google.guava.jar/com/google/thirdparty/publicsuffix/PublicSuffixPatterns.java")).remove(
+					Paths.get("com.google.guava.jar/com/google/common/util/concurrent/ForwardingService.java")).remove(
+					Paths.get("com.google.guava.jar/com/google/common/hash/HashCodes.java"));
+			case "com.google.gwtjsonrpc":
+				return list.add(Paths.get("com.google.gwtjsonrpc.jar/com/google/gwt/json/client/JSONValue.java"));
 			case "com.sun.el":
 				return list.replaceAll(p -> convertComSunToOrgApache(p)).remove(
 					Paths.get("com.sun.el.jar/org/apache/el/parser/AstMethodArguments.java")).add(
-					Paths.get("com.sun.el.jar/org/apache/el/stream/Optional.java")).toList();
+					Paths.get("com.sun.el.jar/org/apache/el/stream/Optional.java"));
+			case "javax.el":
+				return list.remove(Paths.get("javax.el.jar/javax/el/PrivateMessages.properties"));
 			case "javax.servlet":
-				return list.add(Paths.get("javax.servlet.jar/javax/servlet/resources/web-jsptaglibrary_2_0.xsd")).toList();
+				return list.remove(Paths.get("javax.servlet.jar/javax/servlet/annotation/package.html")).remove(
+					Paths.get("javax.servlet.jar/javax/servlet/descriptor/package.html")).add(
+					Paths.get("javax.servlet.jar/javax/servlet/resources/web-jsptaglibrary_2_0.xsd"));
 			case "javax.servlet.jsp":
-				return list.add(Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jspxml.xsd")).toList();
-			case "org.apache.ant":
-				return list.removeIf(p -> p.startsWith("org.apache.ant/etc")).toList();
+				return list.add(Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jspxml.xsd")).remove(
+					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jspxml_2_0.dtd")).remove(
+					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jspxml_2_0.xsd")).remove(
+					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jsp_2_0.xsd")).remove(
+					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jsp_2_1.xsd")).remove(
+					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jsp_2_2.xsd")).remove(
+					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd")).remove(
+					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd")).remove(
+					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd")).remove(
+					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd"));
+			case "org.antlr.runtime":
+				return list.remove(Paths.get("antlr.antlr3/runtime/Java/src/main/java/org/antlr/runtime/tree/DOTTreeGenerator.java"));
 			case "org.apache.batik.css":
-				return list.add(
-					Paths.get("org.apache.batik.css.jar/org/apache/batik/css/engine/value/svg12/AbstractCIEColor.java")).toList();
+				return list.add(Paths.get("org.apache.batik.css.jar/org/apache/batik/css/engine/value/svg12/AbstractCIEColor.java"));
+			case "org.apache.commons.compress":
+				return list.remove(
+					Paths.get("org.apache.commons.compress.jar/org/apache/commons/compress/compressors/z/_internal_/InternalLZWInputStream.java")).remove(
+					Paths.get("org.apache.commons.compress.jar/org/apache/commons/compress/compressors/z/_internal_/package.html")).add(
+					Paths.get("org.apache.commons.compress.jar/org/apache/commons/compress/compressors/lzw/LZWInputStream.java"));
 			case "org.apache.httpcomponents.httpclient":
 				return list.addAll(
 					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/client/config/CookieSpecs.java"),
 					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/conn/socket/ConnectionSocketFactory.java"),
 					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/impl/execchain/BackoffStrategyExec.java"),
 					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/osgi/impl/OSGiClientBuilderFactory.java"),
-					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/osgi/services/HttpClientBuilderFactory.java")).toList();
+					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/osgi/services/HttpClientBuilderFactory.java"));
 			case "org.apache.httpcomponents.httpcore":
-				return list.addAll(
-					Paths.get("org.apache.httpcomponents.httpcore.jar/org/apache/http/config/Registry.java"),
-					Paths.get("org.apache.httpcomponents.httpcore.jar/org/apache/http/ssl/TrustStrategy.java")).toList();
+				return list.addAll(Paths.get("org.apache.httpcomponents.httpcore.jar/org/apache/http/config/Registry.java"));
 			case "org.apache.jasper.glassfish":
 				return list.remove(
 					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.java")).remove(
 					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/parser/readableNames.properties")).addAll(
 					Paths.get("org.apache.jasper.glassfish.jar/org/apache/jasper/util/SystemLogHandler.java"),
-					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/parser/readableNames.props")).toList();
-			case "org.eclipse.jetty.io":
-				return list.add(Paths.get("org.eclipse.jetty.io.jar/org/eclipse/jetty/io/ssl/SslConnection.java")).toList();
-			case "org.eclipse.jetty.util":
-				return list.add(
-					Paths.get("org.eclipse.jetty.util.jar/org/eclipse/jetty/util/annotation/ManagedAttribute.java")).toList();
-			case "org.eclipse.jdt.doc.isv":
-				return list.removeIf(
-					p -> p.startsWith("org.eclipse.jdt.doc.isv.jar/index") ||
-					p.startsWith("org.eclipse.jdt.doc.isv.jar/reference")).toList();
-			case "org.eclipse.jdt.doc.user":
-				return list.removeIf(p -> p.startsWith("org.eclipse.jdt.doc.user.jar/index")).toList();
+					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/parser/readableNames.props"));
+			case "org.apache.xerces":
+				return list.remove(Paths.get("org.apache.xerces.jar/org/apache/xerces/impl/xs/util/NSItemListImpl.java"));
+			case "org.eclipse.e4.ui.workbench":
+				return list.remove(
+					Paths.get("org.eclipse.e4.ui.workbench.jar/org/eclipse/e4/ui/internal/workbench/ExitHandler.java")).remove(
+					Paths.get("org.eclipse.e4.ui.workbench.jar/org/eclipse/e4/ui/internal/workbench/IHelpService.java"));
+			case "org.eclipse.egit.ui":
+				return list.remove(Paths.get("org.eclipse.egit.ui.jar/icons/ovr/symlink_ovr.gif")).addAll(
+					Paths.get("org.eclipse.egit.ui.jar/org/eclipse/egit/ui/internal/revision/EditableRevision.java"),
+					Paths.get("org.eclipse.egit.ui.jar/org/eclipse/egit/ui/internal/selection/SelectionUtils.java"));
+			case "org.eclipse.equinox.http.servlet":
+				return list.remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/DefaultHttpContext.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/FilterChainImpl.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/FilterConfigImpl.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/FilterRegistration.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/HttpServletRequestAdaptor.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/HttpSessionAdaptor.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ProxyContext.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ProxyServlet.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/Registration.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/RequestDispatcherAdaptor.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ResourceServlet.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ServletConfigImpl.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ServletContextAdaptor.java")).remove(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ServletRegistration.java")).addAll(
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/registration/FilterRegistration.java"),
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/context/DefaultServletContextHelper.java"),
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/error/NullContextNamesException.java"),
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/util/StringPlus.java"),
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/customizer/FilterTrackerCustomizer.java"),
+					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/servlet/ProxyServlet.java"));
 			case "org.eclipse.help.webapp":
-				return list.removeIf(p -> p.getFileName().toString().endsWith("_jsp.java")).toList();
+				return list.removeIf(p -> p.getFileName().toString().endsWith("_jsp.java"));
+			case "org.eclipse.jetty.io":
+				return list.add(Paths.get("org.eclipse.jetty.io.jar/org/eclipse/jetty/io/ssl/SslConnection.java"));
+			case "org.eclipse.jetty.util":
+				return list.add(Paths.get("org.eclipse.jetty.util.jar/org/eclipse/jetty/util/annotation/ManagedAttribute.java"));
+			case "org.eclipse.jdt.core":
+				return list
+				.remove(Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/ast/InnerInferenceHelper.java"))
+				.remove(Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/lookup/IntersectionCastTypeBinding.java"))
+				.remove(Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/parser/CommitRollbackParser.java"))
+				;
+			case "org.eclipse.jdt.doc.isv":
+				return list.removeIf(p -> p.startsWith("org.eclipse.jdt.doc.isv.jar/index")).removeIf(
+					p -> p.startsWith("org.eclipse.jdt.doc.isv.jar/reference"));
+			case "org.eclipse.jdt.doc.user":
+				return list.removeIf(p -> p.startsWith("org.eclipse.jdt.doc.user.jar/index"));
+			case "org.eclipse.jgit":
+				return list.add(Paths.get("org.eclipse.jgit.jar/org/eclipse/jgit/ignore/internal/IMatcher.java"));
+			case "org.eclipse.m2e.core":
+				return list.addAll(Paths.get("org.eclipse.m2e.core.jar/org/eclipse/m2e/core/internal/equinox/EquinoxLocker.java"));
+			case "org.eclipse.m2e.maven.indexer":
+				return list.removeIf(p -> p.startsWith("org.eclipse.m2e.maven.indexer/org"));
+			case "org.eclipse.pde.ui.templates":
+				return list.removeIf(p -> p.getName(1).toString().startsWith("templates_"));
+			case "org.eclipse.osgi.services":
+				return list.addAll(
+					Paths.get("org.eclipse.osgi.services.jar/org/osgi/service/http/context/ServletContextHelper.java"),
+					Paths.get("org.eclipse.osgi.services.jar/org/osgi/service/http/whiteboard/HttpWhiteboardConstants.java"),
+					Paths.get("org.eclipse.osgi.services.jar/org/osgi/service/http/runtime/HttpServiceRuntime.java"),
+					Paths.get("org.eclipse.osgi.services.jar/org/osgi/service/http/runtime/dto/ErrorPageDTO.java"));
 			case "org.eclipse.pde.doc.user":
-				return list.removeIf(
-					p -> p.startsWith("org.eclipse.pde.doc.user.jar/index") ||
-					p.startsWith("org.eclipse.pde.doc.user.jar/reference") ||
-					p.startsWith("org.eclipse.pde.doc.user.jar/whatsNew")).toList();
+				return list.removeIf(p -> p.startsWith("org.eclipse.pde.doc.user.jar/index")).removeIf(
+					p -> p.startsWith("org.eclipse.pde.doc.user.jar/reference")).removeIf(
+					p -> p.startsWith("org.eclipse.pde.doc.user.jar/whatsNew"));
 			case "org.eclipse.platform.doc.isv":
-				return list.removeIf(
-					p -> p.startsWith("org.eclipse.platform.doc.isv.jar/index") ||
-					p.startsWith("org.eclipse.platform.doc.isv.jar/reference") ||
-					p.startsWith("org.eclipse.platform.doc.isv.jar/samples")).toList();
+				return list.removeIf(p -> p.startsWith("org.eclipse.platform.doc.isv.jar/index")).removeIf(
+					p -> p.startsWith("org.eclipse.platform.doc.isv.jar/reference")).removeIf(
+					p -> p.startsWith("org.eclipse.platform.doc.isv.jar/samples"));
 			case "org.eclipse.platform.doc.user":
-				return list.removeIf(
-					p -> p.startsWith("org.eclipse.platform.doc.user.jar/index") ||
-					p.startsWith("org.eclipse.platform.doc.user.jar/whatsNew")).toList();
+				return list.removeIf(p -> p.startsWith("org.eclipse.platform.doc.user.jar/index")).removeIf(
+					p -> p.startsWith("org.eclipse.platform.doc.user.jar/whatsNew"));
+			case "org.eclipse.ui.ide":
+				return list.remove(Paths.get("org.eclipse.ui.ide.jar/org/eclipse/ui/internal/ide/dialogs/SimpleListContentProvider.java"));
 			case "org.eclipse.swt.win32.win32.x86_64":
 				return list.addAll(
 					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/Mozilla.java"),
 					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/WebKit.java"),
 					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/Website.java"),
-					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/MozillaDelegate.java")).toList();
+					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/MozillaDelegate.java"));
+			case "org.kohsuke.args4j":
+				return list.remove(Paths.get("org.kohsuke.args4j.jar/org/kohsuke/args4j/MapSetter.java")).remove(
+					Paths.get("org.kohsuke.args4j.jar/org/kohsuke/args4j/Messages_de_DE.properties")).remove(
+					Paths.get("org.kohsuke.args4j.jar/org/kohsuke/args4j/Messages_ru_RU.properties"));
 			case "org.sat4j.core":
 				return list.remove(Paths.get("org.sat4j.core.jar/org/sat4j/minisat/core/Constr.java")).remove(
 					Paths.get("org.sat4j.core.jar/org/sat4j/minisat/core/Propagatable.java")).remove(
-					Paths.get("org.sat4j.core.jar/org/sat4j/MoreThanSAT.java")).toList();
+					Paths.get("org.sat4j.core.jar/org/sat4j/MoreThanSAT.java"));
 			case "org.sat4j.pb":
 				return list.remove(Paths.get("org.sat4j.pb.jar/org/sat4j/pb/PseudoBitsAdderDecorator.java")).addAll(
-					Paths.get("org.sat4j.pb.jar/org/sat4j/pb/multiobjective/IMultiObjOptimizationProblem.java")).toList();
+					Paths.get("org.sat4j.pb.jar/org/sat4j/pb/multiobjective/IMultiObjOptimizationProblem.java"));
+			case "pm.eclipse.editbox":
+				return list.remove(Paths.get("pm.eclipse.editbox.jar/icons/editbox.gif")).remove(
+					Paths.get("pm.eclipse.editbox.jar/Java_PaleBlue.eb")).addAll(
+					Paths.get("pm.eclipse.editbox.jar/icons/editbox.png"));
 			default:
-				return list.toList();
+				return list;
 		}
 	}
 	private static Path convertComSunToOrgApache(Path p) {
 		return Paths.get(toUnixPath(p).replace("com/sun/", "org/apache/"));
 	}
-	private static ArrayList<Path> filterLibrary(ArrayList<Path> list, String plugin) {
+	private static ArrayList<Path> customizeAvailableFilesList(ArrayList<Path> list, String plugin) {
 		switch(plugin) {
 			case "com.ibm.icu":
 				return list.filter(p -> p.startsWith("com.ibm.icu/com"));
@@ -922,20 +1289,59 @@ public class RegenerateProjectsMain {
 	private static String toUnixPath(Path path) {
 		return String.join("/", Stream.from(path).map(Path::toString).iterable());
 	}
-	private static String projectName(String plugin, Path source) {
-		return "IDE-" + moduleNameFromSourceLibrary(source) + "-" + plugin;
-	}
-	private static String moduleNameFromSourceLibrary(Path pluginRoot) {
-		String string = pluginRoot.getName(1).toString();
-		if(string.contains("eclipse")) {
-			return string;
-		}
-		return "other";
-	}
 	private static Map<String, List<Path>> findSourceFolders(Path root, List<String> plugins) throws IOException {
 		Path libraries = root.resolve("libraries");
-		List<Path> folders = Files.walk(libraries, 5).filter(Files::isDirectory).toList().toList();
-		return plugins.stream().toMap(p -> p, p -> libraryFolders(root, folders, p)).toMap();
+		ArrayList<Path> unused = Files.walk(libraries, 5).filter(Files::isDirectory).toList();
+		List<Path> folders = unused.toList();
+		HashSet<Path> usedLibraries = HashSet.of();
+		HashSet<Path> unusedLibraries =
+			folders.stream().map(libraries::relativize).filter(p -> p.getNameCount() > 1).map(p -> p.subpath(0, 2)).toSet();
+		filterCompileDependencies(unusedLibraries, root);
+		HashMap<String, List<Path>> map = HashMap.of();
+		for(String plugin : plugins) {
+			List<Path> libraryFolders = libraryFolders(root, folders, plugin);
+			map.put(plugin, libraryFolders);
+			for(Path libraryFolder : libraryFolders) {
+				if(libraryFolder.getNameCount() > 2) {
+					Path prefix = libraryFolder.subpath(1, 3);
+					unusedLibraries.remove(prefix);
+					usedLibraries.add(prefix.getName(0));
+				} else if(libraryFolder.getNameCount() > 1) {
+					Path prefix = libraryFolder.getName(1);
+					unusedLibraries.removeIf(p -> p.startsWith(prefix));
+					usedLibraries.add(prefix);
+				}
+			}
+		}
+		if(unused.notEmpty()) {
+			System.out.println("\nUnused libraries paths:");
+			for(Path path : unusedLibraries.toArrayList().sort()) {
+				if(usedLibraries.contains(path.getName(0))) {
+					System.out.println("(partial) " + path);
+				} else {
+					System.out.println("(fully)   " + path);
+				}
+			}
+			System.out.println();
+		}
+		return map.toMap();
+	}
+	private static void filterCompileDependencies(HashSet<Path> unusedLibraries, Path root) throws IOException {
+		Path projects = root.resolve("projects");
+		ArrayList<Path> list =
+			Files.list(projects).filter(p -> p.endsWith("IDE") || p.getFileName().toString().contains("-compile-")).toList();
+		Pattern pattern = Pattern.compile("<locationURI>PARENT-2-PROJECT_LOC/libraries/(.*)</locationURI>");
+		for(Path project : list) {
+			Path dotProject = project.resolve(".project");
+			if(Files.isRegularFile(dotProject)) {
+				ArrayList<String> l = Files.readAllLines(dotProject);
+				Stream<Path> s = l.stream().map(pattern::matcher).filter(Matcher::find).map(m -> Paths.get(m.group(1)));
+				ArrayList<Path> links = s.toList();
+				for(Path link : links) {
+					unusedLibraries.removeIf(p -> p.startsWith(link));
+				}
+			}
+		}
 	}
 	private static void printRoots(Map<String, List<Path>> pluginRoots) {
 		for(String name : sortedKeys(pluginRoots)) {
@@ -944,6 +1350,9 @@ public class RegenerateProjectsMain {
 		}
 	}
 	private static List<Path> libraryFolders(Path root, List<Path> folders, String pluginName) {
+		if(pluginName.endsWith("-2") || pluginName.endsWith("-3")) {
+			pluginName = pluginName.substring(0, pluginName.length() - 2);
+		}
 		switch(pluginName) {
 			case "org.eclipse.equinox.launcher.carbon.macosx":
 			case "org.eclipse.equinox.launcher.cocoa.macosx":
@@ -973,11 +1382,30 @@ public class RegenerateProjectsMain {
 					Paths.get("libraries/eclipse.rt.equinox.binaries"),
 					Paths.get("libraries/eclipse.rt.equinox.framework/bundles"));
 		}
-		Path pluginPath = pluginNameToPath(pluginName);
+		Path pluginPath = customizePluginNameToLibrariesPathMapping(pluginName);
+		Path pluginPathGuess = pluginNameToLibrariesPathLevenshtein(pluginName, folders);
+		if(pluginPath == null) {
+			pluginPath = pluginPathGuess;
+		} else if(pluginPathGuess.equals(pluginPath)) {
+			System.out.println("Unnecessary librariesPath " + pluginName + " \t\t--- " + pluginPath);
+		}
 		List<Path> libraries = sourceInLibraries(root, folders, pluginPath);
+		return customizeAddLibrariesPaths(pluginName, libraries);
+	}
+	private static List<Path> customizeAddLibrariesPaths(String pluginName, List<Path> libraries) {
 		switch(pluginName) {
+			case "com.google.gerrit.prettify":
+				return libraries.add(Paths.get("libraries/google.gerrit/gerrit-gwtexpui"));
+			case "com.google.gerrit.reviewdb":
+				return libraries.add(Paths.get("libraries/google.gerrit/gerrit-extension-api"));
+			case "net.jeeeyul.eclipse.themes":
+				return libraries.add(Paths.get("libraries/jeeeyul.eclipse-themes/net.jeeeyul.eclipse.themes/lib"));
 			case "org.apache.jasper.glassfish":
 				return libraries.add(Paths.get("libraries/eclipse.jdt.core"));
+			case "org.eclipse.m2e.maven.indexer":
+				return libraries.addAll(
+					Paths.get("libraries/apache.maven.indexer"),
+					Paths.get("libraries/apache.lucene-solr/lucene"));
 			case "org.eclipse.swt.win32.win32.x86_64":
 			case "org.eclipse.swt.cocoa.macosx.x86_64":
 			case "org.eclipse.swt.gtk.linux.x86_64":
@@ -988,7 +1416,7 @@ public class RegenerateProjectsMain {
 				return libraries;
 		}
 	}
-	private static Path pluginNameToPath(String pluginName) {
+	private static Path customizePluginNameToLibrariesPathMapping(String pluginName) {
 		switch(pluginName) {
 			case "com.sun.el":
 			case "javax.annotation":
@@ -996,16 +1424,12 @@ public class RegenerateProjectsMain {
 			case "javax.servlet":
 			case "javax.servlet.jsp":
 				return Paths.get("apache.tomcat");
-			case "org.apache.ant":
-				return Paths.get("apache.ant");
-			case "org.apache.batik.css":
-			case "org.apache.batik.util":
+			case "org.antlr.runtime":
+				return Paths.get("antlr.antlr3");
 			case "org.apache.batik.util.gui":
 				return Paths.get("apache.batik");
-			case "org.apache.commons.codec":
-			case "org.apache.commons.compress":
-			case "org.apache.commons.logging":
-				return Paths.get(pluginName.replace("org.apache.commons.", "apache.commons-"));
+			case "org.apache.ws.commons.util":
+				return Paths.get("ws-commons-util-1.0.1");
 			case "org.apache.felix.gogo.command":
 			case "org.apache.felix.gogo.runtime":
 			case "org.apache.felix.gogo.shell":
@@ -1016,10 +1440,22 @@ public class RegenerateProjectsMain {
 			case "org.apache.lucene.analysis":
 			case "org.apache.lucene.core":
 				return Paths.get("lucene");
+			case "org.apache.lucene":
+			case "org.apache.lucene.highlighter":
+			case "org.apache.lucene.memory":
+			case "org.apache.lucene.misc":
+			case "org.apache.lucene.queries":
+			case "org.apache.lucene.snowball":
+			case "org.apache.lucene.spellchecker":
+				return Paths.get("lucene-2.9.4");
+			case "org.apache.xmlrpc":
+				return Paths.get("apache-xmlrpc-3.1.3");
+			case "org.apache.xml.resolver":
+				return Paths.get("apache.xerces.xml-commons");
+			case "org.apache.xml.serializer":
+				return Paths.get("apache.xalan-j");
 			case "javax.xml":
-				return Paths.get("apache.xerces.xml-commons", "java", "external");
-			case "org.eclipse.equinox.http.jetty":
-				return Paths.get("org.eclipse.equinox.http.jetty9");
+				return Paths.get("apache.xerces.xml-commons/java/external");
 			case "org.eclipse.jetty.continuation":
 			case "org.eclipse.jetty.http":
 			case "org.eclipse.jetty.io":
@@ -1030,10 +1466,48 @@ public class RegenerateProjectsMain {
 				return Paths.get(pluginName.replace("org.eclipse.jetty.", "jetty-"));
 			case "org.objectweb.asm":
 			case "org.objectweb.asm.tree":
-				return Paths.get("ow2.asm", "trunk", "asm");
+				return Paths.get("ow2.asm/trunk/asm");
 			default:
-				return Paths.get(pluginName);
+				return null;
 		}
+	}
+	private static Path pluginNameToLibrariesPathLevenshtein(String pluginName, List<Path> folders) {
+		Comparator<Path> c = Comparator.comparingInt(p -> distanceLevenshtein(p.getFileName().toString(), pluginName));
+		Optional<Path> min = folders.stream().min(c);
+		return min.get().getFileName();
+	}
+	private static int distanceLevenshtein(String s1, String s2) {
+		if(Objects.equals(s1, s2)) {
+			return 0;
+		}
+		if(s1.compareTo(s2) > 0) {
+			String tmp = s2;
+			s2 = s1;
+			s1 = tmp;
+		}
+		Pair<String, String> key = Pair.of(s1, s2);
+		Integer result = cachedDistances.get(key);
+		if(result != null) {
+			return result;
+		}
+		int[][] distance1 = new int[s1.length() + 1][s2.length() + 1];
+		for(int i = 0; i <= s1.length(); i++) {
+			distance1[i][0] = i;
+		}
+		for(int j = 0; j <= s2.length(); j++) {
+			distance1[0][j] = j;
+		}
+		for(int i = 1; i <= s1.length(); i++) {
+			for(int j = 1; j <= s2.length(); j++) {
+				int d1 = distance1[i - 1][j] + 1;
+				int d2 = distance1[i][j - 1] + 1;
+				int d3 = distance1[i - 1][j - 1] + (s1.charAt(i - 1) == s2.charAt(j - 1) ? 0 : 1);
+				distance1[i][j] = Math.min(Math.min(d1, d2), d3);
+			}
+		}
+		result = distance1[s1.length()][s2.length()];
+		cachedDistances.put(key, result);
+		return result;
 	}
 	private static List<Path> sourceInLibraries(Path root, List<Path> folders, Path pluginName) {
 		Stream<Path> stream = folders.stream().filter(path -> path.endsWith(pluginName));
@@ -1070,11 +1544,6 @@ public class RegenerateProjectsMain {
 			depending.compute(pair.lhs, (k, v) -> v == null ? pair.rhs : v.addAll(pair.rhs));
 		}
 	}
-	private static Map<String, List<String>> reexportedDependencies(List<Plugin> plugins) {
-		HashMap<String, List<String>> map = gatherNamesWith(plugins, "Require-Bundle", "visibility:=reexport");
-		map.put("org.eclipse.swt", List.of("org.eclipse.swt.win32.win32.x86_64"));
-		return map.toMap();
-	}
 	private static void printDependencies(Map<String, List<String>> deps, String arrow) {
 		for(String name : sortedKeys(deps)) {
 			List<String> list = deps.get(name);
@@ -1091,11 +1560,12 @@ public class RegenerateProjectsMain {
 		return plugins.stream().toMultiMap(p -> p.id, p -> nameList(key, tag, p), m -> m);
 	}
 	private static List<String> nameList(String key, String tag, ArrayList<Plugin> p) {
-		String required = p.sort().get(-1).manifest.get(key);
+		Plugin plugin = p.sort().get(-1);
+		String required = plugin.manifest.get(key);
 		if(required == null) {
 			return List.of();
 		}
-		String[] split = required.replaceAll("\"[^\"]+\"", "\"\"").split(",");
+		String[] split = required.replaceAll("\"\\[?([^\",]+),?[^\"]*\"", "$1").split(",");
 		return Stream.of(split).filter(s -> s.contains(tag)).map(RegenerateProjectsMain::toBundleName).toList().toList();
 	}
 	private static <A, B> HashMap<B, List<A>> invert(HashMap<A, List<B>> dag) {
@@ -1132,9 +1602,14 @@ public class RegenerateProjectsMain {
 		IOStream<Pair<Path, Map<Path, byte[]>>> stream3 =
 			stream.map(RegenerateProjectsMain::readContents).filter(RegenerateProjectsMain::hasManifest);
 		IOStream<Plugin> stream4 = stream3.map(p -> new Plugin(p.lhs, p.rhs.toHashMap()));
-		List<Plugin> list =
-			stream4.toMultiMap(Plugin::name, l -> l.sort().get(-1), m -> m.values().toArrayList().sort().toList());
-		return list;
+		HashMap<String, Plugin> map = stream4.toMultiMap(Plugin::name, l -> l.sort().get(-1), m -> m);
+		return map.values().toArrayList().sort().toList();
+	}
+	static void duplicatePlugin(HashMap<String, Plugin> map, String name, String suffix) {
+		if(map.containsKey(name)) {
+			String newName = name + suffix;
+			map.put(newName, map.get(name).name(newName));
+		}
 	}
 	private static boolean filterExtraPluginsEntries(Path path, HashSet<Path> skipped) {
 		return !skipped.contains(path) && !path.toString().contains(".source_");

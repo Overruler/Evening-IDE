@@ -3,11 +3,11 @@
 	<!-- about.html
 	     about.ini
 	     egit.png
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|about.ini|egit.png|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.egit.jar" path="org.eclipse.egit"/>
-	<!-- META-INF\maven\org.eclipse.egit\org.eclipse.egit\pom.properties
-	     META-INF\maven\org.eclipse.egit\org.eclipse.egit\pom.xml -->
+	<!-- META-INF/maven/org.eclipse.egit/org.eclipse.egit/pom.properties
+	     META-INF/maven/org.eclipse.egit/org.eclipse.egit/pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.egit.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="classes"/>

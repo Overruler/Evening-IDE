@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     config/charset.properties
+	     config/defaultIANA.properties
+	     config/override.properties
+	     META-INF/devTimeSupportInfo.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|src-contentproperties/|src-encoding/|src-tasktags/|.*|.*/" including=".options|META-INF/*|about.html|config/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.sse.core.jar" path="org.eclipse.wst.sse.core"/>
+	<!-- org/eclipse/wst/sse/core/indexing/AbstractIndexManager.java
+	     org/eclipse/wst/sse/core/internal/cleanup/AbstractStructuredCleanupProcessor.java
+	     org/eclipse/wst/sse/core/internal/cleanup/IStructuredCleanupHandler.java
+	     org/eclipse/wst/sse/core/internal/cleanup/IStructuredCleanupPreferences.java
+	     org/eclipse/wst/sse/core/internal/cleanup/IStructuredCleanupProcessor.java
+	     org/eclipse/wst/sse/core/internal/cleanup/StructuredCleanupPreferences.java
+	     org/eclipse/wst/sse/core/internal/cleanup/StructuredContentCleanupHandler.java
+	     org/eclipse/wst/sse/core/internal/cleanup/StructuredContentCleanupHandlerImpl.java
+	     org/eclipse/wst/sse/core/internal/document/AbstractDocumentLoader.java
+	     org/eclipse/wst/sse/core/internal/document/DocumentReader.java
+	     org/eclipse/wst/sse/core/internal/document/IDocumentCharsetDetector.java
+	     org/eclipse/wst/sse/core/internal/document/IDocumentLoader.java
+	     org/eclipse/wst/sse/core/internal/document/StructuredDocumentFactory.java
+	     org/eclipse/wst/sse/core/internal/document/TextUtilities.java
+	     org/eclipse/wst/sse/core/internal/FileBufferModelManager.java
+	     org/eclipse/wst/sse/core/internal/filebuffers/BasicStructuredDocumentFactory.java
+	     org/eclipse/wst/sse/core/internal/format/AbstractStructuredFormatProcessor.java
+	     org/eclipse/wst/sse/core/internal/format/IFormattingDelegate.java
+	     org/eclipse/wst/sse/core/internal/format/IStructuredFormatContraints.java
+	     org/eclipse/wst/sse/core/internal/format/IStructuredFormatPreferences.java
+	     org/eclipse/wst/sse/core/internal/format/IStructuredFormatProcessor.java
+	     org/eclipse/wst/sse/core/internal/format/IStructuredFormatter.java
+	     org/eclipse/wst/sse/core/internal/format/StructuredFormatContraints.java
+	     org/eclipse/wst/sse/core/internal/format/StructuredFormatPreferences.java
+	     org/eclipse/wst/sse/core/internal/IExecutionDelegate.java
+	     org/eclipse/wst/sse/core/internal/ILockable.java
+	     org/eclipse/wst/sse/core/internal/JSPAwareAdapterFactory.java
+	     org/eclipse/wst/sse/core/internal/Logger.java
+	     org/eclipse/wst/sse/core/internal/ltk/modelhandler/AbstractModelHandler.java
+	     org/eclipse/wst/sse/core/internal/ltk/modelhandler/EmbeddedTypeHandler.java
+	     org/eclipse/wst/sse/core/internal/ltk/modelhandler/IDocumentTypeHandler.java
+	     org/eclipse/wst/sse/core/internal/ltk/modelhandler/IModelHandler.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/BlockMarker.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/BlockTagParser.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/BlockTokenizer.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/IBlockedStructuredDocumentRegion.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/JSPCapableParser.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/RegionParser.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/StructuredDocumentRegionHandler.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/StructuredDocumentRegionHandlerExtension.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/StructuredDocumentRegionParser.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/StructuredDocumentRegionParserExtension.java
+	     org/eclipse/wst/sse/core/internal/ltk/parser/TagMarker.java
+	     org/eclipse/wst/sse/core/internal/modelhandler/EmbeddedTypeRegistry.java
+	     org/eclipse/wst/sse/core/internal/modelhandler/EmbeddedTypeRegistryImpl.java
+	     org/eclipse/wst/sse/core/internal/modelhandler/EmbeddedTypeRegistryReader.java
+	     org/eclipse/wst/sse/core/internal/modelhandler/ModelHandlerRegistry.java
+	     org/eclipse/wst/sse/core/internal/modelhandler/ModelHandlerUtility.java
+	     org/eclipse/wst/sse/core/internal/modelhandler/PluginContributedFactoryReader.java
+	     org/eclipse/wst/sse/core/internal/ModelManagerPluginRegistryReader.java
+	     org/eclipse/wst/sse/core/internal/model/AbstractModelLoader.java
+	     org/eclipse/wst/sse/core/internal/model/AbstractStructuredModel.java
+	     org/eclipse/wst/sse/core/internal/model/FactoryRegistry.java
+	     org/eclipse/wst/sse/core/internal/model/ModelLifecycleEvent.java
+	     org/eclipse/wst/sse/core/internal/model/ModelManagerImpl.java
+	     org/eclipse/wst/sse/core/internal/model/ModelResourceFactory.java
+	     org/eclipse/wst/sse/core/internal/NoCancelProgressMonitor.java
+	     org/eclipse/wst/sse/core/internal/NotImplementedException.java
+	     org/eclipse/wst/sse/core/internal/NullMemento.java
+	     org/eclipse/wst/sse/core/internal/parser/ContextRegion.java
+	     org/eclipse/wst/sse/core/internal/parser/ForeignRegion.java
+	     org/eclipse/wst/sse/core/internal/preferences/CommonModelPreferenceNames.java
+	     org/eclipse/wst/sse/core/internal/preferences/PreferenceInitializer.java
+	     org/eclipse/wst/sse/core/internal/PropagatingAdapter.java
+	     org/eclipse/wst/sse/core/internal/PropagatingAdapterFactory.java
+	     org/eclipse/wst/sse/core/internal/propertytester/StructuredFilePropertyTester.java
+	     org/eclipse/wst/sse/core/internal/provisional/AbstractAdapterFactory.java
+	     org/eclipse/wst/sse/core/internal/provisional/AbstractNotifier.java
+	     org/eclipse/wst/sse/core/internal/provisional/DocumentChanged.java
+	     org/eclipse/wst/sse/core/internal/provisional/document/IEncodedDocument.java
+	     org/eclipse/wst/sse/core/internal/provisional/document/IStructuredDocumentProposed.java
+	     org/eclipse/wst/sse/core/internal/provisional/events/AboutToBeChangedEvent.java
+	     org/eclipse/wst/sse/core/internal/provisional/events/IModelAboutToBeChangedListener.java
+	     org/eclipse/wst/sse/core/internal/provisional/events/IStructuredDocumentListener.java
+	     org/eclipse/wst/sse/core/internal/provisional/events/NewDocumentContentEvent.java
+	     org/eclipse/wst/sse/core/internal/provisional/events/NewDocumentEvent.java
+	     org/eclipse/wst/sse/core/internal/provisional/events/NoChangeEvent.java
+	     org/eclipse/wst/sse/core/internal/provisional/events/RegionChangedEvent.java
+	     org/eclipse/wst/sse/core/internal/provisional/events/RegionsReplacedEvent.java
+	     org/eclipse/wst/sse/core/internal/provisional/events/StructuredDocumentEvent.java
+	     org/eclipse/wst/sse/core/internal/provisional/events/StructuredDocumentRegionsReplacedEvent.java
+	     org/eclipse/wst/sse/core/internal/provisional/exceptions/ResourceAlreadyExists.java
+	     org/eclipse/wst/sse/core/internal/provisional/exceptions/ResourceInUse.java
+	     org/eclipse/wst/sse/core/internal/provisional/IModelLifecycleListener.java
+	     org/eclipse/wst/sse/core/internal/provisional/IModelLoader.java
+	     org/eclipse/wst/sse/core/internal/provisional/IModelManager.java
+	     org/eclipse/wst/sse/core/internal/provisional/IModelStateListener.java
+	     org/eclipse/wst/sse/core/internal/provisional/IndexedRegion.java
+	     org/eclipse/wst/sse/core/internal/provisional/INodeAdapter.java
+	     org/eclipse/wst/sse/core/internal/provisional/INodeAdapterFactory.java
+	     org/eclipse/wst/sse/core/internal/provisional/INodeNotifier.java
+	     org/eclipse/wst/sse/core/internal/provisional/IStructuredModel.java
+	     org/eclipse/wst/sse/core/internal/provisional/model/IModelManagerProposed.java
+	     org/eclipse/wst/sse/core/internal/provisional/model/IModelStateListenerProposed.java
+	     org/eclipse/wst/sse/core/internal/provisional/model/INodeAdapterFactoryManager.java
+	     org/eclipse/wst/sse/core/internal/provisional/model/IStructuredModelEvent.java
+	     org/eclipse/wst/sse/core/internal/provisional/model/IStructuredModelProposed.java
+	     org/eclipse/wst/sse/core/internal/provisional/StructuredModelManager.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/IStructuredDocument.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/IStructuredDocumentRegion.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/IStructuredDocumentRegionList.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/IStructuredPartitioning.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/IStructuredPartitionTypes.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/IStructuredTextPartitioner.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/IStructuredTextReParser.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/ITextRegion.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/ITextRegionCollection.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/ITextRegionContainer.java
+	     org/eclipse/wst/sse/core/internal/provisional/text/ITextRegionList.java
+	     org/eclipse/wst/sse/core/internal/SSECoreMessages.java
+	     org/eclipse/wst/sse/core/internal/SSECorePlugin.java
+	     org/eclipse/wst/sse/core/internal/SSECorePluginResources.properties
+	     org/eclipse/wst/sse/core/internal/text/BasicStructuredDocument.java
+	     org/eclipse/wst/sse/core/internal/text/BasicStructuredDocumentRegion.java
+	     org/eclipse/wst/sse/core/internal/text/CharSequenceReader.java
+	     org/eclipse/wst/sse/core/internal/text/CoreNodeList.java
+	     org/eclipse/wst/sse/core/internal/text/DeleteEqualPositionUpdater.java
+	     org/eclipse/wst/sse/core/internal/text/GenericPositionManager.java
+	     org/eclipse/wst/sse/core/internal/text/IExecutionDelegatable.java
+	     org/eclipse/wst/sse/core/internal/text/IRegionComparible.java
+	     org/eclipse/wst/sse/core/internal/text/JobSafeStructuredDocument.java
+	     org/eclipse/wst/sse/core/internal/text/MinimalDocument.java
+	     org/eclipse/wst/sse/core/internal/text/rules/IStructuredRegion.java
+	     org/eclipse/wst/sse/core/internal/text/rules/IStructuredTypedRegion.java
+	     org/eclipse/wst/sse/core/internal/text/rules/SimpleStructuredRegion.java
+	     org/eclipse/wst/sse/core/internal/text/rules/SimpleStructuredTypedRegion.java
+	     org/eclipse/wst/sse/core/internal/text/rules/StructuredTextPartitioner.java
+	     org/eclipse/wst/sse/core/internal/text/StructuredDocumentRegionEnumeration.java
+	     org/eclipse/wst/sse/core/internal/text/StructuredDocumentRegionIterator.java
+	     org/eclipse/wst/sse/core/internal/text/StructuredDocumentReParser.java
+	     org/eclipse/wst/sse/core/internal/text/StructuredDocumentSequentialRewriteTextStore.java
+	     org/eclipse/wst/sse/core/internal/text/StructuredDocumentTextStore.java
+	     org/eclipse/wst/sse/core/internal/text/SubSetTextStore.java
+	     org/eclipse/wst/sse/core/internal/text/TextRegionListImpl.java
+	     org/eclipse/wst/sse/core/internal/undo/CommandCursorPosition.java
+	     org/eclipse/wst/sse/core/internal/undo/IDocumentSelectionMediator.java
+	     org/eclipse/wst/sse/core/internal/undo/IStructuredTextUndoManager.java
+	     org/eclipse/wst/sse/core/internal/undo/StructuredTextCommand.java
+	     org/eclipse/wst/sse/core/internal/undo/StructuredTextCommandImpl.java
+	     org/eclipse/wst/sse/core/internal/undo/StructuredTextCompoundCommandImpl.java
+	     org/eclipse/wst/sse/core/internal/undo/StructuredTextUndoManager.java
+	     org/eclipse/wst/sse/core/internal/undo/UndoDocumentEvent.java
+	     org/eclipse/wst/sse/core/internal/util/AbstractMemoryListener.java
+	     org/eclipse/wst/sse/core/internal/util/Assert.java
+	     org/eclipse/wst/sse/core/internal/util/Debug.java
+	     org/eclipse/wst/sse/core/internal/util/DocumentInputStream.java
+	     org/eclipse/wst/sse/core/internal/util/JarUtilities.java
+	     org/eclipse/wst/sse/core/internal/util/PathHelper.java
+	     org/eclipse/wst/sse/core/internal/util/ProjectResolver.java
+	     org/eclipse/wst/sse/core/internal/util/ResourceUtil.java
+	     org/eclipse/wst/sse/core/internal/util/ScriptLanguageKeys.java
+	     org/eclipse/wst/sse/core/internal/util/Sorter.java
+	     org/eclipse/wst/sse/core/internal/util/TextUtilities.java
+	     org/eclipse/wst/sse/core/internal/util/URIResolver.java
+	     org/eclipse/wst/sse/core/internal/util/URIResolverExtension.java
+	     org/eclipse/wst/sse/core/internal/util/Utilities.java
+	     org/eclipse/wst/sse/core/internal/validate/ErrorInfo.java
+	     org/eclipse/wst/sse/core/internal/validate/ValidationAdapter.java
+	     org/eclipse/wst/sse/core/internal/validate/ValidationMessage.java
+	     org/eclipse/wst/sse/core/internal/validate/ValidationReporter.java
+	     org/eclipse/wst/sse/core/internal/validate/ValidatorGroupListener.java
+	     org/eclipse/wst/sse/core/StructuredModelManager.java
+	     org/eclipse/wst/sse/core/text/IStructuredPartitions.java
+	     org/eclipse/wst/sse/core/utils/StringUtils.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.sse.core.jar" path="org.eclipse.wst.sse.core/src"/>
+	<!-- org/eclipse/wst/sse/internal/contentproperties/AbstractSubject.java
+	     org/eclipse/wst/sse/internal/contentproperties/ContentSettings.java
+	     org/eclipse/wst/sse/internal/contentproperties/ContentSettingsChangeSubject.java
+	     org/eclipse/wst/sse/internal/contentproperties/ContentSettingsCreator.java
+	     org/eclipse/wst/sse/internal/contentproperties/ContentSettingsSynchronizer.java
+	     org/eclipse/wst/sse/internal/contentproperties/IContentSettings.java
+	     org/eclipse/wst/sse/internal/contentproperties/IContentSettingsListener.java
+	     org/eclipse/wst/sse/internal/contentproperties/ISubject.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.sse.core.jar" path="org.eclipse.wst.sse.core/src-contentproperties"/>
+	<!-- org/eclipse/wst/sse/core/internal/encoding/CodedIO.java
+	     org/eclipse/wst/sse/core/internal/encoding/CodedReaderCreator.java
+	     org/eclipse/wst/sse/core/internal/encoding/CodedStreamCreator.java
+	     org/eclipse/wst/sse/core/internal/encoding/CommonCharsetNames.java
+	     org/eclipse/wst/sse/core/internal/encoding/CommonEncodingPreferenceNames.java
+	     org/eclipse/wst/sse/core/internal/encoding/ContentBasedPreferenceGateway.java
+	     org/eclipse/wst/sse/core/internal/encoding/ContentTypeEncodingPreferences.java
+	     org/eclipse/wst/sse/core/internal/encoding/EncodingMemento.java
+	     org/eclipse/wst/sse/core/internal/encoding/EncodingRule.java
+	     org/eclipse/wst/sse/core/internal/encoding/ICodedResourcePlugin.java
+	     org/eclipse/wst/sse/core/internal/encoding/IContentDescriptionExtended.java
+	     org/eclipse/wst/sse/core/internal/encoding/IResourceCharsetDetector.java
+	     org/eclipse/wst/sse/core/internal/encoding/IStreamCharsetDetector.java
+	     org/eclipse/wst/sse/core/internal/encoding/NonContentBasedEncodingRules.java
+	     org/eclipse/wst/sse/core/internal/encoding/util/Assert.java
+	     org/eclipse/wst/sse/core/internal/encoding/util/BufferedLimitedReader.java
+	     org/eclipse/wst/sse/core/internal/encoding/util/BufferedLimitedStream.java
+	     org/eclipse/wst/sse/core/internal/encoding/util/ByteReader.java
+	     org/eclipse/wst/sse/core/internal/encoding/util/CodedResourcePlugin.java
+	     org/eclipse/wst/sse/core/internal/encoding/util/Logger.java
+	     org/eclipse/wst/sse/core/internal/encoding/util/NullInputStream.java
+	     org/eclipse/wst/sse/core/internal/encoding/util/ResourceBundleHelper.java
+	     org/eclipse/wst/sse/core/internal/encoding/util/UnicodeBOMEncodingDetector.java
+	     org/eclipse/wst/sse/core/internal/exceptions/CharConversionErrorWithDetail.java
+	     org/eclipse/wst/sse/core/internal/exceptions/MalformedInputExceptionWithDetail.java
+	     org/eclipse/wst/sse/core/internal/exceptions/MalformedOutputExceptionWithDetail.java
+	     org/eclipse/wst/sse/core/internal/exceptions/UnsupportedCharsetExceptionWithDetail.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.sse.core.jar" path="org.eclipse.wst.sse.core/src-encoding"/>
+	<!-- org/eclipse/wst/sse/core/internal/provisional/tasks/IFileTaskScanner.java
+	     org/eclipse/wst/sse/core/internal/provisional/tasks/TaskTag.java
+	     org/eclipse/wst/sse/core/internal/tasks/FileTaskScannerRegistryReader.java
+	     org/eclipse/wst/sse/core/internal/tasks/StructuredFileTaskScanner.java
+	     org/eclipse/wst/sse/core/internal/tasks/TaskScanningScheduler.java
+	     org/eclipse/wst/sse/core/internal/tasks/TaskTagPreferenceKeys.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.sse.core.jar" path="org.eclipse.wst.sse.core/src-tasktags"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.core.filebuffers"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.uriresolver"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.validation"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.platform.text-org.eclipse.text"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

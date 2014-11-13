@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="common/|loggers/|remote/|src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ant.launching.jar" path="org.eclipse.ant.launching"/>
-	<!-- org\eclipse\ant\internal\launching\debug\AntDebugState.java
-	     org\eclipse\ant\internal\launching\debug\IDebugBuildLogger.java -->
+	<!-- org/eclipse/ant/internal/launching/debug/AntDebugState.java
+	     org/eclipse/ant/internal/launching/debug/IDebugBuildLogger.java -->
 	<classpathentry including="org/eclipse/ant/internal/launching/debug/*" kind="src" output="bin/2/plugins/org.eclipse.ant.launching.jar/lib/antdebug.jar" path="org.eclipse.ant.launching/common"/>
-	<!-- org\eclipse\ant\internal\launching\runtime\logger\AntProcessBuildLogger.java
-	     org\eclipse\ant\internal\launching\runtime\logger\AntProcessDebugBuildLogger.java
-	     org\eclipse\ant\internal\launching\runtime\logger\NullBuildLogger.java
-	     org\eclipse\ant\internal\launching\runtime\logger\RuntimeMessages.java
-	     org\eclipse\ant\internal\launching\runtime\logger\RuntimeMessages.properties -->
-	<classpathentry including="org/eclipse/ant/internal/launching/runtime/logger/*" kind="src" output="bin/3/plugins/org.eclipse.ant.launching.jar/lib/loggers.jar" path="org.eclipse.ant.launching/loggers"/>
-	<!-- org\eclipse\ant\internal\launching\remote\AntSecurityException.java
-	     org\eclipse\ant\internal\launching\remote\AntSecurityManager.java
-	     org\eclipse\ant\internal\launching\remote\EclipseDefaultExecutor.java
-	     org\eclipse\ant\internal\launching\remote\EclipseSingleCheckExecutor.java
-	     org\eclipse\ant\internal\launching\remote\ExecutorSetter.java
-	     org\eclipse\ant\internal\launching\remote\inputhandler\FailInputHandler.java
-	     org\eclipse\ant\internal\launching\remote\InternalAntRunner.java
-	     org\eclipse\ant\internal\launching\remote\logger\MessageIds.java
-	     org\eclipse\ant\internal\launching\remote\logger\RemoteAntBreakpoint.java
-	     org\eclipse\ant\internal\launching\remote\logger\RemoteAntBuildLogger.java
-	     org\eclipse\ant\internal\launching\remote\logger\RemoteAntDebugBuildLogger.java
-	     org\eclipse\ant\internal\launching\remote\RemoteAntMessages.java
-	     org\eclipse\ant\internal\launching\remote\RemoteAntMessages.properties -->
-	<classpathentry including="org/eclipse/ant/internal/launching/remote/*|org/eclipse/ant/internal/launching/remote/inputhandler/*|org/eclipse/ant/internal/launching/remote/logger/*" kind="src" output="bin/4/plugins/org.eclipse.ant.launching.jar/lib/remote.jar" path="org.eclipse.ant.launching/remote"/>
-	<!-- org\eclipse\ant\internal\launching\AntCoreModelMessages.java
-	     org\eclipse\ant\internal\launching\AntCoreModelMessages.properties
-	     org\eclipse\ant\internal\launching\AntLaunch.java
-	     org\eclipse\ant\internal\launching\AntLaunching.java
-	     org\eclipse\ant\internal\launching\AntLaunchingPreferenceInitializer.java
-	     org\eclipse\ant\internal\launching\AntLaunchingUtil.java
-	     org\eclipse\ant\internal\launching\debug\AntDebugMessages.java
-	     org\eclipse\ant\internal\launching\debug\AntDebugMessages.properties
-	     org\eclipse\ant\internal\launching\debug\AntSourceContainer.java
-	     org\eclipse\ant\internal\launching\debug\AntSourceLookupDirector.java
-	     org\eclipse\ant\internal\launching\debug\AntSourceLookupParticipant.java
-	     org\eclipse\ant\internal\launching\debug\AntSourcePathComputerDelegate.java
-	     org\eclipse\ant\internal\launching\debug\IAntDebugConstants.java
-	     org\eclipse\ant\internal\launching\debug\IAntDebugController.java
-	     org\eclipse\ant\internal\launching\debug\model\AntDebugElement.java
-	     org\eclipse\ant\internal\launching\debug\model\AntDebugTarget.java
-	     org\eclipse\ant\internal\launching\debug\model\AntLineBreakpoint.java
-	     org\eclipse\ant\internal\launching\debug\model\AntProperties.java
-	     org\eclipse\ant\internal\launching\debug\model\AntPropertiesValue.java
-	     org\eclipse\ant\internal\launching\debug\model\AntProperty.java
-	     org\eclipse\ant\internal\launching\debug\model\AntStackFrame.java
-	     org\eclipse\ant\internal\launching\debug\model\AntThread.java
-	     org\eclipse\ant\internal\launching\debug\model\AntValue.java
-	     org\eclipse\ant\internal\launching\debug\model\DebugMessageIds.java
-	     org\eclipse\ant\internal\launching\debug\model\DebugModelMessages.java
-	     org\eclipse\ant\internal\launching\debug\model\DebugModelMessages.properties
-	     org\eclipse\ant\internal\launching\debug\model\RemoteAntDebugBuildListener.java
-	     org\eclipse\ant\internal\launching\IAntLaunchingPreferenceConstants.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\AntClasspathProvider.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\AntHomeClasspathEntry.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\AntJavaLaunchDelegate.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\AntLaunchConfigurationMessages.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\AntLaunchConfigurationMessages.properties
-	     org\eclipse\ant\internal\launching\launchConfigurations\AntLaunchDelegate.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\AntMigrationDelegate.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\AntProcess.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\AntStreamMonitor.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\AntStreamsProxy.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\ContributedClasspathEntriesEntry.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\MessageIds.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\RemoteAntBuildListener.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\RemoteAntProcessFactory.java
-	     org\eclipse\ant\internal\launching\launchConfigurations\RemoteAntRuntimeProcess.java
-	     org\eclipse\ant\internal\launching\LinkDescriptor.java
-	     org\eclipse\ant\launching\IAntLaunchConstants.java -->
+	<!-- org/eclipse/ant/internal/launching/runtime/logger/AntProcessBuildLogger.java
+	     org/eclipse/ant/internal/launching/runtime/logger/AntProcessDebugBuildLogger.java
+	     org/eclipse/ant/internal/launching/runtime/logger/NullBuildLogger.java
+	     org/eclipse/ant/internal/launching/runtime/logger/RuntimeMessages.java
+	     org/eclipse/ant/internal/launching/runtime/logger/RuntimeMessages.properties -->
+	<classpathentry including="org/eclipse/ant/internal/launching/runtime/logger/*" kind="src" output="bin/2/plugins/org.eclipse.ant.launching.jar/lib/loggers.jar" path="org.eclipse.ant.launching/loggers"/>
+	<!-- org/eclipse/ant/internal/launching/remote/AntSecurityException.java
+	     org/eclipse/ant/internal/launching/remote/AntSecurityManager.java
+	     org/eclipse/ant/internal/launching/remote/EclipseDefaultExecutor.java
+	     org/eclipse/ant/internal/launching/remote/EclipseSingleCheckExecutor.java
+	     org/eclipse/ant/internal/launching/remote/ExecutorSetter.java
+	     org/eclipse/ant/internal/launching/remote/inputhandler/FailInputHandler.java
+	     org/eclipse/ant/internal/launching/remote/InternalAntRunner.java
+	     org/eclipse/ant/internal/launching/remote/logger/MessageIds.java
+	     org/eclipse/ant/internal/launching/remote/logger/RemoteAntBreakpoint.java
+	     org/eclipse/ant/internal/launching/remote/logger/RemoteAntBuildLogger.java
+	     org/eclipse/ant/internal/launching/remote/logger/RemoteAntDebugBuildLogger.java
+	     org/eclipse/ant/internal/launching/remote/RemoteAntMessages.java
+	     org/eclipse/ant/internal/launching/remote/RemoteAntMessages.properties -->
+	<classpathentry including="org/eclipse/ant/internal/launching/remote/*|org/eclipse/ant/internal/launching/remote/inputhandler/*|org/eclipse/ant/internal/launching/remote/logger/*" kind="src" output="bin/2/plugins/org.eclipse.ant.launching.jar/lib/remote.jar" path="org.eclipse.ant.launching/remote"/>
+	<!-- org/eclipse/ant/internal/launching/AntCoreModelMessages.java
+	     org/eclipse/ant/internal/launching/AntCoreModelMessages.properties
+	     org/eclipse/ant/internal/launching/AntLaunch.java
+	     org/eclipse/ant/internal/launching/AntLaunching.java
+	     org/eclipse/ant/internal/launching/AntLaunchingPreferenceInitializer.java
+	     org/eclipse/ant/internal/launching/AntLaunchingUtil.java
+	     org/eclipse/ant/internal/launching/debug/AntDebugMessages.java
+	     org/eclipse/ant/internal/launching/debug/AntDebugMessages.properties
+	     org/eclipse/ant/internal/launching/debug/AntSourceContainer.java
+	     org/eclipse/ant/internal/launching/debug/AntSourceLookupDirector.java
+	     org/eclipse/ant/internal/launching/debug/AntSourceLookupParticipant.java
+	     org/eclipse/ant/internal/launching/debug/AntSourcePathComputerDelegate.java
+	     org/eclipse/ant/internal/launching/debug/IAntDebugConstants.java
+	     org/eclipse/ant/internal/launching/debug/IAntDebugController.java
+	     org/eclipse/ant/internal/launching/debug/model/AntDebugElement.java
+	     org/eclipse/ant/internal/launching/debug/model/AntDebugTarget.java
+	     org/eclipse/ant/internal/launching/debug/model/AntLineBreakpoint.java
+	     org/eclipse/ant/internal/launching/debug/model/AntProperties.java
+	     org/eclipse/ant/internal/launching/debug/model/AntPropertiesValue.java
+	     org/eclipse/ant/internal/launching/debug/model/AntProperty.java
+	     org/eclipse/ant/internal/launching/debug/model/AntStackFrame.java
+	     org/eclipse/ant/internal/launching/debug/model/AntThread.java
+	     org/eclipse/ant/internal/launching/debug/model/AntValue.java
+	     org/eclipse/ant/internal/launching/debug/model/DebugMessageIds.java
+	     org/eclipse/ant/internal/launching/debug/model/DebugModelMessages.java
+	     org/eclipse/ant/internal/launching/debug/model/DebugModelMessages.properties
+	     org/eclipse/ant/internal/launching/debug/model/RemoteAntDebugBuildListener.java
+	     org/eclipse/ant/internal/launching/IAntLaunchingPreferenceConstants.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/AntClasspathProvider.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/AntHomeClasspathEntry.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/AntJavaLaunchDelegate.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/AntLaunchConfigurationMessages.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/AntLaunchConfigurationMessages.properties
+	     org/eclipse/ant/internal/launching/launchConfigurations/AntLaunchDelegate.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/AntMigrationDelegate.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/AntProcess.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/AntStreamMonitor.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/AntStreamsProxy.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/ContributedClasspathEntriesEntry.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/MessageIds.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/RemoteAntBuildListener.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/RemoteAntProcessFactory.java
+	     org/eclipse/ant/internal/launching/launchConfigurations/RemoteAntRuntimeProcess.java
+	     org/eclipse/ant/internal/launching/LinkDescriptor.java
+	     org/eclipse/ant/launching/IAntLaunchConstants.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ant.launching.jar" path="org.eclipse.ant.launching/src"/>
-	<!-- lib\antdebug.jar\META-INF\MANIFEST.MF
-	     lib\loggers.jar\META-INF\MANIFEST.MF
-	     lib\remote.jar\META-INF\MANIFEST.MF -->
+	<!-- lib/antdebug.jar/META-INF/MANIFEST.MF
+	     lib/loggers.jar/META-INF/MANIFEST.MF
+	     lib/remote.jar/META-INF/MANIFEST.MF -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ant.launching.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>

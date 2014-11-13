@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\eclipse\jetty\continuation\Continuation.java
-	     org\eclipse\jetty\continuation\ContinuationFilter.java
-	     org\eclipse\jetty\continuation\ContinuationListener.java
-	     org\eclipse\jetty\continuation\ContinuationSupport.java
-	     org\eclipse\jetty\continuation\ContinuationThrowable.java
-	     org\eclipse\jetty\continuation\Servlet3Continuation.java -->
+	<!-- org/eclipse/jetty/continuation/Continuation.java
+	     org/eclipse/jetty/continuation/ContinuationFilter.java
+	     org/eclipse/jetty/continuation/ContinuationListener.java
+	     org/eclipse/jetty/continuation/ContinuationSupport.java
+	     org/eclipse/jetty/continuation/ContinuationThrowable.java
+	     org/eclipse/jetty/continuation/Servlet3Continuation.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.continuation.jar" path="jetty-continuation/src/main/java"/>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
-	     META-INF\maven\org.eclipse.jetty\jetty-continuation\pom.properties
-	     META-INF\maven\org.eclipse.jetty\jetty-continuation\pom.xml -->
+	     META-INF/MANIFEST.MF
+	     META-INF/maven/org.eclipse.jetty/jetty-continuation/pom.properties
+	     META-INF/maven/org.eclipse.jetty/jetty-continuation/pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.continuation.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-compile-org.mortbay.jetty.util"/>

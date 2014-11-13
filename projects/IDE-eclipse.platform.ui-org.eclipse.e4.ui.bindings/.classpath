@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
-	     OSGI-INF\bindings.xml
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/bindings.xml
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.bindings.jar" path="org.eclipse.e4.ui.bindings"/>
-	<!-- org\eclipse\e4\ui\bindings\BindingServiceAddon.java
-	     org\eclipse\e4\ui\bindings\EBindingService.java
-	     org\eclipse\e4\ui\bindings\internal\BindingServiceCreationFunction.java
-	     org\eclipse\e4\ui\bindings\internal\BindingServiceImpl.java
-	     org\eclipse\e4\ui\bindings\internal\BindingTable.java
-	     org\eclipse\e4\ui\bindings\internal\BindingTableManager.java
-	     org\eclipse\e4\ui\bindings\internal\ContextSet.java
-	     org\eclipse\e4\ui\bindings\internal\KeyAssistDialog.java
-	     org\eclipse\e4\ui\bindings\internal\Util.java
-	     org\eclipse\e4\ui\bindings\keys\KeyBindingDispatcher.java -->
+	<!-- org/eclipse/e4/ui/bindings/BindingServiceAddon.java
+	     org/eclipse/e4/ui/bindings/EBindingService.java
+	     org/eclipse/e4/ui/bindings/internal/BindingServiceCreationFunction.java
+	     org/eclipse/e4/ui/bindings/internal/BindingServiceImpl.java
+	     org/eclipse/e4/ui/bindings/internal/BindingTable.java
+	     org/eclipse/e4/ui/bindings/internal/BindingTableManager.java
+	     org/eclipse/e4/ui/bindings/internal/ContextSet.java
+	     org/eclipse/e4/ui/bindings/internal/KeyAssistDialog.java
+	     org/eclipse/e4/ui/bindings/internal/Util.java
+	     org/eclipse/e4/ui/bindings/keys/KeyBindingDispatcher.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.ui.bindings.jar" path="org.eclipse.e4.ui.bindings/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.annotation"/>

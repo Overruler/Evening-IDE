@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|src-contentmodel/|src-validation/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.xsd.core.jar" path="org.eclipse.wst.xsd.core"/>
+	<!-- org/eclipse/wst/xsd/core/internal/preferences/XSDCorePreferenceInitializer.java
+	     org/eclipse/wst/xsd/core/internal/preferences/XSDCorePreferenceNames.java
+	     org/eclipse/wst/xsd/core/internal/XSDCorePlugin.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xsd.core.jar" path="org.eclipse.wst.xsd.core/src"/>
+	<!-- org/eclipse/wst/xsd/contentmodel/internal/CMDocumentFactoryXSD.java
+	     org/eclipse/wst/xsd/contentmodel/internal/CMNodeImpl.java
+	     org/eclipse/wst/xsd/contentmodel/internal/util/XSDSchemaLocatorAdapterFactory.java
+	     org/eclipse/wst/xsd/contentmodel/internal/util/XSDSchemaLocatorImpl.java
+	     org/eclipse/wst/xsd/contentmodel/internal/XSDCMManager.java
+	     org/eclipse/wst/xsd/contentmodel/internal/XSDImpl.java
+	     org/eclipse/wst/xsd/contentmodel/internal/XSDTypeUtil.java
+	     org/eclipse/wst/xsd/contentmodel/internal/XSDVisitor.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xsd.core.jar" path="org.eclipse.wst.xsd.core/src-contentmodel"/>
+	<!-- org/eclipse/wst/xsd/core/internal/validation/eclipse/Validator.java
+	     org/eclipse/wst/xsd/core/internal/validation/eclipse/XSDDelegatingValidator.java
+	     org/eclipse/wst/xsd/core/internal/validation/eclipse/XSDMessageInfoHelper.java
+	     org/eclipse/wst/xsd/core/internal/validation/eclipse/XSDValidator.java
+	     org/eclipse/wst/xsd/core/internal/validation/XSDValidationConfiguration.java
+	     org/eclipse/wst/xsd/core/internal/validation/XSDValidator.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xsd.core.jar" path="org.eclipse.wst.xsd.core/src-validation"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.uriresolver"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.validation"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xml.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.xsd-org.eclipse.xsd"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

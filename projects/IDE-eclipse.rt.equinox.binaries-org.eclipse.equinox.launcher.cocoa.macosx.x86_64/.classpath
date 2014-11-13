@@ -2,7 +2,7 @@
 <classpath>
 	<!-- about.html
 	     launcher.cocoa.macosx.x86_64.properties
-	     META-INF\MANIFEST.MF -->
+	     META-INF/MANIFEST.MF -->
 	<classpathentry including="META-INF/*|about.html|launcher.cocoa.macosx.x86_64.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.launcher.cocoa.macosx.x86_64" path="bundles/org.eclipse.equinox.launcher.cocoa.macosx.x86_64"/>
 	<!-- eclipse_####.so -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.launcher.cocoa.macosx.x86_64" path="eclipse.rt.equinox.binaries/org.eclipse.equinox.launcher.cocoa.macosx.x86_64"/>

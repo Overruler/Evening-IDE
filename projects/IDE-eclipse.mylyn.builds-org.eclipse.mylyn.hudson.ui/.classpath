@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/obj16/hudson.png
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/obj16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.hudson.ui.jar" path="org.eclipse.mylyn.hudson.ui"/>
+	<!-- org/eclipse/mylyn/internal/hudson/ui/HudsonConnectorUi.java
+	     org/eclipse/mylyn/internal/hudson/ui/HudsonDiscovery.java
+	     org/eclipse/mylyn/internal/hudson/ui/HudsonStartup.java
+	     org/eclipse/mylyn/internal/hudson/ui/HudsonUiPlugin.java
+	     org/eclipse/mylyn/internal/hudson/ui/Messages.java
+	     org/eclipse/mylyn/internal/hudson/ui/messages.properties
+	     org/eclipse/mylyn/internal/hudson/ui/NewHudsonServerWizard.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.hudson.ui.jar" path="org.eclipse.mylyn.hudson.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.ecf-org.eclipse.ecf"/>
+	<classpathentry kind="src" path="/IDE-compile-eclipse.ecf"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.builds.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.builds.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.hudson.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.runtime.jar" path="org.eclipse.jdt.junit.runtime"/>
-	<!-- org\eclipse\jdt\internal\junit\runner\AbstractTestLoader.java
-	     org\eclipse\jdt\internal\junit\runner\CustomHashtable.java
-	     org\eclipse\jdt\internal\junit\runner\DefaultClassifier.java
-	     org\eclipse\jdt\internal\junit\runner\FailedComparison.java
-	     org\eclipse\jdt\internal\junit\runner\FailuresFirstPrioritizer.java
-	     org\eclipse\jdt\internal\junit\runner\FirstRunExecutionListener.java
-	     org\eclipse\jdt\internal\junit\runner\IClassifiesThrowables.java
-	     org\eclipse\jdt\internal\junit\runner\IElementComparer.java
-	     org\eclipse\jdt\internal\junit\runner\IListensToTestExecutions.java
-	     org\eclipse\jdt\internal\junit\runner\IStopListener.java
-	     org\eclipse\jdt\internal\junit\runner\ITestIdentifier.java
-	     org\eclipse\jdt\internal\junit\runner\ITestLoader.java
-	     org\eclipse\jdt\internal\junit\runner\ITestPrioritizer.java
-	     org\eclipse\jdt\internal\junit\runner\ITestReference.java
-	     org\eclipse\jdt\internal\junit\runner\ITestRunner.java
-	     org\eclipse\jdt\internal\junit\runner\IVisitsTestTrees.java
-	     org\eclipse\jdt\internal\junit\runner\junit3\JUnit3Listener.java
-	     org\eclipse\jdt\internal\junit\runner\junit3\JUnit3TestLoader.java
-	     org\eclipse\jdt\internal\junit\runner\junit3\JUnit3TestReference.java
-	     org\eclipse\jdt\internal\junit\runner\JUnitMessages.java
-	     org\eclipse\jdt\internal\junit\runner\JUnitMessages.properties
-	     org\eclipse\jdt\internal\junit\runner\MessageIds.java
-	     org\eclipse\jdt\internal\junit\runner\MessageSender.java
-	     org\eclipse\jdt\internal\junit\runner\NullPrioritizer.java
-	     org\eclipse\jdt\internal\junit\runner\RemoteTestRunner.java
-	     org\eclipse\jdt\internal\junit\runner\RerunExecutionListener.java
-	     org\eclipse\jdt\internal\junit\runner\TestExecution.java
-	     org\eclipse\jdt\internal\junit\runner\TestIdMap.java
-	     org\eclipse\jdt\internal\junit\runner\TestReferenceFailure.java -->
+	<!-- org/eclipse/jdt/internal/junit/runner/AbstractTestLoader.java
+	     org/eclipse/jdt/internal/junit/runner/CustomHashtable.java
+	     org/eclipse/jdt/internal/junit/runner/DefaultClassifier.java
+	     org/eclipse/jdt/internal/junit/runner/FailedComparison.java
+	     org/eclipse/jdt/internal/junit/runner/FailuresFirstPrioritizer.java
+	     org/eclipse/jdt/internal/junit/runner/FirstRunExecutionListener.java
+	     org/eclipse/jdt/internal/junit/runner/IClassifiesThrowables.java
+	     org/eclipse/jdt/internal/junit/runner/IElementComparer.java
+	     org/eclipse/jdt/internal/junit/runner/IListensToTestExecutions.java
+	     org/eclipse/jdt/internal/junit/runner/IStopListener.java
+	     org/eclipse/jdt/internal/junit/runner/ITestIdentifier.java
+	     org/eclipse/jdt/internal/junit/runner/ITestLoader.java
+	     org/eclipse/jdt/internal/junit/runner/ITestPrioritizer.java
+	     org/eclipse/jdt/internal/junit/runner/ITestReference.java
+	     org/eclipse/jdt/internal/junit/runner/ITestRunner.java
+	     org/eclipse/jdt/internal/junit/runner/IVisitsTestTrees.java
+	     org/eclipse/jdt/internal/junit/runner/junit3/JUnit3Listener.java
+	     org/eclipse/jdt/internal/junit/runner/junit3/JUnit3TestLoader.java
+	     org/eclipse/jdt/internal/junit/runner/junit3/JUnit3TestReference.java
+	     org/eclipse/jdt/internal/junit/runner/JUnitMessages.java
+	     org/eclipse/jdt/internal/junit/runner/JUnitMessages.properties
+	     org/eclipse/jdt/internal/junit/runner/MessageIds.java
+	     org/eclipse/jdt/internal/junit/runner/MessageSender.java
+	     org/eclipse/jdt/internal/junit/runner/NullPrioritizer.java
+	     org/eclipse/jdt/internal/junit/runner/RemoteTestRunner.java
+	     org/eclipse/jdt/internal/junit/runner/RerunExecutionListener.java
+	     org/eclipse/jdt/internal/junit/runner/TestExecution.java
+	     org/eclipse/jdt/internal/junit/runner/TestIdMap.java
+	     org/eclipse/jdt/internal/junit/runner/TestReferenceFailure.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.junit.runtime.jar" path="org.eclipse.jdt.junit.runtime/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-org.junit"/>

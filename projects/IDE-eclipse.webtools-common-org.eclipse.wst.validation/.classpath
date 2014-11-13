@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     xsds/exclude.exsd
+	     xsds/referencialFileExtSchema.exsd
+	     xsds/removeV2Validator.exsd
+	     xsds/validationHelper.exsd
+	     xsds/validationSelectionHandler.exsd
+	     xsds/validator.exsd
+	     xsds/validatorDelegates.exsd
+	     xsds/validatorExtSchema.exsd
+	     xsds/validatorgroup.exsd -->
+	<classpathentry excluding="property_files/|validate/|validate_core/|vf2/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml|xsds/*" kind="src" output="bin/1/plugins/org.eclipse.wst.validation.jar" path="org.eclipse.wst.validation"/>
+	<!-- org/eclipse/wst/validation/internal/messages.properties
+	     validate_base.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.validation.jar" path="org.eclipse.wst.validation/property_files"/>
+	<!-- org/eclipse/wst/validation/internal/ConfigurationConstants.java
+	     org/eclipse/wst/validation/internal/ConfigurationManager.java
+	     org/eclipse/wst/validation/internal/delegates/DelegatingValidator.java
+	     org/eclipse/wst/validation/internal/delegates/IDelegatingValidator.java
+	     org/eclipse/wst/validation/internal/delegates/ValidatorDelegateDescriptor.java
+	     org/eclipse/wst/validation/internal/delegates/ValidatorDelegatesRegistry.java
+	     org/eclipse/wst/validation/internal/EventManager.java
+	     org/eclipse/wst/validation/internal/FilterUtil.java
+	     org/eclipse/wst/validation/internal/GlobalConfiguration.java
+	     org/eclipse/wst/validation/internal/InternalValidatorManager.java
+	     org/eclipse/wst/validation/internal/IProjectValidationHelper.java
+	     org/eclipse/wst/validation/internal/IValidationSelectionHandler.java
+	     org/eclipse/wst/validation/internal/operations/AllValidatorsOperation.java
+	     org/eclipse/wst/validation/internal/operations/DefaultResourceUtil.java
+	     org/eclipse/wst/validation/internal/operations/EnabledIncrementalValidatorsOperation.java
+	     org/eclipse/wst/validation/internal/operations/EnabledValidatorsOperation.java
+	     org/eclipse/wst/validation/internal/operations/IResourceUtil.java
+	     org/eclipse/wst/validation/internal/operations/IRuleGroup.java
+	     org/eclipse/wst/validation/internal/operations/IWorkbenchContext.java
+	     org/eclipse/wst/validation/internal/operations/LocalizedMessage.java
+	     org/eclipse/wst/validation/internal/operations/ManualIncrementalValidatorsOperation.java
+	     org/eclipse/wst/validation/internal/operations/ManualValidatorsOperation.java
+	     org/eclipse/wst/validation/internal/operations/MessageInfo.java
+	     org/eclipse/wst/validation/internal/operations/OneValidatorOperation.java
+	     org/eclipse/wst/validation/internal/operations/ReferencialFileValidator.java
+	     org/eclipse/wst/validation/internal/operations/ReferencialFileValidatorHelper.java
+	     org/eclipse/wst/validation/internal/operations/ResourceHandler.java
+	     org/eclipse/wst/validation/internal/operations/TaskListHelper.java
+	     org/eclipse/wst/validation/internal/operations/ValidationBuilder.java
+	     org/eclipse/wst/validation/internal/operations/ValidationConstants.java
+	     org/eclipse/wst/validation/internal/operations/ValidationOperation.java
+	     org/eclipse/wst/validation/internal/operations/ValidationUtility.java
+	     org/eclipse/wst/validation/internal/operations/ValidatorJob.java
+	     org/eclipse/wst/validation/internal/operations/ValidatorManager.java
+	     org/eclipse/wst/validation/internal/operations/ValidatorSubsetOperation.java
+	     org/eclipse/wst/validation/internal/operations/WorkbenchContext.java
+	     org/eclipse/wst/validation/internal/operations/WorkbenchFileDelta.java
+	     org/eclipse/wst/validation/internal/operations/WorkbenchReporter.java
+	     org/eclipse/wst/validation/internal/plugin/ValidationHelperRegistryReader.java
+	     org/eclipse/wst/validation/internal/plugin/ValidationPlugin.java
+	     org/eclipse/wst/validation/internal/ProjectConfiguration.java
+	     org/eclipse/wst/validation/internal/provisional/ValidationFactory.java
+	     org/eclipse/wst/validation/internal/ReferencialFileValidatorExtension.java
+	     org/eclipse/wst/validation/internal/ReferencialFileValidatorRegistryReader.java
+	     org/eclipse/wst/validation/internal/RegistryConstants.java
+	     org/eclipse/wst/validation/internal/ResourceConstants.java
+	     org/eclipse/wst/validation/internal/ResourceHandler.java
+	     org/eclipse/wst/validation/internal/TaskListUtility.java
+	     org/eclipse/wst/validation/internal/ValidationConfiguration.java
+	     org/eclipse/wst/validation/internal/ValidationFactoryImpl.java
+	     org/eclipse/wst/validation/internal/ValidationRegistryReader.java
+	     org/eclipse/wst/validation/internal/ValidationSelectionHandlerRegistryReader.java
+	     org/eclipse/wst/validation/internal/ValidatorActionFilter.java
+	     org/eclipse/wst/validation/internal/ValidatorFilter.java
+	     org/eclipse/wst/validation/internal/ValidatorMetaData.java
+	     org/eclipse/wst/validation/internal/ValidatorNameFilter.java
+	     org/eclipse/wst/validation/internal/ValidatorTypeFilter.java
+	     org/eclipse/wst/validation/internal/VThreadManager.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.validation.jar" path="org.eclipse.wst.validation/validate"/>
+	<!-- org/eclipse/wst/validation/internal/core/EmptySchedulingRule.java
+	     org/eclipse/wst/validation/internal/core/FileDelta.java
+	     org/eclipse/wst/validation/internal/core/IFileDelta.java
+	     org/eclipse/wst/validation/internal/core/IMessageAccess.java
+	     org/eclipse/wst/validation/internal/core/Message.java
+	     org/eclipse/wst/validation/internal/core/MessageFilter.java
+	     org/eclipse/wst/validation/internal/core/ValidationException.java
+	     org/eclipse/wst/validation/internal/core/ValidatorLauncher.java
+	     org/eclipse/wst/validation/internal/provisional/core/IMessage.java
+	     org/eclipse/wst/validation/internal/provisional/core/IMetaModelContext.java
+	     org/eclipse/wst/validation/internal/provisional/core/IProjectValidationContext.java
+	     org/eclipse/wst/validation/internal/provisional/core/IReporter.java
+	     org/eclipse/wst/validation/internal/provisional/core/IValidationContext.java
+	     org/eclipse/wst/validation/internal/provisional/core/IValidator.java
+	     org/eclipse/wst/validation/internal/provisional/core/IValidatorExtender.java
+	     org/eclipse/wst/validation/internal/provisional/core/IValidatorJob.java
+	     org/eclipse/wst/validation/internal/provisional/core/MessageLimitException.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.validation.jar" path="org.eclipse.wst.validation/validate_core"/>
+	<!-- org/eclipse/wst/validation/AbstractValidator.java
+	     org/eclipse/wst/validation/DependentResource.java
+	     org/eclipse/wst/validation/doc-files/faq.html
+	     org/eclipse/wst/validation/Friend.java
+	     org/eclipse/wst/validation/IDependencyIndex.java
+	     org/eclipse/wst/validation/IMutableValidator.java
+	     org/eclipse/wst/validation/internal/ContentTypeWrapper.java
+	     org/eclipse/wst/validation/internal/DebugConstants.java
+	     org/eclipse/wst/validation/internal/DependencyIndex.java
+	     org/eclipse/wst/validation/internal/Deserializer.java
+	     org/eclipse/wst/validation/internal/DisabledResourceManager.java
+	     org/eclipse/wst/validation/internal/DisabledValidatorManager.java
+	     org/eclipse/wst/validation/internal/ExtensionConstants.java
+	     org/eclipse/wst/validation/internal/ExtensionValidators.java
+	     org/eclipse/wst/validation/internal/FullBuildJob.java
+	     org/eclipse/wst/validation/internal/IProjectChangeListener.java
+	     org/eclipse/wst/validation/internal/IValChangedListener.java
+	     org/eclipse/wst/validation/internal/MarkerManager.java
+	     org/eclipse/wst/validation/internal/Misc.java
+	     org/eclipse/wst/validation/internal/model/FilterGroup.java
+	     org/eclipse/wst/validation/internal/model/FilterRule.java
+	     org/eclipse/wst/validation/internal/model/GlobalPreferences.java
+	     org/eclipse/wst/validation/internal/model/GlobalPreferencesValues.java
+	     org/eclipse/wst/validation/internal/model/IValidatorVisitor.java
+	     org/eclipse/wst/validation/internal/model/ProjectPreferences.java
+	     org/eclipse/wst/validation/internal/model/ValidatorHelper.java
+	     org/eclipse/wst/validation/internal/NullValidator.java
+	     org/eclipse/wst/validation/internal/PerformanceMonitor.java
+	     org/eclipse/wst/validation/internal/PrefConstants.java
+	     org/eclipse/wst/validation/internal/PreferencesWrapper.java
+	     org/eclipse/wst/validation/internal/ProjectUnavailableError.java
+	     org/eclipse/wst/validation/internal/ResourceUnavailableError.java
+	     org/eclipse/wst/validation/internal/Serializer.java
+	     org/eclipse/wst/validation/internal/SummaryReporter.java
+	     org/eclipse/wst/validation/internal/Tracing.java
+	     org/eclipse/wst/validation/internal/ValBuilderJob.java
+	     org/eclipse/wst/validation/internal/ValConstants.java
+	     org/eclipse/wst/validation/internal/ValidationResultSummary.java
+	     org/eclipse/wst/validation/internal/ValidationRunner.java
+	     org/eclipse/wst/validation/internal/ValidatorExtensionReader.java
+	     org/eclipse/wst/validation/internal/ValidatorGroupExtensionReader.java
+	     org/eclipse/wst/validation/internal/ValidatorMutable.java
+	     org/eclipse/wst/validation/internal/ValManager.java
+	     org/eclipse/wst/validation/internal/ValMessages.java
+	     org/eclipse/wst/validation/internal/ValOperation.java
+	     org/eclipse/wst/validation/internal/ValPrefManagerGlobal.java
+	     org/eclipse/wst/validation/internal/ValPrefManagerProject.java
+	     org/eclipse/wst/validation/internal/ValProperty.java
+	     org/eclipse/wst/validation/internal/ValType.java
+	     org/eclipse/wst/validation/IPerformanceMonitor.java
+	     org/eclipse/wst/validation/IValidatorGroupListener.java
+	     org/eclipse/wst/validation/MessageSeveritySetting.java
+	     org/eclipse/wst/validation/MutableProjectSettings.java
+	     org/eclipse/wst/validation/MutableWorkspaceSettings.java
+	     org/eclipse/wst/validation/PerformanceCounters.java
+	     org/eclipse/wst/validation/ReporterHelper.java
+	     org/eclipse/wst/validation/ValidationEvent.java
+	     org/eclipse/wst/validation/ValidationFramework.java
+	     org/eclipse/wst/validation/ValidationResult.java
+	     org/eclipse/wst/validation/ValidationResults.java
+	     org/eclipse/wst/validation/ValidationState.java
+	     org/eclipse/wst/validation/Validator.java
+	     org/eclipse/wst/validation/ValidatorMessage.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.validation.jar" path="org.eclipse.wst.validation/vf2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.frameworks"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common.fproj-org.eclipse.wst.common.project.facet.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

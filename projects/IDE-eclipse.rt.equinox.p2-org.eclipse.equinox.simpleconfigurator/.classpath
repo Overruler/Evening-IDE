@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.simpleconfigurator.jar" path="org.eclipse.equinox.simpleconfigurator"/>
-	<!-- org\eclipse\equinox\internal\provisional\configurator\Configurator.java
-	     org\eclipse\equinox\internal\simpleconfigurator\Activator.java
-	     org\eclipse\equinox\internal\simpleconfigurator\console\ApplyCommand.java
-	     org\eclipse\equinox\internal\simpleconfigurator\console\ConfiguratorCommandProvider.java
-	     org\eclipse\equinox\internal\simpleconfigurator\SimpleConfiguratorFactory.java
-	     org\eclipse\equinox\internal\simpleconfigurator\SimpleConfiguratorImpl.java
-	     org\eclipse\equinox\internal\simpleconfigurator\utils\BundleInfo.java
-	     org\eclipse\equinox\internal\simpleconfigurator\utils\EquinoxUtils.java
-	     org\eclipse\equinox\internal\simpleconfigurator\utils\SimpleConfiguratorConstants.java
-	     org\eclipse\equinox\internal\simpleconfigurator\utils\SimpleConfiguratorUtils.java
-	     org\eclipse\equinox\internal\simpleconfigurator\utils\URIUtil.java
-	     org\eclipse\equinox\internal\simpleconfigurator\utils\Utils.java -->
+	<!-- org/eclipse/equinox/internal/provisional/configurator/Configurator.java
+	     org/eclipse/equinox/internal/simpleconfigurator/Activator.java
+	     org/eclipse/equinox/internal/simpleconfigurator/console/ApplyCommand.java
+	     org/eclipse/equinox/internal/simpleconfigurator/console/ConfiguratorCommandProvider.java
+	     org/eclipse/equinox/internal/simpleconfigurator/SimpleConfiguratorFactory.java
+	     org/eclipse/equinox/internal/simpleconfigurator/SimpleConfiguratorImpl.java
+	     org/eclipse/equinox/internal/simpleconfigurator/utils/BundleInfo.java
+	     org/eclipse/equinox/internal/simpleconfigurator/utils/EquinoxUtils.java
+	     org/eclipse/equinox/internal/simpleconfigurator/utils/SimpleConfiguratorConstants.java
+	     org/eclipse/equinox/internal/simpleconfigurator/utils/SimpleConfiguratorUtils.java
+	     org/eclipse/equinox/internal/simpleconfigurator/utils/URIUtil.java
+	     org/eclipse/equinox/internal/simpleconfigurator/utils/Utils.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.simpleconfigurator.jar" path="org.eclipse.equinox.simpleconfigurator/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>

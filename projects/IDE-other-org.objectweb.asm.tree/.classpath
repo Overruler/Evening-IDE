@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\objectweb\asm\tree\AbstractInsnNode.java
-	     org\objectweb\asm\tree\AnnotationNode.java
-	     org\objectweb\asm\tree\ClassNode.java
-	     org\objectweb\asm\tree\FieldInsnNode.java
-	     org\objectweb\asm\tree\FieldNode.java
-	     org\objectweb\asm\tree\FrameNode.java
-	     org\objectweb\asm\tree\IincInsnNode.java
-	     org\objectweb\asm\tree\InnerClassNode.java
-	     org\objectweb\asm\tree\InsnList.java
-	     org\objectweb\asm\tree\InsnNode.java
-	     org\objectweb\asm\tree\IntInsnNode.java
-	     org\objectweb\asm\tree\InvokeDynamicInsnNode.java
-	     org\objectweb\asm\tree\JumpInsnNode.java
-	     org\objectweb\asm\tree\LabelNode.java
-	     org\objectweb\asm\tree\LdcInsnNode.java
-	     org\objectweb\asm\tree\LineNumberNode.java
-	     org\objectweb\asm\tree\LocalVariableAnnotationNode.java
-	     org\objectweb\asm\tree\LocalVariableNode.java
-	     org\objectweb\asm\tree\LookupSwitchInsnNode.java
-	     org\objectweb\asm\tree\MethodInsnNode.java
-	     org\objectweb\asm\tree\MethodNode.java
-	     org\objectweb\asm\tree\MultiANewArrayInsnNode.java
-	     org\objectweb\asm\tree\ParameterNode.java
-	     org\objectweb\asm\tree\TableSwitchInsnNode.java
-	     org\objectweb\asm\tree\TryCatchBlockNode.java
-	     org\objectweb\asm\tree\TypeAnnotationNode.java
-	     org\objectweb\asm\tree\TypeInsnNode.java
-	     org\objectweb\asm\tree\VarInsnNode.java -->
+	<!-- org/objectweb/asm/tree/AbstractInsnNode.java
+	     org/objectweb/asm/tree/AnnotationNode.java
+	     org/objectweb/asm/tree/ClassNode.java
+	     org/objectweb/asm/tree/FieldInsnNode.java
+	     org/objectweb/asm/tree/FieldNode.java
+	     org/objectweb/asm/tree/FrameNode.java
+	     org/objectweb/asm/tree/IincInsnNode.java
+	     org/objectweb/asm/tree/InnerClassNode.java
+	     org/objectweb/asm/tree/InsnList.java
+	     org/objectweb/asm/tree/InsnNode.java
+	     org/objectweb/asm/tree/IntInsnNode.java
+	     org/objectweb/asm/tree/InvokeDynamicInsnNode.java
+	     org/objectweb/asm/tree/JumpInsnNode.java
+	     org/objectweb/asm/tree/LabelNode.java
+	     org/objectweb/asm/tree/LdcInsnNode.java
+	     org/objectweb/asm/tree/LineNumberNode.java
+	     org/objectweb/asm/tree/LocalVariableAnnotationNode.java
+	     org/objectweb/asm/tree/LocalVariableNode.java
+	     org/objectweb/asm/tree/LookupSwitchInsnNode.java
+	     org/objectweb/asm/tree/MethodInsnNode.java
+	     org/objectweb/asm/tree/MethodNode.java
+	     org/objectweb/asm/tree/MultiANewArrayInsnNode.java
+	     org/objectweb/asm/tree/ParameterNode.java
+	     org/objectweb/asm/tree/TableSwitchInsnNode.java
+	     org/objectweb/asm/tree/TryCatchBlockNode.java
+	     org/objectweb/asm/tree/TypeAnnotationNode.java
+	     org/objectweb/asm/tree/TypeInsnNode.java
+	     org/objectweb/asm/tree/VarInsnNode.java -->
 	<classpathentry including="org/objectweb/asm/tree/*" kind="src" output="bin/1/plugins/org.objectweb.asm.tree.jar" path="asm/src"/>
 	<!-- about.html
-	     about_files\LICENSE.txt
-	     about_files\README.txt
-	     META-INF\MANIFEST.MF
+	     about_files/LICENSE.txt
+	     about_files/README.txt
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.objectweb.asm.tree.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

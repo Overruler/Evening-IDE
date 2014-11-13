@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     about_files\LICENSE-2.0.txt
-	     META-INF\MANIFEST.MF
+	     about_files/LICENSE-2.0.txt
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about_files/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.osgi.util.jar" path="org.eclipse.osgi.util"/>
-	<!-- org\osgi\util\measurement\Measurement.java
-	     org\osgi\util\measurement\packageinfo
-	     org\osgi\util\measurement\State.java
-	     org\osgi\util\measurement\Unit.java
-	     org\osgi\util\position\packageinfo
-	     org\osgi\util\position\Position.java
-	     org\osgi\util\xml\packageinfo
-	     org\osgi\util\xml\XMLParserActivator.java -->
+	<!-- org/osgi/util/measurement/Measurement.java
+	     org/osgi/util/measurement/packageinfo
+	     org/osgi/util/measurement/State.java
+	     org/osgi/util/measurement/Unit.java
+	     org/osgi/util/position/packageinfo
+	     org/osgi/util/position/Position.java
+	     org/osgi/util/xml/packageinfo
+	     org/osgi/util/xml/XMLParserActivator.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.osgi.util.jar" path="org.eclipse.osgi.util/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.xml"/>

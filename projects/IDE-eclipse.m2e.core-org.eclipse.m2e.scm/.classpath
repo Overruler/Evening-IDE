@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/import_m2_project.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/scmHandlers.exsd
+	     schema/scmHandlersUi.exsd -->
+	<classpathentry excluding="src/|.*/" including="META-INF/*|about.html|icons/*|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.m2e.scm.jar" path="org.eclipse.m2e.scm"/>
+	<!-- org/eclipse/m2e/scm/internal/actions/CheckoutAsMavenAction.java
+	     org/eclipse/m2e/scm/internal/actions/MaterializeAction.java
+	     org/eclipse/m2e/scm/internal/Messages.java
+	     org/eclipse/m2e/scm/internal/messages.properties
+	     org/eclipse/m2e/scm/internal/ScmHandlerFactory.java
+	     org/eclipse/m2e/scm/internal/wizards/MavenCheckoutLocationPage.java
+	     org/eclipse/m2e/scm/internal/wizards/MavenCheckoutWizard.java
+	     org/eclipse/m2e/scm/internal/wizards/MavenMaterializePomWizard.java
+	     org/eclipse/m2e/scm/internal/wizards/MavenProjectCheckoutJob.java
+	     org/eclipse/m2e/scm/MavenCheckoutOperation.java
+	     org/eclipse/m2e/scm/MavenProjectPomScanner.java
+	     org/eclipse/m2e/scm/MavenProjectScmInfo.java
+	     org/eclipse/m2e/scm/ScmTag.java
+	     org/eclipse/m2e/scm/ScmUrl.java
+	     org/eclipse/m2e/scm/spi/ScmHandler.java
+	     org/eclipse/m2e/scm/spi/ScmHandlerUi.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.scm.jar" path="org.eclipse.m2e.scm/src"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.scm/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.scm/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.scm.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.swt-org.eclipse.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

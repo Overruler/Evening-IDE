@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     doc/book.css
+	     doc/concepts.html
+	     doc/navigation.html
+	     doc/toc.xml
+	     icons/elcl16/edge-ref-xml.gif
+	     icons/elcl16/file-xml.gif
+	     icons/elcl16/focus-disabled.gif
+	     icons/elcl16/focus.gif
+	     icons/elcl16/interest-decrease.gif
+	     icons/elcl16/interest-increase.gif
+	     icons/elcl16/task-repository.gif
+	     icons/etool16/task-repository-new.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|doc/*|icons/elcl16/*|icons/etool16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.ide.ui.jar" path="org.eclipse.mylyn.ide.ui"/>
+	<!-- org/eclipse/mylyn/ide/ui/AbstractFocusMarkerViewAction.java
+	     org/eclipse/mylyn/ide/ui/AbstractMarkerInterestFilter.java
+	     org/eclipse/mylyn/internal/ide/ui/actions/FocusAllMarkersViewAction.java
+	     org/eclipse/mylyn/internal/ide/ui/actions/FocusBookmarkMarkersViewAction.java
+	     org/eclipse/mylyn/internal/ide/ui/actions/FocusProblemsListAction.java
+	     org/eclipse/mylyn/internal/ide/ui/actions/FocusProjectExplorerAction.java
+	     org/eclipse/mylyn/internal/ide/ui/actions/FocusResourceNavigatorAction.java
+	     org/eclipse/mylyn/internal/ide/ui/actions/FocusTaskMarkersViewAction.java
+	     org/eclipse/mylyn/internal/ide/ui/IdeUiBridgePlugin.java
+	     org/eclipse/mylyn/internal/ide/ui/IdeUiUtil.java
+	     org/eclipse/mylyn/internal/ide/ui/MarkerInterestFilter.java
+	     org/eclipse/mylyn/internal/ide/ui/MarkerViewerInterestSorter.java
+	     org/eclipse/mylyn/internal/ide/ui/MarkerViewLabelProvider.java
+	     org/eclipse/mylyn/internal/ide/ui/XmlNodeHelper.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.ide.ui.jar" path="org.eclipse.mylyn.ide.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.resources.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

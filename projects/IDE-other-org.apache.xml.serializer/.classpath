@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/apache/xml/serializer/AttributesImplSerializer.java
+	     org/apache/xml/serializer/DOM3Serializer.java
+	     org/apache/xml/serializer/dom3/DOM3SerializerImpl.java
+	     org/apache/xml/serializer/dom3/LSSerializerImpl.java
+	     org/apache/xml/serializer/dom3/NamespaceSupport.java
+	     org/apache/xml/serializer/DOMSerializer.java
+	     org/apache/xml/serializer/ElemDesc.java
+	     org/apache/xml/serializer/EmptySerializer.java
+	     org/apache/xml/serializer/EncodingInfo.java
+	     org/apache/xml/serializer/Encodings.java
+	     org/apache/xml/serializer/Encodings.properties
+	     org/apache/xml/serializer/ExtendedContentHandler.java
+	     org/apache/xml/serializer/ExtendedLexicalHandler.java
+	     org/apache/xml/serializer/HTMLEntities.properties
+	     org/apache/xml/serializer/Method.java
+	     org/apache/xml/serializer/NamespaceMappings.java
+	     org/apache/xml/serializer/OutputPropertiesFactory.java
+	     org/apache/xml/serializer/OutputPropertyUtils.java
+	     org/apache/xml/serializer/output_html.properties
+	     org/apache/xml/serializer/output_text.properties
+	     org/apache/xml/serializer/output_unknown.properties
+	     org/apache/xml/serializer/output_xml.properties
+	     org/apache/xml/serializer/SerializationHandler.java
+	     org/apache/xml/serializer/Serializer.java
+	     org/apache/xml/serializer/SerializerBase.java
+	     org/apache/xml/serializer/SerializerFactory.java
+	     org/apache/xml/serializer/SerializerTrace.java
+	     org/apache/xml/serializer/ToHTMLSAXHandler.java
+	     org/apache/xml/serializer/ToHTMLStream.java
+	     org/apache/xml/serializer/ToSAXHandler.java
+	     org/apache/xml/serializer/ToStream.java
+	     org/apache/xml/serializer/ToTextSAXHandler.java
+	     org/apache/xml/serializer/ToTextStream.java
+	     org/apache/xml/serializer/ToUnknownStream.java
+	     org/apache/xml/serializer/ToXMLSAXHandler.java
+	     org/apache/xml/serializer/ToXMLStream.java
+	     org/apache/xml/serializer/TransformStateSetter.java
+	     org/apache/xml/serializer/TreeWalker.java
+	     org/apache/xml/serializer/utils/AttList.java
+	     org/apache/xml/serializer/utils/BoolStack.java
+	     org/apache/xml/serializer/utils/DOM2Helper.java
+	     org/apache/xml/serializer/utils/Messages.java
+	     org/apache/xml/serializer/utils/MsgKey.java
+	     org/apache/xml/serializer/utils/SerializerMessages.java
+	     org/apache/xml/serializer/utils/SerializerMessages_ca.java
+	     org/apache/xml/serializer/utils/SerializerMessages_cs.java
+	     org/apache/xml/serializer/utils/SerializerMessages_de.java
+	     org/apache/xml/serializer/utils/SerializerMessages_en.java
+	     org/apache/xml/serializer/utils/SerializerMessages_es.java
+	     org/apache/xml/serializer/utils/SerializerMessages_fr.java
+	     org/apache/xml/serializer/utils/SerializerMessages_hu.java
+	     org/apache/xml/serializer/utils/SerializerMessages_it.java
+	     org/apache/xml/serializer/utils/SerializerMessages_ja.java
+	     org/apache/xml/serializer/utils/SerializerMessages_ko.java
+	     org/apache/xml/serializer/utils/SerializerMessages_pl.java
+	     org/apache/xml/serializer/utils/SerializerMessages_pt_BR.java
+	     org/apache/xml/serializer/utils/SerializerMessages_ru.java
+	     org/apache/xml/serializer/utils/SerializerMessages_sk.java
+	     org/apache/xml/serializer/utils/SerializerMessages_sl.java
+	     org/apache/xml/serializer/utils/SerializerMessages_sv.java
+	     org/apache/xml/serializer/utils/SerializerMessages_tr.java
+	     org/apache/xml/serializer/utils/SerializerMessages_zh.java
+	     org/apache/xml/serializer/utils/SerializerMessages_zh_CN.java
+	     org/apache/xml/serializer/utils/SerializerMessages_zh_TW.java
+	     org/apache/xml/serializer/utils/StringToIntTable.java
+	     org/apache/xml/serializer/utils/SystemIDResolver.java
+	     org/apache/xml/serializer/utils/Utils.java
+	     org/apache/xml/serializer/utils/WrappedRuntimeException.java
+	     org/apache/xml/serializer/utils/XML11Char.java
+	     org/apache/xml/serializer/utils/XMLChar.java
+	     org/apache/xml/serializer/Version.java
+	     org/apache/xml/serializer/XMLEntities.properties -->
+	<classpathentry including="org/apache/xml/serializer/*|org/apache/xml/serializer/dom3/*|org/apache/xml/serializer/utils/*" kind="src" output="bin/1/plugins/org.apache.xml.serializer.jar" path="apache.xalan-j/src"/>
+	<!-- about.html
+	     about_files/LICENSE
+	     about_files/NOTICE
+	     about_files/NOTICE.serializer.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.xml.serializer.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

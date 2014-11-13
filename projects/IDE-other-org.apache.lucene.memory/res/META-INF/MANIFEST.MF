@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %provider.name
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Bundle-Name: %bundle.name
+Bundle-SymbolicName: org.apache.lucene.memory
+Require-Bundle: org.apache.lucene.core;bundle-version="[2.9.1,3.0.0)"
+Bundle-Version: 2.9.4.qualifier
+Export-Package: org.apache.lucene.index.memory;version="2.9.4"
+Bundle-ManifestVersion: 2

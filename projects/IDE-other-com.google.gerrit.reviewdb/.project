@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>IDE-other-com.google.gerrit.reviewdb</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>com.google.gerrit.reviewdb</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/orbit-sources/com.google.gerrit.reviewdb</locationURI>
+		</link>
+		<link>
+			<name>gerrit-extension-api</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/google.gerrit/gerrit-extension-api</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

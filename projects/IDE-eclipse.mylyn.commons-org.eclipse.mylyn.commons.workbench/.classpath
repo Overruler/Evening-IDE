@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/etool16/find.png
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/etool16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.workbench.jar" path="org.eclipse.mylyn.commons.workbench"/>
+	<!-- org/eclipse/mylyn/commons/workbench/AbstractFilteredTree.java
+	     org/eclipse/mylyn/commons/workbench/AbstractWorkbenchNotificationPopup.java
+	     org/eclipse/mylyn/commons/workbench/AdaptiveRefreshPolicy.java
+	     org/eclipse/mylyn/commons/workbench/browser/AbstractUrlHandler.java
+	     org/eclipse/mylyn/commons/workbench/browser/BrowserUtil.java
+	     org/eclipse/mylyn/commons/workbench/browser/UrlHyperlink.java
+	     org/eclipse/mylyn/commons/workbench/browser/WebBrowserDialog.java
+	     org/eclipse/mylyn/commons/workbench/BusyAnimator.java
+	     org/eclipse/mylyn/commons/workbench/CommonImageManger.java
+	     org/eclipse/mylyn/commons/workbench/DecoratingPatternStyledCellLabelProvider.java
+	     org/eclipse/mylyn/commons/workbench/DelayedRefreshJob.java
+	     org/eclipse/mylyn/commons/workbench/EditorHandle.java
+	     org/eclipse/mylyn/commons/workbench/editors/CommonTextSupport.java
+	     org/eclipse/mylyn/commons/workbench/EnhancedFilteredTree.java
+	     org/eclipse/mylyn/commons/workbench/forms/CommonFormUtil.java
+	     org/eclipse/mylyn/commons/workbench/forms/DatePicker.java
+	     org/eclipse/mylyn/commons/workbench/forms/DatePickerPanel.java
+	     org/eclipse/mylyn/commons/workbench/forms/DateSelectionDialog.java
+	     org/eclipse/mylyn/commons/workbench/forms/InPlaceDateSelectionDialog.java
+	     org/eclipse/mylyn/commons/workbench/forms/MessageControl.java
+	     org/eclipse/mylyn/commons/workbench/forms/RichToolTip.java
+	     org/eclipse/mylyn/commons/workbench/forms/ScalingHyperlink.java
+	     org/eclipse/mylyn/commons/workbench/forms/SectionComposite.java
+	     org/eclipse/mylyn/commons/workbench/GradientDrawer.java
+	     org/eclipse/mylyn/commons/workbench/InPlaceCheckBoxTreeDialog.java
+	     org/eclipse/mylyn/commons/workbench/PropertiesAction.java
+	     org/eclipse/mylyn/commons/workbench/search/SearchHistoryPopupDialog.java
+	     org/eclipse/mylyn/commons/workbench/search/TextSearchControl.java
+	     org/eclipse/mylyn/commons/workbench/SubstringPatternFilter.java
+	     org/eclipse/mylyn/commons/workbench/TableTreePatternFilter.java
+	     org/eclipse/mylyn/commons/workbench/TaskBarManager.java
+	     org/eclipse/mylyn/commons/workbench/texteditor/AbstractDeleteLineHandler.java
+	     org/eclipse/mylyn/commons/workbench/texteditor/AbstractTextViewerHandler.java
+	     org/eclipse/mylyn/commons/workbench/texteditor/CutLineHandler.java
+	     org/eclipse/mylyn/commons/workbench/texteditor/CutLineToBeginningHandler.java
+	     org/eclipse/mylyn/commons/workbench/texteditor/CutLineToEndHandler.java
+	     org/eclipse/mylyn/commons/workbench/texteditor/DeleteLineHandler.java
+	     org/eclipse/mylyn/commons/workbench/texteditor/DeleteLineToBeginningHandler.java
+	     org/eclipse/mylyn/commons/workbench/texteditor/DeleteLineToEndHandler.java
+	     org/eclipse/mylyn/commons/workbench/WorkbenchActionSupport.java
+	     org/eclipse/mylyn/commons/workbench/WorkbenchUtil.java
+	     org/eclipse/mylyn/internal/commons/workbench/CommonsWorkbenchPlugin.java
+	     org/eclipse/mylyn/internal/commons/workbench/Messages.java
+	     org/eclipse/mylyn/internal/commons/workbench/messages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.workbench.jar" path="org.eclipse.mylyn.commons.workbench/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.browser"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

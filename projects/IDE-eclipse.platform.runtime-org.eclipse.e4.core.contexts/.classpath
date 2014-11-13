@@ -2,30 +2,30 @@
 <classpath>
 	<!-- .options
 	     about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.contexts.jar" path="org.eclipse.e4.core.contexts"/>
-	<!-- org\eclipse\e4\core\contexts\Active.java
-	     org\eclipse\e4\core\contexts\ContextFunction.java
-	     org\eclipse\e4\core\contexts\ContextInjectionFactory.java
-	     org\eclipse\e4\core\contexts\EclipseContextFactory.java
-	     org\eclipse\e4\core\contexts\IContextFunction.java
-	     org\eclipse\e4\core\contexts\IEclipseContext.java
-	     org\eclipse\e4\core\contexts\RunAndTrack.java
-	     org\eclipse\e4\core\internal\contexts\Computation.java
-	     org\eclipse\e4\core\internal\contexts\ContextChangeEvent.java
-	     org\eclipse\e4\core\internal\contexts\ContextObjectSupplier.java
-	     org\eclipse\e4\core\internal\contexts\DebugHelper.java
-	     org\eclipse\e4\core\internal\contexts\EclipseContext.java
-	     org\eclipse\e4\core\internal\contexts\IContextDisposalListener.java
-	     org\eclipse\e4\core\internal\contexts\IEclipseContextDebugger.java
-	     org\eclipse\e4\core\internal\contexts\osgi\ContextDebugHelper.java
-	     org\eclipse\e4\core\internal\contexts\osgi\ContextsActivator.java
-	     org\eclipse\e4\core\internal\contexts\osgi\EclipseContextOSGi.java
-	     org\eclipse\e4\core\internal\contexts\RunAndTrackExt.java
-	     org\eclipse\e4\core\internal\contexts\TrackableComputationExt.java
-	     org\eclipse\e4\core\internal\contexts\ValueComputation.java
-	     org\eclipse\e4\core\internal\contexts\WeakGroupedListenerList.java -->
+	<!-- org/eclipse/e4/core/contexts/Active.java
+	     org/eclipse/e4/core/contexts/ContextFunction.java
+	     org/eclipse/e4/core/contexts/ContextInjectionFactory.java
+	     org/eclipse/e4/core/contexts/EclipseContextFactory.java
+	     org/eclipse/e4/core/contexts/IContextFunction.java
+	     org/eclipse/e4/core/contexts/IEclipseContext.java
+	     org/eclipse/e4/core/contexts/RunAndTrack.java
+	     org/eclipse/e4/core/internal/contexts/Computation.java
+	     org/eclipse/e4/core/internal/contexts/ContextChangeEvent.java
+	     org/eclipse/e4/core/internal/contexts/ContextObjectSupplier.java
+	     org/eclipse/e4/core/internal/contexts/DebugHelper.java
+	     org/eclipse/e4/core/internal/contexts/EclipseContext.java
+	     org/eclipse/e4/core/internal/contexts/IContextDisposalListener.java
+	     org/eclipse/e4/core/internal/contexts/IEclipseContextDebugger.java
+	     org/eclipse/e4/core/internal/contexts/osgi/ContextDebugHelper.java
+	     org/eclipse/e4/core/internal/contexts/osgi/ContextsActivator.java
+	     org/eclipse/e4/core/internal/contexts/osgi/EclipseContextOSGi.java
+	     org/eclipse/e4/core/internal/contexts/RunAndTrackExt.java
+	     org/eclipse/e4/core/internal/contexts/TrackableComputationExt.java
+	     org/eclipse/e4/core/internal/contexts/ValueComputation.java
+	     org/eclipse/e4/core/internal/contexts/WeakGroupedListenerList.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.core.contexts.jar" path="org.eclipse.e4.core.contexts/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.inject"/>

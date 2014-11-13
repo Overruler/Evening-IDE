@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/apache/commons/httpclient/auth/AuthChallengeException.java
+	     org/apache/commons/httpclient/auth/AuthChallengeParser.java
+	     org/apache/commons/httpclient/auth/AuthChallengeProcessor.java
+	     org/apache/commons/httpclient/auth/AuthenticationException.java
+	     org/apache/commons/httpclient/auth/AuthPolicy.java
+	     org/apache/commons/httpclient/auth/AuthScheme.java
+	     org/apache/commons/httpclient/auth/AuthSchemeBase.java
+	     org/apache/commons/httpclient/auth/AuthScope.java
+	     org/apache/commons/httpclient/auth/AuthState.java
+	     org/apache/commons/httpclient/auth/BasicScheme.java
+	     org/apache/commons/httpclient/auth/CredentialsNotAvailableException.java
+	     org/apache/commons/httpclient/auth/CredentialsProvider.java
+	     org/apache/commons/httpclient/auth/DigestScheme.java
+	     org/apache/commons/httpclient/auth/HttpAuthenticator.java
+	     org/apache/commons/httpclient/auth/HttpAuthRealm.java
+	     org/apache/commons/httpclient/auth/InvalidCredentialsException.java
+	     org/apache/commons/httpclient/auth/MalformedChallengeException.java
+	     org/apache/commons/httpclient/auth/NTLMScheme.java
+	     org/apache/commons/httpclient/auth/RFC2617Scheme.java
+	     org/apache/commons/httpclient/ChunkedInputStream.java
+	     org/apache/commons/httpclient/ChunkedOutputStream.java
+	     org/apache/commons/httpclient/CircularRedirectException.java
+	     org/apache/commons/httpclient/ConnectionPoolTimeoutException.java
+	     org/apache/commons/httpclient/ConnectMethod.java
+	     org/apache/commons/httpclient/ConnectTimeoutException.java
+	     org/apache/commons/httpclient/ContentLengthInputStream.java
+	     org/apache/commons/httpclient/Cookie.java
+	     org/apache/commons/httpclient/cookie/Cookie2.java
+	     org/apache/commons/httpclient/cookie/CookieAttributeHandler.java
+	     org/apache/commons/httpclient/cookie/CookieOrigin.java
+	     org/apache/commons/httpclient/cookie/CookiePathComparator.java
+	     org/apache/commons/httpclient/cookie/CookiePolicy.java
+	     org/apache/commons/httpclient/cookie/CookieSpec.java
+	     org/apache/commons/httpclient/cookie/CookieSpecBase.java
+	     org/apache/commons/httpclient/cookie/CookieVersionSupport.java
+	     org/apache/commons/httpclient/cookie/IgnoreCookiesSpec.java
+	     org/apache/commons/httpclient/cookie/MalformedCookieException.java
+	     org/apache/commons/httpclient/cookie/NetscapeDraftSpec.java
+	     org/apache/commons/httpclient/cookie/RFC2109Spec.java
+	     org/apache/commons/httpclient/cookie/RFC2965Spec.java
+	     org/apache/commons/httpclient/Credentials.java
+	     org/apache/commons/httpclient/DefaultHttpMethodRetryHandler.java
+	     org/apache/commons/httpclient/DefaultMethodRetryHandler.java
+	     org/apache/commons/httpclient/Header.java
+	     org/apache/commons/httpclient/HeaderElement.java
+	     org/apache/commons/httpclient/HeaderGroup.java
+	     org/apache/commons/httpclient/HostConfiguration.java
+	     org/apache/commons/httpclient/HttpClient.java
+	     org/apache/commons/httpclient/HttpClientError.java
+	     org/apache/commons/httpclient/HttpConnection.java
+	     org/apache/commons/httpclient/HttpConnectionManager.java
+	     org/apache/commons/httpclient/HttpConstants.java
+	     org/apache/commons/httpclient/HttpContentTooLargeException.java
+	     org/apache/commons/httpclient/HttpException.java
+	     org/apache/commons/httpclient/HttpHost.java
+	     org/apache/commons/httpclient/HttpMethod.java
+	     org/apache/commons/httpclient/HttpMethodBase.java
+	     org/apache/commons/httpclient/HttpMethodRetryHandler.java
+	     org/apache/commons/httpclient/HttpParser.java
+	     org/apache/commons/httpclient/HttpRecoverableException.java
+	     org/apache/commons/httpclient/HttpState.java
+	     org/apache/commons/httpclient/HttpStatus.java
+	     org/apache/commons/httpclient/HttpsURL.java
+	     org/apache/commons/httpclient/HttpURL.java
+	     org/apache/commons/httpclient/HttpVersion.java
+	     org/apache/commons/httpclient/InvalidRedirectLocationException.java
+	     org/apache/commons/httpclient/MethodRetryHandler.java
+	     org/apache/commons/httpclient/methods/ByteArrayRequestEntity.java
+	     org/apache/commons/httpclient/methods/DeleteMethod.java
+	     org/apache/commons/httpclient/methods/EntityEnclosingMethod.java
+	     org/apache/commons/httpclient/methods/ExpectContinueMethod.java
+	     org/apache/commons/httpclient/methods/FileRequestEntity.java
+	     org/apache/commons/httpclient/methods/GetMethod.java
+	     org/apache/commons/httpclient/methods/HeadMethod.java
+	     org/apache/commons/httpclient/methods/InputStreamRequestEntity.java
+	     org/apache/commons/httpclient/methods/MultipartPostMethod.java
+	     org/apache/commons/httpclient/methods/multipart/ByteArrayPartSource.java
+	     org/apache/commons/httpclient/methods/multipart/FilePart.java
+	     org/apache/commons/httpclient/methods/multipart/FilePartSource.java
+	     org/apache/commons/httpclient/methods/multipart/MultipartRequestEntity.java
+	     org/apache/commons/httpclient/methods/multipart/Part.java
+	     org/apache/commons/httpclient/methods/multipart/PartBase.java
+	     org/apache/commons/httpclient/methods/multipart/PartSource.java
+	     org/apache/commons/httpclient/methods/multipart/StringPart.java
+	     org/apache/commons/httpclient/methods/OptionsMethod.java
+	     org/apache/commons/httpclient/methods/PostMethod.java
+	     org/apache/commons/httpclient/methods/PutMethod.java
+	     org/apache/commons/httpclient/methods/RequestEntity.java
+	     org/apache/commons/httpclient/methods/StringRequestEntity.java
+	     org/apache/commons/httpclient/methods/TraceMethod.java
+	     org/apache/commons/httpclient/MultiThreadedHttpConnectionManager.java
+	     org/apache/commons/httpclient/NameValuePair.java
+	     org/apache/commons/httpclient/NoHttpResponseException.java
+	     org/apache/commons/httpclient/NTCredentials.java
+	     org/apache/commons/httpclient/params/DefaultHttpParams.java
+	     org/apache/commons/httpclient/params/DefaultHttpParamsFactory.java
+	     org/apache/commons/httpclient/params/HostParams.java
+	     org/apache/commons/httpclient/params/HttpClientParams.java
+	     org/apache/commons/httpclient/params/HttpConnectionManagerParams.java
+	     org/apache/commons/httpclient/params/HttpConnectionParams.java
+	     org/apache/commons/httpclient/params/HttpMethodParams.java
+	     org/apache/commons/httpclient/params/HttpParams.java
+	     org/apache/commons/httpclient/params/HttpParamsFactory.java
+	     org/apache/commons/httpclient/ProtocolException.java
+	     org/apache/commons/httpclient/protocol/ControllerThreadSocketFactory.java
+	     org/apache/commons/httpclient/protocol/DefaultProtocolSocketFactory.java
+	     org/apache/commons/httpclient/protocol/Protocol.java
+	     org/apache/commons/httpclient/protocol/ProtocolSocketFactory.java
+	     org/apache/commons/httpclient/protocol/ReflectionSocketFactory.java
+	     org/apache/commons/httpclient/protocol/SecureProtocolSocketFactory.java
+	     org/apache/commons/httpclient/protocol/SSLProtocolSocketFactory.java
+	     org/apache/commons/httpclient/ProxyClient.java
+	     org/apache/commons/httpclient/ProxyHost.java
+	     org/apache/commons/httpclient/RedirectException.java
+	     org/apache/commons/httpclient/SimpleHttpConnectionManager.java
+	     org/apache/commons/httpclient/StatusLine.java
+	     org/apache/commons/httpclient/URI.java
+	     org/apache/commons/httpclient/URIException.java
+	     org/apache/commons/httpclient/UsernamePasswordCredentials.java
+	     org/apache/commons/httpclient/util/DateParseException.java
+	     org/apache/commons/httpclient/util/DateParser.java
+	     org/apache/commons/httpclient/util/DateUtil.java
+	     org/apache/commons/httpclient/util/EncodingUtil.java
+	     org/apache/commons/httpclient/util/ExceptionUtil.java
+	     org/apache/commons/httpclient/util/HttpURLConnection.java
+	     org/apache/commons/httpclient/util/IdleConnectionHandler.java
+	     org/apache/commons/httpclient/util/IdleConnectionTimeoutThread.java
+	     org/apache/commons/httpclient/util/LangUtils.java
+	     org/apache/commons/httpclient/util/ParameterFormatter.java
+	     org/apache/commons/httpclient/util/ParameterParser.java
+	     org/apache/commons/httpclient/util/TimeoutController.java
+	     org/apache/commons/httpclient/util/URIUtil.java -->
+	<classpathentry excluding="about.html|about_files/LICENSE.txt|about_files/NOTICE.txt|META-INF/MANIFEST.MF|plugin.properties" including="org/apache/commons/httpclient/*|org/apache/commons/httpclient/auth/*|org/apache/commons/httpclient/cookie/*|org/apache/commons/httpclient/methods/*|org/apache/commons/httpclient/methods/multipart/*|org/apache/commons/httpclient/params/*|org/apache/commons/httpclient/protocol/*|org/apache/commons/httpclient/util/*" kind="src" output="bin/1/plugins/org.apache.commons.httpclient.jar" path="org.apache.commons.httpclient"/>
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     about_files/NOTICE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.commons.httpclient.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.codec"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.logging"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

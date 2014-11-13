@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     about_files/LICENSE-2.0.txt
+	     m2eclipse.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/archetypes.exsd
+	     schema/artifactFilters.exsd
+	     schema/conversionEnabler.exsd
+	     schema/incrementalBuildFrameworks.exsd
+	     schema/indexes.exsd
+	     schema/lifecycleMappingMetadataSource.exsd
+	     schema/lifecycleMappings.exsd
+	     schema/mavenComponentContributors.exsd
+	     schema/mavenProjectChangedListeners.exsd
+	     schema/projectConfigurators.exsd
+	     schema/projectConversionParticipants.exsd -->
+	<classpathentry excluding="src/|.*|.*/|.options" including="META-INF/*|about.html|about.ini|about_files/*|m2eclipse.gif|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.m2e.core.jar" path="org.eclipse.m2e.core"/>
+	<!-- org/eclipse/m2e/core/archetype/ArchetypeUtil.java
+	     org/eclipse/m2e/core/embedder/AbstractMavenConfigurationChangeListener.java
+	     org/eclipse/m2e/core/embedder/ArtifactKey.java
+	     org/eclipse/m2e/core/embedder/ArtifactRef.java
+	     org/eclipse/m2e/core/embedder/ArtifactRepositoryRef.java
+	     org/eclipse/m2e/core/embedder/ICallable.java
+	     org/eclipse/m2e/core/embedder/ILocalRepositoryListener.java
+	     org/eclipse/m2e/core/embedder/IMaven.java
+	     org/eclipse/m2e/core/embedder/IMavenConfiguration.java
+	     org/eclipse/m2e/core/embedder/IMavenConfigurationChangeListener.java
+	     org/eclipse/m2e/core/embedder/IMavenExecutionContext.java
+	     org/eclipse/m2e/core/embedder/IMavenLauncherConfiguration.java
+	     org/eclipse/m2e/core/embedder/ISettingsChangeListener.java
+	     org/eclipse/m2e/core/embedder/MavenConfigurationChangeEvent.java
+	     org/eclipse/m2e/core/embedder/MavenModelManager.java
+	     org/eclipse/m2e/core/embedder/MavenRuntime.java
+	     org/eclipse/m2e/core/embedder/MavenRuntimeManager.java
+	     org/eclipse/m2e/core/internal/archetype/ArchetypeCatalogFactory.java
+	     org/eclipse/m2e/core/internal/archetype/ArchetypeCatalogsWriter.java
+	     org/eclipse/m2e/core/internal/archetype/ArchetypeManager.java
+	     org/eclipse/m2e/core/internal/builder/BuildDebugHook.java
+	     org/eclipse/m2e/core/internal/builder/IIncrementalBuildFramework.java
+	     org/eclipse/m2e/core/internal/builder/InternalBuildParticipant.java
+	     org/eclipse/m2e/core/internal/builder/InternalBuildParticipant2.java
+	     org/eclipse/m2e/core/internal/builder/MavenBuilder.java
+	     org/eclipse/m2e/core/internal/builder/MavenBuilderImpl.java
+	     org/eclipse/m2e/core/internal/builder/MavenNature.java
+	     org/eclipse/m2e/core/internal/builder/plexusbuildapi/AbstractEclipseBuildContext.java
+	     org/eclipse/m2e/core/internal/builder/plexusbuildapi/ChangedFileOutputStream.java
+	     org/eclipse/m2e/core/internal/builder/plexusbuildapi/EclipseBuildContext.java
+	     org/eclipse/m2e/core/internal/builder/plexusbuildapi/EclipseEmptyBuildContext.java
+	     org/eclipse/m2e/core/internal/builder/plexusbuildapi/EclipseIncrementalBuildContext.java
+	     org/eclipse/m2e/core/internal/builder/plexusbuildapi/PlexusBuildAPI.java
+	     org/eclipse/m2e/core/internal/builder/plexusbuildapi/ResourceDeltaScanner.java
+	     org/eclipse/m2e/core/internal/builder/plexusbuildapi/ResourceScanner.java
+	     org/eclipse/m2e/core/internal/Bundles.java
+	     org/eclipse/m2e/core/internal/content/PomFileContentDescriber.java
+	     org/eclipse/m2e/core/internal/content/PomHandler.java
+	     org/eclipse/m2e/core/internal/embedder/AbstractRunnable.java
+	     org/eclipse/m2e/core/internal/embedder/ArtifactTransferListenerAdapter.java
+	     org/eclipse/m2e/core/internal/embedder/ContextRepositorySystemSession.java
+	     org/eclipse/m2e/core/internal/embedder/ContextRepositorySystemSessionImpl.java
+	     org/eclipse/m2e/core/internal/embedder/DefaultMavenComponentContributor.java
+	     org/eclipse/m2e/core/internal/embedder/EclipseBuildContext.java
+	     org/eclipse/m2e/core/internal/embedder/EclipseClassRealmManagerDelegate.java
+	     org/eclipse/m2e/core/internal/embedder/EclipseLoggerManager.java
+	     org/eclipse/m2e/core/internal/embedder/EclipseRepositoryListener.java
+	     org/eclipse/m2e/core/internal/embedder/IMavenComponentContributor.java
+	     org/eclipse/m2e/core/internal/embedder/MavenExecutionContext.java
+	     org/eclipse/m2e/core/internal/embedder/MavenImpl.java
+	     org/eclipse/m2e/core/internal/embedder/MavenProjectMutableState.java
+	     org/eclipse/m2e/core/internal/equinox/DevClassPathHelper.java
+	     org/eclipse/m2e/core/internal/equinox/EquinoxLocker.java
+	     org/eclipse/m2e/core/internal/ExtensionReader.java
+	     org/eclipse/m2e/core/internal/IMavenConstants.java
+	     org/eclipse/m2e/core/internal/index/filter/ArtifactFilterManager.java
+	     org/eclipse/m2e/core/internal/index/filter/FilteredIndex.java
+	     org/eclipse/m2e/core/internal/index/filter/IArtifactFilter.java
+	     org/eclipse/m2e/core/internal/index/IIndex.java
+	     org/eclipse/m2e/core/internal/index/IMutableIndex.java
+	     org/eclipse/m2e/core/internal/index/IndexedArtifact.java
+	     org/eclipse/m2e/core/internal/index/IndexedArtifactFile.java
+	     org/eclipse/m2e/core/internal/index/IndexListener.java
+	     org/eclipse/m2e/core/internal/index/IndexManager.java
+	     org/eclipse/m2e/core/internal/index/MatchTyped.java
+	     org/eclipse/m2e/core/internal/index/MatchTypedStringSearchExpression.java
+	     org/eclipse/m2e/core/internal/index/nexus/AetherClientResourceFetcher.java
+	     org/eclipse/m2e/core/internal/index/nexus/CompositeIndex.java
+	     org/eclipse/m2e/core/internal/index/nexus/IndexedArtifactGroup.java
+	     org/eclipse/m2e/core/internal/index/nexus/IndexesExtensionReader.java
+	     org/eclipse/m2e/core/internal/index/nexus/IndexingTransferListener.java
+	     org/eclipse/m2e/core/internal/index/nexus/NexusIndex.java
+	     org/eclipse/m2e/core/internal/index/nexus/NexusIndexManager.java
+	     org/eclipse/m2e/core/internal/index/SearchExpression.java
+	     org/eclipse/m2e/core/internal/index/SourcedSearchExpression.java
+	     org/eclipse/m2e/core/internal/index/StringSearchExpression.java
+	     org/eclipse/m2e/core/internal/index/UserInputSearchExpression.java
+	     org/eclipse/m2e/core/internal/jobs/IBackgroundProcessingQueue.java
+	     org/eclipse/m2e/core/internal/launch/AbstractMavenRuntime.java
+	     org/eclipse/m2e/core/internal/launch/ClasspathEntry.java
+	     org/eclipse/m2e/core/internal/launch/DefaultWorkspaceRuntime.java
+	     org/eclipse/m2e/core/internal/launch/MavenEmbeddedRuntime.java
+	     org/eclipse/m2e/core/internal/launch/MavenExternalRuntime.java
+	     org/eclipse/m2e/core/internal/launch/MavenRuntimeManagerImpl.java
+	     org/eclipse/m2e/core/internal/launch/MavenWorkspaceRuntime.java
+	     org/eclipse/m2e/core/internal/launch/ProjectClasspathEntry.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/ActionMessageProblemInfo.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/DefaultLifecycleMapping.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/discovery/ILifecycleMappingElement.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/discovery/ILifecycleMappingRequirement.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/discovery/IMavenDiscovery.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/discovery/IMavenDiscoveryProposal.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/discovery/LifecycleMappingDiscoveryRequest.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/discovery/MojoExecutionMappingConfiguration.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/discovery/PackagingTypeMappingConfiguration.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/discovery/ProjectLifecycleMappingConfiguration.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/DuplicateMappingException.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/InvalidLifecycleMapping.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/LifecycleMappingConfigurationException.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/LifecycleMappingFactory.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/LifecycleMappingResult.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/MappingMetadataSource.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/MissingConfiguratorProblemInfo.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/MissingLifecycleExtensionPoint.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/MojoExecutionProblemInfo.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/NotCoveredMojoExecution.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/SimpleMappingMetadataSource.java
+	     org/eclipse/m2e/core/internal/M2EUtils.java
+	     org/eclipse/m2e/core/internal/markers/ArtifactNotFoundProblemInfo.java
+	     org/eclipse/m2e/core/internal/markers/IEditorMarkerService.java
+	     org/eclipse/m2e/core/internal/markers/IMarkerLocationService.java
+	     org/eclipse/m2e/core/internal/markers/IMavenMarkerManager.java
+	     org/eclipse/m2e/core/internal/markers/MarkerUtils.java
+	     org/eclipse/m2e/core/internal/markers/MavenMarkerManager.java
+	     org/eclipse/m2e/core/internal/markers/MavenProblemInfo.java
+	     org/eclipse/m2e/core/internal/markers/SourceLocation.java
+	     org/eclipse/m2e/core/internal/markers/SourceLocationHelper.java
+	     org/eclipse/m2e/core/internal/MavenPluginActivator.java
+	     org/eclipse/m2e/core/internal/Messages.java
+	     org/eclipse/m2e/core/internal/messages.properties
+	     org/eclipse/m2e/core/internal/NoSuchComponentException.java
+	     org/eclipse/m2e/core/internal/preferences/MavenConfigurationImpl.java
+	     org/eclipse/m2e/core/internal/preferences/MavenPreferenceConstants.java
+	     org/eclipse/m2e/core/internal/preferences/MavenPreferenceInitializer.java
+	     org/eclipse/m2e/core/internal/preferences/ProblemSeverity.java
+	     org/eclipse/m2e/core/internal/project/ArtifactKeyAdapterFactory.java
+	     org/eclipse/m2e/core/internal/project/conversion/DuplicateConversionParticipantException.java
+	     org/eclipse/m2e/core/internal/project/conversion/ProjectConversionManager.java
+	     org/eclipse/m2e/core/internal/project/conversion/ProjectConversionParticipantSorter.java
+	     org/eclipse/m2e/core/internal/project/DependencyResolutionContext.java
+	     org/eclipse/m2e/core/internal/project/EclipseExtensionRealmCache.java
+	     org/eclipse/m2e/core/internal/project/EclipseMavenMetadataCache.java
+	     org/eclipse/m2e/core/internal/project/EclipsePluginArtifactsCache.java
+	     org/eclipse/m2e/core/internal/project/EclipsePluginRealmCache.java
+	     org/eclipse/m2e/core/internal/project/EclipseProjectRealmCache.java
+	     org/eclipse/m2e/core/internal/project/IManagedCache.java
+	     org/eclipse/m2e/core/internal/project/LifecycleMappingConfiguration.java
+	     org/eclipse/m2e/core/internal/project/MavenProjectImportResult.java
+	     org/eclipse/m2e/core/internal/project/ProjectConfigurationManager.java
+	     org/eclipse/m2e/core/internal/project/registry/AbstractMavenDependencyResolver.java
+	     org/eclipse/m2e/core/internal/project/registry/Capability.java
+	     org/eclipse/m2e/core/internal/project/registry/DefaultMavenDependencyResolver.java
+	     org/eclipse/m2e/core/internal/project/registry/EclipsePluginDependenciesResolver.java
+	     org/eclipse/m2e/core/internal/project/registry/EclipseWorkspaceArtifactRepository.java
+	     org/eclipse/m2e/core/internal/project/registry/ILifecycleMapping2.java
+	     org/eclipse/m2e/core/internal/project/registry/IProjectRegistry.java
+	     org/eclipse/m2e/core/internal/project/registry/MavenCapability.java
+	     org/eclipse/m2e/core/internal/project/registry/MavenProjectFacade.java
+	     org/eclipse/m2e/core/internal/project/registry/MavenProjectManager.java
+	     org/eclipse/m2e/core/internal/project/registry/MavenRequiredCapability.java
+	     org/eclipse/m2e/core/internal/project/registry/MutableProjectRegistry.java
+	     org/eclipse/m2e/core/internal/project/registry/ProjectRegistry.java
+	     org/eclipse/m2e/core/internal/project/registry/ProjectRegistryManager.java
+	     org/eclipse/m2e/core/internal/project/registry/ProjectRegistryReader.java
+	     org/eclipse/m2e/core/internal/project/registry/ProjectRegistryRefreshJob.java
+	     org/eclipse/m2e/core/internal/project/registry/RequiredCapability.java
+	     org/eclipse/m2e/core/internal/project/registry/StaleMutableProjectRegistryException.java
+	     org/eclipse/m2e/core/internal/project/registry/VersionlessKey.java
+	     org/eclipse/m2e/core/internal/project/ResolverConfigurationIO.java
+	     org/eclipse/m2e/core/internal/project/WorkspaceStateWriter.java
+	     org/eclipse/m2e/core/internal/repository/IRepositoryDiscoverer.java
+	     org/eclipse/m2e/core/internal/repository/IRepositoryIndexer.java
+	     org/eclipse/m2e/core/internal/repository/RepositoryInfo.java
+	     org/eclipse/m2e/core/internal/repository/RepositoryRegistry.java
+	     org/eclipse/m2e/core/internal/repository/RepositoryRegistryUpdateJob.java
+	     org/eclipse/m2e/core/internal/URLConnectionCaches.java
+	     org/eclipse/m2e/core/lifecyclemapping/model/IPluginExecutionMetadata.java
+	     org/eclipse/m2e/core/lifecyclemapping/model/PluginExecutionAction.java
+	     org/eclipse/m2e/core/MavenPlugin.java
+	     org/eclipse/m2e/core/project/AbstractProjectScanner.java
+	     org/eclipse/m2e/core/project/configurator/AbstractBuildParticipant.java
+	     org/eclipse/m2e/core/project/configurator/AbstractBuildParticipant2.java
+	     org/eclipse/m2e/core/project/configurator/AbstractCustomizableLifecycleMapping.java
+	     org/eclipse/m2e/core/project/configurator/AbstractLifecycleMapping.java
+	     org/eclipse/m2e/core/project/configurator/AbstractProjectConfigurator.java
+	     org/eclipse/m2e/core/project/configurator/ILifecycleMapping.java
+	     org/eclipse/m2e/core/project/configurator/ILifecycleMappingConfiguration.java
+	     org/eclipse/m2e/core/project/configurator/MojoExecutionBuildParticipant.java
+	     org/eclipse/m2e/core/project/configurator/MojoExecutionKey.java
+	     org/eclipse/m2e/core/project/configurator/NoopLifecycleMapping.java
+	     org/eclipse/m2e/core/project/configurator/ProjectConfigurationRequest.java
+	     org/eclipse/m2e/core/project/conversion/AbstractProjectConversionEnabler.java
+	     org/eclipse/m2e/core/project/conversion/AbstractProjectConversionParticipant.java
+	     org/eclipse/m2e/core/project/conversion/IProjectConversionEnabler.java
+	     org/eclipse/m2e/core/project/conversion/IProjectConversionManager.java
+	     org/eclipse/m2e/core/project/IMavenProjectChangedListener.java
+	     org/eclipse/m2e/core/project/IMavenProjectFacade.java
+	     org/eclipse/m2e/core/project/IMavenProjectImportResult.java
+	     org/eclipse/m2e/core/project/IMavenProjectRegistry.java
+	     org/eclipse/m2e/core/project/IProjectConfigurationManager.java
+	     org/eclipse/m2e/core/project/LocalProjectScanner.java
+	     org/eclipse/m2e/core/project/MavenProjectChangedEvent.java
+	     org/eclipse/m2e/core/project/MavenProjectInfo.java
+	     org/eclipse/m2e/core/project/MavenProjectUtils.java
+	     org/eclipse/m2e/core/project/MavenUpdateRequest.java
+	     org/eclipse/m2e/core/project/ProjectImportConfiguration.java
+	     org/eclipse/m2e/core/project/ResolverConfiguration.java
+	     org/eclipse/m2e/core/repository/IRepository.java
+	     org/eclipse/m2e/core/repository/IRepositoryRegistry.java
+	     org/eclipse/m2e/core/internal/equinox/EquinoxLocker.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.core.jar" path="org.eclipse.m2e.core/src"/>
+	<!-- .options
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.core/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.core/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.core.jar" path="res"/>
+	<!-- org/eclipse/m2e/core/internal/lifecyclemapping/model/io/xpp3/LifecycleMappingMetadataSourceXpp3Reader.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/model/io/xpp3/LifecycleMappingMetadataSourceXpp3Writer.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/model/LifecycleMappingMetadata.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/model/LifecycleMappingMetadataSource.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/model/PluginExecutionFilter.java
+	     org/eclipse/m2e/core/internal/lifecyclemapping/model/PluginExecutionMetadata.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.core.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.archetype.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.indexer"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.workspace-org.eclipse.m2e.workspace.cli"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

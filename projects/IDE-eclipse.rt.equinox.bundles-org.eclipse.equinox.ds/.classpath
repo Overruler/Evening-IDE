@@ -2,53 +2,53 @@
 <classpath>
 	<!-- .options
 	     about.html
-	     about_files\LICENSE-2.0.txt
-	     about_files\NOTICE.txt
-	     META-INF\MANIFEST.MF
-	     META-INF\p2.inf
+	     about_files/LICENSE-2.0.txt
+	     about_files/NOTICE.txt
+	     META-INF/MANIFEST.MF
+	     META-INF/p2.inf
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|about_files/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.ds.jar" path="org.eclipse.equinox.ds"/>
-	<!-- org\apache\felix\scr\Component.java
-	     org\apache\felix\scr\Reference.java
-	     org\apache\felix\scr\ScrService.java
-	     org\eclipse\equinox\internal\ds\Activator.java
-	     org\eclipse\equinox\internal\ds\CircularityException.java
-	     org\eclipse\equinox\internal\ds\ComponentStorage.java
-	     org\eclipse\equinox\internal\ds\impl\ComponentContextImpl.java
-	     org\eclipse\equinox\internal\ds\impl\ComponentFactoryImpl.java
-	     org\eclipse\equinox\internal\ds\impl\ComponentInstanceImpl.java
-	     org\eclipse\equinox\internal\ds\impl\ReadOnlyDictionary.java
-	     org\eclipse\equinox\internal\ds\InstanceProcess.java
-	     org\eclipse\equinox\internal\ds\Messages.java
-	     org\eclipse\equinox\internal\ds\model\ComponentReference.java
-	     org\eclipse\equinox\internal\ds\model\DeclarationParser.java
-	     org\eclipse\equinox\internal\ds\model\ServiceComponent.java
-	     org\eclipse\equinox\internal\ds\model\ServiceComponentProp.java
-	     org\eclipse\equinox\internal\ds\Reference.java
-	     org\eclipse\equinox\internal\ds\Resolver.java
-	     org\eclipse\equinox\internal\ds\SCRCommandProvider.java
-	     org\eclipse\equinox\internal\ds\SCRManager.java
-	     org\eclipse\equinox\internal\ds\SCRmessages.properties
-	     org\eclipse\equinox\internal\ds\ScrServiceImpl.java
-	     org\eclipse\equinox\internal\ds\SCRUtil.java
-	     org\eclipse\equinox\internal\ds\storage\file\DBObject.java
-	     org\eclipse\equinox\internal\ds\storage\file\FileStorage.java
-	     org\eclipse\equinox\internal\ds\WorkPerformer.java
-	     org\eclipse\equinox\internal\ds\WorkThread.java
-	     org\eclipse\equinox\internal\util\io\Externalizable.java
-	     org\eclipse\equinox\internal\util\io\ExternalizableDictionary.java
-	     org\eclipse\equinox\internal\util\io\PDataStream.java
-	     org\eclipse\equinox\internal\util\string\CharBuffer.java
-	     org\eclipse\equinox\internal\util\xml\ExTagListener.java
-	     org\eclipse\equinox\internal\util\xml\impl\TagImpl.java
-	     org\eclipse\equinox\internal\util\xml\impl\XMLParserImpl.java
-	     org\eclipse\equinox\internal\util\xml\Tag.java
-	     org\eclipse\equinox\internal\util\xml\TagClass.java
-	     org\eclipse\equinox\internal\util\xml\TagListener.java
-	     org\eclipse\equinox\internal\util\xml\XMLParser.java
-	     org\eclipse\equinox\internal\util\xml\XMLReader.java
-	     org\eclipse\equinox\internal\util\xml\XmlSerializer.java
-	     org\eclipse\equinox\internal\util\xml\XMLUtil.java -->
+	<!-- org/apache/felix/scr/Component.java
+	     org/apache/felix/scr/Reference.java
+	     org/apache/felix/scr/ScrService.java
+	     org/eclipse/equinox/internal/ds/Activator.java
+	     org/eclipse/equinox/internal/ds/CircularityException.java
+	     org/eclipse/equinox/internal/ds/ComponentStorage.java
+	     org/eclipse/equinox/internal/ds/impl/ComponentContextImpl.java
+	     org/eclipse/equinox/internal/ds/impl/ComponentFactoryImpl.java
+	     org/eclipse/equinox/internal/ds/impl/ComponentInstanceImpl.java
+	     org/eclipse/equinox/internal/ds/impl/ReadOnlyDictionary.java
+	     org/eclipse/equinox/internal/ds/InstanceProcess.java
+	     org/eclipse/equinox/internal/ds/Messages.java
+	     org/eclipse/equinox/internal/ds/model/ComponentReference.java
+	     org/eclipse/equinox/internal/ds/model/DeclarationParser.java
+	     org/eclipse/equinox/internal/ds/model/ServiceComponent.java
+	     org/eclipse/equinox/internal/ds/model/ServiceComponentProp.java
+	     org/eclipse/equinox/internal/ds/Reference.java
+	     org/eclipse/equinox/internal/ds/Resolver.java
+	     org/eclipse/equinox/internal/ds/SCRCommandProvider.java
+	     org/eclipse/equinox/internal/ds/SCRManager.java
+	     org/eclipse/equinox/internal/ds/SCRmessages.properties
+	     org/eclipse/equinox/internal/ds/ScrServiceImpl.java
+	     org/eclipse/equinox/internal/ds/SCRUtil.java
+	     org/eclipse/equinox/internal/ds/storage/file/DBObject.java
+	     org/eclipse/equinox/internal/ds/storage/file/FileStorage.java
+	     org/eclipse/equinox/internal/ds/WorkPerformer.java
+	     org/eclipse/equinox/internal/ds/WorkThread.java
+	     org/eclipse/equinox/internal/util/io/Externalizable.java
+	     org/eclipse/equinox/internal/util/io/ExternalizableDictionary.java
+	     org/eclipse/equinox/internal/util/io/PDataStream.java
+	     org/eclipse/equinox/internal/util/string/CharBuffer.java
+	     org/eclipse/equinox/internal/util/xml/ExTagListener.java
+	     org/eclipse/equinox/internal/util/xml/impl/TagImpl.java
+	     org/eclipse/equinox/internal/util/xml/impl/XMLParserImpl.java
+	     org/eclipse/equinox/internal/util/xml/Tag.java
+	     org/eclipse/equinox/internal/util/xml/TagClass.java
+	     org/eclipse/equinox/internal/util/xml/TagListener.java
+	     org/eclipse/equinox/internal/util/xml/XMLParser.java
+	     org/eclipse/equinox/internal/util/xml/XMLReader.java
+	     org/eclipse/equinox/internal/util/xml/XmlSerializer.java
+	     org/eclipse/equinox/internal/util/xml/XMLUtil.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.ds.jar" path="org.eclipse.equinox.ds/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.util"/>

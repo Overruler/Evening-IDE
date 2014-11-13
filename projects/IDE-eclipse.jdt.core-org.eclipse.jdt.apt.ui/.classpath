@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jdt.apt.ui.jar" path="org.eclipse.jdt.apt.ui"/>
-	<!-- org\eclipse\jdt\apt\ui\internal\AptUIPlugin.java
-	     org\eclipse\jdt\apt\ui\internal\Messages.java
-	     org\eclipse\jdt\apt\ui\internal\messages.properties
-	     org\eclipse\jdt\apt\ui\internal\preferences\AdvancedFactoryPathOptionsDialog.java
-	     org\eclipse\jdt\apt\ui\internal\preferences\AptConfigurationBlock.java
-	     org\eclipse\jdt\apt\ui\internal\preferences\AptPreferencePage.java
-	     org\eclipse\jdt\apt\ui\internal\preferences\BaseConfigurationBlock.java
-	     org\eclipse\jdt\apt\ui\internal\preferences\BasePreferencePage.java
-	     org\eclipse\jdt\apt\ui\internal\preferences\FactoryPathConfigurationBlock.java
-	     org\eclipse\jdt\apt\ui\internal\preferences\FactoryPathPreferencePage.java
-	     org\eclipse\jdt\apt\ui\internal\preferences\Messages.java
-	     org\eclipse\jdt\apt\ui\internal\preferences\messages.properties
-	     org\eclipse\jdt\apt\ui\internal\preferences\ProcessorOptionInputDialog.java
-	     org\eclipse\jdt\apt\ui\internal\util\ExceptionHandler.java
-	     org\eclipse\jdt\apt\ui\internal\util\IAptHelpContextIds.java
-	     org\eclipse\jdt\apt\ui\internal\util\Messages.java
-	     org\eclipse\jdt\apt\ui\internal\util\messages.properties -->
+	<!-- org/eclipse/jdt/apt/ui/internal/AptUIPlugin.java
+	     org/eclipse/jdt/apt/ui/internal/Messages.java
+	     org/eclipse/jdt/apt/ui/internal/messages.properties
+	     org/eclipse/jdt/apt/ui/internal/preferences/AdvancedFactoryPathOptionsDialog.java
+	     org/eclipse/jdt/apt/ui/internal/preferences/AptConfigurationBlock.java
+	     org/eclipse/jdt/apt/ui/internal/preferences/AptPreferencePage.java
+	     org/eclipse/jdt/apt/ui/internal/preferences/BaseConfigurationBlock.java
+	     org/eclipse/jdt/apt/ui/internal/preferences/BasePreferencePage.java
+	     org/eclipse/jdt/apt/ui/internal/preferences/FactoryPathConfigurationBlock.java
+	     org/eclipse/jdt/apt/ui/internal/preferences/FactoryPathPreferencePage.java
+	     org/eclipse/jdt/apt/ui/internal/preferences/Messages.java
+	     org/eclipse/jdt/apt/ui/internal/preferences/messages.properties
+	     org/eclipse/jdt/apt/ui/internal/preferences/ProcessorOptionInputDialog.java
+	     org/eclipse/jdt/apt/ui/internal/util/ExceptionHandler.java
+	     org/eclipse/jdt/apt/ui/internal/util/IAptHelpContextIds.java
+	     org/eclipse/jdt/apt/ui/internal/util/Messages.java
+	     org/eclipse/jdt/apt/ui/internal/util/messages.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.apt.ui.jar" path="org.eclipse.jdt.apt.ui/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>

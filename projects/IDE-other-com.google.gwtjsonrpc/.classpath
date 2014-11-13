@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- com/google/gwtjsonrpc/client/AllowCrossSiteRequest.java
+	     com/google/gwtjsonrpc/client/CallbackHandle.java
+	     com/google/gwtjsonrpc/client/CookieAccess.java
+	     com/google/gwtjsonrpc/client/event/BaseRpcEvent.java
+	     com/google/gwtjsonrpc/client/event/RpcCompleteEvent.java
+	     com/google/gwtjsonrpc/client/event/RpcCompleteHandler.java
+	     com/google/gwtjsonrpc/client/event/RpcStartEvent.java
+	     com/google/gwtjsonrpc/client/event/RpcStartHandler.java
+	     com/google/gwtjsonrpc/client/HostPageCache.java
+	     com/google/gwtjsonrpc/client/impl/ArrayResultDeserializer.java
+	     com/google/gwtjsonrpc/client/impl/JsonCall.java
+	     com/google/gwtjsonrpc/client/impl/JsonSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ResultDeserializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/EnumSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/JavaLangString_JsonSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/JavaSqlDate_JsonSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/JavaSqlTimestamp_JsonSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/JavaUtilDate_JsonSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/ListSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/ObjectArraySerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/ObjectMapSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/ObjectSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/PrimitiveArrayResultDeserializers.java
+	     com/google/gwtjsonrpc/client/impl/ser/PrimitiveArraySerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/PrimitiveResultDeserializers.java
+	     com/google/gwtjsonrpc/client/impl/ser/SetSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/StringMapSerializer.java
+	     com/google/gwtjsonrpc/client/impl/ser/VoidResult_JsonSerializer.java
+	     com/google/gwtjsonrpc/client/impl/v1_1/JsonCall11HttpPost.java
+	     com/google/gwtjsonrpc/client/impl/v2_0/JsonCall20HttpGet.java
+	     com/google/gwtjsonrpc/client/impl/v2_0/JsonCall20HttpPost.java
+	     com/google/gwtjsonrpc/client/JsonDefTarget.java
+	     com/google/gwtjsonrpc/client/JsonUtil.java
+	     com/google/gwtjsonrpc/client/RemoteJsonException.java
+	     com/google/gwtjsonrpc/client/RemoteJsonService.java
+	     com/google/gwtjsonrpc/client/RpcImpl.java
+	     com/google/gwtjsonrpc/client/ServerUnavailableException.java
+	     com/google/gwtjsonrpc/client/VoidCallback.java
+	     com/google/gwtjsonrpc/client/VoidResult.java
+	     com/google/gwtjsonrpc/client/XsrfManager.java
+	     com/google/gwtjsonrpc/rebind/RemoteJsonServiceProxyGenerator.java
+	     com/google/gwtjsonrpc/server/ActiveCall.java
+	     com/google/gwtjsonrpc/server/JsonServlet.java
+	     com/google/gwtjsonrpc/server/MapDeserializer.java
+	     com/google/gwtjsonrpc/server/MethodHandle.java
+	     com/google/gwtjsonrpc/server/SignedToken.java
+	     com/google/gwtjsonrpc/server/SqlDateDeserializer.java
+	     com/google/gwtjsonrpc/server/SqlTimestampDeserializer.java
+	     com/google/gwtjsonrpc/server/ValidToken.java
+	     com/google/gwtjsonrpc/server/XsrfException.java -->
+	<classpathentry excluding="com/google/gwtjsonrpc/client/impl/AbstractJsonProxy.java|about.html|about_files/LICENSE.txt|META-INF/MANIFEST.MF|plugin.properties" including="com/google/gwtjsonrpc/client/*|com/google/gwtjsonrpc/client/event/*|com/google/gwtjsonrpc/client/impl/*|com/google/gwtjsonrpc/client/impl/ser/*|com/google/gwtjsonrpc/client/impl/v1_1/*|com/google/gwtjsonrpc/client/impl/v2_0/*|com/google/gwtjsonrpc/rebind/*|com/google/gwtjsonrpc/server/*" kind="src" output="bin/1/plugins/com.google.gwtjsonrpc.jar" path="com.google.gwtjsonrpc"/>
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gwtjsonrpc.jar" path="res"/>
+	<!-- com/google/gwtjsonrpc/client/impl/AbstractJsonProxy.java
+	     com/google/gwt/json/client/JSONValue.java -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.gwtjsonrpc.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-gwt"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gson"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwt.servlet"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.codec"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

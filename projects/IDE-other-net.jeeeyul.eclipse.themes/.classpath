@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- icons/frame.gif
+	     icons/handle-embossed.gif
+	     icons/handle.gif
+	     icons/waiting.png
+	     lib/com.google.guava_15.0.0.v201403281430.jar
+	     lib/org.eclipse.xtend.lib.macro_2.7.1.v201409090713.jar
+	     lib/org.eclipse.xtend.lib_2.7.1.v201409090713.jar
+	     lib/org.eclipse.xtext.xbase.lib_2.7.1.v201409090713.jar
+	     META-INF/MANIFEST.MF
+	     plugin.xml -->
+	<classpathentry excluding="src/|src-gen/|xtend-gen/|.*|.*/" including="META-INF/*|icons/*|lib/*|plugin.xml" kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.jar" path="net.jeeeyul.eclipse.themes"/>
+	<!-- net/jeeeyul/eclipse/themes/css/EditorLineSupport.java
+	     net/jeeeyul/eclipse/themes/css/internal/CSSClasses.java
+	     net/jeeeyul/eclipse/themes/css/internal/CSSCompabilityHelper.java
+	     net/jeeeyul/eclipse/themes/css/internal/dynamicresource/DragHandleFactory.java
+	     net/jeeeyul/eclipse/themes/css/internal/dynamicresource/FrameFactory.java
+	     net/jeeeyul/eclipse/themes/css/internal/dynamicresource/JTDynamicResourceLocator.java
+	     net/jeeeyul/eclipse/themes/css/internal/dynamicresource/JTResourceURI.java
+	     net/jeeeyul/eclipse/themes/css/internal/EditBoxTracker.java
+	     net/jeeeyul/eclipse/themes/css/internal/elements/ExtendedElementProvider.java
+	     net/jeeeyul/eclipse/themes/css/internal/elements/FormHeadingElement.java
+	     net/jeeeyul/eclipse/themes/css/internal/elements/FormTextElement.java
+	     net/jeeeyul/eclipse/themes/css/internal/elements/SectionElement.java
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/FormHeadingCSSPropertyHandler.xtend
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/FormTextCSSPropertyHandler.xtend
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/JStyledTextPropertyHandler.xtend
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/JTabCSSPropertyHandler.xtend
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/SashWidthHandler.java
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/SectionCSSPropertyHandler.xtend
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/ShellCSSHandler.java
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/ToolBarCSSPropertyHandler.java
+	     net/jeeeyul/eclipse/themes/css/internal/NamedColorHack.java
+	     net/jeeeyul/eclipse/themes/DynamicResourceProcessor.java
+	     net/jeeeyul/eclipse/themes/EmptyPartStackProcessor.java
+	     net/jeeeyul/eclipse/themes/internal/Debug.java
+	     net/jeeeyul/eclipse/themes/internal/ENVHelper.java
+	     net/jeeeyul/eclipse/themes/internal/FPSCounter.java
+	     net/jeeeyul/eclipse/themes/internal/StartUp.java
+	     net/jeeeyul/eclipse/themes/JTRuntime.java
+	     net/jeeeyul/eclipse/themes/rendering/internal/JTabRendererHelper.java
+	     net/jeeeyul/eclipse/themes/rendering/internal/Shadow9PatchFactory.java
+	     net/jeeeyul/eclipse/themes/rendering/JeeeyulsTabRenderer.xtend
+	     net/jeeeyul/eclipse/themes/rendering/JTabSettings.java
+	     net/jeeeyul/eclipse/themes/rendering/VerticalAlignment.java
+	     net/jeeeyul/eclipse/themes/util/HackedField.java
+	     net/jeeeyul/eclipse/themes/util/HackedMethod0.java
+	     net/jeeeyul/eclipse/themes/util/HackedMethod1.java
+	     net/jeeeyul/eclipse/themes/util/ImageDataUtil.java -->
+	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.jar" path="net.jeeeyul.eclipse.themes/src"/>
+	<!-- net/jeeeyul/eclipse/themes/CoreImages.java -->
+	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.jar" path="net.jeeeyul.eclipse.themes/src-gen"/>
+	<!-- net/jeeeyul/eclipse/themes/css/internal/handlers/.FormHeadingCSSPropertyHandler.java._trace
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/.FormTextCSSPropertyHandler.java._trace
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/.JStyledTextPropertyHandler.java._trace
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/.JTabCSSPropertyHandler.java._trace
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/.SectionCSSPropertyHandler.java._trace
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/FormHeadingCSSPropertyHandler.java
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/FormTextCSSPropertyHandler.java
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/JStyledTextPropertyHandler.java
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/JTabCSSPropertyHandler.java
+	     net/jeeeyul/eclipse/themes/css/internal/handlers/SectionCSSPropertyHandler.java
+	     net/jeeeyul/eclipse/themes/rendering/.JeeeyulsTabRenderer.java._trace
+	     net/jeeeyul/eclipse/themes/rendering/JeeeyulsTabRenderer.java -->
+	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.jar" path="net.jeeeyul.eclipse.themes/xtend-gen"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.inject"/>
+	<classpathentry kind="src" path="/IDE-other-net.jeeeyul.swtend"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.contexts"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.di"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.swt.theme"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.model.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench.renderers.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.xtend.lib.macro_2.7.1.v201409090713.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/com.google.guava_15.0.0.v201403281430.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.xtend.lib_2.7.1.v201409090713.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.xtext.xbase.lib_2.7.1.v201409090713.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

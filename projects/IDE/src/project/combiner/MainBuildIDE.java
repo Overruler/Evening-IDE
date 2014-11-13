@@ -51,7 +51,6 @@ public class MainBuildIDE {
 	private static final DateTimeFormatter DATE_SHORT = DateTimeFormatter.ofPattern(DATE_PATTERN_SHORT, ENGLISH);
 	private static final DateTimeFormatter DATE_LONG = DateTimeFormatter.ofPattern(DATE_PATTERN_LONG, ENGLISH);
 	private static final ZonedDateTime NOW = ZonedDateTime.now(ZoneId.of("UTC"));
-	private static final String TIMESTAMP = DATE_SHORT.format(NOW);
 	private static final Map<String, String> ENV = environment();
 	private static final String FILES = ENV.getOrDefault("files", "");
 	private static final String BUILD_TYPE = ENV.getOrDefault("build", "test");
@@ -81,7 +80,7 @@ public class MainBuildIDE {
 	private static HashMap<Path, HashMap<String, String>> pluginToManifest;
 
 	public static void main(String[] args) throws IOException, URISyntaxException, InterruptedException {
-		fullBuild = "test".equals(BUILD_TYPE) || "full".equals(BUILD_TYPE) || isTargetOutdated();
+		fullBuild = "test".equals(BUILD_TYPE) || "full".equals(BUILD_TYPE);
 		System.out.print("IDE " + BUILD_TYPE + " build, ");
 		ArrayList<Path> changes = reportedChanges();
 		System.out.println(changes.size() + " file(s) to go, target is " + TARGET_IDE);
@@ -101,6 +100,9 @@ public class MainBuildIDE {
 	}
 	private static void updateFiles(String workspace) throws IOException {
 		try {
+			snapshot.copyFiles(
+				"plugins/org.eclipse.m2e.maven.indexer/indexer-core-3.1.0.jar/org/apache/maven/index",
+				"plugins/org.eclipse.m2e.maven.indexer/org/apache/maven/index");
 			replacePlaceholders();
 			pluginToManifest = getPluginToManifest();
 			if(workspace != null && isRunningSelfHosted()) {
@@ -384,15 +386,20 @@ public class MainBuildIDE {
 		ArrayList<String> list = ArrayList.of(FILES.replaceAll("^\"|\"$", "").split("\" \"")).removeIf(String::isEmpty);
 		ArrayList<Path> list2 = list.map(Paths::get);
 		list2.replaceAll(p -> replaceTrackingPathsWithReal(links, projects, p));
-		list2.filter(p -> isTrackedFile(projects, p));
+		list2.filter(p -> p.startsWith(ROOT));
+		if(list2.size() == 1) {
+			Path path = list2.get(0);
+			if(path.startsWith(projects)) {
+				Path relativePath = ROOT.relativize(path);
+				if(relativePath.getNameCount() > 1 && isWatchedFile(relativePath) == false) {
+					Path folder = projects.resolve(relativePath.getName(1));
+					ArrayList<Path> list3 = Files.walk(folder).toList();
+					list3.filter(p -> Files.isRegularFile(p) && isWatchedFile(ROOT.relativize(p)));
+					return list3;
+				}
+			}
+		}
 		return list2;
-	}
-	private static boolean isTrackedFile(Path projects, Path changed) {
-		int minNameCount = projects.getNameCount() + 2;
-		return changed.getNameCount() > minNameCount &&
-		changed.startsWith(projects) &&
-		changed.subpath(0, minNameCount).endsWith("bin") ||
-		changed.startsWith(ROOT);
 	}
 	private static Path replaceTrackingPathsWithReal(Path links, Path projects, Path p) {
 		if(p.startsWith(links)) {
@@ -401,6 +408,14 @@ public class MainBuildIDE {
 		return p;
 	}
 	private static void replacePlaceholders() throws IOException {
+		updateJetty();
+		updateM2e();
+		updatePomVersionToFile(
+			"libraries/apache.httpcore/pom.xml",
+			"plugins/org.apache.httpcomponents.httpcore.jar/META-INF/MANIFEST.MF");
+		updatePomVersionToFile(
+			"libraries/apache.httpclient/pom.xml",
+			"plugins/org.apache.httpcomponents.httpclient.jar/META-INF/MANIFEST.MF");
 		updatePomVersionToManifest(
 			"libraries/ow2.sat4j/org.sat4j.core/pom.xml",
 			"plugins/org.sat4j.core.jar/META-INF/MANIFEST.MF",
@@ -409,49 +424,210 @@ public class MainBuildIDE {
 			"libraries/ow2.sat4j/org.sat4j.pb/pom.xml",
 			"plugins/org.sat4j.pb.jar/META-INF/MANIFEST.MF",
 			"9.9.9.token");
+		updateAntVersionToFile(
+			"libraries/apache.ant/STATUS",
+			"ant-antlr.jar/META-INF/MANIFEST.MF",
+			"ant-apache-bcel.jar/META-INF/MANIFEST.MF",
+			"ant-apache-bsf.jar/META-INF/MANIFEST.MF",
+			"ant-apache-log4j.jar/META-INF/MANIFEST.MF",
+			"ant-apache-oro.jar/META-INF/MANIFEST.MF",
+			"ant-apache-regexp.jar/META-INF/MANIFEST.MF",
+			"ant-apache-resolver.jar/META-INF/MANIFEST.MF",
+			"ant-apache-xalan2.jar/META-INF/MANIFEST.MF",
+			"ant-commons-logging.jar/META-INF/MANIFEST.MF",
+			"ant-commons-net.jar/META-INF/MANIFEST.MF",
+			"ant-jai.jar/META-INF/MANIFEST.MF",
+			"ant-javamail.jar/META-INF/MANIFEST.MF",
+			"ant-jdepend.jar/META-INF/MANIFEST.MF",
+			"ant-jmf.jar/META-INF/MANIFEST.MF",
+			"ant-jsch.jar/META-INF/MANIFEST.MF",
+			"ant-junit.jar/META-INF/MANIFEST.MF",
+			"ant-junit4.jar/META-INF/MANIFEST.MF",
+			"ant-launcher.jar/META-INF/MANIFEST.MF",
+			"ant-netrexx.jar/META-INF/MANIFEST.MF",
+			"ant-swing.jar/META-INF/MANIFEST.MF",
+			"ant-testutil.jar/META-INF/MANIFEST.MF",
+			"ant.jar/META-INF/MANIFEST.MF");
 		updatePomVersionToFile("libraries/ow2.sat4j/org.sat4j.core/pom.xml", "plugins/org.sat4j.core.jar/sat4j.version");
+		updatePomVersionToMaven(
+			"eclipse.webtools-common/plugins/org.eclipse.wst.common.frameworks/pom.xml",
+			"org.eclipse.wst.common.frameworks.jar",
+			"org.eclipse.webtools.common",
+			"org.eclipse.wst.common.frameworks");
+		updatePomVersionToMaven(
+			"eclipse.webtools-sourceediting/bundles/org.eclipse.wst.sse.ui/pom.xml",
+			"org.eclipse.wst.sse.ui.jar",
+			"org.eclipse.webtools.sourceediting",
+			"org.eclipse.wst.sse.ui");
+		updatePomVersionToMaven(
+			"eclipse.webtools-sourceediting/bundles/org.eclipse.wst.xml.core/pom.xml",
+			"org.eclipse.wst.xml.core.jar",
+			"org.eclipse.webtools.sourceediting",
+			"org.eclipse.wst.xml.core");
+		updatePomVersionToMaven(
+			"nodeclipse.editbox/pm.eclipse.editbox/pom.xml",
+			"pm.eclipse.editbox.jar",
+			"pm.eclipse.editbox",
+			"pm.eclipse.editbox");
+		updatePomVersionToMaven(
+			"eclipse.jgit/org.eclipse.jgit.ui/pom.xml",
+			"org.eclipse.jgit.ui.jar",
+			"org.eclipse.jgit",
+			"org.eclipse.jgit.ui");
+		updatePomVersionToMaven(
+			"nodeclipse.pluginslist/org.nodeclipse.pluginslist.core/pom.xml",
+			"org.nodeclipse.pluginslist.core.jar",
+			"org.nodeclipse.pluginslist",
+			"org.nodeclipse.pluginslist.core");
+		updatePomVersionToMaven(
+			"eclipse.e4.tools/bundles/org.eclipse.e4.tools.spy/pom.xml",
+			"org.eclipse.e4.tools.spy.jar",
+			"org.eclipse.e4",
+			"org.eclipse.e4.tools.spy");
+		updatePomVersionToMaven(
+			"eclipse.e4.tools/bundles/org.eclipse.e4.tools.css.spy/pom.xml",
+			"org.eclipse.e4.tools.css.spy.jar",
+			"org.eclipse.e4",
+			"org.eclipse.e4.tools.css.spy");
+		updatePomVersionToMaven(
+			"eclipse.egit.github/org.eclipse.mylyn.github.doc/pom.xml",
+			"org.eclipse.mylyn.github.doc.jar",
+			"org.eclipse.mylyn.github",
+			"org.eclipse.mylyn.github.doc");
+		updatePomVersionToMaven(
+			"eclipse.jgit/org.eclipse.jgit.pgm/pom.xml",
+			"org.eclipse.jgit.pgm.jar",
+			"org.eclipse.jgit",
+			"org.eclipse.jgit.pgm");
+		updatePomVersionToMaven(
+			"eclipse.egit/org.eclipse.egit.mylyn.ui/pom.xml",
+			"org.eclipse.egit.mylyn.ui.jar",
+			"org.eclipse.egit",
+			"org.eclipse.egit.mylyn.ui");
+		updatePomVersionToMaven(
+			"eclipse.egit.github/org.eclipse.egit.github.core/pom.xml",
+			"org.eclipse.egit.github.core.jar",
+			"org.eclipse.egit.github",
+			"org.eclipse.egit.github.core");
+		updatePomVersionToMaven(
+			"eclipse.egit.github/org.eclipse.mylyn.github.core/pom.xml",
+			"org.eclipse.mylyn.github.core.jar",
+			"org.eclipse.mylyn.github",
+			"org.eclipse.mylyn.github.core");
+		updatePomVersionToMaven(
+			"eclipse.gef/org.eclipse.draw2d/pom.xml",
+			"org.eclipse.draw2d.jar",
+			"org.eclipse.draw2d.plugins",
+			"org.eclipse.draw2d");
+		updatePomVersionToMaven(
+			"eclipse.egit.github/org.eclipse.mylyn.github.ui/pom.xml",
+			"org.eclipse.mylyn.github.ui.jar",
+			"org.eclipse.mylyn.github",
+			"org.eclipse.mylyn.github.ui");
 	}
-	private static void updatePomVersionToFile(String pom, String file) throws IOException {
-		Path filePath = fromZipPath(file);
-		String text = readVersionFromPom(pom) + "\n";
-		overwriteTextFile(filePath, text);
+	private static void updateJetty() throws IOException {
+		String group = "org.eclipse.jetty";
+		String dir = "eclipse.jetty.project";
+		updatePomVersionToJetty(group, dir, "continuation");
+		updatePomVersionToJetty(group, dir, "security");
+		updatePomVersionToJetty(group, dir, "servlet");
+		updatePomVersionToJetty(group, dir, "server");
+		updatePomVersionToJetty(group, dir, "http");
+		updatePomVersionToJetty(group, dir, "util");
+		updatePomVersionToJetty(group, dir, "io");
+	}
+	private static void updatePomVersionToJetty(String group, String dir, String project) throws IOException {
+		String plugin = "jetty-" + project;
+		String pomPath = dir + "/" + plugin + "/pom.xml";
+		String pluginDir = "org.eclipse.jetty." + project + ".jar";
+		updatePomVersionToMaven(pomPath, pluginDir, group, plugin);
+	}
+	private static void updateM2e() throws IOException {
+		String dir1 = "eclipse.m2e.core";
+		String group1 = "org.eclipse.m2e";
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.core.ui");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.core");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.discovery");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.editor.xml");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.editor");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.jdt.ui");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.jdt");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.launching");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.lifecyclemapping.defaults");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.model.edit");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.profiles.core");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.profiles.ui");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.refactoring");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.scm");
+		String dir2 = "eclipse.m2e.core/m2e-maven-runtime";
+		undatePomVersionToM2e(dir2, group1, "org.eclipse.m2e.maven.runtime");
+		undatePomVersionToM2e(dir2, group1, "org.eclipse.m2e.maven.runtime.slf4j.simple");
+		undatePomVersionToM2e(dir2, group1, "org.eclipse.m2e.archetype.common");
+		undatePomVersionToM2e(dir2, group1, "org.eclipse.m2e.maven.indexer");
+		String dir3 = "eclipse.m2e.workspace";
+		String group2 = "io.takari.m2e.workspace";
+		undatePomVersionToM2e(dir3, group2, "org.eclipse.m2e.workspace.cli");
+	}
+	private static void undatePomVersionToM2e(String dirName, String group, String plugin) throws IOException {
+		String pomPath = dirName + "/" + plugin + "/pom.xml";
+		updatePomVersionToMaven(pomPath, plugin, group, plugin);
+	}
+	private static void updatePomVersionToMaven(String pomPath, String pluginDir, String group, String plugin)
+		throws IOException {
+		String pom = "libraries/" + pomPath;
+		String manifest = "plugins/" + pluginDir + "/META-INF/MANIFEST.MF";
+		String pomProps = "plugins/" + pluginDir + "/META-INF/maven/" + group + "/" + plugin + "/pom.properties";
+		String pomXml = "plugins/" + pluginDir + "/META-INF/maven/" + group + "/" + plugin + "/pom.xml";
+		updatePomVersionToFile(pom, manifest, pomProps, pomXml);
+	}
+	private static void updateAntVersionToFile(String ant, String... files) throws IOException {
+		String fullVersion = readVersionFromFile(ant, "Development:", "(in GIT Branch: master)", "");
+		updateVersionToFile(fullVersion, files);
+	}
+	private static void updatePomVersionToFile(String pom, String... files) throws IOException {
+		String fullVersion = readVersionFromPom(pom).replace("SNAPSHOT", "qualifier");
+		updateVersionToFile(fullVersion, files);
+	}
+	private static void updateVersionToFile(String fullVersion, String... files) throws IOException {
+		int indexOf = fullVersion.indexOf('.');
+		String majorVersion = indexOf == -1 ? fullVersion : fullVersion.substring(0, indexOf);
+		indexOf = indexOf == -1 ? -1 : fullVersion.indexOf('.', indexOf + 1);
+		String minorVersion = indexOf == -1 ? fullVersion : fullVersion.substring(0, indexOf);
+		indexOf = indexOf == -1 ? -1 : fullVersion.indexOf('.', indexOf + 1);
+		String serviceVersion = indexOf == -1 ? fullVersion : fullVersion.substring(0, indexOf);
+		for(String file : files) {
+			Path filePath = fromZipPath(file);
+			findAndReplaceInTextFile(filePath, "99.99.99.99", fullVersion);
+			findAndReplaceInTextFile(filePath, "99.99.99", serviceVersion);
+			findAndReplaceInTextFile(filePath, "99.99", minorVersion);
+			findAndReplaceInTextFile(filePath, "99", majorVersion);
+		}
 	}
 	private static void updatePomVersionToManifest(String pom, String manifest, String token) throws IOException {
 		Path manifestPath = fromZipPath(manifest);
 		String versionFromPom = readVersionFromPom(pom);
-		findAndReplaceInTextFile1(manifestPath, token, versionFromPom);
+		findAndReplaceInTextFile(manifestPath, token, versionFromPom);
 	}
 	private static String readVersionFromPom(String pom) throws IOException {
-		ArrayList<String> list = Files.readAllLines(ROOT.resolve(pom)).filter(s -> s.contains("<version>"));
+		return readVersionFromFile(pom, "<version>", "</version>", "SNAPSHOT");
+	}
+	private static String readVersionFromFile(String file, String openingTag, String closingTag, String marker)
+		throws IOException {
+		ArrayList<String> list =
+			Files.readAllLines(ROOT.resolve(file)).filter(s -> s.contains(openingTag) && s.contains(marker));
 		if(list.isEmpty()) {
 			return "9.9.9.token";
 		}
-		String version = list.get(0).trim().replace("<version>", "").replace("</version>", "");
+		String version = list.get(-1).replace(openingTag, "").replace(closingTag, "").trim();
 		return version.replace('-', '.');
 	}
-	private static void findAndReplaceInTextFile1(Path key, String target, String replacement) throws IOException {
-		findAndReplaceInTextFile(key, target, replacement);
-	}
 	private static void findAndReplaceInTextFile(Path key, String target, String replacement) throws IOException {
-		String replace = snapshot.getFileAsString(toZipPath(key)).replace(target, replacement);
+		String fileAsString = snapshot.getFileAsString(toZipPath(key));
+		if(fileAsString == null) {
+			return;
+		}
+		String replace = fileAsString.replace(target, replacement);
 		snapshot.replaceFile(toZipPath(key), replace);
-	}
-	private static void overwriteTextFile(Path key, String text) throws IOException {
-		snapshot.replaceFile(toZipPath(key), text);
-	}
-	private static boolean isTargetOutdated() throws IOException {
-		Path otherIde = TARGET_IDE == TARGET_IDE1 ? TARGET_IDE2 : TARGET_IDE1;
-		Path targetInfo = TARGET_IDE.resolve(BUNDLES_INFO);
-		if(Files.isRegularFile(targetInfo) == false) {
-			return true;
-		}
-		Path otherInfo = otherIde.resolve(BUNDLES_INFO);
-		if(Files.isRegularFile(otherInfo) == false) {
-			return false;
-		}
-		Instant otherInstant = Files.getLastModifiedTime(otherInfo).toInstant();
-		Instant targetInstant = Files.getLastModifiedTime(targetInfo).toInstant();
-		return otherInstant.isAfter(targetInstant);
 	}
 	private static void writeIDE() throws IOException, InterruptedException {
 		if(fullBuild && Files.isDirectory(TARGET_IDE)) {
@@ -505,11 +681,15 @@ public class MainBuildIDE {
 		String name = symbolicName.split(";")[0].trim();
 		return name + "_" + version + suffix;
 	}
-	private static HashMap<Path, HashMap<String, String>> getPluginToManifest() throws IOException {
+	static HashMap<Path, HashMap<String, String>> getPluginToManifest() throws IOException {
 		HashMap<Path, HashMap<String, String>> map = new HashMap<>();
 		for(Path pluginPath : snapshot.listAll(Paths.get("plugins"))) {
 			Plugin plugin = snapshot.getFileAsPlugin(pluginPath);
-			map.put(fromZipPath(pluginPath), plugin.manifest);
+			if(plugin != null &&
+			plugin.manifest.containsKey("Bundle-SymbolicName") &&
+			plugin.manifest.containsKey("Bundle-Version")) {
+				map.put(fromZipPath(pluginPath), plugin.manifest);
+			}
 		}
 		return map;
 	}
@@ -664,7 +844,7 @@ public class MainBuildIDE {
 	private static void updateTime() {
 		timeMillis = System.currentTimeMillis() + 1000;
 	}
-	private static Path determineUnusedTarget() {
+	public static Path determineUnusedTarget() {
 		if(examineIdeTarget(TARGET_IDE1)) {
 			return TARGET_IDE1;
 		}
@@ -703,7 +883,8 @@ public class MainBuildIDE {
 			ArrayList<String> lines = map.keySet().toArrayList().sort().replaceAll(s -> s + "=" + map.get(s)).add("");
 			try {
 				Files.createDirectories(target);
-				Files.write(target.resolve(prefix + TIMESTAMP + ".properties"), lines, UTF8);
+				String timestamp2 = DateTimeFormatter.ofPattern("yyyy_MM_dd_HH_mm_ss", ENGLISH).format(NOW);
+				Files.write(target.resolve(prefix + timestamp2 + ".properties"), lines, UTF8);
 			} catch(IOException e) {
 				e.printStackTrace(System.out);
 				System.out.println("Could not create log of build environment, proceeding anyway...");

@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.eclipse.jar" path="org.eclipse.equinox.p2.touchpoint.eclipse"/>
-	<!-- org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\ActionConstants.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\AddJVMArgumentAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\AddProgramArgumentAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\AddProgramPropertyAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\AddRepositoryAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\AddSourceBundleAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\CheckTrustAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\ChmodAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\CollectAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\InstallBundleAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\InstallFeatureAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\LinkAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\MarkStartedAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\Messages.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\messages.properties
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\RemoveJVMArgumentAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\RemoveProgramArgumentAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\RemoveProgramPropertyAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\RemoveRepositoryAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\RemoveSourceBundleAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\SetJvmAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\SetLauncherNameAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\SetProgramPropertyAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\SetStartLevelAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\UninstallBundleAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\actions\UninstallFeatureAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\Activator.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\AgentFromInstall.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\AggregatedBundleRepository.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\DirectorUtil.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\EclipseMarkSetProvider.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\EclipseTouchpoint.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\LazyManipulator.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\Messages.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\messages.properties
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\PlatformConfigurationWrapper.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\PublisherUtil.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\SourceManipulator.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\Util.java
-	     org\eclipse\equinox\internal\p2\touchpoint\eclipse\WhatIsRunning.java
-	     org\eclipse\equinox\internal\p2\update\Configuration.java
-	     org\eclipse\equinox\internal\p2\update\ConfigurationCache.java
-	     org\eclipse\equinox\internal\p2\update\ConfigurationConstants.java
-	     org\eclipse\equinox\internal\p2\update\ConfigurationIO.java
-	     org\eclipse\equinox\internal\p2\update\ConfigurationParser.java
-	     org\eclipse\equinox\internal\p2\update\ConfigurationWriter.java
-	     org\eclipse\equinox\internal\p2\update\Feature.java
-	     org\eclipse\equinox\internal\p2\update\Messages.java
-	     org\eclipse\equinox\internal\p2\update\messages.properties
-	     org\eclipse\equinox\internal\p2\update\PathUtil.java
-	     org\eclipse\equinox\internal\p2\update\Site.java
-	     org\eclipse\equinox\internal\p2\update\XMLWriter.java
-	     org\eclipse\equinox\p2\touchpoint\eclipse\query\OSGiBundleQuery.java -->
+	<!-- org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/ActionConstants.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/AddJVMArgumentAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/AddProgramArgumentAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/AddProgramPropertyAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/AddRepositoryAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/AddSourceBundleAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/CheckTrustAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/ChmodAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/CollectAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/InstallBundleAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/InstallFeatureAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/LinkAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/MarkStartedAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/Messages.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/messages.properties
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/RemoveJVMArgumentAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/RemoveProgramArgumentAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/RemoveProgramPropertyAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/RemoveRepositoryAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/RemoveSourceBundleAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/SetJvmAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/SetLauncherNameAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/SetProgramPropertyAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/SetStartLevelAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/UninstallBundleAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/actions/UninstallFeatureAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/Activator.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/AgentFromInstall.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/AggregatedBundleRepository.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/DirectorUtil.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/EclipseMarkSetProvider.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/EclipseTouchpoint.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/LazyManipulator.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/Messages.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/messages.properties
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/PlatformConfigurationWrapper.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/PublisherUtil.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/SourceManipulator.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/Util.java
+	     org/eclipse/equinox/internal/p2/touchpoint/eclipse/WhatIsRunning.java
+	     org/eclipse/equinox/internal/p2/update/Configuration.java
+	     org/eclipse/equinox/internal/p2/update/ConfigurationCache.java
+	     org/eclipse/equinox/internal/p2/update/ConfigurationConstants.java
+	     org/eclipse/equinox/internal/p2/update/ConfigurationIO.java
+	     org/eclipse/equinox/internal/p2/update/ConfigurationParser.java
+	     org/eclipse/equinox/internal/p2/update/ConfigurationWriter.java
+	     org/eclipse/equinox/internal/p2/update/Feature.java
+	     org/eclipse/equinox/internal/p2/update/Messages.java
+	     org/eclipse/equinox/internal/p2/update/messages.properties
+	     org/eclipse/equinox/internal/p2/update/PathUtil.java
+	     org/eclipse/equinox/internal/p2/update/Site.java
+	     org/eclipse/equinox/internal/p2/update/XMLWriter.java
+	     org/eclipse/equinox/p2/touchpoint/eclipse/query/OSGiBundleQuery.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.eclipse.jar" path="org.eclipse.equinox.p2.touchpoint.eclipse/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.xml"/>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/apache/lucene/index/memory/AnalyzerUtil.java
+	     org/apache/lucene/index/memory/MemoryIndex.java
+	     org/apache/lucene/index/memory/PatternAnalyzer.java
+	     org/apache/lucene/index/memory/SynonymMap.java
+	     org/apache/lucene/index/memory/SynonymTokenFilter.java -->
+	<classpathentry including="org/apache/lucene/index/memory/*" kind="src" output="bin/1/plugins/org.apache.lucene.memory.jar" path="lucene-2.9.4/contrib/memory/src/java"/>
+	<!-- about.html
+	     about_files/APACHE-LICENSE-2.0.txt
+	     about_files/LUCENE-NOTICE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.lucene.memory.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-lucene-2.9.4"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.lucene.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

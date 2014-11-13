@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.tasks.ui.jar" path="org.eclipse.mylyn.wikitext.tasks.ui"/>
+	<!-- org/eclipse/mylyn/internal/wikitext/tasks/ui/commands/IncrementalFindHandler.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/editor/ConfluenceMarkupTaskEditorExtension.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/editor/MarkdownMarkupTaskEditorExtension.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/editor/MediaWikiMarkupTaskEditorExtension.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/editor/TextileMarkupTaskEditorExtension.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/editor/TracWikiMarkupTaskEditorExtension.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/editor/TWikiMarkupTaskEditorExtension.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/preferences/MarkupViewerPreferencePage.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/preferences/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/util/bugzilla/BugzillaGeneratedCommentBlock.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/util/bugzilla/BugzillaQuoteBlock.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/util/Util.java
+	     org/eclipse/mylyn/internal/wikitext/tasks/ui/WikiTextTasksUiPlugin.java
+	     org/eclipse/mylyn/wikitext/tasks/ui/editor/MarkupTaskEditorExtension.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.tasks.ui.jar" path="org.eclipse.mylyn.wikitext.tasks.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.confluence.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.confluence.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.markdown.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.markdown.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.mediawiki.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.mediawiki.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.textile.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.textile.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.tracwiki.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.tracwiki.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.twiki.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.twiki.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

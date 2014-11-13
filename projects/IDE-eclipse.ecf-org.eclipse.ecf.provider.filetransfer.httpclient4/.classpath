@@ -5,26 +5,26 @@
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/|META-INF/MANIFEST.MF" including="about.html|asl-v20.txt|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.httpclient4.jar" path="org.eclipse.ecf.provider.filetransfer.httpclient4"/>
-	<!-- org\eclipse\ecf\internal\provider\filetransfer\httpclient4\Activator.java
-	     org\eclipse\ecf\internal\provider\filetransfer\httpclient4\ConnectingSocketMonitor.java
-	     org\eclipse\ecf\internal\provider\filetransfer\httpclient4\DebugOptions.java
-	     org\eclipse\ecf\internal\provider\filetransfer\httpclient4\ECFHttpClientProtocolSocketFactory.java
-	     org\eclipse\ecf\internal\provider\filetransfer\httpclient4\ECFHttpClientSecureProtocolSocketFactory.java
-	     org\eclipse\ecf\internal\provider\filetransfer\httpclient4\HttpClientProxyCredentialProvider.java
-	     org\eclipse\ecf\internal\provider\filetransfer\httpclient4\ISocketConnectionCallback.java
-	     org\eclipse\ecf\internal\provider\filetransfer\httpclient4\ISSLSocketFactoryModifier.java
-	     org\eclipse\ecf\internal\provider\filetransfer\httpclient4\Messages.java
-	     org\eclipse\ecf\internal\provider\filetransfer\httpclient4\messages.properties
-	     org\eclipse\ecf\provider\filetransfer\httpclient4\HttpClientBrowseFileTransferFactory.java
-	     org\eclipse\ecf\provider\filetransfer\httpclient4\HttpClientDefaultSSLSocketFactoryModifier.java
-	     org\eclipse\ecf\provider\filetransfer\httpclient4\HttpClientFileSystemBrowser.java
-	     org\eclipse\ecf\provider\filetransfer\httpclient4\HttpClientOptions.java
-	     org\eclipse\ecf\provider\filetransfer\httpclient4\HttpClientRetrieveFileTransfer.java
-	     org\eclipse\ecf\provider\filetransfer\httpclient4\HttpClientRetrieveFileTransferFactory.java
-	     org\eclipse\ecf\provider\filetransfer\httpclient4\HttpClientSslTrustManager.java
-	     org\eclipse\ecf\provider\filetransfer\httpclient4\NTLMProxyDetector.java -->
+	<!-- org/eclipse/ecf/internal/provider/filetransfer/httpclient4/Activator.java
+	     org/eclipse/ecf/internal/provider/filetransfer/httpclient4/ConnectingSocketMonitor.java
+	     org/eclipse/ecf/internal/provider/filetransfer/httpclient4/DebugOptions.java
+	     org/eclipse/ecf/internal/provider/filetransfer/httpclient4/ECFHttpClientProtocolSocketFactory.java
+	     org/eclipse/ecf/internal/provider/filetransfer/httpclient4/ECFHttpClientSecureProtocolSocketFactory.java
+	     org/eclipse/ecf/internal/provider/filetransfer/httpclient4/HttpClientProxyCredentialProvider.java
+	     org/eclipse/ecf/internal/provider/filetransfer/httpclient4/ISocketConnectionCallback.java
+	     org/eclipse/ecf/internal/provider/filetransfer/httpclient4/ISSLSocketFactoryModifier.java
+	     org/eclipse/ecf/internal/provider/filetransfer/httpclient4/Messages.java
+	     org/eclipse/ecf/internal/provider/filetransfer/httpclient4/messages.properties
+	     org/eclipse/ecf/provider/filetransfer/httpclient4/HttpClientBrowseFileTransferFactory.java
+	     org/eclipse/ecf/provider/filetransfer/httpclient4/HttpClientDefaultSSLSocketFactoryModifier.java
+	     org/eclipse/ecf/provider/filetransfer/httpclient4/HttpClientFileSystemBrowser.java
+	     org/eclipse/ecf/provider/filetransfer/httpclient4/HttpClientOptions.java
+	     org/eclipse/ecf/provider/filetransfer/httpclient4/HttpClientRetrieveFileTransfer.java
+	     org/eclipse/ecf/provider/filetransfer/httpclient4/HttpClientRetrieveFileTransferFactory.java
+	     org/eclipse/ecf/provider/filetransfer/httpclient4/HttpClientSslTrustManager.java
+	     org/eclipse/ecf/provider/filetransfer/httpclient4/NTLMProxyDetector.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.httpclient4.jar" path="org.eclipse.ecf.provider.filetransfer.httpclient4/src"/>
-	<!-- META-INF\MANIFEST.MF -->
+	<!-- META-INF/MANIFEST.MF -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ecf.provider.filetransfer.httpclient4.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-org.apache.httpcomponents.httpclient"/>

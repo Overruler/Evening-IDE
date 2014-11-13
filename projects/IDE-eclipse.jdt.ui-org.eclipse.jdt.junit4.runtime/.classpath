@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jdt.junit4.runtime.jar" path="org.eclipse.jdt.junit4.runtime"/>
-	<!-- org\eclipse\jdt\internal\junit4\runner\FailuresFirstSorter.java
-	     org\eclipse\jdt\internal\junit4\runner\JUnit4Identifier.java
-	     org\eclipse\jdt\internal\junit4\runner\JUnit4TestClassReference.java
-	     org\eclipse\jdt\internal\junit4\runner\JUnit4TestListener.java
-	     org\eclipse\jdt\internal\junit4\runner\JUnit4TestLoader.java
-	     org\eclipse\jdt\internal\junit4\runner\JUnit4TestMethodReference.java
-	     org\eclipse\jdt\internal\junit4\runner\JUnit4TestReference.java -->
+	<!-- org/eclipse/jdt/internal/junit4/runner/FailuresFirstSorter.java
+	     org/eclipse/jdt/internal/junit4/runner/JUnit4Identifier.java
+	     org/eclipse/jdt/internal/junit4/runner/JUnit4TestClassReference.java
+	     org/eclipse/jdt/internal/junit4/runner/JUnit4TestListener.java
+	     org/eclipse/jdt/internal/junit4/runner/JUnit4TestLoader.java
+	     org/eclipse/jdt/internal/junit4/runner/JUnit4TestMethodReference.java
+	     org/eclipse/jdt/internal/junit4/runner/JUnit4TestReference.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.junit4.runtime.jar" path="org.eclipse.jdt.junit4.runtime/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.junit.runtime"/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/eclipse/m2e/workspace/internal/Maven30WorkspaceReader.java
+	     org/eclipse/m2e/workspace/internal/Maven31WorkspaceReader.java
+	     org/eclipse/m2e/workspace/MutableWorkspaceState.java
+	     org/eclipse/m2e/workspace/WorkspaceState.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.workspace.cli.jar" path="org.eclipse.m2e.workspace.cli/src/main/java"/>
+	<!-- about.html -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.workspace.cli.jar" path="org.eclipse.m2e.workspace.cli/src/main/resources"/>
+	<!-- META-INF/MANIFEST.MF
+	     META-INF/maven/io.takari.m2e.workspace/org.eclipse.m2e.workspace.cli/pom.properties
+	     META-INF/maven/io.takari.m2e.workspace/org.eclipse.m2e.workspace.cli/pom.xml
+	     META-INF/plexus/components.xml
+	     META-INF/sisu/javax.inject.Named -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.workspace.cli.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-other-javax.inject"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     icons\full\dtool16\external_tools.gif
-	     icons\full\dtool16\external_tools.png
-	     icons\full\etool16\external_tools.gif
-	     icons\full\etool16\external_tools.png
-	     icons\full\obj16\builder.gif
-	     icons\full\obj16\builder.png
-	     icons\full\obj16\build_tab.gif
-	     icons\full\obj16\build_tab.png
-	     icons\full\obj16\classpath.gif
-	     icons\full\obj16\classpath.png
-	     icons\full\obj16\external_tools.gif
-	     icons\full\obj16\external_tools.png
-	     icons\full\obj16\invalid_build_tool.gif
-	     icons\full\obj16\invalid_build_tool.png
-	     icons\full\obj16\main_tab.gif
-	     icons\full\obj16\main_tab.png
-	     icons\full\wizban\ext_tools_wiz.png
-	     META-INF\MANIFEST.MF
+	     icons/full/dtool16/external_tools.gif
+	     icons/full/dtool16/external_tools.png
+	     icons/full/etool16/external_tools.gif
+	     icons/full/etool16/external_tools.png
+	     icons/full/obj16/builder.gif
+	     icons/full/obj16/builder.png
+	     icons/full/obj16/build_tab.gif
+	     icons/full/obj16/build_tab.png
+	     icons/full/obj16/classpath.gif
+	     icons/full/obj16/classpath.png
+	     icons/full/obj16/external_tools.gif
+	     icons/full/obj16/external_tools.png
+	     icons/full/obj16/invalid_build_tool.gif
+	     icons/full/obj16/invalid_build_tool.png
+	     icons/full/obj16/main_tab.gif
+	     icons/full/obj16/main_tab.png
+	     icons/full/wizban/ext_tools_wiz.png
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="External Tools Base/|Program Tools Support/|.*|.*/" including="META-INF/*|about.html|icons/full/dtool16/*|icons/full/etool16/*|icons/full/obj16/*|icons/full/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.externaltools.jar" path="org.eclipse.ui.externaltools"/>
-	<!-- org\eclipse\ui\externaltools\internal\launchConfigurations\ExternalToolsBuilderTab.java
-	     org\eclipse\ui\externaltools\internal\launchConfigurations\ExternalToolsBuildTab.java
-	     org\eclipse\ui\externaltools\internal\launchConfigurations\ExternalToolsLaunchConfigurationMessages.java
-	     org\eclipse\ui\externaltools\internal\launchConfigurations\ExternalToolsLaunchConfigurationMessages.properties
-	     org\eclipse\ui\externaltools\internal\launchConfigurations\ExternalToolsMainTab.java
-	     org\eclipse\ui\externaltools\internal\launchConfigurations\ExternalToolsUtil.java
-	     org\eclipse\ui\externaltools\internal\launchConfigurations\IgnoreWhiteSpaceComparator.java
-	     org\eclipse\ui\externaltools\internal\launchConfigurations\WorkingSetComparator.java
-	     org\eclipse\ui\externaltools\internal\menu\ExternalToolMenuDelegate.java
-	     org\eclipse\ui\externaltools\internal\menu\OpenExternalToolsConfigurations.java
-	     org\eclipse\ui\externaltools\internal\model\BuilderUtils.java
-	     org\eclipse\ui\externaltools\internal\model\ExternalToolsImages.java
-	     org\eclipse\ui\externaltools\internal\model\ExternalToolsModelMessages.java
-	     org\eclipse\ui\externaltools\internal\model\ExternalToolsModelMessages.properties
-	     org\eclipse\ui\externaltools\internal\model\ExternalToolsPlugin.java
-	     org\eclipse\ui\externaltools\internal\model\ExternalToolsPreferenceInitializer.java
-	     org\eclipse\ui\externaltools\internal\model\IExternalToolConstants.java
-	     org\eclipse\ui\externaltools\internal\model\IExternalToolsHelpContextIds.java
-	     org\eclipse\ui\externaltools\internal\model\ImageDescriptorRegistry.java
-	     org\eclipse\ui\externaltools\internal\model\IPreferenceConstants.java
-	     org\eclipse\ui\externaltools\internal\ui\BuilderPropertyPage.java
-	     org\eclipse\ui\externaltools\internal\ui\EditCommandDialog.java
-	     org\eclipse\ui\externaltools\internal\ui\ExternalToolsPreferencePage.java
-	     org\eclipse\ui\externaltools\internal\ui\ExternalToolsUIMessages.java
-	     org\eclipse\ui\externaltools\internal\ui\ExternalToolsUIMessages.properties
-	     org\eclipse\ui\externaltools\internal\ui\FileSelectionDialog.java
-	     org\eclipse\ui\externaltools\internal\ui\TreeAndListGroup.java
-	     org\eclipse\ui\externaltools\internal\variables\BuildFilesResolver.java
-	     org\eclipse\ui\externaltools\internal\variables\BuildProjectResolver.java
-	     org\eclipse\ui\externaltools\internal\variables\BuildTypeResolver.java
-	     org\eclipse\ui\externaltools\internal\variables\SystemPathResolver.java
-	     org\eclipse\ui\externaltools\internal\variables\VariableMessages.java
-	     org\eclipse\ui\externaltools\internal\variables\VariableMessages.properties -->
+	<!-- org/eclipse/ui/externaltools/internal/launchConfigurations/ExternalToolsBuilderTab.java
+	     org/eclipse/ui/externaltools/internal/launchConfigurations/ExternalToolsBuildTab.java
+	     org/eclipse/ui/externaltools/internal/launchConfigurations/ExternalToolsLaunchConfigurationMessages.java
+	     org/eclipse/ui/externaltools/internal/launchConfigurations/ExternalToolsLaunchConfigurationMessages.properties
+	     org/eclipse/ui/externaltools/internal/launchConfigurations/ExternalToolsMainTab.java
+	     org/eclipse/ui/externaltools/internal/launchConfigurations/ExternalToolsUtil.java
+	     org/eclipse/ui/externaltools/internal/launchConfigurations/IgnoreWhiteSpaceComparator.java
+	     org/eclipse/ui/externaltools/internal/launchConfigurations/WorkingSetComparator.java
+	     org/eclipse/ui/externaltools/internal/menu/ExternalToolMenuDelegate.java
+	     org/eclipse/ui/externaltools/internal/menu/OpenExternalToolsConfigurations.java
+	     org/eclipse/ui/externaltools/internal/model/BuilderUtils.java
+	     org/eclipse/ui/externaltools/internal/model/ExternalToolsImages.java
+	     org/eclipse/ui/externaltools/internal/model/ExternalToolsModelMessages.java
+	     org/eclipse/ui/externaltools/internal/model/ExternalToolsModelMessages.properties
+	     org/eclipse/ui/externaltools/internal/model/ExternalToolsPlugin.java
+	     org/eclipse/ui/externaltools/internal/model/ExternalToolsPreferenceInitializer.java
+	     org/eclipse/ui/externaltools/internal/model/IExternalToolConstants.java
+	     org/eclipse/ui/externaltools/internal/model/IExternalToolsHelpContextIds.java
+	     org/eclipse/ui/externaltools/internal/model/ImageDescriptorRegistry.java
+	     org/eclipse/ui/externaltools/internal/model/IPreferenceConstants.java
+	     org/eclipse/ui/externaltools/internal/ui/BuilderPropertyPage.java
+	     org/eclipse/ui/externaltools/internal/ui/EditCommandDialog.java
+	     org/eclipse/ui/externaltools/internal/ui/ExternalToolsPreferencePage.java
+	     org/eclipse/ui/externaltools/internal/ui/ExternalToolsUIMessages.java
+	     org/eclipse/ui/externaltools/internal/ui/ExternalToolsUIMessages.properties
+	     org/eclipse/ui/externaltools/internal/ui/FileSelectionDialog.java
+	     org/eclipse/ui/externaltools/internal/ui/TreeAndListGroup.java
+	     org/eclipse/ui/externaltools/internal/variables/BuildFilesResolver.java
+	     org/eclipse/ui/externaltools/internal/variables/BuildProjectResolver.java
+	     org/eclipse/ui/externaltools/internal/variables/BuildTypeResolver.java
+	     org/eclipse/ui/externaltools/internal/variables/SystemPathResolver.java
+	     org/eclipse/ui/externaltools/internal/variables/VariableMessages.java
+	     org/eclipse/ui/externaltools/internal/variables/VariableMessages.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.externaltools.jar" path="org.eclipse.ui.externaltools/External Tools Base"/>
-	<!-- org\eclipse\ui\externaltools\internal\program\launchConfigurations\ExternalToolsProgramMessages.java
-	     org\eclipse\ui\externaltools\internal\program\launchConfigurations\ExternalToolsProgramMessages.properties
-	     org\eclipse\ui\externaltools\internal\program\launchConfigurations\ProgramBuilderTabGroup.java
-	     org\eclipse\ui\externaltools\internal\program\launchConfigurations\ProgramMainTab.java
-	     org\eclipse\ui\externaltools\internal\program\launchConfigurations\ProgramTabGroup.java -->
+	<!-- org/eclipse/ui/externaltools/internal/program/launchConfigurations/ExternalToolsProgramMessages.java
+	     org/eclipse/ui/externaltools/internal/program/launchConfigurations/ExternalToolsProgramMessages.properties
+	     org/eclipse/ui/externaltools/internal/program/launchConfigurations/ProgramBuilderTabGroup.java
+	     org/eclipse/ui/externaltools/internal/program/launchConfigurations/ProgramMainTab.java
+	     org/eclipse/ui/externaltools/internal/program/launchConfigurations/ProgramTabGroup.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.externaltools.jar" path="org.eclipse.ui.externaltools/Program Tools Support"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.core.externaltools"/>

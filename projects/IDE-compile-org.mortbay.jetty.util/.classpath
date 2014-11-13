@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="org.mortbay.jetty.util"/>
+	<classpathentry excluding="org/mortbay/servlet/GzipFilter.java" kind="src" path="org.mortbay.jetty.util"/>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/IDE-compile-org.osgi.annotation.versioning"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>

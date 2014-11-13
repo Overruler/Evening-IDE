@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/exclude.gif
+	     icons/m2.gif
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/l10n/bundle.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html|icons/*|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.m2e.refactoring.jar" path="org.eclipse.m2e.refactoring"/>
+	<!-- org/eclipse/m2e/refactoring/AbstractPomRefactoring.java
+	     org/eclipse/m2e/refactoring/ChangeCreator.java
+	     org/eclipse/m2e/refactoring/dependencyset/DependencySetAction.java
+	     org/eclipse/m2e/refactoring/dependencyset/DependencySetRefactoring.java
+	     org/eclipse/m2e/refactoring/dependencyset/MavenDependencySetWizard.java
+	     org/eclipse/m2e/refactoring/exclude/DependencyExcludeAction.java
+	     org/eclipse/m2e/refactoring/exclude/ExcludeArtifactRefactoring.java
+	     org/eclipse/m2e/refactoring/exclude/ExcludeWizardPage.java
+	     org/eclipse/m2e/refactoring/exclude/MavenExcludeWizard.java
+	     org/eclipse/m2e/refactoring/internal/Activator.java
+	     org/eclipse/m2e/refactoring/internal/RefactoringImages.java
+	     org/eclipse/m2e/refactoring/internal/SaveDirtyFilesDialog.java
+	     org/eclipse/m2e/refactoring/Messages.java
+	     org/eclipse/m2e/refactoring/messages.properties
+	     org/eclipse/m2e/refactoring/PomRefactoringException.java
+	     org/eclipse/m2e/refactoring/PomVisitor.java
+	     org/eclipse/m2e/refactoring/RefactoringModelResources.java
+	     org/eclipse/m2e/refactoring/rename/MavenRenameWizard.java
+	     org/eclipse/m2e/refactoring/rename/MavenRenameWizardPage.java
+	     org/eclipse/m2e/refactoring/rename/RenameArtifactHandler.java
+	     org/eclipse/m2e/refactoring/rename/RenameRefactoring.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.refactoring.jar" path="org.eclipse.m2e.refactoring/src"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.refactoring/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.refactoring/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.refactoring.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.core.filebuffers"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.core.refactoring"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.model.edit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.ui.refactoring"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

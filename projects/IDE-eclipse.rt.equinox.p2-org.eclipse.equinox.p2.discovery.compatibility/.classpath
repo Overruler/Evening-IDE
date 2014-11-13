@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml
-	     schema\connectorDiscovery.exsd
-	     xsd\directory.xsd -->
+	     schema/connectorDiscovery.exsd
+	     xsd/directory.xsd -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*|xsd/*" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.discovery.compatibility.jar" path="org.eclipse.equinox.p2.discovery.compatibility"/>
-	<!-- org\eclipse\equinox\internal\p2\discovery\compatibility\Activator.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\BundleDiscoverySource.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\BundleDiscoveryStrategy.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\ConnectorDiscoveryExtensionReader.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\Directory.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\DirectoryParser.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\JarDiscoverySource.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\Messages.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\messages.properties
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\RemoteBundleDiscoveryStrategy.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\SiteVerifier.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\util\CacheManager.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\util\DefaultSaxErrorHandler.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\util\IOWithCauseException.java
-	     org\eclipse\equinox\internal\p2\discovery\compatibility\util\TransportUtil.java -->
+	<!-- org/eclipse/equinox/internal/p2/discovery/compatibility/Activator.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/BundleDiscoverySource.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/BundleDiscoveryStrategy.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/ConnectorDiscoveryExtensionReader.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/Directory.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/DirectoryParser.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/JarDiscoverySource.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/Messages.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/messages.properties
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/RemoteBundleDiscoveryStrategy.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/SiteVerifier.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/util/CacheManager.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/util/DefaultSaxErrorHandler.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/util/IOWithCauseException.java
+	     org/eclipse/equinox/internal/p2/discovery/compatibility/util/TransportUtil.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.discovery.compatibility.jar" path="org.eclipse.equinox.p2.discovery.compatibility/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>

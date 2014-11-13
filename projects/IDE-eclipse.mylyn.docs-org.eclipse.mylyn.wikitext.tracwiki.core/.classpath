@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.tracwiki.core.jar" path="org.eclipse.mylyn.wikitext.tracwiki.core"/>
+	<!-- org/eclipse/mylyn/internal/wikitext/tracwiki/core/block/DefinitionListBlock.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/block/HeadingBlock.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/block/ListBlock.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/block/ParagraphBlock.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/block/PreformattedBlock.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/block/QuoteBlock.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/block/TableBlock.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/phrase/EscapePhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/phrase/MonospacePhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/phrase/SimplePhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/phrase/SimpleWrappedPhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/BangEscapeToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/ChangesetLinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/HyperlinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/LineBreakToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/MacroReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/MilestoneLinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/ReportLinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/RevisionLogReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/SourceLinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/TicketAttachmentLinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/TicketLinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/WikiLinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/token/WikiWordReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/tracwiki/core/validation/TracWikiReferenceValidationRule.java
+	     org/eclipse/mylyn/wikitext/tracwiki/core/TracWikiLanguage.java
+	     services/org.eclipse.mylyn.wikitext.core.parser.markup.MarkupLanguage -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.tracwiki.core.jar" path="org.eclipse.mylyn.wikitext.tracwiki.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

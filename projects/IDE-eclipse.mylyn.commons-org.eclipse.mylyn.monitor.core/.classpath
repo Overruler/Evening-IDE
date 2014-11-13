@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.mylyn.monitor.core.jar" path="org.eclipse.mylyn.monitor.core"/>
+	<!-- org/eclipse/mylyn/internal/monitor/core/collection/CommandUsageCollector.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/DataOverviewCollector.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/DelegatingUsageCollector.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/InteractionByTypeSummary.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/InteractionEventClassifier.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/InteractionEventComparator.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/InteractionEventSummary.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/InteractionEventUtil.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/IUsageCollector.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/IUsageScanner.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/Messages.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/messages.properties
+	     org/eclipse/mylyn/internal/monitor/core/collection/PercentUsageComparator.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/SummaryCollector.java
+	     org/eclipse/mylyn/internal/monitor/core/collection/ViewUsageCollector.java
+	     org/eclipse/mylyn/internal/monitor/core/IMonitorCoreConstants.java
+	     org/eclipse/mylyn/monitor/core/AbstractMonitorLog.java
+	     org/eclipse/mylyn/monitor/core/IInteractionEventListener.java
+	     org/eclipse/mylyn/monitor/core/InteractionEvent.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.monitor.core.jar" path="org.eclipse.mylyn.monitor.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

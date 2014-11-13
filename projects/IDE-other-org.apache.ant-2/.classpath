@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="src" output="bin/1/plugins/org.apache.ant/etc" path="apache.ant/src/etc"/>
-	<classpathentry kind="src" output="bin/2/plugins/org.apache.ant/etc/ant-bootstrap.jar" path="apache.ant/src/main"/>
-	<classpathentry kind="src" output="bin/2/plugins/org.apache.ant/etc/ant-bootstrap.jar" path="res"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
-	<classpathentry kind="output" path="classes"/>
-</classpath>

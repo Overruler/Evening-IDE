@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.net.jar" path="org.eclipse.mylyn.commons.net"/>
+	<!-- org/eclipse/mylyn/commons/net/AbstractWebLocation.java
+	     org/eclipse/mylyn/commons/net/AuthenticationCredentials.java
+	     org/eclipse/mylyn/commons/net/AuthenticationType.java
+	     org/eclipse/mylyn/commons/net/HtmlStreamTokenizer.java
+	     org/eclipse/mylyn/commons/net/HtmlTag.java
+	     org/eclipse/mylyn/commons/net/http/CommonHttpClient3.java
+	     org/eclipse/mylyn/commons/net/http/CommonHttpMethod3.java
+	     org/eclipse/mylyn/commons/net/http/HttpOperation3.java
+	     org/eclipse/mylyn/commons/net/IProxyProvider.java
+	     org/eclipse/mylyn/commons/net/Policy.java
+	     org/eclipse/mylyn/commons/net/SslCertificateException.java
+	     org/eclipse/mylyn/commons/net/UnsupportedRequestException.java
+	     org/eclipse/mylyn/commons/net/WebLocation.java
+	     org/eclipse/mylyn/commons/net/WebRequest.java
+	     org/eclipse/mylyn/commons/net/WebUtil.java
+	     org/eclipse/mylyn/internal/commons/net/AuthenticatedProxy.java
+	     org/eclipse/mylyn/internal/commons/net/CloneableHostConfiguration.java
+	     org/eclipse/mylyn/internal/commons/net/CommonsNetPlugin.java
+	     org/eclipse/mylyn/internal/commons/net/http/CommonGetMethod3.java
+	     org/eclipse/mylyn/internal/commons/net/http/CommonHeadMethod3.java
+	     org/eclipse/mylyn/internal/commons/net/http/CommonPostMethod3.java
+	     org/eclipse/mylyn/internal/commons/net/ICancellable.java
+	     org/eclipse/mylyn/internal/commons/net/InfiniteSubProgressMonitor.java
+	     org/eclipse/mylyn/internal/commons/net/Messages.java
+	     org/eclipse/mylyn/internal/commons/net/messages.properties
+	     org/eclipse/mylyn/internal/commons/net/MonitoredRequest.java
+	     org/eclipse/mylyn/internal/commons/net/PollingInputStream.java
+	     org/eclipse/mylyn/internal/commons/net/PollingOutputStream.java
+	     org/eclipse/mylyn/internal/commons/net/PollingProtocolSocketFactory.java
+	     org/eclipse/mylyn/internal/commons/net/PollingSslProtocolSocketFactory.java
+	     org/eclipse/mylyn/internal/commons/net/ProgressMonitorInputStream.java
+	     org/eclipse/mylyn/internal/commons/net/TimeoutInputStream.java
+	     org/eclipse/mylyn/internal/commons/net/TimeoutOutputStream.java
+	     org/eclipse/mylyn/internal/commons/net/TrustAllTrustManager.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.net.jar" path="org.eclipse.mylyn.commons.net/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.logging"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry exported="true" kind="src" path="/IDE-other-org.apache.commons.codec"/>
+	<classpathentry exported="true" kind="src" path="/IDE-other-org.apache.commons.httpclient"/>
+	<classpathentry exported="true" kind="src" path="/IDE-other-org.apache.commons.lang"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="property_files/|wtp_ui/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.common.frameworks.ui.jar" path="org.eclipse.wst.common.frameworks.ui"/>
+	<!-- messages.properties
+	     wtpcommonui.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.frameworks.ui.jar" path="org.eclipse.wst.common.frameworks.ui/property_files"/>
+	<!-- org/eclipse/wst/common/frameworks/internal/datamodel/ui/AddablePageGroup.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/ui/DataModelSynchHelper.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/ui/DataModelWizard.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/ui/DataModelWizardFactory.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/ui/DataModelWizardPage.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/ui/IDMPageGroup.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/ui/IDMPageGroupHandler.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/ui/IDMPageHandler.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/ui/PageExtensionManager.java
+	     org/eclipse/wst/common/frameworks/internal/datamodel/ui/SimplePageGroup.java
+	     org/eclipse/wst/common/frameworks/internal/dialog/ui/ErrorDialog.java
+	     org/eclipse/wst/common/frameworks/internal/dialog/ui/InfoDialog.java
+	     org/eclipse/wst/common/frameworks/internal/dialog/ui/MessageDialog.java
+	     org/eclipse/wst/common/frameworks/internal/dialog/ui/OptionsDialog.java
+	     org/eclipse/wst/common/frameworks/internal/dialog/ui/StatusDialogConstants.java
+	     org/eclipse/wst/common/frameworks/internal/dialog/ui/WarningDialog.java
+	     org/eclipse/wst/common/frameworks/internal/eclipse/ui/EclipseEnvironment.java
+	     org/eclipse/wst/common/frameworks/internal/eclipse/ui/EclipseStatusHandler.java
+	     org/eclipse/wst/common/frameworks/internal/eclipse/ui/environment.properties
+	     org/eclipse/wst/common/frameworks/internal/eclipse/ui/Messages.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/CommonUIPluginConstants.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/DataModelWizardExtensionReader.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/DMWizardExtensionFactory.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/DMWizardPageElement.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/DMWizardPageExtensionFactory.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/DMWizardPageExtensionManager.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/DMWizardPageFactoryElement.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/DMWizardPageGroupElement.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/DMWizardPageGroupFactoryElement.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/ExtensibleViewRegistry.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/IExtensibleViewFactory.java
+	     org/eclipse/wst/common/frameworks/internal/operation/extensionui/IOperationNode.java
+	     org/eclipse/wst/common/frameworks/internal/ui/AbstractWTPUIPlugin.java
+	     org/eclipse/wst/common/frameworks/internal/ui/ClosableWizardDialog.java
+	     org/eclipse/wst/common/frameworks/internal/ui/DisplayUtility.java
+	     org/eclipse/wst/common/frameworks/internal/ui/DMPageGroupElementImpl.java
+	     org/eclipse/wst/common/frameworks/internal/ui/ErrorDialog.java
+	     org/eclipse/wst/common/frameworks/internal/ui/ExecutionListener.java
+	     org/eclipse/wst/common/frameworks/internal/ui/GenericWizardNode.java
+	     org/eclipse/wst/common/frameworks/internal/ui/InternalCommonWorkbenchMessages.java
+	     org/eclipse/wst/common/frameworks/internal/ui/ListenerList.java
+	     org/eclipse/wst/common/frameworks/internal/ui/ListMessageDialog.java
+	     org/eclipse/wst/common/frameworks/internal/ui/MenuEnablementPropertyTester.java
+	     org/eclipse/wst/common/frameworks/internal/ui/MenuEnablerExtension.java
+	     org/eclipse/wst/common/frameworks/internal/ui/MenuEnablerExtensionReader.java
+	     org/eclipse/wst/common/frameworks/internal/ui/NewProjectGroup.java
+	     org/eclipse/wst/common/frameworks/internal/ui/OverlayIcon.java
+	     org/eclipse/wst/common/frameworks/internal/ui/package.xml
+	     org/eclipse/wst/common/frameworks/internal/ui/PageGroupManager.java
+	     org/eclipse/wst/common/frameworks/internal/ui/RunnableOperationWrapper.java
+	     org/eclipse/wst/common/frameworks/internal/ui/RunnableWithProgressWrapper.java
+	     org/eclipse/wst/common/frameworks/internal/ui/SaveHandlerUI.java
+	     org/eclipse/wst/common/frameworks/internal/ui/SimplePageGroupHandler.java
+	     org/eclipse/wst/common/frameworks/internal/ui/SimplePageHandler.java
+	     org/eclipse/wst/common/frameworks/internal/ui/SimpleValidateEditContextUI.java
+	     org/eclipse/wst/common/frameworks/internal/ui/TimedKeyListener.java
+	     org/eclipse/wst/common/frameworks/internal/ui/TimedModifyListener.java
+	     org/eclipse/wst/common/frameworks/internal/ui/Timer.java
+	     org/eclipse/wst/common/frameworks/internal/ui/UIEnablementManager.java
+	     org/eclipse/wst/common/frameworks/internal/ui/UIOperationHandler.java
+	     org/eclipse/wst/common/frameworks/internal/ui/UITesterImpl.java
+	     org/eclipse/wst/common/frameworks/internal/ui/ValidationStatus.java
+	     org/eclipse/wst/common/frameworks/internal/ui/WorkspaceModifyComposedOperation.java
+	     org/eclipse/wst/common/frameworks/internal/ui/WTPActivityBridgeHelperImpl.java
+	     org/eclipse/wst/common/frameworks/internal/ui/WTPActivityHelper.java
+	     org/eclipse/wst/common/frameworks/internal/ui/WTPCommonUIResourceHandler.java
+	     org/eclipse/wst/common/frameworks/internal/ui/WTPGenericActionIds.java
+	     org/eclipse/wst/common/frameworks/internal/ui/WTPUIPlugin.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.frameworks.ui.jar" path="org.eclipse.wst.common.frameworks.ui/wtp_ui"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.bidi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.environment"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.frameworks"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

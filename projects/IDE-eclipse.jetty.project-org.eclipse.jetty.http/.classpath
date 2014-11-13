@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\eclipse\jetty\http\DateGenerator.java
-	     org\eclipse\jetty\http\HttpContent.java
-	     org\eclipse\jetty\http\HttpCookie.java
-	     org\eclipse\jetty\http\HttpField.java
-	     org\eclipse\jetty\http\HttpFields.java
-	     org\eclipse\jetty\http\HttpGenerator.java
-	     org\eclipse\jetty\http\HttpHeader.java
-	     org\eclipse\jetty\http\HttpHeaderValue.java
-	     org\eclipse\jetty\http\HttpMethod.java
-	     org\eclipse\jetty\http\HttpParser.java
-	     org\eclipse\jetty\http\HttpScheme.java
-	     org\eclipse\jetty\http\HttpStatus.java
-	     org\eclipse\jetty\http\HttpTokens.java
-	     org\eclipse\jetty\http\HttpURI.java
-	     org\eclipse\jetty\http\HttpVersion.java
-	     org\eclipse\jetty\http\MimeTypes.java
-	     org\eclipse\jetty\http\PathMap.java -->
+	<!-- org/eclipse/jetty/http/DateGenerator.java
+	     org/eclipse/jetty/http/HttpContent.java
+	     org/eclipse/jetty/http/HttpCookie.java
+	     org/eclipse/jetty/http/HttpField.java
+	     org/eclipse/jetty/http/HttpFields.java
+	     org/eclipse/jetty/http/HttpGenerator.java
+	     org/eclipse/jetty/http/HttpHeader.java
+	     org/eclipse/jetty/http/HttpHeaderValue.java
+	     org/eclipse/jetty/http/HttpMethod.java
+	     org/eclipse/jetty/http/HttpParser.java
+	     org/eclipse/jetty/http/HttpScheme.java
+	     org/eclipse/jetty/http/HttpStatus.java
+	     org/eclipse/jetty/http/HttpTester.java
+	     org/eclipse/jetty/http/HttpTokens.java
+	     org/eclipse/jetty/http/HttpURI.java
+	     org/eclipse/jetty/http/HttpVersion.java
+	     org/eclipse/jetty/http/MimeTypes.java
+	     org/eclipse/jetty/http/PathMap.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="jetty-http/src/main/java"/>
-	<!-- org\eclipse\jetty\http\encoding.properties
-	     org\eclipse\jetty\http\mime.properties
-	     org\eclipse\jetty\http\useragents -->
+	<!-- org/eclipse/jetty/http/encoding.properties
+	     org/eclipse/jetty/http/mime.properties
+	     org/eclipse/jetty/http/useragents -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="jetty-http/src/main/resources"/>
-	<!-- org\eclipse\jetty\http\HttpTester.java -->
-	<classpathentry excluding="org/eclipse/jetty/http/*Test.java" kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="jetty-http/src/test/java"/>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
-	     META-INF\maven\org.eclipse.jetty\jetty-http\pom.properties
-	     META-INF\maven\org.eclipse.jetty\jetty-http\pom.xml -->
+	     META-INF/MANIFEST.MF
+	     META-INF/maven/org.eclipse.jetty/jetty-http/pom.properties
+	     META-INF/maven/org.eclipse.jetty/jetty-http/pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.http.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jetty.project-org.eclipse.jetty.util"/>

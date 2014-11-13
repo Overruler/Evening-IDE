@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/apache/xmlrpc/client/AsyncCallback.java
+	     org/apache/xmlrpc/client/TimingOutCallback.java
+	     org/apache/xmlrpc/client/util/ClientFactory.java
+	     org/apache/xmlrpc/client/XmlRpcClient.java
+	     org/apache/xmlrpc/client/XmlRpcClientConfig.java
+	     org/apache/xmlrpc/client/XmlRpcClientConfigImpl.java
+	     org/apache/xmlrpc/client/XmlRpcClientException.java
+	     org/apache/xmlrpc/client/XmlRpcClientRequestImpl.java
+	     org/apache/xmlrpc/client/XmlRpcClientWorker.java
+	     org/apache/xmlrpc/client/XmlRpcClientWorkerFactory.java
+	     org/apache/xmlrpc/client/XmlRpcCommonsTransport.java
+	     org/apache/xmlrpc/client/XmlRpcCommonsTransportFactory.java
+	     org/apache/xmlrpc/client/XmlRpcHttpClientConfig.java
+	     org/apache/xmlrpc/client/XmlRpcHttpTransport.java
+	     org/apache/xmlrpc/client/XmlRpcLiteHttpTransport.java
+	     org/apache/xmlrpc/client/XmlRpcLiteHttpTransportFactory.java
+	     org/apache/xmlrpc/client/XmlRpcLocalClientConfig.java
+	     org/apache/xmlrpc/client/XmlRpcLocalStreamTransport.java
+	     org/apache/xmlrpc/client/XmlRpcLocalStreamTransportFactory.java
+	     org/apache/xmlrpc/client/XmlRpcLocalTransport.java
+	     org/apache/xmlrpc/client/XmlRpcLocalTransportFactory.java
+	     org/apache/xmlrpc/client/XmlRpcStreamTransport.java
+	     org/apache/xmlrpc/client/XmlRpcStreamTransportFactory.java
+	     org/apache/xmlrpc/client/XmlRpcSunHttpTransport.java
+	     org/apache/xmlrpc/client/XmlRpcSunHttpTransportFactory.java
+	     org/apache/xmlrpc/client/XmlRpcTransport.java
+	     org/apache/xmlrpc/client/XmlRpcTransportFactory.java
+	     org/apache/xmlrpc/client/XmlRpcTransportFactoryImpl.java
+	     org/apache/xmlrpc/client/XmlRpcTransportImpl.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.xmlrpc.jar" path="apache-xmlrpc-3.1.3/client/src/main/java"/>
+	<!-- org/apache/xmlrpc/common/LocalStreamConnection.java
+	     org/apache/xmlrpc/common/ServerStreamConnection.java
+	     org/apache/xmlrpc/common/TypeConverter.java
+	     org/apache/xmlrpc/common/TypeConverterFactory.java
+	     org/apache/xmlrpc/common/TypeConverterFactoryImpl.java
+	     org/apache/xmlrpc/common/TypeFactory.java
+	     org/apache/xmlrpc/common/TypeFactoryImpl.java
+	     org/apache/xmlrpc/common/XmlRpcController.java
+	     org/apache/xmlrpc/common/XmlRpcExtensionException.java
+	     org/apache/xmlrpc/common/XmlRpcHttpConfig.java
+	     org/apache/xmlrpc/common/XmlRpcHttpRequestConfig.java
+	     org/apache/xmlrpc/common/XmlRpcHttpRequestConfigImpl.java
+	     org/apache/xmlrpc/common/XmlRpcLoadException.java
+	     org/apache/xmlrpc/common/XmlRpcNotAuthorizedException.java
+	     org/apache/xmlrpc/common/XmlRpcRequestProcessor.java
+	     org/apache/xmlrpc/common/XmlRpcRequestProcessorFactory.java
+	     org/apache/xmlrpc/common/XmlRpcStreamConfig.java
+	     org/apache/xmlrpc/common/XmlRpcStreamRequestConfig.java
+	     org/apache/xmlrpc/common/XmlRpcStreamRequestProcessor.java
+	     org/apache/xmlrpc/common/XmlRpcWorker.java
+	     org/apache/xmlrpc/common/XmlRpcWorkerFactory.java
+	     org/apache/xmlrpc/jaxb/JaxbParser.java
+	     org/apache/xmlrpc/jaxb/JaxbSerializer.java
+	     org/apache/xmlrpc/jaxb/JaxbTypeFactory.java
+	     org/apache/xmlrpc/parser/AtomicParser.java
+	     org/apache/xmlrpc/parser/BigDecimalParser.java
+	     org/apache/xmlrpc/parser/BigIntegerParser.java
+	     org/apache/xmlrpc/parser/BooleanParser.java
+	     org/apache/xmlrpc/parser/ByteArrayParser.java
+	     org/apache/xmlrpc/parser/CalendarParser.java
+	     org/apache/xmlrpc/parser/DateParser.java
+	     org/apache/xmlrpc/parser/DoubleParser.java
+	     org/apache/xmlrpc/parser/ExtParser.java
+	     org/apache/xmlrpc/parser/FloatParser.java
+	     org/apache/xmlrpc/parser/I1Parser.java
+	     org/apache/xmlrpc/parser/I2Parser.java
+	     org/apache/xmlrpc/parser/I4Parser.java
+	     org/apache/xmlrpc/parser/I8Parser.java
+	     org/apache/xmlrpc/parser/LongParser.java
+	     org/apache/xmlrpc/parser/MapParser.java
+	     org/apache/xmlrpc/parser/NodeParser.java
+	     org/apache/xmlrpc/parser/NullParser.java
+	     org/apache/xmlrpc/parser/ObjectArrayParser.java
+	     org/apache/xmlrpc/parser/RecursiveTypeParserImpl.java
+	     org/apache/xmlrpc/parser/SerializableParser.java
+	     org/apache/xmlrpc/parser/StringParser.java
+	     org/apache/xmlrpc/parser/TypeParser.java
+	     org/apache/xmlrpc/parser/TypeParserImpl.java
+	     org/apache/xmlrpc/parser/XmlRpcRequestParser.java
+	     org/apache/xmlrpc/parser/XmlRpcResponseParser.java
+	     org/apache/xmlrpc/serializer/BaseXmlWriterFactory.java
+	     org/apache/xmlrpc/serializer/BigDecimalSerializer.java
+	     org/apache/xmlrpc/serializer/BigIntegerSerializer.java
+	     org/apache/xmlrpc/serializer/BooleanSerializer.java
+	     org/apache/xmlrpc/serializer/ByteArraySerializer.java
+	     org/apache/xmlrpc/serializer/CalendarSerializer.java
+	     org/apache/xmlrpc/serializer/CharSetXmlWriterFactory.java
+	     org/apache/xmlrpc/serializer/DateSerializer.java
+	     org/apache/xmlrpc/serializer/DefaultXMLWriterFactory.java
+	     org/apache/xmlrpc/serializer/DoubleSerializer.java
+	     org/apache/xmlrpc/serializer/ExtSerializer.java
+	     org/apache/xmlrpc/serializer/FloatSerializer.java
+	     org/apache/xmlrpc/serializer/I1Serializer.java
+	     org/apache/xmlrpc/serializer/I2Serializer.java
+	     org/apache/xmlrpc/serializer/I4Serializer.java
+	     org/apache/xmlrpc/serializer/I8Serializer.java
+	     org/apache/xmlrpc/serializer/ListSerializer.java
+	     org/apache/xmlrpc/serializer/MapSerializer.java
+	     org/apache/xmlrpc/serializer/NodeSerializer.java
+	     org/apache/xmlrpc/serializer/NullSerializer.java
+	     org/apache/xmlrpc/serializer/ObjectArraySerializer.java
+	     org/apache/xmlrpc/serializer/SerializableSerializer.java
+	     org/apache/xmlrpc/serializer/StringSerializer.java
+	     org/apache/xmlrpc/serializer/TypeSerializer.java
+	     org/apache/xmlrpc/serializer/TypeSerializerImpl.java
+	     org/apache/xmlrpc/serializer/XmlRpcWriter.java
+	     org/apache/xmlrpc/serializer/XmlWriterFactory.java
+	     org/apache/xmlrpc/util/HttpUtil.java
+	     org/apache/xmlrpc/util/LimitedInputStream.java
+	     org/apache/xmlrpc/util/SAXParsers.java
+	     org/apache/xmlrpc/util/ThreadPool.java
+	     org/apache/xmlrpc/util/XmlRpcDateTimeDateFormat.java
+	     org/apache/xmlrpc/util/XmlRpcDateTimeFormat.java
+	     org/apache/xmlrpc/util/XmlRpcIOException.java
+	     org/apache/xmlrpc/XmlRpcConfig.java
+	     org/apache/xmlrpc/XmlRpcConfigImpl.java
+	     org/apache/xmlrpc/XmlRpcException.java
+	     org/apache/xmlrpc/XmlRpcHandler.java
+	     org/apache/xmlrpc/XmlRpcRequest.java
+	     org/apache/xmlrpc/XmlRpcRequestConfig.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.xmlrpc.jar" path="apache-xmlrpc-3.1.3/common/src/main/java"/>
+	<!-- org/apache/xmlrpc/metadata/ReflectiveXmlRpcMetaDataHandler.java
+	     org/apache/xmlrpc/metadata/Util.java
+	     org/apache/xmlrpc/metadata/XmlRpcListableHandlerMapping.java
+	     org/apache/xmlrpc/metadata/XmlRpcMetaDataHandler.java
+	     org/apache/xmlrpc/metadata/XmlRpcSystemImpl.java
+	     org/apache/xmlrpc/server/AbstractReflectiveHandlerMapping.java
+	     org/apache/xmlrpc/server/PropertyHandlerMapping.java
+	     org/apache/xmlrpc/server/ReflectiveXmlRpcHandler.java
+	     org/apache/xmlrpc/server/RequestProcessorFactoryFactory.java
+	     org/apache/xmlrpc/server/ServerHttpConnection.java
+	     org/apache/xmlrpc/server/XmlRpcHandlerMapping.java
+	     org/apache/xmlrpc/server/XmlRpcHttpServer.java
+	     org/apache/xmlrpc/server/XmlRpcHttpServerConfig.java
+	     org/apache/xmlrpc/server/XmlRpcLocalStreamServer.java
+	     org/apache/xmlrpc/server/XmlRpcNoSuchHandlerException.java
+	     org/apache/xmlrpc/server/XmlRpcServer.java
+	     org/apache/xmlrpc/server/XmlRpcServerConfig.java
+	     org/apache/xmlrpc/server/XmlRpcServerConfigImpl.java
+	     org/apache/xmlrpc/server/XmlRpcServerWorker.java
+	     org/apache/xmlrpc/server/XmlRpcServerWorkerFactory.java
+	     org/apache/xmlrpc/server/XmlRpcStreamServer.java
+	     org/apache/xmlrpc/webserver/Connection.java
+	     org/apache/xmlrpc/webserver/RequestData.java
+	     org/apache/xmlrpc/webserver/ServletConnection.java
+	     org/apache/xmlrpc/webserver/ServletWebServer.java
+	     org/apache/xmlrpc/webserver/WebServer.java
+	     org/apache/xmlrpc/webserver/XmlRpcServlet.java
+	     org/apache/xmlrpc/webserver/XmlRpcServletServer.java -->
+	<classpathentry excluding="org/apache/xmlrpc/webserver/HttpServletRequestImpl.java|org/apache/xmlrpc/webserver/HttpServletResponseImpl.java|org/apache/xmlrpc/webserver/ServletOutputStreamImpl.java" kind="src" output="bin/1/plugins/org.apache.xmlrpc.jar" path="apache-xmlrpc-3.1.3/server/src/main/java"/>
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.xmlrpc.jar" path="res"/>
+	<!-- org/apache/xmlrpc/webserver/HttpServletRequestImpl.java
+	     org/apache/xmlrpc/webserver/HttpServletResponseImpl.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.xmlrpc.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.httpclient"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.logging"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ws.commons.util"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.notifications.ui.jar" path="org.eclipse.mylyn.commons.notifications.ui"/>
+	<!-- org/eclipse/mylyn/commons/notifications/ui/AbstractUiNotification.java
+	     org/eclipse/mylyn/commons/notifications/ui/NotificationControl.java
+	     org/eclipse/mylyn/commons/notifications/ui/NotificationsUi.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/Messages.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/messages.properties
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationAction.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationCategory.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationElement.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationEvent.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationHandler.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationModel.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationService.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationsExtensionReader.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationSinkDescriptor.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationsPlugin.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationsPreferencesInitializer.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/NotificationsPreferencesPage.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/popup/Messages.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/popup/messages.properties
+	     org/eclipse/mylyn/internal/commons/notifications/ui/popup/NotificationPopup.java
+	     org/eclipse/mylyn/internal/commons/notifications/ui/popup/PopupNotificationSink.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.notifications.ui.jar" path="org.eclipse.mylyn.commons.notifications.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.notifications.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

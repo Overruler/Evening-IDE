@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.monitoring.jar" path="org.eclipse.ui.monitoring"/>
-	<!-- org\eclipse\ui\internal\monitoring\DefaultUiFreezeEventLogger.java
-	     org\eclipse\ui\internal\monitoring\EventLoopMonitorThread.java
-	     org\eclipse\ui\internal\monitoring\FilterHandler.java
-	     org\eclipse\ui\internal\monitoring\LongEventInfo.java
-	     org\eclipse\ui\internal\monitoring\Messages.java
-	     org\eclipse\ui\internal\monitoring\Messages.properties
-	     org\eclipse\ui\internal\monitoring\MonitoringPlugin.java
-	     org\eclipse\ui\internal\monitoring\MonitoringStartup.java
-	     org\eclipse\ui\internal\monitoring\preferences\FilterInputDialog.java
-	     org\eclipse\ui\internal\monitoring\preferences\FilterListEditor.java
-	     org\eclipse\ui\internal\monitoring\preferences\Messages.java
-	     org\eclipse\ui\internal\monitoring\preferences\Messages.properties
-	     org\eclipse\ui\internal\monitoring\preferences\MonitoringPreferenceInitializer.java
-	     org\eclipse\ui\internal\monitoring\preferences\MonitoringPreferenceListener.java
-	     org\eclipse\ui\internal\monitoring\preferences\MonitoringPreferencePage.java
-	     org\eclipse\ui\internal\monitoring\Tracer.java
-	     org\eclipse\ui\monitoring\IUiFreezeEventLogger.java
-	     org\eclipse\ui\monitoring\PreferenceConstants.java
-	     org\eclipse\ui\monitoring\StackSample.java
-	     org\eclipse\ui\monitoring\UiFreezeEvent.java -->
+	<!-- org/eclipse/ui/internal/monitoring/DefaultUiFreezeEventLogger.java
+	     org/eclipse/ui/internal/monitoring/EventLoopMonitorThread.java
+	     org/eclipse/ui/internal/monitoring/FilterHandler.java
+	     org/eclipse/ui/internal/monitoring/LongEventInfo.java
+	     org/eclipse/ui/internal/monitoring/Messages.java
+	     org/eclipse/ui/internal/monitoring/Messages.properties
+	     org/eclipse/ui/internal/monitoring/MonitoringPlugin.java
+	     org/eclipse/ui/internal/monitoring/MonitoringStartup.java
+	     org/eclipse/ui/internal/monitoring/preferences/FilterInputDialog.java
+	     org/eclipse/ui/internal/monitoring/preferences/FilterListEditor.java
+	     org/eclipse/ui/internal/monitoring/preferences/Messages.java
+	     org/eclipse/ui/internal/monitoring/preferences/Messages.properties
+	     org/eclipse/ui/internal/monitoring/preferences/MonitoringPreferenceInitializer.java
+	     org/eclipse/ui/internal/monitoring/preferences/MonitoringPreferenceListener.java
+	     org/eclipse/ui/internal/monitoring/preferences/MonitoringPreferencePage.java
+	     org/eclipse/ui/internal/monitoring/Tracer.java
+	     org/eclipse/ui/monitoring/IUiFreezeEventLogger.java
+	     org/eclipse/ui/monitoring/PreferenceConstants.java
+	     org/eclipse/ui/monitoring/StackSample.java
+	     org/eclipse/ui/monitoring/UiFreezeEvent.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.monitoring.jar" path="org.eclipse.ui.monitoring/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>

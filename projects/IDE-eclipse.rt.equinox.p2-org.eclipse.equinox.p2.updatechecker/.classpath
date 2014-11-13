@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
-	     OSGI-INF\updatechecker.xml
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/updatechecker.xml
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.updatechecker.jar" path="org.eclipse.equinox.p2.updatechecker"/>
-	<!-- org\eclipse\equinox\internal\p2\updatechecker\UpdateChecker.java
-	     org\eclipse\equinox\internal\p2\updatechecker\UpdateCheckerComponent.java
-	     org\eclipse\equinox\internal\provisional\p2\updatechecker\IUpdateChecker.java
-	     org\eclipse\equinox\internal\provisional\p2\updatechecker\IUpdateListener.java
-	     org\eclipse\equinox\internal\provisional\p2\updatechecker\UpdateEvent.java -->
+	<!-- org/eclipse/equinox/internal/p2/updatechecker/UpdateChecker.java
+	     org/eclipse/equinox/internal/p2/updatechecker/UpdateCheckerComponent.java
+	     org/eclipse/equinox/internal/provisional/p2/updatechecker/IUpdateChecker.java
+	     org/eclipse/equinox/internal/provisional/p2/updatechecker/IUpdateListener.java
+	     org/eclipse/equinox/internal/provisional/p2/updatechecker/UpdateEvent.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.updatechecker.jar" path="org.eclipse.equinox.p2.updatechecker/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>

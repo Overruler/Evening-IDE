@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.wst.common.environment.jar" path="org.eclipse.wst.common.environment"/>
+	<!-- org/eclipse/wst/common/environment/Choice.java
+	     org/eclipse/wst/common/environment/EnvironmentException.java
+	     org/eclipse/wst/common/environment/EnvironmentService.java
+	     org/eclipse/wst/common/environment/IEnvironment.java
+	     org/eclipse/wst/common/environment/ILog.java
+	     org/eclipse/wst/common/environment/IStatusHandler.java
+	     org/eclipse/wst/common/environment/NullStatusHandler.java
+	     org/eclipse/wst/common/environment/StatusException.java
+	     org/eclipse/wst/common/environment/uri/IURI.java
+	     org/eclipse/wst/common/environment/uri/IURIFactory.java
+	     org/eclipse/wst/common/environment/uri/IURIFilter.java
+	     org/eclipse/wst/common/environment/uri/IURIScheme.java
+	     org/eclipse/wst/common/environment/uri/IURIVisitor.java
+	     org/eclipse/wst/common/environment/uri/SimpleURIFactory.java
+	     org/eclipse/wst/common/environment/uri/URIException.java
+	     org/eclipse/wst/common/internal/environment/eclipse/ConsoleEclipseEnvironment.java
+	     org/eclipse/wst/common/internal/environment/eclipse/EclipseLog.java
+	     org/eclipse/wst/common/internal/environment/eclipse/EclipseScheme.java
+	     org/eclipse/wst/common/internal/environment/eclipse/EclipseURI.java
+	     org/eclipse/wst/common/internal/environment/eclipse/environment.properties
+	     org/eclipse/wst/common/internal/environment/eclipse/FileResourceOutputStream.java
+	     org/eclipse/wst/common/internal/environment/eclipse/FileResourceUtils.java
+	     org/eclipse/wst/common/internal/environment/eclipse/Messages.java
+	     org/eclipse/wst/common/internal/environment/plugin/EnvironmentPlugin.java
+	     org/eclipse/wst/common/internal/environment/relative/RelativeScheme.java
+	     org/eclipse/wst/common/internal/environment/relative/RelativeURI.java
+	     org/eclipse/wst/common/internal/environment/uri/file/FileScheme.java
+	     org/eclipse/wst/common/internal/environment/uri/file/FileURI.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.environment.jar" path="org.eclipse.wst.common.environment/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.util"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

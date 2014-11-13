@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/etool16/report-bug.gif
+	     icons/etool16/task-bug-new.gif
+	     icons/etool16/task-new.gif
+	     icons/etool16/task-repository-new.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/support.exsd -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/etool16/*|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.mylyn.tasks.bugs.jar" path="org.eclipse.mylyn.tasks.bugs"/>
+	<!-- org/eclipse/mylyn/internal/tasks/bugs/AbstractSupportElement.java
+	     org/eclipse/mylyn/internal/tasks/bugs/actions/Messages.java
+	     org/eclipse/mylyn/internal/tasks/bugs/actions/messages.properties
+	     org/eclipse/mylyn/internal/tasks/bugs/actions/NewTaskFromErrorAction.java
+	     org/eclipse/mylyn/internal/tasks/bugs/actions/NewTaskFromMarkerHandler.java
+	     org/eclipse/mylyn/internal/tasks/bugs/actions/ReportBugAction.java
+	     org/eclipse/mylyn/internal/tasks/bugs/AttributeTaskMapper.java
+	     org/eclipse/mylyn/internal/tasks/bugs/DefaultSupportHandler.java
+	     org/eclipse/mylyn/internal/tasks/bugs/IRepositoryConstants.java
+	     org/eclipse/mylyn/internal/tasks/bugs/KeyValueMapping.java
+	     org/eclipse/mylyn/internal/tasks/bugs/Messages.java
+	     org/eclipse/mylyn/internal/tasks/bugs/messages.properties
+	     org/eclipse/mylyn/internal/tasks/bugs/ProductRepositoryMapping.java
+	     org/eclipse/mylyn/internal/tasks/bugs/SupportCategory.java
+	     org/eclipse/mylyn/internal/tasks/bugs/SupportHandlerManager.java
+	     org/eclipse/mylyn/internal/tasks/bugs/SupportProduct.java
+	     org/eclipse/mylyn/internal/tasks/bugs/SupportProvider.java
+	     org/eclipse/mylyn/internal/tasks/bugs/SupportProviderManager.java
+	     org/eclipse/mylyn/internal/tasks/bugs/SupportRequest.java
+	     org/eclipse/mylyn/internal/tasks/bugs/TaskErrorReporter.java
+	     org/eclipse/mylyn/internal/tasks/bugs/TasksBugsPlugin.java
+	     org/eclipse/mylyn/internal/tasks/bugs/wizards/ErrorLogStatus.java
+	     org/eclipse/mylyn/internal/tasks/bugs/wizards/Messages.java
+	     org/eclipse/mylyn/internal/tasks/bugs/wizards/messages.properties
+	     org/eclipse/mylyn/internal/tasks/bugs/wizards/ProductStatus.java
+	     org/eclipse/mylyn/internal/tasks/bugs/wizards/ReportBugOrEnhancementWizard.java
+	     org/eclipse/mylyn/internal/tasks/bugs/wizards/ReportErrorPage.java
+	     org/eclipse/mylyn/internal/tasks/bugs/wizards/ReportErrorWizard.java
+	     org/eclipse/mylyn/internal/tasks/bugs/wizards/SelectSupportElementPage.java
+	     org/eclipse/mylyn/tasks/bugs/AbstractSupportHandler.java
+	     org/eclipse/mylyn/tasks/bugs/IProduct.java
+	     org/eclipse/mylyn/tasks/bugs/IProvider.java
+	     org/eclipse/mylyn/tasks/bugs/ISupportRequest.java
+	     org/eclipse/mylyn/tasks/bugs/ISupportResponse.java
+	     org/eclipse/mylyn/tasks/bugs/ITaskContribution.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.tasks.bugs.jar" path="org.eclipse.mylyn.tasks.bugs/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.pde.ui-org.eclipse.ui.views.log"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

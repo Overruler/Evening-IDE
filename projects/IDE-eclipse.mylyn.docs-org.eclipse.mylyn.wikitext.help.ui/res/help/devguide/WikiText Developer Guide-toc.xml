@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<toc topic="help/devguide/WikiText Developer Guide.html" label="WikiText Developer Guide">
+	<topic href="help/devguide/WikiText Developer Guide.html" label="Overview">
+		<topic href="help/devguide/WikiText Developer Guide.html#WikiTextAPI" label="WikiText API"></topic>
+		<topic href="help/devguide/WikiText Developer Guide.html#HowItWorks" label="How It Works">
+			<topic href="help/devguide/WikiText Developer Guide.html#JFaceViewer" label="JFace Viewer">
+				<topic href="help/devguide/WikiText Developer Guide.html#JFaceViewerLimitations" label="JFace Viewer Limitations"></topic>
+			</topic>
+		</topic>
+		<topic href="help/devguide/WikiText Developer Guide.html#ClasspathandDependencies" label="Classpath and Dependencies">
+			<topic href="help/devguide/WikiText Developer Guide.html#WithinEclipse" label="Within Eclipse"></topic>
+			<topic href="help/devguide/WikiText Developer Guide.html#StandAlone" label="Stand-Alone"></topic>
+		</topic>
+	</topic>
+	<topic href="help/devguide/Using-The-WikiText-Parser.html" label="Using The WikiText Parser">
+		<topic href="help/devguide/Using-The-WikiText-Parser.html#SimpleExample" label="Simple Example">
+			<topic href="help/devguide/Using-The-WikiText-Parser.html#ServiceLocator" label="ServiceLocator"></topic>
+		</topic>
+		<topic href="help/devguide/Using-The-WikiText-Parser.html#AdvancedParserUsage" label="Advanced Parser Usage"></topic>
+		<topic href="help/devguide/Using-The-WikiText-Parser.html#AddingCSStoHTMLOutput" label="Adding CSS to HTML Output"></topic>
+	</topic>
+	<topic href="help/devguide/WikiText-and-the-UI.html" label="WikiText and the UI">
+		<topic href="help/devguide/WikiText-and-the-UI.html#WikiTextJFaceViewer" label="WikiText JFace Viewer"></topic>
+		<topic href="help/devguide/WikiText-and-the-UI.html#WikiTextandBrowser" label="WikiText and Browser"></topic>
+	</topic>
+	<topic href="help/devguide/Markup-Languages.html" label="Markup Languages">
+		<topic href="help/devguide/Markup-Languages.html#ExtendinganExistingMarkupLanguage" label="Extending an Existing Markup Language"></topic>
+		<topic href="help/devguide/Markup-Languages.html#NewMarkupLanguages" label="New Markup Languages"></topic>
+		<topic href="help/devguide/Markup-Languages.html#MarkupLanguageUI" label="Markup Language UI"></topic>
+		<topic href="help/devguide/Markup-Languages.html#MarkupLanguageConcepts" label="Markup Language Concepts">
+			<topic href="help/devguide/Markup-Languages.html#MarkupLanguageImplementationTips" label="Markup Language Implementation Tips"></topic>
+		</topic>
+	</topic>
+	<topic href="help/devguide/Contributing.html" label="Contributing">
+		<topic href="help/devguide/Contributing.html#IssueTracking" label="Issue Tracking"></topic>
+	</topic>
+	<anchor id="additions"/>
+</toc>

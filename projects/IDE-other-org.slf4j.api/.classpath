@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/slf4j/helpers/BasicMarker.java
+	     org/slf4j/helpers/BasicMarkerFactory.java
+	     org/slf4j/helpers/BasicMDCAdapter.java
+	     org/slf4j/helpers/FormattingTuple.java
+	     org/slf4j/helpers/MarkerIgnoringBase.java
+	     org/slf4j/helpers/MessageFormatter.java
+	     org/slf4j/helpers/NOPLogger.java
+	     org/slf4j/helpers/NOPLoggerFactory.java
+	     org/slf4j/helpers/NOPMDCAdapter.java
+	     org/slf4j/helpers/SubstituteLoggerFactory.java
+	     org/slf4j/helpers/Util.java
+	     org/slf4j/ILoggerFactory.java
+	     org/slf4j/IMarkerFactory.java
+	     org/slf4j/Logger.java
+	     org/slf4j/LoggerFactory.java
+	     org/slf4j/Marker.java
+	     org/slf4j/MarkerFactory.java
+	     org/slf4j/MDC.java
+	     org/slf4j/spi/LocationAwareLogger.java
+	     org/slf4j/spi/LoggerFactoryBinder.java
+	     org/slf4j/spi/MarkerFactoryBinder.java
+	     org/slf4j/spi/MDCAdapter.java -->
+	<classpathentry excluding="about.html|about_files/SLF4J-LICENSE.txt|META-INF/MANIFEST.MF|plugin.properties" including="org/slf4j/*|org/slf4j/helpers/*|org/slf4j/spi/*" kind="src" output="bin/1/plugins/org.slf4j.api.jar" path="org.slf4j.api"/>
+	<!-- about.html
+	     about_files/SLF4J-LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     readme-bundles.txt -->
+	<classpathentry kind="src" output="bin/1/plugins/org.slf4j.api.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-org.slf4j"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

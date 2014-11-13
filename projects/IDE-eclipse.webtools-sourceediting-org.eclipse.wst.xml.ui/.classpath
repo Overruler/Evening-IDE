@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- .options
+	     about.html
+	     about.ini
+	     about.mappings
+	     about.properties
+	     examples/EditingAndValidatingXML.zip
+	     icons/full/dtool16/collapse.gif
+	     icons/full/dtool16/collapse_all.gif
+	     icons/full/dtool16/constrainoff.gif
+	     icons/full/dtool16/constrainon.gif
+	     icons/full/dtool16/expand.gif
+	     icons/full/dtool16/expand_all.gif
+	     icons/full/dtool16/new_xml.gif
+	     icons/full/dtool16/rldgrmr.gif
+	     icons/full/dtool16/validate.gif
+	     icons/full/etool16/collapse.gif
+	     icons/full/etool16/collapse_all.gif
+	     icons/full/etool16/constrainoff.gif
+	     icons/full/etool16/constrainon.gif
+	     icons/full/etool16/expand.gif
+	     icons/full/etool16/expand_all.gif
+	     icons/full/etool16/new_xml.gif
+	     icons/full/etool16/rldgrmr.gif
+	     icons/full/etool16/validate.gif
+	     icons/full/obj16/add_correction.gif
+	     icons/full/obj16/attribute_obj.gif
+	     icons/full/obj16/att_req_obj.gif
+	     icons/full/obj16/cdatasection.gif
+	     icons/full/obj16/choice.gif
+	     icons/full/obj16/comment_obj.gif
+	     icons/full/obj16/correction_change.gif
+	     icons/full/obj16/default.gif
+	     icons/full/obj16/doctype.gif
+	     icons/full/obj16/dtdfile.gif
+	     icons/full/obj16/element_obj.gif
+	     icons/full/obj16/entity.gif
+	     icons/full/obj16/entity_reference.gif
+	     icons/full/obj16/enum.gif
+	     icons/full/obj16/error-overlay.gif
+	     icons/full/obj16/error_obj.gif
+	     icons/full/obj16/localvariable_obj.gif
+	     icons/full/obj16/notation.gif
+	     icons/full/obj16/occurone_obj.gif
+	     icons/full/obj16/proinst_obj.gif
+	     icons/full/obj16/sort.gif
+	     icons/full/obj16/tag-generic.gif
+	     icons/full/obj16/tag-macro.gif
+	     icons/full/obj16/tag_generic_deemphasized_obj.gif
+	     icons/full/obj16/tag_generic_emphasized_obj.gif
+	     icons/full/obj16/text.gif
+	     icons/full/obj16/txtext.gif
+	     icons/full/obj16/warning_obj.gif
+	     icons/full/obj16/XSDFile.gif
+	     icons/full/ovr16/error_ovr.gif
+	     icons/full/ovr16/stale_error_ovr.gif
+	     icons/full/ovr16/warn_ovr.gif
+	     icons/full/view16/attibute.gif
+	     icons/full/view16/hierarchy.gif
+	     icons/full/view16/synced.gif
+	     icons/full/wizban/generatexml_wiz.png
+	     icons/full/xml_perspective.gif
+	     icons/newSampleProject_wiz.gif
+	     icons/newSampleProject_wizbanner.png
+	     icons/sourceEditor.gif
+	     icons/WTP_icon_x32_v2.png
+	     icons/xmldoc.gif
+	     icons/XMLFile.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     templates/xmldefault-templates.properties
+	     templates/xmldefault-templates.xml -->
+	<classpathentry excluding="src/|src-catalog/|src-multipage/|src-validation/|src-wizards/|.*|.*/" including=".options|META-INF/*|about.html|about.ini|about.mappings|about.properties|examples/*|icons/*|icons/full/*|icons/full/dtool16/*|icons/full/etool16/*|icons/full/obj16/*|icons/full/ovr16/*|icons/full/view16/*|icons/full/wizban/*|plugin.properties|plugin.xml|templates/*" kind="src" output="bin/1/plugins/org.eclipse.wst.xml.ui.jar" path="org.eclipse.wst.xml.ui"/>
+	<!-- org/eclipse/wst/xml/ui/internal/actions/AbstractCommentActionXMLDelegate.java
+	     org/eclipse/wst/xml/ui/internal/actions/AbstractNodeActionManager.java
+	     org/eclipse/wst/xml/ui/internal/actions/ActionContributorXML.java
+	     org/eclipse/wst/xml/ui/internal/actions/AddBlockCommentActionXMLDelegate.java
+	     org/eclipse/wst/xml/ui/internal/actions/BaseNodeActionManager.java
+	     org/eclipse/wst/xml/ui/internal/actions/CleanupActionXMLDelegate.java
+	     org/eclipse/wst/xml/ui/internal/actions/CleanupDialogXML.java
+	     org/eclipse/wst/xml/ui/internal/actions/EditAttributeAction.java
+	     org/eclipse/wst/xml/ui/internal/actions/EditDoctypeAction.java
+	     org/eclipse/wst/xml/ui/internal/actions/EditElementAction.java
+	     org/eclipse/wst/xml/ui/internal/actions/EditProcessingInstructionAction.java
+	     org/eclipse/wst/xml/ui/internal/actions/EditSchemaInfoAction.java
+	     org/eclipse/wst/xml/ui/internal/actions/MenuBuilder.java
+	     org/eclipse/wst/xml/ui/internal/actions/NodeAction.java
+	     org/eclipse/wst/xml/ui/internal/actions/RemoveBlockCommentActionXMLDelegate.java
+	     org/eclipse/wst/xml/ui/internal/actions/ReplacePrefixAction.java
+	     org/eclipse/wst/xml/ui/internal/actions/ToggleCommentActionXMLDelegate.java
+	     org/eclipse/wst/xml/ui/internal/autoedit/AutoEditStrategyForTabs.java
+	     org/eclipse/wst/xml/ui/internal/autoedit/StructuredAutoEditStrategyXML.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/AbstractContentAssistProcessor.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/AbstractContentModelGenerator.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/AbstractXMLCompletionProposalComputer.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/AbstractXMLModelQueryCompletionProposalComputer.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/AttributeContextInformation.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/AttributeContextInformationPresenter.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/AttributeContextInformationProvider.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/ContentAssistRequest.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/ContextInfoModelUtil.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/DefaultXMLCompletionProposalComputer.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/MarkupCompletionProposal.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/NonValidatingModelQueryAction.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/NoRegionContentAssistProcessor.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/ProposalComparator.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/ReplaceNameTemplateContext.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/SimpleCMElementDeclaration.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/SourceEditorImageHelper.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/XMLContentAssistProcessor.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/XMLContentAssistUtilities.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/XMLContentModelGenerator.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/XMLRelevanceConstants.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/XMLStructuredContentAssistProcessor.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/XMLTagsCompletionProposalComputer.java
+	     org/eclipse/wst/xml/ui/internal/contentassist/XMLTemplatesCompletionProposalComputer.java
+	     org/eclipse/wst/xml/ui/internal/contentoutline/JFaceNodeAdapter.java
+	     org/eclipse/wst/xml/ui/internal/contentoutline/JFaceNodeAdapterFactory.java
+	     org/eclipse/wst/xml/ui/internal/contentoutline/JFaceNodeContentProvider.java
+	     org/eclipse/wst/xml/ui/internal/contentoutline/JFaceNodeLabelProvider.java
+	     org/eclipse/wst/xml/ui/internal/contentoutline/XMLNodeActionManager.java
+	     org/eclipse/wst/xml/ui/internal/correction/CorrectionAssistantProviderXML.java
+	     org/eclipse/wst/xml/ui/internal/correction/CorrectionProcessorXML.java
+	     org/eclipse/wst/xml/ui/internal/correction/InsertRequiredAttrsQuickAssistProposal.java
+	     org/eclipse/wst/xml/ui/internal/correction/ProblemIDsXML.java
+	     org/eclipse/wst/xml/ui/internal/correction/QuickAssistProcessorXML.java
+	     org/eclipse/wst/xml/ui/internal/correction/QuickFixProcessorXML.java
+	     org/eclipse/wst/xml/ui/internal/correction/RemoveUnknownElementQuickFixProposal.java
+	     org/eclipse/wst/xml/ui/internal/correction/RenameInFileQuickAssistProposal.java
+	     org/eclipse/wst/xml/ui/internal/correction/SurroundWithNewElementQuickAssistProposal.java
+	     org/eclipse/wst/xml/ui/internal/correction/XMLQuickAssistProcessor.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/EditAttributeDialog.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/EditDoctypeDialog.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/EditElementDialog.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/EditEntityHelper.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/EditNamespaceInfoDialog.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/EditProcessingInstructionDialog.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/EditSchemaInfoDialog.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/NamespaceInfoErrorHelper.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/NamespaceInfoTable.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/SelectFileOrXMLCatalogIdDialog.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/SelectFileOrXMLCatalogIdPanel.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/SelectXMLCatalogIdDialog.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/SelectXMLCatalogIdPanel.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/UpdateListener.java
+	     org/eclipse/wst/xml/ui/internal/dialogs/XMLCatalogTableViewer.java
+	     org/eclipse/wst/xml/ui/internal/dnd/DragNodeCommand.java
+	     org/eclipse/wst/xml/ui/internal/dnd/XMLDragAndDropManager.java
+	     org/eclipse/wst/xml/ui/internal/DOMObserver.java
+	     org/eclipse/wst/xml/ui/internal/DOMObserverAdapter.java
+	     org/eclipse/wst/xml/ui/internal/doubleclick/XMLDoubleClickStrategy.java
+	     org/eclipse/wst/xml/ui/internal/editor/CMImageUtil.java
+	     org/eclipse/wst/xml/ui/internal/editor/DOMSelectionConvertorFactory.java
+	     org/eclipse/wst/xml/ui/internal/editor/IHelpContextIds.java
+	     org/eclipse/wst/xml/ui/internal/editor/propertytester/XMLEditorTester.java
+	     org/eclipse/wst/xml/ui/internal/editor/XMLEditorPluginImageHelper.java
+	     org/eclipse/wst/xml/ui/internal/editor/XMLEditorPluginImages.java
+	     org/eclipse/wst/xml/ui/internal/handlers/AbstractSiblingNavigationHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/CleanupdocumentHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/CollapseAllHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/ContentModelSynchWithEditorHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/ExpandAllHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/ExpandCollapseAllHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/NextSiblingNavigationHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/PreviousSiblingNavigationHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/ReloadDependenciesHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/StructuredSelectEnclosingXMLHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/StructuredSelectNextXMLHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/StructuredSelectPreviousXMLHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/ToggleEditModeHandler.java
+	     org/eclipse/wst/xml/ui/internal/handlers/XMLFindOccurencesHandler.java
+	     org/eclipse/wst/xml/ui/internal/hyperlink/XMLHyperlinkDetector.java
+	     org/eclipse/wst/xml/ui/internal/IProductConstants.java
+	     org/eclipse/wst/xml/ui/internal/Logger.java
+	     org/eclipse/wst/xml/ui/internal/nsedit/CommonAddNamespacesControl.java
+	     org/eclipse/wst/xml/ui/internal/nsedit/CommonAddNamespacesDialog.java
+	     org/eclipse/wst/xml/ui/internal/nsedit/CommonEditNamespacesDialog.java
+	     org/eclipse/wst/xml/ui/internal/nsedit/CommonEditNamespacesTargetFieldDialog.java
+	     org/eclipse/wst/xml/ui/internal/nsedit/CommonNamespaceInfoTable.java
+	     org/eclipse/wst/xml/ui/internal/perspective/XMLPerspectiveFactory.java
+	     org/eclipse/wst/xml/ui/internal/preferences/EmptyFilePreferencePage.java
+	     org/eclipse/wst/xml/ui/internal/preferences/EncodingSettings.java
+	     org/eclipse/wst/xml/ui/internal/preferences/WorkbenchDefaultEncodingSettings.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLColorPage.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLCompletionProposalCategoriesConfiguration.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLContentAssistPreferencePage.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLFilesPreferencePage.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLSourcePreferencePage.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLSyntaxColoringPage.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLTemplatePreferencePage.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLTypingPreferencePage.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLUIPreferenceInitializer.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLUIPreferenceNames.java
+	     org/eclipse/wst/xml/ui/internal/preferences/XMLValidatorPreferencePage.java
+	     org/eclipse/wst/xml/ui/internal/ProductProperties.java
+	     org/eclipse/wst/xml/ui/internal/projection/XMLCommentFoldingPosition.java
+	     org/eclipse/wst/xml/ui/internal/projection/XMLElementFoldingPosition.java
+	     org/eclipse/wst/xml/ui/internal/projection/XMLFoldingStrategy.java
+	     org/eclipse/wst/xml/ui/internal/properties/EnumeratedStringPropertyDescriptor.java
+	     org/eclipse/wst/xml/ui/internal/properties/StringComboBoxCellEditor.java
+	     org/eclipse/wst/xml/ui/internal/properties/XMLPropertySource.java
+	     org/eclipse/wst/xml/ui/internal/provisional/IDOMSourceEditingTextTools.java
+	     org/eclipse/wst/xml/ui/internal/provisional/XMLSourceEditingTextTools.java
+	     org/eclipse/wst/xml/ui/internal/quickoutline/XMLContentSelectionProvider.java
+	     org/eclipse/wst/xml/ui/internal/quickoutline/XMLQuickOutlineConfiguration.java
+	     org/eclipse/wst/xml/ui/internal/registry/AdapterFactoryProviderForXML.java
+	     org/eclipse/wst/xml/ui/internal/search/XMLFindOccurrencesActionDelegate.java
+	     org/eclipse/wst/xml/ui/internal/search/XMLFindOccurrencesProcessor.java
+	     org/eclipse/wst/xml/ui/internal/selection/StructuredSelectEnclosingXMLActionDelegate.java
+	     org/eclipse/wst/xml/ui/internal/selection/StructuredSelectNextXMLActionDelegate.java
+	     org/eclipse/wst/xml/ui/internal/selection/StructuredSelectPreviousXMLActionDelegate.java
+	     org/eclipse/wst/xml/ui/internal/spelling/SpellcheckDelegateAdapterFactory.java
+	     org/eclipse/wst/xml/ui/internal/style/IStyleConstantsXML.java
+	     org/eclipse/wst/xml/ui/internal/style/LineStyleProviderForXML.java
+	     org/eclipse/wst/xml/ui/internal/taginfo/MarkupTagInfoProvider.java
+	     org/eclipse/wst/xml/ui/internal/taginfo/XMLInformationProvider.java
+	     org/eclipse/wst/xml/ui/internal/taginfo/XMLTagInfoHoverProcessor.java
+	     org/eclipse/wst/xml/ui/internal/templates/EncodingTemplateVariableResolverXML.java
+	     org/eclipse/wst/xml/ui/internal/templates/TemplateContextTypeIdsXML.java
+	     org/eclipse/wst/xml/ui/internal/templates/TemplateContextTypeXML.java
+	     org/eclipse/wst/xml/ui/internal/text/CharacterPairInserter.java
+	     org/eclipse/wst/xml/ui/internal/text/XMLDocumentRegionEdgeMatcher.java
+	     org/eclipse/wst/xml/ui/internal/util/SharedXMLEditorPluginImageHelper.java
+	     org/eclipse/wst/xml/ui/internal/util/XMLCommonResources.java
+	     org/eclipse/wst/xml/ui/internal/util/XMLCommonUIContextIds.java
+	     org/eclipse/wst/xml/ui/internal/validation/DelegatingSourceValidator.java
+	     org/eclipse/wst/xml/ui/internal/validation/DelegatingSourceValidatorForXML.java
+	     org/eclipse/wst/xml/ui/internal/validation/MarkupValidator.java
+	     org/eclipse/wst/xml/ui/internal/views/annotations/XMLAnnotationsView.java
+	     org/eclipse/wst/xml/ui/internal/views/contentmodel/CMListWorkbenchAdapter.java
+	     org/eclipse/wst/xml/ui/internal/views/contentmodel/ContentModelAdapterFactory.java
+	     org/eclipse/wst/xml/ui/internal/views/contentmodel/ContentModelView.java
+	     org/eclipse/wst/xml/ui/internal/XMLFormattingStrategy.java
+	     org/eclipse/wst/xml/ui/internal/XMLUIMessages.java
+	     org/eclipse/wst/xml/ui/internal/XMLUIPlugin.java
+	     org/eclipse/wst/xml/ui/internal/XMLUIPluginResources.properties
+	     org/eclipse/wst/xml/ui/StructuredTextViewerConfigurationXML.java
+	     org/eclipse/wst/xml/ui/views/contentoutline/AbstractXMLContentOutlineConfiguration.java
+	     org/eclipse/wst/xml/ui/views/contentoutline/XMLCDATASectionFilter.java
+	     org/eclipse/wst/xml/ui/views/contentoutline/XMLCommentFilter.java
+	     org/eclipse/wst/xml/ui/views/contentoutline/XMLContentOutlineConfiguration.java
+	     org/eclipse/wst/xml/ui/views/contentoutline/XMLProcessingInstructionFilter.java
+	     org/eclipse/wst/xml/ui/views/properties/XMLPropertySheetConfiguration.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.ui.jar" path="org.eclipse.wst.xml.ui/src"/>
+	<!-- org/eclipse/wst/xml/ui/internal/catalog/AdvancedOptionsDialog.java
+	     org/eclipse/wst/xml/ui/internal/catalog/CatalogFileTypeRegistryReader.java
+	     org/eclipse/wst/xml/ui/internal/catalog/EditCatalogEntryDialog.java
+	     org/eclipse/wst/xml/ui/internal/catalog/ElementNodePage.java
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/etool50/catalogEntry.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/etool50/delegateCatalog.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/etool50/nextCatalog.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/etool50/prefix.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/etool50/rewrite.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/etool50/sufix.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/obj16/catalog_entry.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/obj16/delegate_catalog.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/obj16/entry_obj.png
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/obj16/file_expand.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/obj16/file_obj.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/obj16/nextCatalog_obj.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/obj16/next_catalog.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/obj16/rewrite_entry.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/obj16/suffix_entry.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/obj16/xmlcatalog_obj.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/icons/ovr16/error-overlay.gif
+	     org/eclipse/wst/xml/ui/internal/catalog/ImageFactory.java
+	     org/eclipse/wst/xml/ui/internal/catalog/URIUtils.java
+	     org/eclipse/wst/xml/ui/internal/catalog/XMLCatalogEntriesView.java
+	     org/eclipse/wst/xml/ui/internal/catalog/XMLCatalogEntryDetailsView.java
+	     org/eclipse/wst/xml/ui/internal/catalog/XMLCatalogFileType.java
+	     org/eclipse/wst/xml/ui/internal/catalog/XMLCatalogMessages.java
+	     org/eclipse/wst/xml/ui/internal/catalog/XMLCatalogPreferencePage.java
+	     org/eclipse/wst/xml/ui/internal/catalog/XMLCatalogResources.properties
+	     org/eclipse/wst/xml/ui/internal/catalog/XMLCatalogTreeViewer.java
+	     org/eclipse/wst/xml/ui/internal/catalog/XMLQuickScan.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.ui.jar" path="org.eclipse.wst.xml.ui/src-catalog"/>
+	<!-- org/eclipse/wst/xml/ui/internal/tabletree/DOMPropertyDescriptorFactory.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/IDesignViewer.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/IDesignViewerActionBarContributor.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/SourceEditorActionBarContributor.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/SourcePageActionContributor.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/TreeContentHelper.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/TreeExtension.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/ViewerExpandCollapseAction.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLEditorActionDefinitionIds.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLEditorMessages.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLEditorPluginImageHelper.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLEditorPluginImages.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLEditorResources.properties
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLMultiPageEditorActionBarContributor.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLMultiPageEditorPart.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLTableTreeActionBarContributor.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLTableTreeContentProvider.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLTableTreeHelpContextIds.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLTableTreePropertyDescriptorFactory.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLTableTreeViewer.java
+	     org/eclipse/wst/xml/ui/internal/tabletree/XMLTreeExtension.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.ui.jar" path="org.eclipse.wst.xml.ui/src-multipage"/>
+	<!-- org/eclipse/wst/xml/ui/internal/validation/core/errorinfo/GroupNamePropertyTester.java
+	     org/eclipse/wst/xml/ui/internal/validation/core/errorinfo/ReferencedFileErrorDialog.java
+	     org/eclipse/wst/xml/ui/internal/validation/core/errorinfo/ReferencedFileErrorsHandler.java
+	     org/eclipse/wst/xml/ui/internal/validation/core/errorinfo/ReferencedFileErrorUtility.java
+	     org/eclipse/wst/xml/ui/internal/validation/core/errorinfo/TaskListTableViewer.java
+	     org/eclipse/wst/xml/ui/internal/validation/xmlvalidation.properties
+	     org/eclipse/wst/xml/ui/internal/validation/XMLValidationUIMessages.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.ui.jar" path="org.eclipse.wst.xml.ui/src-validation"/>
+	<!-- org/eclipse/wst/xml/ui/internal/wizards/ExampleProjectCreationOperation.java
+	     org/eclipse/wst/xml/ui/internal/wizards/ExampleProjectCreationWizard.java
+	     org/eclipse/wst/xml/ui/internal/wizards/ExampleProjectCreationWizardPage.java
+	     org/eclipse/wst/xml/ui/internal/wizards/ExportXMLCatalogWizard.java
+	     org/eclipse/wst/xml/ui/internal/wizards/ImportXMLCatalogPage.java
+	     org/eclipse/wst/xml/ui/internal/wizards/ImportXMLCatalogWizard.java
+	     org/eclipse/wst/xml/ui/internal/wizards/NamespaceInfoContentBuilder.java
+	     org/eclipse/wst/xml/ui/internal/wizards/NewModelWizard.java
+	     org/eclipse/wst/xml/ui/internal/wizards/NewXMLGenerator.java
+	     org/eclipse/wst/xml/ui/internal/wizards/NewXMLHandler.java
+	     org/eclipse/wst/xml/ui/internal/wizards/NewXMLTemplatesWizardPage.java
+	     org/eclipse/wst/xml/ui/internal/wizards/NewXMLWizard.java
+	     org/eclipse/wst/xml/ui/internal/wizards/wizardResource.properties
+	     org/eclipse/wst/xml/ui/internal/wizards/XMLImportActionDelegate.java
+	     org/eclipse/wst/xml/ui/internal/wizards/XMLSchemaValidationChecker.java
+	     org/eclipse/wst/xml/ui/internal/wizards/XMLWizard.java
+	     org/eclipse/wst/xml/ui/internal/wizards/XMLWizardsMessages.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.xml.ui.jar" path="org.eclipse.wst.xml.ui/src-wizards"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.uriresolver"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.sse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.validation"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.validation.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-sourceediting-org.eclipse.wst.xml.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- com/google/protobuf/AbstractMessage.java
+	     com/google/protobuf/AbstractMessageLite.java
+	     com/google/protobuf/BlockingRpcChannel.java
+	     com/google/protobuf/BlockingService.java
+	     com/google/protobuf/ByteString.java
+	     com/google/protobuf/CodedInputStream.java
+	     com/google/protobuf/CodedOutputStream.java
+	     com/google/protobuf/Descriptors.java
+	     com/google/protobuf/DynamicMessage.java
+	     com/google/protobuf/ExtensionRegistry.java
+	     com/google/protobuf/ExtensionRegistryLite.java
+	     com/google/protobuf/FieldSet.java
+	     com/google/protobuf/GeneratedMessage.java
+	     com/google/protobuf/GeneratedMessageLite.java
+	     com/google/protobuf/Internal.java
+	     com/google/protobuf/InvalidProtocolBufferException.java
+	     com/google/protobuf/LazyStringArrayList.java
+	     com/google/protobuf/LazyStringList.java
+	     com/google/protobuf/Message.java
+	     com/google/protobuf/MessageLite.java
+	     com/google/protobuf/MessageLiteOrBuilder.java
+	     com/google/protobuf/MessageOrBuilder.java
+	     com/google/protobuf/ProtocolMessageEnum.java
+	     com/google/protobuf/RepeatedFieldBuilder.java
+	     com/google/protobuf/RpcCallback.java
+	     com/google/protobuf/RpcChannel.java
+	     com/google/protobuf/RpcController.java
+	     com/google/protobuf/RpcUtil.java
+	     com/google/protobuf/Service.java
+	     com/google/protobuf/ServiceException.java
+	     com/google/protobuf/SingleFieldBuilder.java
+	     com/google/protobuf/SmallSortedMap.java
+	     com/google/protobuf/TextFormat.java
+	     com/google/protobuf/UninitializedMessageException.java
+	     com/google/protobuf/UnknownFieldSet.java
+	     com/google/protobuf/UnmodifiableLazyStringList.java
+	     com/google/protobuf/WireFormat.java -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.protobuf.jar" path="google.protobuf/java/src/main/java"/>
+	<!-- about.html
+	     about_files/CHANGES.txt
+	     about_files/COPYING.txt
+	     about_files/README.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.protobuf.jar" path="res"/>
+	<!-- com/google/protobuf/DescriptorProtos.java -->
+	<classpathentry kind="src" output="bin/1/plugins/com.google.protobuf.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

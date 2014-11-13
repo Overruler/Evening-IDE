@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/etool16/repository-new.gif
+	     icons/eview16/repositories.gif
+	     icons/obj16/folder.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/etool16/*|icons/eview16/*|icons/obj16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.repositories.ui.jar" path="org.eclipse.mylyn.commons.repositories.ui"/>
+	<!-- org/eclipse/mylyn/commons/repositories/ui/IPartContainer.java
+	     org/eclipse/mylyn/commons/repositories/ui/messages.properties
+	     org/eclipse/mylyn/commons/repositories/ui/RepositoryLocationPart.java
+	     org/eclipse/mylyn/commons/repositories/ui/RepositoryPropertyPage.java
+	     org/eclipse/mylyn/commons/repositories/ui/RepositoryUi.java
+	     org/eclipse/mylyn/commons/repositories/ui/RepositoryWizardPage.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/auth/AbstractCredentialsProviderUi.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/auth/CertificateCredentialsProviderUi.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/auth/Messages.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/auth/messages.properties
+	     org/eclipse/mylyn/internal/commons/repositories/ui/auth/OpenIdCredentialsProviderUi.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/auth/RepositoryAuthenticator.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/auth/UserCredentialsProviderUi.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/EmptyRepositoryCategoriesFilter.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/Messages.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/messages.properties
+	     org/eclipse/mylyn/internal/commons/repositories/ui/NewRepositoryHandler.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/RepositoriesUiPlugin.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/RepositoriesView.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/RepositoryCategoryContentProvider.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/RepositoryCategorySorter.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/RepositoryLabelProvider.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/RepositoryLocationValueProperty.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/RepositoryUiUtil.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/ShowInMenuContribution.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/UiLocationService.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/UiSecureCredentialsStore.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/wizards/NewRepositoryWizard.java
+	     org/eclipse/mylyn/internal/commons/repositories/ui/wizards/NewRepositoryWizardRegistry.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.commons.repositories.ui.jar" path="org.eclipse.mylyn.commons.repositories.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding.beans"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.core.databinding.property"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface.databinding"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

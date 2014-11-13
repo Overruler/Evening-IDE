@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.team.cvs.jar" path="org.eclipse.mylyn.team.cvs"/>
+	<!-- org/eclipse/mylyn/internal/team/ccvs/CommitContextWizard.java
+	     org/eclipse/mylyn/internal/team/ccvs/CvsActiveChangeSetProvider.java
+	     org/eclipse/mylyn/internal/team/ccvs/CvsChangeSetAdapterFactory.java
+	     org/eclipse/mylyn/internal/team/ccvs/CvsChangeSetResourceMappingAdapterFactory.java
+	     org/eclipse/mylyn/internal/team/ccvs/CvsCommitWorkflowProvider.java
+	     org/eclipse/mylyn/internal/team/ccvs/CvsContextChangeSet.java
+	     org/eclipse/mylyn/internal/team/ccvs/CvsLinkedTaskInfoAdapterFactory.java
+	     org/eclipse/mylyn/internal/team/ccvs/Messages.java
+	     org/eclipse/mylyn/internal/team/ccvs/messages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.team.cvs.jar" path="org.eclipse.mylyn.team.cvs/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.resources.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.context-org.eclipse.mylyn.team.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.cvs.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.cvs.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

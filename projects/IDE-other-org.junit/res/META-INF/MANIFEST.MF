@@ -29,5 +29,5 @@ Export-Package: junit.extensions;version="4.11.0",junit.framework;vers
  r;version="4.11.0",org.junit.runner.manipulation;version="4.11.0",org
  .junit.runner.notification;version="4.11.0",org.junit.runners;version
  ="4.11.0",org.junit.runners.model;version="4.11.0"
-Bundle-Version: 4.11.0.v201303080030
+Bundle-Version: 4.11.0.qualifier
 Bundle-ManifestVersion: 2

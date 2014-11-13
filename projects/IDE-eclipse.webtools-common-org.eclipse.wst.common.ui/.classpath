@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/collapseAll.gif
+	     icons/expandAll.gif
+	     icons/saveas_wiz.png
+	     icons/tsearch_dpdn_obj.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|src-search/|.*|.*/" including="META-INF/*|about.html|icons/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.common.ui.jar" path="org.eclipse.wst.common.ui"/>
+	<!-- org/eclipse/wst/common/ui/internal/CommonUIMessages.properties
+	     org/eclipse/wst/common/ui/internal/dialogs/SaveDirtyFilesDialog.java
+	     org/eclipse/wst/common/ui/internal/dialogs/SelectSingleFileDialog.java
+	     org/eclipse/wst/common/ui/internal/dnd/DefaultDragAndDropCommand.java
+	     org/eclipse/wst/common/ui/internal/dnd/DragAndDropCommand.java
+	     org/eclipse/wst/common/ui/internal/dnd/DragAndDropManager.java
+	     org/eclipse/wst/common/ui/internal/dnd/ObjectTransfer.java
+	     org/eclipse/wst/common/ui/internal/dnd/ViewerDragAdapter.java
+	     org/eclipse/wst/common/ui/internal/dnd/ViewerDropAdapter.java
+	     org/eclipse/wst/common/ui/internal/Messages.java
+	     org/eclipse/wst/common/ui/internal/navigator/ILoadingDDNode.java
+	     org/eclipse/wst/common/ui/internal/UIPlugin.java
+	     org/eclipse/wst/common/ui/internal/viewers/NavigableTableViewer.java
+	     org/eclipse/wst/common/ui/internal/viewers/ResourceFilter.java
+	     org/eclipse/wst/common/ui/internal/viewers/SelectMultiFilePage.java
+	     org/eclipse/wst/common/ui/internal/viewers/SelectSingleFilePage.java
+	     org/eclipse/wst/common/ui/internal/viewers/SelectSingleFileView.java
+	     org/eclipse/wst/common/ui/internal/viewers/TableNavigator.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.ui.jar" path="org.eclipse.wst.common.ui/src"/>
+	<!-- org/eclipse/wst/common/ui/internal/search/AbstractSearchQuery.java
+	     org/eclipse/wst/common/ui/internal/search/basecode/FileLabelProvider.java
+	     org/eclipse/wst/common/ui/internal/search/basecode/IFileSearchContentProvider.java
+	     org/eclipse/wst/common/ui/internal/search/basecode/Messages.java
+	     org/eclipse/wst/common/ui/internal/search/basecode/ResourceTransferDragAdapter.java
+	     org/eclipse/wst/common/ui/internal/search/basecode/SortAction.java
+	     org/eclipse/wst/common/ui/internal/search/dialogs/ComponentSearchListDialog.java
+	     org/eclipse/wst/common/ui/internal/search/dialogs/ComponentSearchListDialogConfiguration.java
+	     org/eclipse/wst/common/ui/internal/search/dialogs/ComponentSpecification.java
+	     org/eclipse/wst/common/ui/internal/search/dialogs/IComponentDescriptionProvider.java
+	     org/eclipse/wst/common/ui/internal/search/dialogs/IComponentList.java
+	     org/eclipse/wst/common/ui/internal/search/dialogs/IComponentSearchListProvider.java
+	     org/eclipse/wst/common/ui/internal/search/dialogs/INewComponentHandler.java
+	     org/eclipse/wst/common/ui/internal/search/dialogs/ScopedComponentSearchListDialog.java
+	     org/eclipse/wst/common/ui/internal/search/dialogs/Test.java
+	     org/eclipse/wst/common/ui/internal/search/ISearchConstants.java
+	     org/eclipse/wst/common/ui/internal/search/SearchMessages.java
+	     org/eclipse/wst/common/ui/internal/search/SearchMessages.properties
+	     org/eclipse/wst/common/ui/internal/search/SearchResult.java
+	     org/eclipse/wst/common/ui/internal/search/SearchResultPage.java
+	     org/eclipse/wst/common/ui/internal/search/SearchResultTableContentProvider.java
+	     org/eclipse/wst/common/ui/internal/search/SearchResultTreeContentProvider.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.ui.jar" path="org.eclipse.wst.common.ui/src-search"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.search"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

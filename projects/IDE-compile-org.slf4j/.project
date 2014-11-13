@@ -18,7 +18,7 @@
 		<link>
 			<name>org.slf4j.api</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/libraries/orbit-sources/org.slf4j.api</locationURI>
+			<location>C:/Evening-IDE/libraries/orbit-sources/org.slf4j.api</location>
 		</link>
 	</linkedResources>
 </projectDescription>

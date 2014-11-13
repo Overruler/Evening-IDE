@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<toc topic="help/Mylyn WikiText User Guide.html" label="Mylyn WikiText User Guide">
+	<topic href="help/Mylyn WikiText User Guide.html" label="Overview">
+		<topic href="help/Mylyn WikiText User Guide.html#TableofContents" label="Table of Contents"></topic>
+	</topic>
+	<topic href="help/Getting-Started.html" label="Getting Started">
+		<topic href="help/Getting-Started.html#CreatingANewFile" label="Creating A New File"></topic>
+		<topic href="help/Getting-Started.html#WikiTextEditorOverview" label="WikiText Editor Overview">
+			<topic href="help/Getting-Started.html#MarkupSourceTab" label="Markup Source Tab"></topic>
+			<topic href="help/Getting-Started.html#PreviewTab" label="Preview Tab"></topic>
+			<topic href="help/Getting-Started.html#Outline" label="Outline"></topic>
+			<topic href="help/Getting-Started.html#Folding" label="Folding">
+				<topic href="help/Getting-Started.html#ActiveFolding" label="Active Folding"></topic>
+			</topic>
+		</topic>
+		<topic href="help/Getting-Started.html#SwitchingMarkupLanguages" label="Switching Markup Languages"></topic>
+		<topic href="help/Getting-Started.html#AccessingtheMarkupCheatSheet" label="Accessing the Markup Cheat-Sheet"></topic>
+		<topic href="help/Getting-Started.html#ProjectSettings" label="Project Settings"></topic>
+	</topic>
+	<topic href="help/Task-Editor-Integration.html" label="Task Editor Integration">
+		<topic href="help/Task-Editor-Integration.html#RepositoryConfiguration" label="Repository Configuration"></topic>
+		<topic href="help/Task-Editor-Integration.html#TaskEditorAppearance" label="Task Editor Appearance">
+			<topic href="help/Task-Editor-Integration.html#TaskEditorFonts" label="Task Editor Fonts"></topic>
+		</topic>
+		<topic href="help/Task-Editor-Integration.html#MarkupforTaskRepositories" label="Markup for Task Repositories">
+			<topic href="help/Task-Editor-Integration.html#MarkupforBugzilla" label="Markup for Bugzilla"></topic>
+		</topic>
+	</topic>
+	<topic href="help/Markup-Generation.html" label="Markup Generation">
+		<topic href="help/Markup-Generation.html#GenerationInEclipse" label="Generation In Eclipse">
+			<topic href="help/Markup-Generation.html#ContentGenerationfromWikiMarkup" label="Content Generation from Wiki Markup"></topic>
+		</topic>
+		<topic href="help/Markup-Generation.html#ContentGenerationfromWikiMarkupusingMaven" label="Content Generation from Wiki Markup using Maven"></topic>
+		<topic href="help/Markup-Generation.html#ContentGenerationfromWikiMarkupusingAnt" label="Content Generation from Wiki Markup using Ant">
+			<topic href="help/Markup-Generation.html#PDFandXSLFO" label="PDF and XSLFO">
+				<topic href="help/Markup-Generation.html#PDFfromXSLFOQuickStart" label="PDF from XSL-FO Quick-Start"></topic>
+			</topic>
+			<topic href="help/Markup-Generation.html#DocBook" label="DocBook"></topic>
+			<topic href="help/Markup-Generation.html#DITA" label="DITA">
+				<topic href="help/Markup-Generation.html#wikitexttoditaMultipleFilesExample" label="wikitext-to-dita - Multiple Files Example"></topic>
+				<topic href="help/Markup-Generation.html#wikitexttoditaSingleOutputFileExample" label="wikitext-to-dita - Single Output File Example"></topic>
+			</topic>
+			<topic href="help/Markup-Generation.html#MediaWikiToEclipseHelp" label="MediaWiki To Eclipse Help"></topic>
+		</topic>
+		<topic href="help/Markup-Generation.html#HtmlToWikiText" label="Html To WikiText"></topic>
+		<topic href="help/Markup-Generation.html#AntExamples" label="Ant Examples"></topic>
+		<topic href="help/Markup-Generation.html#MarkupLanguageCustomization" label="Markup Language Customization"></topic>
+	</topic>
+	<topic href="help/Textile-Syntax.html" label="Textile Syntax">
+		<topic href="help/Textile-Syntax.html#TextileSyntaxTips" label="Textile Syntax Tips">
+			<topic href="help/Textile-Syntax.html#Whitespace" label="Whitespace"></topic>
+			<topic href="help/Textile-Syntax.html#HTMLLiterals" label="HTML Literals"></topic>
+			<topic href="help/Textile-Syntax.html#ImagesandDocBook" label="Images and DocBook">
+				<topic href="help/Textile-Syntax.html#InlineImagesv.s.BlockImages" label="Inline Images v.s. Block Images"></topic>
+				<topic href="help/Textile-Syntax.html#ImageScaling" label="Image Scaling"></topic>
+				<topic href="help/Textile-Syntax.html#ImageSize" label="Image Size"></topic>
+			</topic>
+			<topic href="help/Textile-Syntax.html#ExtendedBlocks" label="Extended Blocks"></topic>
+		</topic>
+		<topic href="help/Textile-Syntax.html#TextileExtensions" label="Textile Extensions"></topic>
+		<topic href="help/Textile-Syntax.html#Examples" label="Examples"></topic>
+		<topic href="help/Textile-Syntax.html#TextileReference" label="Textile Reference"></topic>
+	</topic>
+	<topic href="help/Tips-and-Tricks.html" label="Tips and Tricks">
+		<topic href="help/Tips-and-Tricks.html#HotKeys" label="Hot-Keys"></topic>
+		<topic href="help/Tips-and-Tricks.html#WordCompletion" label="Word Completion"></topic>
+		<topic href="help/Tips-and-Tricks.html#Spelling" label="Spelling"></topic>
+		<topic href="help/Tips-and-Tricks.html#ContentAssist" label="Content Assist">
+			<topic href="help/Tips-and-Tricks.html#CrossReferencesandContentAssist" label="Cross-References and Content Assist"></topic>
+			<topic href="help/Tips-and-Tricks.html#TemplateBasedContentAssist" label="Template-Based Content Assist">
+				<topic href="help/Tips-and-Tricks.html#CreatingCustomTemplates" label="Creating Custom Templates"></topic>
+			</topic>
+			<topic href="help/Tips-and-Tricks.html#SelectionandContentAssist" label="Selection and Content Assist"></topic>
+		</topic>
+		<topic href="help/Tips-and-Tricks.html#QuickOutline" label="Quick Outline"></topic>
+	</topic>
+	<topic href="help/Preferences.html" label="Preferences">
+		<topic href="help/Preferences.html#EditorPreferences" label="Editor Preferences">
+			<topic href="help/Preferences.html#FontPreferences" label="Font Preferences"></topic>
+		</topic>
+		<topic href="help/Preferences.html#RenderingAppearance" label="Rendering Appearance"></topic>
+	</topic>
+	<topic href="help/Upgrading-From-Mylyn-WikiText-1-x-to-2-x.html" label="Upgrading From Mylyn WikiText 1.x to 2.x">
+		<topic href="help/Upgrading-From-Mylyn-WikiText-1-x-to-2-x.html#AntUsagein2.0" label="Ant Usage in 2.0"></topic>
+		<topic href="help/Upgrading-From-Mylyn-WikiText-1-x-to-2-x.html#APIChangesin2.0" label="API Changes in 2.0"></topic>
+	</topic>
+	<topic href="help/More-Information.html" label="More Information">
+		<topic href="help/More-Information.html#Feedback" label="Feedback"></topic>
+	</topic>
+	<anchor id="additions"/>
+</toc>

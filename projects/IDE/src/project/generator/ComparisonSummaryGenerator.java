@@ -11,6 +11,7 @@ import java.util.jar.Manifest;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
+import project.combiner.MainBuildIDE;
 import utils.lists.ArrayList;
 import utils.lists.Files;
 import utils.lists.HashMap;
@@ -23,14 +24,13 @@ import utils.streams2.Streams;
 
 class ComparisonSummaryGenerator {
 	private static final Path USER_HOME_FOLDER = Paths.get(System.getProperty("user.home", ""));
-	private static final Path WORKING_FOLDER = Paths.get("").toAbsolutePath();
 
 	public static void main(String[] args) throws IOException {
-		Path version1 = chooseNewer(USER_HOME_FOLDER, "eclipse", "evening", 1);
-		Path version2 = chooseNewer(WORKING_FOLDER, "target/ide-1", "target/ide-2", 2);
-		Map<Path, Pair<byte[], Instant>> official =
-			readContents("--- Summary report of different files between two versions, by type of file", version1);
+		Path version1 = MainBuildIDE.determineUnusedTarget();
+		Path version2 = chooseNewer(USER_HOME_FOLDER, "eclipse", "evening", 1);
 		Map<Path, Pair<byte[], Instant>> current =
+			readContents("--- Summary report of different files between two versions, by type of file", version1);
+		Map<Path, Pair<byte[], Instant>> official =
 			readContents("--- (from " + version1 + " and " + version2 + ")", version2);
 		int diffs;
 		diffs = printReport("Short Report (ignoring all but major version differences)", official, current, 1);
@@ -44,7 +44,7 @@ class ComparisonSummaryGenerator {
 		Path version2 = folder.resolve(path2);
 		boolean found1 = Files.isDirectory(version1);
 		boolean found2 = Files.isDirectory(version2);
-		if(found1 || found2) {
+		if(found1 && found2) {
 			Instant modified1 = Files.getLastModifiedTime(version1).toInstant();
 			Instant modified2 = Files.getLastModifiedTime(version2).toInstant();
 			return modified1.isAfter(modified2) ? version1 : version2;
@@ -212,6 +212,9 @@ class ComparisonSummaryGenerator {
 			target.stream().filter(e -> e.lhs.endsWith(JarFile.MANIFEST_NAME)).toList();
 		HashMap<Path, Path> adjustments = new HashMap<>();
 		for(Pair<Path, Pair<byte[], Instant>> entry : list) {
+			if(entry.lhs.getNameCount() <= 2) {
+				continue;
+			}
 			Path path = entry.lhs.subpath(0, entry.lhs.getNameCount() - 2);
 			String name = path.getFileName().toString();
 			Attributes attributes = parseManifest(entry.rhs.lhs);

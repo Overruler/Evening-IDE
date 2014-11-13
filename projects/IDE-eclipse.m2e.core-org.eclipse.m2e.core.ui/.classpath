@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     helpContext.xml
+	     help/LifecycleMappingPage.html
+	     icons/add_index.gif
+	     icons/clear.gif
+	     icons/collapseall.gif
+	     icons/debug.gif
+	     icons/dirty.gif
+	     icons/error_st_obj.gif
+	     icons/expandall.gif
+	     icons/import_jar.gif
+	     icons/import_m2_project.gif
+	     icons/import_project.png
+	     icons/jar_obj.gif
+	     icons/jar_src_version.gif
+	     icons/jar_version.gif
+	     icons/lock_ovr.gif
+	     icons/m2.gif
+	     icons/m2eclipse48.gif
+	     icons/main_tab.gif
+	     icons/maven_index.gif
+	     icons/maven_indexes.gif
+	     icons/mlabel.gif
+	     icons/new_m2_project.gif
+	     icons/new_m2_project_wizard.gif
+	     icons/passed.png
+	     icons/pom_obj.gif
+	     icons/project_obj.gif
+	     icons/rebuild_index.gif
+	     icons/refresh.gif
+	     icons/stderr.gif
+	     icons/stdout.gif
+	     icons/suspend.gif
+	     icons/update_dependencies.gif
+	     icons/update_index.gif
+	     intro/css/overview.css
+	     intro/css/whatsnew.css
+	     intro/overview.xml
+	     intro/whatsnew.xml
+	     m2eclipse.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/discoveryLaunch.exsd -->
+	<classpathentry excluding="src/|.*/" including="META-INF/*|about.html|help/*|helpContext.xml|icons/*|intro/*|intro/css/*|m2eclipse.gif|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.m2e.core.ui.jar" path="org.eclipse.m2e.core.ui"/>
+	<!-- org/eclipse/m2e/core/ui/internal/actions/AddDependencyAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/AddPluginAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/AssignWorkingSetAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/ChangeNatureAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/DisableNatureAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/EnableNatureAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/MavenActionSupport.java
+	     org/eclipse/m2e/core/ui/internal/actions/MavenConsoleRemoveAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/MavenDebugOutputAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/MavenProjectActionSupport.java
+	     org/eclipse/m2e/core/ui/internal/actions/MavenPropertyTester.java
+	     org/eclipse/m2e/core/ui/internal/actions/ModuleProjectWizardAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/OpenMavenConsoleAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/OpenPomAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/SelectionUtil.java
+	     org/eclipse/m2e/core/ui/internal/actions/UpdateMavenProjectAction.java
+	     org/eclipse/m2e/core/ui/internal/actions/UpdateMavenProjectCommandHandler.java
+	     org/eclipse/m2e/core/ui/internal/components/MavenProjectLabelProvider.java
+	     org/eclipse/m2e/core/ui/internal/components/NestedProjectsComposite.java
+	     org/eclipse/m2e/core/ui/internal/components/PomHierarchyComposite.java
+	     org/eclipse/m2e/core/ui/internal/components/TextComboBoxCellEditor.java
+	     org/eclipse/m2e/core/ui/internal/components/WorkingSetGroup.java
+	     org/eclipse/m2e/core/ui/internal/console/ConsoleDocument.java
+	     org/eclipse/m2e/core/ui/internal/console/IMavenConsoleListener.java
+	     org/eclipse/m2e/core/ui/internal/console/MavenConsole.java
+	     org/eclipse/m2e/core/ui/internal/console/MavenConsoleFactory.java
+	     org/eclipse/m2e/core/ui/internal/console/MavenConsoleImpl.java
+	     org/eclipse/m2e/core/ui/internal/console/MavenConsolePageParticipant.java
+	     org/eclipse/m2e/core/ui/internal/console/MavenShowConsoleAction.java
+	     org/eclipse/m2e/core/ui/internal/dialogs/AbstractMavenDialog.java
+	     org/eclipse/m2e/core/ui/internal/dialogs/AssignWorkingSetDialog.java
+	     org/eclipse/m2e/core/ui/internal/dialogs/EditDependencyDialog.java
+	     org/eclipse/m2e/core/ui/internal/dialogs/InputHistory.java
+	     org/eclipse/m2e/core/ui/internal/dialogs/MavenMessageDialog.java
+	     org/eclipse/m2e/core/ui/internal/dialogs/MavenPropertyDialog.java
+	     org/eclipse/m2e/core/ui/internal/dialogs/MavenRepositorySearchDialog.java
+	     org/eclipse/m2e/core/ui/internal/dialogs/UpdateMavenProjectsDialog.java
+	     org/eclipse/m2e/core/ui/internal/editing/AddDependencyOperation.java
+	     org/eclipse/m2e/core/ui/internal/editing/AddExclusionOperation.java
+	     org/eclipse/m2e/core/ui/internal/editing/ChangeCreator.java
+	     org/eclipse/m2e/core/ui/internal/editing/LifecycleMappingOperation.java
+	     org/eclipse/m2e/core/ui/internal/editing/PomEdits.java
+	     org/eclipse/m2e/core/ui/internal/editing/PomHelper.java
+	     org/eclipse/m2e/core/ui/internal/editing/RemoveDependencyOperation.java
+	     org/eclipse/m2e/core/ui/internal/IMavenDiscovery.java
+	     org/eclipse/m2e/core/ui/internal/lifecyclemapping/AggregateMappingLabelProvider.java
+	     org/eclipse/m2e/core/ui/internal/lifecyclemapping/ILifecycleMappingLabelProvider.java
+	     org/eclipse/m2e/core/ui/internal/lifecyclemapping/MojoExecutionMappingLabelProvider.java
+	     org/eclipse/m2e/core/ui/internal/lifecyclemapping/PackagingTypeMappingLabelProvider.java
+	     org/eclipse/m2e/core/ui/internal/lifecyclemapping/ProjectLifecycleMappingElement.java
+	     org/eclipse/m2e/core/ui/internal/M2EUIPluginActivator.java
+	     org/eclipse/m2e/core/ui/internal/markers/MarkerResolutionGenerator.java
+	     org/eclipse/m2e/core/ui/internal/MavenImages.java
+	     org/eclipse/m2e/core/ui/internal/MavenVersionDecorator.java
+	     org/eclipse/m2e/core/ui/internal/Messages.java
+	     org/eclipse/m2e/core/ui/internal/messages.properties
+	     org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstallationsPreferencePage.java
+	     org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstallationWizard.java
+	     org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstallationWizardPage.java
+	     org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingPreferencePage.java
+	     org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingPropertyPage.java
+	     org/eclipse/m2e/core/ui/internal/preferences/LocalArchetypeCatalogDialog.java
+	     org/eclipse/m2e/core/ui/internal/preferences/MavenArchetypesPreferencePage.java
+	     org/eclipse/m2e/core/ui/internal/preferences/MavenPreferencePage.java
+	     org/eclipse/m2e/core/ui/internal/preferences/MavenProjectPreferencePage.java
+	     org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPreferencePage.java
+	     org/eclipse/m2e/core/ui/internal/preferences/RemoteArchetypeCatalogDialog.java
+	     org/eclipse/m2e/core/ui/internal/preferences/UserInterfacePreferencePage.java
+	     org/eclipse/m2e/core/ui/internal/preferences/WarningsPreferencePage.java
+	     org/eclipse/m2e/core/ui/internal/search/util/ArtifactInfo.java
+	     org/eclipse/m2e/core/ui/internal/search/util/CComboContentAdapter.java
+	     org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration.java
+	     org/eclipse/m2e/core/ui/internal/search/util/IndexSearchEngine.java
+	     org/eclipse/m2e/core/ui/internal/search/util/MenuDetectEvent.java
+	     org/eclipse/m2e/core/ui/internal/search/util/MenuDetectListener.java
+	     org/eclipse/m2e/core/ui/internal/search/util/Packaging.java
+	     org/eclipse/m2e/core/ui/internal/search/util/SearchEngine.java
+	     org/eclipse/m2e/core/ui/internal/search/util/SearchException.java
+	     org/eclipse/m2e/core/ui/internal/UpdateMavenProjectJob.java
+	     org/eclipse/m2e/core/ui/internal/util/M2EErrorDialog.java
+	     org/eclipse/m2e/core/ui/internal/util/M2EUIUtils.java
+	     org/eclipse/m2e/core/ui/internal/util/ParentGatherer.java
+	     org/eclipse/m2e/core/ui/internal/util/ParentHierarchyEntry.java
+	     org/eclipse/m2e/core/ui/internal/util/ProposalUtil.java
+	     org/eclipse/m2e/core/ui/internal/util/Util.java
+	     org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView.java
+	     org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/AbstractIndexedRepositoryNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/AbstractRepositoriesNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/CustomRepositoriesNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/GlobalRepositoriesNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/IArtifactNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/IMavenRepositoryNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/IndexedArtifactFileNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/IndexedArtifactGroupNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/IndexedArtifactNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/LocalRepositoryNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/LocalRepositoryRootNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/ProjectRepositoriesNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/RepositoryNode.java
+	     org/eclipse/m2e/core/ui/internal/views/nodes/WorkspaceRepositoryNode.java
+	     org/eclipse/m2e/core/ui/internal/views/RepositoryViewContentProvider.java
+	     org/eclipse/m2e/core/ui/internal/views/RepositoryViewLabelProvider.java
+	     org/eclipse/m2e/core/ui/internal/wizards/AbstactCreateMavenProjectJob.java
+	     org/eclipse/m2e/core/ui/internal/wizards/AbstractCreateMavenProjectsOperation.java
+	     org/eclipse/m2e/core/ui/internal/wizards/AbstractMavenProjectWizard.java
+	     org/eclipse/m2e/core/ui/internal/wizards/AbstractMavenWizardPage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/CustomArchetypeDialog.java
+	     org/eclipse/m2e/core/ui/internal/wizards/IMavenDiscoveryUI.java
+	     org/eclipse/m2e/core/ui/internal/wizards/ImportMavenProjectsJob.java
+	     org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingDiscoveryHelper.java
+	     org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenArtifactComponent.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenDependenciesWizardPage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenDiscoveryProposalWizard.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizard.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileArtifactWizardPage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileWizard.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenLocationComponent.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizardParentPage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenParentComponent.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenPomSelectionComponent.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenPomWizard.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenPomWizardPage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenProjectSelectionDialog.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizard.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArchetypePage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArchetypeParametersPage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArtifactPage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardLocationPage.java
+	     org/eclipse/m2e/core/ui/internal/wizards/ResolverConfigurationComponent.java
+	     org/eclipse/m2e/core/ui/internal/wizards/WidthGroup.java
+	     org/eclipse/m2e/core/ui/internal/WorkingSets.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.core.ui.jar" path="org.eclipse.m2e.core.ui/src"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.core.ui/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.core.ui/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.core.ui.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.ltk.core.refactoring"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.archetype.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.indexer"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.model.edit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.ui.console"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<!-- org\apache\batik\util\io\resources\Messages.properties
-	     org\apache\batik\util\resources\Messages.properties
-	     org\apache\batik\util\resources\XMLResourceDescriptor.properties -->
+	<!-- org/apache/batik/util/io/resources/Messages.properties
+	     org/apache/batik/util/resources/Messages.properties
+	     org/apache/batik/util/resources/XMLResourceDescriptor.properties -->
 	<classpathentry including="org/apache/batik/util/io/resources/*|org/apache/batik/util/resources/*" kind="src" output="bin/1/plugins/org.apache.batik.util.jar" path="apache.batik/resources"/>
-	<!-- org\apache\batik\i18n\ExtendedLocalizable.java
-	     org\apache\batik\i18n\LocaleGroup.java
-	     org\apache\batik\i18n\Localizable.java
-	     org\apache\batik\i18n\LocalizableSupport.java
-	     org\apache\batik\util\AbstractParsedURLProtocolHandler.java
-	     org\apache\batik\util\ApplicationSecurityEnforcer.java
-	     org\apache\batik\util\Base64DecodeStream.java
-	     org\apache\batik\util\Base64EncoderStream.java
-	     org\apache\batik\util\BatikSecurityManager.java
-	     org\apache\batik\util\ClassFileUtilities.java
-	     org\apache\batik\util\CleanerThread.java
-	     org\apache\batik\util\CSSConstants.java
-	     org\apache\batik\util\DOMConstants.java
-	     org\apache\batik\util\DoublyIndexedSet.java
-	     org\apache\batik\util\DoublyIndexedTable.java
-	     org\apache\batik\util\DoublyLinkedList.java
-	     org\apache\batik\util\EncodingUtilities.java
-	     org\apache\batik\util\EventDispatcher.java
-	     org\apache\batik\util\HaltingThread.java
-	     org\apache\batik\util\io\AbstractCharDecoder.java
-	     org\apache\batik\util\io\ASCIIDecoder.java
-	     org\apache\batik\util\io\CharDecoder.java
-	     org\apache\batik\util\io\GenericDecoder.java
-	     org\apache\batik\util\io\ISO_8859_1Decoder.java
-	     org\apache\batik\util\io\Messages.java
-	     org\apache\batik\util\io\NormalizingReader.java
-	     org\apache\batik\util\io\StreamNormalizingReader.java
-	     org\apache\batik\util\io\StringDecoder.java
-	     org\apache\batik\util\io\StringNormalizingReader.java
-	     org\apache\batik\util\io\UTF16Decoder.java
-	     org\apache\batik\util\io\UTF8Decoder.java
-	     org\apache\batik\util\Messages.java
-	     org\apache\batik\util\MimeTypeConstants.java
-	     org\apache\batik\util\ParsedURL.java
-	     org\apache\batik\util\ParsedURLData.java
-	     org\apache\batik\util\ParsedURLDataProtocolHandler.java
-	     org\apache\batik\util\ParsedURLDefaultProtocolHandler.java
-	     org\apache\batik\util\ParsedURLJarProtocolHandler.java
-	     org\apache\batik\util\ParsedURLProtocolHandler.java
-	     org\apache\batik\util\Platform.java
-	     org\apache\batik\util\PreferenceManager.java
-	     org\apache\batik\util\resources\Messages.java
-	     org\apache\batik\util\resources\ResourceFormatException.java
-	     org\apache\batik\util\resources\ResourceManager.java
-	     org\apache\batik\util\RunnableQueue.java
-	     org\apache\batik\util\Service.java
-	     org\apache\batik\util\SMILConstants.java
-	     org\apache\batik\util\SoftDoublyIndexedTable.java
-	     org\apache\batik\util\SoftReferenceCache.java
-	     org\apache\batik\util\SVG12Constants.java
-	     org\apache\batik\util\SVG12CSSConstants.java
-	     org\apache\batik\util\SVGConstants.java
-	     org\apache\batik\util\SVGFeatureStrings.java
-	     org\apache\batik\util\SVGTypes.java
-	     org\apache\batik\util\XBLConstants.java
-	     org\apache\batik\util\XMLConstants.java
-	     org\apache\batik\util\XMLResourceDescriptor.java
-	     org\apache\batik\Version.java -->
+	<!-- org/apache/batik/i18n/ExtendedLocalizable.java
+	     org/apache/batik/i18n/LocaleGroup.java
+	     org/apache/batik/i18n/Localizable.java
+	     org/apache/batik/i18n/LocalizableSupport.java
+	     org/apache/batik/util/AbstractParsedURLProtocolHandler.java
+	     org/apache/batik/util/ApplicationSecurityEnforcer.java
+	     org/apache/batik/util/Base64DecodeStream.java
+	     org/apache/batik/util/Base64EncoderStream.java
+	     org/apache/batik/util/BatikSecurityManager.java
+	     org/apache/batik/util/ClassFileUtilities.java
+	     org/apache/batik/util/CleanerThread.java
+	     org/apache/batik/util/CSSConstants.java
+	     org/apache/batik/util/DOMConstants.java
+	     org/apache/batik/util/DoublyIndexedSet.java
+	     org/apache/batik/util/DoublyIndexedTable.java
+	     org/apache/batik/util/DoublyLinkedList.java
+	     org/apache/batik/util/EncodingUtilities.java
+	     org/apache/batik/util/EventDispatcher.java
+	     org/apache/batik/util/HaltingThread.java
+	     org/apache/batik/util/io/AbstractCharDecoder.java
+	     org/apache/batik/util/io/ASCIIDecoder.java
+	     org/apache/batik/util/io/CharDecoder.java
+	     org/apache/batik/util/io/GenericDecoder.java
+	     org/apache/batik/util/io/ISO_8859_1Decoder.java
+	     org/apache/batik/util/io/Messages.java
+	     org/apache/batik/util/io/NormalizingReader.java
+	     org/apache/batik/util/io/StreamNormalizingReader.java
+	     org/apache/batik/util/io/StringDecoder.java
+	     org/apache/batik/util/io/StringNormalizingReader.java
+	     org/apache/batik/util/io/UTF16Decoder.java
+	     org/apache/batik/util/io/UTF8Decoder.java
+	     org/apache/batik/util/Messages.java
+	     org/apache/batik/util/MimeTypeConstants.java
+	     org/apache/batik/util/ParsedURL.java
+	     org/apache/batik/util/ParsedURLData.java
+	     org/apache/batik/util/ParsedURLDataProtocolHandler.java
+	     org/apache/batik/util/ParsedURLDefaultProtocolHandler.java
+	     org/apache/batik/util/ParsedURLJarProtocolHandler.java
+	     org/apache/batik/util/ParsedURLProtocolHandler.java
+	     org/apache/batik/util/Platform.java
+	     org/apache/batik/util/PreferenceManager.java
+	     org/apache/batik/util/resources/Messages.java
+	     org/apache/batik/util/resources/ResourceFormatException.java
+	     org/apache/batik/util/resources/ResourceManager.java
+	     org/apache/batik/util/RunnableQueue.java
+	     org/apache/batik/util/Service.java
+	     org/apache/batik/util/SMILConstants.java
+	     org/apache/batik/util/SoftDoublyIndexedTable.java
+	     org/apache/batik/util/SoftReferenceCache.java
+	     org/apache/batik/util/SVG12Constants.java
+	     org/apache/batik/util/SVG12CSSConstants.java
+	     org/apache/batik/util/SVGConstants.java
+	     org/apache/batik/util/SVGFeatureStrings.java
+	     org/apache/batik/util/SVGTypes.java
+	     org/apache/batik/util/XBLConstants.java
+	     org/apache/batik/util/XMLConstants.java
+	     org/apache/batik/util/XMLResourceDescriptor.java
+	     org/apache/batik/Version.java -->
 	<classpathentry including="org/apache/batik/*|org/apache/batik/i18n/*|org/apache/batik/util/*|org/apache/batik/util/io/*|org/apache/batik/util/resources/*" kind="src" output="bin/1/plugins/org.apache.batik.util.jar" path="apache.batik/sources"/>
 	<!-- about.html
-	     about_files\LICENSE-2.0.txt
-	     about_files\LICENSE.dom-software.txt
-	     about_files\LICENSE.sax.txt
-	     about_files\NOTICE
-	     about_files\README
-	     META-INF\LICENSE
-	     META-INF\MANIFEST.MF
-	     META-INF\NOTICE
+	     about_files/LICENSE-2.0.txt
+	     about_files/LICENSE.dom-software.txt
+	     about_files/LICENSE.sax.txt
+	     about_files/NOTICE
+	     about_files/README
+	     META-INF/LICENSE
+	     META-INF/MANIFEST.MF
+	     META-INF/NOTICE
 	     plugin.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.batik.util.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

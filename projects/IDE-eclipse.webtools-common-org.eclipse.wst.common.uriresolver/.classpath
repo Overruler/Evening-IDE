@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/resolverExtensions.exsd -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.wst.common.uriresolver.jar" path="org.eclipse.wst.common.uriresolver"/>
+	<!-- org/eclipse/wst/common/uriresolver/internal/ExtensibleURIResolver.java
+	     org/eclipse/wst/common/uriresolver/internal/provisional/URIResolver.java
+	     org/eclipse/wst/common/uriresolver/internal/provisional/URIResolverExtension.java
+	     org/eclipse/wst/common/uriresolver/internal/provisional/URIResolverPlugin.java
+	     org/eclipse/wst/common/uriresolver/internal/URI.java
+	     org/eclipse/wst/common/uriresolver/internal/URIResolverExtensionDescriptor.java
+	     org/eclipse/wst/common/uriresolver/internal/URIResolverExtensionRegistry.java
+	     org/eclipse/wst/common/uriresolver/internal/URIResolverExtensionRegistryReader.java
+	     org/eclipse/wst/common/uriresolver/internal/util/URIEncoder.java
+	     org/eclipse/wst/common/uriresolver/internal/util/URIHelper.java
+	     org/eclipse/wst/common/uriresolver/URIHelper.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.uriresolver.jar" path="org.eclipse.wst.common.uriresolver/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

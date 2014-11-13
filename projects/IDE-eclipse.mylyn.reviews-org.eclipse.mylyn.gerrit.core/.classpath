@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html" kind="src" output="bin/1/plugins/org.eclipse.mylyn.gerrit.core.jar" path="org.eclipse.mylyn.gerrit.core"/>
+	<!-- org/eclipse/mylyn/internal/gerrit/core/client/compat/ChangeDetailService.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/ChangeDetailX.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/ChangeManageService.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/CommentLink.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/GerritConfigX.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/PatchDetailService.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/PatchScriptX.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/PatchSetPublishDetailX.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/PermissionLabel.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/ProjectAdminService.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/ProjectDetailX.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/SubmitRecord.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/data/GerritPerson.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/data/GerritQueryResult.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritAuthenticationState.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritCapabilities.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritChange.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritClient.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritConfiguration.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritException.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritHtmlProcessor.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritHttpClient.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritHttpException.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritLoginException.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritService.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritSystemInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritVersion.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/IOpenIdLocation.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/JSonSupport.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/OpenIdAuthenticationRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/OpenIdAuthenticationResponse.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/PatchSetContent.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/ProjectByNameComparator.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/AbandonInput.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/AccountInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/AddReviewerResult.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ApprovalInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ApprovalUtil.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ChangeInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/CommentInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/CommentInput.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/GerritReviewLabel.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/LabelInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ProjectInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/RestoreInput.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ReviewerInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ReviewerInput.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ReviewInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ReviewInput.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/RevisionInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/SubmitInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/SubmitInput.java
+	     org/eclipse/mylyn/internal/gerrit/core/egit/GerritToGitMapping.java
+	     org/eclipse/mylyn/internal/gerrit/core/GerritConnector.java
+	     org/eclipse/mylyn/internal/gerrit/core/GerritCorePlugin.java
+	     org/eclipse/mylyn/internal/gerrit/core/GerritOperationFactory.java
+	     org/eclipse/mylyn/internal/gerrit/core/GerritQuery.java
+	     org/eclipse/mylyn/internal/gerrit/core/GerritQueryResultSchema.java
+	     org/eclipse/mylyn/internal/gerrit/core/GerritTaskDataHandler.java
+	     org/eclipse/mylyn/internal/gerrit/core/GerritTaskSchema.java
+	     org/eclipse/mylyn/internal/gerrit/core/GerritUtil.java
+	     org/eclipse/mylyn/internal/gerrit/core/Messages.java
+	     org/eclipse/mylyn/internal/gerrit/core/messages.properties
+	     org/eclipse/mylyn/internal/gerrit/core/operations/AbandonRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/AbstractRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/AddReviewersRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/DiscardDraftRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/GerritOperation.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/Messages.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/messages.properties
+	     org/eclipse/mylyn/internal/gerrit/core/operations/PublishRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/RebaseRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/RefreshConfigRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/RestoreRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/SaveDraftRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/operations/SubmitRequest.java
+	     org/eclipse/mylyn/internal/gerrit/core/remote/GerritRemoteFactoryProvider.java
+	     org/eclipse/mylyn/internal/gerrit/core/remote/GerritReviewRemoteFactory.java
+	     org/eclipse/mylyn/internal/gerrit/core/remote/GerritUserRemoteFactory.java
+	     org/eclipse/mylyn/internal/gerrit/core/remote/Messages.java
+	     org/eclipse/mylyn/internal/gerrit/core/remote/messages.properties
+	     org/eclipse/mylyn/internal/gerrit/core/remote/PatchSetContentCompareRemoteFactory.java
+	     org/eclipse/mylyn/internal/gerrit/core/remote/PatchSetContentIdRemoteFactory.java
+	     org/eclipse/mylyn/internal/gerrit/core/remote/PatchSetContentRemoteFactory.java
+	     org/eclipse/mylyn/internal/gerrit/core/remote/PatchSetDetailRemoteFactory.java
+	     org/eclipse/mylyn/internal/gerrit/core/ReviewItemCache.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.gerrit.core.jar" path="org.eclipse.mylyn.gerrit.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-gwt"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gerrit.common"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gerrit.prettify"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gerrit.reviewdb"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gson"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwt.servlet"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwtjsonrpc"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.gwtorm"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.httpclient"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.io"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.egit-org.eclipse.egit.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.edit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.reviews.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.reviews.edit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

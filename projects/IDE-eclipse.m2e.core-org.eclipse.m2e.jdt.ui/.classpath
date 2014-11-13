@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     fragment.properties
+	     fragment.xml
+	     icons/javadoc.gif
+	     icons/m2.gif
+	     META-INF/MANIFEST.MF -->
+	<classpathentry excluding="src/|.*/" including="META-INF/*|about.html|fragment.properties|fragment.xml|icons/*" kind="src" output="bin/1/plugins/org.eclipse.m2e.jdt.ui.jar" path="org.eclipse.m2e.jdt.ui"/>
+	<!-- org/eclipse/m2e/jdt/ui/internal/actions/DownloadSourcesAction.java
+	     org/eclipse/m2e/jdt/ui/internal/actions/OpenJavaDocAction.java
+	     org/eclipse/m2e/jdt/ui/internal/DownloadSourcesActionDelegate.java
+	     org/eclipse/m2e/jdt/ui/internal/filter/MavenModuleFilter.java
+	     org/eclipse/m2e/jdt/ui/internal/JavaUiElementsAdapterFactory.java
+	     org/eclipse/m2e/jdt/ui/internal/MavenClasspathContainerPage.java
+	     org/eclipse/m2e/jdt/ui/internal/Messages.java
+	     org/eclipse/m2e/jdt/ui/internal/messages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.jdt.ui.jar" path="org.eclipse.m2e.jdt.ui/src"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.jdt.ui/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.jdt.ui/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.jdt.ui.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.debug.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.debug-org.eclipse.jdt.launching"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.jdt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

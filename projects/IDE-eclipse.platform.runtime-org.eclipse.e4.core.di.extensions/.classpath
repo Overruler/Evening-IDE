@@ -2,19 +2,19 @@
 <classpath>
 	<!-- about.html
 	     fragment.properties
-	     META-INF\MANIFEST.MF
-	     OSGI-INF\events.xml
-	     OSGI-INF\osgiBundle.xml
-	     OSGI-INF\preferences.xml -->
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/events.xml
+	     OSGI-INF/osgiBundle.xml
+	     OSGI-INF/preferences.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|fragment.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.core.di.extensions.jar" path="org.eclipse.e4.core.di.extensions"/>
-	<!-- org\eclipse\e4\core\di\extensions\EventTopic.java
-	     org\eclipse\e4\core\di\extensions\EventUtils.java
-	     org\eclipse\e4\core\di\extensions\OSGiBundle.java
-	     org\eclipse\e4\core\di\extensions\Preference.java
-	     org\eclipse\e4\core\di\internal\extensions\DIEActivator.java
-	     org\eclipse\e4\core\di\internal\extensions\EventObjectSupplier.java
-	     org\eclipse\e4\core\di\internal\extensions\OSGiObjectSupplier.java
-	     org\eclipse\e4\core\di\internal\extensions\PreferencesObjectSupplier.java -->
+	<!-- org/eclipse/e4/core/di/extensions/EventTopic.java
+	     org/eclipse/e4/core/di/extensions/EventUtils.java
+	     org/eclipse/e4/core/di/extensions/OSGiBundle.java
+	     org/eclipse/e4/core/di/extensions/Preference.java
+	     org/eclipse/e4/core/di/internal/extensions/DIEActivator.java
+	     org/eclipse/e4/core/di/internal/extensions/EventObjectSupplier.java
+	     org/eclipse/e4/core/di/internal/extensions/OSGiObjectSupplier.java
+	     org/eclipse/e4/core/di/internal/extensions/PreferencesObjectSupplier.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.core.di.extensions.jar" path="org.eclipse.e4.core.di.extensions/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.annotation"/>

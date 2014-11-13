@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/full/ctool16/CreateCommentContainer_comments_Comment.gif
+	     icons/full/ctool16/CreateCommentContainer_drafts_Comment.gif
+	     icons/full/ctool16/CreateComment_locations_LineLocation.gif
+	     icons/full/ctool16/CreateComment_replies_Comment.gif
+	     icons/full/ctool16/CreateLineLocation_ranges_LineRange.gif
+	     icons/full/ctool16/CreateRepository_approvalTypes_ApprovalType.gif
+	     icons/full/ctool16/CreateRepository_reviews_Review.gif
+	     icons/full/ctool16/CreateRepository_users_User.gif
+	     icons/full/ctool16/CreateReviewerEntry_approvals_ApprovalValueMap.gif
+	     icons/full/ctool16/CreateReviewItemSet_items_FileItem.gif
+	     icons/full/ctool16/CreateReview_children_Change.gif
+	     icons/full/ctool16/CreateReview_children_Review.gif
+	     icons/full/ctool16/CreateReview_parents_Change.gif
+	     icons/full/ctool16/CreateReview_parents_Review.gif
+	     icons/full/ctool16/CreateReview_requirements_ReviewRequirementsMap.gif
+	     icons/full/ctool16/CreateReview_reviewerApprovals_UserApprovalsMap.gif
+	     icons/full/ctool16/CreateReview_sets_ReviewItemSet.gif
+	     icons/full/obj16/ApprovalType.gif
+	     icons/full/obj16/ApprovalValueMap.gif
+	     icons/full/obj16/Change.gif
+	     icons/full/obj16/Comment.gif
+	     icons/full/obj16/FileItem.gif
+	     icons/full/obj16/FileVersion.gif
+	     icons/full/obj16/LineLocation.gif
+	     icons/full/obj16/LineRange.gif
+	     icons/full/obj16/Repository.gif
+	     icons/full/obj16/RequirementEntry.gif
+	     icons/full/obj16/Review.gif
+	     icons/full/obj16/ReviewerEntry.gif
+	     icons/full/obj16/ReviewItem.gif
+	     icons/full/obj16/ReviewItemSet.gif
+	     icons/full/obj16/ReviewRequirementsMap.gif
+	     icons/full/obj16/User.gif
+	     icons/full/obj16/UserApprovalsMap.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/ctool16/*|icons/full/obj16/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.reviews.edit.jar" path="org.eclipse.mylyn.reviews.edit"/>
+	<!-- org/eclipse/mylyn/reviews/edit/provider/ApprovalTypeItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/ApprovalValueMapItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/ChangeItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/CommentContainerItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/CommentItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/FileItemItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/FileVersionItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/LineLocationItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/LineRangeItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/LocationItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/RepositoryItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/RequirementEntryItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/ReviewerEntryItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/ReviewItemItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/ReviewItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/ReviewItemSetItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/ReviewRequirementsMapItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/ReviewsEditPlugin.java
+	     org/eclipse/mylyn/reviews/edit/provider/ReviewsItemProviderAdapterFactory.java
+	     org/eclipse/mylyn/reviews/edit/provider/UserApprovalsMapItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/provider/UserItemProvider.java
+	     org/eclipse/mylyn/reviews/edit/ReviewsEditPluginActivator.java
+	     org/eclipse/mylyn/reviews/spi/edit/remote/AbstractRemoteEditFactoryProvider.java
+	     org/eclipse/mylyn/reviews/spi/edit/remote/review/ReviewsRemoteEditFactoryProvider.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.reviews.edit.jar" path="org.eclipse.mylyn.reviews.edit/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.io"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.lang"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.edit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.reviews-org.eclipse.mylyn.reviews.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

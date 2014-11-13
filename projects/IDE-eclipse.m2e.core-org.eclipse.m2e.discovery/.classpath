@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/banner.gif
+	     icons/insp_sbook.gif
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/component.xml
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*/" including="META-INF/*|OSGI-INF/*|about.html|icons/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.m2e.discovery.jar" path="org.eclipse.m2e.discovery"/>
+	<!-- org/eclipse/m2e/internal/discovery/DiscoveryActivator.java
+	     org/eclipse/m2e/internal/discovery/handlers/MavenDiscoveryHandler.java
+	     org/eclipse/m2e/internal/discovery/InstallCatalogItemMavenDiscoveryProposal.java
+	     org/eclipse/m2e/internal/discovery/markers/DiscoveryWizardProposal.java
+	     org/eclipse/m2e/internal/discovery/markers/MavenDiscoveryMarkerResolutionGenerator.java
+	     org/eclipse/m2e/internal/discovery/MavenDiscovery.java
+	     org/eclipse/m2e/internal/discovery/MavenDiscoveryIcons.java
+	     org/eclipse/m2e/internal/discovery/MavenDiscoveryLauncher.java
+	     org/eclipse/m2e/internal/discovery/MavenDiscoveryService.java
+	     org/eclipse/m2e/internal/discovery/Messages.java
+	     org/eclipse/m2e/internal/discovery/messages.properties
+	     org/eclipse/m2e/internal/discovery/operation/MavenDiscoveryInstallOperation.java
+	     org/eclipse/m2e/internal/discovery/operation/RestartInstallOperation.java
+	     org/eclipse/m2e/internal/discovery/preferences/DiscoveryPreferencePage.java
+	     org/eclipse/m2e/internal/discovery/startup/UpdateConfigurationStartup.java
+	     org/eclipse/m2e/internal/discovery/strategy/M2EConnectorDiscoveryExtensionReader.java
+	     org/eclipse/m2e/internal/discovery/strategy/M2ERemoteBundleDiscoveryStrategy.java
+	     org/eclipse/m2e/internal/discovery/wizards/MavenCatalogConfiguration.java
+	     org/eclipse/m2e/internal/discovery/wizards/MavenCatalogPage.java
+	     org/eclipse/m2e/internal/discovery/wizards/MavenCatalogViewer.java
+	     org/eclipse/m2e/internal/discovery/wizards/MavenDiscoveryInstallWizard.java
+	     org/eclipse/m2e/internal/discovery/wizards/MavenDiscoveryUi.java
+	     org/eclipse/m2e/internal/discovery/wizards/MavenDiscoveryWizard.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.discovery.jar" path="org.eclipse.m2e.discovery/src"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.discovery/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.discovery/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.discovery.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-apache.maven"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.discovery"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.discovery.compatibility"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.operations"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.ui.discovery"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     feature.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|feature.gif|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.versions.core.jar" path="org.eclipse.mylyn.versions.core"/>
+	<!-- org/eclipse/mylyn/internal/versions/core/ScmInternal.java
+	     org/eclipse/mylyn/versions/core/Change.java
+	     org/eclipse/mylyn/versions/core/ChangeSet.java
+	     org/eclipse/mylyn/versions/core/ChangeType.java
+	     org/eclipse/mylyn/versions/core/ProjectSetConverter.java
+	     org/eclipse/mylyn/versions/core/ScmArtifact.java
+	     org/eclipse/mylyn/versions/core/ScmCore.java
+	     org/eclipse/mylyn/versions/core/ScmRepository.java
+	     org/eclipse/mylyn/versions/core/ScmUser.java
+	     org/eclipse/mylyn/versions/core/spi/ScmConnector.java
+	     org/eclipse/mylyn/versions/core/spi/ScmInfoAttributes.java
+	     org/eclipse/mylyn/versions/core/spi/ScmResourceArtifact.java
+	     org/eclipse/mylyn/versions/core/spi/ScmResourceUtils.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.versions.core.jar" path="org.eclipse.mylyn.versions.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.filesystem"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="property_file/|src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.common.emfworkbench.integration.jar" path="org.eclipse.wst.common.emfworkbench.integration"/>
+	<!-- emftosed.properties
+	     emfworkbenchedit.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.emfworkbench.integration.jar" path="org.eclipse.wst.common.emfworkbench.integration/property_file"/>
+	<!-- org/eclipse/wst/common/internal/emfworkbench/CompatibilityWorkbenchURIConverterImpl.java
+	     org/eclipse/wst/common/internal/emfworkbench/DynamicGrowthModel.java
+	     org/eclipse/wst/common/internal/emfworkbench/EditModelLeastUsedCache.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/AdapterFactoryDescriptor.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/AdapterFactoryRegistry.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/ChildCommand.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/ClientAccessRegistry.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/ClientAccessRegistryException.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/EditModelExtension.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/EditModelRegistry.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/EditModelResource.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/EditModelRetriever.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/EMFWorkbenchEditContextFactory.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/ExtendedComposedAdapterFactory.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/InvertedCommand.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/ParentCommand.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/ReadOnlyClientAccessRegistry.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/Snapshot.java
+	     org/eclipse/wst/common/internal/emfworkbench/edit/WrappingCommandStack.java
+	     org/eclipse/wst/common/internal/emfworkbench/EmfPackagePropertyTester.java
+	     org/eclipse/wst/common/internal/emfworkbench/EmfValidationHandler.java
+	     org/eclipse/wst/common/internal/emfworkbench/EMFWorkbenchContext.java
+	     org/eclipse/wst/common/internal/emfworkbench/EMFWorkbenchEditResourceHandler.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/AbstractEditModelCommand.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/ComposedAccessorKey.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/ComposedEditModel.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/CompoundingCommandStack.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/DynamicAdapterFactory.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/EditModel.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/EditModelCommand.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/EditModelEvent.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/EditModelFactory.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/EditModelListener.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/EditModelNature.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/EMFWorkbenchEditPlugin.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/IEditModelFactory.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/LooseComposedEditModel.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/ModelModifier.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/ModifierHelper.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/ModifierHelperChainer.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/ModifierHelperFactory.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/ModifierHelperRegistry.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/OwnerProvider.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/ProjectResourceSetEditImpl.java
+	     org/eclipse/wst/common/internal/emfworkbench/integration/ResourceSetWorkbenchEditSynchronizer.java
+	     org/eclipse/wst/common/internal/emfworkbench/PassthruResourceSet.java
+	     org/eclipse/wst/common/internal/emfworkbench/validateedit/IValidateEditContext.java
+	     org/eclipse/wst/common/internal/emfworkbench/validateedit/ResourceStateInputProvider.java
+	     org/eclipse/wst/common/internal/emfworkbench/validateedit/ResourceStateValidator.java
+	     org/eclipse/wst/common/internal/emfworkbench/validateedit/ResourceStateValidatorImpl.java
+	     org/eclipse/wst/common/internal/emfworkbench/validateedit/ResourceStateValidatorPresenter.java
+	     org/eclipse/wst/common/internal/emfworkbench/validateedit/ValidateEditHeadlessContext.java
+	     org/eclipse/wst/common/internal/emfworkbench/WorkbenchResourceHelper.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.emfworkbench.integration.jar" path="org.eclipse.wst.common.emfworkbench.integration/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.edit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.jem.util"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.emf"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.frameworks"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common.fproj-org.eclipse.wst.common.project.facet.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.validation"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

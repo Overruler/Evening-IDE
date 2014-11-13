@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/packageURIMap.exsd
+	     schema/translatorExtension.exsd -->
+	<classpathentry excluding="workbench/|wtpemf/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.wst.common.emf.jar" path="org.eclipse.wst.common.emf"/>
+	<!-- org/eclipse/wst/common/internal/emf/plugin/EcoreUtilitiesPlugin.java
+	     org/eclipse/wst/common/internal/emf/plugin/PackageURIMapReader.java
+	     org/eclipse/wst/common/internal/emf/plugin/PluginRendererFactoryDefaultHandler.java
+	     org/eclipse/wst/common/internal/emf/ResourceSynchronizedIsLoadingAdapter.java
+	     org/eclipse/wst/common/internal/emf/ResourceSynchronizedIsLoadingAdapterFactory.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.emf.jar" path="org.eclipse.wst.common.emf/workbench"/>
+	<!-- org/eclipse/wst/common/internal/emf/resource/AbstractRendererImpl.java
+	     org/eclipse/wst/common/internal/emf/resource/AttributeTranslatorFilter.java
+	     org/eclipse/wst/common/internal/emf/resource/CacheEventNode.java
+	     org/eclipse/wst/common/internal/emf/resource/CacheEventPool.java
+	     org/eclipse/wst/common/internal/emf/resource/CacheEventStack.java
+	     org/eclipse/wst/common/internal/emf/resource/CompatibilityPackageMappingRegistry.java
+	     org/eclipse/wst/common/internal/emf/resource/CompatibilityResourceFactory.java
+	     org/eclipse/wst/common/internal/emf/resource/CompatibilitySAXXMIHandler.java
+	     org/eclipse/wst/common/internal/emf/resource/CompatibilityURIConverter.java
+	     org/eclipse/wst/common/internal/emf/resource/CompatibilityXMILoadImpl.java
+	     org/eclipse/wst/common/internal/emf/resource/CompatibilityXMIResource.java
+	     org/eclipse/wst/common/internal/emf/resource/CompatibilityXMIResourceImpl.java
+	     org/eclipse/wst/common/internal/emf/resource/CompatibilityXMISaveImpl.java
+	     org/eclipse/wst/common/internal/emf/resource/ConstantAttributeTranslator.java
+	     org/eclipse/wst/common/internal/emf/resource/DefaultTranslatorFactory.java
+	     org/eclipse/wst/common/internal/emf/resource/DependencyTranslator.java
+	     org/eclipse/wst/common/internal/emf/resource/EMF2DOMAdapter.java
+	     org/eclipse/wst/common/internal/emf/resource/EMF2DOMAdapterImpl.java
+	     org/eclipse/wst/common/internal/emf/resource/EMF2DOMRenderer.java
+	     org/eclipse/wst/common/internal/emf/resource/EMF2DOMRendererFactory.java
+	     org/eclipse/wst/common/internal/emf/resource/EMF2DOMRendererFactoryDefaultHandler.java
+	     org/eclipse/wst/common/internal/emf/resource/EMF2SAXDocumentHandler.java
+	     org/eclipse/wst/common/internal/emf/resource/EMF2SAXRenderer.java
+	     org/eclipse/wst/common/internal/emf/resource/EMF2SAXRendererFactory.java
+	     org/eclipse/wst/common/internal/emf/resource/EMF2SAXWriter.java
+	     org/eclipse/wst/common/internal/emf/resource/FileNameResourceFactoryRegistry.java
+	     org/eclipse/wst/common/internal/emf/resource/GenericTranslator.java
+	     org/eclipse/wst/common/internal/emf/resource/IDTranslator.java
+	     org/eclipse/wst/common/internal/emf/resource/IRootObjectResource.java
+	     org/eclipse/wst/common/internal/emf/resource/LinkUpdaterTarget.java
+	     org/eclipse/wst/common/internal/emf/resource/MappedXMIHelper.java
+	     org/eclipse/wst/common/internal/emf/resource/MultiObjectTranslator.java
+	     org/eclipse/wst/common/internal/emf/resource/NamespaceTranslator.java
+	     org/eclipse/wst/common/internal/emf/resource/ObjectTranslatorFilter.java
+	     org/eclipse/wst/common/internal/emf/resource/ReadAheadHelper.java
+	     org/eclipse/wst/common/internal/emf/resource/ReferencedResource.java
+	     org/eclipse/wst/common/internal/emf/resource/ReferencedXMIFactoryImpl.java
+	     org/eclipse/wst/common/internal/emf/resource/ReferencedXMIResourceImpl.java
+	     org/eclipse/wst/common/internal/emf/resource/Renderer.java
+	     org/eclipse/wst/common/internal/emf/resource/RendererFactory.java
+	     org/eclipse/wst/common/internal/emf/resource/RendererFactoryDefaultHandler.java
+	     org/eclipse/wst/common/internal/emf/resource/ResourceFactoryDescriptor.java
+	     org/eclipse/wst/common/internal/emf/resource/RootTranslator.java
+	     org/eclipse/wst/common/internal/emf/resource/SourceLinkTranslator.java
+	     org/eclipse/wst/common/internal/emf/resource/Translator.java
+	     org/eclipse/wst/common/internal/emf/resource/TranslatorFilter.java
+	     org/eclipse/wst/common/internal/emf/resource/TranslatorPath.java
+	     org/eclipse/wst/common/internal/emf/resource/TranslatorResource.java
+	     org/eclipse/wst/common/internal/emf/resource/TranslatorResourceFactory.java
+	     org/eclipse/wst/common/internal/emf/resource/TranslatorResourceImpl.java
+	     org/eclipse/wst/common/internal/emf/resource/UnsupportedFeature.java
+	     org/eclipse/wst/common/internal/emf/resource/VariableTranslatorFactory.java
+	     org/eclipse/wst/common/internal/emf/resource/XMLEncoderDecoder.java
+	     org/eclipse/wst/common/internal/emf/utilities/AdapterFactoryDescriptor.java
+	     org/eclipse/wst/common/internal/emf/utilities/AdapterFactoryUtil.java
+	     org/eclipse/wst/common/internal/emf/utilities/ArrayUtil.java
+	     org/eclipse/wst/common/internal/emf/utilities/Assert.java
+	     org/eclipse/wst/common/internal/emf/utilities/Association.java
+	     org/eclipse/wst/common/internal/emf/utilities/CloneablePublic.java
+	     org/eclipse/wst/common/internal/emf/utilities/CommandContext.java
+	     org/eclipse/wst/common/internal/emf/utilities/CopyGroup.java
+	     org/eclipse/wst/common/internal/emf/utilities/DanglingHREFException.java
+	     org/eclipse/wst/common/internal/emf/utilities/DefaultFeatureValueConverter.java
+	     org/eclipse/wst/common/internal/emf/utilities/DefaultOverridableResourceFactoryRegistry.java
+	     org/eclipse/wst/common/internal/emf/utilities/DeferredReferenceUtilityAction.java
+	     org/eclipse/wst/common/internal/emf/utilities/DOMLoadOptions.java
+	     org/eclipse/wst/common/internal/emf/utilities/DOMUtilities.java
+	     org/eclipse/wst/common/internal/emf/utilities/EncoderDecoder.java
+	     org/eclipse/wst/common/internal/emf/utilities/EncoderDecoderAdapter.java
+	     org/eclipse/wst/common/internal/emf/utilities/EncoderDecoderRegistry.java
+	     org/eclipse/wst/common/internal/emf/utilities/EtoolsCopySession.java
+	     org/eclipse/wst/common/internal/emf/utilities/EtoolsCopyUtility.java
+	     org/eclipse/wst/common/internal/emf/utilities/ExceptionHelper.java
+	     org/eclipse/wst/common/internal/emf/utilities/ExtendedEcoreUtil.java
+	     org/eclipse/wst/common/internal/emf/utilities/FeatureValueConversionException.java
+	     org/eclipse/wst/common/internal/emf/utilities/FeatureValueConverter.java
+	     org/eclipse/wst/common/internal/emf/utilities/ICommand.java
+	     org/eclipse/wst/common/internal/emf/utilities/ICommand2.java
+	     org/eclipse/wst/common/internal/emf/utilities/ICommandContext.java
+	     org/eclipse/wst/common/internal/emf/utilities/IDUtil.java
+	     org/eclipse/wst/common/internal/emf/utilities/InvalidPasswordCipherException.java
+	     org/eclipse/wst/common/internal/emf/utilities/InvalidPasswordDecodingException.java
+	     org/eclipse/wst/common/internal/emf/utilities/InvalidPasswordEncodingException.java
+	     org/eclipse/wst/common/internal/emf/utilities/IsLoadingDetector.java
+	     org/eclipse/wst/common/internal/emf/utilities/IsLoadingProxyAdapter.java
+	     org/eclipse/wst/common/internal/emf/utilities/Namespace.java
+	     org/eclipse/wst/common/internal/emf/utilities/NamespaceAdapter.java
+	     org/eclipse/wst/common/internal/emf/utilities/PassthruEncoderDecoder.java
+	     org/eclipse/wst/common/internal/emf/utilities/PasswordCipherUtil.java
+	     org/eclipse/wst/common/internal/emf/utilities/PasswordEncoderDecoder.java
+	     org/eclipse/wst/common/internal/emf/utilities/PasswordUtil.java
+	     org/eclipse/wst/common/internal/emf/utilities/PleaseMigrateYourCodeError.java
+	     org/eclipse/wst/common/internal/emf/utilities/ResourceDependencyRegister.java
+	     org/eclipse/wst/common/internal/emf/utilities/ResourceIsLoadingAdapter.java
+	     org/eclipse/wst/common/internal/emf/utilities/ResourceIsLoadingAdapterFactory.java
+	     org/eclipse/wst/common/internal/emf/utilities/Revisit.java
+	     org/eclipse/wst/common/internal/emf/utilities/StringUtil.java
+	     org/eclipse/wst/common/internal/emf/utilities/TranslatorManager.java
+	     org/eclipse/wst/common/internal/emf/utilities/TranslatorService.java
+	     org/eclipse/wst/common/internal/emf/utilities/UnsupportedCryptoAlgorithmException.java
+	     org/eclipse/wst/common/internal/emf/utilities/WFTUtilsResourceHandler.java
+	     org/eclipse/wst/common/internal/emf/utilities/WriteBackHelper.java
+	     org/eclipse/wst/common/internal/emf/utilities/XMLValueEncoderDecoder.java
+	     wftutils.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.emf.jar" path="org.eclipse.wst.common.emf/wtpemf"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.xmi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.webtools-common-org.eclipse.wst.common.frameworks"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -2,15 +2,15 @@
 <classpath>
 	<!-- about.html
 	     bundle.properties
-	     META-INF\MANIFEST.MF
-	     src\org\eclipse\jdt\annotation\NonNull.java
-	     src\org\eclipse\jdt\annotation\NonNullByDefault.java
-	     src\org\eclipse\jdt\annotation\Nullable.java
-	     src\org\eclipse\jdt\annotation\package-info.java -->
+	     META-INF/MANIFEST.MF
+	     src/org/eclipse/jdt/annotation/NonNull.java
+	     src/org/eclipse/jdt/annotation/NonNullByDefault.java
+	     src/org/eclipse/jdt/annotation/Nullable.java
+	     src/org/eclipse/jdt/annotation/package-info.java -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|bundle.properties|src/org/eclipse/jdt/annotation/*" kind="src" output="bin/1/plugins/org.eclipse.jdt.annotation_v1.jar" path="org.eclipse.jdt.annotation_v1"/>
-	<!-- org\eclipse\jdt\annotation\NonNull.java
-	     org\eclipse\jdt\annotation\NonNullByDefault.java
-	     org\eclipse\jdt\annotation\Nullable.java -->
+	<!-- org/eclipse/jdt/annotation/NonNull.java
+	     org/eclipse/jdt/annotation/NonNullByDefault.java
+	     org/eclipse/jdt/annotation/Nullable.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jdt.annotation_v1.jar" path="org.eclipse.jdt.annotation_v1/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="classes"/>

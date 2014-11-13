@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/elcl16/bug-comment.gif
+	     icons/elcl16/bug-dirty.gif
+	     icons/elcl16/bug-favorite.gif
+	     icons/elcl16/bug-new.gif
+	     icons/elcl16/bug-search-new.gif
+	     icons/elcl16/bug-search.gif
+	     icons/elcl16/bug-small.gif
+	     icons/elcl16/bug.gif
+	     icons/elcl16/overlay-conflicting.gif
+	     icons/elcl16/overlay-incoming.gif
+	     icons/elcl16/overlay-outgoing.gif
+	     icons/etool16/task-bug-new.gif
+	     icons/etool16/task-bug-refresh.gif
+	     icons/etool16/task-bug.gif
+	     icons/etool16/task-remote.gif
+	     icons/etool16/task-repository-new.gif
+	     icons/etool16/task-repository.gif
+	     icons/eview16/bugzilla-logo.gif
+	     icons/eview16/overlay-bug.gif
+	     icons/eview16/overlay-bugzilla.gif
+	     icons/eview16/overlay-critical.gif
+	     icons/eview16/overlay-enhancement.gif
+	     icons/eview16/overlay-feature.gif
+	     icons/eview16/overlay-major.gif
+	     icons/eview16/overlay-normal.gif
+	     icons/eview16/overlay-trivial.gif
+	     icons/find.gif
+	     icons/wizban/banner-attachment-update.gif
+	     icons/wizban/bug-wizard.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/*|icons/elcl16/*|icons/etool16/*|icons/eview16/*|icons/wizban/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.bugzilla.ui.jar" path="org.eclipse.mylyn.bugzilla.ui"/>
+	<!-- org/eclipse/mylyn/internal/bugzilla/ui/action/BugzillaAttachmentUpdateAction.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/action/BugzillaNotObsoleteAttachmentAction.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/action/BugzillaObsoleteAttachmentAction.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/action/BugzillaUpdateAttachmentAction.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/action/ChangeAttachmentJob.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/action/Messages.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/action/messages.properties
+	     org/eclipse/mylyn/internal/bugzilla/ui/action/UpdateAttachmentJob.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/BugzillaImages.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/BugzillaSearchHandler.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/BugzillaUiExtensionReader.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/BugzillaUiPlugin.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaCcAttributeEditor.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaFlagPart.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaKeywordAttributeEditor.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaPeoplePart.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaPlanningEditorPart.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaResponseDetailDialog.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaTaskEditorCommentPart.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaTaskEditorDescriptionPart.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaTaskEditorNewCommentPart.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaTaskEditorPage.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaTaskEditorPageFactory.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/BugzillaVotesEditor.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/FlagAttributeEditor.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/Messages.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/editor/messages.properties
+	     org/eclipse/mylyn/internal/bugzilla/ui/Messages.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/messages.properties
+	     org/eclipse/mylyn/internal/bugzilla/ui/search/BugzillaSearchPage.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/search/BugzillaSeveritySearchSorter.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/search/BugzillaStateSearchSorter.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/search/Chart.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/search/ChartExpression.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/search/Messages.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/search/messages.properties
+	     org/eclipse/mylyn/internal/bugzilla/ui/TaskAttachmentHyperlink.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/TaskAttachmentTableEditorHyperlink.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/tasklist/BugzillaConnectorUi.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/tasklist/BugzillaCustomQueryDialog.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/tasklist/BugzillaCustomQueryWizardPage.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/tasklist/BugzillaQueryTypeWizardPage.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/tasklist/BugzillaRepositorySettingsPage.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/tasklist/BugzillaTaskAttachmentPage.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/tasklist/Messages.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/tasklist/messages.properties
+	     org/eclipse/mylyn/internal/bugzilla/ui/tasklist/StackTrace.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/wizard/BugzillaAttachmentWizard.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/wizard/BugzillaAttachmentWizardPage.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/wizard/Messages.java
+	     org/eclipse/mylyn/internal/bugzilla/ui/wizard/messages.properties
+	     org/eclipse/mylyn/internal/bugzilla/ui/wizard/NewBugzillaTaskWizard.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.bugzilla.ui.jar" path="org.eclipse.mylyn.bugzilla.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.bugzilla.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

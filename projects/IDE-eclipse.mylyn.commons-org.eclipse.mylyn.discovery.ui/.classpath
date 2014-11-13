@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/obj16/message_info.gif
+	     icons/ovr32/message_warning.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/obj16/*|icons/ovr32/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.discovery.ui.jar" path="org.eclipse.mylyn.discovery.ui"/>
+	<!-- org/eclipse/mylyn/internal/discovery/ui/AbstractInstallJob.java
+	     org/eclipse/mylyn/internal/discovery/ui/commands/Messages.java
+	     org/eclipse/mylyn/internal/discovery/ui/commands/messages.properties
+	     org/eclipse/mylyn/internal/discovery/ui/commands/ShowConnectorDiscoveryWizardCommandHandler.java
+	     org/eclipse/mylyn/internal/discovery/ui/DiscoveryImages.java
+	     org/eclipse/mylyn/internal/discovery/ui/DiscoveryUi.java
+	     org/eclipse/mylyn/internal/discovery/ui/InstalledItem.java
+	     org/eclipse/mylyn/internal/discovery/ui/UninstallRequest.java
+	     org/eclipse/mylyn/internal/discovery/ui/util/DiscoveryUiUtil.java
+	     org/eclipse/mylyn/internal/discovery/ui/util/messages.properties
+	     org/eclipse/mylyn/internal/discovery/ui/wizards/ConnectorDiscoveryWizard.java
+	     org/eclipse/mylyn/internal/discovery/ui/wizards/ConnectorDiscoveryWizardMainPage.java
+	     org/eclipse/mylyn/internal/discovery/ui/wizards/DiscoveryViewer.java
+	     org/eclipse/mylyn/internal/discovery/ui/wizards/Messages.java
+	     org/eclipse/mylyn/internal/discovery/ui/wizards/messages.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.discovery.ui.jar" path="org.eclipse.mylyn.discovery.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.metadata"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.operations"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.discovery.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.forms"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

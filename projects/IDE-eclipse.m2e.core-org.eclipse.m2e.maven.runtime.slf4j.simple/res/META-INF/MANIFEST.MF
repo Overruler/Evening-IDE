@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-DocURL: www.eclipse.org
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6,JavaSE-1.7
+Built-By: ifedorenk
+Bundle-SymbolicName: org.eclipse.m2e.maven.runtime.slf4j.simple;single
+ ton:=false
+Bundle-Version: 99.99.99.99
+Bundle-Description: This bundle provides SLF4j implementation and 
+ configuration required to run m2e embedded Maven runtime  in 
+ external JVM. This bundle is NOT a general purpose slf4j-simple OSGi 
+ bundle, it does NOT export  any packages and it CANNOT be used as an 
+ OSGI SLF4J implementation.  This is suboptimal and a better solution 
+ would be to either include slf4j-simple as a resource in  
+ org.eclipse.m2e.maven.runtime or use SLF4J implementation of the 
+ running m2e instance. I could not  find an easy way to implement 
+ either of the better solutions, so this one will have to do for 
+ now.   This bundle is referenced as Require-Bundle by 
+ org.eclipse.m2e.maven.runtime to force installation  of this bundle 
+ whenever m2e embedded maven runtime is installed. Because no 
+ packages are exported,  this does not pollute OSGi classpath. 
+ Provide-Capability/Require-Capability would be cleaner, but  I 
+ don't know if these are supported bu P2.
+Build-Jdk: 1.6.0_27
+Bundle-ClassPath: .,jars/slf4j-simple-1.7.5.jar
+Bundle-Vendor: %Bundle-Vendor
+Bnd-LastModified: 1402014756251
+Bundle-Name: %Bundle-Name
+Tool: Bnd-2.1.0.20130426-122213
+Embed-Transitive: true
+Embed-Directory: jars
+Eclipse-BundleShape: dir
+Created-By: Apache Maven Bundle Plugin
+Embedded-Artifacts: jars/slf4j-simple-1.7.5.jar;g="org.slf4j";a="slf4j-simple";v="1.7.5"
+Bundle-ManifestVersion: 2
+Embed-Dependency: slf4j-simple

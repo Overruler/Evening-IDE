@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- css/empty.css
+	     css/images/frame.png
+	     css/images/handle-embossed.png
+	     css/images/handle.png
+	     css/images/transparent.png
+	     css/jeeeyul-custom.css
+	     css/test.css
+	     icons/active-part.png
+	     icons/add.gif
+	     icons/backward_nav.gif
+	     icons/config.png
+	     icons/contact.png
+	     icons/css.gif
+	     icons/download.png
+	     icons/eclipse.gif
+	     icons/external_browser.gif
+	     icons/file.gif
+	     icons/font.gif
+	     icons/forward_nav.gif
+	     icons/frame.gif
+	     icons/github.png
+	     icons/handle-embossed.gif
+	     icons/handle.gif
+	     icons/help_contents.png
+	     icons/home_nav.gif
+	     icons/info_tsk.gif
+	     icons/jtheme.png
+	     icons/layout.gif
+	     icons/maxmize.gif
+	     icons/menu.gif
+	     icons/minimize.gif
+	     icons/note.gif
+	     icons/open-perspective.gif
+	     icons/part.gif
+	     icons/pledgie.png
+	     icons/plugin.gif
+	     icons/preset.gif
+	     icons/props.gif
+	     icons/refresh.gif
+	     icons/store.png
+	     icons/toolbar.gif
+	     icons/transparent.gif
+	     icons/warn_tsk.gif
+	     META-INF/MANIFEST.MF
+	     plugin.xml
+	     presets/default/Adwaita.epf
+	     presets/default/chrome.epf
+	     presets/default/Cloud Space.epf
+	     presets/default/Coffee.epf
+	     presets/default/default.epf
+	     presets/default/Glossy Ocean.epf
+	     presets/default/Hello Kitty.epf
+	     presets/default/Lime.epf
+	     presets/default/Ocean.epf
+	     presets/default/Retro.epf
+	     presets/default/Spring Tool Suite.epf -->
+	<classpathentry excluding="src/|src-gen/|.*|.*/" including="META-INF/*|css/*|css/images/*|icons/*|plugin.xml|presets/default/*" kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.ui.jar" path="net.jeeeyul.eclipse.themes.ui"/>
+	<!-- net/jeeeyul/eclipse/themes/JThemesCore.java
+	     net/jeeeyul/eclipse/themes/ui/ApplyPresetAction.java
+	     net/jeeeyul/eclipse/themes/ui/CategoriesContribution.java
+	     net/jeeeyul/eclipse/themes/ui/hotswap/ColorAndFontCSSGenerator.java
+	     net/jeeeyul/eclipse/themes/ui/hotswap/CustomThemeGenerator.xtend
+	     net/jeeeyul/eclipse/themes/ui/hotswap/HotSwap.java
+	     net/jeeeyul/eclipse/themes/ui/hotswap/ResourceRegistryHack.java
+	     net/jeeeyul/eclipse/themes/ui/hotswap/RewriteCustomTheme.java
+	     net/jeeeyul/eclipse/themes/ui/internal/ActiveThemeProcessor.java
+	     net/jeeeyul/eclipse/themes/ui/internal/Debug.java
+	     net/jeeeyul/eclipse/themes/ui/internal/ENVHelper.java
+	     net/jeeeyul/eclipse/themes/ui/internal/OldAddonUninstaller.java
+	     net/jeeeyul/eclipse/themes/ui/internal/SerializeUtil.xtend
+	     net/jeeeyul/eclipse/themes/ui/linux/AskingRestart.java
+	     net/jeeeyul/eclipse/themes/ui/linux/DownloadGTKRC2Page.xtend
+	     net/jeeeyul/eclipse/themes/ui/linux/DownloadGTKRC2Wizard.xtend
+	     net/jeeeyul/eclipse/themes/ui/linux/LaunchGTKWizardAction.java
+	     net/jeeeyul/eclipse/themes/ui/linux/LaunchGTKWizardJob.java
+	     net/jeeeyul/eclipse/themes/ui/linux/LinuxContribution.java
+	     net/jeeeyul/eclipse/themes/ui/OpenURLHandler.java
+	     net/jeeeyul/eclipse/themes/ui/OtherThemesContribution.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/AbstractPreferenceAction.java
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/AddUserPresetAction.java
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/ContributedPresetItems.java
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/LoadPresetAction.java
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/ManagePresetAction.java
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/ShowCSSAction.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/ShowEPFAction.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/UserPresetItems.java
+	     net/jeeeyul/eclipse/themes/ui/preference/annotations/Ignore.java
+	     net/jeeeyul/eclipse/themes/ui/preference/annotations/PresetCategory.java
+	     net/jeeeyul/eclipse/themes/ui/preference/annotations/TypeHint.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/AbstractJTPreferencePage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/ClosePrevent.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/CompoundPreferenceFilter.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/default.epf
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/DonationPanel.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/FormsPage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/GeneralPage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/IPreferenceFilter.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/JTPreferenceInitializer.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/JTPreferencePage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/JTPUtil.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/LayoutPage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/LineStyleEditor.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/LineWidthEditor.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PartStackETCPage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PartStackPage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PartStacksPage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PreferenceLink.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PreperencePageHelper.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PreviewTabFolder.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PropertiesUtil.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/TextEditorPage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/TextShadowEdit.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/ToolsPage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/TypeFilter.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/UserCSSPage.xtend
+	     net/jeeeyul/eclipse/themes/ui/preference/JThemePreferenceStore.java
+	     net/jeeeyul/eclipse/themes/ui/preference/JTPConstants.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/IJTPreset.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/IJTPresetCategory.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/IJTPresetManager.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/IJTPresetManagerListener.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/internal/ContributedPreset.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/internal/JTPresetManager.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/internal/JTPresetPreferencePage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/internal/PresetCategoryImpl.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/internal/PresetLabelProvider.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/internal/UserPreset.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/internal/UserPresetDialog.xtend
+	     net/jeeeyul/eclipse/themes/ui/PresetsContribution.java
+	     net/jeeeyul/eclipse/themes/ui/shared/CollectionContentProvider.java
+	     net/jeeeyul/eclipse/themes/ui/shared/PresetIconGenerator.xtend
+	     net/jeeeyul/eclipse/themes/ui/store/EPFGenerator.xtend
+	     net/jeeeyul/eclipse/themes/ui/store/OpenStoreClientHandler.java
+	     net/jeeeyul/eclipse/themes/ui/store/StoreClient.java
+	     net/jeeeyul/eclipse/themes/ui/store/StoreEditorInput.java
+	     net/jeeeyul/eclipse/themes/ui/store/StoreInputFactory.java
+	     net/jeeeyul/eclipse/themes/ui/SwitchThemeAction.xtend
+	     net/jeeeyul/eclipse/themes/ui/UserPresetItems.java -->
+	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.ui.jar" path="net.jeeeyul.eclipse.themes.ui/src"/>
+	<!-- net/jeeeyul/eclipse/themes/SharedImages.java
+	     net/jeeeyul/eclipse/themes/ui/.OtherThemesContribution.java._trace
+	     net/jeeeyul/eclipse/themes/ui/.SwitchThemeAction.java._trace
+	     net/jeeeyul/eclipse/themes/ui/hotswap/.CustomThemeGenerator.java._trace
+	     net/jeeeyul/eclipse/themes/ui/hotswap/CustomThemeGenerator.java
+	     net/jeeeyul/eclipse/themes/ui/internal/.SerializeUtil.java._trace
+	     net/jeeeyul/eclipse/themes/ui/internal/SerializeUtil.java
+	     net/jeeeyul/eclipse/themes/ui/linux/.DownloadGTKRC2Page.java._trace
+	     net/jeeeyul/eclipse/themes/ui/linux/.DownloadGTKRC2Wizard.java._trace
+	     net/jeeeyul/eclipse/themes/ui/linux/DownloadGTKRC2Page.java
+	     net/jeeeyul/eclipse/themes/ui/linux/DownloadGTKRC2Wizard.java
+	     net/jeeeyul/eclipse/themes/ui/OtherThemesContribution.java
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/.ShowCSSAction.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/.ShowEPFAction.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/ShowCSSAction.java
+	     net/jeeeyul/eclipse/themes/ui/preference/actions/ShowEPFAction.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.AbstractJTPreferencePage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.DonationPanel.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.FormsPage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.GeneralPage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.JTPreferencePage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.LayoutPage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.PartStackETCPage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.PartStackPage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.PartStacksPage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.PreferenceLink.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.TextEditorPage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.ToolsPage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/.UserCSSPage.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/AbstractJTPreferencePage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/DonationPanel.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/FormsPage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/GeneralPage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/JTPreferencePage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/LayoutPage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PartStackETCPage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PartStackPage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PartStacksPage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/PreferenceLink.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/TextEditorPage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/ToolsPage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/internal/UserCSSPage.java
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/internal/.UserPresetDialog.java._trace
+	     net/jeeeyul/eclipse/themes/ui/preference/preset/internal/UserPresetDialog.java
+	     net/jeeeyul/eclipse/themes/ui/shared/.PresetIconGenerator.java._trace
+	     net/jeeeyul/eclipse/themes/ui/shared/PresetIconGenerator.java
+	     net/jeeeyul/eclipse/themes/ui/store/.EPFGenerator.java._trace
+	     net/jeeeyul/eclipse/themes/ui/store/EPFGenerator.java
+	     net/jeeeyul/eclipse/themes/ui/SwitchThemeAction.java -->
+	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.ui.jar" path="net.jeeeyul.eclipse.themes.ui/src-gen"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.annotation"/>
+	<classpathentry kind="src" path="/IDE-other-javax.inject"/>
+	<classpathentry kind="src" path="/IDE-other-net.jeeeyul.eclipse.themes"/>
+	<classpathentry kind="src" path="/IDE-other-net.jeeeyul.swtend"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.contexts"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.di"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.e4.core.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.swt.theme"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.model.workbench"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.widgets"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench.renderers.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.workbench.swt"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi.services"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="src" path="/IDE-other-org.w3c.css.sac"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

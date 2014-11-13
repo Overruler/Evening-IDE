@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
-	     model\Change.ecore
-	     model\Change.genmodel
+	     META-INF/MANIFEST.MF
+	     model/Change.ecore
+	     model/Change.genmodel
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|model/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.change.jar" path="org.eclipse.emf.ecore.change"/>
-	<!-- org\eclipse\emf\ecore\change\ChangeDescription.java
-	     org\eclipse\emf\ecore\change\ChangeFactory.java
-	     org\eclipse\emf\ecore\change\ChangeKind.java
-	     org\eclipse\emf\ecore\change\ChangePackage.java
-	     org\eclipse\emf\ecore\change\ChangePlugin.java
-	     org\eclipse\emf\ecore\change\FeatureChange.java
-	     org\eclipse\emf\ecore\change\FeatureMapEntry.java
-	     org\eclipse\emf\ecore\change\impl\ChangeDescriptionImpl.java
-	     org\eclipse\emf\ecore\change\impl\ChangeFactoryImpl.java
-	     org\eclipse\emf\ecore\change\impl\ChangePackageImpl.java
-	     org\eclipse\emf\ecore\change\impl\EObjectToChangesMapEntryImpl.java
-	     org\eclipse\emf\ecore\change\impl\FeatureChangeImpl.java
-	     org\eclipse\emf\ecore\change\impl\FeatureMapEntryImpl.java
-	     org\eclipse\emf\ecore\change\impl\ListChangeImpl.java
-	     org\eclipse\emf\ecore\change\impl\package.html
-	     org\eclipse\emf\ecore\change\impl\ResourceChangeImpl.java
-	     org\eclipse\emf\ecore\change\ListChange.java
-	     org\eclipse\emf\ecore\change\package.html
-	     org\eclipse\emf\ecore\change\ResourceChange.java
-	     org\eclipse\emf\ecore\change\util\BasicChangeRecorder.java
-	     org\eclipse\emf\ecore\change\util\ChangeAdapterFactory.java
-	     org\eclipse\emf\ecore\change\util\ChangeRecorder.java
-	     org\eclipse\emf\ecore\change\util\ChangeSwitch.java
-	     org\eclipse\emf\ecore\change\util\ListDifferenceAnalyzer.java
-	     org\eclipse\emf\ecore\change\util\package.html -->
+	<!-- org/eclipse/emf/ecore/change/ChangeDescription.java
+	     org/eclipse/emf/ecore/change/ChangeFactory.java
+	     org/eclipse/emf/ecore/change/ChangeKind.java
+	     org/eclipse/emf/ecore/change/ChangePackage.java
+	     org/eclipse/emf/ecore/change/ChangePlugin.java
+	     org/eclipse/emf/ecore/change/FeatureChange.java
+	     org/eclipse/emf/ecore/change/FeatureMapEntry.java
+	     org/eclipse/emf/ecore/change/impl/ChangeDescriptionImpl.java
+	     org/eclipse/emf/ecore/change/impl/ChangeFactoryImpl.java
+	     org/eclipse/emf/ecore/change/impl/ChangePackageImpl.java
+	     org/eclipse/emf/ecore/change/impl/EObjectToChangesMapEntryImpl.java
+	     org/eclipse/emf/ecore/change/impl/FeatureChangeImpl.java
+	     org/eclipse/emf/ecore/change/impl/FeatureMapEntryImpl.java
+	     org/eclipse/emf/ecore/change/impl/ListChangeImpl.java
+	     org/eclipse/emf/ecore/change/impl/package.html
+	     org/eclipse/emf/ecore/change/impl/ResourceChangeImpl.java
+	     org/eclipse/emf/ecore/change/ListChange.java
+	     org/eclipse/emf/ecore/change/package.html
+	     org/eclipse/emf/ecore/change/ResourceChange.java
+	     org/eclipse/emf/ecore/change/util/BasicChangeRecorder.java
+	     org/eclipse/emf/ecore/change/util/ChangeAdapterFactory.java
+	     org/eclipse/emf/ecore/change/util/ChangeRecorder.java
+	     org/eclipse/emf/ecore/change/util/ChangeSwitch.java
+	     org/eclipse/emf/ecore/change/util/ListDifferenceAnalyzer.java
+	     org/eclipse/emf/ecore/change/util/package.html -->
 	<classpathentry including="org/eclipse/emf/ecore/change/*|org/eclipse/emf/ecore/change/impl/*|org/eclipse/emf/ecore/change/util/*" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.change.jar" path="org.eclipse.emf.ecore.change/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
 	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
-	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>

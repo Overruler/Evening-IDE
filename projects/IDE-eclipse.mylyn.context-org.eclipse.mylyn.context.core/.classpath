@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     feature.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|feature.gif|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.context.core.jar" path="org.eclipse.mylyn.context.core"/>
+	<!-- org/eclipse/mylyn/context/core/AbstractContextContributor.java
+	     org/eclipse/mylyn/context/core/AbstractContextListener.java
+	     org/eclipse/mylyn/context/core/AbstractContextStructureBridge.java
+	     org/eclipse/mylyn/context/core/ContextChangeEvent.java
+	     org/eclipse/mylyn/context/core/ContextComputationStrategy.java
+	     org/eclipse/mylyn/context/core/ContextCore.java
+	     org/eclipse/mylyn/context/core/IContextContributor.java
+	     org/eclipse/mylyn/context/core/IContextListener.java
+	     org/eclipse/mylyn/context/core/IContextStore.java
+	     org/eclipse/mylyn/context/core/IDegreeOfInterest.java
+	     org/eclipse/mylyn/context/core/IImplicitlyIntersting.java
+	     org/eclipse/mylyn/context/core/IInteractionContext.java
+	     org/eclipse/mylyn/context/core/IInteractionContextManager.java
+	     org/eclipse/mylyn/context/core/IInteractionContextScaling.java
+	     org/eclipse/mylyn/context/core/IInteractionElement.java
+	     org/eclipse/mylyn/context/core/IInteractionObject.java
+	     org/eclipse/mylyn/context/core/IInteractionRelation.java
+	     org/eclipse/mylyn/context/core/InterestComparator.java
+	     org/eclipse/mylyn/internal/context/core/AbstractRelationProvider.java
+	     org/eclipse/mylyn/internal/context/core/AggregateInteractionEvent.java
+	     org/eclipse/mylyn/internal/context/core/CompositeContextElement.java
+	     org/eclipse/mylyn/internal/context/core/CompositeDegreeOfInterest.java
+	     org/eclipse/mylyn/internal/context/core/CompositeInteractionContext.java
+	     org/eclipse/mylyn/internal/context/core/ContextCorePlugin.java
+	     org/eclipse/mylyn/internal/context/core/DegreeOfInterest.java
+	     org/eclipse/mylyn/internal/context/core/DegreeOfSeparation.java
+	     org/eclipse/mylyn/internal/context/core/IActiveSearchListener.java
+	     org/eclipse/mylyn/internal/context/core/IActiveSearchOperation.java
+	     org/eclipse/mylyn/internal/context/core/IContextStoreListener.java
+	     org/eclipse/mylyn/internal/context/core/IDegreeOfSeparation.java
+	     org/eclipse/mylyn/internal/context/core/IInteractionContextReader.java
+	     org/eclipse/mylyn/internal/context/core/IInteractionContextWriter.java
+	     org/eclipse/mylyn/internal/context/core/InteractionContext.java
+	     org/eclipse/mylyn/internal/context/core/InteractionContextElement.java
+	     org/eclipse/mylyn/internal/context/core/InteractionContextExternalizer.java
+	     org/eclipse/mylyn/internal/context/core/InteractionContextManager.java
+	     org/eclipse/mylyn/internal/context/core/InteractionContextRelation.java
+	     org/eclipse/mylyn/internal/context/core/InteractionContextScaling.java
+	     org/eclipse/mylyn/internal/context/core/IRelationsListener.java
+	     org/eclipse/mylyn/internal/context/core/LegacyActivityAdaptor.java
+	     org/eclipse/mylyn/internal/context/core/LocalContextStore.java
+	     org/eclipse/mylyn/internal/context/core/SaxContextContentHandler.java
+	     org/eclipse/mylyn/internal/context/core/SaxContextReader.java
+	     org/eclipse/mylyn/internal/context/core/SaxContextWriter.java
+	     org/eclipse/mylyn/internal/context/core/StrategiesExtensionPointReader.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.context.core.jar" path="org.eclipse.mylyn.context.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.io"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

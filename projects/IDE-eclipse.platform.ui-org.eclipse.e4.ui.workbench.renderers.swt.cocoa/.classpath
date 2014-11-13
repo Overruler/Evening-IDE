@@ -3,19 +3,19 @@
 	<!-- about.html
 	     fragment-cocoa.properties
 	     fragment.xml
-	     META-INF\MANIFEST.MF
-	     META-INF\p2.inf -->
+	     META-INF/MANIFEST.MF
+	     META-INF/p2.inf -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|fragment-cocoa.properties|fragment.xml" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.jar" path="org.eclipse.e4.ui.workbench.renderers.swt.cocoa"/>
-	<!-- org\eclipse\e4\ui\workbench\renderers\swt\cocoa\AbstractWindowHandler.java
-	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\ArrangeWindowHandler.java
-	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\CloseDialogHandler.java
-	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\CocoaUIHandler.java
-	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\CocoaUIProcessor.java
-	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\FullscreenWindowHandler.java
-	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\Messages.properties
-	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\MinimizeWindowHandler.java
-	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\SWTCocoaEnhancerDelegate.java
-	     org\eclipse\e4\ui\workbench\renderers\swt\cocoa\ZoomWindowHandler.java -->
+	<!-- org/eclipse/e4/ui/workbench/renderers/swt/cocoa/AbstractWindowHandler.java
+	     org/eclipse/e4/ui/workbench/renderers/swt/cocoa/ArrangeWindowHandler.java
+	     org/eclipse/e4/ui/workbench/renderers/swt/cocoa/CloseDialogHandler.java
+	     org/eclipse/e4/ui/workbench/renderers/swt/cocoa/CocoaUIHandler.java
+	     org/eclipse/e4/ui/workbench/renderers/swt/cocoa/CocoaUIProcessor.java
+	     org/eclipse/e4/ui/workbench/renderers/swt/cocoa/FullscreenWindowHandler.java
+	     org/eclipse/e4/ui/workbench/renderers/swt/cocoa/Messages.properties
+	     org/eclipse/e4/ui/workbench/renderers/swt/cocoa/MinimizeWindowHandler.java
+	     org/eclipse/e4/ui/workbench/renderers/swt/cocoa/SWTCocoaEnhancerDelegate.java
+	     org/eclipse/e4/ui/workbench/renderers/swt/cocoa/ZoomWindowHandler.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.jar" path="org.eclipse.e4.ui.workbench.renderers.swt.cocoa/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.inject"/>

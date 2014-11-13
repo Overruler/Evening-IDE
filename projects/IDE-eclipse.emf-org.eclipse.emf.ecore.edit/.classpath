@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     about.mappings
+	     about.properties
+	     icons/full/ctool16/CreateEAnnotation_details_EStringToStringMapEntry.gif
+	     icons/full/ctool16/CreateEClassifier_eTypeParameters_ETypeParameter.gif
+	     icons/full/ctool16/CreateEClass_eGenericSuperTypes_EGenericType.gif
+	     icons/full/ctool16/CreateEClass_eOperations_EOperation.gif
+	     icons/full/ctool16/CreateEClass_eStructuralFeatures_EAttribute.gif
+	     icons/full/ctool16/CreateEClass_eStructuralFeatures_EReference.gif
+	     icons/full/ctool16/CreateEDataType_eTypeArguments_EGenericType.gif
+	     icons/full/ctool16/CreateEEnum_eLiterals_EEnumLiteral.gif
+	     icons/full/ctool16/CreateEGenericType_eLowerBound_EGenericType.gif
+	     icons/full/ctool16/CreateEGenericType_eTypeArguments_EGenericType.gif
+	     icons/full/ctool16/CreateEGenericType_eUpperBound_EGenericType.gif
+	     icons/full/ctool16/CreateEModelElement_eAnnotations_EAnnotation.gif
+	     icons/full/ctool16/CreateEOperation_eGenericExceptions_EGenericType.gif
+	     icons/full/ctool16/CreateEOperation_eParameters_EParameter.gif
+	     icons/full/ctool16/CreateEOperation_eTypeParameters_ETypeParameter.gif
+	     icons/full/ctool16/CreateEPackage_eClassifiers_EClass.gif
+	     icons/full/ctool16/CreateEPackage_eClassifiers_EDataType.gif
+	     icons/full/ctool16/CreateEPackage_eClassifiers_EEnum.gif
+	     icons/full/ctool16/CreateEPackage_eSubpackages_EPackage.gif
+	     icons/full/ctool16/CreateETypedElement_eGenericType_EGenericType.gif
+	     icons/full/ctool16/CreateETypeParameter_eBounds_EGenericType.gif
+	     icons/full/obj16/EAnnotation.gif
+	     icons/full/obj16/EAttribute.gif
+	     icons/full/obj16/EClass.gif
+	     icons/full/obj16/EDataType.gif
+	     icons/full/obj16/EEnum.gif
+	     icons/full/obj16/EEnumLiteral.gif
+	     icons/full/obj16/EFactory.gif
+	     icons/full/obj16/EGenericElementType.gif
+	     icons/full/obj16/EGenericException.gif
+	     icons/full/obj16/EGenericSuperType.gif
+	     icons/full/obj16/EGenericType.gif
+	     icons/full/obj16/EGenericTypeArgument.gif
+	     icons/full/obj16/EGenericWildcard.gif
+	     icons/full/obj16/EObject.gif
+	     icons/full/obj16/EOccurrenceN.gif
+	     icons/full/obj16/EOccurrenceNToM.gif
+	     icons/full/obj16/EOccurrenceNToUnbounded.gif
+	     icons/full/obj16/EOccurrenceNToUnspecified.gif
+	     icons/full/obj16/EOccurrenceOne.gif
+	     icons/full/obj16/EOccurrenceOneToN.gif
+	     icons/full/obj16/EOccurrenceOneToUnbounded.gif
+	     icons/full/obj16/EOccurrenceOneToUnspecified.gif
+	     icons/full/obj16/EOccurrenceZero.gif
+	     icons/full/obj16/EOccurrenceZeroToN.gif
+	     icons/full/obj16/EOccurrenceZeroToOne.gif
+	     icons/full/obj16/EOccurrenceZeroToUnbounded.gif
+	     icons/full/obj16/EOccurrenceZeroToUnspecified.gif
+	     icons/full/obj16/EOperation.gif
+	     icons/full/obj16/EPackage.gif
+	     icons/full/obj16/EParameter.gif
+	     icons/full/obj16/EReference.gif
+	     icons/full/obj16/EStringToStringMapEntry.gif
+	     icons/full/obj16/ETypeParameter.gif
+	     META-INF/MANIFEST.MF
+	     modeling32.png
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|about.mappings|about.properties|icons/full/ctool16/*|icons/full/obj16/*|modeling32.png|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.edit.jar" path="org.eclipse.emf.ecore.edit"/>
+	<!-- org/eclipse/emf/ecore/provider/EAnnotationItemProvider.java
+	     org/eclipse/emf/ecore/provider/EAttributeItemProvider.java
+	     org/eclipse/emf/ecore/provider/EClassifierItemProvider.java
+	     org/eclipse/emf/ecore/provider/EClassItemProvider.java
+	     org/eclipse/emf/ecore/provider/EcoreEditPlugin.java
+	     org/eclipse/emf/ecore/provider/EcoreItemProviderAdapterFactory.java
+	     org/eclipse/emf/ecore/provider/EDataTypeItemProvider.java
+	     org/eclipse/emf/ecore/provider/EEnumItemProvider.java
+	     org/eclipse/emf/ecore/provider/EEnumLiteralItemProvider.java
+	     org/eclipse/emf/ecore/provider/EFactoryItemProvider.java
+	     org/eclipse/emf/ecore/provider/EGenericTypeItemProvider.java
+	     org/eclipse/emf/ecore/provider/EModelElementItemProvider.java
+	     org/eclipse/emf/ecore/provider/ENamedElementItemProvider.java
+	     org/eclipse/emf/ecore/provider/EObjectItemProvider.java
+	     org/eclipse/emf/ecore/provider/EOperationItemProvider.java
+	     org/eclipse/emf/ecore/provider/EPackageItemProvider.java
+	     org/eclipse/emf/ecore/provider/EParameterItemProvider.java
+	     org/eclipse/emf/ecore/provider/EReferenceItemProvider.java
+	     org/eclipse/emf/ecore/provider/EStringToStringMapEntryItemProvider.java
+	     org/eclipse/emf/ecore/provider/EStructuralFeatureItemProvider.java
+	     org/eclipse/emf/ecore/provider/ETypedElementItemProvider.java
+	     org/eclipse/emf/ecore/provider/ETypeParameterItemProvider.java
+	     org/eclipse/emf/ecore/provider/package.html -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.emf.ecore.edit.jar" path="org.eclipse.emf.ecore.edit/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.edit"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

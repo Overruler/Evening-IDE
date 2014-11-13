@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ql.jar" path="org.eclipse.equinox.p2.ql"/>
-	<!-- org\eclipse\equinox\p2\ql\IQLExpression.java
-	     org\eclipse\equinox\p2\ql\IQLFactory.java -->
+	<!-- org/eclipse/equinox/p2/ql/IQLExpression.java
+	     org/eclipse/equinox/p2/ql/IQLFactory.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.ql.jar" path="org.eclipse.equinox.p2.ql/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>

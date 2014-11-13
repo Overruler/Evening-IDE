@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
-	     OSGI-INF\repositoryManager.xml
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/repositoryManager.xml
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|src_ant/|.*|.*/" including="META-INF/*|OSGI-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.metadata.repository.jar" path="org.eclipse.equinox.p2.metadata.repository"/>
-	<!-- org\eclipse\equinox\internal\p2\metadata\repository\Activator.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\CompositeMetadataRepository.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\CompositeMetadataRepositoryFactory.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\io\MetadataParser.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\io\MetadataWriter.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\io\XMLConstants.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\LocalMetadataRepository.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\Messages.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\messages.properties
-	     org\eclipse\equinox\internal\p2\metadata\repository\MetadataRepositoryComponent.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\MetadataRepositoryIO.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\MetadataRepositoryManager.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\SimpleMetadataRepositoryFactory.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\URLMetadataRepository.java
-	     org\eclipse\equinox\p2\metadata\io\IUDeserializer.java
-	     org\eclipse\equinox\p2\metadata\io\IUSerializer.java -->
+	<!-- org/eclipse/equinox/internal/p2/metadata/repository/Activator.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/CompositeMetadataRepository.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/CompositeMetadataRepositoryFactory.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/io/MetadataParser.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/io/MetadataWriter.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/io/XMLConstants.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/LocalMetadataRepository.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/Messages.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/messages.properties
+	     org/eclipse/equinox/internal/p2/metadata/repository/MetadataRepositoryComponent.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/MetadataRepositoryIO.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/MetadataRepositoryManager.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/SimpleMetadataRepositoryFactory.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/URLMetadataRepository.java
+	     org/eclipse/equinox/p2/metadata/io/IUDeserializer.java
+	     org/eclipse/equinox/p2/metadata/io/IUSerializer.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.metadata.repository.jar" path="org.eclipse.equinox.p2.metadata.repository/src"/>
-	<!-- org\eclipse\equinox\internal\p2\metadata\repository\ant\AbstractMDRTask.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\ant\AddChildTask.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\ant\CreateCompositeMetadataRepositoryTask.java
-	     org\eclipse\equinox\internal\p2\metadata\repository\ant\RemoveChildTask.java -->
+	<!-- org/eclipse/equinox/internal/p2/metadata/repository/ant/AbstractMDRTask.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/ant/AddChildTask.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/ant/CreateCompositeMetadataRepositoryTask.java
+	     org/eclipse/equinox/internal/p2/metadata/repository/ant/RemoveChildTask.java -->
 	<classpathentry kind="src" output="bin/2/plugins/org.eclipse.equinox.p2.metadata.repository.jar/ant_tasks/metadataRepository-ant.jar" path="org.eclipse.equinox.p2.metadata.repository/src_ant"/>
-	<!-- ant_tasks\metadataRepository-ant.jar\META-INF\MANIFEST.MF -->
+	<!-- ant_tasks/metadataRepository-ant.jar/META-INF/MANIFEST.MF -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.metadata.repository.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.xml"/>

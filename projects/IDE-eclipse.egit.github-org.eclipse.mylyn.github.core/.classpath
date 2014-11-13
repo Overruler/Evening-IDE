@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.mylyn.github.core.jar" path="org.eclipse.mylyn.github.core"/>
+	<!-- org/eclipse/mylyn/internal/github/core/gist/GistAttachmentHandler.java
+	     org/eclipse/mylyn/internal/github/core/gist/GistAttribute.java
+	     org/eclipse/mylyn/internal/github/core/gist/GistConnector.java
+	     org/eclipse/mylyn/internal/github/core/gist/GistTaskDataHandler.java
+	     org/eclipse/mylyn/internal/github/core/gist/IGistQueryConstants.java
+	     org/eclipse/mylyn/internal/github/core/gist/Messages.java
+	     org/eclipse/mylyn/internal/github/core/gist/messages.properties
+	     org/eclipse/mylyn/internal/github/core/GitHub.java
+	     org/eclipse/mylyn/internal/github/core/GitHubAttributeMetadata.java
+	     org/eclipse/mylyn/internal/github/core/GitHubException.java
+	     org/eclipse/mylyn/internal/github/core/GitHubTaskAttributeMapper.java
+	     org/eclipse/mylyn/internal/github/core/GitHubTaskDataHandler.java
+	     org/eclipse/mylyn/internal/github/core/issue/IssueAttribute.java
+	     org/eclipse/mylyn/internal/github/core/issue/IssueConnector.java
+	     org/eclipse/mylyn/internal/github/core/issue/IssueOperation.java
+	     org/eclipse/mylyn/internal/github/core/issue/IssueTaskDataHandler.java
+	     org/eclipse/mylyn/internal/github/core/issue/Messages.java
+	     org/eclipse/mylyn/internal/github/core/issue/messages.properties
+	     org/eclipse/mylyn/internal/github/core/Messages.java
+	     org/eclipse/mylyn/internal/github/core/messages.properties
+	     org/eclipse/mylyn/internal/github/core/pr/Messages.java
+	     org/eclipse/mylyn/internal/github/core/pr/messages.properties
+	     org/eclipse/mylyn/internal/github/core/pr/PullRequestAttribute.java
+	     org/eclipse/mylyn/internal/github/core/pr/PullRequestComposite.java
+	     org/eclipse/mylyn/internal/github/core/pr/PullRequestConnector.java
+	     org/eclipse/mylyn/internal/github/core/pr/PullRequestOperation.java
+	     org/eclipse/mylyn/internal/github/core/pr/PullRequestTaskDataHandler.java
+	     org/eclipse/mylyn/internal/github/core/pr/PullRequestUtils.java
+	     org/eclipse/mylyn/internal/github/core/QueryUtils.java
+	     org/eclipse/mylyn/internal/github/core/RepositoryConnector.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.github.core.jar" path="org.eclipse.mylyn.github.core/src"/>
+	<!-- META-INF/maven/org.eclipse.mylyn.github/org.eclipse.mylyn.github.core/pom.properties
+	     META-INF/maven/org.eclipse.mylyn.github/org.eclipse.mylyn.github.core/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.github.core.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.egit-org.eclipse.egit.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.egit.github-org.eclipse.egit.github.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

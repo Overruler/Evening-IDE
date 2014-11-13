@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.mediawiki.core.jar" path="org.eclipse.mylyn.wikitext.mediawiki.core"/>
+	<!-- org/eclipse/mylyn/internal/wikitext/mediawiki/core/AbstractMediaWikiLanguage.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/block/AbstractTableOfContentsBlock.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/block/CommentBlock.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/block/EscapeBlock.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/block/HeadingBlock.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/block/ListBlock.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/block/ParagraphBlock.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/block/PreformattedBlock.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/block/SourceBlock.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/block/TableBlock.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/block/TableOfContentsBlock.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/BuiltInTemplateResolver.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/DateTimeTemplate.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/MediaWikiIdGenerationStrategy.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/PageMapping.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/phrase/EscapePhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/phrase/SimplePhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/phrase/SimpleWrappedPhraseModifier.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/tasks/ConfigurationException.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/tasks/MediaWikiImageFetcher.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/tasks/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/tasks/tasks.properties
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/tasks/WikiToDocTask.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/TemplateProcessor.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/token/EntityReferenceReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/token/HyperlinkExternalReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/token/HyperlinkInternalReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/token/HyperlinkReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/token/ImageReplacementToken.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/token/LineBreakToken.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/validation/CommentValidationRule.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/validation/MediaWikiReferenceValidationRule.java
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/validation/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/mediawiki/core/WikiTemplateResolver.java
+	     org/eclipse/mylyn/wikitext/mediawiki/core/MediaWikiLanguage.java
+	     org/eclipse/mylyn/wikitext/mediawiki/core/Template.java
+	     org/eclipse/mylyn/wikitext/mediawiki/core/TemplateResolver.java
+	     services/org.eclipse.mylyn.wikitext.core.parser.markup.MarkupLanguage -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.mediawiki.core.jar" path="org.eclipse.mylyn.wikitext.mediawiki.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core.ant"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

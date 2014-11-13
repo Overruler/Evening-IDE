@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/collapseall.gif
+	     icons/editor-icon.gif
+	     icons/help.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/cheatSheet.exsd
+	     schema/contentAssist.exsd -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/*|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.ui.jar" path="org.eclipse.mylyn.wikitext.ui"/>
+	<!-- org/eclipse/mylyn/internal/wikitext/ui/commands/ConvertMarkupToMarkup.java
+	     org/eclipse/mylyn/internal/wikitext/ui/commands/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/commands/WikiMarkupGenerationContribution.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/actions/CollapseAllFoldingRulerAction.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/actions/ContextHelpAction.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/actions/ExpandAllFoldingRulerAction.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/actions/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/actions/PreviewOutlineItemAction.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/actions/SetMarkupLanguageAction.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/actions/ToggleFoldingRulerAction.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/assist/AnchorCompletionProcessor.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/assist/MarkupTemplateCompletionProcessor.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/assist/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/assist/MultiplexingContentAssistProcessor.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/assist/SourceTemplateContextType.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/assist/Templates.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/assist/WikiTextTemplateAccess.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/commands/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/commands/ShowCheatSheetCommand.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/commands/ShowQuickOutlineCommand.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/dnd/DndConfigurationStrategy.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/dnd/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/dnd/OutlineDragSourceListener.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/dnd/OutlineDropTargetListener.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/FindAndReplaceTarget.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/help/CheatSheetContent.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/help/HelpContent.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/help/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/IFoldingStructure.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/MarkupEditor.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/MarkupEditorActionBarContributor.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/MarkupEditorOutline.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/MarkupProjectionViewer.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/operations/AbstractDocumentCommand.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/operations/CommandManager.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/operations/InsertLocation.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/operations/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/operations/MoveSectionsCommand.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/outline/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/outline/QuickOutlinePopupDialog.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/preferences/CssStyleFieldEditor.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/preferences/EditorPreferencePage.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/preferences/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/preferences/PreferenceInitializer.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/preferences/Preferences.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/preferences/WikiTextTemplatePreferencePage.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/reconciler/MarkupMonoReconciler.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/reconciler/MarkupValidationReconcilingStrategy.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/reconciler/MultiReconcilingStrategy.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/syntax/Block.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/syntax/FastMarkupPartitioner.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/syntax/MarkupDamagerRepairer.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/syntax/MarkupDocumentProvider.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/syntax/MarkupHyperlinkDetector.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/syntax/MarkupTokenScanner.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/syntax/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/syntax/Segment.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/syntax/Segments.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/syntax/Span.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/validation/AnnotationMarkupValidator.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/validation/DocumentRegionValidator.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/validation/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/validation/ResourceMarkerMarkupValidator.java
+	     org/eclipse/mylyn/internal/wikitext/ui/editor/validation/ValidationProblemAnnotation.java
+	     org/eclipse/mylyn/internal/wikitext/ui/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/properties/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/properties/ProjectPropertyPage.java
+	     org/eclipse/mylyn/internal/wikitext/ui/registry/EclipseServiceLocator.java
+	     org/eclipse/mylyn/internal/wikitext/ui/registry/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/registry/WikiTextExtensionPointReader.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/css/editor/CssBlockScanner.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/css/editor/CssConfiguration.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/css/editor/CssPartitioner.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/css/editor/CssScanner.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/css/editor/CssWhitespaceDetector.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/HyperlinkDetectorDelegate.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/ImageCache.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/InformationPresenterUtil.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/IOUtil.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/NlsResourceBundle.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/OutlineItemAdapterFactory.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/OutlineItemWorkbenchAdapter.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/PreferenceStoreFacade.java
+	     org/eclipse/mylyn/internal/wikitext/ui/util/resources/missing-image.png
+	     org/eclipse/mylyn/internal/wikitext/ui/util/WikiTextUiResources.java
+	     org/eclipse/mylyn/internal/wikitext/ui/validation/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/validation/ValidationProjectBuilder.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/AnnotationHyperlinkDetector.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/annotation/BulletAnnotation.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/annotation/BulletDrawingStrategy.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/annotation/HorizontalRuleAnnotation.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/annotation/HorizontalRuleDrawingStrategy.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/annotation/ImageAnnotation.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/annotation/ImageDrawingStrategy.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/CssStyleManager.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/default.css
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/FontState.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/HtmlTextPresentationParser.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/ImageManager.java
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/messages.properties
+	     org/eclipse/mylyn/internal/wikitext/ui/viewer/TextHover.java
+	     org/eclipse/mylyn/internal/wikitext/ui/WikiTextNature.java
+	     org/eclipse/mylyn/internal/wikitext/ui/WikiTextUiPlugin.java
+	     org/eclipse/mylyn/wikitext/ui/annotation/AnchorHrefAnnotation.java
+	     org/eclipse/mylyn/wikitext/ui/annotation/AnchorNameAnnotation.java
+	     org/eclipse/mylyn/wikitext/ui/annotation/ClassAnnotation.java
+	     org/eclipse/mylyn/wikitext/ui/annotation/IdAnnotation.java
+	     org/eclipse/mylyn/wikitext/ui/annotation/TitleAnnotation.java
+	     org/eclipse/mylyn/wikitext/ui/commands/AbstractMarkupResourceHandler.java
+	     org/eclipse/mylyn/wikitext/ui/commands/ConvertMarkupToDocbook.java
+	     org/eclipse/mylyn/wikitext/ui/commands/ConvertMarkupToEclipseHelp.java
+	     org/eclipse/mylyn/wikitext/ui/commands/ConvertMarkupToHtml.java
+	     org/eclipse/mylyn/wikitext/ui/commands/messages.properties
+	     org/eclipse/mylyn/wikitext/ui/editor/AbstractWikiTextDocumentProvider.java
+	     org/eclipse/mylyn/wikitext/ui/editor/AbstractWikiTextSourceEditorOutline.java
+	     org/eclipse/mylyn/wikitext/ui/editor/DefaultWikiTextSourceEditorOutline.java
+	     org/eclipse/mylyn/wikitext/ui/editor/MarkupSourceViewer.java
+	     org/eclipse/mylyn/wikitext/ui/editor/MarkupSourceViewerConfiguration.java
+	     org/eclipse/mylyn/wikitext/ui/editor/ShowInTargetBridge.java
+	     org/eclipse/mylyn/wikitext/ui/editor/WikiTextDocumentProvider.java
+	     org/eclipse/mylyn/wikitext/ui/editor/WikiTextSourceEditor.java
+	     org/eclipse/mylyn/wikitext/ui/editor/WikiTextSourcePartitioning.java
+	     org/eclipse/mylyn/wikitext/ui/viewer/AbstractTextSourceViewerConfiguration.java
+	     org/eclipse/mylyn/wikitext/ui/viewer/DefaultHyperlinkDetectorDescriptorFilter.java
+	     org/eclipse/mylyn/wikitext/ui/viewer/HtmlTextPresenter.java
+	     org/eclipse/mylyn/wikitext/ui/viewer/HtmlViewer.java
+	     org/eclipse/mylyn/wikitext/ui/viewer/HtmlViewerConfiguration.java
+	     org/eclipse/mylyn/wikitext/ui/viewer/MarkupTextPresenter.java
+	     org/eclipse/mylyn/wikitext/ui/viewer/MarkupViewer.java
+	     org/eclipse/mylyn/wikitext/ui/viewer/MarkupViewerConfiguration.java
+	     org/eclipse/mylyn/wikitext/ui/viewer/messages.properties
+	     org/eclipse/mylyn/wikitext/ui/WikiText.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.wikitext.ui.jar" path="org.eclipse.mylyn.wikitext.ui/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.core.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

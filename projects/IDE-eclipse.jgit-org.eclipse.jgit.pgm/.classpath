@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     META-INF/services/org.eclipse.jgit.pgm.TextBuiltin
+	     plugin.properties -->
+	<classpathentry excluding="resources/|src/|.*|.*/" including="META-INF/*|META-INF/services/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jgit.pgm.jar" path="org.eclipse.jgit.pgm"/>
+	<!-- org/eclipse/jgit/pgm/internal/CLIText.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jgit.pgm.jar" path="org.eclipse.jgit.pgm/resources"/>
+	<!-- org/eclipse/jgit/pgm/Command.java
+	     org/eclipse/jgit/pgm/CommandCatalog.java
+	     org/eclipse/jgit/pgm/CommandRef.java
+	     org/eclipse/jgit/pgm/Die.java
+	     org/eclipse/jgit/pgm/internal/CLIText.java
+	     org/eclipse/jgit/pgm/Main.java
+	     org/eclipse/jgit/pgm/opt/AbstractTreeIteratorHandler.java
+	     org/eclipse/jgit/pgm/opt/CmdLineParser.java
+	     org/eclipse/jgit/pgm/opt/ObjectIdHandler.java
+	     org/eclipse/jgit/pgm/opt/PathTreeFilterHandler.java
+	     org/eclipse/jgit/pgm/opt/RefSpecHandler.java
+	     org/eclipse/jgit/pgm/opt/RevCommitHandler.java
+	     org/eclipse/jgit/pgm/opt/RevTreeHandler.java
+	     org/eclipse/jgit/pgm/opt/SubcommandHandler.java
+	     org/eclipse/jgit/pgm/TextBuiltin.java -->
+	<classpathentry including="org/eclipse/jgit/pgm/*|org/eclipse/jgit/pgm/internal/*|org/eclipse/jgit/pgm/opt/*" kind="src" output="bin/1/plugins/org.eclipse.jgit.pgm.jar" path="org.eclipse.jgit.pgm/src"/>
+	<!-- META-INF/maven/org.eclipse.jgit/org.eclipse.jgit.pgm/pom.properties
+	     META-INF/maven/org.eclipse.jgit/org.eclipse.jgit.pgm/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jgit.pgm.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-org.apache.commons.compress"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit.archive"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit.ui"/>
+	<classpathentry kind="src" path="/IDE-other-org.kohsuke.args4j"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

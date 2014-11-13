@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.util.jar" path="org.eclipse.equinox.util"/>
-	<!-- org\eclipse\equinox\internal\util\event\EventThread.java
-	     org\eclipse\equinox\internal\util\event\Queue.java
-	     org\eclipse\equinox\internal\util\event\SystemListener.java
-	     org\eclipse\equinox\internal\util\hash\HashIntObjNS.java
-	     org\eclipse\equinox\internal\util\hash\HashIntObjS.java
-	     org\eclipse\equinox\internal\util\hash\HashLongObjNS.java
-	     org\eclipse\equinox\internal\util\hash\HashLongObjS.java
-	     org\eclipse\equinox\internal\util\hash\HashObjIntNS.java
-	     org\eclipse\equinox\internal\util\hash\HashObjIntS.java
-	     org\eclipse\equinox\internal\util\hash\HashObjLongNS.java
-	     org\eclipse\equinox\internal\util\hash\HashObjLongS.java
-	     org\eclipse\equinox\internal\util\impl\tpt\ServiceFactoryImpl.java
-	     org\eclipse\equinox\internal\util\impl\tpt\threadpool\Executor.java
-	     org\eclipse\equinox\internal\util\impl\tpt\threadpool\ThreadPoolFactoryImpl.java
-	     org\eclipse\equinox\internal\util\impl\tpt\threadpool\ThreadPoolManagerImpl.java
-	     org\eclipse\equinox\internal\util\impl\tpt\timer\TimerFactory.java
-	     org\eclipse\equinox\internal\util\impl\tpt\timer\TimerImpl.java
-	     org\eclipse\equinox\internal\util\pool\ObjectCreator.java
-	     org\eclipse\equinox\internal\util\pool\ObjectPool.java
-	     org\eclipse\equinox\internal\util\ref\Log.java
-	     org\eclipse\equinox\internal\util\ref\LogInterface.java
-	     org\eclipse\equinox\internal\util\ref\TimerRef.java
-	     org\eclipse\equinox\internal\util\security\PrivilegedAction.java
-	     org\eclipse\equinox\internal\util\security\PrivilegedRunner.java
-	     org\eclipse\equinox\internal\util\security\SecurityUtil.java
-	     org\eclipse\equinox\internal\util\threadpool\ThreadContext.java
-	     org\eclipse\equinox\internal\util\threadpool\ThreadPoolFactory.java
-	     org\eclipse\equinox\internal\util\threadpool\ThreadPoolManager.java
-	     org\eclipse\equinox\internal\util\timer\Timer.java
-	     org\eclipse\equinox\internal\util\timer\TimerListener.java
-	     org\eclipse\equinox\internal\util\TracerMap.java
-	     org\eclipse\equinox\internal\util\UtilActivator.java -->
+	<!-- org/eclipse/equinox/internal/util/event/EventThread.java
+	     org/eclipse/equinox/internal/util/event/Queue.java
+	     org/eclipse/equinox/internal/util/event/SystemListener.java
+	     org/eclipse/equinox/internal/util/hash/HashIntObjNS.java
+	     org/eclipse/equinox/internal/util/hash/HashIntObjS.java
+	     org/eclipse/equinox/internal/util/hash/HashLongObjNS.java
+	     org/eclipse/equinox/internal/util/hash/HashLongObjS.java
+	     org/eclipse/equinox/internal/util/hash/HashObjIntNS.java
+	     org/eclipse/equinox/internal/util/hash/HashObjIntS.java
+	     org/eclipse/equinox/internal/util/hash/HashObjLongNS.java
+	     org/eclipse/equinox/internal/util/hash/HashObjLongS.java
+	     org/eclipse/equinox/internal/util/impl/tpt/ServiceFactoryImpl.java
+	     org/eclipse/equinox/internal/util/impl/tpt/threadpool/Executor.java
+	     org/eclipse/equinox/internal/util/impl/tpt/threadpool/ThreadPoolFactoryImpl.java
+	     org/eclipse/equinox/internal/util/impl/tpt/threadpool/ThreadPoolManagerImpl.java
+	     org/eclipse/equinox/internal/util/impl/tpt/timer/TimerFactory.java
+	     org/eclipse/equinox/internal/util/impl/tpt/timer/TimerImpl.java
+	     org/eclipse/equinox/internal/util/pool/ObjectCreator.java
+	     org/eclipse/equinox/internal/util/pool/ObjectPool.java
+	     org/eclipse/equinox/internal/util/ref/Log.java
+	     org/eclipse/equinox/internal/util/ref/LogInterface.java
+	     org/eclipse/equinox/internal/util/ref/TimerRef.java
+	     org/eclipse/equinox/internal/util/security/PrivilegedAction.java
+	     org/eclipse/equinox/internal/util/security/PrivilegedRunner.java
+	     org/eclipse/equinox/internal/util/security/SecurityUtil.java
+	     org/eclipse/equinox/internal/util/threadpool/ThreadContext.java
+	     org/eclipse/equinox/internal/util/threadpool/ThreadPoolFactory.java
+	     org/eclipse/equinox/internal/util/threadpool/ThreadPoolManager.java
+	     org/eclipse/equinox/internal/util/timer/Timer.java
+	     org/eclipse/equinox/internal/util/timer/TimerListener.java
+	     org/eclipse/equinox/internal/util/TracerMap.java
+	     org/eclipse/equinox/internal/util/UtilActivator.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.util.jar" path="org.eclipse.equinox.util/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>

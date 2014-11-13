@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.ws.commons.util.jar" path="res"/>
+	<!-- org/apache/ws/commons/serialize/CharSetXMLWriter.java
+	     org/apache/ws/commons/serialize/DOMBuilder.java
+	     org/apache/ws/commons/serialize/DOMSerializer.java
+	     org/apache/ws/commons/serialize/OrderedAttributeXMLWriter.java
+	     org/apache/ws/commons/serialize/PassThroughXMLWriter.java
+	     org/apache/ws/commons/serialize/XMLWriter.java
+	     org/apache/ws/commons/serialize/XMLWriterImpl.java
+	     org/apache/ws/commons/util/Base64.java
+	     org/apache/ws/commons/util/NamespaceContextImpl.java
+	     org/apache/ws/commons/util/XsDateFormat.java
+	     org/apache/ws/commons/util/XsDateTimeFormat.java
+	     org/apache/ws/commons/util/XsTimeFormat.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.ws.commons.util.jar" path="ws-commons-util-1.0.1/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

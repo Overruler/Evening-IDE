@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.natives.jar" path="org.eclipse.equinox.p2.touchpoint.natives"/>
-	<!-- org\eclipse\equinox\internal\p2\touchpoint\natives\actions\ActionConstants.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\ChmodAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\CleanupcopyAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\CleanupzipAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\CollectAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\CopyAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\LinkAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\MkdirAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\RemoveAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\RmdirAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\actions\UnzipAction.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\Activator.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\BackupStore.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\ClosedBackupStoreException.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\IBackupStore.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\LazyBackupStore.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\Messages.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\messages.properties
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\NativeTouchpoint.java
-	     org\eclipse\equinox\internal\p2\touchpoint\natives\Util.java -->
+	<!-- org/eclipse/equinox/internal/p2/touchpoint/natives/actions/ActionConstants.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/ChmodAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/CleanupcopyAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/CleanupzipAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/CollectAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/CopyAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/LinkAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/MkdirAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/RemoveAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/RmdirAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/UnzipAction.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/Activator.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/BackupStore.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/ClosedBackupStoreException.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/IBackupStore.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/LazyBackupStore.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/Messages.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/messages.properties
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/NativeTouchpoint.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/Util.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.natives.jar" path="org.eclipse.equinox.p2.touchpoint.natives/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>

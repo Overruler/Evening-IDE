@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     about.ini
+	     about.mappings
+	     about.properties
+	     icons/full/ctool16/CreateChild.gif
+	     icons/full/obj16/BooleanValue.gif
+	     icons/full/obj16/GenericValue.gif
+	     icons/full/obj16/IntegralValue.gif
+	     icons/full/obj16/Item.gif
+	     icons/full/obj16/ModelFile.gif
+	     icons/full/obj16/RealValue.gif
+	     icons/full/obj16/Resource.gif
+	     icons/full/obj16/ResourceSet.gif
+	     icons/full/obj16/TextValue.gif
+	     icons/full/ovr16/ControlledObject.gif
+	     icons/full/ovr16/ControlledObjectTarget.gif
+	     icons/full/ovr16/CreateChild.gif
+	     icons/full/wizban/NewModel.gif
+	     META-INF/MANIFEST.MF
+	     modeling32.png
+	     model/Tree.ecore
+	     model/Tree.genmodel
+	     plugin.properties
+	     plugin.xml
+	     schema/childCreationExtenders.exsd
+	     schema/itemProviderAdapterFactories.exsd -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|about.ini|about.mappings|about.properties|icons/full/ctool16/*|icons/full/obj16/*|icons/full/ovr16/*|icons/full/wizban/*|model/*|modeling32.png|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.emf.edit.jar" path="org.eclipse.emf.edit"/>
+	<!-- org/eclipse/emf/edit/command/AbstractOverrideableCommand.java
+	     org/eclipse/emf/edit/command/AddCommand.java
+	     org/eclipse/emf/edit/command/ChangeCommand.java
+	     org/eclipse/emf/edit/command/ChildrenToCopyProvider.java
+	     org/eclipse/emf/edit/command/CommandActionDelegate.java
+	     org/eclipse/emf/edit/command/CommandParameter.java
+	     org/eclipse/emf/edit/command/CopyCommand.java
+	     org/eclipse/emf/edit/command/CopyToClipboardCommand.java
+	     org/eclipse/emf/edit/command/CreateChildCommand.java
+	     org/eclipse/emf/edit/command/CreateCopyCommand.java
+	     org/eclipse/emf/edit/command/CutToClipboardCommand.java
+	     org/eclipse/emf/edit/command/DeleteCommand.java
+	     org/eclipse/emf/edit/command/DragAndDropCommand.java
+	     org/eclipse/emf/edit/command/DragAndDropFeedback.java
+	     org/eclipse/emf/edit/command/InitializeCopyCommand.java
+	     org/eclipse/emf/edit/command/MoveCommand.java
+	     org/eclipse/emf/edit/command/OverrideableCommand.java
+	     org/eclipse/emf/edit/command/package.html
+	     org/eclipse/emf/edit/command/PasteFromClipboardCommand.java
+	     org/eclipse/emf/edit/command/RemoveCommand.java
+	     org/eclipse/emf/edit/command/ReplaceCommand.java
+	     org/eclipse/emf/edit/command/SetCommand.java
+	     org/eclipse/emf/edit/domain/AdapterFactoryEditingDomain.java
+	     org/eclipse/emf/edit/domain/EditingDomain.java
+	     org/eclipse/emf/edit/domain/IEditingDomainProvider.java
+	     org/eclipse/emf/edit/domain/package.html
+	     org/eclipse/emf/edit/EMFEditPlugin.java
+	     org/eclipse/emf/edit/package.html
+	     org/eclipse/emf/edit/provider/AdapterFactoryItemDelegator.java
+	     org/eclipse/emf/edit/provider/AdapterFactoryTreeIterator.java
+	     org/eclipse/emf/edit/provider/AttributeValueWrapperItemProvider.java
+	     org/eclipse/emf/edit/provider/ChangeNotifier.java
+	     org/eclipse/emf/edit/provider/ChildCreationExtenderManager.java
+	     org/eclipse/emf/edit/provider/ComposeableAdapterFactory.java
+	     org/eclipse/emf/edit/provider/ComposedAdapterFactory.java
+	     org/eclipse/emf/edit/provider/ComposedImage.java
+	     org/eclipse/emf/edit/provider/DecoratorAdapterFactory.java
+	     org/eclipse/emf/edit/provider/DelegatingWrapperItemProvider.java
+	     org/eclipse/emf/edit/provider/Disposable.java
+	     org/eclipse/emf/edit/provider/FeatureMapEntryWrapperItemProvider.java
+	     org/eclipse/emf/edit/provider/IChangeNotifier.java
+	     org/eclipse/emf/edit/provider/IChildCreationExtender.java
+	     org/eclipse/emf/edit/provider/IDisposable.java
+	     org/eclipse/emf/edit/provider/IEditingDomainItemProvider.java
+	     org/eclipse/emf/edit/provider/IItemColorProvider.java
+	     org/eclipse/emf/edit/provider/IItemFontProvider.java
+	     org/eclipse/emf/edit/provider/IItemLabelProvider.java
+	     org/eclipse/emf/edit/provider/IItemPropertyDescriptor.java
+	     org/eclipse/emf/edit/provider/IItemPropertySource.java
+	     org/eclipse/emf/edit/provider/IItemProviderDecorator.java
+	     org/eclipse/emf/edit/provider/IItemStyledLabelProvider.java
+	     org/eclipse/emf/edit/provider/INotifyChangedListener.java
+	     org/eclipse/emf/edit/provider/IStructuredItemContentProvider.java
+	     org/eclipse/emf/edit/provider/ITableItemColorProvider.java
+	     org/eclipse/emf/edit/provider/ITableItemFontProvider.java
+	     org/eclipse/emf/edit/provider/ITableItemLabelProvider.java
+	     org/eclipse/emf/edit/provider/ItemPropertyDescriptor.java
+	     org/eclipse/emf/edit/provider/ItemPropertyDescriptorDecorator.java
+	     org/eclipse/emf/edit/provider/ItemProvider.java
+	     org/eclipse/emf/edit/provider/ItemProviderAdapter.java
+	     org/eclipse/emf/edit/provider/ItemProviderDecorator.java
+	     org/eclipse/emf/edit/provider/ITreeItemContentProvider.java
+	     org/eclipse/emf/edit/provider/IUpdateableItemParent.java
+	     org/eclipse/emf/edit/provider/IUpdateableItemText.java
+	     org/eclipse/emf/edit/provider/IViewerNotification.java
+	     org/eclipse/emf/edit/provider/IWrapperItemProvider.java
+	     org/eclipse/emf/edit/provider/package.html
+	     org/eclipse/emf/edit/provider/ReflectiveItemProvider.java
+	     org/eclipse/emf/edit/provider/ReflectiveItemProviderAdapterFactory.java
+	     org/eclipse/emf/edit/provider/resource/ResourceItemProvider.java
+	     org/eclipse/emf/edit/provider/resource/ResourceItemProviderAdapterFactory.java
+	     org/eclipse/emf/edit/provider/resource/ResourceSetItemProvider.java
+	     org/eclipse/emf/edit/provider/StyledString.java
+	     org/eclipse/emf/edit/provider/ViewerNotification.java
+	     org/eclipse/emf/edit/provider/WrapperItemProvider.java
+	     org/eclipse/emf/edit/tree/impl/TreeFactoryImpl.java
+	     org/eclipse/emf/edit/tree/impl/TreeNodeImpl.java
+	     org/eclipse/emf/edit/tree/impl/TreePackageImpl.java
+	     org/eclipse/emf/edit/tree/provider/TreeItemProviderAdapterFactory.java
+	     org/eclipse/emf/edit/tree/provider/TreeNodeItemProvider.java
+	     org/eclipse/emf/edit/tree/TreeFactory.java
+	     org/eclipse/emf/edit/tree/TreeNode.java
+	     org/eclipse/emf/edit/tree/TreePackage.java
+	     org/eclipse/emf/edit/tree/util/TreeAdapterFactory.java
+	     org/eclipse/emf/edit/tree/util/TreeSwitch.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.emf.edit.jar" path="org.eclipse.emf.edit/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.common"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.emf-org.eclipse.emf.ecore.change"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

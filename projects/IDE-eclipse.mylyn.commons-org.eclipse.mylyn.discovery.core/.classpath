@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml
+	     schema/connectorDiscovery.exsd
+	     xsd/directory.xsd -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*|xsd/*" kind="src" output="bin/1/plugins/org.eclipse.mylyn.discovery.core.jar" path="org.eclipse.mylyn.discovery.core"/>
+	<!-- org/eclipse/mylyn/internal/discovery/core/DiscoveryCore.java
+	     org/eclipse/mylyn/internal/discovery/core/model/AbstractDiscoverySource.java
+	     org/eclipse/mylyn/internal/discovery/core/model/AbstractDiscoveryStrategy.java
+	     org/eclipse/mylyn/internal/discovery/core/model/BundleDiscoverySource.java
+	     org/eclipse/mylyn/internal/discovery/core/model/BundleDiscoveryStrategy.java
+	     org/eclipse/mylyn/internal/discovery/core/model/Certification.java
+	     org/eclipse/mylyn/internal/discovery/core/model/ConnectorCategory.java
+	     org/eclipse/mylyn/internal/discovery/core/model/ConnectorDescriptor.java
+	     org/eclipse/mylyn/internal/discovery/core/model/ConnectorDescriptorKind.java
+	     org/eclipse/mylyn/internal/discovery/core/model/ConnectorDiscovery.java
+	     org/eclipse/mylyn/internal/discovery/core/model/ConnectorDiscoveryExtensionReader.java
+	     org/eclipse/mylyn/internal/discovery/core/model/Directory.java
+	     org/eclipse/mylyn/internal/discovery/core/model/DirectoryParser.java
+	     org/eclipse/mylyn/internal/discovery/core/model/DiscoveryCategory.java
+	     org/eclipse/mylyn/internal/discovery/core/model/DiscoveryCertification.java
+	     org/eclipse/mylyn/internal/discovery/core/model/DiscoveryConnector.java
+	     org/eclipse/mylyn/internal/discovery/core/model/DiscoveryFeedbackJob.java
+	     org/eclipse/mylyn/internal/discovery/core/model/FeatureFilter.java
+	     org/eclipse/mylyn/internal/discovery/core/model/Group.java
+	     org/eclipse/mylyn/internal/discovery/core/model/Icon.java
+	     org/eclipse/mylyn/internal/discovery/core/model/JarDiscoverySource.java
+	     org/eclipse/mylyn/internal/discovery/core/model/messages.properties
+	     org/eclipse/mylyn/internal/discovery/core/model/Overview.java
+	     org/eclipse/mylyn/internal/discovery/core/model/Policy.java
+	     org/eclipse/mylyn/internal/discovery/core/model/RemoteBundleDiscoveryStrategy.java
+	     org/eclipse/mylyn/internal/discovery/core/model/ValidationException.java
+	     org/eclipse/mylyn/internal/discovery/core/util/DefaultSaxErrorHandler.java
+	     org/eclipse/mylyn/internal/discovery/core/util/DiscoveryCategoryComparator.java
+	     org/eclipse/mylyn/internal/discovery/core/util/DiscoveryConnectorComparator.java
+	     org/eclipse/mylyn/internal/discovery/core/util/HttpClientTransportService.java
+	     org/eclipse/mylyn/internal/discovery/core/util/IOWithCauseException.java
+	     org/eclipse/mylyn/internal/discovery/core/util/ITransportService.java
+	     org/eclipse/mylyn/internal/discovery/core/util/messages.properties
+	     org/eclipse/mylyn/internal/discovery/core/util/P2TransportService.java
+	     org/eclipse/mylyn/internal/discovery/core/util/WebUtil.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.discovery.core.jar" path="org.eclipse.mylyn.discovery.core/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.repository"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

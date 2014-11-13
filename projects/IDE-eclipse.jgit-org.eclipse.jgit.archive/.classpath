@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<!-- about.html
-	     META-INF\MANIFEST.MF
-	     META-INF\SOURCE-MANIFEST.MF
+	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jgit.archive.jar" path="org.eclipse.jgit.archive"/>
-	<!-- org\eclipse\jgit\archive\ArchiveFormats.java
-	     org\eclipse\jgit\archive\FormatActivator.java
-	     org\eclipse\jgit\archive\internal\ArchiveText.java
-	     org\eclipse\jgit\archive\TarFormat.java
-	     org\eclipse\jgit\archive\Tbz2Format.java
-	     org\eclipse\jgit\archive\TgzFormat.java
-	     org\eclipse\jgit\archive\TxzFormat.java
-	     org\eclipse\jgit\archive\ZipFormat.java -->
+	<!-- org/eclipse/jgit/archive/ArchiveFormats.java
+	     org/eclipse/jgit/archive/FormatActivator.java
+	     org/eclipse/jgit/archive/internal/ArchiveText.java
+	     org/eclipse/jgit/archive/TarFormat.java
+	     org/eclipse/jgit/archive/Tbz2Format.java
+	     org/eclipse/jgit/archive/TgzFormat.java
+	     org/eclipse/jgit/archive/TxzFormat.java
+	     org/eclipse/jgit/archive/ZipFormat.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jgit.archive.jar" path="org.eclipse.jgit.archive/src"/>
-	<!-- META-INF\maven\org.eclipse.jgit\org.eclipse.jgit.archive\pom.properties
-	     META-INF\maven\org.eclipse.jgit\org.eclipse.jgit.archive\pom.xml -->
+	<!-- META-INF/maven/org.eclipse.jgit/org.eclipse.jgit.archive/pom.properties
+	     META-INF/maven/org.eclipse.jgit/org.eclipse.jgit.archive/pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jgit.archive.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-org.apache.commons.compress"/>
