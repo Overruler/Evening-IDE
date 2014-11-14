@@ -68,6 +68,9 @@ public class Plugin implements Comparable<Plugin> {
 	public Plugin name(String name) {
 		return new Plugin(root, contents, manifest, name, shape, version, version1, version2, version3, version4);
 	}
+	public Plugin manifest(HashMap<String, String> newManifest) {
+		return new Plugin(root, contents, newManifest, id, shape, version, version1, version2, version3, version4);
+	}
 	public @Override int compareTo(Plugin o) {
 		int n = id.compareTo(o.id);
 		if(n != 0) return n;

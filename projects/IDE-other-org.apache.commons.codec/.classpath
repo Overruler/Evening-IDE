@@ -167,7 +167,8 @@
 	     org/apache/commons/codec/language/bm/sep_rules_hebrew.txt
 	     org/apache/commons/codec/language/bm/sep_rules_italian.txt
 	     org/apache/commons/codec/language/bm/sep_rules_portuguese.txt
-	     org/apache/commons/codec/language/bm/sep_rules_spanish.txt -->
+	     org/apache/commons/codec/language/bm/sep_rules_spanish.txt
+	     org/apache/commons/codec/language/dmrules.txt -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.commons.codec.jar" path="apache.commons-codec/src/main/resources"/>
 	<!-- about.html
 	     about_files/LICENSE.txt

@@ -27,6 +27,7 @@ import utils.lists.List;
 import utils.lists.Map;
 import utils.lists.Pair;
 import utils.lists.Paths;
+import utils.lists.ReadOnlyList;
 import utils.lists.Set;
 import utils.streams2.Collectors;
 import utils.streams2.IOStream;
@@ -43,7 +44,18 @@ public class RegenerateProjectsMain {
 	private static HashMap<Pair<String, String>, Integer> cachedDistances = new HashMap<>();
 
 	public static void main(String[] args) throws IOException {
-		List<Plugin> plugins = readPluginContents(PLUGINS_FOLDER);
+		Path root = Paths.get("").toAbsolutePath().getParent().getParent();
+		ArrayList<Plugin> plugins = readModelFiles();
+		ArrayList<String> pluginNames = plugins.map(Plugin::name).sort();
+		Map<String, List<Path>> sourceFolders = findSourceFolders(root, pluginNames);
+		printRoots(sourceFolders);
+		generateDotProjects(root, plugins, sourceFolders);
+		generateDotClasspaths(root, plugins, sourceFolders);
+	}
+	private static void generateDotClasspaths(
+		Path root,
+		ReadOnlyList<Plugin> plugins,
+		Map<String, List<Path>> sourceFolders) throws IOException {
 		Map<String, List<String>> depending = combineDependencies(plugins);
 		Map<String, List<String>> exported = reexportedDependencies(plugins);
 		for(Plugin plugin : plugins) {
@@ -53,11 +65,10 @@ public class RegenerateProjectsMain {
 		Map<String, List<String>> depended = invert(dependents);
 		printDependencies(depended, "->");
 		printDependencies(dependents, "<-");
-		expandPluginContents(plugins);
-		Path root = Paths.get("").toAbsolutePath().getParent().getParent();
-		generateProjects(root, depended, exported, plugins);
+		generateClasspaths(root, depended, exported, plugins, sourceFolders);
 	}
-	private static void expandPluginContents(List<Plugin> plugins) throws IOException {
+	private static ArrayList<Plugin> readModelFiles() throws IOException {
+		ArrayList<Plugin> plugins = readPluginContents(PLUGINS_FOLDER);
 		for(Plugin plugin : plugins) {
 			Stream<Pair<Path, byte[]>> stream = plugin.contents.entrySet().map(Entry::toPair).stream();
 			IOStream<Pair<Path, byte[]>> expanded = stream.toIO().flatMap(RegenerateProjectsMain::deepExpand);
@@ -65,6 +76,7 @@ public class RegenerateProjectsMain {
 			HashMap<Path, byte[]> hashMap = expanded.toMap(p -> bundle.resolve(p.lhs), Pair::rhs);
 			plugin.contents.clear().putAll(hashMap);
 		}
+		return plugins;
 	}
 	private static IOStream<Pair<Path, byte[]>> deepExpand(Pair<Path, byte[]> content) throws IOException {
 		String name = content.lhs.getFileName().toString();
@@ -77,14 +89,12 @@ public class RegenerateProjectsMain {
 		}
 		return ioStream;
 	}
-	private static void generateProjects(
+	private static void generateClasspaths(
 		Path root,
 		Map<String, List<String>> depending,
 		Map<String, List<String>> exported,
-		List<Plugin> plugins) throws IOException {
-		List<String> pluginNames = plugins.map(Plugin::name).sort();
-		Map<String, List<Path>> sourceFolders = findSourceFolders(root, pluginNames);
-		printRoots(sourceFolders);
+		ReadOnlyList<Plugin> plugins,
+		Map<String, List<Path>> sourceFolders) throws IOException {
 		HashSet<Path> projectFolders = HashSet.of();
 		Path projects = root.resolve("projects");
 		for(Plugin plugin : plugins) {
@@ -98,7 +108,6 @@ public class RegenerateProjectsMain {
 			Files.createDirectories(projectFolder);
 			projectFolders.add(projectFolder);
 			List<Path> sources = sourceFolders.get(pluginName);
-			writeDotProject(projectFolder, projectName, sources);
 			List<Path> libs = sources.replaceAll(p -> root.resolve(p));
 			List<String> required = depending.getOrDefault(pluginName, List.of());
 			Set<String> exports = exported.get(pluginName).toSet();
@@ -106,6 +115,45 @@ public class RegenerateProjectsMain {
 		}
 		printUnusedProjects(projectFolders, projects);
 		printDependencyLoops(projects);
+	}
+	private static void
+		generateDotProjects(Path root, ArrayList<Plugin> plugins, Map<String, List<Path>> sourceFolders)
+			throws IOException {
+		HashSet<Path> projectFolders = HashSet.of();
+		Path projects = root.resolve("projects");
+		for(int i = 0, n = plugins.size(); i < n; i++) {
+			Plugin plugin = plugins.get(i);
+			String pluginName = plugin.id;
+			String projectName = projectName(sourceFolders, pluginName);
+			if(projectName == null) {
+				continue;
+			}
+			Path projectFolder = projects.resolve(projectName);
+			Files.createDirectories(projectFolder);
+			projectFolders.add(projectFolder);
+			List<Path> sources = sourceFolders.get(pluginName);
+			writeDotProject(projectFolder, projectName, sources);
+			HashMap<String, String> manifest = findRealManifest(root, projectFolder, sources, plugin);
+			plugins.set(i, plugin.manifest(manifest));
+		}
+	}
+	private static HashMap<String, String> findRealManifest(
+		Path root,
+		Path projectFolder,
+		List<Path> sources,
+		Plugin plugin) throws IOException {
+		Path manifestPath = projectFolder.resolve("res/META-INF/MANIFEST.MF");
+		if(Files.isRegularFile(manifestPath)) {
+			return Plugin.parseManifest(Files.readAllBytes(manifestPath));
+		}
+		for(Path source : sources) {
+			manifestPath = root.resolve(source).resolve("META-INF/MANIFEST.MF");
+			if(Files.isRegularFile(manifestPath)) {
+				return Plugin.parseManifest(Files.readAllBytes(manifestPath));
+			}
+		}
+		System.out.println("Real manifest not found for plugin: " + plugin.id);
+		return plugin.manifest;
 	}
 	private static void printDependencyLoops(Path projects) throws IOException {
 		Map<String, List<String>> deps;
@@ -243,7 +291,7 @@ public class RegenerateProjectsMain {
 		List<String> projects = customizeRemoveRequiredProjects(pluginName, list);
 		return projects.sort();
 	}
-	private static Map<String, List<String>> reexportedDependencies(List<Plugin> plugins) {
+	private static Map<String, List<String>> reexportedDependencies(ReadOnlyList<Plugin> plugins) {
 		return gatherNamesWith(plugins, "Require-Bundle", "visibility:=reexport").toMap();
 	}
 	private static String projectPath(Map<String, List<Path>> sourceFolders, String plugin) {
@@ -359,7 +407,7 @@ public class RegenerateProjectsMain {
 			case "com.google.gerrit.common":
 				return required.addAll("com.google.guava", "IDE-compile-gwt");
 			case "com.google.gerrit.prettify":
-				return required.addAll("com.google.gwt.servlet", "com.google.gerrit.reviewdb", "IDE-compile-gwt");
+				return required.addAll("com.google.gerrit.reviewdb", "IDE-compile-gwt");
 			case "com.google.gerrit.reviewdb":
 				return required.addAll("com.google.guava");
 			case "com.google.guava":
@@ -461,11 +509,7 @@ public class RegenerateProjectsMain {
 			case "org.eclipse.equinox.p2.publisher.eclipse":
 				return required.add("org.apache.ant");
 			case "org.eclipse.equinox.p2.repository.tools":
-				return required.addAll(
-					"org.apache.ant",
-					"org.eclipse.equinox.p2.jarprocessor",
-					"org.eclipse.equinox.frameworkadmin",
-					"org.eclipse.equinox.simpleconfigurator.manipulator");
+				return required.addAll("org.apache.ant", "org.eclipse.equinox.p2.jarprocessor");
 			case "org.eclipse.equinox.security.macosx":
 			case "org.eclipse.equinox.security.win32.x86_64":
 				return required.add("org.eclipse.osgi");
@@ -771,6 +815,9 @@ public class RegenerateProjectsMain {
 			case "org.eclipse.swt.cocoa.macosx.x86_64":
 			case "org.eclipse.swt.gtk.linux.x86_64":
 				return excluded.addAll(".*");
+			case "org.eclipse.equinox.launcher.cocoa.macosx.x86_64":
+			case "org.eclipse.equinox.launcher.win32.win32.x86_64":
+				return excluded.addAll(".*");
 			case "org.eclipse.pde.ui.templates":
 				return excluded.addAll(
 					".*",
@@ -951,6 +998,8 @@ public class RegenerateProjectsMain {
 				return list.remove(Paths.get("antlr.antlr3/runtime/Java/src/main/java/org/antlr/runtime/tree/DOTTreeGenerator.java"));
 			case "org.apache.batik.css":
 				return list.add(Paths.get("org.apache.batik.css.jar/org/apache/batik/css/engine/value/svg12/AbstractCIEColor.java"));
+			case "org.apache.commons.codec":
+				return list.add(Paths.get("org.apache.commons.codec.jar/org/apache/commons/codec/language/dmrules.txt"));
 			case "org.apache.commons.compress":
 				return list.remove(
 					Paths.get("org.apache.commons.compress.jar/org/apache/commons/compress/compressors/z/_internal_/InternalLZWInputStream.java")).remove(
@@ -1010,11 +1059,10 @@ public class RegenerateProjectsMain {
 			case "org.eclipse.jetty.util":
 				return list.add(Paths.get("org.eclipse.jetty.util.jar/org/eclipse/jetty/util/annotation/ManagedAttribute.java"));
 			case "org.eclipse.jdt.core":
-				return list
-				.remove(Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/ast/InnerInferenceHelper.java"))
-				.remove(Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/lookup/IntersectionCastTypeBinding.java"))
-				.remove(Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/parser/CommitRollbackParser.java"))
-				;
+				return list.remove(
+					Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/ast/InnerInferenceHelper.java")).remove(
+					Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/lookup/IntersectionCastTypeBinding.java")).remove(
+					Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/parser/CommitRollbackParser.java"));
 			case "org.eclipse.jdt.doc.isv":
 				return list.removeIf(p -> p.startsWith("org.eclipse.jdt.doc.isv.jar/index")).removeIf(
 					p -> p.startsWith("org.eclipse.jdt.doc.isv.jar/reference"));
@@ -1047,6 +1095,8 @@ public class RegenerateProjectsMain {
 					p -> p.startsWith("org.eclipse.platform.doc.user.jar/whatsNew"));
 			case "org.eclipse.ui.ide":
 				return list.remove(Paths.get("org.eclipse.ui.ide.jar/org/eclipse/ui/internal/ide/dialogs/SimpleListContentProvider.java"));
+			case "org.eclipse.ui.ide.application":
+				return list.add(Paths.get("org.eclipse.ui.ide.application.jar/org/eclipse/ui/internal/ide/application/addons/ModelCleanupAddon.java"));
 			case "org.eclipse.swt.win32.win32.x86_64":
 				return list.addAll(
 					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/Mozilla.java"),
@@ -1289,7 +1339,7 @@ public class RegenerateProjectsMain {
 	private static String toUnixPath(Path path) {
 		return String.join("/", Stream.from(path).map(Path::toString).iterable());
 	}
-	private static Map<String, List<Path>> findSourceFolders(Path root, List<String> plugins) throws IOException {
+	private static Map<String, List<Path>> findSourceFolders(Path root, ArrayList<String> plugins) throws IOException {
 		Path libraries = root.resolve("libraries");
 		ArrayList<Path> unused = Files.walk(libraries, 5).filter(Files::isDirectory).toList();
 		List<Path> folders = unused.toList();
@@ -1380,7 +1430,7 @@ public class RegenerateProjectsMain {
 			case "org.eclipse.equinox.launcher.wpf.win32.x86":
 				return List.of(
 					Paths.get("libraries/eclipse.rt.equinox.binaries"),
-					Paths.get("libraries/eclipse.rt.equinox.framework/bundles"));
+					Paths.get("libraries/eclipse.rt.equinox.framework/bundles/" + pluginName));
 		}
 		Path pluginPath = customizePluginNameToLibrariesPathMapping(pluginName);
 		Path pluginPathGuess = pluginNameToLibrariesPathLevenshtein(pluginName, folders);
@@ -1514,7 +1564,7 @@ public class RegenerateProjectsMain {
 		Stream<Path> sorted = stream.sorted(Comparator.comparing(path -> path.getNameCount()));
 		return sorted.limit(1).toList().map(path -> root.relativize(path)).toList();
 	}
-	private static Map<String, List<String>> combineDependencies(List<Plugin> plugins) {
+	private static Map<String, List<String>> combineDependencies(ReadOnlyList<Plugin> plugins) {
 		HashMap<String, List<String>> depending = gatherNames(plugins, "Require-Bundle");
 		addFromFragmentHosts(plugins, depending);
 		HashMap<String, List<String>> importers = gatherNames(plugins, "Import-Package");
@@ -1538,7 +1588,7 @@ public class RegenerateProjectsMain {
 		}
 		return depending.toMap();
 	}
-	private static void addFromFragmentHosts(List<Plugin> plugins, HashMap<String, List<String>> depending) {
+	private static void addFromFragmentHosts(ReadOnlyList<Plugin> plugins, HashMap<String, List<String>> depending) {
 		HashMap<String, List<String>> hosts = gatherNames(plugins, "Fragment-Host");
 		for(Pair<String, List<String>> pair : hosts.entrySet()) {
 			depending.compute(pair.lhs, (k, v) -> v == null ? pair.rhs : v.addAll(pair.rhs));
@@ -1553,10 +1603,10 @@ public class RegenerateProjectsMain {
 	private static <T extends Comparable<T>> ArrayList<T> sortedKeys(Map<T, ?> deps) {
 		return deps.keySet().stream().sorted().toList();
 	}
-	private static HashMap<String, List<String>> gatherNames(List<Plugin> plugins, String key) {
+	private static HashMap<String, List<String>> gatherNames(ReadOnlyList<Plugin> plugins, String key) {
 		return gatherNamesWith(plugins, key, "");
 	}
-	private static HashMap<String, List<String>> gatherNamesWith(List<Plugin> plugins, String key, String tag) {
+	private static HashMap<String, List<String>> gatherNamesWith(ReadOnlyList<Plugin> plugins, String key, String tag) {
 		return plugins.stream().toMultiMap(p -> p.id, p -> nameList(key, tag, p), m -> m);
 	}
 	private static List<String> nameList(String key, String tag, ArrayList<Plugin> p) {
@@ -1590,7 +1640,7 @@ public class RegenerateProjectsMain {
 		Stream<Entry<A, List<B>>> stream = dag.entrySet().stream();
 		return stream.flatMap(p -> p.rhs.stream().map(p::keepingLhs));
 	}
-	private static List<Plugin> readPluginContents(Path pluginsFolder) throws IOException {
+	private static ArrayList<Plugin> readPluginContents(Path pluginsFolder) throws IOException {
 		Path binaryInclusions = Paths.get("").toAbsolutePath().resolveSibling("IDE-all-extras/extras/plugins");
 		HashSet<Path> skipped = HashSet.of();
 		if(Files.isDirectory(binaryInclusions)) {
@@ -1603,7 +1653,7 @@ public class RegenerateProjectsMain {
 			stream.map(RegenerateProjectsMain::readContents).filter(RegenerateProjectsMain::hasManifest);
 		IOStream<Plugin> stream4 = stream3.map(p -> new Plugin(p.lhs, p.rhs.toHashMap()));
 		HashMap<String, Plugin> map = stream4.toMultiMap(Plugin::name, l -> l.sort().get(-1), m -> m);
-		return map.values().toArrayList().sort().toList();
+		return map.values().toArrayList().sort();
 	}
 	static void duplicatePlugin(HashMap<String, Plugin> map, String name, String suffix) {
 		if(map.containsKey(name)) {

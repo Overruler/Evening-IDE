@@ -27,6 +27,7 @@
 	     org/eclipse/equinox/internal/p2/touchpoint/natives/Util.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.natives.jar" path="org.eclipse.equinox.p2.touchpoint.natives/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.app"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.core"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.p2-org.eclipse.equinox.p2.engine"/>
