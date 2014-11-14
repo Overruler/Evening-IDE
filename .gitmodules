@@ -93,64 +93,64 @@
 	url = https://github.com/Overruler/epp.mpc.git
 [submodule "libraries/eclipse.epp"]
 	path = libraries/eclipse.epp
-	url = http://git.eclipse.org/gitroot/epp/org.eclipse.epp.packages.git
+	url = https://github.com/Overruler/org.eclipse.epp.packages.git
 [submodule "libraries/apache.lucene-solr"]
 	path = libraries/apache.lucene-solr
-	url = https://github.com/apache/lucene-solr.git
+	url = https://github.com/Overruler/lucene-solr.git
 [submodule "libraries/apache.httpclient"]
 	path = libraries/apache.httpclient
-	url = https://github.com/apache/httpclient.git
+	url = https://github.com/Overruler/httpclient.git
 [submodule "libraries/apache.httpcore"]
 	path = libraries/apache.httpcore
-	url = https://github.com/apache/httpcore.git
+	url = https://github.com/Overruler/httpcore.git
 [submodule "libraries/apache.felix"]
 	path = libraries/apache.felix
-	url = https://github.com/apache/felix.git
+	url = https://github.com/Overruler/felix.git
 [submodule "libraries/apache.commons-logging"]
 	path = libraries/apache.commons-logging
-	url = https://github.com/apache/commons-logging.git
+	url = https://github.com/Overruler/commons-logging.git
 [submodule "libraries/apache.commons-compress"]
 	path = libraries/apache.commons-compress
-	url = https://github.com/apache/commons-compress.git
+	url = https://github.com/Overruler/commons-compress.git
 [submodule "libraries/apache.commons-codec"]
 	path = libraries/apache.commons-codec
-	url = https://github.com/apache/commons-codec.git
+	url = https://github.com/Overruler/commons-codec.git
 [submodule "libraries/apache.batik"]
 	path = libraries/apache.batik
-	url = https://github.com/apache/batik.git
+	url = https://github.com/Overruler/batik.git
 [submodule "libraries/apache.xerces.xml-commons"]
 	path = libraries/apache.xerces.xml-commons
-	url = https://github.com/svn2github/xerces-xml-commons.git
+	url = https://github.com/Overruler/xerces-xml-commons.git
 [submodule "libraries/ow2.sat4j"]
 	path = libraries/ow2.sat4j
-	url = https://github.com/svn2github/SAT4J.git
+	url = https://github.com/Overruler/SAT4J.git
 [submodule "libraries/ow2.asm"]
 	path = libraries/ow2.asm
-	url = https://github.com/svn2github/ASM.git
+	url = https://github.com/Overruler/asm-trunk.git
 [submodule "libraries/orbit-sources"]
 	path = libraries/orbit-sources
 	url = https://github.com/Overruler/orbit-sources.git
 [submodule "libraries/javaewah"]
 	path = libraries/javaewah
-	url = https://github.com/lemire/javaewah.git
+	url = https://github.com/Overruler/javaewah.git
 [submodule "libraries/apache.xalan-j"]
 	path = libraries/apache.xalan-j
-	url = https://github.com/apache/xalan-j.git
+	url = https://github.com/Overruler/xalan-j.git
 [submodule "libraries/apache.tomcat"]
 	path = libraries/apache.tomcat
-	url = https://github.com/apache/tomcat.git
+	url = https://github.com/Overruler/tomcat.git
 [submodule "libraries/jeeeyul.eclipse-themes"]
 	path = libraries/jeeeyul.eclipse-themes
 	url = https://github.com/Overruler/eclipse-themes.git
 [submodule "libraries/jeeeyul.swtend"]
 	path = libraries/jeeeyul.swtend
-	url = https://github.com/jeeeyul/swtend.git
+	url = https://github.com/Overruler/swtend.git
 [submodule "libraries/eclipse-icons.editor"]
 	path = libraries/eclipse-icons.editor
-	url = https://code.google.com/a/eclipselabs.org/p/eclipse-icons-editor/
+	url = https://github.com/Overruler/eclipse-icons-editor.git
 [submodule "libraries/unibz.instasearch"]
 	path = libraries/unibz.instasearch
-	url = https://github.com/ajermakovics/eclipse-instasearch.git
+	url = https://github.com/Overruler/eclipse-instasearch.git
 [submodule "libraries/eclipse.mylyn.versions"]
 	path = libraries/eclipse.mylyn.versions
 	url = https://github.com/Overruler/mylyn.versions.git
@@ -171,7 +171,7 @@
 	url = https://github.com/Overruler/mylyn.commons.git
 [submodule "libraries/eclipse.mylyn.builds"]
 	path = libraries/eclipse.mylyn.builds
-	url = git://git.eclipse.org/gitroot/mylyn/org.eclipse.mylyn.builds.git
+	url = https://github.com/Overruler/org.eclipse.mylyn.builds.git
 [submodule "libraries/nodeclipse.editbox"]
 	path = libraries/nodeclipse.editbox
 	url = https://github.com/Overruler/EditBox.git
@@ -186,106 +186,61 @@
 	url = https://github.com/Overruler/webtools.common.git
 [submodule "libraries/eclipse.xsd"]
 	path = libraries/eclipse.xsd
-	url = git://git.eclipse.org/gitroot/xsd/org.eclipse.xsd.git
+	url = https://github.com/Overruler/org.eclipse.xsd.git
 [submodule "libraries/google.gerrit"]
 	path = libraries/google.gerrit
-	url = https://gerrit.googlesource.com/gerrit
+	url = https://github.com/Overruler/gerrit.git
 [submodule "libraries/google.gson"]
 	path = libraries/google.gson
-	url = https://github.com/svn2github/google-gson.git
+	url = https://github.com/Overruler/google-gson.git
 [submodule "libraries/google.guava"]
 	path = libraries/google.guava
-	url = https://code.google.com/p/guava-libraries/
-[submodule "libraries/google.gwt"]
-	path = libraries/google.gwt
-	url = https://gwt.googlesource.com/gwt
-[submodule "libraries/google.gwtjsonrpc"]
-	path = libraries/google.gwtjsonrpc
-	url = https://gerrit.googlesource.com/gwtjsonrpc
-[submodule "libraries/google.gwtorm"]
-	path = libraries/google.gwtorm
-	url = https://gerrit.googlesource.com/gwtorm
+	url = https://github.com/Overruler/guava-libraries.git
 [submodule "libraries/apache.commons-io"]
 	path = libraries/apache.commons-io
-	url = https://github.com/apache/commons-io
+	url = https://github.com/Overruler/commons-io
 [submodule "libraries/apache.commons-lang"]
 	path = libraries/apache.commons-lang
-	url = https://github.com/apache/commons-lang.git
+	url = https://github.com/Overruler/commons-lang.git
 [submodule "libraries/apache.xerces2-j"]
 	path = libraries/apache.xerces2-j
-	url = https://github.com/apache/xerces2-j.git
+	url = https://github.com/Overruler/xerces2-j.git
 [submodule "libraries/eclipse.webtools-sourceediting"]
 	path = libraries/eclipse.webtools-sourceediting
-	url = git://git.eclipse.org/gitroot/sourceediting/webtools.sourceediting.git
+	url = https://github.com/Overruler/webtools.sourceediting.git
 [submodule "libraries/google.protobuf"]
 	path = libraries/google.protobuf
-	url = https://github.com/google/protobuf.git
+	url = https://github.com/Overruler/protobuf.git
 [submodule "libraries/antlr.antlr3"]
 	path = libraries/antlr.antlr3
-	url = https://github.com/antlr/antlr3.git
+	url = https://github.com/Overruler/antlr3.git
 [submodule "libraries/apache.maven.indexer"]
 	path = libraries/apache.maven.indexer
-	url = https://github.com/apache/maven-indexer.git
-[submodule "libraries/sonatype.plexus-containers"]
-	path = libraries/sonatype.plexus-containers
-	url = https://github.com/sonatype/plexus-containers.git
-[submodule "libraries/sonatype.plexus-utils"]
-	path = libraries/sonatype.plexus-utils
-	url = https://github.com/sonatype/plexus-utils.git
-[submodule "libraries/sonatype.plexus-classworlds"]
-	path = libraries/sonatype.plexus-classworlds
-	url = https://github.com/sonatype/plexus-classworlds.git
-[submodule "libraries/apache.maven"]
-	path = libraries/apache.maven
-	url = https://github.com/apache/maven.git
-[submodule "libraries/sonatype.plexus-interpolation"]
-	path = libraries/sonatype.plexus-interpolation
-	url = https://github.com/sonatype/plexus-interpolation.git
-[submodule "libraries/google.guice"]
-	path = libraries/google.guice
-	url = https://github.com/google/guice.git
-[submodule "libraries/takari.aether-connector-okhttp"]
-	path = libraries/takari.aether-connector-okhttp
-	url = https://github.com/takari/aether-connector-okhttp.git
+	url = https://github.com/Overruler/maven-indexer.git
 [submodule "libraries/kohsuke.args4j"]
 	path = libraries/kohsuke.args4j
-	url = https://github.com/kohsuke/args4j.git
-[submodule "libraries/square.okhttp"]
-	path = libraries/square.okhttp
-	url = https://github.com/square/okhttp.git
-[submodule "libraries/square.okio"]
-	path = libraries/square.okio
-	url = https://github.com/square/okio.git
-[submodule "libraries/apache.maven.archetype"]
-	path = libraries/apache.maven.archetype
-	url = https://github.com/apache/maven-archetype.git
-[submodule "libraries/apache.maven.wagon"]
-	path = libraries/apache.maven.wagon
-	url = https://github.com/apache/maven-wagon.git
+	url = https://github.com/Overruler/args4j.git
 [submodule "libraries/eclipse.egit.github"]
 	path = libraries/eclipse.egit.github
-	url = https://github.com/eclipse/egit-github.git
+	url = https://github.com/Overruler/egit-github.git
 [submodule "libraries/eclipse.gef"]
 	path = libraries/eclipse.gef
-	url = git://git.eclipse.org/gitroot/gef/org.eclipse.gef.git
+	url = https://github.com/Overruler/org.eclipse.gef.git
 [submodule "libraries/eclipse.webtools-common.fproj"]
 	path = libraries/eclipse.webtools-common.fproj
-	url = git://git.eclipse.org/gitroot/webtools-common/webtools.common.fproj.git
+	url = https://github.com/Overruler/webtools.common.fproj.git
 [submodule "libraries/jsoup"]
 	path = libraries/jsoup
-	url = https://github.com/jhy/jsoup.git
+	url = https://github.com/Overruler/jsoup.git
 [submodule "libraries.nodeclipse.pluginslist"]
 	path = libraries.nodeclipse.pluginslist
-	url = https://github.com/Nodeclipse/org.nodeclipse.pluginslist.git
+	url = https://github.com/Overruler/org.nodeclipse.pluginslist.git
 [submodule "libraries/nodeclipse.pluginslist"]
 	path = libraries/nodeclipse.pluginslist
-	url = https://github.com/Nodeclipse/org.nodeclipse.pluginslist.git
+	url = https://github.com/Overruler/org.nodeclipse.pluginslist.git
 [submodule "libraries/eclipse.m2e.workspace"]
 	path = libraries/eclipse.m2e.workspace
-	url = git://git.eclipse.org/gitroot/m2e/org.eclipse.m2e.workspace.git
-[submodule "libraries/eclipse.sisu.plexus"]
-	path = libraries/eclipse.sisu.plexus
-	url = git://git.eclipse.org/gitroot/sisu/org.eclipse.sisu.plexus.git
+	url = https://github.com/Overruler/org.eclipse.m2e.workspace.git
 [submodule "libraries/retired-apache-sources"]
 	path = libraries/retired-apache-sources
 	url = https://github.com/Overruler/retired-apache-sources.git
