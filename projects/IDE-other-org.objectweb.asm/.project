@@ -18,7 +18,7 @@
 		<link>
 			<name>asm</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/libraries/ow2.asm/trunk/asm</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/ow2.asm/asm</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

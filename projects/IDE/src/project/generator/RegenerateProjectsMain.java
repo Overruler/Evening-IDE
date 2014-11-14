@@ -1516,7 +1516,7 @@ public class RegenerateProjectsMain {
 				return Paths.get(pluginName.replace("org.eclipse.jetty.", "jetty-"));
 			case "org.objectweb.asm":
 			case "org.objectweb.asm.tree":
-				return Paths.get("ow2.asm/trunk/asm");
+				return Paths.get("ow2.asm/asm");
 			default:
 				return null;
 		}
