@@ -738,6 +738,9 @@ public class MainBuildIDE {
 		if(path.startsWith("projects/IDE/extras")) {
 			Path subpath = path.subpath(3, path.getNameCount());
 			rhs = fromZipPath(subpath);
+		} else if(path.startsWith("libraries/orbit-sources/com.google.gwt.servlet")) {
+			Path subpath = path.subpath(3, path.getNameCount());
+			rhs = fromZipPath("plugins/com.google.gwt.servlet.jar").resolve(subpath);
 		} else {
 			Path subpath = path.subpath(4, path.getNameCount());
 			if(path.startsWith("libraries/eclipse.pde.ui/ui/org.eclipse.pde.ui.templates")) {
@@ -778,6 +781,7 @@ public class MainBuildIDE {
 		}
 		folders.add(root.resolve("libraries/eclipse.jdt.core/org.eclipse.jdt.annotation_v1/src"));
 		folders.add(root.resolve("libraries/eclipse.jdt.core/org.eclipse.jdt.annotation/src"));
+		folders.add(root.resolve("libraries/orbit-sources/com.google.gwt.servlet/com"));
 		ArrayList<Path> all = new ArrayList<>(folders.size() * 100);
 		for(Path folder : folders) {
 			all.addAll(Files.walk(folder).filter(Files::isRegularFile).toList());
@@ -795,6 +799,9 @@ public class MainBuildIDE {
 			return true;
 		}
 		if(path.startsWith("libraries/eclipse.jdt.core/org.eclipse.jdt.annotation/src")) {
+			return true;
+		}
+		if(path.startsWith("libraries/orbit-sources/com.google.gwt.servlet")) {
 			return true;
 		}
 		if(path.startsWith("libraries/eclipse.pde.ui/ui/org.eclipse.pde.ui.templates")) {
