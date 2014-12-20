@@ -549,7 +549,6 @@
 	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
-	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.annotation"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
 	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
 	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.identity.core"/>
@@ -573,5 +572,6 @@
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.navigator"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.views"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.annotation"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>

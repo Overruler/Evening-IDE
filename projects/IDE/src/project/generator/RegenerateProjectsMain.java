@@ -398,6 +398,9 @@ public class RegenerateProjectsMain {
 				return exported.add("org.eclipse.swt.win32.win32.x86_64");
 			case "org.eclipse.jdt.junit":
 				return exported.add("org.eclipse.debug.ui");
+			case "org.eclipse.mylyn.tasks.core":
+			case "org.eclipse.mylyn.tasks.ui":
+				return exported.add("org.eclipse.jdt.annotation");
 			default:
 				return exported;
 		}
@@ -552,7 +555,7 @@ public class RegenerateProjectsMain {
 				return required.add("org.eclipse.emf.common");
 			case "org.eclipse.mylyn.tasks.core":
 			case "org.eclipse.mylyn.tasks.ui":
-				return required.addAll("IDE-compile-apache.maven", "org.eclipse.jdt.annotation");
+				return required.addAll("IDE-compile-apache.maven");
 			case "org.eclipse.mylyn.wikitext.mediawiki.core":
 				return required.addAll("org.apache.ant");
 			case "org.eclipse.pde.api.tools":

@@ -197,9 +197,9 @@
 	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.core.net"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security"/>
-	<classpathentry kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.annotation"/>
 	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core"/>
 	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.net"/>
 	<classpathentry kind="src" path="/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core"/>
+	<classpathentry exported="true" kind="src" path="/IDE-eclipse.jdt.core-org.eclipse.jdt.annotation"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>
