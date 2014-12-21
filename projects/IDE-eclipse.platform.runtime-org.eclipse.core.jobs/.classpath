@@ -8,6 +8,7 @@
 	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.core.jobs.jar" path="org.eclipse.core.jobs"/>
 	<!-- org/eclipse/core/internal/jobs/Counter.java
 	     org/eclipse/core/internal/jobs/InternalJob.java
+	     org/eclipse/core/internal/jobs/InternalJobGroup.java
 	     org/eclipse/core/internal/jobs/InternalWorker.java
 	     org/eclipse/core/internal/jobs/JobActivator.java
 	     org/eclipse/core/internal/jobs/JobChangeEvent.java
@@ -31,6 +32,7 @@
 	     org/eclipse/core/runtime/jobs/ISchedulingRule.java
 	     org/eclipse/core/runtime/jobs/Job.java
 	     org/eclipse/core/runtime/jobs/JobChangeAdapter.java
+	     org/eclipse/core/runtime/jobs/JobGroup.java
 	     org/eclipse/core/runtime/jobs/LockListener.java
 	     org/eclipse/core/runtime/jobs/MultiRule.java
 	     org/eclipse/core/runtime/jobs/ProgressProvider.java -->

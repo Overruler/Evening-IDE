@@ -26,6 +26,7 @@
 	     org/eclipse/e4/ui/internal/workbench/E4Workbench.java
 	     org/eclipse/e4/ui/internal/workbench/E4XMIResource.java
 	     org/eclipse/e4/ui/internal/workbench/E4XMIResourceFactory.java
+	     org/eclipse/e4/ui/internal/workbench/EHelpService.java
 	     org/eclipse/e4/ui/internal/workbench/EMFDeltaEntrySet.java
 	     org/eclipse/e4/ui/internal/workbench/EMFModelDeltaDelayedSet.java
 	     org/eclipse/e4/ui/internal/workbench/EMFModelDeltaSet.java

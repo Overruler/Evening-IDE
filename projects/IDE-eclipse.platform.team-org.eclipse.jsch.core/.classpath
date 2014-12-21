@@ -5,7 +5,8 @@
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jsch.core.jar" path="org.eclipse.jsch.core"/>
-	<!-- org/eclipse/jsch/core/IJSchLocation.java
+	<!-- org/eclipse/jsch/core/AbstractIdentityRepositoryFactory.java
+	     org/eclipse/jsch/core/IJSchLocation.java
 	     org/eclipse/jsch/core/IJSchService.java
 	     org/eclipse/jsch/core/IPasswordStore.java
 	     org/eclipse/jsch/internal/core/IConstants.java

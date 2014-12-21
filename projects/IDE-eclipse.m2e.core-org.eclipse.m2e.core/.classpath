@@ -217,8 +217,7 @@
 	     org/eclipse/m2e/core/project/ProjectImportConfiguration.java
 	     org/eclipse/m2e/core/project/ResolverConfiguration.java
 	     org/eclipse/m2e/core/repository/IRepository.java
-	     org/eclipse/m2e/core/repository/IRepositoryRegistry.java
-	     org/eclipse/m2e/core/internal/equinox/EquinoxLocker.java -->
+	     org/eclipse/m2e/core/repository/IRepositoryRegistry.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.core.jar" path="org.eclipse.m2e.core/src"/>
 	<!-- .options
 	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.core/pom.properties

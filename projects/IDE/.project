@@ -1271,6 +1271,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.e4.ui.di</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.platform.ui-org.eclipse.e4.ui.dialogs</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.e4.ui.dialogs</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.platform.ui-org.eclipse.e4.ui.model.workbench</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.platform.ui-org.eclipse.e4.ui.model.workbench</locationURI>

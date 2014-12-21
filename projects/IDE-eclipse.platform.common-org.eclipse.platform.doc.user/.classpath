@@ -651,6 +651,7 @@
 	     images/tree_mode.png
 	     images/TrimStack.png
 	     images/twowaycompare_co.gif
+	     images/uiresponsiveness_preferences.png
 	     images/undo_edit.png
 	     images/up_nav.png
 	     images/version_controlled.png
@@ -781,6 +782,7 @@
 	     reference/ref-templates-view.htm
 	     reference/ref-texteditorprefs.htm
 	     reference/ref-tracing_preference_page.htm
+	     reference/ref-uiresponsiveness_preference_page.htm
 	     reference/ref-workspaceswitch.htm
 	     reference/welcome_preferences.htm
 	     tasks/antRunner.htm

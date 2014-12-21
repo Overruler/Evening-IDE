@@ -11,6 +11,7 @@
 	     org/eclipse/jface/databinding/fieldassist/ControlDecorationSupport.java
 	     org/eclipse/jface/databinding/fieldassist/ControlDecorationUpdater.java
 	     org/eclipse/jface/databinding/preference/PreferencePageSupport.java
+	     org/eclipse/jface/databinding/swt/DisplayRealm.java
 	     org/eclipse/jface/databinding/swt/ISWTObservable.java
 	     org/eclipse/jface/databinding/swt/ISWTObservableList.java
 	     org/eclipse/jface/databinding/swt/ISWTObservableValue.java

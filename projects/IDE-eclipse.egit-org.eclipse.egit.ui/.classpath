@@ -651,9 +651,7 @@
 	     org/eclipse/egit/ui/JobFamilies.java
 	     org/eclipse/egit/ui/PluginPreferenceInitializer.java
 	     org/eclipse/egit/ui/UIPreferences.java
-	     org/eclipse/egit/ui/UIUtils.java
-	     org/eclipse/egit/ui/internal/revision/EditableRevision.java
-	     org/eclipse/egit/ui/internal/selection/SelectionUtils.java -->
+	     org/eclipse/egit/ui/UIUtils.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.egit.ui.jar" path="org.eclipse.egit.ui/src"/>
 	<!-- META-INF/maven/org.eclipse.egit/org.eclipse.egit.ui/pom.properties
 	     META-INF/maven/org.eclipse.egit/org.eclipse.egit.ui/pom.xml -->

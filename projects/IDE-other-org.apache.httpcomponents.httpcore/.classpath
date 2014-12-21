@@ -191,8 +191,7 @@
 	     org/apache/http/util/LangUtils.java
 	     org/apache/http/util/NetUtils.java
 	     org/apache/http/util/TextUtils.java
-	     org/apache/http/util/VersionInfo.java
-	     org/apache/http/config/Registry.java -->
+	     org/apache/http/util/VersionInfo.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpcore.jar" path="apache.httpcore/httpcore/src/main/java"/>
 	<!-- org/apache/http/impl/AbstractHttpClientConnection.java
 	     org/apache/http/impl/AbstractHttpServerConnection.java
@@ -224,11 +223,12 @@
 	     org/apache/http/protocol/SyncBasicHttpContext.java
 	     org/apache/http/util/ExceptionUtils.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpcore.jar" path="apache.httpcore/httpcore/src/main/java-deprecated"/>
-	<!-- org/apache/http/version.properties -->
-	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpcore.jar" path="apache.httpcore/httpcore/src/main/resources"/>
+	<!-- about_files/LICENSE.txt
+	     about_files/NOTICE.txt
+	     about_files/README.txt
+	     about_files/RELEASE_NOTES.txt -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.apache.httpcomponents.httpcore.jar" path="org.apache.httpcomponents.httpcore.jar/x-miss-x"/> -->
 	<!-- about.html
-	     about_files/LICENSE
-	     about_files/NOTICE
 	     META-INF/MANIFEST.MF
 	     OSGI-INF/l10n/bundle.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpcore.jar" path="res"/>

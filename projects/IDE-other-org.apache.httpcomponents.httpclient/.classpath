@@ -311,10 +311,7 @@
 	     org/apache/http/impl/execchain/RequestAbortedException.java
 	     org/apache/http/impl/execchain/RetryExec.java
 	     org/apache/http/impl/execchain/ServiceUnavailableRetryExec.java
-	     org/apache/http/impl/execchain/TunnelRefusedException.java
-	     org/apache/http/client/config/CookieSpecs.java
-	     org/apache/http/conn/socket/ConnectionSocketFactory.java
-	     org/apache/http/impl/execchain/BackoffStrategyExec.java -->
+	     org/apache/http/impl/execchain/TunnelRefusedException.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpclient/src/main/java"/>
 	<!-- org/apache/http/auth/params/AuthParamBean.java
 	     org/apache/http/auth/params/AuthParams.java
@@ -414,9 +411,15 @@
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpmime/src/main/java-deprecated"/>
 	<!-- org/apache/http/entity/mime/version.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="apache.httpclient/httpmime/src/main/resources"/>
+	<!-- l10n/metatype/metatype.properties
+	     l10n/metatype/metatype.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.apache.httpcomponents.httpclient.jar/OSGI-INF" path="org.apache.httpcomponents.httpclient.jar/OSGI-INF/x-miss-x"/> -->
+	<!-- about_files/LICENSE.txt
+	     about_files/NOTICE.txt
+	     about_files/README.txt
+	     about_files/RELEASE_NOTES.txt -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.apache.httpcomponents.httpclient.jar" path="org.apache.httpcomponents.httpclient.jar/x-miss-x"/> -->
 	<!-- about.html
-	     about_files/LICENSE
-	     about_files/NOTICE
 	     META-INF/MANIFEST.MF
 	     OSGI-INF/l10n/bundle.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.httpcomponents.httpclient.jar" path="res"/>

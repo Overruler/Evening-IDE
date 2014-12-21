@@ -61,6 +61,7 @@
 	     org/eclipse/osgi/framework/util/KeyedHashSet.java
 	     org/eclipse/osgi/framework/util/ObjectPool.java
 	     org/eclipse/osgi/framework/util/SecureAction.java
+	     org/eclipse/osgi/internal/container/AtomicLazyInitializer.java
 	     org/eclipse/osgi/internal/container/Capabilities.java
 	     org/eclipse/osgi/internal/container/ComputeNodeOrder.java
 	     org/eclipse/osgi/internal/container/EquinoxReentrantLock.java

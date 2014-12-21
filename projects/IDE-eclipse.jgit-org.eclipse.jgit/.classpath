@@ -534,8 +534,7 @@
 	     org/eclipse/jgit/util/RelativeDateFormatter.java
 	     org/eclipse/jgit/util/StringUtils.java
 	     org/eclipse/jgit/util/SystemReader.java
-	     org/eclipse/jgit/util/TemporaryBuffer.java
-	     org/eclipse/jgit/ignore/internal/IMatcher.java -->
+	     org/eclipse/jgit/util/TemporaryBuffer.java -->
 	<classpathentry excluding="org/eclipse/jgit/internal/storage/file/BitmapIndexImpl.java" kind="src" output="bin/1/plugins/org.eclipse.jgit.jar" path="org.eclipse.jgit/src"/>
 	<!-- META-INF/maven/org.eclipse.jgit/org.eclipse.jgit/pom.properties
 	     META-INF/maven/org.eclipse.jgit/org.eclipse.jgit/pom.xml -->

@@ -2,10 +2,14 @@
 <classpath>
 	<!-- about.html
 	     META-INF/MANIFEST.MF
+	     nativePackageScripts/debian/installCommands.txt
+	     nativePackageScripts/debian/isInstalled.sh
+	     nativePackageScripts/debian/isRunning.sh
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.natives.jar" path="org.eclipse.equinox.p2.touchpoint.natives"/>
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|nativePackageScripts/debian/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.natives.jar" path="org.eclipse.equinox.p2.touchpoint.natives"/>
 	<!-- org/eclipse/equinox/internal/p2/touchpoint/natives/actions/ActionConstants.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/CheckAndPromptNativePackage.java
 	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/ChmodAction.java
 	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/CleanupcopyAction.java
 	     org/eclipse/equinox/internal/p2/touchpoint/natives/actions/CleanupzipAction.java
@@ -23,6 +27,8 @@
 	     org/eclipse/equinox/internal/p2/touchpoint/natives/LazyBackupStore.java
 	     org/eclipse/equinox/internal/p2/touchpoint/natives/Messages.java
 	     org/eclipse/equinox/internal/p2/touchpoint/natives/messages.properties
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/NativePackageEntry.java
+	     org/eclipse/equinox/internal/p2/touchpoint/natives/NativePackageExtractionApplication.java
 	     org/eclipse/equinox/internal/p2/touchpoint/natives/NativeTouchpoint.java
 	     org/eclipse/equinox/internal/p2/touchpoint/natives/Util.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.p2.touchpoint.natives.jar" path="org.eclipse.equinox.p2.touchpoint.natives/src"/>

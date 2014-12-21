@@ -115,8 +115,7 @@
 	     org/eclipse/jetty/util/Utf8Appendable.java
 	     org/eclipse/jetty/util/Utf8LineParser.java
 	     org/eclipse/jetty/util/Utf8StringBuffer.java
-	     org/eclipse/jetty/util/Utf8StringBuilder.java
-	     org/eclipse/jetty/util/annotation/ManagedAttribute.java -->
+	     org/eclipse/jetty/util/Utf8StringBuilder.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.util.jar" path="jetty-util/src/main/java"/>
 	<!-- about.html
 	     jetty-dir.css

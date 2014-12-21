@@ -189,6 +189,7 @@
 	     org/eclipse/jdt/internal/compiler/ast/IntLiteral.java
 	     org/eclipse/jdt/internal/compiler/ast/IntLiteralMinValue.java
 	     org/eclipse/jdt/internal/compiler/ast/Invocation.java
+	     org/eclipse/jdt/internal/compiler/ast/IPolyExpression.java
 	     org/eclipse/jdt/internal/compiler/ast/Javadoc.java
 	     org/eclipse/jdt/internal/compiler/ast/JavadocAllocationExpression.java
 	     org/eclipse/jdt/internal/compiler/ast/JavadocArgumentExpression.java
@@ -323,6 +324,7 @@
 	     org/eclipse/jdt/internal/compiler/env/NameEnvironmentAnswer.java
 	     org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.java
 	     org/eclipse/jdt/internal/compiler/flow/ExceptionHandlingFlowContext.java
+	     org/eclipse/jdt/internal/compiler/flow/ExceptionInferenceFlowContext.java
 	     org/eclipse/jdt/internal/compiler/flow/FinallyFlowContext.java
 	     org/eclipse/jdt/internal/compiler/flow/FlowContext.java
 	     org/eclipse/jdt/internal/compiler/flow/FlowInfo.java
@@ -378,6 +380,7 @@
 	     org/eclipse/jdt/internal/compiler/lookup/InferenceSubstitution.java
 	     org/eclipse/jdt/internal/compiler/lookup/InferenceVariable.java
 	     org/eclipse/jdt/internal/compiler/lookup/InnerEmulationDependency.java
+	     org/eclipse/jdt/internal/compiler/lookup/IntersectionTypeBinding18.java
 	     org/eclipse/jdt/internal/compiler/lookup/InvocationSite.java
 	     org/eclipse/jdt/internal/compiler/lookup/IQualifiedTypeResolutionListener.java
 	     org/eclipse/jdt/internal/compiler/lookup/LocalTypeBinding.java
@@ -397,6 +400,7 @@
 	     org/eclipse/jdt/internal/compiler/lookup/ParameterizedMethodBinding.java
 	     org/eclipse/jdt/internal/compiler/lookup/ParameterizedTypeBinding.java
 	     org/eclipse/jdt/internal/compiler/lookup/PolymorphicMethodBinding.java
+	     org/eclipse/jdt/internal/compiler/lookup/PolyParameterizedGenericMethodBinding.java
 	     org/eclipse/jdt/internal/compiler/lookup/PolyTypeBinding.java
 	     org/eclipse/jdt/internal/compiler/lookup/ProblemBinding.java
 	     org/eclipse/jdt/internal/compiler/lookup/ProblemFieldBinding.java

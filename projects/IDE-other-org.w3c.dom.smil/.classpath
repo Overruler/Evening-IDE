@@ -2,6 +2,11 @@
 <classpath>
 	<!-- org/w3c/dom/smil/ElementTimeControl.java -->
 	<classpathentry excluding="META-INF/ECLIPSEF.RSA|META-INF/ECLIPSEF.SF|META-INF/eclipse.inf|about.html|about_files/LICENSE-2.0.txt|about_files/LICENSE-W3C-20021231.html|about_files/NOTICE|about_files/README|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/org.w3c.dom.smil.jar" path="org.w3c.dom.smil"/>
+	<!-- dom/smil/TimeEvent.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.w3c.dom.smil.jar/org/w3c" path="org.w3c.dom.smil.jar/org/w3c/x-miss-x"/> -->
+	<!-- about_files/LICENSE.dom-software.txt
+	     about_files/README.dom.txt -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.w3c.dom.smil.jar" path="org.w3c.dom.smil.jar/x-miss-x"/> -->
 	<!-- about.html
 	     about_files/LICENSE-2.0.txt
 	     about_files/LICENSE-W3C-20021231.html

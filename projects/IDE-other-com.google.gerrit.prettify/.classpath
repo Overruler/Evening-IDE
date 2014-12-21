@@ -29,7 +29,6 @@
 	     plugin.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/com.google.gerrit.prettify.jar" path="res"/>
 	<!-- com/google/gerrit/prettify/common/PrettyFormatter.java
-	     com/google/gerrit/prettify/common/PrettyFormatter.java
 	     com/google/gwtexpui/safehtml/client/SafeHtml.java -->
 	<classpathentry kind="src" output="bin/1/plugins/com.google.gerrit.prettify.jar" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

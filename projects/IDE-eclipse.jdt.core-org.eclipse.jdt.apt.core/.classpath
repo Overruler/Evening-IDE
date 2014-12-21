@@ -67,6 +67,7 @@
 	     org/eclipse/jdt/apt/core/env/Phase.java
 	     org/eclipse/jdt/apt/core/internal/AnnotationProcessorFactoryLoader.java
 	     org/eclipse/jdt/apt/core/internal/AptCompilationParticipant.java
+	     org/eclipse/jdt/apt/core/internal/AptCompilationParticipantExtensionFactory.java
 	     org/eclipse/jdt/apt/core/internal/APTDispatchRunnable.java
 	     org/eclipse/jdt/apt/core/internal/AptPlugin.java
 	     org/eclipse/jdt/apt/core/internal/AptProject.java

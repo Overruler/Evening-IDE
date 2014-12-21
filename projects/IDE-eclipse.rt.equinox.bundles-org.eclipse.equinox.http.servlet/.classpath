@@ -4,17 +4,60 @@
 	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.equinox.http.servlet.jar" path="org.eclipse.equinox.http.servlet"/>
-	<!-- org/eclipse/equinox/http/servlet/ExtendedHttpService.java
+	<!-- internal/context/DefaultServletContextHelper.java
+	     internal/customizer/FilterTrackerCustomizer.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet" path="org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/x-miss-x"/> -->
+	<!-- org/eclipse/equinox/http/servlet/context/ContextPathCustomizer.java
+	     org/eclipse/equinox/http/servlet/ExtendedHttpService.java
 	     org/eclipse/equinox/http/servlet/HttpServiceServlet.java
 	     org/eclipse/equinox/http/servlet/internal/Activator.java
+	     org/eclipse/equinox/http/servlet/internal/context/ContextController.java
+	     org/eclipse/equinox/http/servlet/internal/context/DispatchTargets.java
+	     org/eclipse/equinox/http/servlet/internal/context/HttpContextHelperFactory.java
+	     org/eclipse/equinox/http/servlet/internal/context/ProxyContext.java
+	     org/eclipse/equinox/http/servlet/internal/customizer/ContextFilterTrackerCustomizer.java
+	     org/eclipse/equinox/http/servlet/internal/customizer/ContextListenerTrackerCustomizer.java
+	     org/eclipse/equinox/http/servlet/internal/customizer/ContextResourceTrackerCustomizer.java
+	     org/eclipse/equinox/http/servlet/internal/customizer/ContextServletTrackerCustomizer.java
+	     org/eclipse/equinox/http/servlet/internal/customizer/RegistrationServiceTrackerCustomizer.java
+	     org/eclipse/equinox/http/servlet/internal/error/NullContextNamesException.java
+	     org/eclipse/equinox/http/servlet/internal/error/NullServletContextHelperException.java
+	     org/eclipse/equinox/http/servlet/internal/error/PatternInUseException.java
+	     org/eclipse/equinox/http/servlet/internal/error/RegisteredFilterException.java
+	     org/eclipse/equinox/http/servlet/internal/error/RegisteredServletContextHelperException.java
+	     org/eclipse/equinox/http/servlet/internal/error/ServletAlreadyRegisteredException.java
 	     org/eclipse/equinox/http/servlet/internal/HttpServiceFactory.java
 	     org/eclipse/equinox/http/servlet/internal/HttpServiceImpl.java
+	     org/eclipse/equinox/http/servlet/internal/HttpServiceObjectRegistration.java
+	     org/eclipse/equinox/http/servlet/internal/HttpServiceRuntimeImpl.java
+	     org/eclipse/equinox/http/servlet/internal/registration/EndpointRegistration.java
 	     org/eclipse/equinox/http/servlet/internal/registration/FilterRegistration.java
-	     org/eclipse/equinox/http/servlet/internal/context/DefaultServletContextHelper.java
-	     org/eclipse/equinox/http/servlet/internal/error/NullContextNamesException.java
+	     org/eclipse/equinox/http/servlet/internal/registration/ListenerRegistration.java
+	     org/eclipse/equinox/http/servlet/internal/registration/MatchableRegistration.java
+	     org/eclipse/equinox/http/servlet/internal/registration/Registration.java
+	     org/eclipse/equinox/http/servlet/internal/registration/ResourceRegistration.java
+	     org/eclipse/equinox/http/servlet/internal/registration/ServletRegistration.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/FilterChainImpl.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/FilterConfigImpl.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/HttpServletRequestBuilder.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/HttpServletResponseWrapperImpl.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/HttpSessionAdaptor.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/Match.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/NamedDispatcherAdaptor.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/ProxyServlet.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/RequestDispatcherAdaptor.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/ResourceServlet.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/ResponseStateHandler.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/ServletConfigImpl.java
+	     org/eclipse/equinox/http/servlet/internal/servlet/ServletContextAdaptor.java
+	     org/eclipse/equinox/http/servlet/internal/util/Const.java
+	     org/eclipse/equinox/http/servlet/internal/util/EventListeners.java
+	     org/eclipse/equinox/http/servlet/internal/util/HttpTuple.java
+	     org/eclipse/equinox/http/servlet/internal/util/ServiceProperties.java
+	     org/eclipse/equinox/http/servlet/internal/util/ServiceReferenceMap.java
 	     org/eclipse/equinox/http/servlet/internal/util/StringPlus.java
-	     org/eclipse/equinox/http/servlet/internal/customizer/FilterTrackerCustomizer.java
-	     org/eclipse/equinox/http/servlet/internal/servlet/ProxyServlet.java -->
+	     org/eclipse/equinox/http/servlet/internal/util/UMDictionaryMap.java
+	     org/eclipse/equinox/http/servlet/internal/util/UMMapDictionary.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.equinox.http.servlet.jar" path="org.eclipse.equinox.http.servlet/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-compile-org.osgi.annotation.versioning"/>

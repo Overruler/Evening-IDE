@@ -93,6 +93,13 @@
 	     com/jcraft/jsch/UserAuthGSSAPIWithMIC.java
 	     com/jcraft/jsch/UserInfo.java -->
 	<classpathentry excluding="META-INF/ECLIPSE_.RSA|META-INF/ECLIPSE_.SF|META-INF/eclipse.inf|about.html|META-INF/MANIFEST.MF|plugin.properties" kind="src" output="bin/1/plugins/com.jcraft.jsch.jar" path="com.jcraft.jsch"/>
+	<!-- jsch/jce/PBKDF.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/com.jcraft.jsch.jar/com/jcraft" path="com.jcraft.jsch.jar/com/jcraft/x-miss-x"/> -->
+	<!-- jcraft/jsch/KeyPairPKCS8.java
+	     jcraft/jsch/PBKDF.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/com.jcraft.jsch.jar/com" path="com.jcraft.jsch.jar/com/x-miss-x"/> -->
+	<!-- about_files/LICENSE.txt -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/com.jcraft.jsch.jar" path="com.jcraft.jsch.jar/x-miss-x"/> -->
 	<!-- about.html
 	     META-INF/MANIFEST.MF
 	     plugin.properties -->

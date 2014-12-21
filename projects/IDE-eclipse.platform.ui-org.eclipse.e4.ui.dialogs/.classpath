@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/full/dtool16/clear_co.png
+	     icons/full/etool16/clear_co.png
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/full/dtool16/*|icons/full/etool16/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.dialogs.jar" path="org.eclipse.e4.ui.dialogs"/>
+	<!-- org/eclipse/e4/ui/dialogs/filteredtree/BasicUIJob.java
+	     org/eclipse/e4/ui/dialogs/filteredtree/FilteredTree.java
+	     org/eclipse/e4/ui/dialogs/filteredtree/PatternFilter.java
+	     org/eclipse/e4/ui/dialogs/filteredtree/StringMatcher.java
+	     org/eclipse/e4/ui/dialogs/textbundles/E4DialogMessages.java
+	     org/eclipse/e4/ui/dialogs/textbundles/messages.properties -->
+	<classpathentry including="org/eclipse/e4/ui/dialogs/filteredtree/*|org/eclipse/e4/ui/dialogs/textbundles/*" kind="src" output="bin/1/plugins/org.eclipse.e4.ui.dialogs.jar" path="org.eclipse.e4.ui.dialogs/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

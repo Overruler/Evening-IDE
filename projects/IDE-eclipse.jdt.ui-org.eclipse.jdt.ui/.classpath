@@ -1413,6 +1413,7 @@
 	     org/eclipse/jdt/internal/ui/preferences/formatter/CompilationUnitPreview.java
 	     org/eclipse/jdt/internal/ui/preferences/formatter/ControlStatementsTabPage.java
 	     org/eclipse/jdt/internal/ui/preferences/formatter/CreateProfileDialog.java
+	     org/eclipse/jdt/internal/ui/preferences/formatter/CustomCodeFormatterBlock.java
 	     org/eclipse/jdt/internal/ui/preferences/formatter/FormatterMessages.properties
 	     org/eclipse/jdt/internal/ui/preferences/formatter/FormatterModifyDialog.java
 	     org/eclipse/jdt/internal/ui/preferences/formatter/FormatterProfileManager.java

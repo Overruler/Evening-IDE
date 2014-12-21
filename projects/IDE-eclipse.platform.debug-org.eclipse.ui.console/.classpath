@@ -59,6 +59,7 @@
 	     org/eclipse/ui/console/IOConsoleOutputStream.java
 	     org/eclipse/ui/console/IPatternMatchListener.java
 	     org/eclipse/ui/console/IPatternMatchListenerDelegate.java
+	     org/eclipse/ui/console/IScrollLockStateProvider.java
 	     org/eclipse/ui/console/MessageConsole.java
 	     org/eclipse/ui/console/MessageConsoleStream.java
 	     org/eclipse/ui/console/PatternMatchEvent.java

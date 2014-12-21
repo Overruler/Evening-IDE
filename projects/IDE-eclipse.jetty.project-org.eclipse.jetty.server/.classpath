@@ -22,6 +22,7 @@
 	     org/eclipse/jetty/server/handler/AbstractHandler.java
 	     org/eclipse/jetty/server/handler/AbstractHandlerContainer.java
 	     org/eclipse/jetty/server/handler/AllowSymLinkAliasChecker.java
+	     org/eclipse/jetty/server/handler/AsyncDelayHandler.java
 	     org/eclipse/jetty/server/handler/ContextHandler.java
 	     org/eclipse/jetty/server/handler/ContextHandlerCollection.java
 	     org/eclipse/jetty/server/handler/DebugHandler.java
@@ -39,8 +40,10 @@
 	     org/eclipse/jetty/server/handler/RequestLogHandler.java
 	     org/eclipse/jetty/server/handler/ResourceHandler.java
 	     org/eclipse/jetty/server/handler/ScopedHandler.java
+	     org/eclipse/jetty/server/handler/SecuredRedirectHandler.java
 	     org/eclipse/jetty/server/handler/ShutdownHandler.java
 	     org/eclipse/jetty/server/handler/StatisticsHandler.java
+	     org/eclipse/jetty/server/HomeBaseWarning.java
 	     org/eclipse/jetty/server/HostHeaderCustomizer.java
 	     org/eclipse/jetty/server/HttpChannel.java
 	     org/eclipse/jetty/server/HttpChannelState.java
