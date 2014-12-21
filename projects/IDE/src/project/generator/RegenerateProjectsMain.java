@@ -960,172 +960,264 @@ public class RegenerateProjectsMain {
 	private static ArrayList<Path> customizeModelFilesList(String pluginName, ArrayList<Path> list) {
 		switch(pluginName) {
 			case "com.google.gerrit.prettify":
-				return list.addAll(
-					Paths.get("com.google.gerrit.prettify.jar/com/google/gerrit/prettify/common/PrettyFormatter.java"),
-					Paths.get("com.google.gerrit.prettify.jar/com/google/gwtexpui/safehtml/client/SafeHtml.java"));
+				return customizeModelFilesListAdd(
+					list,
+					pluginName,
+					".jar/",
+					"com/google/gwtexpui/safehtml/client/SafeHtml.java");
 			case "com.google.gson":
-				return list.remove(
-					Paths.get("com.google.gson.jar/com/google/gson/internal/bind/BigDecimalTypeAdapter.java")).remove(
-					Paths.get("com.google.gson.jar/com/google/gson/internal/bind/BigIntegerTypeAdapter.java")).remove(
-					Paths.get("com.google.gson.jar/com/google/gson/internal/GsonInternalAccess.java")).remove(
-					Paths.get("com.google.gson.jar/com/google/gson/internal/Pair.java"));
+				return customizeModelFilesListRemove(
+					list,
+					pluginName,
+					".jar/",
+					"com/google/gson/internal/bind/BigDecimalTypeAdapter.java",
+					"com/google/gson/internal/bind/BigIntegerTypeAdapter.java",
+					"com/google/gson/internal/GsonInternalAccess.java",
+					"com/google/gson/internal/Pair.java");
 			case "com.google.guava":
-				return list.add(
-					Paths.get("com.google.guava.jar/com/google/thirdparty/publicsuffix/PublicSuffixPatterns.java")).remove(
-					Paths.get("com.google.guava.jar/com/google/common/util/concurrent/ForwardingService.java")).remove(
-					Paths.get("com.google.guava.jar/com/google/common/hash/HashCodes.java"));
+				return customizeModelFilesListRemove(
+					customizeModelFilesListAdd(
+						list,
+						pluginName,
+						".jar/",
+						"com/google/thirdparty/publicsuffix/PublicSuffixPatterns.java"),
+					pluginName,
+					".jar/",
+					"com/google/common/util/concurrent/ForwardingService.java",
+					"com/google/common/hash/HashCodes.java");
 			case "com.google.gwtjsonrpc":
-				return list.add(Paths.get("com.google.gwtjsonrpc.jar/com/google/gwt/json/client/JSONValue.java"));
+				return customizeModelFilesListAdd(
+					list,
+					pluginName,
+					".jar/",
+					"com/google/gwt/json/client/JSONValue.java");
 			case "com.sun.el":
-				return list.replaceAll(p -> convertComSunToOrgApache(p)).remove(
-					Paths.get("com.sun.el.jar/org/apache/el/parser/AstMethodArguments.java")).add(
-					Paths.get("com.sun.el.jar/org/apache/el/stream/Optional.java"));
+				return customizeModelFilesListAdd(
+					customizeModelFilesListRemove(
+						list.replaceAll(p -> RegenerateProjectsMain.convertComSunToOrgApache(p)),
+						pluginName,
+						".jar/",
+						"org/apache/el/parser/AstMethodArguments.java"),
+					pluginName,
+					".jar/",
+					"org/apache/el/stream/Optional.java");
 			case "javax.el":
-				return list.remove(Paths.get("javax.el.jar/javax/el/PrivateMessages.properties"));
+				return customizeModelFilesListRemove(list, pluginName, ".jar/", "javax/el/PrivateMessages.properties");
 			case "javax.servlet":
-				return list.remove(Paths.get("javax.servlet.jar/javax/servlet/annotation/package.html")).remove(
-					Paths.get("javax.servlet.jar/javax/servlet/descriptor/package.html")).add(
-					Paths.get("javax.servlet.jar/javax/servlet/resources/web-jsptaglibrary_2_0.xsd"));
+				return customizeModelFilesListAdd(
+					customizeModelFilesListRemove(
+						list,
+						pluginName,
+						".jar/",
+						"javax/servlet/annotation/package.html",
+						"javax/servlet/descriptor/package.html"),
+					pluginName,
+					".jar/",
+					"javax/servlet/resources/web-jsptaglibrary_2_0.xsd");
 			case "javax.servlet.jsp":
-				return list.add(Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jspxml.xsd")).remove(
-					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jspxml_2_0.dtd")).remove(
-					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jspxml_2_0.xsd")).remove(
-					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jsp_2_0.xsd")).remove(
-					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jsp_2_1.xsd")).remove(
-					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/jsp_2_2.xsd")).remove(
-					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd")).remove(
-					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd")).remove(
-					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd")).remove(
-					Paths.get("javax.servlet.jsp.jar/javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd"));
-			case "org.antlr.runtime":
-				return list.remove(Paths.get("antlr.antlr3/runtime/Java/src/main/java/org/antlr/runtime/tree/DOTTreeGenerator.java"));
+				return customizeModelFilesListRemove(
+					customizeModelFilesListAdd(list, pluginName, ".jar/", "javax/servlet/jsp/resources/jspxml.xsd"),
+					pluginName,
+					".jar/",
+					"javax/servlet/jsp/resources/jspxml_2_0.dtd",
+					"javax/servlet/jsp/resources/jspxml_2_0.xsd",
+					"javax/servlet/jsp/resources/jsp_2_0.xsd",
+					"javax/servlet/jsp/resources/jsp_2_1.xsd",
+					"javax/servlet/jsp/resources/jsp_2_2.xsd",
+					"javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd",
+					"javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd",
+					"javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd",
+					"javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd");
 			case "org.apache.batik.css":
-				return list.add(Paths.get("org.apache.batik.css.jar/org/apache/batik/css/engine/value/svg12/AbstractCIEColor.java"));
+				return customizeModelFilesListAdd(
+					list,
+					pluginName,
+					".jar/",
+					"org/apache/batik/css/engine/value/svg12/AbstractCIEColor.java");
 			case "org.apache.commons.codec":
-				return list.add(Paths.get("org.apache.commons.codec.jar/org/apache/commons/codec/language/dmrules.txt"));
+				return customizeModelFilesListAdd(
+					list,
+					pluginName,
+					".jar/",
+					"org/apache/commons/codec/language/dmrules.txt");
 			case "org.apache.commons.compress":
-				return list.remove(
-					Paths.get("org.apache.commons.compress.jar/org/apache/commons/compress/compressors/z/_internal_/InternalLZWInputStream.java")).remove(
-					Paths.get("org.apache.commons.compress.jar/org/apache/commons/compress/compressors/z/_internal_/package.html")).add(
-					Paths.get("org.apache.commons.compress.jar/org/apache/commons/compress/compressors/lzw/LZWInputStream.java"));
+				return customizeModelFilesListAdd(
+					customizeModelFilesListRemove(
+						list,
+						pluginName,
+						".jar/",
+						"org/apache/commons/compress/compressors/z/_internal_/InternalLZWInputStream.java",
+						"org/apache/commons/compress/compressors/z/_internal_/package.html"),
+					pluginName,
+					".jar/",
+					"org/apache/commons/compress/compressors/lzw/LZWInputStream.java");
 			case "org.apache.httpcomponents.httpclient":
-				return list.addAll(
-					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/client/config/CookieSpecs.java"),
-					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/conn/socket/ConnectionSocketFactory.java"),
-					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/impl/execchain/BackoffStrategyExec.java"),
-					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/osgi/impl/OSGiClientBuilderFactory.java"),
-					Paths.get("org.apache.httpcomponents.httpclient.jar/org/apache/http/osgi/services/HttpClientBuilderFactory.java"));
-			case "org.apache.httpcomponents.httpcore":
-				return list.addAll(Paths.get("org.apache.httpcomponents.httpcore.jar/org/apache/http/config/Registry.java"));
+				return customizeModelFilesListAdd(
+					list,
+					pluginName,
+					".jar/",
+					"org/apache/http/osgi/impl/OSGiClientBuilderFactory.java",
+					"org/apache/http/osgi/services/HttpClientBuilderFactory.java");
 			case "org.apache.jasper.glassfish":
-				return list.remove(
-					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.java")).remove(
-					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/parser/readableNames.properties")).addAll(
-					Paths.get("org.apache.jasper.glassfish.jar/org/apache/jasper/util/SystemLogHandler.java"),
-					Paths.get("org.apache.jasper.glassfish.jar/org/eclipse/jdt/internal/compiler/parser/readableNames.props"));
+				return customizeModelFilesListAdd(
+					customizeModelFilesListRemove(
+						list,
+						pluginName,
+						".jar/",
+						"org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.java",
+						"org/eclipse/jdt/internal/compiler/parser/readableNames.properties"),
+					pluginName,
+					".jar/",
+					"org/apache/jasper/util/SystemLogHandler.java",
+					"org/eclipse/jdt/internal/compiler/parser/readableNames.props");
 			case "org.apache.xerces":
-				return list.remove(Paths.get("org.apache.xerces.jar/org/apache/xerces/impl/xs/util/NSItemListImpl.java"));
-			case "org.eclipse.e4.ui.workbench":
-				return list.remove(
-					Paths.get("org.eclipse.e4.ui.workbench.jar/org/eclipse/e4/ui/internal/workbench/ExitHandler.java")).remove(
-					Paths.get("org.eclipse.e4.ui.workbench.jar/org/eclipse/e4/ui/internal/workbench/IHelpService.java"));
+				return customizeModelFilesListRemove(
+					list,
+					pluginName,
+					".jar/",
+					"org/apache/xerces/impl/xs/util/NSItemListImpl.java");
 			case "org.eclipse.egit.ui":
-				return list.remove(Paths.get("org.eclipse.egit.ui.jar/icons/ovr/symlink_ovr.gif")).addAll(
-					Paths.get("org.eclipse.egit.ui.jar/org/eclipse/egit/ui/internal/revision/EditableRevision.java"),
-					Paths.get("org.eclipse.egit.ui.jar/org/eclipse/egit/ui/internal/selection/SelectionUtils.java"));
+				return customizeModelFilesListRemove(list, pluginName, ".jar/", "icons/ovr/symlink_ovr.gif");
 			case "org.eclipse.equinox.http.servlet":
-				return list.remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/DefaultHttpContext.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/FilterChainImpl.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/FilterConfigImpl.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/FilterRegistration.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/HttpServletRequestAdaptor.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/HttpSessionAdaptor.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ProxyContext.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ProxyServlet.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/Registration.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/RequestDispatcherAdaptor.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ResourceServlet.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ServletConfigImpl.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ServletContextAdaptor.java")).remove(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/ServletRegistration.java")).addAll(
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/registration/FilterRegistration.java"),
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/context/DefaultServletContextHelper.java"),
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/error/NullContextNamesException.java"),
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/util/StringPlus.java"),
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/customizer/FilterTrackerCustomizer.java"),
-					Paths.get("org.eclipse.equinox.http.servlet.jar/org/eclipse/equinox/http/servlet/internal/servlet/ProxyServlet.java"));
+				return customizeModelFilesListAdd(
+					list,
+					pluginName,
+					".jar/",
+					"org/eclipse/equinox/http/servlet/internal/context/DefaultServletContextHelper.java",
+					"org/eclipse/equinox/http/servlet/internal/customizer/FilterTrackerCustomizer.java");
 			case "org.eclipse.help.webapp":
-				return list.removeIf(p -> p.getFileName().toString().endsWith("_jsp.java"));
-			case "org.eclipse.jetty.io":
-				return list.add(Paths.get("org.eclipse.jetty.io.jar/org/eclipse/jetty/io/ssl/SslConnection.java"));
-			case "org.eclipse.jetty.util":
-				return list.add(Paths.get("org.eclipse.jetty.util.jar/org/eclipse/jetty/util/annotation/ManagedAttribute.java"));
-			case "org.eclipse.jdt.core":
-				return list.remove(
-					Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/ast/InnerInferenceHelper.java")).remove(
-					Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/lookup/IntersectionCastTypeBinding.java")).remove(
-					Paths.get("org.eclipse.jdt.core.jar/org/eclipse/jdt/internal/compiler/parser/CommitRollbackParser.java"));
+				return customizeModelFilesListRemoveIfFilenameEndsWith(list, "_jsp.java");
 			case "org.eclipse.jdt.doc.isv":
-				return list.removeIf(p -> p.startsWith("org.eclipse.jdt.doc.isv.jar/index")).removeIf(
-					p -> p.startsWith("org.eclipse.jdt.doc.isv.jar/reference"));
+				return customizeModelFilesListRemoveIfStartsWith(list, pluginName, ".jar/", "index", "reference");
 			case "org.eclipse.jdt.doc.user":
-				return list.removeIf(p -> p.startsWith("org.eclipse.jdt.doc.user.jar/index"));
-			case "org.eclipse.jgit":
-				return list.add(Paths.get("org.eclipse.jgit.jar/org/eclipse/jgit/ignore/internal/IMatcher.java"));
-			case "org.eclipse.m2e.core":
-				return list.addAll(Paths.get("org.eclipse.m2e.core.jar/org/eclipse/m2e/core/internal/equinox/EquinoxLocker.java"));
+				return customizeModelFilesListRemoveIfStartsWith(list, pluginName, ".jar/", "index");
 			case "org.eclipse.m2e.maven.indexer":
-				return list.removeIf(p -> p.startsWith("org.eclipse.m2e.maven.indexer/org"));
+				return customizeModelFilesListRemoveIfStartsWith(list, pluginName, "/", "org");
 			case "org.eclipse.pde.ui.templates":
-				return list.removeIf(p -> p.getName(1).toString().startsWith("templates_"));
-			case "org.eclipse.osgi.services":
-				return list.addAll(
-					Paths.get("org.eclipse.osgi.services.jar/org/osgi/service/http/context/ServletContextHelper.java"),
-					Paths.get("org.eclipse.osgi.services.jar/org/osgi/service/http/whiteboard/HttpWhiteboardConstants.java"),
-					Paths.get("org.eclipse.osgi.services.jar/org/osgi/service/http/runtime/HttpServiceRuntime.java"),
-					Paths.get("org.eclipse.osgi.services.jar/org/osgi/service/http/runtime/dto/ErrorPageDTO.java"));
+				return customizeModelFilesListRemoveIfName1StartsWith(list, "templates_");
 			case "org.eclipse.pde.doc.user":
-				return list.removeIf(p -> p.startsWith("org.eclipse.pde.doc.user.jar/index")).removeIf(
-					p -> p.startsWith("org.eclipse.pde.doc.user.jar/reference")).removeIf(
-					p -> p.startsWith("org.eclipse.pde.doc.user.jar/whatsNew"));
+				return customizeModelFilesListRemoveIfStartsWith(
+					list,
+					pluginName,
+					".jar/",
+					"index",
+					"reference",
+					"whatsNew");
 			case "org.eclipse.platform.doc.isv":
-				return list.removeIf(p -> p.startsWith("org.eclipse.platform.doc.isv.jar/index")).removeIf(
-					p -> p.startsWith("org.eclipse.platform.doc.isv.jar/reference")).removeIf(
-					p -> p.startsWith("org.eclipse.platform.doc.isv.jar/samples"));
+				return customizeModelFilesListRemoveIfStartsWith(
+					list,
+					pluginName,
+					".jar/",
+					"index",
+					"reference",
+					"samples");
 			case "org.eclipse.platform.doc.user":
-				return list.removeIf(p -> p.startsWith("org.eclipse.platform.doc.user.jar/index")).removeIf(
-					p -> p.startsWith("org.eclipse.platform.doc.user.jar/whatsNew"));
-			case "org.eclipse.ui.ide":
-				return list.remove(Paths.get("org.eclipse.ui.ide.jar/org/eclipse/ui/internal/ide/dialogs/SimpleListContentProvider.java"));
-			case "org.eclipse.ui.ide.application":
-				return list.add(Paths.get("org.eclipse.ui.ide.application.jar/org/eclipse/ui/internal/ide/application/addons/ModelCleanupAddon.java"));
+				return customizeModelFilesListRemoveIfStartsWith(list, pluginName, ".jar/", "index", "whatsNew");
 			case "org.eclipse.swt.win32.win32.x86_64":
-				return list.addAll(
-					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/Mozilla.java"),
-					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/WebKit.java"),
-					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/Website.java"),
-					Paths.get("org.eclipse.swt.win32.win32.x86_64.jar/org/eclipse/swt/browser/MozillaDelegate.java"));
+				return customizeModelFilesListAdd(
+					list,
+					pluginName,
+					".jar/",
+					"org/eclipse/swt/browser/Mozilla.java",
+					"org/eclipse/swt/browser/WebKit.java",
+					"org/eclipse/swt/browser/Website.java",
+					"org/eclipse/swt/browser/MozillaDelegate.java");
 			case "org.kohsuke.args4j":
-				return list.remove(Paths.get("org.kohsuke.args4j.jar/org/kohsuke/args4j/MapSetter.java")).remove(
-					Paths.get("org.kohsuke.args4j.jar/org/kohsuke/args4j/Messages_de_DE.properties")).remove(
-					Paths.get("org.kohsuke.args4j.jar/org/kohsuke/args4j/Messages_ru_RU.properties"));
+				return customizeModelFilesListRemove(
+					list,
+					pluginName,
+					".jar/",
+					"org/kohsuke/args4j/MapSetter.java",
+					"org/kohsuke/args4j/Messages_de_DE.properties",
+					"org/kohsuke/args4j/Messages_ru_RU.properties");
 			case "org.sat4j.core":
-				return list.remove(Paths.get("org.sat4j.core.jar/org/sat4j/minisat/core/Constr.java")).remove(
-					Paths.get("org.sat4j.core.jar/org/sat4j/minisat/core/Propagatable.java")).remove(
-					Paths.get("org.sat4j.core.jar/org/sat4j/MoreThanSAT.java"));
+				return customizeModelFilesListRemove(
+					list,
+					pluginName,
+					".jar/",
+					"org/sat4j/minisat/core/Constr.java",
+					"org/sat4j/minisat/core/Propagatable.java",
+					"org/sat4j/MoreThanSAT.java");
 			case "org.sat4j.pb":
-				return list.remove(Paths.get("org.sat4j.pb.jar/org/sat4j/pb/PseudoBitsAdderDecorator.java")).addAll(
-					Paths.get("org.sat4j.pb.jar/org/sat4j/pb/multiobjective/IMultiObjOptimizationProblem.java"));
+				return customizeModelFilesListAdd(
+					customizeModelFilesListRemove(
+						list,
+						pluginName,
+						".jar/",
+						"org/sat4j/pb/PseudoBitsAdderDecorator.java"),
+					pluginName,
+					".jar/",
+					"org/sat4j/pb/multiobjective/IMultiObjOptimizationProblem.java");
 			case "pm.eclipse.editbox":
-				return list.remove(Paths.get("pm.eclipse.editbox.jar/icons/editbox.gif")).remove(
-					Paths.get("pm.eclipse.editbox.jar/Java_PaleBlue.eb")).addAll(
-					Paths.get("pm.eclipse.editbox.jar/icons/editbox.png"));
+				return customizeModelFilesListAdd(
+					customizeModelFilesListRemove(list, pluginName, ".jar/", "icons/editbox.gif", "Java_PaleBlue.eb"),
+					pluginName,
+					".jar/",
+					"icons/editbox.png");
 			default:
 				return list;
 		}
 	}
-	private static Path convertComSunToOrgApache(Path p) {
+	private static ArrayList<Path> customizeModelFilesListRemoveIfFilenameEndsWith(ArrayList<Path> list, String suffix) {
+		int size = list.size();
+		ArrayList<Path> list2 = list.removeIf(p -> p.getFileName().toString().endsWith(suffix));
+		if(size == (size = list2.size())) {
+			System.out.println("Unnecessary removeIfFilenameEndsWith " + suffix);
+		}
+		return list2;
+	}
+	private static ArrayList<Path> customizeModelFilesListRemoveIfName1StartsWith(ArrayList<Path> list, String prefix) {
+		int size = list.size();
+		ArrayList<Path> list2 = list.removeIf(p -> p.getName(1).toString().startsWith(prefix));
+		if(size == (size = list2.size())) {
+			System.out.println("Unnecessary removeIfName1StartsWith " + prefix);
+		}
+		return list2;
+	}
+	private static ArrayList<Path> customizeModelFilesListRemoveIfStartsWith(
+		ArrayList<Path> list,
+		String pluginName,
+		String root,
+		String... others) {
+		int size = list.size();
+		for(String other : others) {
+			String other2 = pluginName + root + other;
+			list = list.removeIf(p -> p.startsWith(other2));
+			if(size == (size = list.size())) {
+				System.out.println("Unnecessary removeIfStartsWith " + other2);
+			}
+		}
+		return list;
+	}
+	private static ArrayList<Path> customizeModelFilesListAdd(
+		ArrayList<Path> list,
+		String pluginName,
+		String root,
+		String... paths) {
+		for(String path : paths) {
+			Path path2 = Paths.get(pluginName + root + path);
+			if(list.contains(path2)) {
+				System.out.println("Unnecessary add " + path2);
+			}
+			list = list.add(path2);
+		}
+		return list;
+	}
+	private static ArrayList<Path> customizeModelFilesListRemove(
+		ArrayList<Path> list,
+		String pluginName,
+		String root,
+		String... paths) {
+		for(String path : paths) {
+			Path path2 = Paths.get(pluginName + root + path);
+			if(list.contains(path2) == false) {
+				System.out.println("Unnecessary remove " + path2);
+			}
+			list = list.remove(path2);
+		}
+		return list;
+	}
+	static Path convertComSunToOrgApache(Path p) {
 		return Paths.get(toUnixPath(p).replace("com/sun/", "org/apache/"));
 	}
 	private static ArrayList<Path> customizeAvailableFilesList(ArrayList<Path> list, String plugin) {

@@ -426,28 +426,29 @@ public class MainBuildIDE {
 			"9.9.9.token");
 		updateAntVersionToFile(
 			"libraries/apache.ant/STATUS",
-			"ant-antlr.jar/META-INF/MANIFEST.MF",
-			"ant-apache-bcel.jar/META-INF/MANIFEST.MF",
-			"ant-apache-bsf.jar/META-INF/MANIFEST.MF",
-			"ant-apache-log4j.jar/META-INF/MANIFEST.MF",
-			"ant-apache-oro.jar/META-INF/MANIFEST.MF",
-			"ant-apache-regexp.jar/META-INF/MANIFEST.MF",
-			"ant-apache-resolver.jar/META-INF/MANIFEST.MF",
-			"ant-apache-xalan2.jar/META-INF/MANIFEST.MF",
-			"ant-commons-logging.jar/META-INF/MANIFEST.MF",
-			"ant-commons-net.jar/META-INF/MANIFEST.MF",
-			"ant-jai.jar/META-INF/MANIFEST.MF",
-			"ant-javamail.jar/META-INF/MANIFEST.MF",
-			"ant-jdepend.jar/META-INF/MANIFEST.MF",
-			"ant-jmf.jar/META-INF/MANIFEST.MF",
-			"ant-jsch.jar/META-INF/MANIFEST.MF",
-			"ant-junit.jar/META-INF/MANIFEST.MF",
-			"ant-junit4.jar/META-INF/MANIFEST.MF",
-			"ant-launcher.jar/META-INF/MANIFEST.MF",
-			"ant-netrexx.jar/META-INF/MANIFEST.MF",
-			"ant-swing.jar/META-INF/MANIFEST.MF",
-			"ant-testutil.jar/META-INF/MANIFEST.MF",
-			"ant.jar/META-INF/MANIFEST.MF");
+			"plugins/org.apache.ant/ant-antlr.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-apache-bcel.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-apache-bsf.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-apache-log4j.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-apache-oro.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-apache-regexp.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-apache-resolver.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-apache-xalan2.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-commons-logging.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-commons-net.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-jai.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-javamail.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-jdepend.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-jmf.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-jsch.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-junit.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-junit4.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-launcher.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-netrexx.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-swing.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant-testutil.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/ant.jar/META-INF/MANIFEST.MF",
+			"plugins/org.apache.ant/META-INF/MANIFEST.MF");
 		updatePomVersionToFile("libraries/ow2.sat4j/org.sat4j.core/pom.xml", "plugins/org.sat4j.core.jar/sat4j.version");
 		updatePomVersionToMaven(
 			"eclipse.webtools-common/plugins/org.eclipse.wst.common.frameworks/pom.xml",
@@ -581,7 +582,7 @@ public class MainBuildIDE {
 		updatePomVersionToFile(pom, manifest, pomProps, pomXml);
 	}
 	private static void updateAntVersionToFile(String ant, String... files) throws IOException {
-		String fullVersion = readVersionFromFile(ant, "Development:", "(in GIT Branch: master)", "");
+		String fullVersion = readVersionFromFile(ant, "Development:", "(in GIT Branch: master)", "") + ".qualifier";
 		updateVersionToFile(fullVersion, files);
 	}
 	private static void updatePomVersionToFile(String pom, String... files) throws IOException {
