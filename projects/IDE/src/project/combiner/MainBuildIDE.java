@@ -44,7 +44,7 @@ public class MainBuildIDE {
 		"p2/org.eclipse.equinox.p2.engine/profileRegistry/ECLIPSE_PROFILE_ID.profile/.data/org.eclipse.equinox.internal.p2.touchpoint.eclipse.actions/jvmargs";
 	private static final String PROFILE_GZ =
 		"p2/org.eclipse.equinox.p2.engine/profileRegistry/ECLIPSE_PROFILE_ID.profile/PROFILE_TIME.profile.gz/PROFILE_TIME.profile";
-	private static final String ECLIPSE_PRODUCT_ID = "org.eclipse.platform.ide";
+	private static final String ECLIPSE_PRODUCT_ID = "org.eclipse.sdk.ide";
 	private static final String ECLIPSE_PROFILE_ID = "SDKProfile";
 	private static final Locale ENGLISH = Locale.ENGLISH;
 	private static final Charset UTF8 = StandardCharsets.UTF_8;
