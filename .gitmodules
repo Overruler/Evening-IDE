@@ -244,3 +244,12 @@
 [submodule "libraries/retired-apache-sources"]
 	path = libraries/retired-apache-sources
 	url = https://github.com/Overruler/retired-apache-sources.git
+[submodule "libraries/springsource.eclipse-integration-commons"]
+	path = libraries/springsource.eclipse-integration-commons
+	url = https://github.com/Overruler/eclipse-integration-commons.git
+[submodule "libraries/apache.log4j"]
+	path = libraries/apache.log4j
+	url = https://github.com/apache/log4j.git
+[submodule "libraries/apache.commons-collections"]
+	path = libraries/apache.commons-collections
+	url = https://github.com/apache/commons-collections.git
