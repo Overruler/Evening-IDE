@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     icons/sample.gif
+	     META-INF/MANIFEST.MF
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.springsource.ide.eclipse.commons.quicksearch.jar" path="org.springsource.ide.eclipse.commons.quicksearch"/>
+	<!-- META-INF/VMWARE.RSA
+	     META-INF/VMWARE.SF -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.springsource.ide.eclipse.commons.quicksearch.jar" path="org.springsource.ide.eclipse.commons.quicksearch.jar/x-miss-x"/> -->
+	<!-- org/springsource/ide/eclipse/commons/quicksearch/core/LineItem.java
+	     org/springsource/ide/eclipse/commons/quicksearch/core/preferences/QuickSearchPreferences.java
+	     org/springsource/ide/eclipse/commons/quicksearch/core/priority/DefaultPriorityFunction.java
+	     org/springsource/ide/eclipse/commons/quicksearch/core/priority/PrioriTree.java
+	     org/springsource/ide/eclipse/commons/quicksearch/core/priority/PriorityFunction.java
+	     org/springsource/ide/eclipse/commons/quicksearch/core/QuickTextQuery.java
+	     org/springsource/ide/eclipse/commons/quicksearch/core/QuickTextSearcher.java
+	     org/springsource/ide/eclipse/commons/quicksearch/core/QuickTextSearchRequestor.java
+	     org/springsource/ide/eclipse/commons/quicksearch/core/ResourceWalker.java
+	     org/springsource/ide/eclipse/commons/quicksearch/ui/QuickSearchAction.java
+	     org/springsource/ide/eclipse/commons/quicksearch/ui/QuickSearchActivator.java
+	     org/springsource/ide/eclipse/commons/quicksearch/ui/QuickSearchContext.java
+	     org/springsource/ide/eclipse/commons/quicksearch/ui/QuickSearchDialog.java
+	     org/springsource/ide/eclipse/commons/quicksearch/ui/QuickSearchHandler.java
+	     org/springsource/ide/eclipse/commons/quicksearch/ui/QuickSearchIgnoreSection.java
+	     org/springsource/ide/eclipse/commons/quicksearch/ui/QuickSearchPreferencesPage.java
+	     org/springsource/ide/eclipse/commons/quicksearch/util/DocumentFetcher.java
+	     org/springsource/ide/eclipse/commons/quicksearch/util/JobUtil.java
+	     org/springsource/ide/eclipse/commons/quicksearch/util/LineReader.java
+	     org/springsource/ide/eclipse/commons/quicksearch/util/TableResizeHelper.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.springsource.ide.eclipse.commons.quicksearch.jar" path="org.springsource.ide.eclipse.commons.quicksearch/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.expressions"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.preferences"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jdt.ui-org.eclipse.jdt.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.search"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.editors"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.ide"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.ui.workbench.texteditor"/>
+	<classpathentry kind="src" path="/IDE-other-org.springsource.ide.eclipse.commons.livexp"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

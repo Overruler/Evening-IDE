@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>IDE-other-org.springsource.ide.eclipse.commons.quicksearch</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>org.springsource.ide.eclipse.commons.quicksearch</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/libraries/springsource.eclipse-integration-commons/org.springsource.ide.eclipse.commons.quicksearch</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

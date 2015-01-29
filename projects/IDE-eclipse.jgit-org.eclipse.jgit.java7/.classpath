@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.jgit.java7.jar" path="org.eclipse.jgit.java7"/>
+	<!-- org.eclipse.jgit/org.eclipse.jgit.java7/pom.properties
+	     org.eclipse.jgit/org.eclipse.jgit.java7/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jgit.java7.jar/META-INF/maven" path="org.eclipse.jgit.java7.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- org/eclipse/jgit/util/FS_POSIX_Java7.java
+	     org/eclipse/jgit/util/FS_Win32_Java7.java
+	     org/eclipse/jgit/util/FS_Win32_Java7Cygwin.java
+	     org/eclipse/jgit/util/Java7FSFactory.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jgit.java7.jar" path="org.eclipse.jgit.java7/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

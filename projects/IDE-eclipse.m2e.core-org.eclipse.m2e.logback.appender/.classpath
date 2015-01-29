@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     OSGI-INF/l10n/bundle.properties -->
+	<classpathentry excluding="src/main/java/|.*|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html" kind="src" output="bin/1/plugins/org.eclipse.m2e.logback.appender.jar" path="org.eclipse.m2e.logback.appender"/>
+	<!-- org/eclipse/m2e/logback/appender/EclipseLogAppender.java
+	     org/eclipse/m2e/logback/appender/MavenConsoleAppender.java
+	     org/eclipse/m2e/logback/appender/MavenConsoleAppenderImpl.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.logback.appender.jar" path="org.eclipse.m2e.logback.appender/src/main/java"/>
+	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.logback.appender/pom.properties
+	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.logback.appender/pom.xml -->
+	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.logback.appender.jar" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-ch.qos.logback.classic"/>
+	<classpathentry kind="src" path="/IDE-other-ch.qos.logback.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.m2e.core-org.eclipse.m2e.core.ui"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.debug-org.eclipse.ui.console"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

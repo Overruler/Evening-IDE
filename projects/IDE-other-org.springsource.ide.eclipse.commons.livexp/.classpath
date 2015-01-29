@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     META-INF/MANIFEST.MF -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html" kind="src" output="bin/1/plugins/org.springsource.ide.eclipse.commons.livexp.jar" path="org.springsource.ide.eclipse.commons.livexp"/>
+	<!-- META-INF/VMWARE.RSA
+	     META-INF/VMWARE.SF -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.springsource.ide.eclipse.commons.livexp.jar" path="org.springsource.ide.eclipse.commons.livexp.jar/x-miss-x"/> -->
+	<!-- org/springsource/ide/eclipse/commons/livexp/Activator.java
+	     org/springsource/ide/eclipse/commons/livexp/core/CompositeValidator.java
+	     org/springsource/ide/eclipse/commons/livexp/core/FieldModel.java
+	     org/springsource/ide/eclipse/commons/livexp/core/LiveExpression.java
+	     org/springsource/ide/eclipse/commons/livexp/core/LiveSet.java
+	     org/springsource/ide/eclipse/commons/livexp/core/LiveVariable.java
+	     org/springsource/ide/eclipse/commons/livexp/core/StringFieldModel.java
+	     org/springsource/ide/eclipse/commons/livexp/core/UIValueListener.java
+	     org/springsource/ide/eclipse/commons/livexp/core/ValidationResult.java
+	     org/springsource/ide/eclipse/commons/livexp/core/Validator.java
+	     org/springsource/ide/eclipse/commons/livexp/core/validators/NewProjectLocationValidator.java
+	     org/springsource/ide/eclipse/commons/livexp/core/validators/NewProjectNameValidator.java
+	     org/springsource/ide/eclipse/commons/livexp/core/validators/UrlValidator.java
+	     org/springsource/ide/eclipse/commons/livexp/core/ValueListener.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/ChooseMultipleSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/ChooseOneSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/CommentSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/DialogWithSections.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/GroupSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/Ilabelable.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/InfoFieldSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/IPageWithOkButton.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/IPageWithSections.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/OkButtonHandler.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/PageSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/PreferencePageWithSections.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/PrefsGroupSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/PrefsPageSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/ProjectLocationSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/SimpleLabelProvider.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/StringFieldSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/StyledCommentSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/UIConstants.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/ValidatorSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/WizardPageSection.java
+	     org/springsource/ide/eclipse/commons/livexp/ui/WizardPageWithSections.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.springsource.ide.eclipse.commons.livexp.jar" path="org.springsource.ide.eclipse.commons.livexp/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.jobs"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.common"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.registry"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
+	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.framework-org.eclipse.osgi"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui.workbench"/>
+	<classpathentry kind="src" path="/IDE-other-org.springsource.ide.eclipse.commons.core"/>
+	<classpathentry kind="src" path="/IDE-other-org.springsource.ide.eclipse.commons.frameworks.core"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>
