@@ -253,3 +253,6 @@
 [submodule "libraries/apache.commons-collections"]
 	path = libraries/apache.commons-collections
 	url = https://github.com/apache/commons-collections.git
+[submodule "libraries/qos-ch.logback"]
+	path = libraries/qos-ch.logback
+	url = https://github.com/Overruler/logback.git
