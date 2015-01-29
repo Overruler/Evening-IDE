@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- org/apache/log4j/Appender.java
+	     org/apache/log4j/AppenderSkeleton.java
+	     org/apache/log4j/AsyncAppender.java
+	     org/apache/log4j/BasicConfigurator.java
+	     org/apache/log4j/Category.java
+	     org/apache/log4j/chainsaw/Main.java
+	     org/apache/log4j/config/PropertyGetter.java
+	     org/apache/log4j/config/PropertyPrinter.java
+	     org/apache/log4j/config/PropertySetter.java
+	     org/apache/log4j/config/PropertySetterException.java
+	     org/apache/log4j/ConsoleAppender.java
+	     org/apache/log4j/DailyRollingFileAppender.java
+	     org/apache/log4j/FileAppender.java
+	     org/apache/log4j/helpers/AbsoluteTimeDateFormat.java
+	     org/apache/log4j/helpers/AppenderAttachableImpl.java
+	     org/apache/log4j/helpers/BoundedFIFO.java
+	     org/apache/log4j/helpers/CountingQuietWriter.java
+	     org/apache/log4j/helpers/CyclicBuffer.java
+	     org/apache/log4j/helpers/DateLayout.java
+	     org/apache/log4j/helpers/DateTimeDateFormat.java
+	     org/apache/log4j/helpers/FileWatchdog.java
+	     org/apache/log4j/helpers/FormattingInfo.java
+	     org/apache/log4j/helpers/ISO8601DateFormat.java
+	     org/apache/log4j/helpers/Loader.java
+	     org/apache/log4j/helpers/LogLog.java
+	     org/apache/log4j/helpers/NullEnumeration.java
+	     org/apache/log4j/helpers/OnlyOnceErrorHandler.java
+	     org/apache/log4j/helpers/OptionConverter.java
+	     org/apache/log4j/helpers/PatternConverter.java
+	     org/apache/log4j/helpers/PatternParser.java
+	     org/apache/log4j/helpers/QuietWriter.java
+	     org/apache/log4j/helpers/RelativeTimeDateFormat.java
+	     org/apache/log4j/helpers/SyslogQuietWriter.java
+	     org/apache/log4j/helpers/SyslogWriter.java
+	     org/apache/log4j/helpers/ThreadLocalMap.java
+	     org/apache/log4j/helpers/Transform.java
+	     org/apache/log4j/Hierarchy.java
+	     org/apache/log4j/HTMLLayout.java
+	     org/apache/log4j/jdbc/JDBCAppender.java
+	     org/apache/log4j/jmx/AbstractDynamicMBean.java
+	     org/apache/log4j/jmx/AppenderDynamicMBean.java
+	     org/apache/log4j/jmx/HierarchyDynamicMBean.java
+	     org/apache/log4j/jmx/LayoutDynamicMBean.java
+	     org/apache/log4j/jmx/LoggerDynamicMBean.java
+	     org/apache/log4j/Layout.java
+	     org/apache/log4j/Level.java
+	     org/apache/log4j/lf5/AppenderFinalizer.java
+	     org/apache/log4j/lf5/DefaultLF5Configurator.java
+	     org/apache/log4j/lf5/LF5Appender.java
+	     org/apache/log4j/lf5/Log4JLogRecord.java
+	     org/apache/log4j/lf5/LogLevel.java
+	     org/apache/log4j/lf5/LogLevelFormatException.java
+	     org/apache/log4j/lf5/LogRecord.java
+	     org/apache/log4j/lf5/LogRecordFilter.java
+	     org/apache/log4j/lf5/PassingLogRecordFilter.java
+	     org/apache/log4j/lf5/StartLogFactor5.java
+	     org/apache/log4j/lf5/util/AdapterLogRecord.java
+	     org/apache/log4j/lf5/util/DateFormatManager.java
+	     org/apache/log4j/lf5/util/LogFileParser.java
+	     org/apache/log4j/lf5/util/LogMonitorAdapter.java
+	     org/apache/log4j/lf5/util/Resource.java
+	     org/apache/log4j/lf5/util/ResourceUtils.java
+	     org/apache/log4j/lf5/util/StreamUtils.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryAbstractCellEditor.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryElement.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerLogRecordFilter.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerTree.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryImmediateEditor.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNode.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditorRenderer.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeRenderer.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/CategoryPath.java
+	     org/apache/log4j/lf5/viewer/categoryexplorer/TreeModelAdapter.java
+	     org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java
+	     org/apache/log4j/lf5/viewer/configure/MRUFileManager.java
+	     org/apache/log4j/lf5/viewer/FilteredLogTableModel.java
+	     org/apache/log4j/lf5/viewer/LF5SwingUtils.java
+	     org/apache/log4j/lf5/viewer/LogBrokerMonitor.java
+	     org/apache/log4j/lf5/viewer/LogFactor5Dialog.java
+	     org/apache/log4j/lf5/viewer/LogFactor5ErrorDialog.java
+	     org/apache/log4j/lf5/viewer/LogFactor5InputDialog.java
+	     org/apache/log4j/lf5/viewer/LogFactor5LoadingDialog.java
+	     org/apache/log4j/lf5/viewer/LogTable.java
+	     org/apache/log4j/lf5/viewer/LogTableColumn.java
+	     org/apache/log4j/lf5/viewer/LogTableColumnFormatException.java
+	     org/apache/log4j/lf5/viewer/LogTableModel.java
+	     org/apache/log4j/lf5/viewer/LogTableRowRenderer.java
+	     org/apache/log4j/lf5/viewer/TrackingAdjustmentListener.java
+	     org/apache/log4j/Logger.java
+	     org/apache/log4j/LogManager.java
+	     org/apache/log4j/MDC.java
+	     org/apache/log4j/NDC.java
+	     org/apache/log4j/net/SimpleSocketServer.java
+	     org/apache/log4j/net/SocketAppender.java
+	     org/apache/log4j/net/SocketHubAppender.java
+	     org/apache/log4j/net/SocketNode.java
+	     org/apache/log4j/net/SocketServer.java
+	     org/apache/log4j/net/SyslogAppender.java
+	     org/apache/log4j/net/TelnetAppender.java
+	     org/apache/log4j/nt/NTEventLogAppender.java
+	     org/apache/log4j/or/ObjectRenderer.java
+	     org/apache/log4j/or/RendererMap.java
+	     org/apache/log4j/or/sax/AttributesRenderer.java
+	     org/apache/log4j/or/ThreadGroupRenderer.java
+	     org/apache/log4j/PatternLayout.java
+	     org/apache/log4j/Priority.java
+	     org/apache/log4j/PropertyConfigurator.java
+	     org/apache/log4j/RollingFileAppender.java
+	     org/apache/log4j/SimpleLayout.java
+	     org/apache/log4j/spi/AppenderAttachable.java
+	     org/apache/log4j/spi/Configurator.java
+	     org/apache/log4j/spi/DefaultRepositorySelector.java
+	     org/apache/log4j/spi/ErrorCode.java
+	     org/apache/log4j/spi/ErrorHandler.java
+	     org/apache/log4j/spi/Filter.java
+	     org/apache/log4j/spi/HierarchyEventListener.java
+	     org/apache/log4j/spi/LocationInfo.java
+	     org/apache/log4j/spi/LoggerFactory.java
+	     org/apache/log4j/spi/LoggerRepository.java
+	     org/apache/log4j/spi/LoggingEvent.java
+	     org/apache/log4j/spi/OptionHandler.java
+	     org/apache/log4j/spi/RendererSupport.java
+	     org/apache/log4j/spi/RepositorySelector.java
+	     org/apache/log4j/spi/RootCategory.java
+	     org/apache/log4j/spi/RootLogger.java
+	     org/apache/log4j/spi/ThrowableInformation.java
+	     org/apache/log4j/spi/TriggeringEventEvaluator.java
+	     org/apache/log4j/TTCCLayout.java
+	     org/apache/log4j/varia/DenyAllFilter.java
+	     org/apache/log4j/varia/ExternallyRolledFileAppender.java
+	     org/apache/log4j/varia/FallbackErrorHandler.java
+	     org/apache/log4j/varia/LevelMatchFilter.java
+	     org/apache/log4j/varia/LevelRangeFilter.java
+	     org/apache/log4j/varia/NullAppender.java
+	     org/apache/log4j/varia/ReloadingPropertyConfigurator.java
+	     org/apache/log4j/varia/Roller.java
+	     org/apache/log4j/varia/StringMatchFilter.java
+	     org/apache/log4j/WriterAppender.java
+	     org/apache/log4j/xml/DOMConfigurator.java
+	     org/apache/log4j/xml/Log4jEntityResolver.java
+	     org/apache/log4j/xml/SAXErrorHandler.java
+	     org/apache/log4j/xml/UnrecognizedElementHandler.java
+	     org/apache/log4j/xml/XMLLayout.java -->
+	<classpathentry excluding="org/apache/log4j/jmx/Agent.java|org/apache/log4j/net/JMSAppender.java|org/apache/log4j/net/JMSSink.java|org/apache/log4j/net/SMTPAppender.java|org/apache/log4j/or/jms/MessageRenderer.java" including="org/apache/log4j/*|org/apache/log4j/chainsaw/*|org/apache/log4j/config/*|org/apache/log4j/helpers/*|org/apache/log4j/jdbc/*|org/apache/log4j/jmx/*|org/apache/log4j/lf5/*|org/apache/log4j/lf5/util/*|org/apache/log4j/lf5/viewer/*|org/apache/log4j/lf5/viewer/categoryexplorer/*|org/apache/log4j/lf5/viewer/configure/*|org/apache/log4j/net/*|org/apache/log4j/nt/*|org/apache/log4j/or/*|org/apache/log4j/or/sax/*|org/apache/log4j/spi/*|org/apache/log4j/varia/*|org/apache/log4j/xml/*" kind="src" output="bin/1/plugins/org.apache.log4j.jar" path="apache.log4j/src/main/java"/>
+	<!-- org/apache/log4j/xml/log4j.dtd -->
+	<classpathentry including="org/apache/log4j/xml/*" kind="src" output="bin/1/plugins/org.apache.log4j.jar" path="apache.log4j/src/main/javadoc"/>
+	<!-- org/apache/log4j/lf5/config/defaultconfig.properties
+	     org/apache/log4j/lf5/viewer/images/channelexplorer_new.gif
+	     org/apache/log4j/lf5/viewer/images/channelexplorer_satellite.gif
+	     org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif -->
+	<classpathentry including="org/apache/log4j/lf5/config/*|org/apache/log4j/lf5/viewer/images/*" kind="src" output="bin/1/plugins/org.apache.log4j.jar" path="apache.log4j/src/main/resources"/>
+	<!-- log4j/spi/NOPLogger.java
+	     log4j/spi/NOPLoggerRepository.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.apache.log4j.jar/org/apache" path="org.apache.log4j.jar/org/apache/x-miss-x"/> -->
+	<!-- about.html
+	     about_files/LICENSE.txt
+	     about_files/NOTICE.txt
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.log4j.jar" path="res"/>
+	<!-- org/apache/log4j/jmx/Agent.java
+	     org/apache/log4j/net/JMSAppender.java
+	     org/apache/log4j/net/JMSSink.java
+	     org/apache/log4j/net/SMTPAppender.java
+	     org/apache/log4j/or/jms/MessageRenderer.java -->
+	<classpathentry kind="src" output="bin/1/plugins/org.apache.log4j.jar" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

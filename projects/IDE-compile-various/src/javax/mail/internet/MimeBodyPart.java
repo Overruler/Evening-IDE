@@ -14,4 +14,6 @@ public class MimeBodyPart extends BodyPart implements MimePart {
 	public void setFileName(String filename) throws MessagingException {}
 	@Override
 	public void setContent(Multipart mp) throws MessagingException {}
+	public void setText(String string, String charsetEncoding, String subType) {}
+	public void setContent(String string, String contentType) {}
 }

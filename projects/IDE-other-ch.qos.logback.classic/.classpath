@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- classic/boolex/EvaluatorTemplate.java
+	     classic/gaffer/AppenderDelegate.java
+	     classic/gaffer/ComponentDelegate.java
+	     classic/gaffer/ConfigurationContributor.java
+	     classic/gaffer/ConfigurationDelegate.java
+	     classic/gaffer/GafferConfigurator.java
+	     classic/gaffer/NestingType.java
+	     classic/gaffer/PropertyUtil.java
+	     classic/sift/AppenderFactory.java
+	     classic/sift/GSiftingAppender.java
+	     classic/sift/ZSiftingDelegate.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/ch.qos.logback.classic.jar/ch/qos/logback" path="ch.qos.logback.classic.jar/ch/qos/logback/x-miss-x"/> -->
+	<!-- about.html
+	     META-INF/MANIFEST.MF
+	     plugin.properties -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/ch.qos.logback.classic.jar" path="ch.qos.logback.classic.jar/x-miss-x"/> -->
+	<!-- ch/qos/logback/classic/boolex/EvaluatorTemplate.groovy -->
+	<classpathentry including="ch/qos/logback/classic/boolex/*" kind="src" output="bin/1/plugins/ch.qos.logback.classic.jar" path="logback-classic/src/main/groovy"/>
+	<!-- ch/qos/logback/classic/AsyncAppender.java
+	     ch/qos/logback/classic/BasicConfigurator.java
+	     ch/qos/logback/classic/boolex/GEventEvaluator.java
+	     ch/qos/logback/classic/boolex/IEvaluator.java
+	     ch/qos/logback/classic/boolex/JaninoEventEvaluator.java
+	     ch/qos/logback/classic/boolex/OnErrorEvaluator.java
+	     ch/qos/logback/classic/boolex/OnMarkerEvaluator.java
+	     ch/qos/logback/classic/ClassicConstants.java
+	     ch/qos/logback/classic/db/DBAppender.java
+	     ch/qos/logback/classic/db/DBHelper.java
+	     ch/qos/logback/classic/db/names/ColumnName.java
+	     ch/qos/logback/classic/db/names/DBNameResolver.java
+	     ch/qos/logback/classic/db/names/DefaultDBNameResolver.java
+	     ch/qos/logback/classic/db/names/SimpleDBNameResolver.java
+	     ch/qos/logback/classic/db/names/TableName.java
+	     ch/qos/logback/classic/db/SQLBuilder.java
+	     ch/qos/logback/classic/encoder/PatternLayoutEncoder.java
+	     ch/qos/logback/classic/filter/LevelFilter.java
+	     ch/qos/logback/classic/filter/ThresholdFilter.java
+	     ch/qos/logback/classic/gaffer/GafferUtil.java
+	     ch/qos/logback/classic/helpers/MDCInsertingServletFilter.java
+	     ch/qos/logback/classic/html/DefaultCssBuilder.java
+	     ch/qos/logback/classic/html/DefaultThrowableRenderer.java
+	     ch/qos/logback/classic/html/HTMLLayout.java
+	     ch/qos/logback/classic/html/UrlCssBuilder.java
+	     ch/qos/logback/classic/jmx/JMXConfigurator.java
+	     ch/qos/logback/classic/jmx/JMXConfiguratorMBean.java
+	     ch/qos/logback/classic/jmx/MBeanUtil.java
+	     ch/qos/logback/classic/joran/action/ConfigurationAction.java
+	     ch/qos/logback/classic/joran/action/ConsolePluginAction.java
+	     ch/qos/logback/classic/joran/action/ContextNameAction.java
+	     ch/qos/logback/classic/joran/action/EvaluatorAction.java
+	     ch/qos/logback/classic/joran/action/InsertFromJNDIAction.java
+	     ch/qos/logback/classic/joran/action/JMXConfiguratorAction.java
+	     ch/qos/logback/classic/joran/action/LevelAction.java
+	     ch/qos/logback/classic/joran/action/LoggerAction.java
+	     ch/qos/logback/classic/joran/action/LoggerContextListenerAction.java
+	     ch/qos/logback/classic/joran/action/RootLoggerAction.java
+	     ch/qos/logback/classic/joran/JoranConfigurator.java
+	     ch/qos/logback/classic/jul/JULHelper.java
+	     ch/qos/logback/classic/jul/LevelChangePropagator.java
+	     ch/qos/logback/classic/Level.java
+	     ch/qos/logback/classic/log4j/XMLLayout.java
+	     ch/qos/logback/classic/Logger.java
+	     ch/qos/logback/classic/LoggerContext.java
+	     ch/qos/logback/classic/net/JMSQueueAppender.java
+	     ch/qos/logback/classic/net/JMSQueueSink.java
+	     ch/qos/logback/classic/net/JMSTopicAppender.java
+	     ch/qos/logback/classic/net/JMSTopicSink.java
+	     ch/qos/logback/classic/net/LoggingEventPreSerializationTransformer.java
+	     ch/qos/logback/classic/net/SimpleSocketServer.java
+	     ch/qos/logback/classic/net/SMTPAppender.java
+	     ch/qos/logback/classic/net/SocketAppender.java
+	     ch/qos/logback/classic/net/SocketNode.java
+	     ch/qos/logback/classic/net/SyslogAppender.java
+	     ch/qos/logback/classic/PatternLayout.java
+	     ch/qos/logback/classic/pattern/Abbreviator.java
+	     ch/qos/logback/classic/pattern/CallerDataConverter.java
+	     ch/qos/logback/classic/pattern/ClassicConverter.java
+	     ch/qos/logback/classic/pattern/ClassNameOnlyAbbreviator.java
+	     ch/qos/logback/classic/pattern/ClassOfCallerConverter.java
+	     ch/qos/logback/classic/pattern/color/HighlightingCompositeConverter.java
+	     ch/qos/logback/classic/pattern/ContextNameConverter.java
+	     ch/qos/logback/classic/pattern/DateConverter.java
+	     ch/qos/logback/classic/pattern/EnsureExceptionHandling.java
+	     ch/qos/logback/classic/pattern/ExtendedThrowableProxyConverter.java
+	     ch/qos/logback/classic/pattern/FileOfCallerConverter.java
+	     ch/qos/logback/classic/pattern/LevelConverter.java
+	     ch/qos/logback/classic/pattern/LineOfCallerConverter.java
+	     ch/qos/logback/classic/pattern/LineSeparatorConverter.java
+	     ch/qos/logback/classic/pattern/LoggerConverter.java
+	     ch/qos/logback/classic/pattern/MarkerConverter.java
+	     ch/qos/logback/classic/pattern/MDCConverter.java
+	     ch/qos/logback/classic/pattern/MessageConverter.java
+	     ch/qos/logback/classic/pattern/MethodOfCallerConverter.java
+	     ch/qos/logback/classic/pattern/NamedConverter.java
+	     ch/qos/logback/classic/pattern/NopThrowableInformationConverter.java
+	     ch/qos/logback/classic/pattern/PropertyConverter.java
+	     ch/qos/logback/classic/pattern/RelativeTimeConverter.java
+	     ch/qos/logback/classic/pattern/RootCauseFirstThrowableProxyConverter.java
+	     ch/qos/logback/classic/pattern/SyslogStartConverter.java
+	     ch/qos/logback/classic/pattern/TargetLengthBasedClassNameAbbreviator.java
+	     ch/qos/logback/classic/pattern/ThreadConverter.java
+	     ch/qos/logback/classic/pattern/ThrowableHandlingConverter.java
+	     ch/qos/logback/classic/pattern/ThrowableProxyConverter.java
+	     ch/qos/logback/classic/pattern/Util.java
+	     ch/qos/logback/classic/selector/ContextJNDISelector.java
+	     ch/qos/logback/classic/selector/ContextSelector.java
+	     ch/qos/logback/classic/selector/DefaultContextSelector.java
+	     ch/qos/logback/classic/selector/servlet/ContextDetachingSCL.java
+	     ch/qos/logback/classic/selector/servlet/LoggerContextFilter.java
+	     ch/qos/logback/classic/sift/ContextBasedDiscriminator.java
+	     ch/qos/logback/classic/sift/JNDIBasedContextDiscriminator.java
+	     ch/qos/logback/classic/sift/MDCBasedDiscriminator.java
+	     ch/qos/logback/classic/sift/SiftAction.java
+	     ch/qos/logback/classic/sift/SiftingAppender.java
+	     ch/qos/logback/classic/sift/SiftingJoranConfigurator.java
+	     ch/qos/logback/classic/spi/CallerData.java
+	     ch/qos/logback/classic/spi/ClassPackagingData.java
+	     ch/qos/logback/classic/spi/ILoggingEvent.java
+	     ch/qos/logback/classic/spi/IThrowableProxy.java
+	     ch/qos/logback/classic/spi/LoggerComparator.java
+	     ch/qos/logback/classic/spi/LoggerContextAware.java
+	     ch/qos/logback/classic/spi/LoggerContextAwareBase.java
+	     ch/qos/logback/classic/spi/LoggerContextListener.java
+	     ch/qos/logback/classic/spi/LoggerContextVO.java
+	     ch/qos/logback/classic/spi/LoggerRemoteView.java
+	     ch/qos/logback/classic/spi/LoggingEvent.java
+	     ch/qos/logback/classic/spi/LoggingEventVO.java
+	     ch/qos/logback/classic/spi/PackagingDataCalculator.java
+	     ch/qos/logback/classic/spi/PlatformInfo.java
+	     ch/qos/logback/classic/spi/StackTraceElementProxy.java
+	     ch/qos/logback/classic/spi/STEUtil.java
+	     ch/qos/logback/classic/spi/ThrowableProxy.java
+	     ch/qos/logback/classic/spi/ThrowableProxyUtil.java
+	     ch/qos/logback/classic/spi/ThrowableProxyVO.java
+	     ch/qos/logback/classic/spi/TurboFilterList.java
+	     ch/qos/logback/classic/turbo/DuplicateMessageFilter.java
+	     ch/qos/logback/classic/turbo/DynamicThresholdFilter.java
+	     ch/qos/logback/classic/turbo/MarkerFilter.java
+	     ch/qos/logback/classic/turbo/MatchingFilter.java
+	     ch/qos/logback/classic/turbo/MDCFilter.java
+	     ch/qos/logback/classic/turbo/MDCValueLevelPair.java
+	     ch/qos/logback/classic/turbo/ReconfigureOnChangeFilter.java
+	     ch/qos/logback/classic/turbo/TurboFilter.java
+	     ch/qos/logback/classic/util/ContextInitializer.java
+	     ch/qos/logback/classic/util/ContextSelectorStaticBinder.java
+	     ch/qos/logback/classic/util/CopyOnInheritThreadLocal.java
+	     ch/qos/logback/classic/util/DefaultNestedComponentRules.java
+	     ch/qos/logback/classic/util/EnvUtil.java
+	     ch/qos/logback/classic/util/JNDIUtil.java
+	     ch/qos/logback/classic/util/LevelToSyslogSeverity.java
+	     ch/qos/logback/classic/util/LogbackMDCAdapter.java
+	     ch/qos/logback/classic/util/LoggerNameUtil.java
+	     ch/qos/logback/classic/util/StatusListenerConfigHelper.java
+	     ch/qos/logback/classic/ViewStatusMessagesServlet.java -->
+	<classpathentry including="ch/qos/logback/classic/*|ch/qos/logback/classic/boolex/*|ch/qos/logback/classic/db/*|ch/qos/logback/classic/db/names/*|ch/qos/logback/classic/encoder/*|ch/qos/logback/classic/filter/*|ch/qos/logback/classic/gaffer/*|ch/qos/logback/classic/helpers/*|ch/qos/logback/classic/html/*|ch/qos/logback/classic/jmx/*|ch/qos/logback/classic/joran/*|ch/qos/logback/classic/joran/action/*|ch/qos/logback/classic/jul/*|ch/qos/logback/classic/log4j/*|ch/qos/logback/classic/net/*|ch/qos/logback/classic/pattern/*|ch/qos/logback/classic/pattern/color/*|ch/qos/logback/classic/selector/*|ch/qos/logback/classic/selector/servlet/*|ch/qos/logback/classic/sift/*|ch/qos/logback/classic/spi/*|ch/qos/logback/classic/turbo/*|ch/qos/logback/classic/util/*" kind="src" output="bin/1/plugins/ch.qos.logback.classic.jar" path="logback-classic/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-logback"/>
+	<classpathentry kind="src" path="/IDE-compile-various"/>
+	<classpathentry kind="src" path="/IDE-other-ch.qos.logback.core"/>
+	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

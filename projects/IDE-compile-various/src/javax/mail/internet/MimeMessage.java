@@ -1,5 +1,6 @@
 package javax.mail.internet;
 
+import java.util.Date;
 import javax.activation.DataHandler;
 import javax.mail.Address;
 import javax.mail.Message;
@@ -10,6 +11,7 @@ import javax.mail.Session;
 public class MimeMessage extends Message {
 	public MimeMessage(Session sesh) {}
 	public void setFrom(Address address) throws MessagingException {}
+	public void setFrom() {}
 	public void setReplyTo(Address[] internetAddresses) throws MessagingException {}
 	public void setRecipients(RecipientType to, Address[] internetAddresses) throws MessagingException {}
 	public void setSubject(String subject, String charset) throws MessagingException {}
@@ -26,4 +28,5 @@ public class MimeMessage extends Message {
 	public Address[] getAllRecipients() throws MessagingException {
 		return null;
 	}
+	public void setSentDate(Date date) {}
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="qos-ch.logback/logback-core/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-compile-various"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/IDE-other-javax.servlet"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

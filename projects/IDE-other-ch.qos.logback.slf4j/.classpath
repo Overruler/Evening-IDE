@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- about.html
+	     fragment.properties
+	     META-INF/MANIFEST.MF -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/ch.qos.logback.slf4j.jar" path="ch.qos.logback.slf4j.jar/x-miss-x"/> -->
+	<!-- org/slf4j/impl/StaticLoggerBinder.java
+	     org/slf4j/impl/StaticMarkerBinder.java
+	     org/slf4j/impl/StaticMDCBinder.java -->
+	<classpathentry including="org/slf4j/impl/*" kind="src" output="bin/1/plugins/ch.qos.logback.slf4j.jar" path="qos-ch.logback/logback-classic/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-ch.qos.logback.classic"/>
+	<classpathentry kind="src" path="/IDE-other-ch.qos.logback.core"/>
+	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>
