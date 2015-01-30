@@ -19,7 +19,9 @@
 	     org/eclipse/mylyn/internal/hudson/core/HudsonConnector.java
 	     org/eclipse/mylyn/internal/hudson/core/HudsonCorePlugin.java
 	     org/eclipse/mylyn/internal/hudson/core/HudsonServerBehaviour.java
-	     org/eclipse/mylyn/internal/hudson/core/HudsonStatus.java -->
+	     org/eclipse/mylyn/internal/hudson/core/HudsonStatus.java
+	     org/eclipse/mylyn/internal/hudson/core/Messages.java
+	     org/eclipse/mylyn/internal/hudson/core/messages.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.hudson.core.jar" path="org.eclipse.mylyn.hudson.core/src"/>
 	<!-- org/eclipse/mylyn/internal/hudson/model/HudsonMavenAbstractMavenBuild.java
 	     org/eclipse/mylyn/internal/hudson/model/HudsonMavenMavenModuleSetBuild.java

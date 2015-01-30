@@ -16,5 +16,6 @@
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jgit.ui.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit.java7"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>

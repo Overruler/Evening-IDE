@@ -30,6 +30,7 @@
 	<classpathentry kind="src" path="/IDE-other-org.apache.commons.compress"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit.archive"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit.java7"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit.ui"/>
 	<classpathentry kind="src" path="/IDE-other-org.kohsuke.args4j"/>
 	<classpathentry kind="output" path="classes"/>

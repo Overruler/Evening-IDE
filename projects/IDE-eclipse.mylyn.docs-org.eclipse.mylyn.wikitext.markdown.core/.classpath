@@ -15,6 +15,7 @@
 	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/ParagraphBlock.java
 	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/QuoteBlock.java
 	     org/eclipse/mylyn/internal/wikitext/markdown/core/block/UnderlinedHeadingBlock.java
+	     org/eclipse/mylyn/internal/wikitext/markdown/core/GfmIdGenerationStrategy.java
 	     org/eclipse/mylyn/internal/wikitext/markdown/core/LinkDefinition.java
 	     org/eclipse/mylyn/internal/wikitext/markdown/core/LinkDefinitionParser.java
 	     org/eclipse/mylyn/internal/wikitext/markdown/core/LinkDefinitionUsageTracker.java

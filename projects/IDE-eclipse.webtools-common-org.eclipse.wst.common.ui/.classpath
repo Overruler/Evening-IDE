@@ -9,6 +9,9 @@
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|src-search/|.*|.*/" including="META-INF/*|about.html|icons/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.common.ui.jar" path="org.eclipse.wst.common.ui"/>
+	<!-- org.eclipse.webtools.common/org.eclipse.wst.common.ui/pom.properties
+	     org.eclipse.webtools.common/org.eclipse.wst.common.ui/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.wst.common.ui.jar/META-INF/maven" path="org.eclipse.wst.common.ui.jar/META-INF/maven/x-miss-x"/> -->
 	<!-- org/eclipse/wst/common/ui/internal/CommonUIMessages.properties
 	     org/eclipse/wst/common/ui/internal/dialogs/SaveDirtyFilesDialog.java
 	     org/eclipse/wst/common/ui/internal/dialogs/SelectSingleFileDialog.java

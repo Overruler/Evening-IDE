@@ -5,7 +5,7 @@
 	     META-INF/MANIFEST.MF
 	     META-INF/p2.inf
 	     OSGI-INF/l10n/bundle.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html|defaultLogbackConfiguration/*" kind="src" output="bin/1/plugins/org.eclipse.m2e.logback.configuration.jar" path="org.eclipse.m2e.logback.configuration"/>
+	<classpathentry excluding="src/|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html|defaultLogbackConfiguration/*" kind="src" output="bin/1/plugins/org.eclipse.m2e.logback.configuration.jar" path="org.eclipse.m2e.logback.configuration"/>
 	<!-- org/eclipse/m2e/logback/configuration/LogHelper.java
 	     org/eclipse/m2e/logback/configuration/LogPlugin.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.logback.configuration.jar" path="org.eclipse.m2e.logback.configuration/src"/>

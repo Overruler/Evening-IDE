@@ -10,8 +10,9 @@
 	     icons/progress/ani/7.png
 	     icons/progress/ani/8.png
 	     META-INF/MANIFEST.MF
-	     plugin.properties -->
-	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/progress/ani/*|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.ui.forms.jar" path="org.eclipse.ui.forms"/>
+	     plugin.properties
+	     plugin.xml -->
+	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/progress/ani/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.ui.forms.jar" path="org.eclipse.ui.forms"/>
 	<!-- org/eclipse/ui/forms/AbstractFormPart.java
 	     org/eclipse/ui/forms/DetailsPart.java
 	     org/eclipse/ui/forms/editor/FormEditor.java
@@ -62,6 +63,9 @@
 	     org/eclipse/ui/forms/widgets/ToggleHyperlink.java
 	     org/eclipse/ui/forms/widgets/TreeNode.java
 	     org/eclipse/ui/forms/widgets/Twistie.java
+	     org/eclipse/ui/internal/forms/css/dom/FormsElementProvider.java
+	     org/eclipse/ui/internal/forms/css/dom/SectionElement.java
+	     org/eclipse/ui/internal/forms/css/properties/css2/CSSPropertyTitleFormsHandler.java
 	     org/eclipse/ui/internal/forms/FormsPlugin.java
 	     org/eclipse/ui/internal/forms/IMessageToolTipManager.java
 	     org/eclipse/ui/internal/forms/MessageManager.java
@@ -99,6 +103,8 @@
 	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
 	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.core"/>
+	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.e4.ui.css.swt"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.jface"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ui-org.eclipse.ui"/>
 	<classpathentry kind="output" path="classes"/>

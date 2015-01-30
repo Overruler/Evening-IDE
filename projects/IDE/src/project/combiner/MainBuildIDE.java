@@ -555,6 +555,8 @@ public class MainBuildIDE {
 		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.jdt");
 		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.launching");
 		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.lifecyclemapping.defaults");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.logback.appender");
+		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.logback.configuration");
 		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.model.edit");
 		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.profiles.core");
 		undatePomVersionToM2e(dir1, group1, "org.eclipse.m2e.profiles.ui");
@@ -729,9 +731,15 @@ public class MainBuildIDE {
 			System.out.printf("%n(done reading %,d bytes)", bytesRead);
 		}
 	}
-	private static void readSnapshot() throws IOException {
+	private static void readSnapshot() {
 		if(Files.isRegularFile(IDE_ZIP)) {
-			snapshot.read(IDE_ZIP);
+			try {
+				snapshot.read(IDE_ZIP);
+			} catch(IOException e) {
+				snapshot.clear();
+				System.out.println("Error reading snapshot:");
+				e.printStackTrace(System.out);
+			}
 		}
 	}
 	private static Path toCopyOperationTarget(Path path) {

@@ -3,7 +3,7 @@
 	<!-- about.html
 	     META-INF/MANIFEST.MF
 	     OSGI-INF/l10n/bundle.properties -->
-	<classpathentry excluding="src/main/java/|.*|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html" kind="src" output="bin/1/plugins/org.eclipse.m2e.logback.appender.jar" path="org.eclipse.m2e.logback.appender"/>
+	<classpathentry excluding="src/main/java/|.*/" including="META-INF/*|OSGI-INF/l10n/*|about.html" kind="src" output="bin/1/plugins/org.eclipse.m2e.logback.appender.jar" path="org.eclipse.m2e.logback.appender"/>
 	<!-- org/eclipse/m2e/logback/appender/EclipseLogAppender.java
 	     org/eclipse/m2e/logback/appender/MavenConsoleAppender.java
 	     org/eclipse/m2e/logback/appender/MavenConsoleAppenderImpl.java -->

@@ -5,6 +5,9 @@
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="property_file/|src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.common.emfworkbench.integration.jar" path="org.eclipse.wst.common.emfworkbench.integration"/>
+	<!-- org.eclipse.webtools.common/org.eclipse.wst.common.emfworkbench.integration/pom.properties
+	     org.eclipse.webtools.common/org.eclipse.wst.common.emfworkbench.integration/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.wst.common.emfworkbench.integration.jar/META-INF/maven" path="org.eclipse.wst.common.emfworkbench.integration.jar/META-INF/maven/x-miss-x"/> -->
 	<!-- emftosed.properties
 	     emfworkbenchedit.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.common.emfworkbench.integration.jar" path="org.eclipse.wst.common.emfworkbench.integration/property_file"/>

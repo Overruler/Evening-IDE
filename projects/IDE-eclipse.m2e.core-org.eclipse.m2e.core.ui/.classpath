@@ -45,6 +45,8 @@
 	     plugin.xml
 	     schema/discoveryLaunch.exsd -->
 	<classpathentry excluding="src/|.*/" including="META-INF/*|about.html|help/*|helpContext.xml|icons/*|intro/*|intro/css/*|m2eclipse.gif|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.m2e.core.ui.jar" path="org.eclipse.m2e.core.ui"/>
+	<!-- internal/wizards/AbstactCreateMavenProjectJob.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.core.ui.jar/org/eclipse/m2e/core/ui" path="org.eclipse.m2e.core.ui.jar/org/eclipse/m2e/core/ui/x-miss-x"/> -->
 	<!-- org/eclipse/m2e/core/ui/internal/actions/AddDependencyAction.java
 	     org/eclipse/m2e/core/ui/internal/actions/AddPluginAction.java
 	     org/eclipse/m2e/core/ui/internal/actions/AssignWorkingSetAction.java
@@ -148,7 +150,6 @@
 	     org/eclipse/m2e/core/ui/internal/views/nodes/WorkspaceRepositoryNode.java
 	     org/eclipse/m2e/core/ui/internal/views/RepositoryViewContentProvider.java
 	     org/eclipse/m2e/core/ui/internal/views/RepositoryViewLabelProvider.java
-	     org/eclipse/m2e/core/ui/internal/wizards/AbstactCreateMavenProjectJob.java
 	     org/eclipse/m2e/core/ui/internal/wizards/AbstractCreateMavenProjectsOperation.java
 	     org/eclipse/m2e/core/ui/internal/wizards/AbstractMavenProjectWizard.java
 	     org/eclipse/m2e/core/ui/internal/wizards/AbstractMavenWizardPage.java

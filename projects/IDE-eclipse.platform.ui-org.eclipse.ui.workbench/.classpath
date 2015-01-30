@@ -369,7 +369,9 @@
 	     org/eclipse/ui/internal/dialogs/AdaptableForwarder.java
 	     org/eclipse/ui/internal/dialogs/CapabilityFilter.java
 	     org/eclipse/ui/internal/dialogs/ContentTypesPreferencePage.java
-	     org/eclipse/ui/internal/dialogs/CustomizePerspectiveDialog.java
+	     org/eclipse/ui/internal/dialogs/cpd/CustomizeActionBars.java
+	     org/eclipse/ui/internal/dialogs/cpd/CustomizePerspectiveDialog.java
+	     org/eclipse/ui/internal/dialogs/cpd/TreeManager.java
 	     org/eclipse/ui/internal/dialogs/DecoratorsPreferencePage.java
 	     org/eclipse/ui/internal/dialogs/DialogUtil.java
 	     org/eclipse/ui/internal/dialogs/EditorsPreferencePage.java
@@ -404,7 +406,6 @@
 	     org/eclipse/ui/internal/dialogs/ShowViewDialog.java
 	     org/eclipse/ui/internal/dialogs/SimpleWorkingSetSelectionDialog.java
 	     org/eclipse/ui/internal/dialogs/StartupPreferencePage.java
-	     org/eclipse/ui/internal/dialogs/TreeManager.java
 	     org/eclipse/ui/internal/dialogs/ViewComparator.java
 	     org/eclipse/ui/internal/dialogs/ViewContentProvider.java
 	     org/eclipse/ui/internal/dialogs/ViewLabelProvider.java

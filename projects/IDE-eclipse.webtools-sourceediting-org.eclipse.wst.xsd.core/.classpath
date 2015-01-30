@@ -5,6 +5,9 @@
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|src-contentmodel/|src-validation/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.wst.xsd.core.jar" path="org.eclipse.wst.xsd.core"/>
+	<!-- org.eclipse.webtools.sourceediting/org.eclipse.wst.xsd.core/pom.properties
+	     org.eclipse.webtools.sourceediting/org.eclipse.wst.xsd.core/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.wst.xsd.core.jar/META-INF/maven" path="org.eclipse.wst.xsd.core.jar/META-INF/maven/x-miss-x"/> -->
 	<!-- org/eclipse/wst/xsd/core/internal/preferences/XSDCorePreferenceInitializer.java
 	     org/eclipse/wst/xsd/core/internal/preferences/XSDCorePreferenceNames.java
 	     org/eclipse/wst/xsd/core/internal/XSDCorePlugin.java -->

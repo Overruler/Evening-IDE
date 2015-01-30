@@ -55,6 +55,25 @@
 	     javax/servlet/ReadListener.java
 	     javax/servlet/Registration.java
 	     javax/servlet/RequestDispatcher.java
+	     javax/servlet/resources/datatypes.dtd
+	     javax/servlet/resources/j2ee_1_4.xsd
+	     javax/servlet/resources/j2ee_web_services_1_1.xsd
+	     javax/servlet/resources/j2ee_web_services_client_1_1.xsd
+	     javax/servlet/resources/javaee_5.xsd
+	     javax/servlet/resources/javaee_6.xsd
+	     javax/servlet/resources/javaee_web_services_1_2.xsd
+	     javax/servlet/resources/javaee_web_services_1_3.xsd
+	     javax/servlet/resources/javaee_web_services_client_1_2.xsd
+	     javax/servlet/resources/javaee_web_services_client_1_3.xsd
+	     javax/servlet/resources/web-app_2_2.dtd
+	     javax/servlet/resources/web-app_2_3.dtd
+	     javax/servlet/resources/web-app_2_4.xsd
+	     javax/servlet/resources/web-app_2_5.xsd
+	     javax/servlet/resources/web-app_3_0.xsd
+	     javax/servlet/resources/web-common_3_0.xsd
+	     javax/servlet/resources/web-fragment_3_0.xsd
+	     javax/servlet/resources/xml.xsd
+	     javax/servlet/resources/XMLSchema.dtd
 	     javax/servlet/Servlet.java
 	     javax/servlet/ServletConfig.java
 	     javax/servlet/ServletContainerInitializer.java

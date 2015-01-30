@@ -6,6 +6,9 @@
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="jemutil/|jemutil-nonworkbnech/|property_files/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.jem.util.jar" path="org.eclipse.jem.util"/>
+	<!-- org.eclipse.webtools.common/org.eclipse.jem.util/pom.properties
+	     org.eclipse.webtools.common/org.eclipse.jem.util/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.jem.util.jar/META-INF/maven" path="org.eclipse.jem.util.jar/META-INF/maven/x-miss-x"/> -->
 	<!-- org/eclipse/jem/internal/util/emf/workbench/EMFWorkbenchContextFactory.java
 	     org/eclipse/jem/internal/util/emf/workbench/nature/EMFNatureRegistry.java
 	     org/eclipse/jem/internal/util/emf/workbench/nls/EMFWorkbenchResourceHandler.java

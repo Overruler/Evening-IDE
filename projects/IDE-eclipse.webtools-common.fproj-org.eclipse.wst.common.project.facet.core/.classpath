@@ -19,6 +19,9 @@
 	     schemas/runtimes.exsd
 	     schemas/validators.exsd -->
 	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|about.ini|about.properties|images/*|plugin.properties|plugin.xml|schemas/*" kind="src" output="bin/1/plugins/org.eclipse.wst.common.project.facet.core.jar" path="org.eclipse.wst.common.project.facet.core"/>
+	<!-- org.eclipse.webtools.common/org.eclipse.wst.common.project.facet.core/pom.properties
+	     org.eclipse.webtools.common/org.eclipse.wst.common.project.facet.core/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.wst.common.project.facet.core.jar/META-INF/maven" path="org.eclipse.wst.common.project.facet.core.jar/META-INF/maven/x-miss-x"/> -->
 	<!-- org/eclipse/wst/common/project/facet/core/ActionConfig.java
 	     org/eclipse/wst/common/project/facet/core/DefaultConfigurationPresetFactory.java
 	     org/eclipse/wst/common/project/facet/core/DefaultConfigurationPresetFactory.properties

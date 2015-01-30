@@ -15,6 +15,9 @@
 	     xsds/validatorExtSchema.exsd
 	     xsds/validatorgroup.exsd -->
 	<classpathentry excluding="property_files/|validate/|validate_core/|vf2/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties|plugin.xml|xsds/*" kind="src" output="bin/1/plugins/org.eclipse.wst.validation.jar" path="org.eclipse.wst.validation"/>
+	<!-- org.eclipse.webtools.common/org.eclipse.wst.validation/pom.properties
+	     org.eclipse.webtools.common/org.eclipse.wst.validation/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.wst.validation.jar/META-INF/maven" path="org.eclipse.wst.validation.jar/META-INF/maven/x-miss-x"/> -->
 	<!-- org/eclipse/wst/validation/internal/messages.properties
 	     validate_base.properties -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.validation.jar" path="org.eclipse.wst.validation/property_files"/>
@@ -93,7 +96,8 @@
 	     org/eclipse/wst/validation/internal/provisional/core/IValidator.java
 	     org/eclipse/wst/validation/internal/provisional/core/IValidatorExtender.java
 	     org/eclipse/wst/validation/internal/provisional/core/IValidatorJob.java
-	     org/eclipse/wst/validation/internal/provisional/core/MessageLimitException.java -->
+	     org/eclipse/wst/validation/internal/provisional/core/MessageLimitException.java
+	     org/eclipse/wst/validation/internal/provisional/core/package.html -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.wst.validation.jar" path="org.eclipse.wst.validation/validate_core"/>
 	<!-- org/eclipse/wst/validation/AbstractValidator.java
 	     org/eclipse/wst/validation/DependentResource.java
@@ -122,6 +126,7 @@
 	     org/eclipse/wst/validation/internal/model/ProjectPreferences.java
 	     org/eclipse/wst/validation/internal/model/ValidatorHelper.java
 	     org/eclipse/wst/validation/internal/NullValidator.java
+	     org/eclipse/wst/validation/internal/package.html
 	     org/eclipse/wst/validation/internal/PerformanceMonitor.java
 	     org/eclipse/wst/validation/internal/PrefConstants.java
 	     org/eclipse/wst/validation/internal/PreferencesWrapper.java
@@ -149,6 +154,7 @@
 	     org/eclipse/wst/validation/MessageSeveritySetting.java
 	     org/eclipse/wst/validation/MutableProjectSettings.java
 	     org/eclipse/wst/validation/MutableWorkspaceSettings.java
+	     org/eclipse/wst/validation/package.html
 	     org/eclipse/wst/validation/PerformanceCounters.java
 	     org/eclipse/wst/validation/ReporterHelper.java
 	     org/eclipse/wst/validation/ValidationEvent.java

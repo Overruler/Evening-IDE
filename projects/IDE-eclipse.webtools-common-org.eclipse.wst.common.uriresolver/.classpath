@@ -6,6 +6,9 @@
 	     plugin.xml
 	     schema/resolverExtensions.exsd -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.wst.common.uriresolver.jar" path="org.eclipse.wst.common.uriresolver"/>
+	<!-- org.eclipse.webtools.common/org.eclipse.wst.common.uriresolver/pom.properties
+	     org.eclipse.webtools.common/org.eclipse.wst.common.uriresolver/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.wst.common.uriresolver.jar/META-INF/maven" path="org.eclipse.wst.common.uriresolver.jar/META-INF/maven/x-miss-x"/> -->
 	<!-- org/eclipse/wst/common/uriresolver/internal/ExtensibleURIResolver.java
 	     org/eclipse/wst/common/uriresolver/internal/provisional/URIResolver.java
 	     org/eclipse/wst/common/uriresolver/internal/provisional/URIResolverExtension.java

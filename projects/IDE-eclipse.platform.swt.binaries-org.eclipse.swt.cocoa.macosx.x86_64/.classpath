@@ -350,6 +350,7 @@
 	     org/eclipse/swt/internal/cocoa/NSRect.java
 	     org/eclipse/swt/internal/cocoa/NSResponder.java
 	     org/eclipse/swt/internal/cocoa/NSRunLoop.java
+	     org/eclipse/swt/internal/cocoa/NSRunningApplication.java
 	     org/eclipse/swt/internal/cocoa/NSSavePanel.java
 	     org/eclipse/swt/internal/cocoa/NSScreen.java
 	     org/eclipse/swt/internal/cocoa/NSScroller.java

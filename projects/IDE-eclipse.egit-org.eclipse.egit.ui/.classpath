@@ -199,6 +199,7 @@
 	     org/eclipse/egit/ui/internal/actions/ReplaceWithCommitActionHandler.java
 	     org/eclipse/egit/ui/internal/actions/ReplaceWithHeadAction.java
 	     org/eclipse/egit/ui/internal/actions/ReplaceWithHeadActionHandler.java
+	     org/eclipse/egit/ui/internal/actions/ReplaceWithOursTheirsMenu.java
 	     org/eclipse/egit/ui/internal/actions/ReplaceWithPreviousAction.java
 	     org/eclipse/egit/ui/internal/actions/ReplaceWithPreviousActionHandler.java
 	     org/eclipse/egit/ui/internal/actions/ReplaceWithRefAction.java
@@ -526,6 +527,7 @@
 	     org/eclipse/egit/ui/internal/repository/tree/command/FetchCommand.java
 	     org/eclipse/egit/ui/internal/repository/tree/command/FetchConfiguredRemoteCommand.java
 	     org/eclipse/egit/ui/internal/repository/tree/command/GarbageCollectCommand.java
+	     org/eclipse/egit/ui/internal/repository/tree/command/ImportChangedProjectsCommand.java
 	     org/eclipse/egit/ui/internal/repository/tree/command/ImportProjectsCommand.java
 	     org/eclipse/egit/ui/internal/repository/tree/command/LinkWithSelectionCommand.java
 	     org/eclipse/egit/ui/internal/repository/tree/command/MergeCommand.java
@@ -672,6 +674,7 @@
 	<classpathentry kind="src" path="/IDE-eclipse.platform.ua-org.eclipse.help"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.jface.text"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit.java7"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.jsch.core"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.jsch.ui"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.text-org.eclipse.search"/>

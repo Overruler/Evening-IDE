@@ -52,7 +52,7 @@
 	     org/eclipse/ui/navigator/resources/ProjectExplorer.java
 	     org/eclipse/ui/navigator/resources/ResourceDragAdapterAssistant.java
 	     org/eclipse/ui/navigator/resources/ResourceDropAdapterAssistant.java -->
-	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.ui.navigator.resources.jar" path="org.eclipse.ui.navigator.resources/src"/>
+	<classpathentry including="org/eclipse/ui/internal/navigator/resources/*|org/eclipse/ui/internal/navigator/resources/actions/*|org/eclipse/ui/internal/navigator/resources/plugin/*|org/eclipse/ui/internal/navigator/resources/workbench/*|org/eclipse/ui/internal/navigator/workingsets/*|org/eclipse/ui/navigator/resources/*" kind="src" output="bin/1/plugins/org.eclipse.ui.navigator.resources.jar" path="org.eclipse.ui.navigator.resources/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-com.ibm.icu"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.resources-org.eclipse.core.resources"/>

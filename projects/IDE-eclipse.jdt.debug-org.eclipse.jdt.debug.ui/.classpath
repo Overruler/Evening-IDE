@@ -494,6 +494,7 @@
 	     org/eclipse/jdt/internal/debug/ui/sourcelookup/ClasspathContainerSourceContainerBrowser.java
 	     org/eclipse/jdt/internal/debug/ui/sourcelookup/ClasspathVariableSourceContainerBrowser.java
 	     org/eclipse/jdt/internal/debug/ui/sourcelookup/JavaDebugShowInAdapterFactory.java
+	     org/eclipse/jdt/internal/debug/ui/sourcelookup/JavaDebugWorkbenchAdapter.java
 	     org/eclipse/jdt/internal/debug/ui/sourcelookup/JavaProjectSourceContainerBrowser.java
 	     org/eclipse/jdt/internal/debug/ui/sourcelookup/SourceLookupMessages.java
 	     org/eclipse/jdt/internal/debug/ui/sourcelookup/SourceLookupMessages.properties

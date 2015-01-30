@@ -51,6 +51,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-com.jcraft.jzlib</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-compile-eclipse.ecf</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-eclipse.ecf</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-compile-gwt</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-gwt</locationURI>
@@ -93,7 +98,7 @@
 		<link>
 			<name>links/IDE-compile-org.slf4j</name>
 			<type>2</type>
-			<location>C:/Evening-IDE/projects/IDE-compile-org.slf4j</location>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-org.slf4j</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-compile-org.tukaani.xz</name>
@@ -176,6 +181,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.egit-org.eclipse.egit.doc</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.egit-org.eclipse.egit.mylyn.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.egit-org.eclipse.egit.mylyn.ui</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.egit-org.eclipse.egit.ui</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.egit-org.eclipse.egit.ui</locationURI>
@@ -204,6 +214,11 @@
 			<name>links/IDE-eclipse.emf-org.eclipse.emf.common</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.emf-org.eclipse.emf.common</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.emf-org.eclipse.emf.databinding</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.emf-org.eclipse.emf.databinding</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.emf-org.eclipse.emf.ecore</name>
@@ -496,9 +511,9 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.scm</locationURI>
 		</link>
 		<link>
-			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.workspace.cli</name>
+			<name>links/IDE-eclipse.m2e.workspace-org.eclipse.m2e.workspace.cli</name>
 			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.workspace.cli</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.workspace-org.eclipse.m2e.workspace.cli</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.mpc-org.eclipse.epp.mpc.core</name>
@@ -514,6 +529,26 @@
 			<name>links/IDE-eclipse.mpc-org.eclipse.epp.mpc.ui</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mpc-org.eclipse.epp.mpc.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.builds.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.builds.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.builds.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.builds.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.hudson.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.hudson.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.hudson.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.builds-org.eclipse.mylyn.hudson.ui</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.core</name>
@@ -549,6 +584,11 @@
 			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.http.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.http.core</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.commons.repositories.ui</name>
@@ -596,6 +636,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.commons-org.eclipse.mylyn.monitor.ui</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.mylyn.context-org.eclipse.mylyn.bugzilla.ide</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.bugzilla.ide</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.core</locationURI>
@@ -611,9 +656,24 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.context.ui</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.mylyn.context-org.eclipse.mylyn.ide.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.ide.ui</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.mylyn.context-org.eclipse.mylyn.resources.ui</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.resources.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.context-org.eclipse.mylyn.team.cvs</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.team.cvs</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.context-org.eclipse.mylyn.team.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.context-org.eclipse.mylyn.team.ui</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.mylyn.docs-org.eclipse.mylyn.wikitext.confluence.core</name>
@@ -749,6 +809,16 @@
 			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.bugzilla.ui</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.bugzilla.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.help.ui</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.help.ui</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.bugs</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.bugs</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.mylyn.tasks-org.eclipse.mylyn.tasks.core</name>
@@ -1946,6 +2016,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.commons.codec</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-other-org.apache.commons.collections</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.commons.collections</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-other-org.apache.commons.compress</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.commons.compress</locationURI>
@@ -1999,6 +2074,11 @@
 			<name>links/IDE-other-org.apache.jasper.glassfish</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.jasper.glassfish</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.apache.log4j</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.log4j</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-other-org.apache.lucene</name>
@@ -2124,6 +2204,26 @@
 			<name>links/IDE-other-org.slf4j.api</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.slf4j.api</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.springsource.ide.eclipse.commons.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.springsource.ide.eclipse.commons.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.springsource.ide.eclipse.commons.frameworks.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.springsource.ide.eclipse.commons.frameworks.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.springsource.ide.eclipse.commons.livexp</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.springsource.ide.eclipse.commons.livexp</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-org.springsource.ide.eclipse.commons.quicksearch</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.springsource.ide.eclipse.commons.quicksearch</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-other-org.w3c.css.sac</name>

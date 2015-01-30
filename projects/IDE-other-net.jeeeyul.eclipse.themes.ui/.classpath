@@ -56,7 +56,7 @@
 	     presets/default/Ocean.epf
 	     presets/default/Retro.epf
 	     presets/default/Spring Tool Suite.epf -->
-	<classpathentry excluding="src/|src-gen/|.*|.*/" including="META-INF/*|css/*|css/images/*|icons/*|plugin.xml|presets/default/*" kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.ui.jar" path="net.jeeeyul.eclipse.themes.ui"/>
+	<classpathentry excluding="src/|src-gen/|xtend-gen/|.*|.*/" including="META-INF/*|css/*|css/images/*|icons/*|plugin.xml|presets/default/*" kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.ui.jar" path="net.jeeeyul.eclipse.themes.ui"/>
 	<!-- net/jeeeyul/eclipse/themes/JThemesCore.java
 	     net/jeeeyul/eclipse/themes/ui/ApplyPresetAction.java
 	     net/jeeeyul/eclipse/themes/ui/CategoriesContribution.java
@@ -139,8 +139,9 @@
 	     net/jeeeyul/eclipse/themes/ui/SwitchThemeAction.xtend
 	     net/jeeeyul/eclipse/themes/ui/UserPresetItems.java -->
 	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.ui.jar" path="net.jeeeyul.eclipse.themes.ui/src"/>
-	<!-- net/jeeeyul/eclipse/themes/SharedImages.java
-	     net/jeeeyul/eclipse/themes/ui/.OtherThemesContribution.java._trace
+	<!-- net/jeeeyul/eclipse/themes/SharedImages.java -->
+	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.ui.jar" path="net.jeeeyul.eclipse.themes.ui/src-gen"/>
+	<!-- net/jeeeyul/eclipse/themes/ui/.OtherThemesContribution.java._trace
 	     net/jeeeyul/eclipse/themes/ui/.SwitchThemeAction.java._trace
 	     net/jeeeyul/eclipse/themes/ui/hotswap/.CustomThemeGenerator.java._trace
 	     net/jeeeyul/eclipse/themes/ui/hotswap/CustomThemeGenerator.java
@@ -188,7 +189,7 @@
 	     net/jeeeyul/eclipse/themes/ui/store/.EPFGenerator.java._trace
 	     net/jeeeyul/eclipse/themes/ui/store/EPFGenerator.java
 	     net/jeeeyul/eclipse/themes/ui/SwitchThemeAction.java -->
-	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.ui.jar" path="net.jeeeyul.eclipse.themes.ui/src-gen"/>
+	<classpathentry kind="src" output="bin/1/plugins/net.jeeeyul.eclipse.themes.ui.jar" path="net.jeeeyul.eclipse.themes.ui/xtend-gen"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/IDE-other-javax.annotation"/>
 	<classpathentry kind="src" path="/IDE-other-javax.inject"/>

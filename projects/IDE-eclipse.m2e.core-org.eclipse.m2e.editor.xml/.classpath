@@ -66,7 +66,8 @@
 	     org/eclipse/m2e/editor/xml/PomTemplateContextType.java
 	     org/eclipse/m2e/editor/xml/PomTextHover.java
 	     org/eclipse/m2e/editor/xml/preferences/PomTemplatesPreferencePage.java
-	     org/eclipse/m2e/editor/xml/XMLSchemaMarkerResolution.java -->
+	     org/eclipse/m2e/editor/xml/XMLSchemaMarkerResolution.java
+	     org/eclipse/m2e/editor/xml/internal/mojo/MojoParameter.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.m2e.editor.xml.jar" path="org.eclipse.m2e.editor.xml/src/main/java"/>
 	<!-- META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.editor.xml/pom.properties
 	     META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.editor.xml/pom.xml -->

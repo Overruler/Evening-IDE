@@ -8,6 +8,7 @@
 	     org/eclipse/mylyn/internal/gerrit/core/client/compat/ChangeManageService.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/compat/CommentLink.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/compat/GerritConfigX.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/compat/GerritSystemAccount.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/compat/PatchDetailService.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/compat/PatchScriptX.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/compat/PatchSetPublishDetailX.java
@@ -21,6 +22,12 @@
 	     org/eclipse/mylyn/internal/gerrit/core/client/GerritCapabilities.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/GerritChange.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/GerritClient.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritClient24.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritClient26.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritClient27.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritClient28.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritClient29.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/GerritClientStateListener.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/GerritConfiguration.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/GerritException.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/GerritHtmlProcessor.java
@@ -38,15 +45,24 @@
 	     org/eclipse/mylyn/internal/gerrit/core/client/ProjectByNameComparator.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/AbandonInput.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/AccountInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ActionInfo.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/AddReviewerResult.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ApprovalInfo.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ApprovalUtil.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/BranchInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/BranchInput.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ChangeInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ChangeInfo28.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ChangeMessageInfo.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/CommentInfo.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/CommentInput.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/CommitInfo.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/GerritReviewLabel.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/GitPersonalInfo.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/LabelInfo.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ProjectInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/RelatedChangeAndCommitInfo.java
+	     org/eclipse/mylyn/internal/gerrit/core/client/rest/RelatedChangesInfo.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/RestoreInput.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ReviewerInfo.java
 	     org/eclipse/mylyn/internal/gerrit/core/client/rest/ReviewerInput.java
@@ -96,9 +112,11 @@
 	<classpathentry kind="src" path="/IDE-other-com.google.gerrit.prettify"/>
 	<classpathentry kind="src" path="/IDE-other-com.google.gerrit.reviewdb"/>
 	<classpathentry kind="src" path="/IDE-other-com.google.gson"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
 	<classpathentry kind="src" path="/IDE-other-com.google.gwt.servlet"/>
 	<classpathentry kind="src" path="/IDE-other-com.google.gwtjsonrpc"/>
 	<classpathentry kind="src" path="/IDE-other-com.google.gwtorm"/>
+	<classpathentry kind="src" path="/IDE-other-net.jeeeyul.eclipse.themes"/>
 	<classpathentry kind="src" path="/IDE-other-org.apache.commons.httpclient"/>
 	<classpathentry kind="src" path="/IDE-other-org.apache.commons.io"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>

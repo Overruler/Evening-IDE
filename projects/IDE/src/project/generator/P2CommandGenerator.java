@@ -44,8 +44,7 @@ public class P2CommandGenerator {
 		Pair.of("D:\\p2_eclipse.egit.txt",							"http://download.eclipse.org/egit/updates"), 
 		Pair.of("D:\\p2_eclipse.m2e.txt",							"http://download.eclipse.org/technology/m2e/releases/"), 
 		Pair.of("D:\\p2_eclipse.mylyn.latest.txt",					"http://download.eclipse.org/mylyn/releases/latest"), 
-		Pair.of("D:\\p2_eclipse.mars.txt",							"http://download.eclipse.org/releases/mars"),
-		Pair.of("D:\\p2_eclipse.N20141012.txt",						"http://download.eclipse.org/eclipse/updates/4.5-N-builds/N20141012-2000/") 
+		Pair.of("D:\\p2_eclipse.mars.txt",							"http://download.eclipse.org/releases/mars") 
 	); /*E*/
 	// -destination d:/evening/ -profile EveningIDE
 	private static final String INSTALL_COMMAND =
@@ -56,9 +55,8 @@ public class P2CommandGenerator {
 	private static final Path SRC_PROFILE =
 		SRC_PLUGINS.resolveSibling("p2/org.eclipse.equinox.p2.engine/profileRegistry");
 	private static final Path DST_PLUGINS = Paths.get("target/ide-1/plugins");
-	private static final Path DST_PROFILE = Paths.get(
-		System.getProperty("user.home"),
-		"eclipse-SDK-I20140909-1315-win32-x86_64/eclipse/p2/org.eclipse.equinox.p2.engine/profileRegistry");
+	private static final Path DST_PROFILE =
+		DST_PLUGINS.resolveSibling("p2/org.eclipse.equinox.p2.engine/profileRegistry");
 
 	public static void main(String[] args) throws IOException {
 		Set<String> set1 = Files.list(DST_PLUGINS).map(p -> toName(p)).toSet().addAll(readProfile(DST_PROFILE)).toSet();

@@ -207,6 +207,9 @@ public class Snapshot {
 			contents.get(ROOT).bytes = null;
 		}
 	}
+	public void clear() {
+		contents.clear();
+	}
 	private Path remapper(Path src) throws IOException {
 		if(src.getNameCount() == 2) {
 			if(src.startsWith(Paths.get("plugins"))) {

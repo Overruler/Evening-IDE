@@ -1,5 +1,989 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<!-- META-INF/sisu/javax.inject.Named -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar" path="org.eclipse.m2e.maven.runtime/jars/aether-connector-basic-1.0.0.v20140518.jar/x-miss-x"/> -->
+	<!-- META-INF/plexus/components.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-aether-provider-3.2.4-20140929.190343-21.jar" path="org.eclipse.m2e.maven.runtime/jars/aether-transport-wagon-1.0.0.v20140518.jar/x-miss-x"/> -->
+	<!-- META-INF/plexus/components.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar" path="org.eclipse.m2e.maven.runtime/jars/aether-transport-wagon-1.0.0.v20140518.jar/x-miss-x"/> -->
+	<!-- META-INF/plexus/components.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar" path="org.eclipse.m2e.maven.runtime/jars/aether-transport-wagon-1.0.0.v20140518.jar/x-miss-x"/> -->
+	<!-- META-INF/plexus/components.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-model-builder-3.2.4-20140929.190332-21.jar" path="org.eclipse.m2e.maven.runtime/jars/aether-transport-wagon-1.0.0.v20140518.jar/x-miss-x"/> -->
+	<!-- META-INF/plexus/components.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-settings-builder-3.2.4-20140929.190336-21.jar" path="org.eclipse.m2e.maven.runtime/jars/aether-transport-wagon-1.0.0.v20140518.jar/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-aether-provider/pom.properties
+	     org.apache.maven/maven-aether-provider/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-aether-provider-3.2.4-20140929.190343-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-aether-provider-3.2.4-20140929.190343-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- repository/internal/ArtifactDescriptorUtils.java
+	     repository/internal/DefaultArtifactDescriptorReader.java
+	     repository/internal/DefaultVersionRangeResolver.java
+	     repository/internal/DefaultVersionResolver.java
+	     repository/internal/MavenAetherModule.java
+	     repository/internal/MavenRepositorySystemUtils.java
+	     repository/internal/SnapshotMetadataGeneratorFactory.java
+	     repository/internal/VersionsMetadataGeneratorFactory.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-aether-provider-3.2.4-20140929.190343-21.jar/org/apache/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-aether-provider-3.2.4-20140929.190343-21.jar/org/apache/maven/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-artifact/pom.properties
+	     org.apache.maven/maven-artifact/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-artifact-3.2.4-20140929.190322-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-artifact-3.2.4-20140929.190322-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- repository/layout/ArtifactRepositoryLayout.java
+	     repository/layout/ArtifactRepositoryLayout2.java
+	     repository/metadata/RepositoryMetadataStoreException.java
+	     resolver/filter/ArtifactFilter.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-artifact-3.2.4-20140929.190322-21.jar/org/apache/maven/artifact" path="org.eclipse.m2e.maven.runtime/jars/maven-artifact-3.2.4-20140929.190322-21.jar/org/apache/maven/artifact/x-miss-x"/> -->
+	<!-- legacy/metadata/ArtifactMetadata.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-artifact-3.2.4-20140929.190322-21.jar/org/apache/maven/repository" path="org.eclipse.m2e.maven.runtime/jars/maven-artifact-3.2.4-20140929.190322-21.jar/org/apache/maven/repository/x-miss-x"/> -->
+	<!-- artifact/handler/ArtifactHandler.java
+	     artifact/metadata/ArtifactMetadata.java
+	     artifact/repository/ArtifactRepository.java
+	     artifact/repository/ArtifactRepositoryPolicy.java
+	     artifact/repository/Authentication.java
+	     artifact/resolver/AbstractArtifactResolutionException.java
+	     artifact/resolver/ArtifactNotFoundException.java
+	     artifact/resolver/ArtifactResolutionException.java
+	     artifact/resolver/CyclicDependencyException.java
+	     artifact/resolver/MultipleArtifactsNotFoundException.java
+	     artifact/versioning/ArtifactVersion.java
+	     artifact/versioning/ComparableVersion.java
+	     artifact/versioning/DefaultArtifactVersion.java
+	     artifact/versioning/InvalidVersionSpecificationException.java
+	     artifact/versioning/OverConstrainedVersionException.java
+	     artifact/versioning/Restriction.java
+	     artifact/versioning/VersionRange.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-artifact-3.2.4-20140929.190322-21.jar/org/apache/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-artifact-3.2.4-20140929.190322-21.jar/org/apache/maven/x-miss-x"/> -->
+	<!-- maven/artifact/Artifact.java
+	     maven/artifact/ArtifactUtils.java
+	     maven/artifact/DefaultArtifact.java
+	     maven/artifact/InvalidArtifactRTException.java
+	     maven/repository/Proxy.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-artifact-3.2.4-20140929.190322-21.jar/org/apache" path="org.eclipse.m2e.maven.runtime/jars/maven-artifact-3.2.4-20140929.190322-21.jar/org/apache/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-compat/pom.properties
+	     org.apache.maven/maven-compat/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- maven/plugin-expressions/project.paramdoc.xml
+	     maven/plugin-expressions/rootless.paramdoc.xml
+	     maven/plugin-expressions/settings.paramdoc.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/META-INF" path="org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/META-INF/x-miss-x"/> -->
+	<!-- repository/layout/FlatRepositoryLayout.java
+	     repository/metadata/DefaultRepositoryMetadataManager.java
+	     repository/metadata/GroupRepositoryMetadata.java
+	     repository/metadata/MetadataBridge.java
+	     repository/metadata/RepositoryMetadataReadException.java
+	     repository/metadata/SnapshotArtifactRepositoryMetadata.java
+	     resolver/filter/InversionArtifactFilter.java
+	     resolver/filter/OrArtifactFilter.java
+	     resolver/filter/TypeArtifactFilter.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/artifact" path="org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/artifact/x-miss-x"/> -->
+	<!-- io/xpp3/ProfilesXpp3Reader.java
+	     io/xpp3/ProfilesXpp3Writer.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/profiles" path="org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/profiles/x-miss-x"/> -->
+	<!-- resolver/conflict/ConflictResolver.java
+	     resolver/conflict/ConflictResolverFactory.java
+	     resolver/conflict/ConflictResolverNotFoundException.java
+	     resolver/conflict/DefaultConflictResolver.java
+	     resolver/conflict/DefaultConflictResolverFactory.java
+	     resolver/conflict/FarthestConflictResolver.java
+	     resolver/conflict/NearestConflictResolver.java
+	     resolver/conflict/NewestConflictResolver.java
+	     resolver/conflict/OldestConflictResolver.java
+	     resolver/transform/AbstractVersionTransformation.java
+	     resolver/transform/ArtifactTransformation.java
+	     resolver/transform/ArtifactTransformationManager.java
+	     resolver/transform/DefaultArtifactTransformationManager.java
+	     resolver/transform/LatestArtifactTransformation.java
+	     resolver/transform/ReleaseArtifactTransformation.java
+	     resolver/transform/SnapshotTransformation.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/repository/legacy" path="org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/repository/legacy/x-miss-x"/> -->
+	<!-- legacy/repository/ArtifactRepositoryFactory.java
+	     legacy/repository/DefaultArtifactRepositoryFactory.java
+	     legacy/resolver/DefaultLegacyArtifactCollector.java
+	     legacy/resolver/LegacyArtifactCollector.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/repository" path="org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/repository/x-miss-x"/> -->
+	<!-- io/xpp3/ParamdocXpp3Reader.java
+	     io/xpp3/ParamdocXpp3Writer.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/usability/plugin" path="org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/usability/plugin/x-miss-x"/> -->
+	<!-- artifact/deployer/ArtifactDeployer.java
+	     artifact/deployer/ArtifactDeploymentException.java
+	     artifact/deployer/DefaultArtifactDeployer.java
+	     artifact/installer/ArtifactInstallationException.java
+	     artifact/installer/ArtifactInstaller.java
+	     artifact/installer/DefaultArtifactInstaller.java
+	     artifact/manager/DefaultWagonManager.java
+	     artifact/manager/WagonConfigurationException.java
+	     artifact/manager/WagonManager.java
+	     artifact/repository/ArtifactRepositoryFactory.java
+	     artifact/repository/DefaultArtifactRepository.java
+	     artifact/repository/DefaultArtifactRepositoryFactory.java
+	     artifact/resolver/ArtifactCollector.java
+	     artifact/resolver/ArtifactResolver.java
+	     artifact/resolver/DebugResolutionListener.java
+	     artifact/resolver/DefaultArtifactCollector.java
+	     artifact/resolver/DefaultArtifactResolver.java
+	     artifact/resolver/ResolutionListenerForDepMgmt.java
+	     artifact/resolver/UnresolvedArtifacts.java
+	     artifact/resolver/WarningResolutionListener.java
+	     artifact/versioning/ManagedVersionMap.java
+	     profiles/activation/DetectedProfileActivator.java
+	     profiles/activation/FileProfileActivator.java
+	     profiles/activation/JdkPrefixProfileActivator.java
+	     profiles/activation/OperatingSystemProfileActivator.java
+	     profiles/activation/ProfileActivationException.java
+	     profiles/activation/ProfileActivator.java
+	     profiles/activation/SystemPropertyProfileActivator.java
+	     project/inheritance/DefaultModelInheritanceAssembler.java
+	     project/inheritance/ModelInheritanceAssembler.java
+	     project/interpolation/AbstractStringBasedModelInterpolator.java
+	     project/interpolation/BuildTimestampValueSource.java
+	     project/interpolation/ModelInterpolationException.java
+	     project/interpolation/ModelInterpolator.java
+	     project/interpolation/PathTranslatingPostProcessor.java
+	     project/interpolation/RegexBasedModelInterpolator.java
+	     project/interpolation/StringSearchModelInterpolator.java
+	     project/path/DefaultPathTranslator.java
+	     project/validation/DefaultModelValidator.java
+	     project/validation/ModelValidationResult.java
+	     project/validation/ModelValidator.java
+	     repository/legacy/ChecksumFailedException.java
+	     repository/legacy/DefaultUpdateCheckManager.java
+	     repository/legacy/DefaultWagonManager.java
+	     repository/legacy/LegacyRepositorySystem.java
+	     repository/legacy/TransferListenerAdapter.java
+	     repository/legacy/UpdateCheckManager.java
+	     repository/legacy/WagonConfigurationException.java
+	     repository/legacy/WagonManager.java
+	     repository/metadata/ArtifactMetadata.java
+	     repository/metadata/ClasspathContainer.java
+	     repository/metadata/ClasspathTransformation.java
+	     repository/metadata/DefaultClasspathTransformation.java
+	     repository/metadata/DefaultGraphConflictResolutionPolicy.java
+	     repository/metadata/DefaultGraphConflictResolver.java
+	     repository/metadata/GraphConflictResolutionException.java
+	     repository/metadata/GraphConflictResolutionPolicy.java
+	     repository/metadata/GraphConflictResolver.java
+	     repository/metadata/MetadataGraph.java
+	     repository/metadata/MetadataGraphEdge.java
+	     repository/metadata/MetadataGraphTransformationException.java
+	     repository/metadata/MetadataGraphVertex.java
+	     repository/metadata/MetadataResolution.java
+	     repository/metadata/MetadataResolutionException.java
+	     repository/metadata/MetadataResolutionRequest.java
+	     repository/metadata/MetadataResolutionRequestTypeEnum.java
+	     repository/metadata/MetadataResolutionResult.java
+	     repository/metadata/MetadataRetrievalException.java
+	     repository/metadata/MetadataSource.java
+	     repository/metadata/MetadataTreeNode.java
+	     usability/plugin/Expression.java
+	     usability/plugin/ExpressionDocumentation.java
+	     usability/plugin/ExpressionDocumentationException.java
+	     usability/plugin/ExpressionDocumenter.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/maven/x-miss-x"/> -->
+	<!-- maven/artifact/ArtifactScopeEnum.java
+	     maven/artifact/ArtifactStatus.java
+	     maven/artifact/UnknownRepositoryLayoutException.java
+	     maven/execution/DefaultRuntimeInformation.java
+	     maven/execution/RuntimeInformation.java
+	     maven/profiles/Activation.java
+	     maven/profiles/ActivationFile.java
+	     maven/profiles/ActivationOS.java
+	     maven/profiles/ActivationProperty.java
+	     maven/profiles/DefaultMavenProfilesBuilder.java
+	     maven/profiles/DefaultProfileManager.java
+	     maven/profiles/MavenProfilesBuilder.java
+	     maven/profiles/Profile.java
+	     maven/profiles/ProfileManager.java
+	     maven/profiles/ProfilesConversionUtils.java
+	     maven/profiles/ProfilesRoot.java
+	     maven/profiles/Repository.java
+	     maven/profiles/RepositoryBase.java
+	     maven/profiles/RepositoryPolicy.java
+	     maven/project/DefaultMavenProjectBuilder.java
+	     maven/project/DefaultProjectBuilderConfiguration.java
+	     maven/project/InvalidProjectModelException.java
+	     maven/project/MavenProjectBuilder.java
+	     maven/project/MissingRepositoryElementException.java
+	     maven/project/ModelUtils.java
+	     maven/project/ProjectBuilderConfiguration.java
+	     maven/project/ProjectUtils.java
+	     maven/reporting/MavenReportException.java
+	     maven/repository/DefaultMirrorSelector.java
+	     maven/repository/MavenArtifactMetadata.java
+	     maven/repository/MetadataGraph.java
+	     maven/repository/MetadataGraphNode.java
+	     maven/repository/MetadataResolutionRequest.java
+	     maven/repository/MetadataResolutionResult.java
+	     maven/repository/MirrorSelector.java
+	     maven/repository/UserLocalArtifactRepository.java
+	     maven/repository/VersionNotFoundException.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache" path="org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/org/apache/x-miss-x"/> -->
+	<!-- META-INF/maven/plugin.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar" path="org.eclipse.m2e.maven.runtime/jars/maven-compat-3.2.4-20140929.190430-21.jar/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-core/pom.properties
+	     org.apache.maven/maven-core/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- metadata/io/DefaultMetadataReader.java
+	     metadata/io/MetadataParseException.java
+	     metadata/io/MetadataReader.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/artifact/repository" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/artifact/repository/x-miss-x"/> -->
+	<!-- handler/manager/ArtifactHandlerManager.java
+	     handler/manager/DefaultArtifactHandlerManager.java
+	     repository/layout/DefaultRepositoryLayout.java
+	     repository/metadata/AbstractRepositoryMetadata.java
+	     repository/metadata/ArtifactRepositoryMetadata.java
+	     repository/metadata/RepositoryMetadata.java
+	     repository/metadata/RepositoryMetadataDeploymentException.java
+	     repository/metadata/RepositoryMetadataInstallationException.java
+	     repository/metadata/RepositoryMetadataManager.java
+	     repository/metadata/RepositoryMetadataResolutionException.java
+	     resolver/filter/AndArtifactFilter.java
+	     resolver/filter/CumulativeScopeArtifactFilter.java
+	     resolver/filter/ExcludesArtifactFilter.java
+	     resolver/filter/ExclusionSetFilter.java
+	     resolver/filter/IncludesArtifactFilter.java
+	     resolver/filter/ScopeArtifactFilter.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/artifact" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/artifact/x-miss-x"/> -->
+	<!-- scope/internal/MojoExecutionScope.java
+	     scope/internal/MojoExecutionScopeCoreModule.java
+	     scope/internal/MojoExecutionScopeModule.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/execution" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/execution/x-miss-x"/> -->
+	<!-- builder/multithreaded/ConcurrencyDependencyGraph.java
+	     builder/multithreaded/MultiThreadedBuilder.java
+	     builder/multithreaded/ThreadOutputMuxer.java
+	     builder/singlethreaded/SingleThreadedBuilder.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/lifecycle/internal" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/lifecycle/internal/x-miss-x"/> -->
+	<!-- internal/builder/Builder.java
+	     internal/builder/BuilderCommon.java
+	     internal/builder/BuilderNotFoundException.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/lifecycle" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/lifecycle/x-miss-x"/> -->
+	<!-- prefix/internal/DefaultPluginPrefixResolver.java
+	     version/internal/DefaultPluginVersionResolver.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/plugin" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/plugin/x-miss-x"/> -->
+	<!-- legacy/metadata/AbstractArtifactMetadata.java
+	     legacy/metadata/ArtifactMetadataRetrievalException.java
+	     legacy/metadata/ArtifactMetadataSource.java
+	     legacy/metadata/DefaultMetadataResolutionRequest.java
+	     legacy/metadata/MetadataResolutionRequest.java
+	     legacy/metadata/ResolutionGroup.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/repository" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/repository/x-miss-x"/> -->
+	<!-- scope/internal/SessionScope.java
+	     scope/internal/SessionScopeModule.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/session" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/session/x-miss-x"/> -->
+	<!-- io/xpp3/MavenToolchainsXpp3Reader.java
+	     io/xpp3/MavenToolchainsXpp3Writer.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/toolchain/model" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/toolchain/model/x-miss-x"/> -->
+	<!-- artifact/factory/ArtifactFactory.java
+	     artifact/factory/DefaultArtifactFactory.java
+	     artifact/handler/DefaultArtifactHandler.java
+	     artifact/metadata/AbstractArtifactMetadata.java
+	     artifact/metadata/ArtifactMetadataRetrievalException.java
+	     artifact/metadata/ArtifactMetadataSource.java
+	     artifact/metadata/ResolutionGroup.java
+	     artifact/repository/DefaultRepositoryRequest.java
+	     artifact/repository/LegacyLocalRepositoryManager.java
+	     artifact/repository/MavenArtifactRepository.java
+	     artifact/repository/RepositoryCache.java
+	     artifact/repository/RepositoryRequest.java
+	     artifact/resolver/ArtifactResolutionRequest.java
+	     artifact/resolver/ArtifactResolutionResult.java
+	     artifact/resolver/DefaultResolutionErrorHandler.java
+	     artifact/resolver/ResolutionErrorHandler.java
+	     artifact/resolver/ResolutionListener.java
+	     artifact/resolver/ResolutionNode.java
+	     configuration/internal/DefaultBeanConfigurator.java
+	     eventspy/internal/EventSpyDispatcher.java
+	     execution/scope/MojoExecutionScoped.java
+	     execution/scope/WeakMojoExecutionListener.java
+	     lifecycle/internal/BuildListCalculator.java
+	     lifecycle/internal/BuildThreadFactory.java
+	     lifecycle/internal/DefaultExecutionEventCatapult.java
+	     lifecycle/internal/DefaultLifecycleExecutionPlanCalculator.java
+	     lifecycle/internal/DefaultLifecycleMappingDelegate.java
+	     lifecycle/internal/DefaultLifecyclePluginAnalyzer.java
+	     lifecycle/internal/DefaultLifecycleTaskSegmentCalculator.java
+	     lifecycle/internal/DependencyContext.java
+	     lifecycle/internal/ExecutionEventCatapult.java
+	     lifecycle/internal/ExecutionPlanItem.java
+	     lifecycle/internal/GoalTask.java
+	     lifecycle/internal/LifecycleDebugLogger.java
+	     lifecycle/internal/LifecycleDependencyResolver.java
+	     lifecycle/internal/LifecycleExecutionPlanCalculator.java
+	     lifecycle/internal/LifecycleModuleBuilder.java
+	     lifecycle/internal/LifecyclePluginResolver.java
+	     lifecycle/internal/LifecycleStarter.java
+	     lifecycle/internal/LifecycleTask.java
+	     lifecycle/internal/LifecycleTaskSegmentCalculator.java
+	     lifecycle/internal/MojoDescriptorCreator.java
+	     lifecycle/internal/MojoExecutor.java
+	     lifecycle/internal/PhaseRecorder.java
+	     lifecycle/internal/ProjectBuildList.java
+	     lifecycle/internal/ProjectIndex.java
+	     lifecycle/internal/ProjectSegment.java
+	     lifecycle/internal/ReactorBuildStatus.java
+	     lifecycle/internal/ReactorContext.java
+	     lifecycle/internal/TaskSegment.java
+	     lifecycle/mapping/DefaultLifecycleMapping.java
+	     lifecycle/mapping/Lifecycle.java
+	     lifecycle/mapping/LifecycleMapping.java
+	     model/plugin/DefaultLifecycleBindingsInjector.java
+	     monitor/event/EventDispatcher.java
+	     monitor/event/EventMonitor.java
+	     plugin/internal/DefaultLegacySupport.java
+	     plugin/internal/DefaultMavenPluginManager.java
+	     plugin/internal/DefaultPluginDependenciesResolver.java
+	     plugin/internal/DefaultPluginManager.java
+	     plugin/internal/PluginDependenciesResolver.java
+	     plugin/prefix/DefaultPluginPrefixRequest.java
+	     plugin/prefix/NoPluginFoundForPrefixException.java
+	     plugin/prefix/PluginPrefixRequest.java
+	     plugin/prefix/PluginPrefixResolver.java
+	     plugin/prefix/PluginPrefixResult.java
+	     plugin/version/DefaultPluginVersionRequest.java
+	     plugin/version/PluginVersionNotFoundException.java
+	     plugin/version/PluginVersionRequest.java
+	     plugin/version/PluginVersionResolutionException.java
+	     plugin/version/PluginVersionResolver.java
+	     plugin/version/PluginVersionResult.java
+	     project/artifact/ActiveProjectArtifact.java
+	     project/artifact/ArtifactWithDependencies.java
+	     project/artifact/AttachedArtifact.java
+	     project/artifact/DefaultMavenMetadataCache.java
+	     project/artifact/DefaultMetadataSource.java
+	     project/artifact/InvalidDependencyVersionException.java
+	     project/artifact/MavenMetadataCache.java
+	     project/artifact/MavenMetadataSource.java
+	     project/artifact/PluginArtifact.java
+	     project/artifact/ProjectArtifact.java
+	     project/artifact/ProjectArtifactMetadata.java
+	     project/path/PathTranslator.java
+	     properties/internal/EnvironmentUtils.java
+	     properties/internal/SystemProperties.java
+	     rtinfo/internal/DefaultRuntimeInformation.java
+	     toolchain/java/DefaultJavaToolChain.java
+	     toolchain/java/DefaultJavaToolchainFactory.java
+	     toolchain/java/JavaToolChain.java
+	     toolchain/model/PersistedToolchains.java
+	     toolchain/model/ToolchainModel.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/maven/x-miss-x"/> -->
+	<!-- maven/artifact/DependencyResolutionRequiredException.java
+	     maven/artifact/InvalidRepositoryException.java
+	     maven/bridge/MavenRepositorySystem.java
+	     maven/bridge/MirrorSelector.java
+	     maven/classrealm/ClassRealmConstituent.java
+	     maven/classrealm/ClassRealmManager.java
+	     maven/classrealm/ClassRealmManagerDelegate.java
+	     maven/classrealm/ClassRealmRequest.java
+	     maven/classrealm/DefaultClassRealmManager.java
+	     maven/configuration/BasedirBeanConfigurationPathTranslator.java
+	     maven/configuration/BeanConfigurationException.java
+	     maven/configuration/BeanConfigurationPathTranslator.java
+	     maven/configuration/BeanConfigurationRequest.java
+	     maven/configuration/BeanConfigurationValuePreprocessor.java
+	     maven/configuration/BeanConfigurator.java
+	     maven/configuration/DefaultBeanConfigurationRequest.java
+	     maven/eventspy/AbstractEventSpy.java
+	     maven/eventspy/EventSpy.java
+	     maven/exception/DefaultExceptionHandler.java
+	     maven/exception/ExceptionHandler.java
+	     maven/exception/ExceptionSummary.java
+	     maven/execution/AbstractExecutionListener.java
+	     maven/execution/BuildFailure.java
+	     maven/execution/BuildSuccess.java
+	     maven/execution/BuildSummary.java
+	     maven/execution/DefaultMavenExecutionRequest.java
+	     maven/execution/DefaultMavenExecutionRequestPopulator.java
+	     maven/execution/DefaultMavenExecutionResult.java
+	     maven/execution/ExecutionEvent.java
+	     maven/execution/ExecutionListener.java
+	     maven/execution/MavenExecutionRequest.java
+	     maven/execution/MavenExecutionRequestPopulationException.java
+	     maven/execution/MavenExecutionRequestPopulator.java
+	     maven/execution/MavenExecutionResult.java
+	     maven/execution/MavenSession.java
+	     maven/execution/MojoExecutionEvent.java
+	     maven/execution/MojoExecutionListener.java
+	     maven/execution/ProjectDependencyGraph.java
+	     maven/execution/ProjectExecutionEvent.java
+	     maven/execution/ProjectExecutionListener.java
+	     maven/execution/ReactorManager.java
+	     maven/lifecycle/DefaultLifecycleExecutor.java
+	     maven/lifecycle/DefaultLifecycles.java
+	     maven/lifecycle/Lifecycle.java
+	     maven/lifecycle/LifecycleExecutionException.java
+	     maven/lifecycle/LifecycleExecutor.java
+	     maven/lifecycle/LifecycleMappingDelegate.java
+	     maven/lifecycle/LifecycleNotFoundException.java
+	     maven/lifecycle/LifecyclePhaseNotFoundException.java
+	     maven/lifecycle/LifeCyclePluginAnalyzer.java
+	     maven/lifecycle/MavenExecutionPlan.java
+	     maven/lifecycle/MissingProjectException.java
+	     maven/lifecycle/NoGoalSpecifiedException.java
+	     maven/messages/build.properties
+	     maven/messages/messages.properties
+	     maven/messages/messages_de.properties
+	     maven/messages/messages_el.properties
+	     maven/messages/messages_en.properties
+	     maven/messages/messages_es.properties
+	     maven/messages/messages_fr.properties
+	     maven/messages/messages_ja.properties
+	     maven/messages/messages_ko.properties
+	     maven/messages/messages_nl.properties
+	     maven/messages/messages_no.properties
+	     maven/messages/messages_pl.properties
+	     maven/messages/messages_zh_CN.properties
+	     maven/plugin/BuildPluginManager.java
+	     maven/plugin/CycleDetectedInPluginGraphException.java
+	     maven/plugin/DebugConfigurationListener.java
+	     maven/plugin/DefaultBuildPluginManager.java
+	     maven/plugin/DefaultExtensionRealmCache.java
+	     maven/plugin/DefaultPluginArtifactsCache.java
+	     maven/plugin/DefaultPluginDescriptorCache.java
+	     maven/plugin/DefaultPluginRealmCache.java
+	     maven/plugin/ExtensionRealmCache.java
+	     maven/plugin/InvalidPluginDescriptorException.java
+	     maven/plugin/InvalidPluginException.java
+	     maven/plugin/LegacySupport.java
+	     maven/plugin/MavenPluginManager.java
+	     maven/plugin/MavenPluginValidator.java
+	     maven/plugin/MojoExecution.java
+	     maven/plugin/PluginArtifactsCache.java
+	     maven/plugin/PluginConfigurationException.java
+	     maven/plugin/PluginContainerException.java
+	     maven/plugin/PluginDescriptorCache.java
+	     maven/plugin/PluginDescriptorParsingException.java
+	     maven/plugin/PluginExecutionException.java
+	     maven/plugin/PluginIncompatibleException.java
+	     maven/plugin/PluginLoaderException.java
+	     maven/plugin/PluginManager.java
+	     maven/plugin/PluginManagerException.java
+	     maven/plugin/PluginNotFoundException.java
+	     maven/plugin/PluginParameterException.java
+	     maven/plugin/PluginParameterExpressionEvaluator.java
+	     maven/plugin/PluginRealmCache.java
+	     maven/plugin/PluginResolutionException.java
+	     maven/project/DefaultDependencyResolutionRequest.java
+	     maven/project/DefaultMavenProjectHelper.java
+	     maven/project/DefaultProjectBuilder.java
+	     maven/project/DefaultProjectBuildingHelper.java
+	     maven/project/DefaultProjectBuildingRequest.java
+	     maven/project/DefaultProjectDependenciesResolver.java
+	     maven/project/DefaultProjectRealmCache.java
+	     maven/project/DependencyResolutionException.java
+	     maven/project/DependencyResolutionRequest.java
+	     maven/project/DependencyResolutionResult.java
+	     maven/project/DuplicateArtifactAttachmentException.java
+	     maven/project/DuplicateProjectException.java
+	     maven/project/ExtensionDescriptor.java
+	     maven/project/InvalidProjectVersionException.java
+	     maven/project/MavenProject.java
+	     maven/project/MavenProjectHelper.java
+	     maven/project/ProjectBuilder.java
+	     maven/project/ProjectBuildingException.java
+	     maven/project/ProjectBuildingHelper.java
+	     maven/project/ProjectBuildingRequest.java
+	     maven/project/ProjectBuildingResult.java
+	     maven/project/ProjectDependenciesResolver.java
+	     maven/project/ProjectRealmCache.java
+	     maven/project/ProjectSorter.java
+	     maven/project/standalone.xml
+	     maven/repository/ArtifactDoesNotExistException.java
+	     maven/repository/ArtifactTransferEvent.java
+	     maven/repository/ArtifactTransferFailedException.java
+	     maven/repository/ArtifactTransferListener.java
+	     maven/repository/ArtifactTransferResource.java
+	     maven/repository/DelegatingLocalArtifactRepository.java
+	     maven/repository/LocalArtifactRepository.java
+	     maven/repository/LocalRepositoryNotAccessibleException.java
+	     maven/repository/RepositorySystem.java
+	     maven/rtinfo/RuntimeInformation.java
+	     maven/settings/DefaultMavenSettingsBuilder.java
+	     maven/settings/MavenSettingsBuilder.java
+	     maven/settings/SettingsConfigurationException.java
+	     maven/settings/SettingsUtils.java
+	     maven/toolchain/DefaultToolchain.java
+	     maven/toolchain/DefaultToolchainManager.java
+	     maven/toolchain/DefaultToolchainManagerPrivate.java
+	     maven/toolchain/DefaultToolchainsBuilder.java
+	     maven/toolchain/MisconfiguredToolchainException.java
+	     maven/toolchain/RequirementMatcher.java
+	     maven/toolchain/RequirementMatcherFactory.java
+	     maven/toolchain/Toolchain.java
+	     maven/toolchain/ToolchainFactory.java
+	     maven/toolchain/ToolchainManager.java
+	     maven/toolchain/ToolchainManagerPrivate.java
+	     maven/toolchain/ToolchainPrivate.java
+	     maven/toolchain/ToolchainsBuilder.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/apache/x-miss-x"/> -->
+	<!-- apache/maven/AbstractMavenLifecycleParticipant.java
+	     apache/maven/ArtifactFilterManager.java
+	     apache/maven/ArtifactFilterManagerDelegate.java
+	     apache/maven/BuildAbort.java
+	     apache/maven/BuildFailureException.java
+	     apache/maven/DefaultArtifactFilterManager.java
+	     apache/maven/DefaultMaven.java
+	     apache/maven/DefaultProjectDependenciesResolver.java
+	     apache/maven/DuplicateProjectException.java
+	     apache/maven/InternalErrorException.java
+	     apache/maven/Maven.java
+	     apache/maven/MavenExecutionException.java
+	     apache/maven/MissingModuleException.java
+	     apache/maven/ProjectBuildFailureException.java
+	     apache/maven/ProjectCycleException.java
+	     apache/maven/ProjectDependenciesResolver.java
+	     apache/maven/RepositoryUtils.java
+	     apache/maven/SessionScoped.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/org/x-miss-x"/> -->
+	<!-- META-INF/plexus/artifact-handlers.xml
+	     META-INF/plexus/default-bindings.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar" path="org.eclipse.m2e.maven.runtime/jars/maven-core-3.2.4-20140929.190414-21.jar/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-embedder/pom.properties
+	     org.apache.maven/maven-embedder/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- logging/impl/Log4j2Configuration.java
+	     logging/impl/LogbackConfiguration.java
+	     logging/impl/Slf4jSimpleConfiguration.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/org/apache/maven/cli" path="org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/org/apache/maven/cli/x-miss-x"/> -->
+	<!-- cli/event/DefaultEventSpyContext.java
+	     cli/event/ExecutionEventLogger.java
+	     cli/logging/BaseSlf4jConfiguration.java
+	     cli/logging/Slf4jConfiguration.java
+	     cli/logging/Slf4jConfigurationFactory.java
+	     cli/logging/Slf4jLogger.java
+	     cli/logging/Slf4jLoggerManager.java
+	     cli/logging/Slf4jStdoutLogger.java
+	     cli/transfer/AbstractMavenTransferListener.java
+	     cli/transfer/BatchModeMavenTransferListener.java
+	     cli/transfer/ConsoleMavenTransferListener.java
+	     cli/transfer/QuietMavenTransferListener.java
+	     cli/transfer/Slf4jMavenTransferListener.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/org/apache/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/org/apache/maven/x-miss-x"/> -->
+	<!-- maven/cli/CLIManager.java
+	     maven/cli/CLIReportingUtils.java
+	     maven/cli/MavenCli.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/org/apache" path="org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/org/apache/x-miss-x"/> -->
+	<!-- slf4j/impl/MavenSlf4jSimpleFriend.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/org" path="org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/org/x-miss-x"/> -->
+	<!-- META-INF/maven/slf4j-configuration.properties
+	     org/slf4j/MavenSlf4jFriend.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar" path="org.eclipse.m2e.maven.runtime/jars/maven-embedder-3.2.4-20140929.190432-21.jar/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-model/pom.properties
+	     org.apache.maven/maven-model/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-model-3.2.4-20140929.190319-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-model-3.2.4-20140929.190319-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- io/xpp3/MavenXpp3Reader.java
+	     io/xpp3/MavenXpp3ReaderEx.java
+	     io/xpp3/MavenXpp3Writer.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-model-3.2.4-20140929.190319-21.jar/org/apache/maven/model" path="org.eclipse.m2e.maven.runtime/jars/maven-model-3.2.4-20140929.190319-21.jar/org/apache/maven/model/x-miss-x"/> -->
+	<!-- model/merge/ModelMerger.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-model-3.2.4-20140929.190319-21.jar/org/apache/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-model-3.2.4-20140929.190319-21.jar/org/apache/maven/x-miss-x"/> -->
+	<!-- maven/model/Activation.java
+	     maven/model/ActivationFile.java
+	     maven/model/ActivationOS.java
+	     maven/model/ActivationProperty.java
+	     maven/model/Build.java
+	     maven/model/BuildBase.java
+	     maven/model/CiManagement.java
+	     maven/model/ConfigurationContainer.java
+	     maven/model/Contributor.java
+	     maven/model/Dependency.java
+	     maven/model/DependencyManagement.java
+	     maven/model/DeploymentRepository.java
+	     maven/model/Developer.java
+	     maven/model/DistributionManagement.java
+	     maven/model/Exclusion.java
+	     maven/model/Extension.java
+	     maven/model/FileSet.java
+	     maven/model/InputLocation.java
+	     maven/model/InputLocationTracker.java
+	     maven/model/InputSource.java
+	     maven/model/IssueManagement.java
+	     maven/model/License.java
+	     maven/model/MailingList.java
+	     maven/model/Model.java
+	     maven/model/ModelBase.java
+	     maven/model/Notifier.java
+	     maven/model/Organization.java
+	     maven/model/Parent.java
+	     maven/model/PatternSet.java
+	     maven/model/Plugin.java
+	     maven/model/PluginConfiguration.java
+	     maven/model/PluginContainer.java
+	     maven/model/PluginExecution.java
+	     maven/model/PluginManagement.java
+	     maven/model/Prerequisites.java
+	     maven/model/Profile.java
+	     maven/model/Relocation.java
+	     maven/model/Reporting.java
+	     maven/model/ReportPlugin.java
+	     maven/model/ReportSet.java
+	     maven/model/Repository.java
+	     maven/model/RepositoryBase.java
+	     maven/model/RepositoryPolicy.java
+	     maven/model/Resource.java
+	     maven/model/Scm.java
+	     maven/model/Site.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-model-3.2.4-20140929.190319-21.jar/org/apache" path="org.eclipse.m2e.maven.runtime/jars/maven-model-3.2.4-20140929.190319-21.jar/org/apache/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-model-builder/pom.properties
+	     org.apache.maven/maven-model-builder/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-model-builder-3.2.4-20140929.190332-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-model-builder-3.2.4-20140929.190332-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- profile/activation/FileProfileActivator.java
+	     profile/activation/JdkVersionProfileActivator.java
+	     profile/activation/OperatingSystemProfileActivator.java
+	     profile/activation/ProfileActivator.java
+	     profile/activation/PropertyProfileActivator.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-model-builder-3.2.4-20140929.190332-21.jar/org/apache/maven/model" path="org.eclipse.m2e.maven.runtime/jars/maven-model-builder-3.2.4-20140929.190332-21.jar/org/apache/maven/model/x-miss-x"/> -->
+	<!-- model/building/AbstractModelBuildingListener.java
+	     model/building/DefaultModelBuilder.java
+	     model/building/DefaultModelBuilderFactory.java
+	     model/building/DefaultModelBuildingRequest.java
+	     model/building/DefaultModelProblem.java
+	     model/building/DefaultModelProcessor.java
+	     model/building/FileModelSource.java
+	     model/building/ModelBuilder.java
+	     model/building/ModelBuildingEvent.java
+	     model/building/ModelBuildingException.java
+	     model/building/ModelBuildingListener.java
+	     model/building/ModelBuildingRequest.java
+	     model/building/ModelBuildingResult.java
+	     model/building/ModelCache.java
+	     model/building/ModelProblem.java
+	     model/building/ModelProblemCollector.java
+	     model/building/ModelProblemCollectorExt.java
+	     model/building/ModelProblemCollectorRequest.java
+	     model/building/ModelProblemUtils.java
+	     model/building/ModelProcessor.java
+	     model/building/ModelSource.java
+	     model/building/ModelSource2.java
+	     model/building/StringModelSource.java
+	     model/building/UrlModelSource.java
+	     model/composition/DefaultDependencyManagementImporter.java
+	     model/composition/DependencyManagementImporter.java
+	     model/inheritance/DefaultInheritanceAssembler.java
+	     model/inheritance/InheritanceAssembler.java
+	     model/interpolation/AbstractStringBasedModelInterpolator.java
+	     model/interpolation/MavenBuildTimestamp.java
+	     model/interpolation/ModelInterpolator.java
+	     model/interpolation/StringSearchModelInterpolator.java
+	     model/io/DefaultModelReader.java
+	     model/io/DefaultModelWriter.java
+	     model/io/ModelParseException.java
+	     model/io/ModelReader.java
+	     model/io/ModelWriter.java
+	     model/locator/DefaultModelLocator.java
+	     model/locator/ModelLocator.java
+	     model/management/DefaultDependencyManagementInjector.java
+	     model/management/DefaultPluginManagementInjector.java
+	     model/management/DependencyManagementInjector.java
+	     model/management/PluginManagementInjector.java
+	     model/merge/MavenModelMerger.java
+	     model/normalization/DefaultModelNormalizer.java
+	     model/normalization/ModelNormalizer.java
+	     model/path/DefaultModelPathTranslator.java
+	     model/path/DefaultModelUrlNormalizer.java
+	     model/path/DefaultPathTranslator.java
+	     model/path/DefaultUrlNormalizer.java
+	     model/path/ModelPathTranslator.java
+	     model/path/ModelUrlNormalizer.java
+	     model/path/PathTranslator.java
+	     model/path/UrlNormalizer.java
+	     model/plugin/DefaultPluginConfigurationExpander.java
+	     model/plugin/DefaultReportConfigurationExpander.java
+	     model/plugin/DefaultReportingConverter.java
+	     model/plugin/LifecycleBindingsInjector.java
+	     model/plugin/PluginConfigurationExpander.java
+	     model/plugin/ReportConfigurationExpander.java
+	     model/plugin/ReportingConverter.java
+	     model/profile/DefaultProfileActivationContext.java
+	     model/profile/DefaultProfileInjector.java
+	     model/profile/DefaultProfileSelector.java
+	     model/profile/ProfileActivationContext.java
+	     model/profile/ProfileInjector.java
+	     model/profile/ProfileSelector.java
+	     model/resolution/InvalidRepositoryException.java
+	     model/resolution/ModelResolver.java
+	     model/resolution/UnresolvableModelException.java
+	     model/superpom/DefaultSuperPomProvider.java
+	     model/superpom/SuperPomProvider.java
+	     model/validation/DefaultModelValidator.java
+	     model/validation/ModelValidator.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-model-builder-3.2.4-20140929.190332-21.jar/org/apache/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-model-builder-3.2.4-20140929.190332-21.jar/org/apache/maven/x-miss-x"/> -->
+	<!-- maven/model/pom-4.0.0.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-model-builder-3.2.4-20140929.190332-21.jar/org/apache" path="org.eclipse.m2e.maven.runtime/jars/maven-model-builder-3.2.4-20140929.190332-21.jar/org/apache/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-plugin-api/pom.properties
+	     org.apache.maven/maven-plugin-api/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-plugin-api-3.2.4-20140929.190324-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-plugin-api-3.2.4-20140929.190324-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- io/xpp3/LifecycleMappingsXpp3Reader.java
+	     io/xpp3/LifecycleMappingsXpp3Writer.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-plugin-api-3.2.4-20140929.190324-21.jar/org/apache/maven/plugin/lifecycle" path="org.eclipse.m2e.maven.runtime/jars/maven-plugin-api-3.2.4-20140929.190324-21.jar/org/apache/maven/plugin/lifecycle/x-miss-x"/> -->
+	<!-- monitor/logging/DefaultLog.java
+	     plugin/descriptor/DuplicateMojoDescriptorException.java
+	     plugin/descriptor/DuplicateParameterException.java
+	     plugin/descriptor/InvalidParameterException.java
+	     plugin/descriptor/InvalidPluginDescriptorException.java
+	     plugin/descriptor/MojoDescriptor.java
+	     plugin/descriptor/Parameter.java
+	     plugin/descriptor/PluginDescriptor.java
+	     plugin/descriptor/PluginDescriptorBuilder.java
+	     plugin/descriptor/Requirement.java
+	     plugin/lifecycle/Execution.java
+	     plugin/lifecycle/Lifecycle.java
+	     plugin/lifecycle/LifecycleConfiguration.java
+	     plugin/lifecycle/Phase.java
+	     plugin/logging/Log.java
+	     plugin/logging/SystemStreamLog.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-plugin-api-3.2.4-20140929.190324-21.jar/org/apache/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-plugin-api-3.2.4-20140929.190324-21.jar/org/apache/maven/x-miss-x"/> -->
+	<!-- maven/plugin/AbstractMojo.java
+	     maven/plugin/AbstractMojoExecutionException.java
+	     maven/plugin/ContextEnabled.java
+	     maven/plugin/Mojo.java
+	     maven/plugin/MojoExecutionException.java
+	     maven/plugin/MojoFailureException.java
+	     maven/plugin/MojoNotFoundException.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-plugin-api-3.2.4-20140929.190324-21.jar/org/apache" path="org.eclipse.m2e.maven.runtime/jars/maven-plugin-api-3.2.4-20140929.190324-21.jar/org/apache/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-repository-metadata/pom.properties
+	     org.apache.maven/maven-repository-metadata/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-repository-metadata-3.2.4-20140929.190337-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-repository-metadata-3.2.4-20140929.190337-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- io/xpp3/MetadataXpp3Reader.java
+	     io/xpp3/MetadataXpp3Writer.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-repository-metadata-3.2.4-20140929.190337-21.jar/org/apache/maven/artifact/repository/metadata" path="org.eclipse.m2e.maven.runtime/jars/maven-repository-metadata-3.2.4-20140929.190337-21.jar/org/apache/maven/artifact/repository/metadata/x-miss-x"/> -->
+	<!-- repository/metadata/Metadata.java
+	     repository/metadata/Plugin.java
+	     repository/metadata/Snapshot.java
+	     repository/metadata/SnapshotVersion.java
+	     repository/metadata/Versioning.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-repository-metadata-3.2.4-20140929.190337-21.jar/org/apache/maven/artifact" path="org.eclipse.m2e.maven.runtime/jars/maven-repository-metadata-3.2.4-20140929.190337-21.jar/org/apache/maven/artifact/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-settings/pom.properties
+	     org.apache.maven/maven-settings/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-settings-3.2.4-20140929.190334-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-settings-3.2.4-20140929.190334-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- io/xpp3/SettingsXpp3Reader.java
+	     io/xpp3/SettingsXpp3Writer.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-settings-3.2.4-20140929.190334-21.jar/org/apache/maven/settings" path="org.eclipse.m2e.maven.runtime/jars/maven-settings-3.2.4-20140929.190334-21.jar/org/apache/maven/settings/x-miss-x"/> -->
+	<!-- maven/settings/Activation.java
+	     maven/settings/ActivationFile.java
+	     maven/settings/ActivationOS.java
+	     maven/settings/ActivationProperty.java
+	     maven/settings/IdentifiableBase.java
+	     maven/settings/Mirror.java
+	     maven/settings/Profile.java
+	     maven/settings/Proxy.java
+	     maven/settings/Repository.java
+	     maven/settings/RepositoryBase.java
+	     maven/settings/RepositoryPolicy.java
+	     maven/settings/RuntimeInfo.java
+	     maven/settings/Server.java
+	     maven/settings/Settings.java
+	     maven/settings/TrackableBase.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-settings-3.2.4-20140929.190334-21.jar/org/apache" path="org.eclipse.m2e.maven.runtime/jars/maven-settings-3.2.4-20140929.190334-21.jar/org/apache/x-miss-x"/> -->
+	<!-- org.apache.maven/maven-settings-builder/pom.properties
+	     org.apache.maven/maven-settings-builder/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-settings-builder-3.2.4-20140929.190336-21.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-settings-builder-3.2.4-20140929.190336-21.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- settings/building/DefaultSettingsBuilder.java
+	     settings/building/DefaultSettingsBuilderFactory.java
+	     settings/building/DefaultSettingsBuildingRequest.java
+	     settings/building/DefaultSettingsProblem.java
+	     settings/building/FileSettingsSource.java
+	     settings/building/SettingsBuilder.java
+	     settings/building/SettingsBuildingException.java
+	     settings/building/SettingsBuildingRequest.java
+	     settings/building/SettingsBuildingResult.java
+	     settings/building/SettingsProblem.java
+	     settings/building/SettingsProblemCollector.java
+	     settings/building/SettingsSource.java
+	     settings/building/StringSettingsSource.java
+	     settings/building/UrlSettingsSource.java
+	     settings/crypto/DefaultSettingsDecrypter.java
+	     settings/crypto/DefaultSettingsDecryptionRequest.java
+	     settings/crypto/SettingsDecrypter.java
+	     settings/crypto/SettingsDecryptionRequest.java
+	     settings/crypto/SettingsDecryptionResult.java
+	     settings/io/DefaultSettingsReader.java
+	     settings/io/DefaultSettingsWriter.java
+	     settings/io/SettingsParseException.java
+	     settings/io/SettingsReader.java
+	     settings/io/SettingsWriter.java
+	     settings/merge/MavenSettingsMerger.java
+	     settings/validation/DefaultSettingsValidator.java
+	     settings/validation/SettingsValidator.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/maven-settings-builder-3.2.4-20140929.190336-21.jar/org/apache/maven" path="org.eclipse.m2e.maven.runtime/jars/maven-settings-builder-3.2.4-20140929.190336-21.jar/org/apache/maven/x-miss-x"/> -->
+	<!-- org.codehaus.plexus/plexus-interpolation/pom.properties
+	     org.codehaus.plexus/plexus-interpolation/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/plexus-interpolation-1.19.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/plexus-interpolation-1.19.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- interpolation/multi/DelimiterSpecification.java
+	     interpolation/multi/MultiDelimiterInterpolatorFilterReader.java
+	     interpolation/multi/MultiDelimiterStringSearchInterpolator.java
+	     interpolation/object/FieldBasedObjectInterpolator.java
+	     interpolation/object/ObjectInterpolationWarning.java
+	     interpolation/object/ObjectInterpolator.java
+	     interpolation/os/OperatingSystemUtils.java
+	     interpolation/os/Os.java
+	     interpolation/reflection/ClassMap.java
+	     interpolation/reflection/MethodMap.java
+	     interpolation/reflection/ReflectionValueExtractor.java
+	     interpolation/util/StringUtils.java
+	     interpolation/util/ValueSourceUtils.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/plexus-interpolation-1.19.jar/org/codehaus/plexus" path="org.eclipse.m2e.maven.runtime/jars/plexus-interpolation-1.19.jar/org/codehaus/plexus/x-miss-x"/> -->
+	<!-- plexus/interpolation/AbstractDelegatingValueSource.java
+	     plexus/interpolation/AbstractFunctionValueSourceWrapper.java
+	     plexus/interpolation/AbstractValueSource.java
+	     plexus/interpolation/EnvarBasedValueSource.java
+	     plexus/interpolation/FeedbackEnabledValueSource.java
+	     plexus/interpolation/InterpolationCycleException.java
+	     plexus/interpolation/InterpolationException.java
+	     plexus/interpolation/InterpolationPostProcessor.java
+	     plexus/interpolation/Interpolator.java
+	     plexus/interpolation/InterpolatorFilterReader.java
+	     plexus/interpolation/MapBasedValueSource.java
+	     plexus/interpolation/ObjectBasedValueSource.java
+	     plexus/interpolation/PrefixAwareRecursionInterceptor.java
+	     plexus/interpolation/PrefixedObjectValueSource.java
+	     plexus/interpolation/PrefixedPropertiesValueSource.java
+	     plexus/interpolation/PrefixedValueSourceWrapper.java
+	     plexus/interpolation/PropertiesBasedValueSource.java
+	     plexus/interpolation/QueryEnabledValueSource.java
+	     plexus/interpolation/RecursionInterceptor.java
+	     plexus/interpolation/RegexBasedInterpolator.java
+	     plexus/interpolation/SimpleRecursionInterceptor.java
+	     plexus/interpolation/SingleResponseValueSource.java
+	     plexus/interpolation/StringSearchInterpolator.java
+	     plexus/interpolation/ValueSource.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/plexus-interpolation-1.19.jar/org/codehaus" path="org.eclipse.m2e.maven.runtime/jars/plexus-interpolation-1.19.jar/org/codehaus/x-miss-x"/> -->
+	<!-- org.codehaus.plexus/plexus-utils/pom.properties
+	     org.codehaus.plexus/plexus-utils/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/plexus-utils-3.0.17.jar/META-INF/maven" path="org.eclipse.m2e.maven.runtime/jars/plexus-utils-3.0.17.jar/META-INF/maven/x-miss-x"/> -->
+	<!-- cli/shell/BourneShell.java
+	     cli/shell/CmdShell.java
+	     cli/shell/CommandShell.java
+	     cli/shell/Shell.java
+	     xml/pull/EntityReplacementMap.java
+	     xml/pull/MXParser.java
+	     xml/pull/MXSerializer.java
+	     xml/pull/XmlPullParser.java
+	     xml/pull/XmlPullParserException.java
+	     xml/pull/XmlSerializer.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/plexus-utils-3.0.17.jar/org/codehaus/plexus/util" path="org.eclipse.m2e.maven.runtime/jars/plexus-utils-3.0.17.jar/org/codehaus/plexus/util/x-miss-x"/> -->
+	<!-- util/cli/AbstractStreamHandler.java
+	     util/cli/Arg.java
+	     util/cli/Commandline.java
+	     util/cli/CommandLineCallable.java
+	     util/cli/CommandLineException.java
+	     util/cli/CommandLineTimeOutException.java
+	     util/cli/CommandLineUtils.java
+	     util/cli/DefaultConsumer.java
+	     util/cli/EnhancedStringTokenizer.java
+	     util/cli/StreamConsumer.java
+	     util/cli/StreamFeeder.java
+	     util/cli/StreamPumper.java
+	     util/cli/WriterStreamConsumer.java
+	     util/dag/CycleDetectedException.java
+	     util/dag/CycleDetector.java
+	     util/dag/DAG.java
+	     util/dag/TopologicalSorter.java
+	     util/dag/Vertex.java
+	     util/introspection/ClassMap.java
+	     util/introspection/MethodMap.java
+	     util/introspection/ReflectionValueExtractor.java
+	     util/io/InputStreamFacade.java
+	     util/io/RawInputStreamFacade.java
+	     util/io/URLInputStreamFacade.java
+	     util/reflection/Reflector.java
+	     util/reflection/ReflectorException.java
+	     util/xml/CompactXMLWriter.java
+	     util/xml/PrettyPrintXMLWriter.java
+	     util/xml/SerializerXMLWriter.java
+	     util/xml/XmlReader.java
+	     util/xml/XmlReaderException.java
+	     util/xml/XmlStreamReader.java
+	     util/xml/XmlStreamReaderException.java
+	     util/xml/XmlStreamWriter.java
+	     util/xml/XmlUtil.java
+	     util/xml/XMLWriter.java
+	     util/xml/XmlWriterUtil.java
+	     util/xml/Xpp3Dom.java
+	     util/xml/Xpp3DomBuilder.java
+	     util/xml/Xpp3DomUtils.java
+	     util/xml/Xpp3DomWriter.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/plexus-utils-3.0.17.jar/org/codehaus/plexus" path="org.eclipse.m2e.maven.runtime/jars/plexus-utils-3.0.17.jar/org/codehaus/plexus/x-miss-x"/> -->
+	<!-- plexus/util/AbstractScanner.java
+	     plexus/util/Base64.java
+	     plexus/util/CachedMap.java
+	     plexus/util/CollectionUtils.java
+	     plexus/util/DirectoryScanner.java
+	     plexus/util/DirectoryWalker.java
+	     plexus/util/DirectoryWalkListener.java
+	     plexus/util/ExceptionUtils.java
+	     plexus/util/Expand.java
+	     plexus/util/FastMap.java
+	     plexus/util/FileUtils.java
+	     plexus/util/InterpolationFilterReader.java
+	     plexus/util/IOUtil.java
+	     plexus/util/Java7FileUtil.java
+	     plexus/util/LineOrientedInterpolatingReader.java
+	     plexus/util/MatchPattern.java
+	     plexus/util/MatchPatterns.java
+	     plexus/util/Os.java
+	     plexus/util/PathTool.java
+	     plexus/util/PropertyUtils.java
+	     plexus/util/ReaderFactory.java
+	     plexus/util/ReflectionUtils.java
+	     plexus/util/Scanner.java
+	     plexus/util/SelectorUtils.java
+	     plexus/util/StringInputStream.java
+	     plexus/util/StringOutputStream.java
+	     plexus/util/StringUtils.java
+	     plexus/util/SweeperPool.java
+	     plexus/util/TypeFormat.java
+	     plexus/util/WriterFactory.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars/plexus-utils-3.0.17.jar/org/codehaus" path="org.eclipse.m2e.maven.runtime/jars/plexus-utils-3.0.17.jar/org/codehaus/x-miss-x"/> -->
+	<!-- maven-aether-provider-3.2.4-20140929.190343-21.jar/META-INF/DEPENDENCIES
+	     maven-aether-provider-3.2.4-20140929.190343-21.jar/META-INF/LICENSE
+	     maven-aether-provider-3.2.4-20140929.190343-21.jar/META-INF/MANIFEST.MF
+	     maven-aether-provider-3.2.4-20140929.190343-21.jar/META-INF/NOTICE
+	     maven-artifact-3.2.4-20140929.190322-21.jar/META-INF/DEPENDENCIES
+	     maven-artifact-3.2.4-20140929.190322-21.jar/META-INF/LICENSE
+	     maven-artifact-3.2.4-20140929.190322-21.jar/META-INF/MANIFEST.MF
+	     maven-artifact-3.2.4-20140929.190322-21.jar/META-INF/NOTICE
+	     maven-compat-3.2.4-20140929.190430-21.jar/META-INF/DEPENDENCIES
+	     maven-compat-3.2.4-20140929.190430-21.jar/META-INF/LICENSE
+	     maven-compat-3.2.4-20140929.190430-21.jar/META-INF/MANIFEST.MF
+	     maven-compat-3.2.4-20140929.190430-21.jar/META-INF/NOTICE
+	     maven-core-3.2.4-20140929.190414-21.jar/META-INF/DEPENDENCIES
+	     maven-core-3.2.4-20140929.190414-21.jar/META-INF/LICENSE
+	     maven-core-3.2.4-20140929.190414-21.jar/META-INF/MANIFEST.MF
+	     maven-core-3.2.4-20140929.190414-21.jar/META-INF/NOTICE
+	     maven-embedder-3.2.4-20140929.190432-21.jar/META-INF/DEPENDENCIES
+	     maven-embedder-3.2.4-20140929.190432-21.jar/META-INF/LICENSE
+	     maven-embedder-3.2.4-20140929.190432-21.jar/META-INF/MANIFEST.MF
+	     maven-embedder-3.2.4-20140929.190432-21.jar/META-INF/NOTICE
+	     maven-model-3.2.4-20140929.190319-21.jar/META-INF/DEPENDENCIES
+	     maven-model-3.2.4-20140929.190319-21.jar/META-INF/LICENSE
+	     maven-model-3.2.4-20140929.190319-21.jar/META-INF/MANIFEST.MF
+	     maven-model-3.2.4-20140929.190319-21.jar/META-INF/NOTICE
+	     maven-model-builder-3.2.4-20140929.190332-21.jar/META-INF/DEPENDENCIES
+	     maven-model-builder-3.2.4-20140929.190332-21.jar/META-INF/LICENSE
+	     maven-model-builder-3.2.4-20140929.190332-21.jar/META-INF/MANIFEST.MF
+	     maven-model-builder-3.2.4-20140929.190332-21.jar/META-INF/NOTICE
+	     maven-plugin-api-3.2.4-20140929.190324-21.jar/META-INF/DEPENDENCIES
+	     maven-plugin-api-3.2.4-20140929.190324-21.jar/META-INF/LICENSE
+	     maven-plugin-api-3.2.4-20140929.190324-21.jar/META-INF/MANIFEST.MF
+	     maven-plugin-api-3.2.4-20140929.190324-21.jar/META-INF/NOTICE
+	     maven-repository-metadata-3.2.4-20140929.190337-21.jar/META-INF/DEPENDENCIES
+	     maven-repository-metadata-3.2.4-20140929.190337-21.jar/META-INF/LICENSE
+	     maven-repository-metadata-3.2.4-20140929.190337-21.jar/META-INF/MANIFEST.MF
+	     maven-repository-metadata-3.2.4-20140929.190337-21.jar/META-INF/NOTICE
+	     maven-settings-3.2.4-20140929.190334-21.jar/META-INF/DEPENDENCIES
+	     maven-settings-3.2.4-20140929.190334-21.jar/META-INF/LICENSE
+	     maven-settings-3.2.4-20140929.190334-21.jar/META-INF/MANIFEST.MF
+	     maven-settings-3.2.4-20140929.190334-21.jar/META-INF/NOTICE
+	     maven-settings-builder-3.2.4-20140929.190336-21.jar/META-INF/DEPENDENCIES
+	     maven-settings-builder-3.2.4-20140929.190336-21.jar/META-INF/LICENSE
+	     maven-settings-builder-3.2.4-20140929.190336-21.jar/META-INF/MANIFEST.MF
+	     maven-settings-builder-3.2.4-20140929.190336-21.jar/META-INF/NOTICE
+	     plexus-interpolation-1.19.jar/META-INF/MANIFEST.MF
+	     plexus-utils-3.0.17.jar/licenses/extreme.indiana.edu.license.TXT
+	     plexus-utils-3.0.17.jar/licenses/javolution.license.TXT
+	     plexus-utils-3.0.17.jar/licenses/thoughtworks.TXT
+	     plexus-utils-3.0.17.jar/META-INF/LICENSE
+	     plexus-utils-3.0.17.jar/META-INF/MANIFEST.MF
+	     plexus-utils-3.0.17.jar/META-INF/NOTICE -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.m2e.maven.runtime/jars" path="org.eclipse.m2e.maven.runtime/jars/x-miss-x"/> -->
 	<!-- about.html
 	     about_files/LICENSE-2.0.txt
 	     OSGI-INF/l10n/bundle.properties -->
@@ -16,17 +1000,6 @@
 	     jars/commons-lang-2.6.jar
 	     jars/guava-14.0.1.jar
 	     jars/jsr250-api-1.0.jar
-	     jars/maven-aether-provider-3.2.4-20141025.121129-13.jar
-	     jars/maven-artifact-3.2.4-20141025.121131-13.jar
-	     jars/maven-compat-3.2.4-20141025.120437-34.jar
-	     jars/maven-core-3.2.4-20141025.120420-34.jar
-	     jars/maven-embedder-3.2.4-20141025.120440-34.jar
-	     jars/maven-model-3.2.4-20141025.121137-13.jar
-	     jars/maven-model-builder-3.2.4-20141025.121140-13.jar
-	     jars/maven-plugin-api-3.2.4-20141025.121152-13.jar
-	     jars/maven-repository-metadata-3.2.4-20141025.121152-13.jar
-	     jars/maven-settings-3.2.4-20141025.121155-13.jar
-	     jars/maven-settings-builder-3.2.4-20141025.121156-13.jar
 	     jars/okhttp-2.0.0.jar
 	     jars/okio-1.0.0.jar
 	     jars/org.eclipse.sisu.inject-0.3.0.M1.jar
@@ -35,9 +1008,7 @@
 	     jars/plexus-cipher-1.7.jar
 	     jars/plexus-classworlds-2.5.2.jar
 	     jars/plexus-component-annotations-1.5.5.jar
-	     jars/plexus-interpolation-1.21.jar
 	     jars/plexus-sec-dispatcher-1.3.jar
-	     jars/plexus-utils-3.0.20.jar
 	     jars/sisu-guice-3.2.3-no_aop.jar
 	     jars/takari-filemanager-0.7.0.jar
 	     jars/takari-local-repository-0.9.0.jar

@@ -7,41 +7,30 @@
 	     org/apache/commons/compress/archivers/ArchiveStreamFactory.java
 	     org/apache/commons/compress/archivers/arj/ArjArchiveEntry.java
 	     org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java
-	     org/apache/commons/compress/archivers/arj/package.html
 	     org/apache/commons/compress/archivers/ar/ArArchiveEntry.java
 	     org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java
 	     org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java
-	     org/apache/commons/compress/archivers/ar/package.html
 	     org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java
 	     org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java
 	     org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java
 	     org/apache/commons/compress/archivers/cpio/CpioConstants.java
-	     org/apache/commons/compress/archivers/cpio/package.html
 	     org/apache/commons/compress/archivers/dump/DumpArchiveConstants.java
 	     org/apache/commons/compress/archivers/dump/DumpArchiveEntry.java
 	     org/apache/commons/compress/archivers/dump/DumpArchiveException.java
 	     org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java
 	     org/apache/commons/compress/archivers/dump/DumpArchiveSummary.java
 	     org/apache/commons/compress/archivers/dump/InvalidFormatException.java
-	     org/apache/commons/compress/archivers/dump/package.html
 	     org/apache/commons/compress/archivers/dump/ShortFileException.java
 	     org/apache/commons/compress/archivers/dump/UnrecognizedFormatException.java
 	     org/apache/commons/compress/archivers/dump/UnsupportedCompressionAlgorithmException.java
 	     org/apache/commons/compress/archivers/jar/JarArchiveEntry.java
 	     org/apache/commons/compress/archivers/jar/JarArchiveInputStream.java
 	     org/apache/commons/compress/archivers/jar/JarArchiveOutputStream.java
-	     org/apache/commons/compress/archivers/jar/package.html
 	     org/apache/commons/compress/archivers/Lister.java
-	     org/apache/commons/compress/archivers/package.html
-	     org/apache/commons/compress/archivers/sevenz/CLI.java
-	     org/apache/commons/compress/archivers/sevenz/package.html
 	     org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java
 	     org/apache/commons/compress/archivers/sevenz/SevenZFile.java
 	     org/apache/commons/compress/archivers/sevenz/SevenZMethod.java
-	     org/apache/commons/compress/archivers/sevenz/SevenZMethodConfiguration.java
 	     org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java
-	     org/apache/commons/compress/archivers/StreamingNotSupportedException.java
-	     org/apache/commons/compress/archivers/tar/package.html
 	     org/apache/commons/compress/archivers/tar/TarArchiveEntry.java
 	     org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java
 	     org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java
@@ -53,7 +42,6 @@
 	     org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java
 	     org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java
 	     org/apache/commons/compress/archivers/zip/JarMarker.java
-	     org/apache/commons/compress/archivers/zip/package.html
 	     org/apache/commons/compress/archivers/zip/UnicodeCommentExtraField.java
 	     org/apache/commons/compress/archivers/zip/UnicodePathExtraField.java
 	     org/apache/commons/compress/archivers/zip/UnixStat.java
@@ -80,53 +68,39 @@
 	     org/apache/commons/compress/changes/ChangeSet.java
 	     org/apache/commons/compress/changes/ChangeSetPerformer.java
 	     org/apache/commons/compress/changes/ChangeSetResults.java
-	     org/apache/commons/compress/changes/package.html
 	     org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java
 	     org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java
 	     org/apache/commons/compress/compressors/bzip2/BZip2Utils.java
-	     org/apache/commons/compress/compressors/bzip2/package.html
 	     org/apache/commons/compress/compressors/CompressorException.java
 	     org/apache/commons/compress/compressors/CompressorInputStream.java
 	     org/apache/commons/compress/compressors/CompressorOutputStream.java
 	     org/apache/commons/compress/compressors/CompressorStreamFactory.java
-	     org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java
-	     org/apache/commons/compress/compressors/deflate/DeflateCompressorOutputStream.java
-	     org/apache/commons/compress/compressors/deflate/DeflateParameters.java
-	     org/apache/commons/compress/compressors/deflate/package.html
 	     org/apache/commons/compress/compressors/FileNameUtil.java
 	     org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.java
 	     org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStream.java
-	     org/apache/commons/compress/compressors/gzip/GzipParameters.java
 	     org/apache/commons/compress/compressors/gzip/GzipUtils.java
-	     org/apache/commons/compress/compressors/gzip/package.html
 	     org/apache/commons/compress/compressors/lzma/LZMACompressorInputStream.java
-	     org/apache/commons/compress/compressors/lzma/package.html
 	     org/apache/commons/compress/compressors/pack200/Pack200CompressorInputStream.java
 	     org/apache/commons/compress/compressors/pack200/Pack200CompressorOutputStream.java
 	     org/apache/commons/compress/compressors/pack200/Pack200Strategy.java
 	     org/apache/commons/compress/compressors/pack200/Pack200Utils.java
-	     org/apache/commons/compress/compressors/pack200/package.html
-	     org/apache/commons/compress/compressors/package.html
-	     org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStream.java
-	     org/apache/commons/compress/compressors/snappy/package.html
-	     org/apache/commons/compress/compressors/snappy/SnappyCompressorInputStream.java
-	     org/apache/commons/compress/compressors/xz/package.html
 	     org/apache/commons/compress/compressors/xz/XZCompressorInputStream.java
 	     org/apache/commons/compress/compressors/xz/XZCompressorOutputStream.java
 	     org/apache/commons/compress/compressors/xz/XZUtils.java
-	     org/apache/commons/compress/compressors/z/package.html
-	     org/apache/commons/compress/compressors/z/ZCompressorInputStream.java
 	     org/apache/commons/compress/utils/ArchiveUtils.java
 	     org/apache/commons/compress/utils/BoundedInputStream.java
 	     org/apache/commons/compress/utils/CharsetNames.java
 	     org/apache/commons/compress/utils/Charsets.java
-	     org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java
 	     org/apache/commons/compress/utils/CountingInputStream.java
 	     org/apache/commons/compress/utils/CountingOutputStream.java
 	     org/apache/commons/compress/utils/CRC32VerifyingInputStream.java
 	     org/apache/commons/compress/utils/IOUtils.java
-	     org/apache/commons/compress/utils/package.html
-	     org/apache/commons/compress/compressors/lzw/LZWInputStream.java -->
+	     org/apache/commons/compress/PasswordRequiredException.java
+	     org/apache/commons/compress/parallel/FileBasedScatterGatherBackingStore.java
+	     org/apache/commons/compress/compressors/lzw/LZWInputStream.java
+	     org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java
+	     org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStream.java
+	     org/apache/commons/compress/compressors/z/ZCompressorInputStream.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.apache.commons.compress.jar" path="apache.commons-compress/src/main/java"/>
 	<!-- about.html
 	     about_files/LICENSE.txt

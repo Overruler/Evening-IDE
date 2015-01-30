@@ -7,6 +7,9 @@
 	     schema/packageURIMap.exsd
 	     schema/translatorExtension.exsd -->
 	<classpathentry excluding="workbench/|wtpemf/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.wst.common.emf.jar" path="org.eclipse.wst.common.emf"/>
+	<!-- org.eclipse.webtools.common/org.eclipse.wst.common.emf/pom.properties
+	     org.eclipse.webtools.common/org.eclipse.wst.common.emf/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.wst.common.emf.jar/META-INF/maven" path="org.eclipse.wst.common.emf.jar/META-INF/maven/x-miss-x"/> -->
 	<!-- org/eclipse/wst/common/internal/emf/plugin/EcoreUtilitiesPlugin.java
 	     org/eclipse/wst/common/internal/emf/plugin/PackageURIMapReader.java
 	     org/eclipse/wst/common/internal/emf/plugin/PluginRendererFactoryDefaultHandler.java

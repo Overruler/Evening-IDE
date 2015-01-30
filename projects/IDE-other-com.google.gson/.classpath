@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<!-- internal/bind/BigDecimalTypeAdapter.java
+	     internal/bind/BigIntegerTypeAdapter.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/com.google.gson.jar/com/google/gson" path="com.google.gson.jar/com/google/gson/x-miss-x"/> -->
+	<!-- gson/internal/GsonInternalAccess.java
+	     gson/internal/Pair.java -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/com.google.gson.jar/com/google" path="com.google.gson.jar/com/google/x-miss-x"/> -->
 	<!-- com/google/gson/annotations/Expose.java
 	     com/google/gson/annotations/SerializedName.java
 	     com/google/gson/annotations/Since.java
@@ -26,6 +32,7 @@
 	     com/google/gson/internal/Excluder.java
 	     com/google/gson/internal/JsonReaderInternalAccess.java
 	     com/google/gson/internal/LazilyParsedNumber.java
+	     com/google/gson/internal/LinkedTreeMap.java
 	     com/google/gson/internal/ObjectConstructor.java
 	     com/google/gson/internal/Primitives.java
 	     com/google/gson/internal/Streams.java

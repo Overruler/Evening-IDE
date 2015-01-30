@@ -124,6 +124,7 @@
 	     META-INF/maven/org.eclipse.jetty/jetty-util/pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.jetty.util.jar" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-ch.qos.logback.slf4j"/>
 	<classpathentry kind="src" path="/IDE-other-javax.servlet"/>
 	<classpathentry kind="src" path="/IDE-other-javax.xml"/>
 	<classpathentry kind="src" path="/IDE-other-org.slf4j.api"/>

@@ -116,6 +116,7 @@
 	     org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.java
 	     org/eclipse/jdt/internal/compiler/ast/Expression.java
 	     org/eclipse/jdt/internal/compiler/ast/ExtendedStringLiteral.java
+	     org/eclipse/jdt/internal/compiler/ast/FakedTrackingVariable.java
 	     org/eclipse/jdt/internal/compiler/ast/FalseLiteral.java
 	     org/eclipse/jdt/internal/compiler/ast/FieldDeclaration.java
 	     org/eclipse/jdt/internal/compiler/ast/FieldReference.java
@@ -372,6 +373,7 @@
 	     org/eclipse/jdt/internal/compiler/parser/parser8.rsc
 	     org/eclipse/jdt/internal/compiler/parser/parser9.rsc
 	     org/eclipse/jdt/internal/compiler/parser/ParserBasicInformation.java
+	     org/eclipse/jdt/internal/compiler/parser/readableNames.props
 	     org/eclipse/jdt/internal/compiler/parser/RecoveredAnnotation.java
 	     org/eclipse/jdt/internal/compiler/parser/RecoveredBlock.java
 	     org/eclipse/jdt/internal/compiler/parser/RecoveredElement.java
@@ -435,8 +437,7 @@
 	     org/eclipse/jdt/internal/compiler/util/SimpleSet.java
 	     org/eclipse/jdt/internal/compiler/util/SimpleSetOfCharArray.java
 	     org/eclipse/jdt/internal/compiler/util/SuffixConstants.java
-	     org/eclipse/jdt/internal/compiler/util/Util.java
-	     org/eclipse/jdt/internal/compiler/parser/readableNames.props -->
+	     org/eclipse/jdt/internal/compiler/util/Util.java -->
 	<classpathentry including="org/eclipse/jdt/core/compiler/*|org/eclipse/jdt/internal/compiler/*|org/eclipse/jdt/internal/compiler/ast/*|org/eclipse/jdt/internal/compiler/classfmt/*|org/eclipse/jdt/internal/compiler/codegen/*|org/eclipse/jdt/internal/compiler/env/*|org/eclipse/jdt/internal/compiler/flow/*|org/eclipse/jdt/internal/compiler/impl/*|org/eclipse/jdt/internal/compiler/lookup/*|org/eclipse/jdt/internal/compiler/parser/*|org/eclipse/jdt/internal/compiler/parser/diagnose/*|org/eclipse/jdt/internal/compiler/parser/unicode/*|org/eclipse/jdt/internal/compiler/parser/unicode6/*|org/eclipse/jdt/internal/compiler/problem/*|org/eclipse/jdt/internal/compiler/util/*" kind="src" output="bin/1/plugins/org.apache.jasper.glassfish.jar" path="eclipse.jdt.core/org.eclipse.jdt.core/compiler"/>
 	<!-- org/eclipse/jdt/internal/compiler/ExtraFlags.java
 	     org/eclipse/jdt/internal/compiler/parser/TypeConverter.java

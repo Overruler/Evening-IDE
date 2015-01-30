@@ -9,7 +9,6 @@ import java.util.Comparator;
 import java.util.Locale;
 import java.util.Objects;
 import java.util.Optional;
-import java.util.jar.JarFile;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collector;
@@ -35,8 +34,7 @@ import utils.streams2.Stream;
 import utils.streams2.Streams;
 
 public class RegenerateProjectsMain {
-	private static final Path MANIFEST_PATH = Paths.get(JarFile.MANIFEST_NAME);
-	private static final Path PLUGINS_FOLDER = Paths.get(System.getProperty("user.home", ""), "evening/plugins");
+	private static final Path PLUGINS_FOLDER = Paths.get(System.getProperty("user.home", ""), "evening");
 	private static final Set<Path> CLASS_FILE_INDICATORS = Set.of(
 		Paths.get("target"),
 		Paths.get("bin"),
@@ -194,13 +192,13 @@ public class RegenerateProjectsMain {
 		return Pair.of(project, list.toList());
 	}
 	private static void printUnusedProjects(HashSet<Path> projectFolders, Path projects) throws IOException {
-		ArrayList<Path> list =
-			Files.list(projects).toSet().removeAll(projectFolders).removeIf(
-				p -> (p.getFileName() + "-other-").replace("-compile-", "-other-").replace("-all-", "-other-").startsWith(
-					"IDE-other-")).toArrayList().sort();
+		HashSet<String> set =
+			Files.list(projects).toSet().removeAll(projectFolders).map(p -> p.getFileName().toString());
+		set.removeIf(p -> p.startsWith("IDE-compile-") || p.startsWith("IDE-all-") || p.equals("IDE"));
+		ArrayList<String> list = set.toArrayList().sort();
 		if(list.notEmpty()) {
 			System.out.println("\nUnused folders inside projects folder:");
-			for(Path path : list) {
+			for(String path : list) {
 				System.out.println(path);
 			}
 		}
@@ -407,6 +405,9 @@ public class RegenerateProjectsMain {
 	}
 	private static List<String> customizeAddRequiredProjects(String plugin, List<String> required) {
 		switch(plugin) {
+			case "ch.qos.logback.classic":
+			case "ch.qos.logback.core":
+				return required.addAll("IDE-compile-logback", "IDE-compile-various");
 			case "com.google.gerrit.common":
 				return required.addAll("com.google.guava", "IDE-compile-gwt");
 			case "com.google.gerrit.prettify":
@@ -538,6 +539,8 @@ public class RegenerateProjectsMain {
 			case "org.eclipse.m2e.profiles.core":
 			case "org.eclipse.m2e.scm":
 				return required.addAll("IDE-compile-apache.maven");
+			case "org.eclipse.m2e.logback.appender":
+				return required.addAll("ch.qos.logback.core", "org.eclipse.ui.workbench");
 			case "org.eclipse.m2e.discovery":
 				return required.addAll("IDE-compile-apache.maven", "org.eclipse.e4.ui.workbench");
 			case "org.eclipse.m2e.model.edit":
@@ -608,6 +611,8 @@ public class RegenerateProjectsMain {
 					"org.eclipse.text");
 			case "org.slf4j.api":
 				return required.add("IDE-compile-org.slf4j");
+			case "org.springsource.ide.eclipse.commons.quicksearch":
+				return required.add("org.eclipse.ui.workbench.texteditor");
 			case "com.jcraft.jsch":
 				return required.add("IDE-compile-com.jcraft.jzlib");
 			default:
@@ -771,6 +776,8 @@ public class RegenerateProjectsMain {
 			case "org.eclipse.m2e.jdt":
 			case "org.eclipse.m2e.jdt.ui":
 			case "org.eclipse.m2e.launching":
+			case "org.eclipse.m2e.logback.appender":
+			case "org.eclipse.m2e.logback.configuration":
 			case "org.eclipse.m2e.model.edit":
 			case "org.eclipse.m2e.profiles.core":
 			case "org.eclipse.m2e.profiles.ui":
@@ -808,8 +815,6 @@ public class RegenerateProjectsMain {
 				return excluded.addAll(".*", ".*/", "fragments/");
 			case "org.eclipse.jdt.core":
 				return excluded.addAll(".*", ".*/", "scripts/");
-			case "org.eclipse.jdt.launching":
-				return excluded.addAll(".*", ".*/", "lib/");
 			case "org.eclipse.jdt.ui":
 				return excluded.addAll(".*", ".*/", "jar in jar loader/");
 			case "jetty-http/src/test/java":
@@ -878,6 +883,8 @@ public class RegenerateProjectsMain {
 		switch(target.getFileName().toString()) {
 			case "ECLIPSE_.RSA":
 			case "ECLIPSE_.SF":
+			case "VMWARE.RSA":
+			case "VMWARE.SF":
 			case "ECLIPSEF.RSA":
 			case "ECLIPSEF.SF":
 			case "JEEEYUL_.DSA":
@@ -965,15 +972,6 @@ public class RegenerateProjectsMain {
 					pluginName,
 					".jar/",
 					"com/google/gwtexpui/safehtml/client/SafeHtml.java");
-			case "com.google.gson":
-				return customizeModelFilesListRemove(
-					list,
-					pluginName,
-					".jar/",
-					"com/google/gson/internal/bind/BigDecimalTypeAdapter.java",
-					"com/google/gson/internal/bind/BigIntegerTypeAdapter.java",
-					"com/google/gson/internal/GsonInternalAccess.java",
-					"com/google/gson/internal/Pair.java");
 			case "com.google.guava":
 				return customizeModelFilesListRemove(
 					customizeModelFilesListAdd(
@@ -1001,6 +999,18 @@ public class RegenerateProjectsMain {
 					pluginName,
 					".jar/",
 					"org/apache/el/stream/Optional.java");
+			case "javaewah":
+				return customizeModelFilesListAdd(
+					customizeModelFilesListRemoveIfStartsWith(
+						list,
+						pluginName,
+						".jar/",
+						"com/googlecode/javaewah/benchmark"),
+					pluginName,
+					".jar/",
+					"com/googlecode/javaewah/datastructure/PriorityQ.java",
+					"com/googlecode/javaewah/symmetric/RunningBitmapMerge.java",
+					"com/googlecode/javaewah32/symmetric/RunningBitmapMerge32.java");
 			case "javax.el":
 				return customizeModelFilesListRemove(list, pluginName, ".jar/", "javax/el/PrivateMessages.properties");
 			case "javax.servlet":
@@ -1042,15 +1052,15 @@ public class RegenerateProjectsMain {
 					"org/apache/commons/codec/language/dmrules.txt");
 			case "org.apache.commons.compress":
 				return customizeModelFilesListAdd(
-					customizeModelFilesListRemove(
-						list,
-						pluginName,
-						".jar/",
-						"org/apache/commons/compress/compressors/z/_internal_/InternalLZWInputStream.java",
-						"org/apache/commons/compress/compressors/z/_internal_/package.html"),
+					list,
 					pluginName,
 					".jar/",
-					"org/apache/commons/compress/compressors/lzw/LZWInputStream.java");
+					"org/apache/commons/compress/PasswordRequiredException.java",
+					"org/apache/commons/compress/parallel/FileBasedScatterGatherBackingStore.java",
+					"org/apache/commons/compress/compressors/lzw/LZWInputStream.java",
+					"org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java",
+					"org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStream.java",
+					"org/apache/commons/compress/compressors/z/ZCompressorInputStream.java");
 			case "org.apache.httpcomponents.httpclient":
 				return customizeModelFilesListAdd(
 					list,
@@ -1064,12 +1074,10 @@ public class RegenerateProjectsMain {
 						list,
 						pluginName,
 						".jar/",
-						"org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.java",
-						"org/eclipse/jdt/internal/compiler/parser/readableNames.properties"),
+						"org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.java"),
 					pluginName,
 					".jar/",
-					"org/apache/jasper/util/SystemLogHandler.java",
-					"org/eclipse/jdt/internal/compiler/parser/readableNames.props");
+					"org/apache/jasper/util/SystemLogHandler.java");
 			case "org.apache.xerces":
 				return customizeModelFilesListRemove(
 					list,
@@ -1091,6 +1099,18 @@ public class RegenerateProjectsMain {
 				return customizeModelFilesListRemoveIfStartsWith(list, pluginName, ".jar/", "index", "reference");
 			case "org.eclipse.jdt.doc.user":
 				return customizeModelFilesListRemoveIfStartsWith(list, pluginName, ".jar/", "index");
+			case "org.eclipse.jgit":
+				return customizeModelFilesListAdd(
+					list,
+					pluginName,
+					".jar/",
+					"org/eclipse/jgit/attributes/AttributesNode.java");
+			case "org.eclipse.m2e.editor.xml":
+				return customizeModelFilesListAdd(
+					list,
+					pluginName,
+					".jar/",
+					"org/eclipse/m2e/editor/xml/internal/mojo/MojoParameter.java");
 			case "org.eclipse.m2e.maven.indexer":
 				return customizeModelFilesListRemoveIfStartsWith(list, pluginName, "/", "org");
 			case "org.eclipse.pde.ui.templates":
@@ -1148,6 +1168,12 @@ public class RegenerateProjectsMain {
 					pluginName,
 					".jar/",
 					"org/sat4j/pb/multiobjective/IMultiObjOptimizationProblem.java");
+			case "org.springsource.ide.eclipse.commons.livexp":
+				return customizeModelFilesListAdd(
+					list,
+					pluginName,
+					".jar/",
+					"org/springsource/ide/eclipse/commons/livexp/util/Parser.java");
 			case "pm.eclipse.editbox":
 				return customizeModelFilesListAdd(
 					customizeModelFilesListRemove(list, pluginName, ".jar/", "icons/editbox.gif", "Java_PaleBlue.eb"),
@@ -1461,7 +1487,12 @@ public class RegenerateProjectsMain {
 		if(unused.notEmpty()) {
 			System.out.println("\nUnused libraries paths:");
 			for(Path path : unusedLibraries.toArrayList().sort()) {
-				if(usedLibraries.contains(path.getName(0))) {
+				if(path.endsWith(".git")) {
+					continue;
+				}
+				if(usedLibraries.contains(path.getName(0)) &&
+				path.startsWith("orbit-sources") == false &&
+				path.startsWith("retired-apache") == false) {
 					System.out.println("(partial) " + path);
 				} else {
 					System.out.println("(fully)   " + path);
@@ -1743,12 +1774,25 @@ public class RegenerateProjectsMain {
 				Files.list(binaryInclusions).map(p -> pluginsFolder.resolve(binaryInclusions.relativize(p))).toList();
 			skipped.addAll(list);
 		}
-		IOStream<Path> stream = Files.list(pluginsFolder).filter(path -> filterExtraPluginsEntries(path, skipped));
-		IOStream<Pair<Path, Map<Path, byte[]>>> stream3 =
-			stream.map(RegenerateProjectsMain::readContents).filter(RegenerateProjectsMain::hasManifest);
+		IOStream<Path> stream =
+			Files.walk(pluginsFolder, 3).filter(p -> p.endsWith("plugins") && Files.isDirectory(p)).flatMap(Files::list);
+		IOStream<Path> stream2 = stream.filter(path -> filterExtraPluginsEntries(path, skipped));
+		IOStream<Pair<Path, Map<Path, byte[]>>> stream3 = stream2.map(p -> readContents(p));
 		IOStream<Plugin> stream4 = stream3.map(p -> new Plugin(p.lhs, p.rhs.toHashMap()));
-		HashMap<String, Plugin> map = stream4.toMultiMap(Plugin::name, l -> l.sort().get(-1), m -> m);
+		HashMap<String, Plugin> map = stream4.toMultiMap(Plugin::name, l -> combinePluginContents(l), m -> m);
 		return map.values().toArrayList().sort();
+	}
+	private static Plugin combinePluginContents(ArrayList<Plugin> plugins) throws IOException {
+		Plugin plugin2 = plugins.sort().get(-1);
+		if(plugin2.name().contains("sdk")) {
+			System.out.println("BREAK");
+		}
+		Path root = plugin2.root;
+		HashMap<Path, byte[]> map = HashMap.of();
+		for(Plugin plugin : plugins) {
+			map.putAll(plugin.contents);
+		}
+		return new Plugin(root, map);
 	}
 	static void duplicatePlugin(HashMap<String, Plugin> map, String name, String suffix) {
 		if(map.containsKey(name)) {
@@ -1766,9 +1810,6 @@ public class RegenerateProjectsMain {
 	}
 	private static String toBundleName(String symbolicName) {
 		return symbolicName.split(";")[0].trim();
-	}
-	private static boolean hasManifest(Pair<Path, Map<Path, byte[]>> pathAndContents) {
-		return pathAndContents.rhs.containsKey(MANIFEST_PATH);
 	}
 	private static Pair<Path, Map<Path, byte[]>> readContents(Path fileOrFolder) throws IOException {
 		boolean isFolder = Files.isDirectory(fileOrFolder);

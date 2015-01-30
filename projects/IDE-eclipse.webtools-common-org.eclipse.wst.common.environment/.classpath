@@ -5,6 +5,9 @@
 	     META-INF/MANIFEST.MF
 	     plugin.properties -->
 	<classpathentry excluding="src/|.*|.*/" including=".options|META-INF/*|about.html|plugin.properties" kind="src" output="bin/1/plugins/org.eclipse.wst.common.environment.jar" path="org.eclipse.wst.common.environment"/>
+	<!-- org.eclipse.webtools.common/org.eclipse.wst.common.environment/pom.properties
+	     org.eclipse.webtools.common/org.eclipse.wst.common.environment/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.wst.common.environment.jar/META-INF/maven" path="org.eclipse.wst.common.environment.jar/META-INF/maven/x-miss-x"/> -->
 	<!-- org/eclipse/wst/common/environment/Choice.java
 	     org/eclipse/wst/common/environment/EnvironmentException.java
 	     org/eclipse/wst/common/environment/EnvironmentService.java

@@ -60,7 +60,7 @@ public class Plugin implements Comparable<Plugin> {
 		this(path, new HashMap<>(), parseManifest(manifestBytes));
 	}
 	public Plugin(Path path, HashMap<Path, byte[]> contents) throws IOException {
-		this(path, contents, readManifest(contents));
+		this(path, contents, readManifest(path, contents));
 	}
 	public String name() {
 		return id;
@@ -148,7 +148,11 @@ public class Plugin implements Comparable<Plugin> {
 		}
 		return Map.of();
 	}
-	private static HashMap<String, String> readManifest(HashMap<Path, byte[]> contents) throws IOException {
-		return parseManifest(contents.get(Paths.get(JarFile.MANIFEST_NAME)));
+	private static HashMap<String, String> readManifest(Path path, HashMap<Path, byte[]> contents) throws IOException {
+		byte[] manifestBytes = contents.get(Paths.get(JarFile.MANIFEST_NAME));
+		if(manifestBytes != null) {
+			return parseManifest(manifestBytes);
+		}
+		return HashMap.of("Bundle-SymbolicName", path.getFileName().toString());
 	}
 }

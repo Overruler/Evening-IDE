@@ -126,6 +126,7 @@
 	<classpathentry kind="src" path="/IDE-eclipse.platform.runtime-org.eclipse.core.runtime"/>
 	<classpathentry kind="src" path="/IDE-eclipse.rt.equinox.bundles-org.eclipse.equinox.security"/>
 	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit"/>
+	<classpathentry kind="src" path="/IDE-eclipse.jgit-org.eclipse.jgit.java7"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.team.core"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>

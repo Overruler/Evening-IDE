@@ -7,8 +7,6 @@
 	     plugin.properties
 	     plugin.xml -->
 	<classpathentry excluding="src/|.*|.*/" including="META-INF/*|about.html|icons/obj16/*|icons/ovr32/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.mylyn.discovery.ui.jar" path="org.eclipse.mylyn.discovery.ui"/>
-	<!-- ui/util/messages.properties -->
-	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.mylyn.discovery.ui.jar/org/eclipse/mylyn/internal/discovery" path="org.eclipse.mylyn.discovery.ui.jar/org/eclipse/mylyn/internal/discovery/x-miss-x"/> -->
 	<!-- org/eclipse/mylyn/internal/discovery/ui/AbstractInstallJob.java
 	     org/eclipse/mylyn/internal/discovery/ui/commands/Messages.java
 	     org/eclipse/mylyn/internal/discovery/ui/commands/messages.properties

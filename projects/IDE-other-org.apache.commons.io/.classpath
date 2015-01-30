@@ -49,6 +49,7 @@
 	     org/apache/commons/io/input/BOMInputStream.java
 	     org/apache/commons/io/input/BoundedInputStream.java
 	     org/apache/commons/io/input/BrokenInputStream.java
+	     org/apache/commons/io/input/CharSequenceInputStream.java
 	     org/apache/commons/io/input/CharSequenceReader.java
 	     org/apache/commons/io/input/ClassLoaderObjectInputStream.java
 	     org/apache/commons/io/input/ClosedInputStream.java
@@ -60,6 +61,7 @@
 	     org/apache/commons/io/input/ProxyInputStream.java
 	     org/apache/commons/io/input/ProxyReader.java
 	     org/apache/commons/io/input/ReaderInputStream.java
+	     org/apache/commons/io/input/ReversedLinesFileReader.java
 	     org/apache/commons/io/input/SwappedDataInputStream.java
 	     org/apache/commons/io/input/TaggedInputStream.java
 	     org/apache/commons/io/input/Tailer.java

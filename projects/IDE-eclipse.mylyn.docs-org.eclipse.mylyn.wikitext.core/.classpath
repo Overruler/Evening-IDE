@@ -44,7 +44,6 @@
 	     org/eclipse/mylyn/internal/wikitext/core/util/css/Selector.java
 	     org/eclipse/mylyn/internal/wikitext/core/util/css/SparseCharSequence.java
 	     org/eclipse/mylyn/internal/wikitext/core/util/css/Stylesheet.java
-	     org/eclipse/mylyn/internal/wikitext/core/util/XML11Char.java
 	     org/eclipse/mylyn/internal/wikitext/core/validation/StandaloneMarkupValidator.java
 	     org/eclipse/mylyn/internal/wikitext/core/validation/ValidationRules.java
 	     org/eclipse/mylyn/wikitext/core/parser/Attributes.java

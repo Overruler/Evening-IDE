@@ -20,21 +20,10 @@
 	     help/EGit/Contributor_Guide/Website.html
 	     help/EGit/Git_For_Eclipse_Users/Git-For-Eclipse-Users.html
 	     help/EGit/Git_For_Eclipse_Users/Updating-This-Document.html
-	     help/EGit/New_and_Noteworthy/3.5/3.5.html
-	     help/EGit/New_and_Noteworthy/3.5/Bug-Fixes.html
-	     help/EGit/New_and_Noteworthy/3.5/Contributors.html
-	     help/EGit/New_and_Noteworthy/3.5/images/Egit-3.5-annotations-in-ruler.png
-	     help/EGit/New_and_Noteworthy/3.5/images/Egit-3.5-history-delete-tag.png
-	     help/EGit/New_and_Noteworthy/3.5/images/Egit-3.5-history-find-tag-branch.png
-	     help/EGit/New_and_Noteworthy/3.5/images/Egit-3.5-interactive-rebase-plan-menu.png
-	     help/EGit/New_and_Noteworthy/3.5/images/Egit-3.5-interactive-rebase.png
-	     help/EGit/New_and_Noteworthy/3.5/images/Egit-3.5-multi-cherry-pick.png
-	     help/EGit/New_and_Noteworthy/3.5/images/Egit-3.5-rebase-options.png
-	     help/EGit/New_and_Noteworthy/3.5/images/EGit-3.5-repository-submenu.png
-	     help/EGit/New_and_Noteworthy/3.5/images/EGit-3.5-stash-toolbar.png
-	     help/EGit/New_and_Noteworthy/3.5/images/EGit-3.5-stash-viewer.png
-	     help/EGit/New_and_Noteworthy/3.5/images/EGit-3.5-working-set-team-menu.png
-	     help/EGit/New_and_Noteworthy/3.5/Updating-This-Document.html
+	     help/EGit/New_and_Noteworthy/3.6/3.6.html
+	     help/EGit/New_and_Noteworthy/3.6/Bug-Fixes.html
+	     help/EGit/New_and_Noteworthy/3.6/Contributors.html
+	     help/EGit/New_and_Noteworthy/3.6/Updating-This-Document.html
 	     help/EGit/User_Guide/Concepts.html
 	     help/EGit/User_Guide/images/01-TextDecorations.png
 	     help/EGit/User_Guide/images/02-IconDecorations.png
@@ -252,10 +241,10 @@
 	     help/images/next.gif
 	     help/images/prev.gif
 	     help/images/topiclabel/git48.png
-	     help/JGit/New_and_Noteworthy/3.5/3.5.html
-	     help/JGit/New_and_Noteworthy/3.5/Bug-Fixes.html
-	     help/JGit/New_and_Noteworthy/3.5/Contributors.html
-	     help/JGit/New_and_Noteworthy/3.5/Updating-This-Document.html
+	     help/JGit/New_and_Noteworthy/3.6/3.6.html
+	     help/JGit/New_and_Noteworthy/3.6/Bug-Fixes.html
+	     help/JGit/New_and_Noteworthy/3.6/Contributors.html
+	     help/JGit/New_and_Noteworthy/3.6/Updating-This-Document.html
 	     help/JGit/User_Guide/Advanced-Topics.html
 	     help/JGit/User_Guide/Concepts.html
 	     help/JGit/User_Guide/images/Jgit-glog.png
@@ -280,7 +269,7 @@
 	     META-INF/MANIFEST.MF
 	     plugin.properties
 	     plugin.xml -->
-	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|cheatsheets/*|contexts.xml|help/*|help/EGit/Contributor_Guide/*|help/EGit/Contributor_Guide/images/*|help/EGit/Git_For_Eclipse_Users/*|help/EGit/New_and_Noteworthy/3.5/*|help/EGit/New_and_Noteworthy/3.5/images/*|help/EGit/User_Guide/*|help/EGit/User_Guide/images/*|help/JGit/New_and_Noteworthy/3.5/*|help/JGit/User_Guide/*|help/JGit/User_Guide/images/*|help/images/*|help/images/topiclabel/*|images/*|images/topiclabel/*|intro/*|intro/css/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.egit.doc.jar" path="org.eclipse.egit.doc"/>
+	<classpathentry excluding=".*|.*/" including="META-INF/*|about.html|cheatsheets/*|contexts.xml|help/*|help/EGit/Contributor_Guide/*|help/EGit/Contributor_Guide/images/*|help/EGit/Git_For_Eclipse_Users/*|help/EGit/New_and_Noteworthy/3.6/*|help/EGit/User_Guide/*|help/EGit/User_Guide/images/*|help/JGit/New_and_Noteworthy/3.6/*|help/JGit/User_Guide/*|help/JGit/User_Guide/images/*|help/images/*|help/images/topiclabel/*|images/*|images/topiclabel/*|intro/*|intro/css/*|plugin.properties|plugin.xml" kind="src" output="bin/1/plugins/org.eclipse.egit.doc.jar" path="org.eclipse.egit.doc"/>
 	<!-- META-INF/maven/org.eclipse.egit/org.eclipse.egit.doc/pom.properties
 	     META-INF/maven/org.eclipse.egit/org.eclipse.egit.doc/pom.xml -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.egit.doc.jar" path="res"/>

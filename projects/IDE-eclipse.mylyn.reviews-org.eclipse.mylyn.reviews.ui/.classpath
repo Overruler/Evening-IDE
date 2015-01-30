@@ -26,6 +26,7 @@
 	     org/eclipse/mylyn/internal/reviews/ui/actions/AddLineCommentToFileAction.java
 	     org/eclipse/mylyn/internal/reviews/ui/actions/Messages.java
 	     org/eclipse/mylyn/internal/reviews/ui/actions/messages.properties
+	     org/eclipse/mylyn/internal/reviews/ui/ActiveReviewManager.java
 	     org/eclipse/mylyn/internal/reviews/ui/annotations/CommentAnnotation.java
 	     org/eclipse/mylyn/internal/reviews/ui/annotations/CommentAnnotationHover.java
 	     org/eclipse/mylyn/internal/reviews/ui/annotations/CommentAnnotationHoverInput.java
@@ -58,6 +59,7 @@
 	     org/eclipse/mylyn/internal/reviews/ui/editors/parts/messages.properties
 	     org/eclipse/mylyn/internal/reviews/ui/editors/ruler/CommentAnnotationRulerColumn.java
 	     org/eclipse/mylyn/internal/reviews/ui/editors/ruler/CommentAnnotationRulerHover.java
+	     org/eclipse/mylyn/internal/reviews/ui/IActiveReviewListener.java
 	     org/eclipse/mylyn/internal/reviews/ui/IReviewAction.java
 	     org/eclipse/mylyn/internal/reviews/ui/IReviewActionListener.java
 	     org/eclipse/mylyn/internal/reviews/ui/Messages.java
@@ -97,6 +99,7 @@
 	     org/eclipse/mylyn/reviews/ui/spi/remote/RemoteUiService.java -->
 	<classpathentry kind="src" output="bin/1/plugins/org.eclipse.mylyn.reviews.ui.jar" path="org.eclipse.mylyn.reviews.ui/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/IDE-other-com.google.guava"/>
 	<classpathentry kind="src" path="/IDE-other-org.apache.commons.io"/>
 	<classpathentry kind="src" path="/IDE-other-org.apache.commons.lang"/>
 	<classpathentry kind="src" path="/IDE-eclipse.platform.team-org.eclipse.compare"/>

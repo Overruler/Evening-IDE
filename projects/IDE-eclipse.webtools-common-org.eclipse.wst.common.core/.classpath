@@ -8,6 +8,9 @@
 	     schema/uiContextSensitiveClass.exsd
 	     schema/uiTester.exsd -->
 	<classpathentry excluding="src-search/|.*|.*/" including="META-INF/*|about.html|plugin.properties|plugin.xml|schema/*" kind="src" output="bin/1/plugins/org.eclipse.wst.common.core.jar" path="org.eclipse.wst.common.core"/>
+	<!-- org.eclipse.webtools.common/org.eclipse.wst.common.core/pom.properties
+	     org.eclipse.webtools.common/org.eclipse.wst.common.core/pom.xml -->
+	<!-- <classpathentry kind="src" output="bin/0/plugins/org.eclipse.wst.common.core.jar/META-INF/maven" path="org.eclipse.wst.common.core.jar/META-INF/maven/x-miss-x"/> -->
 	<!-- org/eclipse/wst/common/core/search/document/ComponentDeclarationEntry.java
 	     org/eclipse/wst/common/core/search/document/ComponentReferenceEntry.java
 	     org/eclipse/wst/common/core/search/document/Entry.java
