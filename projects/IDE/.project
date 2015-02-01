@@ -66,6 +66,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-jsr305</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-compile-logback</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-logback</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-compile-lucene-2.9.4</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-compile-lucene-2.9.4</locationURI>
@@ -246,11 +251,6 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.emf-org.eclipse.emf.edit</locationURI>
 		</link>
 		<link>
-			<name>links/IDE-eclipse.epp-org.eclipse.epp.package.committers</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.epp-org.eclipse.epp.package.committers</locationURI>
-		</link>
-		<link>
 			<name>links/IDE-eclipse.gef-org.eclipse.draw2d</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.gef-org.eclipse.draw2d</locationURI>
@@ -411,6 +411,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.jgit-org.eclipse.jgit.archive</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-eclipse.jgit-org.eclipse.jgit.java7</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.jgit-org.eclipse.jgit.java7</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-eclipse.jgit-org.eclipse.jgit.pgm</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.jgit-org.eclipse.jgit.pgm</locationURI>
@@ -469,6 +474,16 @@
 			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.lifecyclemapping.defaults</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.lifecyclemapping.defaults</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.logback.appender</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.logback.appender</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.logback.configuration</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.m2e.core-org.eclipse.m2e.logback.configuration</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-eclipse.m2e.core-org.eclipse.m2e.maven.indexer</name>
@@ -1871,6 +1886,21 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-eclipse.xsd-org.eclipse.xsd</locationURI>
 		</link>
 		<link>
+			<name>links/IDE-other-ch.qos.logback.classic</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-ch.qos.logback.classic</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-ch.qos.logback.core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-ch.qos.logback.core</locationURI>
+		</link>
+		<link>
+			<name>links/IDE-other-ch.qos.logback.slf4j</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-ch.qos.logback.slf4j</locationURI>
+		</link>
+		<link>
 			<name>links/IDE-other-com.google.gerrit.common</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.google.gerrit.common</locationURI>
@@ -1929,11 +1959,6 @@
 			<name>links/IDE-other-com.sun.el</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-com.sun.el</locationURI>
-		</link>
-		<link>
-			<name>links/IDE-other-it.unibz.instasearch</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-it.unibz.instasearch</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-other-javaewah</name>
@@ -2081,11 +2106,6 @@
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.log4j</locationURI>
 		</link>
 		<link>
-			<name>links/IDE-other-org.apache.lucene</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene</locationURI>
-		</link>
-		<link>
 			<name>links/IDE-other-org.apache.lucene.analysis</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.analysis</locationURI>
@@ -2094,36 +2114,6 @@
 			<name>links/IDE-other-org.apache.lucene.core</name>
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.core</locationURI>
-		</link>
-		<link>
-			<name>links/IDE-other-org.apache.lucene.highlighter</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.highlighter</locationURI>
-		</link>
-		<link>
-			<name>links/IDE-other-org.apache.lucene.memory</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.memory</locationURI>
-		</link>
-		<link>
-			<name>links/IDE-other-org.apache.lucene.misc</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.misc</locationURI>
-		</link>
-		<link>
-			<name>links/IDE-other-org.apache.lucene.queries</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.queries</locationURI>
-		</link>
-		<link>
-			<name>links/IDE-other-org.apache.lucene.snowball</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.snowball</locationURI>
-		</link>
-		<link>
-			<name>links/IDE-other-org.apache.lucene.spellchecker</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/IDE-other-org.apache.lucene.spellchecker</locationURI>
 		</link>
 		<link>
 			<name>links/IDE-other-org.apache.ws.commons.util</name>
