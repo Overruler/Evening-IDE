@@ -744,7 +744,7 @@ public class MainBuildIDE {
 	}
 	private static Path toCopyOperationTarget(Path path) {
 		Path rhs;
-		if(path.startsWith("projects/IDE/extras")) {
+		if(path.startsWith("projects/IDE-all-extras/extras")) {
 			Path subpath = path.subpath(3, path.getNameCount());
 			rhs = fromZipPath(subpath);
 		} else if(path.startsWith("libraries/orbit-sources/com.google.gwt.servlet")) {
@@ -791,6 +791,7 @@ public class MainBuildIDE {
 		folders.add(root.resolve("libraries/eclipse.jdt.core/org.eclipse.jdt.annotation_v1/src"));
 		folders.add(root.resolve("libraries/eclipse.jdt.core/org.eclipse.jdt.annotation/src"));
 		folders.add(root.resolve("libraries/orbit-sources/com.google.gwt.servlet/com"));
+		folders.add(root.resolve("projects/IDE-all-extras/extras"));
 		ArrayList<Path> all = new ArrayList<>(folders.size() * 100);
 		for(Path folder : folders) {
 			all.addAll(Files.walk(folder).filter(Files::isRegularFile).toList());
@@ -799,7 +800,7 @@ public class MainBuildIDE {
 	}
 	private static boolean isWatchedFile(Path path) {
 		if(path.getNameCount() < 5) {
-			if(path.getNameCount() == 4 && path.startsWith("projects/IDE/extras")) {
+			if(path.getNameCount() == 4 && path.startsWith("projects/IDE-all-extras/extras")) {
 				return path.getFileName().toString().equals(".instructions.txt") == false;
 			}
 			return false;
@@ -825,7 +826,7 @@ public class MainBuildIDE {
 			}
 		}
 		if(path.startsWith("projects")) {
-			if(path.startsWith("projects/IDE/extras")) {
+			if(path.startsWith("projects/IDE-all-extras/extras")) {
 				return path.getName(3).toString().startsWith(".") == false;
 			}
 			return path.getName(2).toString().equals("bin");
